@@ -1,0 +1,37 @@
+name: Highlord Tirion Fordring
+
+origin: wrathgate-021
+
+layout: Standard
+
+category:
+  - Hero
+
+trait:
+
+cost: '10'
+
+damage: 2
+
+health: 37
+
+combat: Holy
+
+class:
+  - Druid
+  - Paladin
+  - Priest
+  - Shaman
+
+type: Master
+
+rule:
+  - type: Ability
+    position: Front
+    text: ", , , or Hero Required Argent Crusade Reputation Unique allies you own everywhere can't be targeted by opponents. On your turn: → Put target Unique ally from your graveyard into play."
+
+regulation:
+
+errata: []
+
+temp: Human Paladin

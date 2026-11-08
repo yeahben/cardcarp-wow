@@ -1,0 +1,28 @@
+name: Cho'gall
+
+origin: twilight-of-the-dragons-174
+
+layout: Standard
+
+category:
+  - Ally
+
+trait:
+
+cost: '9'
+
+damage: 6
+
+health: 8
+
+combat: Shadow
+
+rule:
+  - type: Ability
+    text: At the start of your turn, destroy an ability, ally, or equipment you control. At the end of your turn, destroy target opposing ability, ally, or equipment.
+
+regulation:
+
+errata: []
+
+temp: Ogre Magi Warlock

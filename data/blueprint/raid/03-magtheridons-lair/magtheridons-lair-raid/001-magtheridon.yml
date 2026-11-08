@@ -1,0 +1,26 @@
+name: Magtheridon
+
+origin: magtheridons-lair-raid-001
+
+layout: Standard
+
+category:
+  - Hero
+
+trait:
+
+health: 100
+
+rule:
+  - type: Ability
+    position: Front
+    text: "Untargetable Magtheridon can't attack or be dealt damage. When the last Channeler leaves your party or you place your fifth resource, flip Magtheridon."
+  - type: Ability
+    position: Reverse
+    text: "When Magtheridon flips to this side, put five Cubes into play, gain a Blood, and say, \"I am UNLEASHED!\" Put Magtheridon's Lair into play on the Cooldown side and swap this card with Unleashed Magtheridon."
+
+regulation:
+
+errata: []
+
+temp: Pit Lord

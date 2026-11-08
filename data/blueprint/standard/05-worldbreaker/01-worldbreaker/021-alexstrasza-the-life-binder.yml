@@ -1,0 +1,31 @@
+name: Alexstrasza the Life-Binder
+
+origin: worldbreaker-021
+
+layout: Standard
+
+category:
+  - Hero
+
+trait:
+
+cost: '25'
+
+damage: 0
+
+health: 40
+
+combat: Fire
+
+type: Master
+
+rule:
+  - type: Ability
+    position: Front
+    text: "You pay X less to play Alexstrasza, where X is the combined ATK of allies you control. Assault 5 Allies you control can't be destroyed."
+
+regulation:
+
+errata: []
+
+temp: Red Dragonkin Aspect

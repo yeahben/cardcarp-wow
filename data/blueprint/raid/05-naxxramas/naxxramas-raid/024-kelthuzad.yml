@@ -1,0 +1,32 @@
+name: Kel'Thuzad
+
+origin: naxxramas-raid-024
+
+layout: Standard
+
+category:
+  - Hero
+
+trait:
+
+damage: 3
+
+health: 33
+
+combat: Frost
+
+type: Boss
+
+rule:
+  - type: Ability
+    position: Front
+    text: "When Kel'Thuzad loses Immune, gain control of up to one target raiding ally. Then, search a raiding deck, graveyard, hand, and removed from game zone for up to one ally each and put them into play. At the end of your turn, flip Kel'Thuzad."
+  - type: Ability
+    position: Reverse
+    text: "At the end of each raider's turn, Kel'Thuzad deals 30 frost damage to his hero. Any raider: Exhaust a card you control → This turn, prevent all damage that would be dealt to your hero this way."
+
+regulation:
+
+errata: []
+
+temp: Lich
