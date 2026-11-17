@@ -1,0 +1,30 @@
+name: Flame of Azzinoth
+
+origin: misc-tokens-019
+
+layout: Standard
+
+category:
+  - Token
+
+subtype:
+  - Ally
+  - Demon
+
+trait:
+
+damage: 3
+
+health: 3
+
+combat: Fire
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Protector
+
+regulation:
+
+errata: []

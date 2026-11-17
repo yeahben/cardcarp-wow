@@ -7,19 +7,30 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Traitor
+
 trait:
+  - Wretched
 
 health: 25
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Mage
+
+profession:
+  - Enchanting
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Vor'na → At the end of this turn, the player whose turn it is destroys each ally in his party that neither attacked nor entered play this turn. Wretched
+    text: "{3}, Flip Vor'na → At the end of this turn, the player whose turn it is destroys each ally in his party that neither attacked nor entered play this turn."
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

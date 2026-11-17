@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: Warp Your hero deals 3 shadow damage to target ally. If fatal damage is dealt this way, its controller chooses and discards a card.
+    text: Warp (As this ability is revealed from your deck, you may remove it from the game. If you do, you may play it immediately without paying its cost.)
+  - type: Ability
+    text: Your hero deals 3 shadow damage to target ally. If fatal damage is dealt this way, its controller chooses and discards a card.
 
 regulation:
 
 errata: []
-
-temp: Shadow

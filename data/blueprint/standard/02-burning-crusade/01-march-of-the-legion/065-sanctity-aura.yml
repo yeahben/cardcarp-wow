@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '4'
@@ -14,12 +17,23 @@ cost: '4'
 class:
   - Paladin
 
+talent:
+  - Retribution
+
+limit:
+  - name: Aura
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Retribution Hero Required Ongoing : allies in your party have +2 ATK while attacking. If your hero would deal holy ( ) damage, it deals that much +2 instead.'
+    text: Retribution Hero Required
+  - type: Ability
+    text: 'Ongoing: {holy} allies in your party have +2 ATK while attacking.'
+  - type: Ability
+    text: If your hero would deal holy ({holy}) damage, it deals that much +2 instead.
 
 regulation:
 
 errata: []
-
-temp: Retribution Talent

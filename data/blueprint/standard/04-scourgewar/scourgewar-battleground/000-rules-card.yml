@@ -8,7 +8,13 @@ category:
 
 trait:
 
-rule: []
+rule:
+  - type: Ability
+    text: 'STARTING A ROUND: Choose a player to be the aggressor. He puts a Demolisher into play. His opponent puts the Blue and Green Gates and a Cannon into play. Add time counters to this card until there are ten. The aggressor goes first.'
+  - type: Ability
+    text: 'DURING A ROUND: Each Strand card has a strength value in its lower right corner. Heroes and allies have "On your turn: Exhaust this card → Put a rubble counter on a Strand card." When a Strand card gains a counter, destroy it if it has rubble counters greater than or equal to its strength.'
+  - type: Ability
+    text: "ENDING A ROUND: At the end of each of the aggressor's turns, remove a time counter. If none remain, end the round. After the first round, the other player becomes the aggressor. After the second round, the player with the most victory points wins."
 
 regulation:
 

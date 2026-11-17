@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: Echo Target opponent removes the top three cards of his deck from the game.
+    text: Echo (When you play this ability, if you control two or more allies that share a {horde} or {alliance} race, copy this ability. You may choose new targets for the copy.)
+  - type: Ability
+    text: Target opponent removes the top three cards of his deck from the game.
 
 regulation:
 
 errata: []
-
-temp: Shadow

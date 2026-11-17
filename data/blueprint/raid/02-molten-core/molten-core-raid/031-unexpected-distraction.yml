@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Molten Core
+
 trait:
 
 cost: '1'
 
-instant: Prevent all damage that would be dealt to target hero or ally this turn.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Prevent all damage that would be dealt to target hero or ally this turn.
 
 regulation:
 
 errata: []
-
-temp: Molten Core

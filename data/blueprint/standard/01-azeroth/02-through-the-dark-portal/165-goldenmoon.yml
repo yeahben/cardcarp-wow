@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive You can have an additional Pet while your Pets have different names.
+    text: Elusive
+  - type: Ability
+    text: You can have an additional Pet while your Pets have different names.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Rogue

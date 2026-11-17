@@ -5,8 +5,22 @@ origin: heroes-of-azeroth-tokens-001
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
+  - Mechanical
+  - Yeti
 
 trait:
+
+damage: 1
+
+health: 1
+
+combat: Melee
+
+instant: false
 
 rule: []
 

@@ -14,12 +14,15 @@ cost: '5'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : → If target friendly ally would be dealt damage this turn, it's dealt to your hero instead."
+    text: "Ongoing: {activate} → If target friendly ally would be dealt damage this turn, it's dealt to your hero instead."
 
 regulation:
 
 errata: []
-
-temp: Fury

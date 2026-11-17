@@ -19,12 +19,21 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Human Hero Required Diplomacy: allies Rhys has +1 ATK / +1 health for each different race among allies in your party other than Human. (Draenei, Dwarf, Gnome, and Night Elf.)'
+    text: Human Hero Required
+  - type: Ability
+    text: 'Diplomacy: {alliance} allies'
+  - type: Ability
+    text: Rhys has +1 ATK / +1 health for each different {alliance} race among allies in your party other than Human. (Draenei, Dwarf, Gnome, and Night Elf)
 
 regulation:
 
 errata: []
-
-temp: Human Priest

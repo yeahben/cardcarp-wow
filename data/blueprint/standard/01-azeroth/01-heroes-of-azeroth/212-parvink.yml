@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When this ally enters play, draw a card.
+    text: Protector
+  - type: Ability
+    text: When Parvink enters play, draw a card.
 
 regulation:
 
 errata: []
-
-temp: Gnome Warrior

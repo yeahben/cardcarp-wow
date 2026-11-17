@@ -7,19 +7,30 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Traitor
+
 trait:
+  - Druids of the Fang
 
 health: 27
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+profession:
+  - Skinning
+  - Leatherworking
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Mythen → Mythen deals 1 nature damage to target hero for each quest its controller has. Druids of the Fang
+    text: '{2}, Flip Mythen → Mythen deals 1 nature damage to target hero for each quest its controller has.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

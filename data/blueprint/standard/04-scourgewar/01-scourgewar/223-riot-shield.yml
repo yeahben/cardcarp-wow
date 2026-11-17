@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Shield
+
 trait:
 
 cost: '3'
+
+defense: 1
 
 class:
   - Paladin
   - Warrior
 
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When your hero is dealt combat damage, you may add a +1 counter.
+    text: When your hero is dealt combat damage, you may add a +1 {def} counter.
 
 regulation:
 
 errata: []
-
-temp: Armor Shield

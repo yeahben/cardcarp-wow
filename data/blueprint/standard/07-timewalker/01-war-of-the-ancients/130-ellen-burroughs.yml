@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, opposing allies and lose Elusive and Spellshield this turn.
+    text: When this ally enters play, opposing allies lose and can't have Elusive and Spellshield this turn.
 
 regulation:
 
 errata: []
-
-temp: Undead Mage

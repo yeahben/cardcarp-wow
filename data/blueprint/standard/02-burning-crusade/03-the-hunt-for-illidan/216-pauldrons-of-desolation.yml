@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '4'
+
+defense: 2
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Shoulder
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you strike with a weapon, target ally in your party has Long-Range this turn.
+    text: When you strike with a weapon, target ally in your party has long-range this turn.
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

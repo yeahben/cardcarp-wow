@@ -14,6 +14,11 @@ cost: '1'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
     text: Target Dagger you control has +4 ATK and Thrown this turn. (When you strike with that weapon, it has Long-Range this combat. At the end of this turn, put that weapon into its owner's hand.)
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Assassination

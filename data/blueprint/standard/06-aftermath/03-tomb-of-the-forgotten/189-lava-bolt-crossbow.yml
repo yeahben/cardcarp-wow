@@ -7,20 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Crossbow
+
 trait:
 
 cost: '5'
+
+damage: 2
+
+strike: 2
+
+combat: Ranged
 
 class:
   - Hunter
   - Rogue
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Long-Range
+    text: Long-Range (When you strike with this weapon on your turn, defenders deal no combat damage to the attacker.)
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Crossbow

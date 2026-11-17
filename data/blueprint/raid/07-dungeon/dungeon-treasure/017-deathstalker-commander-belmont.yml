@@ -19,12 +19,21 @@ combat: Melee
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Rogue
+
+limit:
+  - name: Belmont
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'On your turn: → Allies you control with cost 4 or less have +2 ATK this turn.'
+    text: 'On your turn: {activate} → Allies you control with cost 4 or less have +2 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Undead Rogue

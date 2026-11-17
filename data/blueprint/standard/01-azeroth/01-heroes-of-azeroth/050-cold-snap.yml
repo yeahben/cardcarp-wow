@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: 2+X
@@ -14,12 +17,19 @@ cost: 2+X
 class:
   - Mage
 
-instant: Frost Hero Required Remove Cold Snap from the game. Put up to X Frost ability cards with different names from your graveyard into your hand.
+talent:
+  - Frost
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Frost Hero Required
+  - type: Ability
+    text: Remove Cold Snap from the game.
+  - type: Ability
+    text: Put up to X Frost ability cards with different names from your graveyard into your hand.
 
 regulation:
 
 errata: []
-
-temp: Frost Talent

@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Black
+  - Dragonkin
+  - Consort
+
 trait:
 
 cost: '6'
@@ -17,12 +22,18 @@ health: 3
 
 combat: Fire
 
+limit:
+  - name: Sinestra
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ferocity On your turn: Destroy another non-token ability, ally, or equipment you control → Put two 1 / 1 Twilight Dragonkin ally tokens into play with Ferocity .'
+    text: Ferocity
+  - type: Ability
+    text: 'On your turn: Destroy another non-token ability, ally, or equipment you control → Put two 1 {shadow} / 1 {health} Twilight Dragonkin ally tokens into play with Ferocity.'
 
 regulation:
 
 errata: []
-
-temp: Black Dragonkin Consort

@@ -7,22 +7,39 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Staff
+
 trait:
 
 cost: '4'
 
+damage: 1
+
+strike: 5
+
+combat: Shadow
+
 class:
   - Druid
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: At the start of your turn, you may put a 1 / 1 Cadaver ally token into play with Ferocity and Protector . At the end of your turn, for each Cadaver you control, destroy it unless you pay 1 .
+    text: At the start of your turn, you may put a 1 {melee} / 1 {health} Cadaver ally token into play with Ferocity and Protector.
+  - type: Ability
+    text: At the end of your turn, for each Cadaver you control, destroy it unless you pay {1}.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Staff

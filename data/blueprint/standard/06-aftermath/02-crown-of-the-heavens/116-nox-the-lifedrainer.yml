@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: This ally has +1 / +1 for each damage on opposing heroes.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Goblin Warlock

@@ -19,12 +19,21 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Orc Hero Required Ferocity 2 → Warmaster Hork has +1 ATK this turn.
+    text: Orc Hero Required
+  - type: Ability
+    text: Ferocity
+  - type: Ability
+    text: '{2} → Warmaster Hork has +1 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

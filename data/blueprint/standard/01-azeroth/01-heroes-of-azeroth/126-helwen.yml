@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Succubus
+  - Demon
+
 trait:
 
 cost: '4'
@@ -20,12 +24,18 @@ combat: Shadow
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: You may choose not to ready Helwen during your ready step. → While Helwen remains exhausted, you control target ally.
+    text: You may choose not to ready Helwen during your ready step.
+  - type: Ability
+    text: '{activate} → While Helwen remains exhausted, you control target ally.'
 
 regulation:
 
 errata: []
-
-temp: Succubus Demon

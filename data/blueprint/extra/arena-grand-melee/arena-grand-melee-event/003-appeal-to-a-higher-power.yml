@@ -9,6 +9,8 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
     text: Ask someone not playing in this game to choose which player he thinks is winning. Each player not chosen may draw a card.
@@ -16,5 +18,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

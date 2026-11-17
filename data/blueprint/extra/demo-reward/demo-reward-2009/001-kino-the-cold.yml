@@ -19,12 +19,19 @@ combat: Frost
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Hardiness
+    text: Protector
+  - type: Ability
+    text: Hardiness (If this ally would be dealt damage, prevent 1 of it.)
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

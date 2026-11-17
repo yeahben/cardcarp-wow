@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : 2 , Destroy Invocation → This turn, your resources have " → Draw a card."'
+    text: 'Ongoing: {2}, Destroy Invocation → This turn, your resources have "{activate} → Draw a card."'
 
 regulation:
 
 errata: []
-
-temp: Arcane

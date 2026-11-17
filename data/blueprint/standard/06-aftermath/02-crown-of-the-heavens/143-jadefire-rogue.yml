@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Satyr
+  - Demon
+
 trait:
 
 cost: '4'
@@ -17,14 +21,17 @@ health: 5
 
 combat: Shadow
 
+class:
+  - Rogue
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: While an opposing hero has 15 or more damage on it, opposing allies can't protect and lose and can't have Elusive .
+    text: While an opposing hero has 15 or more damage on it, opposing allies can't protect and lose and can't have Elusive.
 
 regulation:
 
 errata: []
-
-temp: Satyr Demon Rogue

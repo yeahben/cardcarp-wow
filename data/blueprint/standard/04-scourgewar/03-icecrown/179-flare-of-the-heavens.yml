@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
@@ -15,12 +18,18 @@ class:
   - Hunter
   - Mage
 
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Hero : At the start of your turn, you may look at the top card of an opponent's deck. You may put it into his graveyard. Hero : At the start of your turn, you may look at the top card of your deck. You may put it into your graveyard."
+    text: "{hunter} Hero: At the start of your turn, you may look at the top card of an opponent's deck. You may put it into his graveyard."
+  - type: Ability
+    text: '{mage} Hero: At the start of your turn, you may look at the top card of your deck. You may put it into your graveyard.'
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

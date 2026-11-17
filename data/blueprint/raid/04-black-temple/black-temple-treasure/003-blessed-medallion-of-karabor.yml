@@ -7,20 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '8'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
-  - Paladin
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Neck
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -29,5 +38,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Item Neck

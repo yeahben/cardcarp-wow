@@ -5,8 +5,27 @@ origin: heroes-of-azeroth-tokens-002
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
 
 trait:
+
+damage: 1
+
+health: 1
+
+combat: Melee
+
+faction: Alliance
+
+race: Dwarf
+
+class:
+  - Warrior
+
+instant: false
 
 rule: []
 

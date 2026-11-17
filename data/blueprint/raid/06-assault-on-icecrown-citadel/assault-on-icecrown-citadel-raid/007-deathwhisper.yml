@@ -7,16 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Bow
+
 trait:
 
 cost: '5'
 
+damage: 3
+
+strike: 0
+
+combat: Ranged
+
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Long-Range Heartstrike : If Sylvanas would deal damage with this weapon to a damaged Scourge, she deals double that much instead.'
+    text: Long-Range (When you strike with this weapon on your turn, defenders deal no combat damage to the attacker.)
+  - type: Ability
+    text: 'Heartstrike: If Sylvanas would deal damage with this weapon to a damaged Scourge, she deals double that much instead.'
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Bow

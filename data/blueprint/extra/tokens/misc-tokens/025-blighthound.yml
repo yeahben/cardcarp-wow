@@ -5,10 +5,25 @@ origin: misc-tokens-025
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
+  - Blighthound
 
 trait:
 
-rule: []
+damage: 2
+
+health: 2
+
+combat: Melee
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Protector
 
 regulation:
 

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Peon
+
 trait:
 
 cost: '1'
@@ -19,6 +22,10 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, you may turn a face up resource you control face down. If you do, target ally has +2 ATK this turn.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Orc Peon

@@ -11,12 +11,12 @@ trait:
 
 cost: '4'
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : When a Druid ally enters play under your control or a friendly player's control, target player draws a card."
+    text: "Ongoing: When a Druid ally enters play under your control or a friendly player's control, target player draws a card."
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Satyr
+  - Demon
+
 trait:
 
 cost: '3'
@@ -17,14 +21,17 @@ health: 4
 
 combat: Shadow
 
+class:
+  - Warlock
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Opposing Night Elf allies lose and can't have Stealth and have Conspicuous .
+    text: Opposing Night Elf allies lose and can't have Stealth and have Conspicuous. (Opposing heroes and allies can protect against them.)
 
 regulation:
 
 errata: []
-
-temp: Satyr Demon Warlock

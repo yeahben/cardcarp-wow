@@ -1,4 +1,4 @@
-name: Sen'Jin
+name: Sen'jin
 
 origin: timewalkers-018
 
@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 26
+
+faction: Horde
+
+race: Troll
+
+class:
+  - Priest
+
+rule:
+  - type: Ability
+    position: Front
+    text: Sen'jin's Ward
+  - type: Ability
+    position: Front
+    text: "{basic} {3}, Flip Sen'jin → Prevent the next 2 damage that would be dealt to target ally you control this turn."
+  - type: Ability
+    position: Reverse
+    text: Sen'jin's Mojo
+  - type: Ability
+    position: Reverse
+    text: "Once per game: {basic} {5} → Sen'jin heals 6 damage from each friendly hero and ally."
 
 regulation:
 

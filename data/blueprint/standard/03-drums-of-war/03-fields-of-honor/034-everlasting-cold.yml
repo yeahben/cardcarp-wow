@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Mage
 
+talent:
+  - Frost
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target hero or ally. Ongoing : At the start of your turn, your hero deals 1 frost damage to attached character, or 2 if that character didn't attack on its controller's last turn."
+    text: Attach to target hero or ally.
+  - type: Ability
+    text: "Ongoing: At the start of your turn, your hero deals 1 frost damage to attached character, or 2 if that character didn't attack on its controller's last turn."
 
 regulation:
 
 errata: []
-
-temp: Frost

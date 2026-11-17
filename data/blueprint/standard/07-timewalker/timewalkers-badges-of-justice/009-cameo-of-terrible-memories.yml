@@ -7,22 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '6'
 
 class:
   - Druid
-  - Shaman
   - Hunter
   - Rogue
+  - Shaman
+
+limit:
+  - name: Neck
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: At the end of each player's turn, he discards his hand and draws seven cards. If a player would draw from an empty deck, he shuffles his graveyard into his deck, then draws a card instead.
+    text: At the end of each player's turn, he discards his hand and draws seven cards.
+  - type: Ability
+    text: If a player would draw a card from an empty deck, he shuffles his graveyard into his deck, then draws a card instead.
 
 regulation:
 
 errata: []
-
-temp: Item Neck

@@ -19,12 +19,23 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Priest
+
+limit:
+  - name: Anduin
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Friendly Humans can protect this ally. Other friendly allies have +1 / +1 for each different card type you control.
+    text: Friendly Humans can protect this ally.
+  - type: Ability
+    text: Other friendly allies have +1 / +1 for each different card type you control.
 
 regulation:
 
 errata: []
-
-temp: Human Priest

@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Rogue
 
-instant: Interrupt target instant.
+talent:
+  - Subtlety
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Interrupt target instant.
 
 regulation:
 
 errata: []
-
-temp: Subtlety

@@ -13,16 +13,19 @@ health: 25
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Mage
+
 rule:
   - type: Ability
     position: Front
-    text: 4 → Flip Jinxy
+    text: '{4} → Flip Jinxy'
   - type: Ability
     position: Reverse
-    text: At the start of your turn, Jinxy deals 1 arcane damage to target hero for each ally you control.
+    text: At the start of your turn, Jinxy deals 1 arcane damage to target hero for each {arcane} ally you control.
 
 regulation:
 
 errata: []
-
-temp: Goblin Mage

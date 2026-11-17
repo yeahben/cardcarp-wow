@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '7'
@@ -14,12 +17,19 @@ cost: '7'
 class:
   - Warlock
 
+talent:
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
-    text: Destruction Hero Required As an additional cost to play, choose "ability," "ally," or "equipment" and destroy a card you control of that kind. Destroy all opposing cards of that kind.
+    text: Destruction Hero Required
+  - type: Ability
+    text: As an additional cost to play, choose "ability," "ally," or "equipment" and destroy a card you control of that kind.
+  - type: Ability
+    text: Destroy all opposing cards of that kind.
 
 regulation:
 
 errata: []
-
-temp: Destruction Talent

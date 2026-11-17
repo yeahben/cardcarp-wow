@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Infinite
+  - Dragonkin
+
 trait:
 
 damage: 1
@@ -15,14 +19,18 @@ health: 12
 
 combat: Melee
 
-type: Boss
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
-    text: "Boss When Epoch Hunter enters play, the Caverns hero has +3 ATK this turn. Caverns Hero 2+ : Each Raid ability attached to a Raiding hero triggers an additional time at the start of the Caverns hero's turn."
+    text: Boss (The Caverns hero can't be attacked, and when this ally is dealt fatal damage, each Raider may draw a card.)
+  - type: Ability
+    text: When Epoch Hunter enters play, the Caverns hero has +3 ATK this turn.
+  - type: Ability
+    text: "Caverns Hero 2+: Each Raid ability attached to a Raiding hero triggers an additional time at the start of the Caverns hero's turn."
 
 regulation:
 
 errata: []
-
-temp: Infinite Dragonkin

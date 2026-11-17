@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Attachment
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target weapon. Ongoing : Attached weapon has +ATK equal to the highest ATK among allies you control.'
+    text: Attach to target weapon.
+  - type: Ability
+    text: 'Ongoing: Attached weapon has +ATK equal to the highest ATK among allies you control.'
 
 regulation:
 
 errata: []
-
-temp: Enhancement Attachment

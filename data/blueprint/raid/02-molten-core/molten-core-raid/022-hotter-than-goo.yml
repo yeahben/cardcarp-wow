@@ -5,10 +5,20 @@ origin: molten-core-raid-022
 layout: Standard
 
 category:
+  - Ability
+
+subtype:
+  - Molten Core
 
 trait:
 
-rule: []
+cost: '6'
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Destroy all of target opponent's abilities, allies, and equipment.
 
 regulation:
 

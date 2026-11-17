@@ -7,9 +7,32 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Eredar
+  - Demon
+
 trait:
 
-rule: []
+health: 28
+
+class:
+  - Warlock
+
+type: Monster
+
+rule:
+  - type: Ability
+    position: Front
+    text: Archimonde's Corruption
+  - type: Ability
+    position: Front
+    text: '{basic} {4}, Flip Archimonde → Target ally has +2 / -2 this turn.'
+  - type: Ability
+    position: Reverse
+    text: Archimonde's Decree
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {7} → Put a token copy of an ally you control into play. That copy is also a Demon Monster.'
 
 regulation:
 

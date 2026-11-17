@@ -11,12 +11,14 @@ trait:
 
 cost: '2'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Magtheridon deals 2 melee damage to target hero or ally. Ongoing : When Magtheridon becomes exhausted, he deals 2 melee damage to target hero or ally.'
+    text: Magtheridon deals 2 melee damage to target hero or ally.
+  - type: Ability
+    text: 'Ongoing: When Magtheridon becomes exhausted, he deals 2 melee damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: ''

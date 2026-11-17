@@ -7,9 +7,14 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Naxxramas
+
 trait:
 
 cost: '3'
+
+instant: false
 
 rule:
   - type: Ability
@@ -18,5 +23,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Naxxramas

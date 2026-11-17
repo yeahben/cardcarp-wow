@@ -19,15 +19,17 @@ combat: Ranged
 
 faction: Horde
 
+race: Orc
+
 class:
   - Hunter
 
+instant: false
+
 rule:
   - type: Ability
-    text: While you control a Ranged weapon, this ally has Assault X and Long-Range , where X is the highest ATK among Ranged weapons you control.
+    text: While you control a {hunter} Ranged weapon, this ally has Assault X and Long-Range, where X is the highest ATK among {hunter} Ranged weapons you control.
 
 regulation:
 
 errata: []
-
-temp: Orc Hunter

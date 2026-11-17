@@ -1,14 +1,34 @@
-name: Johnny  B. Goode
+name: Johnny B. Goode
 
 origin: reign-of-fire-084
 
 layout: Standard
 
 category:
+  - Ally
 
 trait:
 
-rule: []
+cost: '2'
+
+damage: 3
+
+health: 2
+
+combat: Melee
+
+faction: Alliance
+
+race: Human
+
+class:
+  - Rogue
+
+instant: false
+
+rule:
+  - type: Ability
+    text: 'Unity: When this ally enters play, if you control three or more Human allies, he may deal 3 melee damage to target exhausted hero or ally.'
 
 regulation:
 

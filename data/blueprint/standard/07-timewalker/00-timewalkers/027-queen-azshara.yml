@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 25
+
+race: Night Elf
+
+class:
+  - Mage
+
+type: Monster
+
+rule:
+  - type: Ability
+    position: Front
+    text: Whims of Azshara
+  - type: Ability
+    position: Front
+    text: '{basic} {3}, Exhaust an ally you control, flip Azshara → Draw a card.'
+  - type: Ability
+    position: Reverse
+    text: Azshara's Vanity
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {5} → Azshara deals 1 arcane damage to target ally for each card in your hand.'
 
 regulation:
 

@@ -7,21 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Mace
+
 trait:
 
 cost: '5'
 
+damage: 4
+
+strike: 2
+
+combat: Melee
+
 class:
   - Paladin
-  - Warrior
   - Shaman
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'On your turn: 6 , , Destroy World Breaker → Destroy all resources.'
+    text: 'On your turn: {6}, {activate}, Destroy World Breaker → Destroy all resources.'
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Mace

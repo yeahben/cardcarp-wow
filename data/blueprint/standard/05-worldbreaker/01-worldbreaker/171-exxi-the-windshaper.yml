@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: While you control another Goblin, this ally has Time is Money and " → Ready another target ally."
+    text: While you control another Goblin, this ally has Time is Money and "{activate} → Ready another target ally."
 
 regulation:
 
 errata: []
-
-temp: Goblin Shaman

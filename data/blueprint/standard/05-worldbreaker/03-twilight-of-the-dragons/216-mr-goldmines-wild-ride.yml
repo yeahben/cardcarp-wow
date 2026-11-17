@@ -1,14 +1,19 @@
-name: Mr. Goldmines Wild ride
+name: Mr. Goldmine's Wild Ride
 
 origin: twilight-of-the-dragons-216
 
 layout: Standard
 
 category:
+  - Quest
 
 trait:
 
-rule: []
+rule:
+  - type: Ability
+    text: Pay {6} to complete this quest.
+  - type: Ability
+    text: 'Reward: Reveal the top three cards of your deck. You may put any number of revealed cards with different card types into your hand and the rest on the bottom of your deck.'
 
 regulation:
 

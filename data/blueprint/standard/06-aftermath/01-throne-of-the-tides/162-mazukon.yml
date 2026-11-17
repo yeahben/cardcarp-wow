@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity When this ally is destroyed, put a 6 / 6 Troll Shaman ally token named Mazu'kon into play with Ferocity .
+    text: Ferocity
+  - type: Ability
+    text: When this ally is destroyed, put a 6 {nature} / 6 {health} {horde} Troll Shaman ally token named Mazu'kon into play with Ferocity.
 
 regulation:
 
 errata: []
-
-temp: Troll Shaman

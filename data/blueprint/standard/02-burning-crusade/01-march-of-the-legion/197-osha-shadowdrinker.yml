@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: When a ally in your party deals combat damage, ready up to that many of your resources.
+    text: When a {shadow} ally in your party deals combat damage, ready up to that many of your resources.
 
 regulation:
 
 errata: []
-
-temp: Undead Warlock

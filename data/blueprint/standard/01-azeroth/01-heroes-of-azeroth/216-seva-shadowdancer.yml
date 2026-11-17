@@ -19,12 +19,19 @@ combat: Holy
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive x , → This ally heals X damage from target hero or ally.
+    text: Elusive
+  - type: Ability
+    text: '{x}, {activate} → Seva Shadowdancer heals X damage from target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Priest

@@ -1,0 +1,22 @@
+name: The Light's Watch
+
+origin: scarlet-monastery-026
+
+layout: Standard
+
+category:
+  - Ability
+
+trait:
+
+instant: false
+
+type: Dungeon
+
+rule:
+  - type: Ability
+    text: Mograine heals 5 damage from himself and each Dungeon ally.
+
+regulation:
+
+errata: []

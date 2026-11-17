@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Priest
 
-instant: The next time damage would be dealt to target hero or ally this turn, prevent it. Draw a card.
+talent:
+  - Discipline
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: The next time damage would be dealt to target hero or ally this turn, prevent it. Draw a card.
 
 regulation:
 
 errata: []
-
-temp: Discipline

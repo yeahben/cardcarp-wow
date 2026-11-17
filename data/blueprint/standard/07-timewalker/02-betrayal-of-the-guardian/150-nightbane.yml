@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Skeleton
+  - Dragonkin
+
 trait:
 
 cost: '10'
@@ -17,6 +21,12 @@ health: 10
 
 combat: Fire
 
+limit:
+  - name: Nightbane
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
@@ -26,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Skeleton Dragonkin

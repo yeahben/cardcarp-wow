@@ -19,12 +19,23 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warrior
+
+limit:
+  - name: Danath
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When Danath deals damage, put a 1 / 1 Human Warrior ally token into play with Protector .
+    text: Protector
+  - type: Ability
+    text: When Danath deals damage, put a 1 {melee} / 1 {health} {alliance} Human Warrior ally token into play with Protector.
 
 regulation:
 
 errata: []
-
-temp: Human Warrior

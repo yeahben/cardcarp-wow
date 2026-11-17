@@ -1,4 +1,4 @@
-name: Fletchers Gloves of the Phoenix
+name: Fletcher's Gloves of the Phoenix
 
 origin: fields-of-honor-crafting-001
 
@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '3'
+
+defense: 2
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Hands
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: You can play Fletcher's Gloves of the Phoenix from your graveyard. → Target ally has Long-Range and Fire Resistance this turn.
+    text: You can play Fletcher's Gloves of the Phoenix from your graveyard.
+  - type: Ability
+    text: '{activate} → Target ally has long-range and fire resistance this turn.'
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

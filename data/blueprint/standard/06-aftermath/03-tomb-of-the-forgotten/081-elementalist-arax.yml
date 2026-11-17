@@ -19,6 +19,13 @@ combat: Frost
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
     text: This ally has Assault 1 and Mend 1 for each equipment you control.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

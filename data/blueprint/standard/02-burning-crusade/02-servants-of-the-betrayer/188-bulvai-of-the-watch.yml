@@ -17,12 +17,21 @@ health: 5
 
 combat: Melee
 
+race: Draenei
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aldor Reputation Protector If damage would be dealt to your hero, it's dealt to Bulvai instead.
+    text: Aldor Reputation (Can't put Scryer cards in your deck.)
+  - type: Ability
+    text: Protector
+  - type: Ability
+    text: If damage would be dealt to your hero, it's dealt to Bulvai instead.
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

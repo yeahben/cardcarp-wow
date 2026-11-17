@@ -7,22 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
-  - Druid
-  - Warrior
   - Death Knight
+  - Druid
   - Paladin
+  - Warrior
+
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: Your hero has Protector . While you control five or more allies, your hero has +12 .
+    text: Your hero has Protector.
+  - type: Ability
+    text: While you control five or more allies, your hero has +12 {health}.
 
 regulation:
 
 errata: []
-
-temp: Item Ring

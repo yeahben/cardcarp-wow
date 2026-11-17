@@ -14,6 +14,11 @@ cost: '5'
 class:
   - Warlock
 
+talent:
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
     text: 'Each opponent chooses one: Your hero deals 10 shadow damage to his hero; or destroy all resources he controls; or destroy all abilities, allies, and equipment he controls.'
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Destruction

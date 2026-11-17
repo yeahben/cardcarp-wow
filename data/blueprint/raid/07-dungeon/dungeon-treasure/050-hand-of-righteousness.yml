@@ -7,22 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Mace
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 1
+
+combat: Melee
+
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 1 → Damage that target hero or ally would deal this turn is unpreventable.
+    text: '{1} → Damage that target hero or ally would deal this turn is unpreventable.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

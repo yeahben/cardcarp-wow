@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Cook
+
 trait:
 
 cost: '3'
@@ -19,12 +22,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: When Cookie enters play, each opponent puts a Chicken ally token with 0 ATK / 1 health into play. → Destroy all ally tokens.
+    text: When Cookie enters play, each opponent puts a Chicken ally token with 0 ATK / 1 health into play.
+  - type: Ability
+    text: '{activate} → Destroy all ally tokens.'
 
 regulation:
 
 errata: []
-
-temp: Human Cook

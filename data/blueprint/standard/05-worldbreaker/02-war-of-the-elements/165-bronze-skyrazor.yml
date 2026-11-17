@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Bronze
+  - Dragonkin
+
 trait:
 
 cost: '5'
@@ -17,6 +21,8 @@ health: 4
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, if you control no ready resources, it has Ferocity this turn.
@@ -24,5 +30,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Bronze Dragonkin

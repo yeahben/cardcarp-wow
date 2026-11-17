@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
-    text: Finishing Move Destroy each opposing ally and equipment with cost X.
+    text: Finishing Move (To play, remove X Combo cards in your graveyard from the game, where X is 5 or less.)
+  - type: Ability
+    text: Destroy each opposing ally and equipment with cost X.
 
 regulation:
 
 errata: []
-
-temp: Assassination

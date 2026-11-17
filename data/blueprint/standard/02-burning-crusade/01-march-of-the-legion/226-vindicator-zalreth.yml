@@ -17,12 +17,19 @@ health: 5
 
 combat: Holy
 
+race: Draenei
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aldor Reputation , Protector When Zalreth is destroyed, you may remove him from the game. If you do, put an ally card from your graveyard into play if its cost is less than or equal to the number of resources you have.
+    text: Aldor Reputation, Protector
+  - type: Ability
+    text: When Zalreth is destroyed, you may remove him from the game. If you do, put an ally card from your graveyard into play if its cost is less than or equal to the number of resources you have.
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

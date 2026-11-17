@@ -17,12 +17,19 @@ health: 2
 
 combat: Arcane
 
+race: Blood Elf
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Scryer Reputation If you would draw a card, you may draw it from the bottom of your deck instead.
+    text: Scryer Reputation (Can't put Aldor cards in your deck.)
+  - type: Ability
+    text: If you would draw a card, you may draw it from the bottom of your deck instead.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

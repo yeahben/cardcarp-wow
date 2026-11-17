@@ -19,6 +19,13 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, he deals 3 nature damage divided as you choose to any number of target opposing Priests.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

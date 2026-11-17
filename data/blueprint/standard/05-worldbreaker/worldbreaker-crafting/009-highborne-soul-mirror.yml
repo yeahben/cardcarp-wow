@@ -7,28 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '7'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'When an ally you control is destroyed, destroy each other ally you control with the same name as that ally. On your turn: → Put a token copy of target ally you control into play.'
+    text: When an ally you control is destroyed, destroy each other ally you control with the same name as that ally.
+  - type: Ability
+    text: 'On your turn: {activate} → Put a token copy of target ally you control into play.'
 
 regulation:
 
 errata: []
-
-temp: Item

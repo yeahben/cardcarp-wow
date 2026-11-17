@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Wight
+
 trait:
 
 damage: 0
@@ -15,14 +19,16 @@ health: 10
 
 combat: Melee
 
-type: Ally
+instant: false
 
 rule:
   - type: Ability
-    text: Conspicuous , Assault 5 When this ally enters play, raiding heroes and allies have -5 ATK this turn. At the start of the Boss player's turn, if Feugen is not in play, he puts him into play.
+    text: Conspicuous, Assault 5
+  - type: Ability
+    text: When this ally enters play, raiding heroes and allies have -5 ATK this turn.
+  - type: Ability
+    text: At the start of the Boss player's turn, if Feugen is not in play, he puts him into play.
 
 regulation:
 
 errata: []
-
-temp: Wight

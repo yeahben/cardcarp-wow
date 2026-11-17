@@ -13,13 +13,23 @@ health: 29
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Paladin
+
+talent:
+  - Protection
+
+profession:
+  - Alchemy
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Zophos → Zophos deals 3 unpreventable holy damage to target attacker.
+    text: '{3}, Flip Zophos → Zophos deals 3 unpreventable holy damage to target attacker.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

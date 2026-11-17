@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '2'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this armor enters play, Delve .
+    text: When this armor enters play, Delve. (Look at the top two cards of your deck. Put any number of them on top of your deck in any order, and the rest on the bottom.)
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

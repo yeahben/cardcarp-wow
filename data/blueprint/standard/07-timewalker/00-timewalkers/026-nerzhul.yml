@@ -1,4 +1,4 @@
-name: Ner'Zhul
+name: Ner'zhul
 
 origin: timewalkers-026
 
@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 28
+
+race: Orc
+
+class:
+  - Shaman
+
+type: Monster
+
+rule:
+  - type: Ability
+    position: Front
+    text: Ner'zhul's Ritual
+  - type: Ability
+    position: Front
+    text: "{basic} {4}, Flip Ner'zhul → Ner'zhul heals 3 damage from target ally you control and has +1 ATK this turn for each damage healed this way."
+  - type: Ability
+    position: Reverse
+    text: Ner'zhul's Windwalking
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {7} → Ready all allies you control.'
 
 regulation:
 

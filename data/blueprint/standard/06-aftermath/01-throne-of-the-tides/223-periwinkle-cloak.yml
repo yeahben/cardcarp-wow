@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '3'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Back
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'On your turn: 2 , → Choose one: Each player discards a card; or each player draws a card.'
+    text: 'On your turn: {2}, {activate} → Choose one: Each player discards a card; or each player draws a card.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

@@ -7,20 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Polearm
+
 trait:
 
 cost: '5'
+
+damage: 1
+
+strike: 5
+
+combat: Melee
 
 class:
   - Druid
   - Hunter
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Your hero has Assault 1 this turn for each token ally you control.
+    text: '{activate} → Your hero has Assault 1 this turn for each token ally you control.'
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Polearm

@@ -12,16 +12,16 @@ trait:
 cost: '1'
 
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
 
-instant: Target opposing ally must attack your hero this turn if able. Draw a card.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Target opposing ally must attack your hero this turn if able. Draw a card.
 
 regulation:
 
 errata: []
-
-temp: ''

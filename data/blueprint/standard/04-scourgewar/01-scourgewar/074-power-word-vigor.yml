@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Priest
 
-instant: 'Attach to target ally. Ongoing : Attached ally has +5 .'
+talent:
+  - Discipline
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +5 {health}.'
 
 regulation:
 
 errata: []
-
-temp: Discipline

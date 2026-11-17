@@ -7,19 +7,30 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Traitor
+
 trait:
+  - Leper Gnome
 
 health: 27
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Rogue
+
+profession:
+  - Engineering
+  - Leatherworking
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Ressa → Target player destroys one of his equipment. Leper Gnome
+    text: '{3}, Flip Ressa → Target player destroys one of his equipment.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Rogue

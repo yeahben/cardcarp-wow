@@ -7,21 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Sword
+
 trait:
 
 cost: '4'
 
+damage: 1
+
+strike: 3
+
+combat: Melee
+
 class:
+  - Mage
   - Paladin
   - Warlock
-  - Mage
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When you draw a card, put a verse counter on Azuresong Mageblade. 1 , Remove three verse counters → Draw a card.
+    text: When you draw a card, put a verse counter on Azuresong Mageblade.
+  - type: Ability
+    text: '{1}, Remove three verse counters → Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

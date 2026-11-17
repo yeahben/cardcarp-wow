@@ -7,13 +7,14 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Val'kyr
+
 trait:
 
-class:
-  - Warrior
-  - Warlock
+health: 27
 
-type: Raid
+type: Scourge
 
 rule:
   - type: Ability
@@ -21,10 +22,8 @@ rule:
     text: Flip Askalti, remove a Scourge ally in your graveyard from the game → Target ally has +1 / -1 this turn.
   - type: Ability
     position: Reverse
-    text: "Deckbuilding : You can only include abilities, equipment, allies with ally type Death Knight, neutral quests and locations, and Scourge cards. You can't include cards with reputations or other text restrictions (like Demonology Hero Required ) ."
+    text: "Deckbuilding: You can only include {warlock} abilities and Pets, {warrior} equipment, allies with ally type Death Knight, neutral quests and locations, and Scourge cards. You can't include cards with reputations or other text restrictions (like Demonology Hero Required)."
 
 regulation:
 
 errata: []
-
-temp: Val'kyr 27

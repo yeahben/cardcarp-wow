@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Infernal
+  - Demon
+
 trait:
 
 cost: '6'
@@ -20,12 +24,18 @@ combat: Fire
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of your turn, discard a card, or target opponent gains control of Infernal. At the end of your turn, Infernal deals 1 fire damage to each opposing hero and ally.
+    text: At the start of your turn, discard a card, or target opponent gains control of Infernal.
+  - type: Ability
+    text: At the end of your turn, Infernal deals 1 fire damage to each opposing hero and ally.
 
 regulation:
 
 errata: []
-
-temp: Infernal Demon

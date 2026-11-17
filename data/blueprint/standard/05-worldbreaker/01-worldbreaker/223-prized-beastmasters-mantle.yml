@@ -1,4 +1,4 @@
-name: Prized Beastmasters Mantle
+name: Prized Beastmaster's Mantle
 
 origin: worldbreaker-223
 
@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '4'
+
+defense: 1
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Shoulder
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Non- , non- allies you control have +3 . Stash : Your hero heals 3 damage from target non- , non- ally you control.'
+    text: Neutral allies you control have +3 {health}.
+  - type: Ability
+    text: 'Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Your hero heals 3 damage from target neutral ally you control.'
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

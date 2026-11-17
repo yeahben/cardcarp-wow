@@ -7,23 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Staff
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 5
+
+combat: Shadow
+
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 6 , → Your hero deals 2 shadow damage divided as you choose to any number of target heroes and/or allies.
+    text: '{basic} {6}, {activate} → Your hero deals 2 shadow damage divided as you choose to any number of target heroes and/or allies.'
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Staff

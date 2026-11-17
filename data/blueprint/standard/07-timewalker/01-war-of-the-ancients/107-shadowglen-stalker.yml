@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Haste 2
+    text: Haste 2 (You pay {2} less to play this ally if an ally you control dealt damage to an opposing hero this turn.)
 
 regulation:
 
 errata: []
-
-temp: Night Elf Rogue

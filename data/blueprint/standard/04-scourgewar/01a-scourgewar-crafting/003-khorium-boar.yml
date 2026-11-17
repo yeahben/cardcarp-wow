@@ -7,25 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '1'
 
 class:
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
+  - Paladin
+  - Rogue
   - Shaman
+  - Warrior
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Jewelcrafting Hero Required Weapons you control have +1 ATK. Death Rattle : Put a 1 / 1 Boar ally token into play.'
+    text: Jewelcrafting Hero Required
+  - type: Ability
+    text: Weapons you control have +1 ATK.
+  - type: Ability
+    text: 'Death Rattle: Put a 1 {melee} / 1 {health} Boar ally token into play.'
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

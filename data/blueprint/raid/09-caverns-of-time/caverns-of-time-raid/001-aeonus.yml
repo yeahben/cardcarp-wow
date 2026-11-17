@@ -7,17 +7,31 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Infinite
+  - Dragonkin
+
 trait:
 
-type: Boss
+damage: 0
+
+health: 25
+
+combat: Melee
+
+type: Caverns
 
 rule:
   - type: Ability
     position: Front
-    text: 'Flip 2 , Assault 3 , Long-Range Entrance : A random Raider skips their next turn. When Aeonus flips the second Caverns card on his turn, if it does not share a type with the first Caverns card flipped this turn, flip an additional Caverns card.'
+    text: Flip 2, Assault 3, Long-Range
+  - type: Ability
+    position: Front
+    text: 'Entrance: A random Raider skips their next turn.'
+  - type: Ability
+    position: Front
+    text: When Aeonus flips the second Caverns card on his turn, if it does not share a type with the first Caverns card flipped this turn, flip an additional Caverns card.
 
 regulation:
 
 errata: []
-
-temp: Infinite Dragonkin 25

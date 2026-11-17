@@ -1,4 +1,4 @@
-name: Life-Binders Locket
+name: Life-Binder's Locket
 
 origin: wrathgate-183
 
@@ -6,6 +6,9 @@ layout: Standard
 
 category:
   - Equipment
+
+subtype:
+  - Item
 
 trait:
 
@@ -15,12 +18,18 @@ class:
   - Paladin
   - Priest
 
+limit:
+  - name: Neck
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: ', Discard a card → Hero : If a friendly hero or ally would be dealt damage this turn, prevent 1 of it. Hero : The next time target hero or ally would be dealt damage this turn, prevent it.'
+    text: '{paladin} Hero: {activate}, Discard a card → If a friendly hero or ally would be dealt damage this turn, prevent 1 of it.'
+  - type: Ability
+    text: '{priest} Hero: {activate}, Discard a card → The next time target hero or ally would be dealt damage this turn, prevent it.'
 
 regulation:
 
 errata: []
-
-temp: Item Neck

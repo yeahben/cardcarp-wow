@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Warlock
 
+talent:
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
-    text: Eternal Your hero deals 1 fire damage to each hero and ally for each resource you control.
+    text: Eternal (When this enters your graveyard from anywhere, you may shuffle it into your deck.)
+  - type: Ability
+    text: Your hero deals 1 fire damage to each hero and ally for each resource you control.
 
 regulation:
 
 errata: []
-
-temp: Destruction

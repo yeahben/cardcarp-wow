@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
     text: This ally has +4 ATK while attacking an ally with cost 4 or more.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Hunter

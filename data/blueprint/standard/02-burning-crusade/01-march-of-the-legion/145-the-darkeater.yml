@@ -19,12 +19,19 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Other allies have +2 ATK / +2 health. Non- allies have -2 ATK / -2 health.
+    text: Other {shadow} allies have +2 ATK / +2 health.
+  - type: Ability
+    text: Non-{shadow} allies have -2 ATK / -2 health.
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

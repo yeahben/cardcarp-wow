@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Protector Stash : Add an heirloom counter to target equipment you control.'
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
+  - type: Ability
+    text: 'Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Add an heirloom counter to target equipment you control.'
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

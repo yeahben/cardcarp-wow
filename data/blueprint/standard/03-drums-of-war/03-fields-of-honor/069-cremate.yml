@@ -14,6 +14,11 @@ cost: '1'
 class:
   - Warlock
 
+talent:
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero deals 2 fire damage to target hero or ally. If that character would be destroyed this turn, remove it from the game instead.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Destruction

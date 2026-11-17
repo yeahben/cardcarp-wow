@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Attachment
+
 trait:
 
 cost: '2'
@@ -14,12 +17,21 @@ cost: '2'
 class:
   - Paladin
 
-instant: 'Holy Talent Attach to target ally, and your hero heals all damage from it. Add a holy counter to this ability for each damage healed this way. Ongoing : Attached ally has +1 / +1 for each holy counter on this ability. Attached ally has Absorb .'
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Holy Talent (You can't put Protection Talents or Retribution Talents in your deck.)
+  - type: Ability
+    text: Attach to target ally, and your hero heals all damage from it. Add a holy counter to this ability for each damage healed this way.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +1 / +1 for each holy counter on this ability.'
+  - type: Ability
+    text: Attached ally has Absorb.
 
 regulation:
 
 errata: []
-
-temp: Holy Attachment

@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '2'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Hands
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 4 , Exhaust your hero → Your hero deals 2 arcane damage to target hero or ally.
+    text: '{4}, Exhaust your hero → Your hero deals 2 arcane damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

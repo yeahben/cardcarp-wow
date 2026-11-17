@@ -19,12 +19,19 @@ combat: Ranged
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive → Put the top two cards of your deck into your graveyard.
+    text: Elusive
+  - type: Ability
+    text: '{activate} → Put the top two cards of your deck into your graveyard.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

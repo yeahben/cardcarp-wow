@@ -6,6 +6,7 @@ layout: Standard
 
 category:
   - Ability
+  - Ally
 
 trait:
 
@@ -20,14 +21,21 @@ combat: Melee
 class:
   - Shaman
 
-type: Ally
+talent:
+  - Elemental
+
+limit:
+  - name: Earth Totem
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Ongoing : When this Totem enters play, put two 2 / 1 Earth Elemental ally tokens into play. Other allies you control have Protector .'
+    text: 'Ongoing: When this Totem enters play, put two 2 {melee} / 1 {health} Earth Elemental ally tokens into play.'
+  - type: Ability
+    text: Other {melee} allies you control have Protector.
 
 regulation:
 
 errata: []
-
-temp: Elemental

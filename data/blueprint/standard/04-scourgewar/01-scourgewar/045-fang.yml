@@ -7,25 +7,34 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Wolf
+
 trait:
 
 cost: '2'
 
 damage: 2
 
-health: 2
+health: 4
 
 combat: Melee
 
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Allies you control have Assault 1 .
+    text: Protector
+  - type: Ability
+    text: Allies you control have Assault 1.
 
 regulation:
 
 errata: []
-
-temp: Wolf

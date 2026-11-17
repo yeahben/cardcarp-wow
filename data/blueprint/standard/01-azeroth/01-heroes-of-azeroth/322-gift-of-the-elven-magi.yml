@@ -7,23 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Dagger
+
 trait:
 
 cost: '1'
 
+damage: 1
+
+strike: 4
+
+combat: Melee
+
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 2 , , Exhaust your hero → Look at the top card of your deck. If it's an ability card, you may reveal it and put it into your hand.
+    text: "{2}, {activate}, Exhaust your hero → Look at the top card of your deck. If it's an ability card, you may reveal it and put it into your hand."
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

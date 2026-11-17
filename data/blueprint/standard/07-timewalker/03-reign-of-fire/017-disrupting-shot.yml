@@ -5,10 +5,23 @@ origin: reign-of-fire-017
 layout: Standard
 
 category:
+  - Ability
 
 trait:
 
-rule: []
+cost: '3'
+
+class:
+  - Hunter
+
+talent:
+  - Marksmanship
+
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 1 ranged damage to target hero or ally. If your hero dealt damage to a hero this way, you may interrupt an ability played by its controller.
 
 regulation:
 

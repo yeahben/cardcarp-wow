@@ -11,15 +11,26 @@ trait:
 
 cost: '1'
 
+health: 1
+
 class:
   - Shaman
 
-instant: 'Ongoing : When this ability enters play, exhaust all opposing heroes and allies. When an opposing hero or ally attacks or protects, you may exhaust a second target hero or ally.'
+talent:
+  - Elemental
 
-rule: []
+limit:
+  - name: Air Totem
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: When this ability enters play, exhaust all opposing heroes and allies.'
+  - type: Ability
+    text: When an opposing hero or ally attacks or protects, you may exhaust a second target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Elemental 1

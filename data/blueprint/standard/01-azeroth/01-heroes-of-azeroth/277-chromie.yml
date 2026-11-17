@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Dragonkin
+
 trait:
 
 cost: '6'
@@ -17,12 +20,15 @@ health: 4
 
 combat: Melee
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: ', Remove Chromie from the game → Take an extra turn after this one.'
+    text: '{activate}, Remove Chromie from the game → Take an extra turn after this one.'
 
 regulation:
 
 errata: []
-
-temp: Dragonkin

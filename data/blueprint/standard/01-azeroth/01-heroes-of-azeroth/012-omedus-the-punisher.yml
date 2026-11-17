@@ -13,13 +13,23 @@ health: 26
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Priest
+
+talent:
+  - Shadow
+
+profession:
+  - Alchemy
+  - Herbalism
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Omedus → Omedus deals shadow damage to target hero equal to 7 minus the number of cards in its controller's hand.
+    text: "{3}, Flip Omedus → Omedus deals shadow damage to target hero equal to 7 minus the number of cards in its controller's hand."
 
 regulation:
 
 errata: []
-
-temp: Undead Priest

@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
     text: This ally can protect other allies.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Paladin

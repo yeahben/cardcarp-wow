@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Players may read their cards that say "or" as if they said "and."'
+    text: 'Ongoing: Players may read their cards that say "or" as if they said "and."'
 
 regulation:
 
 errata: []
-
-temp: ''

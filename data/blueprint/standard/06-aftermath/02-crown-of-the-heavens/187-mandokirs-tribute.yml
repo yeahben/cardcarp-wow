@@ -1,4 +1,4 @@
-name: Mandokirs Tribute
+name: Mandokir's Tribute
 
 origin: crown-of-the-heavens-187
 
@@ -7,19 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Bow
+
 trait:
 
 cost: '6'
 
+damage: 2
+
+strike: 0
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Long-Range This weapon has +3 ATK for each Pet you control.
+    text: Long-Range (When you strike with this weapon on your turn, defenders deal no combat damage to the attacker.)
+  - type: Ability
+    text: This weapon has +3 ATK for each Pet you control.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Bow

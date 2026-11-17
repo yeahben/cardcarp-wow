@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'On your turn, pay 5 to complete this quest. Reward : Put a Mechanical ally token named Mark V into play with 0 ATK / 1 health and "At the start of your turn, Mark V deals 5 melee damage to target hero or ally."'
+    text: On your turn, pay {5} to complete this quest.
+  - type: Ability
+    text: 'Reward: Put a Mechanical ally token named Mark V into play with 0 {melee} ATK / 1 health and "At the start of your turn, Mark V deals 5 melee damage to target hero or ally."'
 
 regulation:
 
 errata: []
-
-temp: ''

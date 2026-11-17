@@ -7,22 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '3'
 
+defense: 0
+
 class:
   - Druid
-  - Warrior
   - Hunter
   - Rogue
+  - Warrior
+
+limit:
+  - name: Back
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: → The next time your hero would be dealt non-combat damage this turn, prevent it.
+    text: '{activate} → The next time your hero would be dealt non-combat damage this turn, prevent it.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

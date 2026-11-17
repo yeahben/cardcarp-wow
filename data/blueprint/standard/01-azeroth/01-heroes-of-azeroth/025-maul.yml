@@ -14,12 +14,21 @@ cost: '2'
 class:
   - Druid
 
-instant: 'Your hero has +1 ATK this turn. Ongoing : Your hero is in Bear Form .'
+talent:
+  - Feral
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero has +1 ATK this turn.
+  - type: Ability
+    text: 'Ongoing: Your hero is in bear form. (Has protector. Destroy this card when you strike with a weapon or play a non-Feral ability.)'
 
 regulation:
 
 errata: []
-
-temp: Feral

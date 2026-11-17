@@ -9,14 +9,16 @@ category:
 
 trait:
 
-type: Raid
+instant: false
+
+sequence: 8
 
 rule:
   - type: Ability
-    text: 'Ongoing : Destroy this event → Put the top card of the Minion deck into your resource row face down and ready.'
+    text: 'Ongoing: Each opposing weapon has -2 ATK.'
+  - type: Ability
+    text: Each opposing armor has -2 DEF.
 
 regulation:
 
 errata: []
-
-temp: ''

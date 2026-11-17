@@ -1,4 +1,4 @@
-name: Barims Main Gauche
+name: Barim's Main Gauche
 
 origin: tomb-of-the-forgotten-183
 
@@ -7,13 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Dagger
+
 trait:
 
 cost: '5'
 
+damage: 1
+
+strike: 0
+
+combat: Melee
+
 class:
-  - Shaman
   - Rogue
+  - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -22,5 +39,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

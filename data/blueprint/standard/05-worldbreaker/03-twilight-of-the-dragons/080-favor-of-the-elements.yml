@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Shaman
 
+talent:
+  - Elemental
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target friendly ally. Ongoing : Attached ally has Assault 2 . When attached ally is destroyed, your hero deals 3 fire damage to target hero.'
+    text: Attach to target friendly ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has Assault 2.'
+  - type: Ability
+    text: When attached ally is destroyed, your hero deals 3 fire damage to target hero.
 
 regulation:
 
 errata: []
-
-temp: Elemental

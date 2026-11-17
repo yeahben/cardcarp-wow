@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Echo
+
 trait:
 
 cost: '3'
@@ -17,14 +20,18 @@ health: 1
 
 combat: Frost
 
+race: Human
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 'Elusive If there is an Echo of Jaina in your graveyard: → You pay 2 less to play your next ability, ally, or equipment this turn.'
+    text: Elusive
+  - type: Ability
+    text: 'If there is an Echo of Jaina in your graveyard: {activate} → You pay {2} less to play your next ability, ally, or equipment this turn.'
 
 regulation:
 
 errata: []
-
-temp: Human Echo

@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: As Brodien enters play, choose whether he is Elusive or Untargetable .
+    text: As Brodien enters play, choose whether he is elusive or untargetable.
 
 regulation:
 
 errata: []
-
-temp: Gnome Mage

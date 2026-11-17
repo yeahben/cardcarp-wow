@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Each player may exhaust his hero rather than pay the resource cost of completing a quest.'
+    text: 'Ongoing: Each player may exhaust his hero rather than pay the resource cost of completing a quest.'
 
 regulation:
 
 errata: []
-
-temp: ''

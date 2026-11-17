@@ -17,12 +17,28 @@ health: 7
 
 combat: Frost
 
+race: Gnome
+
+class:
+  - Mage
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Millhouse enters play with three monologue counters and can't attack while he has any. 1 , Say "Lowly? Nobody refers to the mighty Millhouse Manastorm as lowly!" → Remove a monologue counter. 2 , Say "Ice, Ice, Baby!" → Remove a monologue counter. 3 , Say "I'm gonna light you up, sweet cheeks!" → Remove a monologue counter. Use each of these powers only once per game.
+    text: Millhouse enters play with three monologue counters and can't attack while he has any.
+  - type: Ability
+    text: '{1}, Say "Lowly? Nobody refers to the mighty Millhouse Manastorm as lowly!" → Remove a monologue counter.'
+  - type: Ability
+    text: '{2}, Say "Ice, Ice, Baby!" → Remove a monologue counter.'
+  - type: Ability
+    text: "{3}, Say \"I'm gonna light you up, sweet cheeks!\" → Remove a monologue counter."
+  - type: Ability
+    text: Use each of these powers only once per game.
 
 regulation:
 
 errata: []
-
-temp: Gnome Mage

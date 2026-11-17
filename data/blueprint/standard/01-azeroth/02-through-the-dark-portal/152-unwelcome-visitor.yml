@@ -11,12 +11,12 @@ trait:
 
 cost: '4'
 
-instant: Target player destroys an ally in his party.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Target player destroys an ally in his party.
 
 regulation:
 
 errata: []
-
-temp: ''

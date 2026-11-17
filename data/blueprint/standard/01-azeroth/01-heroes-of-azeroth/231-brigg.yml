@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally deals combat damage to a damaged ally, destroy that ally.
+    text: When Brigg deals combat damage to an ally with damage on it, destroy that ally.
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

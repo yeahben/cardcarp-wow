@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive Savina Greysky has +2 ATK while you control a Form.
+    text: Elusive
+  - type: Ability
+    text: Savina Greysky has +2 ATK while you control a Form.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

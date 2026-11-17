@@ -1,4 +1,4 @@
-name: Lucifrons Curse
+name: Lucifron's Curse
 
 origin: molten-core-raid-027
 
@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Molten Core
+
 trait:
 
 cost: '1'
 
-instant: 'Choose one: Destroy target ability; or interrupt target ability card. If your hero is Lucifron, you may choose both.'
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: 'Choose one: Destroy target ability; or interrupt target ability card. If your hero is Lucifron, you may choose both.'
 
 regulation:
 
 errata: []
-
-temp: Molten Core

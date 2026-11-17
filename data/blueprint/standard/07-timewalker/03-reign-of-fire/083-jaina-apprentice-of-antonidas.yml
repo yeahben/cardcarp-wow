@@ -19,12 +19,23 @@ combat: Frost
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Mage
+
+limit:
+  - name: Jaina
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of your turn, put a 2 / 1 Water Elemental ally token into play. While you control a Daelin ally, opponents pay 1 more to play cards.
+    text: At the start of your turn, put a 2 {frost} / 1 {health} Water Elemental ally token into play.
+  - type: Ability
+    text: While you control a Daelin ally, opponents pay {1} more to play cards.
 
 regulation:
 
 errata: []
-
-temp: Human Mage

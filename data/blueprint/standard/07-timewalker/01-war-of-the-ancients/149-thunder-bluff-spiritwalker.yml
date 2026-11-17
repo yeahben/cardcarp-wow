@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Tribe : When this or another Tauren ally enters play under your control, your hero has Assault 2 this turn.'
+    text: 'Tribe: When this or another Tauren ally enters play under your control, your hero has Assault 2 this turn. (Your hero has +2 ATK on your turn.)'
 
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

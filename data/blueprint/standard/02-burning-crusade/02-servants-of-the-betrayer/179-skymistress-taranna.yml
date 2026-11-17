@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: When another ally enters your party, draw a card.
+    text: When another {arcane} ally enters your party, draw a card.
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

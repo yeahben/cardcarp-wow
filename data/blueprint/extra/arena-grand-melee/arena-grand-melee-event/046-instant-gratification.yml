@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : All ability, ally, and equipment cards are instant.'
+    text: 'Ongoing: All ability, ally, and equipment cards are instant.'
 
 regulation:
 
 errata: []
-
-temp: ''

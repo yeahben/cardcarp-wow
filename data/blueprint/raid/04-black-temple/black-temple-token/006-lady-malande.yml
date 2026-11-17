@@ -7,7 +7,11 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+
 trait:
+  - 'Illidari Council Member: 4'
 
 damage: 2
 
@@ -15,7 +19,12 @@ health: 5
 
 combat: Holy
 
-type: Ally
+race: Blood Elf
+
+class:
+  - Priest
+
+instant: false
 
 rule:
   - type: Ability
@@ -24,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Blood Elf Priest

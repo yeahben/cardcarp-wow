@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Prevent all damage attackers would deal to this ally. When this ally deals damage to an opposing hero, he heals that much damage from your hero.
+    text: Prevent all damage attackers would deal to this ally.
+  - type: Ability
+    text: When this ally deals damage to an opposing hero, he heals that much damage from your hero.
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

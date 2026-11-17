@@ -19,6 +19,13 @@ combat: Ranged
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
     text: This ally has Long-Range while an opponent controls an ally with cost 4 or more.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Night Elf Hunter

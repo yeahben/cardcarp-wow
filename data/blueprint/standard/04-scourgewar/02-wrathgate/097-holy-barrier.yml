@@ -15,12 +15,16 @@ class:
   - Paladin
   - Priest
 
+talent:
+  - Protection
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : → Prevent the next X damage that would be dealt to target ally this turn, where X is the number of Paladins and Priests you control.'
+    text: 'Ongoing: {activate} → Prevent the next X damage that would be dealt to target ally this turn, where X is the number of Paladins and Priests you control.'
 
 regulation:
 
 errata: []
-
-temp: Protection Discipline

@@ -7,21 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Mace
+
 trait:
 
 cost: '3'
+
+damage: 3
+
+strike: 1
+
+combat: Melee
 
 class:
   - Druid
   - Paladin
   - Shaman
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: You pay 1 less to play Cold Forged Hammer for each ally in your party.
+    text: You pay {1} less to play Cold Forged Hammer for each {frost} ally in your party.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

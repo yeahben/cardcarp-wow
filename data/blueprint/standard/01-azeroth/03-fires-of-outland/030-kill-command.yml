@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Hunter
 
-instant: Target Pet you control deals melee damage equal to its ATK to target ally.
+talent:
+  - Beast Mastery
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target Pet in your party deals melee damage equal to its ATK to target ally.
 
 regulation:
 
 errata: []
-
-temp: Beast Mastery

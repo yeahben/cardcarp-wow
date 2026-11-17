@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally is destroyed, target opposing ally has -2 this turn.
+    text: When this ally is destroyed, target opposing ally has -2 {health} this turn.
 
 regulation:
 
 errata: []
-
-temp: Goblin Death Knight

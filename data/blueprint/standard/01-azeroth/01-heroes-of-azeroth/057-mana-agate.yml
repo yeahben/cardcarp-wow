@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : 1 , Destroy this ability → Draw two cards.'
+    text: 'Ongoing: {1}, Destroy Mana Agate → Draw two cards.'
 
 regulation:
 
 errata: []
-
-temp: Arcane

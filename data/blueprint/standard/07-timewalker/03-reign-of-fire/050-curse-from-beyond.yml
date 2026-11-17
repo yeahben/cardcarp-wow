@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Curse
+  - Attachment
+
 trait:
 
 cost: '4'
@@ -14,12 +18,19 @@ cost: '4'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Warp Attach to target hero. Ongoing : At the start of your turn, your hero deals 2 shadow damage to attached hero.'
+    text: Warp (As this ability is revealed from your deck, you may remove it from the game. If you do, you may play it immediately without paying its cost.)
+  - type: Ability
+    text: Attach to target hero.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero deals 2 shadow damage to attached hero.'
 
 regulation:
 
 errata: []
-
-temp: Affliction Curse Attachment

@@ -14,12 +14,15 @@ cost: '5'
 class:
   - Hunter
 
-instant: Your hero deals 2 ranged damage to each of up to three target heroes and/or allies.
+talent:
+  - Marksmanship
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 2 ranged damage to each of up to three target heroes and/or allies.
 
 regulation:
 
 errata: []
-
-temp: Marksmanship

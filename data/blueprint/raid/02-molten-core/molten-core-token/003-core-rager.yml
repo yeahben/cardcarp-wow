@@ -7,7 +7,12 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Core Hound
+
 trait:
+  - 'Golemagg: 2'
 
 damage: 5
 
@@ -15,14 +20,14 @@ health: 5
 
 combat: Melee
 
-type: Ally
+instant: false
 
 rule:
   - type: Ability
-    text: Protector At the end of your turn, ready Core Rager.
+    text: Protector
+  - type: Ability
+    text: At the end of your turn, ready Core Rager.
 
 regulation:
 
 errata: []
-
-temp: Core Hound

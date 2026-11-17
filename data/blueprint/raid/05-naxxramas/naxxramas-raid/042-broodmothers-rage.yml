@@ -1,4 +1,4 @@
-name: Broodmothers Rage
+name: Broodmother's Rage
 
 origin: naxxramas-raid-042
 
@@ -9,16 +9,20 @@ category:
 
 trait:
 
-type: Raid
+instant: false
+
+type: Naxxramas
 
 stage: 2
 
+sequence: 2
+
 rule:
   - type: Ability
-    text: Target a raider. Heroes and allies he control lose and can't have powers this turn. If you're in the Arachnid Quarter, all raiding heroes and allies lose and can't have powers this turn.
+    text: Target a raider. Heroes and allies he controls lose and can't have powers this turn.
+  - type: Ability
+    text: If you're in the Arachnid Quarter, all raiding heroes and allies lose and can't have powers this turn.
 
 regulation:
 
 errata: []
-
-temp: ''

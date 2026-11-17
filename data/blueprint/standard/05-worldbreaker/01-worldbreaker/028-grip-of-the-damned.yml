@@ -14,6 +14,11 @@ cost: '4'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
     text: Put target opposing ally or weapon on the bottom of its owner's deck.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Unholy

@@ -7,19 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Knife
+
 trait:
 
 cost: '1'
 
+damage: 2
+
+strike: 1
+
+combat: Ranged
+
 class:
   - Rogue
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Thrown
+    text: Thrown (When you strike with this weapon, your hero has long-range this combat. At the end of this turn, put this weapon into its owner's hand.)
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Knife

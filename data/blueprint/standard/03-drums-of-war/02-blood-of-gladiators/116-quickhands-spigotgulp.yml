@@ -19,12 +19,21 @@ combat: Melee
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector If you would draw a card, you may skip drawing it instead. When you skip drawing a card this way, opposing allies have -1 ATK / -1 health this turn.
+    text: Protector
+  - type: Ability
+    text: If you would draw a card, you may skip drawing it instead.
+  - type: Ability
+    text: When you skip drawing a card this way, opposing allies have -1 ATK / -1 health this turn.
 
 regulation:
 
 errata: []
-
-temp: Gnome Warrior

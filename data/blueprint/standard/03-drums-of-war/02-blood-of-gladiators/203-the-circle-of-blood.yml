@@ -7,14 +7,19 @@ layout: Standard
 category:
   - Location
 
+subtype:
+  - Arena
+
 trait:
+
+capture: 3
 
 rule:
   - type: Ability
-    text: When a hero or ally in your party deals damage, add an arena counter. , Remove three arena counters → Put an Arena Gladiator ally token into play with 1 ATK / 1 health.
+    text: When a hero or ally in your party deals damage, add an arena counter.
+  - type: Ability
+    text: '{activate}, Remove three arena counters → Put an Arena Gladiator ally token into play with 1 {melee} ATK / 1 health.'
 
 regulation:
 
 errata: []
-
-temp: Arena

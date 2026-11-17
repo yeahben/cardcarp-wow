@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Mage
 
-instant: Target opposing ally can't attack this turn. Draw a card.
+talent:
+  - Frost
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target opposing ally can't attack this turn. Draw a card.
 
 regulation:
 
 errata: []
-
-temp: Frost

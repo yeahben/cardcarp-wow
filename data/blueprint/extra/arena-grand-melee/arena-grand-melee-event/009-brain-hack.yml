@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: Each player removes the top card of the deck to his left from the game. He may place that card face up or play it without paying its cost this game (any time he could normally do so) .
+    text: Each player removes the top card of the deck to his left from the game. He may place that card face up or play it without paying its cost this game (any time he could normally do so).
 
 regulation:
 
 errata: []
-
-temp: ''

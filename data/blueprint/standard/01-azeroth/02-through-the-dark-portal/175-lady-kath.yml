@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
     text: At the end of each turn, Lady Kath heals all damage from all allies.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Human Paladin

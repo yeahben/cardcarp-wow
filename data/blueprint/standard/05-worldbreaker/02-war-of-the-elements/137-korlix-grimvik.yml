@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
 
 regulation:
 
 errata: []
-
-temp: Goblin Death Knight

@@ -15,12 +15,17 @@ class:
   - Paladin
   - Warrior
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Draw a card. Ongoing : Your hero is a Protector .'
+    text: Draw a card.
+  - type: Ability
+    text: 'Ongoing: Your hero is a protector.'
 
 regulation:
 
 errata: []
-
-temp: Protection

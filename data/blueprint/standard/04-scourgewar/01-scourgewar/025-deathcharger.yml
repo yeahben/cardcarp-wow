@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Deathcharger
+
 trait:
 
 cost: '2'
@@ -20,12 +23,20 @@ combat: Melee
 class:
   - Death Knight
 
+limit:
+  - name: Mount
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: You pay 1 less to complete quests. When you place a resource face up, target opposing hero or ally has -3 this turn. (Mounts can't attack or be attacked.)
+    text: You pay {1} less to complete quests.
+  - type: Ability
+    text: When you place a resource face up, target opposing hero or ally has -3 {health} this turn.
+  - type: Ability
+    text: (Mounts can't attack or be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Deathcharger

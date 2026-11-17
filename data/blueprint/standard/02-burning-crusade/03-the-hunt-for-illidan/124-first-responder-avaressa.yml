@@ -19,12 +19,19 @@ combat: Holy
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector At the start of your turn, Avaressa heals 2 damage from target hero or ally.
+    text: Protector
+  - type: Ability
+    text: At the start of your turn, Avaressa heals 2 damage from target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

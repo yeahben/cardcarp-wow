@@ -2,13 +2,13 @@ blueprint: medivh-the-corrupted-timewalkers-007
 
 index: '007'
 
-rarity: Rare
+rarity: Uncommon
 
-artist: Unknown
+artist: Anton Zemskov
 
 variation:
   - Flip
 
-flavor: ''
+flavor: '"It was Sargeras who taught me what the final fate of all fools must be."'
 
 set: Timewalkers

@@ -1,4 +1,4 @@
-name: Cookies Cauldron
+name: Cookie's Cauldron
 
 origin: the-deadmines-037
 
@@ -7,14 +7,17 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
+
+instant: false
 
 rule:
   - type: Ability
-    text: Dungeon allies have Assault 3 .
+    text: Dungeon allies have Assault 3. (They have +3 ATK on the Dungeon's turn.)
 
 regulation:
 
 errata: []
-
-temp: Item

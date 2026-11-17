@@ -1,4 +1,4 @@
-name: Shadowstalkers Sash
+name: Shadowstalker's Sash
 
 origin: march-of-the-legion-267
 
@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '4'
+
+defense: 2
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Waist
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Friendly Druids and Rogues have Stealth .
+    text: Friendly Druids and Rogues have stealth. (Can't protect against them.)
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

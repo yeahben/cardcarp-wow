@@ -7,16 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Sword
+
 trait:
 
 cost: '1'
 
+damage: 4
+
+strike: 0
+
+combat: Frost
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Harvest Soul : When the Lich King deals fatal damage to an opposing ally with Frostmourne, add a +1 ATK counter to it, and the Lich King deals 2 frost damage to each opposing hero. Death Rattle : Put Frostmourne into its owner's hand."
+    text: 'Harvest Soul: When the Lich King deals fatal damage to an opposing ally with Frostmourne, add a +1 ATK counter to it, and the Lich King deals 2 frost damage to each opposing hero.'
+  - type: Ability
+    text: "Death Rattle (When this enters your graveyard from anywhere): Put Frostmourne into its owner's hand."
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Sword

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '1'
@@ -16,12 +19,16 @@ class:
   - Priest
   - Warlock
 
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , → Destroy target attachment. If you do, it's controller draws a card.
+    text: '{1}, {activate} → Destroy target attachment. If you do, its controller draws a card.'
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

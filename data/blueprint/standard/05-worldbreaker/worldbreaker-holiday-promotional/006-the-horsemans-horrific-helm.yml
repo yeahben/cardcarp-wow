@@ -1,4 +1,4 @@
-name: The Horsemans Horrific Helm
+name: The Horseman's Horrific Helm
 
 origin: worldbreaker-holiday-promotional-006
 
@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '4'
 
+defense: 2
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: If this armor would prevent damage, you may laugh a scary laugh. If you do, this armor prevents all damage instead.
+    text: If this armor would prevent damage, you may laugh a scary laugh. If you do, this armor prevents all that damage instead.
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

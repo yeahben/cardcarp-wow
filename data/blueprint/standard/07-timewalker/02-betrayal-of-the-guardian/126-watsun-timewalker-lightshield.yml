@@ -17,12 +17,21 @@ health: 5
 
 combat: Holy
 
+race: Dwarf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Protector At the start of your turn, choose one: this ally heals damage from your hero equal to this ally's ATK; or this ally deals unpreventable holy damage to target hero equal to this ally's ATK. If you control two or more allies that share a or race, you may choose both."
+    text: Protector
+  - type: Ability
+    text: "At the start of your turn, choose one: this ally heals damage from your hero equal to this ally's ATK; or this ally deals unpreventable holy damage to target hero equal to this ally's ATK."
+  - type: Ability
+    text: If you control two or more allies that share a {horde} or {alliance} race, you may choose both.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Paladin

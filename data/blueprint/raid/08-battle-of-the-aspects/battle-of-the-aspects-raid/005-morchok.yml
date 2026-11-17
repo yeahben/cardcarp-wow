@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Earth Elemental
+
 trait:
 
 damage: 2
@@ -15,14 +18,18 @@ health: 12
 
 combat: Melee
 
-type: Boss
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
-    text: 'Boss When Morchok enters play, he deals 1 melee damage to each Raiding hero and ally, and each Raider exhausts all allies he controls that were dealt damage this way. Resonating Crystal (Deathwing Stages 2+) : When Morchok deals combat damage to a defending hero, Morchok deals double that much shadow damage to each other Raiding hero.'
+    text: Boss (Deathwing can't be attacked. When Morchok is dealt fatal damage, each Raider draws a card.)
+  - type: Ability
+    text: When Morchok enters play, he deals 1 melee damage to each Raiding hero and ally, and each Raider exhausts all allies he controls that were dealt damage this way.
+  - type: Ability
+    text: 'Resonating Crystal (Deathwing Stages 2+): When Morchok deals combat damage to a defending hero, Morchok deals double that much shadow damage to each other Raiding hero.'
 
 regulation:
 
 errata: []
-
-temp: Earth Elemental

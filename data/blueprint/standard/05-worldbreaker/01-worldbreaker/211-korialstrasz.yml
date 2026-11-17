@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Red
+  - Dragonkin
+  - Consort
+
 trait:
 
 cost: '6'
@@ -17,12 +22,16 @@ health: 6
 
 combat: Fire
 
+limit:
+  - name: Korialstrasz
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you play an ally, put X 1 / 1 Red Dragonkin ally tokens into play, where X is that ally's cost.
+    text: When you play an ally, put X 1 {fire} / 1 {health} Red Dragonkin ally tokens into play, where X is that ally's cost.
 
 regulation:
 
 errata: []
-
-temp: Red Dragonkin Consort

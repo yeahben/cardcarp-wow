@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Paladin
 
+talent:
+  - Protection
+
+limit:
+  - name: Seal
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When your hero deals combat damage with a weapon, prevent all damage that would be dealt to target friendly ally this turn.'
+    text: 'Ongoing: When your hero deals combat damage with a weapon, prevent all damage that would be dealt to target friendly ally this turn.'
 
 regulation:
 
 errata: []
-
-temp: Protection

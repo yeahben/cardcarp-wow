@@ -1,14 +1,21 @@
-name: Scarlet Crusaders Strike
+name: Scarlet Crusader's Strike
 
 origin: scarlet-monastery-035
 
 layout: Standard
 
 category:
+  - Ability
 
 trait:
 
-rule: []
+instant: false
+
+type: Dungeon
+
+rule:
+  - type: Ability
+    text: Mograine deals 2 unpreventable holy damage to the MARKED hero for each different name among Dungeon allies in play.
 
 regulation:
 

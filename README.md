@@ -5,9 +5,9 @@ A flat-file dataset for the World of Warcraft Trading Card Game.
 <br>
 
 > [!IMPORTANT]
-> The structure of this dataset is complete: every card printing and card blueprint has its own file.<br>
-> Many game properties are still incomplete, including rules text, costs and abilities.<br>
-> Editors are actively working on this data and welcome community contributions.
+> Every set has been checked against card scans: rules text, costs, stats, type lines, rarity, artist and flavor are transcribed from the printed card.<br>
+> Each set file records the date of that check in `verified`. Format legality, errata and `regulation` are still incomplete.<br>
+> Rules text is the wording printed on the card, not later oracle wording ([conventions](CONTRIBUTING.md#-transcribing-a-card)).
 
 <br>
 
@@ -62,6 +62,20 @@ data/collection/01-azeroth.yml
 ```
 
 A blueprint sits in the folder of its earliest printing (its `origin`).
+
+<br>
+
+### What a blueprint holds
+
+A blueprint is a field-by-field reading of the printed card. Galway Steamwhistle's type line `Ally — Gnome Warrior` becomes `category: [Ally]`, `race: Gnome` and `class: [Warrior]`, and the text box becomes `rule`, one entry per printed paragraph:
+
+```yaml
+rule:
+  - type: Ability
+    text: '{activate} → Ready your hero and one of your weapons.'
+```
+
+Icons printed inside rules text are written as brace tokens such as `{activate}`, `{3}` and `{horde}`. [CONTRIBUTING](CONTRIBUTING.md#-transcribing-a-card) lists every field and token.
 
 Collection type is the top level: `standard` for main-line expansions, followed by `raid`, `starter` and `extra`.
 

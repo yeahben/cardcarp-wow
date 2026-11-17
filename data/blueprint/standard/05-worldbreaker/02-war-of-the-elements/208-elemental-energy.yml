@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'Pay 5 to complete this quest. Reward : Draw a card, or two if you control an Elemental.'
+    text: Pay {5} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card, or two cards if you control an Elemental.'
 
 regulation:
 
 errata: []
-
-temp: ''

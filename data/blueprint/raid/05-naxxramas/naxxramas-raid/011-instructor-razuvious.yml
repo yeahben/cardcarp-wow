@@ -8,19 +8,31 @@ category:
   - Hero
 
 trait:
+  - 'Death Knight Understudy: 2'
+
+health: 6
+
+race: Human
+
+class:
+  - Death Knight
 
 type: Boss
 
 rule:
   - type: Ability
     position: Front
-    text: Assault 4 When a Death Knight Understudy leaves your control, flip Razuvious face down.
+    text: Assault 4
+  - type: Ability
+    position: Front
+    text: When a Death Knight Understudy leaves your control, flip Razuvious face down.
   - type: Ability
     position: Reverse
-    text: Assault 10 Razuvious must attack if able and can attack only a Death Knight Understudy if able.
+    text: Assault 10
+  - type: Ability
+    position: Reverse
+    text: Razuvious must attack if able and can attack only a Death Knight Understudy if able.
 
 regulation:
 
 errata: []
-
-temp: Human Death Knight 6

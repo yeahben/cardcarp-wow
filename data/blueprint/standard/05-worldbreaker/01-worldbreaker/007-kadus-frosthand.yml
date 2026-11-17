@@ -13,16 +13,22 @@ health: 25
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Mage
+
+talent:
+  - Frost
+
 rule:
   - type: Ability
     position: Front
-    text: 6 → Flip Kadus
+    text: '{6} → Flip Kadus'
   - type: Ability
     position: Reverse
-    text: → Target ally can't attack this turn.
+    text: "{activate} → Target ally can't attack this turn."
 
 regulation:
 
 errata: []
-
-temp: Dwarf Mage

@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: 2 , Destroy this ally → Destroy target ability.
+    text: '{2}, Destroy Confessor Mildred → Destroy target ability.'
 
 regulation:
 
 errata: []
-
-temp: Undead Priest

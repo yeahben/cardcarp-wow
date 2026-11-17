@@ -14,12 +14,19 @@ cost: '1'
 class:
   - Rogue
 
+talent:
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target friendly ally. Ongoing : Attached ally has Assault 2 . When attached ally is destroyed, target opponent discards a card.'
+    text: Attach to target friendly ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has Assault 2. (It has +2 ATK on your turn.)'
+  - type: Ability
+    text: When attached ally is destroyed, target opponent discards a card.
 
 regulation:
 
 errata: []
-
-temp: Subtlety

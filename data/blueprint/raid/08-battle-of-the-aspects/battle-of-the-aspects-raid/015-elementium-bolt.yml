@@ -9,14 +9,18 @@ category:
 
 trait:
 
-type: Boss
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
-    text: "This ability enters play with an elementium counter on it. Ongoing : At the start of Deathwing's turn, remove an elementium counter from this ability, and Deathwing deals 3 unpreventable fire damage to each Raiding hero and ally. If you didn't, each Raider discards a card. If Deathwing is dealt 8 or more damage in one turn, destroy this ability."
+    text: This ability enters play with an elementium counter on it.
+  - type: Ability
+    text: "Ongoing: At the start of Deathwing's turn, remove an elementium counter from this ability, and Deathwing deals 3 unpreventable fire damage to each Raiding hero and ally. If you didn't, each Raider discards a card."
+  - type: Ability
+    text: If Deathwing is dealt 8 or more damage in one turn, destroy this ability.
 
 regulation:
 
 errata: []
-
-temp: ''

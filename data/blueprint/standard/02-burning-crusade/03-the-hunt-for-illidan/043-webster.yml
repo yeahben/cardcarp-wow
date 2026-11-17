@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Spider
+
 trait:
 
 cost: '3'
@@ -20,12 +23,20 @@ combat: Nature
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the end of your turn, you may put a web counter on target ally. Allies with a web counter can't attack. When Webster leaves play, remove all web counters from opposing allies.
+    text: At the end of your turn, you may put a web counter on target ally.
+  - type: Ability
+    text: Allies with a web counter can't attack.
+  - type: Ability
+    text: When Webster leaves play, remove all web counters from opposing allies.
 
 regulation:
 
 errata: []
-
-temp: Spider

@@ -1,4 +1,4 @@
-name: Godfreys Pistols
+name: Godfrey's Pistols
 
 origin: shadowfang-keep-040
 
@@ -7,14 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Guns
+
 trait:
+
+damage: 5
+
+strike: 0
+
+combat: Ranged
+
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Godfrey strikes with this weapon the first time he attacks each turn. Level 3+ : When this weapon enters play, ready Godfrey when he attacks for the first time this turn.'
+    text: Godfrey strikes with this weapon the first time he attacks each turn.
+  - type: Ability
+    text: 'Level 3+: When this weapon enters play, ready Godfrey when he attacks for the first time this turn.'
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Guns

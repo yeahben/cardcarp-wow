@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Curse
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target opposing ally. Ongoing : At the start of your turn, destroy attached ally. If you do, reveal the top X cards of your deck, where X is the number of resources you control. Put a revealed Demon with cost X or less into play and shuffle the rest into your deck.'
+    text: Attach to target opposing ally.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, destroy attached ally. If you do, reveal the top X cards of your deck, where X is the number of resources you control. Put a revealed Demon with cost X or less into play and shuffle the rest into your deck.'
 
 regulation:
 
 errata: []
-
-temp: Affliction Curse

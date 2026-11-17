@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Tol'vir
+
 trait:
 
 cost: '4'
@@ -17,14 +20,18 @@ health: 3
 
 combat: Melee
 
+class:
+  - Rogue
+  - Warrior
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: When this ally enters play, if you control an equipment, this ally has Ferocity this turn.
+    text: When this ally enters play, if you control an equipment, this ally has Ferocity this turn. (It can attack immediately.)
 
 regulation:
 
 errata: []
-
-temp: Tol'vir Rogue Warrior

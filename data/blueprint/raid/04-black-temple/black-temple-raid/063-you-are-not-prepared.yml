@@ -1,0 +1,22 @@
+name: You Are Not Prepared!
+
+origin: black-temple-raid-063
+
+layout: Standard
+
+category:
+  - Event
+
+trait:
+
+instant: false
+
+sequence: 9
+
+rule:
+  - type: Ability
+    text: Each opponent destroys an ability, ally, or equipment he controls.
+
+regulation:
+
+errata: []

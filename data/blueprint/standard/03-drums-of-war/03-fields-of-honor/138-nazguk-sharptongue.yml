@@ -19,12 +19,19 @@ combat: Frost
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of your turn, choose a hero or ally in your party. Other characters can't attack this turn. 2 , Destroy another ally in your party → Nazguk has Ferocity this turn.
+    text: At the start of your turn, choose a hero or ally in your party. Other characters can't attack this turn.
+  - type: Ability
+    text: '{2}, Destroy another ally in your party → Nazguk has ferocity this turn.'
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

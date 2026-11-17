@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '1'
@@ -14,12 +17,17 @@ cost: '1'
 class:
   - Rogue
 
-instant: Finishing Move Your hero deals 1 plus X melee damage to target hero or ally.
+talent:
+  - Assassination
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Finishing Move (To play, remove X Combo cards in your graveyard from the game, where X is 5 or less.)
+  - type: Ability
+    text: Your hero deals 1 plus X melee damage to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Assassination Combo

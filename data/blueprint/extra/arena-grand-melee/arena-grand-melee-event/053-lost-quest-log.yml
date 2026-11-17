@@ -5,10 +5,15 @@ origin: arena-grand-melee-event-053
 layout: Standard
 
 category:
+  - Event
 
 trait:
 
-rule: []
+instant: false
+
+rule:
+  - type: Ability
+    text: Reveal all face-down resources. Turn all revealed quests face up.
 
 regulation:
 

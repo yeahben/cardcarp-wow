@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Frost
+  - Elemental
+  - Lord
+
 trait:
 
 cost: '6'
@@ -17,14 +22,18 @@ health: 3
 
 combat: Frost
 
+limit:
+  - name: Ahune
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: When Ahune enters play, he deals 1 frost damage to each opposing hero and ally for this and each other Frost and card you control.
+    text: When Ahune enters play, he deals 1 frost damage to each opposing hero and ally for this and each other Frost and {frost} card you control.
 
 regulation:
 
 errata: []
-
-temp: Frost Elemental Lord

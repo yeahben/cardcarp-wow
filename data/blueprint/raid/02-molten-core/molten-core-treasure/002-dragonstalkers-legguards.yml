@@ -1,4 +1,4 @@
-name: Dragonstalkers Legguards
+name: Dragonstalker's Legguards
 
 origin: molten-core-treasure-002
 
@@ -7,19 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '4'
 
+defense: 2
+
 class:
   - Hunter
 
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you play a ability, you may pay 1 . If you do, target Ranged weapon has +2 ATK this turn.
+    text: When you play a {hunter} ability, you may pay {1}. If you do, target Ranged weapon has +2 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

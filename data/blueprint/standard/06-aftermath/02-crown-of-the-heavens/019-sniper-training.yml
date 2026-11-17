@@ -14,12 +14,19 @@ cost: '5'
 class:
   - Hunter
 
+talent:
+  - Survival
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Survival Talent Attach to target hero. Ongoing : 1 → The next time attached hero would be dealt exactly 1 damage, it's dealt 5 damage instead."
+    text: Survival Talent (You can't put Beast Mastery Talents or Marksmanship Talents in your deck.)
+  - type: Ability
+    text: Attach to target hero.
+  - type: Ability
+    text: "Ongoing: {1} → The next time attached hero would be dealt exactly 1 damage, it's dealt 5 damage instead."
 
 regulation:
 
 errata: []
-
-temp: Survival

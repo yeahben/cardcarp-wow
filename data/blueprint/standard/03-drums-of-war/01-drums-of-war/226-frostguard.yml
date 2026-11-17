@@ -7,21 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Sword
+
 trait:
 
 cost: '4'
 
+damage: 4
+
+strike: 3
+
+combat: Melee
+
 class:
   - Paladin
-  - Warrior
   - Rogue
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Allies in your party have Frost Resistance .
+    text: Allies in your party have frost resistance. (Prevent all frost or {frost} damage that those allies would be dealt.)
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

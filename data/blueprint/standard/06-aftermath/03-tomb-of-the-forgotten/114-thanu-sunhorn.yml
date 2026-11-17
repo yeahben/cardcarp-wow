@@ -19,12 +19,19 @@ combat: Holy
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When damage is healed from your hero, your hero may heal that much damage from target ally.
+    text: Protector
+  - type: Ability
+    text: When damage is healed from your hero, you may heal that much damage from target ally.
 
 regulation:
 
 errata: []
-
-temp: Tauren Paladin

@@ -13,10 +13,18 @@ health: 30
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Warrior
+
+talent:
+  - Arms
+
 rule:
   - type: Ability
     position: Front
-    text: 3 → Flip Jai
+    text: '{3} → Flip Jai'
   - type: Ability
     position: Reverse
     text: Weapons you control have +1 ATK.
@@ -24,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Blood Elf Warrior

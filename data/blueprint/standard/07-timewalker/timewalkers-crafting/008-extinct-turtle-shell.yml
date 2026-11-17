@@ -7,21 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Shield
+
 trait:
 
 cost: '4'
 
+defense: 3
+
 class:
   - Paladin
-  - Warrior
   - Shaman
+  - Warrior
+
+limit:
+  - name: Off-hand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this armor enters play, put a 1 / 1 Turtle Beast Monster ally token named Tooga into play with Tooga (1). At the start of your turn, remove a Tooga you control from the game. If you do, draw two cards.
+    text: When this armor enters play, put a 1 {melee} / 1 {health} Turtle Beast Monster ally token named Tooga into play with Tooga (1).
+  - type: Ability
+    text: At the start of your turn, remove a Tooga you control from the game. If you do, draw two cards.
 
 regulation:
 
 errata: []
-
-temp: Armor Shield

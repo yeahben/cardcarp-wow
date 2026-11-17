@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: Put a 1 / 1 Treant ally token into play, or three if you control an ally token.
+    text: Put a 1 {melee} / 1 {health} Treant ally token into play, or three if you control an ally token.
 
 regulation:
 
 errata: []
-
-temp: Balance

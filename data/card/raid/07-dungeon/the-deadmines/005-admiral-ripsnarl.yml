@@ -2,12 +2,12 @@ blueprint: admiral-ripsnarl-the-deadmines-005
 
 index: '005'
 
-rarity: Rare
+rarity: Common
 
 artist: Brian Despain
 
 variation: []
 
-flavor: '"I will rip your heart from your chest!"'
+flavor:
 
 set: The Deadmines

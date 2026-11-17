@@ -7,16 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Sword
+
 trait:
 
 cost: '4'
 
+damage: 6
+
+strike: 0
+
+combat: Holy
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Invincible
+    text: Invincible (This weapon can't leave play or be targeted.)
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Sword

@@ -9,14 +9,16 @@ category:
 
 trait:
 
-type: Boss
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
-    text: Each Raider puts the top five cards of his deck into his graveyard. If a Raider puts three or more cards that share a type into his graveyard this way, Deathwing deals 5 fire damage to each hero and ally that Raider controls.
+    text: Each Raider puts the top five cards of his deck into his graveyard.
+  - type: Ability
+    text: If a Raider put three or more cards that share a type into his graveyard this way, Deathwing deals 5 fire damage to each hero and ally that Raider controls.
 
 regulation:
 
 errata: []
-
-temp: ''

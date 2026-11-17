@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Murloc
+
 trait:
 
 cost: '1'
@@ -17,14 +20,17 @@ health: 1
 
 combat: Nature
 
+class:
+  - Shaman
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: This and other Murloc allies you control have Assault 1 .
+    text: This and other Murloc allies you control have Assault 1. (They have +1 ATK on your turn.)
 
 regulation:
 
 errata: []
-
-temp: Murloc Shaman

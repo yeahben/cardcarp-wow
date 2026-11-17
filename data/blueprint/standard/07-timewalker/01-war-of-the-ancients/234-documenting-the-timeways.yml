@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'You pay 1 less to complete this quest for each five cards in your graveyard. Pay 5 to complete this quest. Reward : Draw a card.'
+    text: You pay {1} less to complete this quest for each five cards in your graveyard. Pay {5} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

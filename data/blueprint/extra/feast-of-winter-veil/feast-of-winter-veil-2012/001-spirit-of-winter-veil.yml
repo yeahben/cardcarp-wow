@@ -11,12 +11,14 @@ trait:
 
 cost: '7'
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : At the start of each player's turn, he may draw two cards. Each player may place up to two additional resources each turn."
+    text: "Ongoing: At the start of each player's turn, he may draw two cards."
+  - type: Ability
+    text: Each player may place up to two additional resources each turn.
 
 regulation:
 
 errata: []
-
-temp: ''

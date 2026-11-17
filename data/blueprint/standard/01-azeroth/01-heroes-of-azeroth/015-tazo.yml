@@ -13,13 +13,23 @@ health: 25
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Mage
+
+talent:
+  - Fire
+
+profession:
+  - Enchanting
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Ta'zo → Ta'zo deals 3 fire damage to target hero or ally. Use only on your turn.
+    text: "{3}, Flip Ta'zo → Ta'zo deals 3 fire damage to target hero or ally. Use only on your turn."
 
 regulation:
 
 errata: []
-
-temp: Troll Mage

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Disease
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Death Knight
 
+talent:
+  - Frost
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target hero. Ongoing : At the start of your turn, your hero deals 1 frost damage to attached hero. The controller of a hero dealt damage this way can't play abilities this turn."
+    text: Attach to target hero.
+  - type: Ability
+    text: "Ongoing: At the start of your turn, your hero deals 1 frost damage to attached hero. The controller of a hero dealt damage this way can't play abilities this turn."
 
 regulation:
 
 errata: []
-
-temp: Frost Disease

@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: Opposing heroes lose and can't have flip powers.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Human Warlock

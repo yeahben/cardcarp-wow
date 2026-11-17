@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'Put 3 damage on your hero and pay 1 to complete this quest. Reward : Draw a card.'
+    text: Put 3 damage on your hero and pay {1} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -1,4 +1,4 @@
-name: Vengeful Gladiators Bonecracker
+name: Vengeful Gladiator's Bonecracker
 
 origin: drums-of-war-235
 
@@ -7,13 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Mace
+
 trait:
 
 cost: '2'
 
+damage: 0
+
+strike: 0
+
+combat: Melee
+
 class:
-  - Warrior
   - Rogue
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
+type: Arena
 
 rule:
   - type: Ability
@@ -22,5 +40,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: 1H Arena Weapon Mace

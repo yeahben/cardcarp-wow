@@ -5,7 +5,10 @@ origin: scourgewar-021
 layout: Standard
 
 category:
-  - Hero
+  - Master Hero
+
+subtype:
+  - Lich
 
 trait:
 
@@ -17,22 +20,16 @@ health: 33
 
 combat: Frost
 
-class:
-  - Warrior
-  - Hunter
-  - Rogue
-  - Mage
-  - Warlock
-
-type: Master
+instant: false
 
 rule:
   - type: Ability
     position: Front
-    text: ", , , , or Hero Required When your hero becomes Kel'Thuzad, target an opponent. Gain control of an ally he controls. Search his zones for one ally each and put any number of them into play."
+    text: '{hunter}, {mage}, {rogue}, {warlock}, or {warrior} Hero Required'
+  - type: Ability
+    position: Front
+    text: When your hero becomes Kel'Thuzad, target an opponent. Gain control of an ally he controls. Search his zones for one ally each and put any number of them into play.
 
 regulation:
 
 errata: []
-
-temp: Lich

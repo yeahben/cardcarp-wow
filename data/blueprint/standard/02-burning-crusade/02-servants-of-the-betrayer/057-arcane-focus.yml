@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '1'
@@ -14,12 +17,17 @@ cost: '1'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Arcane Hero Required Ongoing : → Ready one of your resources. Use only if you've played another Arcane or card this turn."
+    text: Arcane Hero Required
+  - type: Ability
+    text: "Ongoing: {activate} → Ready one of your resources. Use only if you've played another Arcane or {arcane} card this turn."
 
 regulation:
 
 errata: []
-
-temp: Arcane Talent

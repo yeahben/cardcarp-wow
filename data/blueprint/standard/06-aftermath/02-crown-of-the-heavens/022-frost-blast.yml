@@ -5,16 +5,24 @@ origin: crown-of-the-heavens-022
 layout: Standard
 
 category:
-  - Token
+  - Ability
 
 trait:
 
+cost: X
+
+class:
+  - Mage
+
+talent:
+  - Frost
+
+instant: true
+
 rule:
   - type: Ability
-    text: "Ongoing : Attached hero can't attack, exhaust, or be dealt damage. At the start of your turn, destroy Frost Blast, and then Kel'Thuzad deals 10 frost damage to attached hero."
+    text: Your hero deals 1 frost damage to each of X target heroes and/or allies. Characters dealt damage this way can't attack or protect this turn.
 
 regulation:
 
 errata: []
-
-temp: Token

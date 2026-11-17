@@ -11,12 +11,16 @@ trait:
 
 cost: 2+X
 
+instant: false
+
 rule:
   - type: Ability
-    text: Stage 2 Only Onyxia deals X fire damage to each opposing hero and ally. Deep Breath can't be interrupted.
+    text: Stage 2 Only
+  - type: Ability
+    text: Onyxia deals X fire damage to each opposing hero and ally.
+  - type: Ability
+    text: Deep Breath can't be interrupted.
 
 regulation:
 
 errata: []
-
-temp: ''

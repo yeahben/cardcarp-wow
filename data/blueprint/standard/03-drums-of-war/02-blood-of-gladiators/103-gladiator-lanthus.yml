@@ -19,14 +19,19 @@ combat: Arcane
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 type: Arena
 
 rule:
   - type: Ability
-    text: Arena allies in your party have " → Exhaust target ally."
+    text: Arena allies in your party have "{activate} → Exhaust target ally."
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

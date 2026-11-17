@@ -7,27 +7,39 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Scorpid
+  - Beast
+
 trait:
 
 cost: '3'
 
 damage: 1
 
-health: 3
+health: 2
 
 combat: Nature
 
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Elusive When this ally deals combat damage to a hero, add a venom counter to that hero. At the start of your turn, destroy each opposing hero with three or more venom counters on it.
+    text: Elusive
+  - type: Ability
+    text: When this ally deals combat damage to a hero, add a venom counter to that hero.
+  - type: Ability
+    text: At the start of your turn, destroy each opposing hero with three or more venom counters on it.
 
 regulation:
 
 errata: []
-
-temp: Scorpid Beast

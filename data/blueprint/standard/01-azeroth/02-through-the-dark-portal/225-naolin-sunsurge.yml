@@ -15,16 +15,25 @@ damage: 3
 
 health: 2
 
-combat: Ranged
+combat: Arcane
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Blood Elf Hero Required When you play an ability for the first time on each of your turns, draw a card. At the end of your turn, if you didn't play an ability this turn, destroy Naolin Sunsurge.
+    text: Blood Elf Hero Required
+  - type: Ability
+    text: When you play an ability for the first time on each of your turns, draw a card.
+  - type: Ability
+    text: At the end of your turn, if you didn't play an ability this turn, destroy Naolin Sunsurge.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

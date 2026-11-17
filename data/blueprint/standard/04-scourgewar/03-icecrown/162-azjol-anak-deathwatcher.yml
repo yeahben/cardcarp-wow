@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Nerubian
+
 trait:
 
 cost: '4'
@@ -17,12 +20,14 @@ health: 4
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: Nerubian Reputation When this ally enters play, you may search your deck for a card and put it into your graveyard.
+    text: Nerubian Reputation (You can't put cards with other reputations in your deck.)
+  - type: Ability
+    text: When this ally enters play, you may search your deck for a card and put it into your graveyard.
 
 regulation:
 
 errata: []
-
-temp: Nerubian

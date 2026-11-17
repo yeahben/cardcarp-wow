@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Each ally has ATK and equal to its cost, and can't gain or lose ATK or .
+    text: Each ally has ATK and health equal to its cost, and can't gain or lose ATK or health.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

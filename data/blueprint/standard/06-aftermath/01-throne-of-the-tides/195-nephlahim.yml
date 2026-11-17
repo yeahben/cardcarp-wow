@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ogre
+
 trait:
 
 cost: '8'
@@ -17,14 +20,23 @@ health: 8
 
 combat: Shadow
 
+class:
+  - Warlock
+
+limit:
+  - name: Neph'Lahim
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Smash Other Ogre heroes and allies you control have Assault 2 and Smash .
+    text: Smash (If this ally would deal more than fatal damage to a defending ally, it deals the rest to that ally's controller's hero.)
+  - type: Ability
+    text: Other Ogre heroes and allies you control have Assault 2 and Smash.
 
 regulation:
 
 errata: []
-
-temp: Ogre Warlock

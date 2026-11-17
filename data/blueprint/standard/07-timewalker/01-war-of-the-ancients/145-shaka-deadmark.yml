@@ -19,6 +19,13 @@ combat: Ranged
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, target an opposing hero. Orc allies you control have +3 ATK while in combat with that hero this turn.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Orc Hunter

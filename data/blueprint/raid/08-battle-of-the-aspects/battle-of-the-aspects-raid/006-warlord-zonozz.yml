@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Faceless One
+  - General
+
 trait:
 
 damage: 2
@@ -15,14 +19,18 @@ health: 14
 
 combat: Shadow
 
-type: Boss
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
-    text: "Boss Zon'ozz attacks the Raiding ally with the highest remaining health if able, and he has +3 ATK while attacking an ally. Void of the Unmaking (Deathwing Stages 2+) : When Zon'ozz deals fatal combat damage to a defending Raiding ally, that ally's controller removes the top card of his deck from the game. Zon'ozz deals shadow damage equal to that card's cost to each other Raiding hero."
+    text: Boss (Deathwing can't be attacked. When Zon'ozz is dealt fatal damage, each Raider draws a card.)
+  - type: Ability
+    text: Zon'ozz attacks the Raiding ally with the highest remaining health if able, and he has +3 ATK while attacking an ally.
+  - type: Ability
+    text: "Void of the Unmaking (Deathwing Stages 2+): When Zon'ozz deals fatal combat damage to a defending Raiding ally, that ally's controller removes the top card of his deck from the game. Zon'ozz deals shadow damage equal to that card's cost to each other Raiding hero."
 
 regulation:
 
 errata: []
-
-temp: Faceless One General

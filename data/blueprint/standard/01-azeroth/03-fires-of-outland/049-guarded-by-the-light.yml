@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Paladin
 
-instant: Prevent the next 3 damage that would be dealt to target ally this turn.
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Prevent the next 3 damage that would be dealt to target ally this turn.
 
 regulation:
 
 errata: []
-
-temp: Holy

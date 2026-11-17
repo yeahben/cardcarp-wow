@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '4'
@@ -14,12 +17,17 @@ cost: '4'
 class:
   - Shaman
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: Restoration Hero Required Search your deck for an ally with cost less than or equal to the number of resources you control. Put it into play with damage equal to its -1.
+    text: Restoration Hero Required
+  - type: Ability
+    text: Search your deck for an ally with cost less than or equal to the number of resources you control. Put it into play with damage equal to its {health} -1.
 
 regulation:
 
 errata: []
-
-temp: Restoration Talent

@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: When 1 or more damage is healed from this ally, you may draw a card.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Draenei Priest

@@ -14,12 +14,17 @@ cost: '5'
 class:
   - Druid
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally. Ongoing : Attached ally has +5 / +5.'
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +5 / +5.'
 
 regulation:
 
 errata: []
-
-temp: Restoration

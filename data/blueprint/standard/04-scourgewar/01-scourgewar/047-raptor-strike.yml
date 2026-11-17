@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Hunter
 
-instant: Your hero deals 3 melee damage to target ally that entered play this turn.
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 3 melee damage to target ally that entered play this turn.
 
 regulation:
 
 errata: []
-
-temp: Survival

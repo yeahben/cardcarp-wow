@@ -19,12 +19,19 @@ combat: Ranged
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Berserking 1 → Jil'ti has Long-Range this turn.
+    text: Berserking (+1 ATK for each damage.)
+  - type: Ability
+    text: "{1} → Jil'ti has long-range this turn. (Defenders deal no combat damage to her.)"
 
 regulation:
 
 errata: []
-
-temp: Troll Hunter

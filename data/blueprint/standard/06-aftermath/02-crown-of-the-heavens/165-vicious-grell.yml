@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Grell
+
 trait:
 
 cost: '1'
@@ -17,14 +20,18 @@ health: 1
 
 combat: Fire
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: If this ally would be destroyed on an opponent's turn, you may pay 1 . If you do, return him to his owner's hand instead.
+    text: If this ally would be destroyed on an opponent's turn, you may pay {1}. If you do, return him to his owner's hand instead.
 
 regulation:
 
 errata: []
-
-temp: Grell

@@ -7,14 +7,19 @@ layout: Standard
 category:
   - Location
 
+subtype:
+  - Arena
+
 trait:
+
+capture: 3
 
 rule:
   - type: Ability
-    text: When a hero or ally in your party deals damage, add an arena counter. , Remove three arena counters → Target player chooses an ally in his party, and then you choose an ally in your party. Each deals melee damage equal to its ATK to the other.
+    text: When a hero or ally in your party deals damage, add an arena counter.
+  - type: Ability
+    text: '{activate}, Remove three arena counters → Target player chooses an ally in his party, and then you choose an ally in your party. Each deals melee damage equal to its ATK to the other.'
 
 regulation:
 
 errata: []
-
-temp: Arena

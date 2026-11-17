@@ -13,13 +13,23 @@ health: 30
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Warrior
+
+talent:
+  - Arms
+
+profession:
+  - Mining
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: Flip Halavar → You pay 1 less to play your next Two-Handed weapon this turn.
+    text: Flip Halavar → You pay {1} less to play your next Two-Handed weapon this turn.
 
 regulation:
 
 errata: []
-
-temp: Draenei Warrior

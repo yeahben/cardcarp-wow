@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '6'
@@ -14,12 +17,17 @@ cost: '6'
 class:
   - Shaman
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Restoration Hero Required Ongoing : Exhaust for of your Totems → Your hero deals 10 nature damage to target hero or ally.'
+    text: Restoration Hero Required
+  - type: Ability
+    text: 'Ongoing: Exhaust four of your Totems → Your hero deals 10 nature damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Restoration Talent

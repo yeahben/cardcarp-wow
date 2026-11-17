@@ -7,21 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Axe
+
 trait:
 
 cost: '0'
 
+damage: 0
+
+strike: 0
+
+combat: Melee
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: As this weapon enters play, destroy any number of abilities, allies, and/or equipment you control. This weapon enters play with a +1 ATK counter on it for each card destroyed this way.
+    text: As this weapon enters play, destroy any number of abilities, allies, and/or equipment you control.
+  - type: Ability
+    text: This weapon enters play with a +1 ATK counter on it for each card destroyed this way.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Axe

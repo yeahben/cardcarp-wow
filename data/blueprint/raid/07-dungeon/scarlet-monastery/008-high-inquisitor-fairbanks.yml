@@ -8,6 +8,7 @@ category:
   - Ally
 
 trait:
+  - 2 XP
 
 damage: 6
 
@@ -15,14 +16,23 @@ health: 8
 
 combat: Holy
 
+race: Undead
+
+class:
+  - Priest
+
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: 'Boss Ferocity Holy Word : When Fairbanks enters play, if he was the first Dungeon card flipped this turn, he deals 6 unpreventable holy damage to the MARKED hero. Then, shuffle him back into the Dungeon deck.'
+    text: Boss (The Dungeon hero can't be attacked.)
+  - type: Ability
+    text: Ferocity (This ally can attack immediately.)
+  - type: Ability
+    text: 'Holy Word: When Fairbanks enters play, if he was the first Dungeon card flipped this turn, he deals 6 unpreventable holy damage to the MARKED hero. Then, shuffle him back into the Dungeon deck.'
 
 regulation:
 
 errata: []
-
-temp: Undead Priest

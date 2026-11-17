@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'During your turn, put 1 damage on each of three different allies in your party and pay 1 to complete this quest. Reward : Draw two cards.'
+    text: During your turn, put 1 damage on each of three different allies in your party and pay {1} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw two cards.'
 
 regulation:
 
 errata: []
-
-temp: ''

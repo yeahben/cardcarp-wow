@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Harmonize This ally can't be targeted by opponents.
+    text: Harmonize (You pay {1} less to play allies with printed cost 4 or more.)
+  - type: Ability
+    text: This ally can't be targeted by opponents.
 
 regulation:
 
 errata: []
-
-temp: Troll Druid

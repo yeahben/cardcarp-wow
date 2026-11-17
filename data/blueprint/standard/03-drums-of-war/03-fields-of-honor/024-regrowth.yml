@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Druid
 
-instant: 'Attach to target hero or ally, and your hero heals 4 damage from it. Ongoing : At the start of your turn, your hero heals 1 damage from attached character.'
+talent:
+  - Restoration
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target hero or ally, and your hero heals 4 damage from it.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero heals 1 damage from attached character.'
 
 regulation:
 
 errata: []
-
-temp: Restoration

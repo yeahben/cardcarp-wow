@@ -1,4 +1,4 @@
-name: Edgemasters Handguards
+name: Edgemaster's Handguards
 
 origin: heroes-of-azeroth-286
 
@@ -7,22 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '3'
 
+defense: 1
+
 class:
-  - Paladin
-  - Warrior
   - Hunter
+  - Paladin
   - Shaman
+  - Warrior
+
+limit:
+  - name: Hands
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: You pay 1 less to strike with weapons.
+    text: You pay {1} less to strike with weapons.
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Hunter
+
+talent:
+  - Survival
+
+profession:
+  - Mining
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: x , Flip Azarak Wolfsblood → Target hero or ally has -X ATK while in combat with Azarak this turn.
+    text: '{x}, Flip Azarak Wolfsblood → Target hero or ally has -X ATK while in combat with Azarak this turn.'
 
 regulation:
 
 errata: []
-
-temp: Orc Hunter

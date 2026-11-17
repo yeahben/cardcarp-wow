@@ -19,12 +19,23 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+limit:
+  - name: Magatha
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Tribe : When this or another Tauren ally enters play under your control, Magatha heals 5 damage from your hero. Your hero has Assault 5 while it's undamaged."
+    text: 'Tribe: When this or another Tauren ally enters play under your control, Magatha heals 5 damage from your hero.'
+  - type: Ability
+    text: Your hero has Assault 5 while it's undamaged.
 
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

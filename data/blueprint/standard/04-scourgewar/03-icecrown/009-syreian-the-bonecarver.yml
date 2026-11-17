@@ -7,12 +7,20 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Vrykul
+
 trait:
+
+health: 28
 
 class:
   - Hunter
 
-type: Raid
+talent:
+  - Beast Mastery
+
+type: Scourge
 
 rule:
   - type: Ability
@@ -20,10 +28,8 @@ rule:
     text: Flip Syreian, remove a Hunter in your graveyard from the game → Ready target Pet.
   - type: Ability
     position: Reverse
-    text: "Deckbuilding : You can only include either or cards, cards, Beast Mastery talents, neutral cards, and Scourge cards. You can't include cards with reputations or other text restrictions."
+    text: "Deckbuilding: You can only include either {alliance} or {horde} cards, {hunter} cards, {hunter} Beast Mastery Talents, neutral cards, and Scourge cards. You can't include cards with reputations or other text restrictions."
 
 regulation:
 
 errata: []
-
-temp: Vrykul Hunter 28

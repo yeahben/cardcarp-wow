@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Mechanical
+
 trait:
 
 cost: '3'
@@ -17,6 +20,8 @@ health: 4
 
 combat: Fire
 
+instant: false
+
 rule:
   - type: Ability
     text: When a player plays a card, Fel Cannon deals 2 fire damage to that player's hero.
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Mechanical

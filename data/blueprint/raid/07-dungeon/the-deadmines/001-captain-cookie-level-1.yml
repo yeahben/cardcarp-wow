@@ -1,4 +1,4 @@
-name: Captain Cookie - Level 1
+name: '"Captain" Cookie — Level 1'
 
 origin: the-deadmines-001
 
@@ -7,7 +7,12 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Murloc
+  - Cook
+
 trait:
+  - 5 XP
 
 damage: 0
 
@@ -20,10 +25,14 @@ type: Dungeon
 rule:
   - type: Ability
     position: Front
-    text: 'Level Up: 10 Flip 2 Assault 3 , Long-Range'
+    text: 'Level Up: 10 (At the start of the Dungeon turn, before flipping any cards, Level Up Cookie if any Raiding hero has 10 or more damage.)'
+  - type: Ability
+    position: Front
+    text: Flip 2 (At the start of the Dungeon turn, flip two Dungeon cards.)
+  - type: Ability
+    position: Front
+    text: Assault 3, Long-Range
 
 regulation:
 
 errata: []
-
-temp: Murloc Cook

@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Hunter
 
-instant: Marksmanship Talent Your hero deals 2 ranged damage to target hero or ally. That damage is doubled for each other card named Concussive Barrage in your graveyard.
+talent:
+  - Marksmanship
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Marksmanship Talent (You can't put Beast Mastery Talents or Survival Talents in your deck.)
+  - type: Ability
+    text: Your hero deals 2 ranged damage to target hero or ally. That damage is doubled for each other card named Concussive Barrage in your graveyard.
 
 regulation:
 
 errata: []
-
-temp: Marksmanship

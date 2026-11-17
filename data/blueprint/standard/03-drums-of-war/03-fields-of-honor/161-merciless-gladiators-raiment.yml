@@ -1,4 +1,4 @@
-name: Merciless Gladiators Raiment
+name: Merciless Gladiator's Raiment
 
 origin: fields-of-honor-161
 
@@ -7,19 +7,41 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor Set
+  - Cloth
+
 trait:
 
 cost: '8'
 
+defense: 5
+
 class:
   - Priest
 
+limit:
+  - name: Chest
+    count: 1
+  - name: Hands
+    count: 1
+  - name: Head
+    count: 1
+  - name: Legs
+    count: 1
+  - name: Shoulder
+    count: 1
+
+instant: false
+
+type: Arena
+
 rule:
   - type: Ability
-    text: Each hero and ally in your party has +X health, where X is its printed health. → Target opponent puts three allies from his party into their owners' hands.
+    text: Each hero and ally in your party has +X health, where X is its printed health.
+  - type: Ability
+    text: "{activate} → Target opponent puts three allies from his party into their owners' hands."
 
 regulation:
 
 errata: []
-
-temp: Arena Armor Set Cloth

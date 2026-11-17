@@ -19,12 +19,23 @@ combat: Nature
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+limit:
+  - name: Fandral
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive → Target ally has Absorb , Ferocity , Sentinel , and Stealth this turn.
+    text: Elusive
+  - type: Ability
+    text: '{activate} → Target ally has Absorb, Ferocity, Sentinel, and Stealth this turn.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

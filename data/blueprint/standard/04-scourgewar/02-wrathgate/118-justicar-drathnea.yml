@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally deals damage to a Paladin, that Paladin's controller discards a card.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Draenei Priest

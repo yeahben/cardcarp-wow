@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Taunka
+  - High
+  - Chieftain
+
 trait:
 
 cost: '4'
@@ -19,12 +24,17 @@ combat: Frost
 
 faction: Horde
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the end of your turn, put a 1 / 1 Taunka ally token into play. Taunka you control have Assault 1 .
+    text: At the end of your turn, put a 1 {frost} / 1 {health} Taunka ally token into play.
+  - type: Ability
+    text: Taunka you control have Assault 1.
 
 regulation:
 
 errata: []
-
-temp: Taunka High Chieftain

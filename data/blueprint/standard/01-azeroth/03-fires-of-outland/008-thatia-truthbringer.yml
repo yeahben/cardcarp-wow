@@ -13,13 +13,23 @@ health: 29
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
+talent:
+  - Holy
+
+profession:
+  - Blacksmithing
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: '4 , Flip Tathia Truthbringer → Choose one: Thatia heals 4 damage from target hero or ally; or prevent the next 4 damage that would be dealt to target hero or ally this turn.'
+    text: '{4}, Flip Thatia Truthbringer → Choose one: Thatia heals 4 damage from target hero or ally; or prevent the next 4 damage that would be dealt to target hero or ally this turn.'
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

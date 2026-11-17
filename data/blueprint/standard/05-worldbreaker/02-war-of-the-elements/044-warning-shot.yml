@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Hunter
 
-instant: Target ally with cost 4 or more has -5 ATK this turn.
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target ally with cost 4 or more has -5 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Survival

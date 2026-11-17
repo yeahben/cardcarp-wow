@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Hunter
+
+talent:
+  - Marksmanship
+
+profession:
+  - Engineering
+  - Leatherworking
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Elendril → Your Ranged weapons have +3 ATK this turn.
+    text: '{1}, Flip Elendril → Your Ranged weapons have +3 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Hunter

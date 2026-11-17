@@ -11,10 +11,14 @@ trait:
 
 rule:
   - type: Ability
-    text: 'Reveal any number of cards from your hand and pay 5 to complete this quest. Reward : If you revealed an ability, draw a card. If you revealed an ally, draw a card. If you revealed an equipment, draw a card.'
+    text: Reveal any number of cards from your hand and pay {5} to complete this quest.
+  - type: Ability
+    text: 'Reward: If you revealed an ability, draw a card.'
+  - type: Ability
+    text: If you revealed an ally, draw a card.
+  - type: Ability
+    text: If you revealed an equipment, draw a card.
 
 regulation:
 
 errata: []
-
-temp: ''

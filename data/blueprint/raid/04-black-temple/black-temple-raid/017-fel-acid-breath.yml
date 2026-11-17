@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Traitor
+
 trait:
 
 cost: '2'
@@ -14,12 +17,14 @@ cost: '2'
 class:
   - Shaman
 
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required Target opponent chooses three allies in his party, in order. Your hero deals 3, 2, and 1 nature damage to them, respectively.
+    text: Traitor Hero Required
+  - type: Ability
+    text: Target opponent chooses three allies in his party, in order. Your hero deals 3, 2, and 1 nature damage to them, respectively.
 
 regulation:
 
 errata: []
-
-temp: Traitor

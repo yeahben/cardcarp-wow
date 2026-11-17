@@ -1,14 +1,38 @@
-name: Pinata
+name: Piñata
 
 origin: fields-of-honor-166
 
 layout: Standard
 
 category:
+  - Equipment
+
+subtype:
+  - Item
 
 trait:
 
-rule: []
+cost: '2'
+
+class:
+  - Death Knight
+  - Druid
+  - Hunter
+  - Mage
+  - Paladin
+  - Priest
+  - Rogue
+  - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Friendly allies can attack Piñata as though it were an opposing ally.
+  - type: Ability
+    text: When Piñata defends, destroy it. If you do, draw two cards.
 
 regulation:
 

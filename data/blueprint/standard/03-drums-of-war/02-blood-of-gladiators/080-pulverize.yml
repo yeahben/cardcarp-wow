@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warrior
 
-instant: 'Choose one: Destroy target damaged ally; or destroy target ability or equipment with one or more counters.'
+talent:
+  - Fury
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Choose one: Destroy target damaged ally; or destroy target ability or equipment with one or more counters.'
 
 regulation:
 
 errata: []
-
-temp: Fury

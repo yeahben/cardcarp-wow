@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Hunter
 
-instant: When the next ability, ally, or equipment enters play this turn, destroy it.
+talent:
+  - Marksmanship
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: When the next ability, ally, or equipment enters play this turn, destroy it.
 
 regulation:
 
 errata: []
-
-temp: Marksmanship

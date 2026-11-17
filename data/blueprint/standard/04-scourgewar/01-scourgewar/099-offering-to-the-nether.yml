@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Warlock
 
+talent:
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : At the start of your turn, remove this ability from the game. If you do, you may remove target ability, ally, or equipment from the game.'
+    text: 'Ongoing: At the start of your turn, remove this ability from the game. If you do, you may remove target ability, ally, or equipment from the game.'
 
 regulation:
 
 errata: []
-
-temp: Destruction

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Vrykul
+
 trait:
 
 cost: '3'
@@ -17,14 +20,24 @@ health: 5
 
 combat: Melee
 
-type: Raid
+class:
+  - Warrior
+
+limit:
+  - name: Unlimited
+
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: Scourge Hero Required Protector When this ally enters play, you may search your deck for an ally with the same name, reveal it, and put it into your hand.
+    text: Scourge Hero Required
+  - type: Ability
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
+  - type: Ability
+    text: → When this ally enters play, you may search your deck for an ally with the same name, reveal it, and put it into your hand.
 
 regulation:
 
 errata: []
-
-temp: Vrykul Warrior

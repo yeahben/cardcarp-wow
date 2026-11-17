@@ -14,12 +14,15 @@ cost: '5'
 class:
   - Shaman
 
+talent:
+  - Elemental
+
+instant: false
+
 rule:
   - type: Ability
-    text: Target up to three heroes and/or allies. Your hero deals 3, 2, and 1 nature damage to them, respectively.
+    text: Your hero deals 3 nature damage to target hero or ally. Your hero may deal 2 nature damage to another hero or ally. Your hero may deal 1 nature damage to another hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Elemental

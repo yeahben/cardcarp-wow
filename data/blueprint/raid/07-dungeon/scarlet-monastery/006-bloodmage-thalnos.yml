@@ -7,7 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Skeleton
+
 trait:
+  - 2 XP
 
 damage: 2
 
@@ -15,14 +19,21 @@ health: 12
 
 combat: Shadow
 
+class:
+  - Mage
+
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: "Boss Flame Shock : When Thalnos attacks, he deals fire damage to the MARKED hero equal to the highest cost card in that hero's party. If this ally would be dealt holy ( ) damage, he is dealt double that amount instead."
+    text: Boss (The Dungeon hero can't be attacked.)
+  - type: Ability
+    text: "Flame Shock: When Thalnos attacks, he deals fire damage to the MARKED hero equal to the highest cost card in that hero's party."
+  - type: Ability
+    text: If this ally would be dealt holy ({holy}) damage, he is dealt double that amount instead.
 
 regulation:
 
 errata: []
-
-temp: Skeleton Mage

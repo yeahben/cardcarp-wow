@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : 1 , Remove an ability card in your graveyard from the game → Prevent the next 2 damage that your hero would be dealt this turn.'
+    text: 'Ongoing: {1}, Remove an ability card in your graveyard from the game → Prevent the next 2 damage that your hero would be dealt this turn.'
 
 regulation:
 
 errata: []
-
-temp: Arcane

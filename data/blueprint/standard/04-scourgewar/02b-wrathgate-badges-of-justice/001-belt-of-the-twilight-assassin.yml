@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '2'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Waist
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Discard an equipment → Add a murder counter. Your hero has Assault 1 for each murder counter.
+    text: '{1}, Discard an equipment → Add a murder counter.'
+  - type: Ability
+    text: Your hero has Assault 1 for each murder counter.
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

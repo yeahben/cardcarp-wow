@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Warlock
 
-instant: Your hero deals 3 shadow damage to target hero or ally and heals 1 damage from itself for each damage dealt this way.
+talent:
+  - Affliction
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 3 shadow damage to target hero or ally and heals 1 damage from itself for each damage dealt this way.
 
 regulation:
 
 errata: []
-
-temp: Affliction

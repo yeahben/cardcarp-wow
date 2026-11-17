@@ -1,4 +1,4 @@
-name: Crime Scene Alarm-O-Bot
+name: Crime Scene Alarm-o-Bot
 
 origin: dungeon-treasure-012
 
@@ -6,6 +6,10 @@ layout: Standard
 
 category:
   - Ally
+
+subtype:
+  - Mechanical
+  - Sentry
 
 trait:
 
@@ -19,12 +23,14 @@ combat: Melee
 
 faction: Alliance
 
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When an opposing hero or ally attacks, you may ready this ally.
+    text: Protector
+  - type: Ability
+    text: When an opposing hero or ally attacks, you may ready this ally.
 
 regulation:
 
 errata: []
-
-temp: Mechanical Sentry

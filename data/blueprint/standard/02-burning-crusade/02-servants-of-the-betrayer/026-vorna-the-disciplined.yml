@@ -13,13 +13,23 @@ health: 25
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Mage
+
+talent:
+  - Frost
+
+profession:
+  - Enchanting
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Vor'na → Allies can't attack this turn.
+    text: "{3}, Flip Vor'na → Allies can't attack this turn."
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

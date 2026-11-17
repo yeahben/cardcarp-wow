@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Enfea Contha heals all damage from target friendly ally, then deals that much nature damage to target opposing ally.
+    text: '{activate} → Enfea Contha heals all damage from target friendly ally, then deals that much nature damage to target opposing ally.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

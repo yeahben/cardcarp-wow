@@ -19,12 +19,19 @@ combat: Fire
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'When this ally enters play, he deals X fire damage to target hero or ally, where X is the cost of another ally or equipment you control. Stash : If an opposing non-hero card would be destroyed this turn, remove it from the game instead.'
+    text: When this ally enters play, he deals X fire damage to target hero or ally, where X is the cost of another {fire} ally or equipment you control.
+  - type: Ability
+    text: 'Stash: If an opposing non-hero card would be destroyed this turn, remove it from the game instead.'
 
 regulation:
 
 errata: []
-
-temp: Troll Warlock

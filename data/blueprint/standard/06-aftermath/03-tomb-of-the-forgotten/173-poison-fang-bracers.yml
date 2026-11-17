@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '3'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Wrist
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this armor enters play, put two 1 / 1 Treant ally tokens into play. {2}, → Your hero deals 1 nature damage to target opposing hero for each token ally you control.
+    text: When this armor enters play, put two 1 {melee} / 1 {health} Treant ally tokens into play.
+  - type: Ability
+    text: '{2}, {activate} → Your hero deals 1 nature damage to target opposing hero for each token ally you control.'
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

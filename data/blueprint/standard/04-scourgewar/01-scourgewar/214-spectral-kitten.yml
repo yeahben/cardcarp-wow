@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Tiger
+
 trait:
 
 cost: '3'
@@ -17,12 +20,20 @@ health: 4
 
 combat: Melee
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: allies you control have +1 ATK. allies you control have +1 . Other non- , non- allies you control have +1 / +1.
+    text: '{horde} allies you control have +1 ATK.'
+  - type: Ability
+    text: '{alliance} allies you control have +1 {health}.'
+  - type: Ability
+    text: Other non-{horde}, non-{alliance} allies you control have +1 / +1.
 
 regulation:
 
 errata: []
-
-temp: Tiger

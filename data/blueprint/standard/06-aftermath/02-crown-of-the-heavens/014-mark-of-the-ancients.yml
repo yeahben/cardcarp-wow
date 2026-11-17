@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Druid
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally you control. Ongoing : Attached ally has +1 / +1 and Harmonize .'
+    text: Attach to target ally you control.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +1 / +1 and Harmonize. (You pay {1} less to play allies with printed cost 4 or more.)'
 
 regulation:
 
 errata: []
-
-temp: Restoration

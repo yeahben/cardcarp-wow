@@ -19,6 +19,13 @@ combat: Fire
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
     text: When Arnold Flem is destroyed, he deals 1 fire damage to each opposing hero and ally.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Mage

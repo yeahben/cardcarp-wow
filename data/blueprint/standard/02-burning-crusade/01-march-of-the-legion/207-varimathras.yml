@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Demon
+
 trait:
 
 cost: '9'
@@ -19,6 +22,11 @@ combat: Shadow
 
 faction: Horde
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: At the end of your turn, Varimathras deals 5 shadow damage to target opposing hero or ally. When that character is destroyed this turn, its controller discards a card.
@@ -26,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Demon

@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Hunter
 
-instant: Target hero or ally can't attack your hero this turn. Your hero deals 1 melee damage to that character.
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target hero or ally can't attack your hero this turn. Your hero deals 1 melee damage to that character.
 
 regulation:
 
 errata: []
-
-temp: Survival

@@ -7,20 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Shuriken
+
 trait:
 
 cost: '4'
 
+damage: 2
+
+strike: 1
+
+combat: Ranged
+
 class:
-  - Warrior
   - Rogue
+  - Warrior
 
-instant: When Shuriken of Negation enters play, you may interrupt target ability card. Thrown
+limit:
+  - name: Ranged
+    count: 1
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: When Shuriken of Negation enters play, you may interrupt target ability card.
+  - type: Ability
+    text: Thrown (When you strike with this weapon, your hero has long-range this combat. At the end of this turn, put this weapon into its owner's hand.)
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Shuriken

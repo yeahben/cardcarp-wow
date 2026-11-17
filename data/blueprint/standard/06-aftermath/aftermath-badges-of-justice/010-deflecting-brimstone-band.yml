@@ -7,21 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '6'
 
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: If your hero would be dealt damage by an opposing hero or ally, prevent 1 of it and add a stone counter to this item. Your hero has Assault 1 for each stone counter on this item.
+    text: If your hero would be dealt damage by an opposing hero or ally, prevent 1 of it and add a stone counter to this item.
+  - type: Ability
+    text: Your hero has Assault 1 for each stone counter on this item.
 
 regulation:
 
 errata: []
-
-temp: Item Ring

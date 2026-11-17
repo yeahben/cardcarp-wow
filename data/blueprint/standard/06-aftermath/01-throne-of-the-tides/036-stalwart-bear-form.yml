@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Bear
+  - Form
+
 trait:
 
 cost: '4'
@@ -14,12 +18,21 @@ cost: '4'
 class:
   - Druid
 
-instant: 'Target up to two opposing allies. Your hero deals 2 melee damage to each of them. Ongoing : Your hero has Protector and +5 .'
+talent:
+  - Feral
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: Target up to two opposing allies. Your hero deals 2 melee damage to each of them.
+  - type: Ability
+    text: 'Ongoing: Your hero has Protector and +5 {health}.'
 
 regulation:
 
 errata: []
-
-temp: Feral Bear Form

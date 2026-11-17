@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Warrior
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: You pay 2 less to play this ability if you control a weapon. Destroy target armor or weapon.
+    text: You pay {2} less to play this ability if you control a weapon.
+  - type: Ability
+    text: Destroy target armor or weapon.
 
 regulation:
 
 errata: []
-
-temp: Protection

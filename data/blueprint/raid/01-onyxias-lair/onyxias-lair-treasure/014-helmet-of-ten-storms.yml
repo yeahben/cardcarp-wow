@@ -7,19 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '4'
 
+defense: 1
+
 class:
   - Shaman
 
+limit:
+  - name: Head
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 2 , → Your hero deals 1 nature damage to target hero or ally and heals 1 damage from target hero or ally. When you play a ability, ready Helmet of Ten Storms.
+    text: '{2}, {activate} → Your hero deals 1 nature damage to target hero or ally and heals 1 damage from target hero or ally.'
+  - type: Ability
+    text: When you play a {shaman} ability, ready Helmet of Ten Storms.
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

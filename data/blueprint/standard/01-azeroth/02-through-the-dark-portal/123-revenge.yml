@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Warrior
 
-instant: You can't play Revenge during combat. Destroy target ally that attacked your hero this turn but dealt no combat damage to your hero this turn.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: You can't play Revenge during combat.
+  - type: Ability
+    text: Destroy target ally that attacked your hero this turn but dealt no combat damage to your hero this turn.
 
 regulation:
 
 errata: []
-
-temp: Protection

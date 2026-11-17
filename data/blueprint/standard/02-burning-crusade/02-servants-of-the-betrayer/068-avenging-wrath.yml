@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Paladin
 
-instant: Double your hero's ATK this turn.
+talent:
+  - Retribution
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Double your hero's ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Retribution

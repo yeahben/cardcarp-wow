@@ -7,20 +7,26 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+  - Cookie
+
 trait:
 
 cost: '3'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
-  - Paladin
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
@@ -29,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Item Cookie

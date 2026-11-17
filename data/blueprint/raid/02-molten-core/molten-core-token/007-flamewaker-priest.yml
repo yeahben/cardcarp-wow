@@ -7,7 +7,12 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Flamewaker
+
 trait:
+  - 'Sulfuron Harbinger: 4'
 
 damage: 1
 
@@ -15,14 +20,12 @@ health: 5
 
 combat: Melee
 
-type: Ally
+instant: false
 
 rule:
   - type: Ability
-    text: → Flamewaker Priest heals 4 damage from target hero or ally. Use only on your turn.
+    text: '{activate} → Flamewaker Priest heals 4 damage from target hero or ally. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Flamewaker

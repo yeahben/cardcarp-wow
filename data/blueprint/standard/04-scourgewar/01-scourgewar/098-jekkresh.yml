@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Voidwalker
+  - Demon
+
 trait:
 
 cost: '3'
@@ -20,12 +24,18 @@ combat: Melee
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Protector , Shadow Resistance Death Rattle : Target ally you control has Shadow Resistance this turn.'
+    text: Protector, Shadow Resistance (Prevent all shadow ({shadow}) damage that this ally would be dealt.)
+  - type: Ability
+    text: 'Death Rattle (When this ally enters your graveyard from anywhere): Target ally you control has Shadow Resistance this turn.'
 
 regulation:
 
 errata: []
-
-temp: Voidwalker Demon

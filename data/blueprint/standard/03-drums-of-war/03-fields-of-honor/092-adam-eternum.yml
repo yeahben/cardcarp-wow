@@ -19,12 +19,20 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warrior
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Pay 2 or remove an honor counter from a card you control → Remove Adam from the game. Put him into play at the start of the next turn.
+    text: Pay {2} or remove an honor counter from a card you control → Remove Adam from the game. Put him into play at the start of the next turn.
 
 regulation:
 
 errata: []
-
-temp: Human Warrior

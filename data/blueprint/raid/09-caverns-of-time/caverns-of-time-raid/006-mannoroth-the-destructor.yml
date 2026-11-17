@@ -7,17 +7,34 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Pit Lord
+  - Demon
+
 trait:
 
-type: Boss
+damage: 0
+
+health: 30
+
+combat: Melee
+
+class:
+  - Warrior
+
+type: Caverns
 
 rule:
   - type: Ability
     position: Front
-    text: Flip 1 , Assault 8 , Smash Mannoroth has +5 and an additional Assault 2 for each Caverns hero that has been defeated. Mannoroth must attack the ally with the lowest remaining health if able.
+    text: Flip 1, Assault 8, Smash
+  - type: Ability
+    position: Front
+    text: Mannoroth has +5 {health} and an additional Assault 2 for each Caverns hero that has been defeated.
+  - type: Ability
+    position: Front
+    text: Mannoroth must attack the ally with the lowest remaining health if able.
 
 regulation:
 
 errata: []
-
-temp: Pit Lord Demon Warrior 30

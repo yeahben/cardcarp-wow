@@ -7,22 +7,39 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Mace
+
 trait:
 
 cost: '2'
 
+damage: 2
+
+strike: 1
+
+combat: Melee
+
 class:
-  - Warrior
   - Death Knight
-  - Shaman
   - Rogue
+  - Shaman
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'While your hero is attacking an ally, this equipment has +2 ATK for each heirloom counter on it. Stash : Add an heirloom counter to target equipment you control.'
+    text: While your hero is attacking an ally, this equipment has +2 ATK for each heirloom counter on it.
+  - type: Ability
+    text: 'Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Add an heirloom counter to target equipment you control.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

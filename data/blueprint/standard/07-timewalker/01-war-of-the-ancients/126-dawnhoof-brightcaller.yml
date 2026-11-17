@@ -19,10 +19,15 @@ combat: Holy
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Paladin
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Tauren Paladin

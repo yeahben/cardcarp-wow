@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: This ally can protect against Death Knights. When an opposing Death Knight attacks, you may ready this ally.
+    text: This ally can protect against Death Knights.
+  - type: Ability
+    text: When an opposing Death Knight attacks, you may ready this ally.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

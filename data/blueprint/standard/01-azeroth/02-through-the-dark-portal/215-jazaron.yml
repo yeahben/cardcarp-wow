@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector At the start of your turn, Ja'zaron heals 1 damage from himself.
+    text: Protector
+  - type: Ability
+    text: At the start of your turn, Ja'zaron heals 1 damage from himself.
 
 regulation:
 
 errata: []
-
-temp: Troll Shaman

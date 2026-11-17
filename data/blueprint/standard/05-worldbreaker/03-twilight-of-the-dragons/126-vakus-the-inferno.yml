@@ -19,12 +19,21 @@ combat: Fire
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aberration , Ferocity This ally can attack only heroes. At the end of your turn, destroy this ally.
+    text: Aberration, Ferocity
+  - type: Ability
+    text: This ally can attack only heroes.
+  - type: Ability
+    text: At the end of your turn, destroy this ally.
 
 regulation:
 
 errata: []
-
-temp: Worgen Warlock

@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: → This turn, target ally can't attack or protect, loses and can't have powers, and is also a Sheep.
+    text: "{activate} → This turn, target ally can't attack or protect, loses and can't have powers, and is also a Sheep."
 
 regulation:
 
 errata: []
-
-temp: Human Mage

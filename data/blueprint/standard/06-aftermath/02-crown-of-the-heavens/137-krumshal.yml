@@ -1,4 +1,4 @@
-name: Krumshal
+name: Krum'shal
 
 origin: crown-of-the-heavens-137
 
@@ -6,6 +6,9 @@ layout: Standard
 
 category:
   - Ally
+
+subtype:
+  - Ogre
 
 trait:
 
@@ -17,14 +20,17 @@ health: 2
 
 combat: Nature
 
+class:
+  - Shaman
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 'Empower Monster : When this ally enters play, if you control another Monster hero or ally, target hero or ally has +3 ATK and Smash this turn.'
+    text: "Empower Monster: When this ally enters play, if you control another Monster hero or ally, target hero or ally has +3 ATK and Smash this turn. (If it would deal more than fatal combat damage to a defending ally, it deals the rest to that ally's controller's hero.)"
 
 regulation:
 
 errata: []
-
-temp: Ogre Shaman

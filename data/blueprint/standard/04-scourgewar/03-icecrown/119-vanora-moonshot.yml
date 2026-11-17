@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of your turn, target ally has Assault 3 this turn.
+    text: At the start of your turn, target ally has Assault 3 this turn. (It has +3 ATK on your turn.)
 
 regulation:
 
 errata: []
-
-temp: Night Elf Hunter

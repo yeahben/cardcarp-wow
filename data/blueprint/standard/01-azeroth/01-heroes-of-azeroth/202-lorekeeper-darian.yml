@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: x , → Target player puts the top X cards of his deck into his graveyard.
+    text: '{x}, {activate} → Target player puts the top X cards of his deck into his graveyard.'
 
 regulation:
 
 errata: []
-
-temp: Human Mage

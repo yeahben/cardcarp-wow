@@ -19,12 +19,19 @@ combat: Fire
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive If damage would be dealt with an ability you control to a hero or ally it’s attached to, that much +1 is dealt instead.
+    text: Elusive
+  - type: Ability
+    text: If damage would be dealt with an ability you control to a hero or ally attached to it, that much +1 is dealt instead.
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

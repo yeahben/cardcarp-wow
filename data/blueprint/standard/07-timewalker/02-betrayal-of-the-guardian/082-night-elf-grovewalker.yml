@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Spellshield
+    text: Spellshield (This ally can't be targeted by opponents.)
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

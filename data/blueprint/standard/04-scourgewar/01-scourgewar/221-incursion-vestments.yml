@@ -7,21 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '2'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'If an opposing ally was destroyed this turn: Hero : 1 , → Draw a card. Hero : 1 , → Your hero heals 5 damage from target hero or ally. Hero : 1 , → Target opponent discards a card.'
+    text: 'If an opposing ally was destroyed this turn:'
+  - type: Ability
+    text: '{mage} Hero: {1}, {activate} → Draw a card.'
+  - type: Ability
+    text: '{priest} Hero: {1}, {activate} → Your hero heals 5 damage from target hero or ally.'
+  - type: Ability
+    text: '{warlock} Hero: {1}, {activate} → Target opponent discards a card.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

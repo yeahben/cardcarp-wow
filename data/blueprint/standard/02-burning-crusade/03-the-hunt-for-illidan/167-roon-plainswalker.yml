@@ -19,12 +19,17 @@ combat: Frost
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Nature Resistance
+    text: Nature Resistance (Prevent all nature [{nature}] damage that this ally would be dealt.)
 
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

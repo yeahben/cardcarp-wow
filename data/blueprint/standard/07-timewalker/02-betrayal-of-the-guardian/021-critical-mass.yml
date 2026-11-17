@@ -14,12 +14,17 @@ cost: '5'
 class:
   - Mage
 
+talent:
+  - Fire
+
+instant: false
+
 rule:
   - type: Ability
-    text: Fire Talent Reveal cards from the top of your deck until you reveal two cards with the same cost. Your hero deals 1 fire damage to each opposing hero and ally for each card revealed this way. Then shuffle those revealed cards in your deck.
+    text: Fire Talent (You can't put Arcane Talents or Frost Talents in your deck.)
+  - type: Ability
+    text: Reveal cards from the top of your deck until you reveal two cards with the same cost. Your hero deals 1 fire damage to each opposing hero and ally for each card revealed this way. Then shuffle those revealed cards into your deck.
 
 regulation:
 
 errata: []
-
-temp: Fire

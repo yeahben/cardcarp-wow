@@ -15,9 +15,16 @@ damage: 2
 
 health: 3
 
-combat: Ranged
+combat: Arcane
 
 faction: Alliance
+
+race: Gnome
+
+class:
+  - Mage
+
+instant: false
 
 rule:
   - type: Ability
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Gnome Mage

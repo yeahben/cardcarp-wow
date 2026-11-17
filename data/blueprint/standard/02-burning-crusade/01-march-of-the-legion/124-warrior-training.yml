@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Warrior
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target friendly ally. Ongoing : Opposing heroes and allies can attack only attached ally if able.'
+    text: Attach to target friendly ally.
+  - type: Ability
+    text: 'Ongoing: Opposing heroes and allies can attack only attached ally if able.'
 
 regulation:
 
 errata: []
-
-temp: Protection

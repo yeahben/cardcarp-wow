@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,19 @@ cost: '2'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Assassination Hero Required Ongoing : You pay 1 less to play Poisons. At the start of your turn, your hero deals 1 nature damage to each opposing hero and ally for each Poison attached to it.'
+    text: Assassination Hero Required
+  - type: Ability
+    text: 'Ongoing: You pay {1} less to play Poisons.'
+  - type: Ability
+    text: At the start of your turn, your hero deals 1 nature damage to each opposing hero and ally for each Poison attached to it.
 
 regulation:
 
 errata: []
-
-temp: Assassination Talent

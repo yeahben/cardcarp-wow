@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: Wanda is Elusive and Untargetable while you have a weapon.
+    text: Wanda is elusive and untargetable while you have a weapon.
 
 regulation:
 
 errata: []
-
-temp: Gnome Death Knight

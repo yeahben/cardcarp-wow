@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: Eternal Target player removes a card from the top of his deck from the game for each resource you control.
+    text: Eternal (When this enters your graveyard from anywhere, you may shuffle it into your deck.)
+  - type: Ability
+    text: Target player removes a card from the top of his deck from the game for each resource you control.
 
 regulation:
 
 errata: []
-
-temp: Shadow

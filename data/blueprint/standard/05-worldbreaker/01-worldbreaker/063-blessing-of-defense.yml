@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Blessing
+
 trait:
 
 cost: '1'
@@ -14,12 +17,17 @@ cost: '1'
 class:
   - Paladin
 
-instant: 'Attach to target ally. Ongoing : Attached ally has +5 ATK while defending.'
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +5 ATK while defending.'
 
 regulation:
 
 errata: []
-
-temp: Protection Blessing

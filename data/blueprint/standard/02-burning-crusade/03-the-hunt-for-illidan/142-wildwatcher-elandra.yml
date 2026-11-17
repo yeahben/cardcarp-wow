@@ -19,6 +19,13 @@ combat: Arcane
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
     text: When Elandra enters play, target player shuffles his graveyard into his deck.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

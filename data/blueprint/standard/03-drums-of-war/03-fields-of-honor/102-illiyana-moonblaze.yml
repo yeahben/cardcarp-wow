@@ -19,12 +19,20 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Rogue
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of your turn, each opponent destroys a card he controls.
+    text: At the start of your turn, each opponent destroys a {horde} card he controls.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Rogue

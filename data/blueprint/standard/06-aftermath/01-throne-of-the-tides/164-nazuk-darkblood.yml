@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: 2 → This ally has Ferocity this turn.
+    text: '{2} → This ally has Ferocity this turn. (It can attack immediately.)'
 
 regulation:
 
 errata: []
-
-temp: Orc Warlock

@@ -5,10 +5,30 @@ origin: tomb-of-the-forgotten-083
 layout: Standard
 
 category:
+  - Ally
 
 trait:
 
-rule: []
+cost: '4'
+
+damage: 2
+
+health: 6
+
+combat: Melee
+
+faction: Alliance
+
+race: Dwarf
+
+class:
+  - Warrior
+
+instant: false
+
+rule:
+  - type: Ability
+    text: This ally has +1 {health} and Protector while you control an armor.
 
 regulation:
 

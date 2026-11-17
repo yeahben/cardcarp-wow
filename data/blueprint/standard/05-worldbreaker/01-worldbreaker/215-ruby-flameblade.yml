@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Red
+  - Dragonkin
+
 trait:
 
 cost: '2'
@@ -17,12 +21,12 @@ health: 1
 
 combat: Fire
 
+instant: false
+
 rule:
   - type: Ability
-    text: Allies you control have Assault 1 .
+    text: Allies you control have Assault 1.
 
 regulation:
 
 errata: []
-
-temp: Red Dragonkin

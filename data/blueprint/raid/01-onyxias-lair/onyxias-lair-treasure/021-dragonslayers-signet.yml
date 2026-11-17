@@ -1,4 +1,4 @@
-name: Dragonslayers Signet
+name: Dragonslayer's Signet
 
 origin: onyxias-lair-treasure-021
 
@@ -7,23 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: If a friendly hero or ally would deal damage to a Dragon or Dragonkin, it deals that amount of damage +1 instead.
+    text: If a friendly hero or ally would deal damage to a Dragon or Dragonkin, it deals that amount of damage plus 1 instead.
 
 regulation:
 
 errata: []
-
-temp: Item Ring

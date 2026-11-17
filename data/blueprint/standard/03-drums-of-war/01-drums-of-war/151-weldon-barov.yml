@@ -19,12 +19,20 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warrior
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the end of your turn, put three Peasant ally tokens into play with 1 ATK / 1 health and Protector . At the end of the next turn, destroy them.
+    text: At the end of your turn, put three Peasant ally tokens into play with 1 {melee} ATK / 1 health and protector. At the end of the next turn, destroy them.
 
 regulation:
 
 errata: []
-
-temp: Human Warrior

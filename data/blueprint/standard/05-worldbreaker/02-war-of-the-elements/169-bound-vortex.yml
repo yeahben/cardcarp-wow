@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Air
+  - Elemental
+
 trait:
 
 cost: '3'
@@ -17,12 +21,17 @@ health: 1
 
 combat: Nature
 
+limit:
+  - name: Unlimited
+
+instant: false
+
 rule:
   - type: Ability
-    text: Untargetable When this ally exhausts, put a 2 / 1 Air Elemental ally token into play.
+    text: Untargetable
+  - type: Ability
+    text: When this ally exhausts, put a 2 {nature} / 1 {health} Air Elemental ally token into play.
 
 regulation:
 
 errata: []
-
-temp: Air Elemental

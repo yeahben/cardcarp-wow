@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : 2 , , Destroy an equipment you control → Your hero deals melee damage to target hero or ally equal to that equipment's cost."
+    text: "Ongoing: {2}, {activate}, Destroy an equipment you control → Your hero deals melee damage to target hero or ally equal to that equipment's cost."
 
 regulation:
 
 errata: []
-
-temp: Fury

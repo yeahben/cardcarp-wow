@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Horse
+
 trait:
 
 cost: '2'
@@ -17,12 +20,20 @@ health: 3
 
 combat: Melee
 
+race: Undead
+
+limit:
+  - name: Mount
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you place a resource face up, target ally you control has Invincible this turn. (Mounts can't attack or be attacked.)
+    text: When you place a resource face up, target ally you control has Invincible this turn. (It can't leave play, be targeted, or be dealt damage.)
+  - type: Ability
+    text: (Mounts can't attack or be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Undead Horse

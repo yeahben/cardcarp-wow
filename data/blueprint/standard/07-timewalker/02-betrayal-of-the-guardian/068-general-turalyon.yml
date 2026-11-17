@@ -19,12 +19,25 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
+limit:
+  - name: Turalyon
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When Turalyon enters play, put a 4 / 4 Spirit ally token named Lothar into play with Ferocity and Lothar (1). Turalyon has Invincible while you control an ally named Lothar.
+    text: Protector
+  - type: Ability
+    text: When Turalyon enters play, put a 4 {melee} / 4 {health} Spirit ally token named Lothar into play with Ferocity and Lothar (1).
+  - type: Ability
+    text: Turalyon has Invincible while you control an ally named Lothar.
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

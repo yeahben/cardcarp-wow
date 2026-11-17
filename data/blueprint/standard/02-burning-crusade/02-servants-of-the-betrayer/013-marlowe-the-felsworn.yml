@@ -7,19 +7,30 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Traitor
+
 trait:
+  - Cult of the Dark Strand
 
 health: 28
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+profession:
+  - Alchemy
+  - Enchanting
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Marlowe, destroy a friendly ally → Target hero or ally has -X health this turn, where X is that friendly ally's health. Use only on your turn. Cult of the Dark Strand
+    text: "{2}, Flip Marlowe, destroy a friendly ally → Target hero or ally has -X health this turn, where X is that friendly ally's health. Use only on your turn."
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

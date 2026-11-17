@@ -9,6 +9,8 @@ category:
 
 trait:
 
+instant: false
+
 type: Dungeon
 
 rule:
@@ -18,5 +20,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

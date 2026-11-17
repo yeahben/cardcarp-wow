@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Haste 5
+    text: Haste 5 (You pay {5} less to play this ally if an ally you controlled dealt damage to an opposing hero this turn.)
 
 regulation:
 
 errata: []
-
-temp: Night Elf Priest

@@ -1,4 +1,4 @@
-name: Windrunners Bow
+name: Windrunner's Bow
 
 origin: betrayal-of-the-guardian-191
 
@@ -7,19 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Bow
+
 trait:
 
 cost: '4'
 
+damage: 3
+
+strike: 0
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: While your hero has 5 or less remaining health, double the ATK of this weapon, and it has Long-Range .
+    text: While your hero has 5 or less remaining health, double the ATK of this weapon, and it has Long-Range.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Bow

@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '2'
+
+defense: 1
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Waist
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , , Turn a resource you control face down → Look at the top two cards of your deck. Put one into your hand and the other into your graveyard.
+    text: '{1}, {activate}, Turn a resource you control face down → Look at the top two cards of your deck. Put one into your hand and the other into your graveyard.'
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

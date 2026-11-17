@@ -7,16 +7,21 @@ layout: Standard
 category:
   - Event
 
+subtype:
+  - Echo of Tyrande
+
 trait:
 
-type: Boss
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
-    text: The Caverns hero deals 10 arcane damage to the Raiding heroes divided as the Raiders choose. If Tyrande is the Caverns hero, she deals 30 arcane damage to the Raiding heroes divided as the Raiders choose instead.
+    text: The Caverns hero deals 10 arcane damage to the Raiding heroes divided as the Raiders choose.
+  - type: Ability
+    text: If Tyrande is the Caverns hero, she deals 30 arcane damage to the Raiding heroes divided as the Raiders choose instead.
 
 regulation:
 
 errata: []
-
-temp: Echo of Tyrande

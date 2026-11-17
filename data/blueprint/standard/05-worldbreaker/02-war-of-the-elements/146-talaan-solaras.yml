@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Stash : Your hero deals 1 melee damage to target damaged ally.'
+    text: 'Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Your hero deals 1 melee damage to target damaged ally.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Warrior

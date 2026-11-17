@@ -11,10 +11,8 @@ trait:
 
 rule:
   - type: Ability
-    text: ', Destroy an ally you control → You pay 2 less to play your next ally this turn.'
+    text: '{activate}, Destroy an ally you control → You pay {2} less to play your next ally this turn.'
 
 regulation:
 
 errata: []
-
-temp: ''

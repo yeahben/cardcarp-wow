@@ -7,19 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Gun
+
 trait:
 
 cost: '1'
 
+damage: 1
+
+strike: 2
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you strike with this weapon, your hero has Long-Range this combat. While there are four or more allies with the same name in one opposing graveyard, this weapon's ATK becomes 4000.
+    text: When you strike with this weapon, your hero has Long-Range this combat.
+  - type: Ability
+    text: While there are four or more allies with the same name in one opposing graveyard, this weapon's ATK becomes 4000.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Gun

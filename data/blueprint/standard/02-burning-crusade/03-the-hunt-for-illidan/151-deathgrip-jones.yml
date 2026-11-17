@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Your weapons can't be targeted by opponents.
+    text: Protector
+  - type: Ability
+    text: Your weapons can't be targeted by opponents.
 
 regulation:
 
 errata: []
-
-temp: Undead Warrior

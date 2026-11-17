@@ -7,22 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Mace
+
 trait:
 
 cost: '5'
 
+damage: 1
+
+strike: 3
+
+combat: Fire
+
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'If an opposing hero was dealt 6 or more damage this turn: → Put three 2 / 1 Fire Elemental ally tokens into play.'
+    text: 'If an opposing hero was dealt 6 or more damage this turn: {activate} → Put three 2 {fire} / 1 {health} Fire Elemental ally tokens into play.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

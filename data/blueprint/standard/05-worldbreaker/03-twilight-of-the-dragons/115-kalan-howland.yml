@@ -19,6 +19,13 @@ combat: Nature
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally is destroyed, target player discards a card.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Worgen Rogue

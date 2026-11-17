@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '6'
+
+defense: 1
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Head
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'At the start of your turn, choose one of the following and put it into play: 2 / 1 Fire Elemental ally token, 2 / 1 Earth Elemental ally token, 2 / 1 Air Elemental ally token, or 2 / 1 Water Elemental ally token. While you control a , a , a , and a ally, your hero has Assault 8 .'
+    text: 'At the start of your turn, choose one of the following and put it into play: 2 {fire} / 1 {health} Fire Elemental ally token, 2 {melee} / 1 {health} Earth Elemental ally token, 2 {nature} / 1 {health} Air Elemental ally token, or 2 {frost} / 1 {health} Water Elemental ally token.'
+  - type: Ability
+    text: While you control a {fire}, a {frost}, a {melee}, and a {nature} ally, your hero has Assault 8.
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

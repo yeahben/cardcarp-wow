@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Blessing
+  - Attachment
+
 trait:
 
 cost: '4'
@@ -14,12 +18,19 @@ cost: '4'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Warp Attach to target ally. Ongoing : Attached ally has +3 / +3.'
+    text: Warp (As this ability is revealed from your deck, you may remove it from the game. If you do, you may play it immediately without paying its cost.)
+  - type: Ability
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +3 / +3.'
 
 regulation:
 
 errata: []
-
-temp: Holy Blessing Attachment

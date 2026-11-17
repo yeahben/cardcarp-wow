@@ -11,12 +11,14 @@ trait:
 
 cost: '3'
 
-instant: "Attach to target hero or ally and exhaust it. Ongoing : Attached character can't attack or protect and has \" → Attach this ability to target hero or ally and exhaust it.\""
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Attach to target hero or ally and exhaust it.
+  - type: Ability
+    text: "Ongoing: Attached character can't attack or protect and has \"{activate} → Attach Hardpacked Snowball to target hero or ally and exhaust it.\""
 
 regulation:
 
 errata: []
-
-temp: ''

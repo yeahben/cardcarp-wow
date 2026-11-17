@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the end of your turn, choose whether Raena is Elusive or a Protector until the end of your next turn.
+    text: At the end of your turn, choose whether Raena is elusive or a protector until the end of your next turn.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Warrior

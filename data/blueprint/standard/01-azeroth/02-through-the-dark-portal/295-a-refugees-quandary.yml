@@ -1,4 +1,4 @@
-name: A Refugees Quandary
+name: A Refugee's Quandary
 
 origin: through-the-dark-portal-295
 
@@ -13,10 +13,10 @@ faction: Alliance
 
 rule:
   - type: Ability
-    text: 'During your turn, pay 3 to complete this quest. Reward : Choose one: Ready one of your equipment; or draw a card. If your hero is a Gnome, you may choose both.'
+    text: During your turn, pay {3} to complete this quest.
+  - type: Ability
+    text: 'Reward: Choose one: Ready one of your equipment; or draw a card. If your hero is a Gnome, you may choose both.'
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -1,4 +1,4 @@
-name: Landros Lil' XT
+name: Landro's Lil' XT
 
 origin: worldbreaker-220
 
@@ -6,6 +6,9 @@ layout: Standard
 
 category:
   - Ally
+
+subtype:
+  - Mini-Deconstructor
 
 trait:
 
@@ -17,12 +20,18 @@ health: 5
 
 combat: Melee
 
+limit:
+  - name: Lil' XT
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, you may destroy target item. At the start of your turn, this ally deals 1 nature damage to each hero and ally.
+    text: When this ally enters play, you may destroy target item.
+  - type: Ability
+    text: At the start of your turn, this ally deals 1 nature damage to each hero and ally.
 
 regulation:
 
 errata: []
-
-temp: Mini-Deconstructor

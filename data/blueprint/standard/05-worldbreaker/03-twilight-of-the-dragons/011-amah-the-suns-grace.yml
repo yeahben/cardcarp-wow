@@ -1,4 +1,4 @@
-name: Amah the Suns Grace
+name: Amah the Sun's Grace
 
 origin: twilight-of-the-dragons-011
 
@@ -13,10 +13,15 @@ health: 30
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Paladin
+
 rule:
   - type: Ability
     position: Front
-    text: 4 → Flip Amah face down.
+    text: '{4} → Flip Amah'
   - type: Ability
     position: Reverse
     text: At the start of your turn, Amah may heal 1 damage from herself and 1 damage from target ally.
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Paladin

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Crawling Claw
+
 trait:
 
 cost: '3'
@@ -17,12 +20,18 @@ health: 1
 
 combat: Melee
 
+limit:
+  - name: Claw
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Artifact When this ally attacks, you and target opponent play "Rock, Parchment, Sickle." If you lose, it can't deal damage this combat.
+    text: Artifact (You may play this card from your graveyard.)
+  - type: Ability
+    text: When this ally attacks, you and target opponent play "Rock, Parchment, Sickle." If you lose, it can't deal damage this combat.
 
 regulation:
 
 errata: []
-
-temp: Crawling Claw

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ranger
+
 trait:
 
 cost: '4'
@@ -15,14 +18,23 @@ damage: 2
 
 health: 2
 
+combat: Ranged
+
 faction: Horde
+
+race: Undead
+
+limit:
+  - name: Unique
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this ally enters play, put two 2 / 2 Blighthound ally tokens into play with Protector . This ally can't be destroyed while you control a Blighthound.
+    text: When this ally enters play, put two 2 {melee} / 2 {health} Blighthound ally tokens into play with Protector.
+  - type: Ability
+    text: This ally can't be destroyed while you control a Blighthound.
 
 regulation:
 
 errata: []
-
-temp: Undead Ranger

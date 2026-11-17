@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ogre
+
 trait:
 
 cost: '4'
@@ -17,14 +20,17 @@ health: 3
 
 combat: Melee
 
+class:
+  - Warrior
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 'Empower Warrior : When this ally enters play, if you control another Warrior hero or ally, target weapon you control has +2 ATK and you pay 2 less to strike with it this turn.'
+    text: 'Empower Warrior: When this ally enters play, if you control another Warrior hero or ally, target weapon you control has +2 ATK and you pay {2} less to strike with it this turn.'
 
 regulation:
 
 errata: []
-
-temp: Ogre Warrior

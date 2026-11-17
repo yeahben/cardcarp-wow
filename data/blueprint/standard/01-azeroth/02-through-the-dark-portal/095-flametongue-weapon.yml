@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Shaman
 
-instant: 'Attach to one of your Melee weapons. Ongoing : When you strike with attached weapon, your hero deals 1 fire damage to target hero or ally.'
+talent:
+  - Enhancement
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to one of your Melee weapons.
+  - type: Ability
+    text: 'Ongoing: When you strike with attached weapon, your hero deals 1 fire damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Enhancement

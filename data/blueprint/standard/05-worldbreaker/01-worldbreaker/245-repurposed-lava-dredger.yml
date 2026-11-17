@@ -7,20 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Mace
+
 trait:
 
 cost: '3'
+
+damage: 1
+
+strike: 3
+
+combat: Melee
 
 class:
   - Druid
   - Paladin
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: '3 , → Reveal the top card of your deck and an additional for each heirloom counter on this equipment. Place each revealed card into your resource row exhausted as an additional resource. Stash : Add an heirloom counter to target equipment you control.'
+    text: '{3}, {activate} → Reveal the top card of your deck and an additional card for each heirloom counter on this equipment. Place each revealed card into your resource row exhausted as an additional resource.'
+  - type: Ability
+    text: 'Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Add an heirloom counter to target equipment you control.'
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Mace

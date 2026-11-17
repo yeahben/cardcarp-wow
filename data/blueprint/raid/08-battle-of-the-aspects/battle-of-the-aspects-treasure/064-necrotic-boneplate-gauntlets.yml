@@ -7,19 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '1'
 
+defense: 0
+
 class:
   - Death Knight
 
+limit:
+  - name: Hands
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When an ally is destroyeed, you may add a +1 counter to this armor.
+    text: When an ally is destroyed, you may add a +1 {def} counter to this armor.
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

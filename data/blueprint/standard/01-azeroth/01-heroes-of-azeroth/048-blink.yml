@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Mage
 
-instant: Draw a card. If your hero is defending, remove all attackers from combat.
+talent:
+  - Arcane
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Draw a card.
+  - type: Ability
+    text: If your hero is defending, remove all attackers from combat.
 
 regulation:
 
 errata: []
-
-temp: Arcane

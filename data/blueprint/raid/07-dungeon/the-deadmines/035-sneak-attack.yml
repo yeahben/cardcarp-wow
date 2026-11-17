@@ -9,14 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: Dungeon allies have +2 ATK and Stealth this turn.
+    text: Dungeon allies have +2 ATK and Stealth this turn. (They can't be protected against.)
 
 regulation:
 
 errata: []
-
-temp: ''

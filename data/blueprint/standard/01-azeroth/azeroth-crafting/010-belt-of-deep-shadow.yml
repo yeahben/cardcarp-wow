@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '4'
+
+defense: 0
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Waist
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero has Stealth . If your hero would deal combat damage, it deals that much +2 instead.
+    text: Your hero has stealth.
+  - type: Ability
+    text: If your hero would deal combat damage, it deals that much +2 instead.
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

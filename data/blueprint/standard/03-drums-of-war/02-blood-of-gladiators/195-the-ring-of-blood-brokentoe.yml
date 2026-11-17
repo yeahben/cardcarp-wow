@@ -13,10 +13,12 @@ type: Arena
 
 rule:
   - type: Ability
-    text: 'As a cost to place this quest face up, discard a card. Pay 3 to complete this quest. Reward : Draw two cards.'
+    text: As a cost to place this quest face up, discard a card.
+  - type: Ability
+    text: Pay {3} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw two cards.'
 
 regulation:
 
 errata: []
-
-temp: ''

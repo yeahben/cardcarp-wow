@@ -14,12 +14,21 @@ cost: '3'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+limit:
+  - name: Seal
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When your hero deals combat damage with a weapon, put an ally card from your graveyard into your hand. 1 , Destroy Seal of Redemption → Put an ally card from your graveyard into hand.'
+    text: 'Ongoing: When your hero deals combat damage with a weapon, put an ally card from your graveyard into hand.'
+  - type: Ability
+    text: '{1}, Destroy Seal of Redemption → Put an ally card from your graveyard into hand.'
 
 regulation:
 
 errata: []
-
-temp: Holy

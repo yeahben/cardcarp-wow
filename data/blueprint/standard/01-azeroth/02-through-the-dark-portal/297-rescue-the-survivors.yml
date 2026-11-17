@@ -13,10 +13,12 @@ faction: Alliance
 
 rule:
   - type: Ability
-    text: 'Draenei Hero Required During your turn, pay 3 to complete this quest. Reward : Put two Draenei Survivor ally tokens into play with 0 ATK, 1 health, and "Exhaust your hero, remove this ally from the game → Draw a card."'
+    text: Draenei Hero Required
+  - type: Ability
+    text: During your turn, pay {3} to complete this quest.
+  - type: Ability
+    text: 'Reward: Put two Draenei Survivor ally tokens into play with 0 ATK, 1 health, and "Exhaust your hero, remove this ally from the game → Draw a card."'
 
 regulation:
 
 errata: []
-
-temp: ''

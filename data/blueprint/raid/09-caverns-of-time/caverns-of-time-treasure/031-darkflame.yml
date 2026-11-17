@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warlock
 
+talent:
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero deals unpreventable shadowfire damage to target hero or ally equal to the combined ATK of a card and a card you control. (This counts as both shadow and fire damage.)
+    text: Your hero deals unpreventable shadowfire damage to target hero or ally equal to the combined ATK of a {fire} card and a {shadow} card you control. (This counts as both shadow and fire damage.)
 
 regulation:
 
 errata: []
-
-temp: Destruction

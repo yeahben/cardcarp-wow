@@ -1,4 +1,4 @@
-name: Gul'Dan
+name: Gul'dan
 
 origin: timewalkers-015
 
@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 28
+
+faction: Horde
+
+race: Orc
+
+class:
+  - Warlock
+
+rule:
+  - type: Ability
+    position: Front
+    text: Gul'dan's Darkness
+  - type: Ability
+    position: Front
+    text: "{basic} {5}, Put 2 damage on Gul'dan, flip Gul'dan → Draw two cards."
+  - type: Ability
+    position: Reverse
+    text: Gul'dan's Summoning
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {6} → Put an X {fire} / X {health} Demon Monster ally token into play, where X is the number of cards in your hand as it enters play.'
 
 regulation:
 

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Shivan
+  - Demon
+
 trait:
 
 health: 30
@@ -14,13 +18,14 @@ health: 30
 rule:
   - type: Ability
     position: Front
+    text: Sextuple Wield (Can have up to six hands of Melee weapons and can strike with any number of them during the same combat.)
+  - type: Ability
+    position: Reverse
     text: Sextuple Wield
   - type: Ability
     position: Reverse
-    text: "Sextuple Wield Deckbuilding: You can include only neutral quests and any Melee weapons. You can't include cards with reputation or text restrictions (like Fire Hero Required ) ."
+    text: "Deckbuilding: You can include only neutral quests and any Melee weapons. You can't include cards with reputation or text restrictions (like Fire Hero Required)."
 
 regulation:
 
 errata: []
-
-temp: Shivan Demon

@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Warrior
 
-instant: Opposing allies enter play exhausted this turn.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Opposing allies enter play exhausted this turn.
 
 regulation:
 
 errata: []
-
-temp: Protection

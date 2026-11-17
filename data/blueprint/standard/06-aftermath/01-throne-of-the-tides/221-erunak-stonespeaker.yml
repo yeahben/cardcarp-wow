@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Broken
+
 trait:
 
 cost: '5'
@@ -17,12 +20,29 @@ health: 5
 
 combat: Fire
 
+class:
+  - Shaman
+
+limit:
+  - name: Erunak
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'When Erunak enters play, put a 0 / 2 Air, Earth, Fire, or Water Totem token into play. Exhaust a totem you control → Air: Ready Erunak. Earth: Erunak has Protector this turn. Fire: Erunak has +5 ATK this turn. Water: Erunak heals 5 damage from himself.'
+    text: When Erunak enters play, put a 0 {melee} / 2 {health} Air, Earth, Fire, or Water Totem ally token into play.
+  - type: Ability
+    text: Exhaust a Totem you control →
+  - type: Ability
+    text: 'Air: Ready Erunak.'
+  - type: Ability
+    text: 'Earth: Erunak has Protector this turn.'
+  - type: Ability
+    text: 'Fire: Erunak has +5 ATK this turn.'
+  - type: Ability
+    text: 'Water: Erunak heals 5 damage from himself.'
 
 regulation:
 
 errata: []
-
-temp: Broken Shaman

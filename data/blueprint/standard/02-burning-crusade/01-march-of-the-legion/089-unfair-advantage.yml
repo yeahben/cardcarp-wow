@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Finishing Move
+
 trait:
 
 cost: '5'
@@ -14,12 +17,17 @@ cost: '5'
 class:
   - Rogue
 
+talent:
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
-    text: As an additional cost to play Unfair Advantage, remove up to five Combo cards in your graveyard from the game. Target player discards that many cards.
+    text: As an additional cost to play Unfair Advantage, remove up to five Combo cards in your graveyard from the game.
+  - type: Ability
+    text: Target player discards that many cards.
 
 regulation:
 
 errata: []
-
-temp: Subtlety Finishing Move

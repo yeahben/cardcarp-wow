@@ -19,12 +19,21 @@ combat: Fire
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Troll Hero Required Berserking When Kray'zin or another ally enters your party, you may put any amount of non-fatal damage on it.
+    text: Troll Hero Required
+  - type: Ability
+    text: Berserking
+  - type: Ability
+    text: When Kray'zin or another ally enters your party, you may put any amount of non-fatal damage on it.
 
 regulation:
 
 errata: []
-
-temp: Troll Mage

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Voidwalker
+  - Demon
+
 trait:
 
 cost: '4'
@@ -20,12 +24,18 @@ combat: Shadow
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector 1 , Destroy Hukkath → Your hero is Untargetable this turn.
+    text: Protector
+  - type: Ability
+    text: '{1}, Destroy Hukkath → Your hero is untargetable this turn.'
 
 regulation:
 
 errata: []
-
-temp: Voidwalker Demon

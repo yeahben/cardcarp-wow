@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: You may discard a weapon rather than pay this ability's cost. Your hero deals 4 ranged damage to target hero or ally.
+    text: You may discard a weapon rather than pay this ability's cost.
+  - type: Ability
+    text: Your hero deals 4 ranged damage to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Arms

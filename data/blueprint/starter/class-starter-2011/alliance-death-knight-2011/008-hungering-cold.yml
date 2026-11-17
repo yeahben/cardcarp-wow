@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Death Knight
 
+talent:
+  - Frost
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Frost Talent Ongoing : When an opposing hero or ally exhausts, your hero deals 1 frost damage to it.'
+    text: Frost Talent (You can't put Blood Talents or Unholy Talents in your deck.)
+  - type: Ability
+    text: 'Ongoing: When an opposing hero or ally exhausts, your hero deals 1 frost damage to it.'
 
 regulation:
 
 errata: []
-
-temp: Frost

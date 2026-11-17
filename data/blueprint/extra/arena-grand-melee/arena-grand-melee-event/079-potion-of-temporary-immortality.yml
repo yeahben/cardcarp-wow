@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : Other cards can't leave play."
+    text: "Ongoing: Other cards can't leave play."
 
 regulation:
 
 errata: []
-
-temp: ''

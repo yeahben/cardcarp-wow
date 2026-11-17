@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'On your turn: 3 , Destroy this ally → Destroy target equipment with cost 4 or less.'
+    text: 'On your turn: {3}, Destroy this ally → Destroy target equipment with cost 4 or less.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Rogue

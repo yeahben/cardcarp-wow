@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 26
+
+race: Night Elf
+
+class:
+  - Priest
+
+type: Monster
+
+rule:
+  - type: Ability
+    position: Front
+    text: Vashj's Obedience
+  - type: Ability
+    position: Front
+    text: "{basic} {5}, Flip Vashj → Vashj deals 3 shadow damage to target hero or ally. Remove the top card of that character's controller's deck from the game for each damage dealt this way."
+  - type: Ability
+    position: Reverse
+    text: Vashj's Intent
+  - type: Ability
+    position: Reverse
+    text: "Once per game: {basic} {8} → Vashj deals 1 shadow damage to target ally for each opposing card that's removed from the game."
 
 regulation:
 

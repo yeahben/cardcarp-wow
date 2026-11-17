@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Shaman
 
+talent:
+  - Elemental
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero deals 4 fire damage to target ally. Delve
+    text: Your hero deals 4 fire damage to target ally.
+  - type: Ability
+    text: Delve (Look at the top two cards of your deck. Put any number of them on top of your deck in any order, and the rest on the bottom.)
 
 regulation:
 
 errata: []
-
-temp: Elemental

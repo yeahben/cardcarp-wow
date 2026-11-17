@@ -13,6 +13,18 @@ health: 26
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Priest
+
+talent:
+  - Shadow
+
+profession:
+  - Tailoring
+  - Inscription
+
 rule:
   - type: Ability
     position: Front
@@ -21,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Draenei Priest

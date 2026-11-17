@@ -19,12 +19,19 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When an attacker deals combat damage to this ally, that attacking character can't ready during it's controller's next ready step.
+    text: Protector
+  - type: Ability
+    text: When an attacker deals combat damage to this ally, that attacking character can't ready during it's controller's next ready step.
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

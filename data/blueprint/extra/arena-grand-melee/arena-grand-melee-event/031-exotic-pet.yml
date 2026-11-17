@@ -9,6 +9,8 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
     text: You may write "Pet (1)" on the sleeve of an ally you own. If you do, that card also has +2 ATK / +2 health this game.
@@ -16,5 +18,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

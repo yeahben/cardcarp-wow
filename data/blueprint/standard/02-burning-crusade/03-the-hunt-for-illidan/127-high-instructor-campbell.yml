@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
     text: When Campbell enters play, you may put target Talent card from your graveyard into hand.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Human Paladin

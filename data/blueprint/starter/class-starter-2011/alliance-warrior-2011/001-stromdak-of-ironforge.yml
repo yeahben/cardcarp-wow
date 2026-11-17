@@ -13,13 +13,16 @@ health: 30
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Warrior
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 5 , Flip Stromdak → Search your deck for an equipment, reveal it, and put it into your hand.'
+    text: 'On your turn: {5}, Flip Stromdak → Search your deck for an equipment, reveal it, and put it into your hand.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Warrior

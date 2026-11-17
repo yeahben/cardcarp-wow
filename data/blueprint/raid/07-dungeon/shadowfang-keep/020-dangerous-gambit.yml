@@ -9,14 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: Godfrey deals 5 shadow damage to each Raiding hero unless its controller reveals the top card of his deck. Then, Godfrey deals 10 damage to each Raider's hero whose controller revealed an ally this way.
+    text: Godfrey deals 5 shadow damage to each Raiding hero unless its controller reveals the top card of his deck. Then, Godfrey deals 10 shadow damage to each Raider's hero whose controller revealed an ally this way.
 
 regulation:
 
 errata: []
-
-temp: ''

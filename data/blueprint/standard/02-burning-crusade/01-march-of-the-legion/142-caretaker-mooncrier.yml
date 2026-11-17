@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: Ready allies in your party have +2 ATK.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Night Elf Priest

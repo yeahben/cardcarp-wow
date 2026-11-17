@@ -13,10 +13,15 @@ health: 30
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Paladin
+
 rule:
   - type: Ability
     position: Front
-    text: 3 → Flip Nahano
+    text: '{3} → Flip Nahano'
   - type: Ability
     position: Reverse
     text: Allies you control with Protector have +1 ATK while defending.
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Paladin

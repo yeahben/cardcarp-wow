@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Traitor
+
 trait:
 
 cost: '6'
@@ -15,14 +18,24 @@ damage: 6
 
 health: 5
 
-combat: Ranged
+combat: Arcane
+
+race: Blood Elf
+
+class:
+  - Mage
+
+limit:
+  - name: Unique
+
+instant: false
 
 rule:
   - type: Ability
-    text: Traitor Hero Required 2 , Remove Pathaleon from the game → Put any number of cards from your hand on the bottom of your deck, then draw that many cards. You can use this power if Pathaleon is in your hand or party.
+    text: Traitor Hero Required
+  - type: Ability
+    text: '{2}, Remove Pathaleon from the game → Put any number of cards from your hand on the bottom of your deck, then draw that many cards. You can use this power if Pathaleon is in your hand or party.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage Traitor

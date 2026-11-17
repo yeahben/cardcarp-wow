@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Hunter
 
-instant: You can play target ability card from your graveyard this turn if able. If an ability card would enter your graveyard this turn, remove it from the game instead.
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: You can play target ability card from your graveyard this turn if able. If an ability card would enter your graveyard this turn, remove it from the game instead.
 
 regulation:
 
 errata: []
-
-temp: Survival

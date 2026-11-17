@@ -19,12 +19,22 @@ combat: Holy
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Paladin
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Zorus can't be destroyed by fatal damage.
+    text: Protector
+  - type: Ability
+    text: Zorus can't be destroyed by fatal damage.
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

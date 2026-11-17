@@ -14,12 +14,19 @@ cost: '1'
 class:
   - Paladin
 
-instant: Play only on an opponent's turn. Your hero has Protector this turn. Your hero has Sentinel this turn.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Play only on an opponent's turn.
+  - type: Ability
+    text: Your hero has Protector this turn. (It may exhaust to become the defender when an opposing hero or ally attacks.)
+  - type: Ability
+    text: Your hero has Sentinel this turn. (The first time it exhausts each turn, ready it.)
 
 regulation:
 
 errata: []
-
-temp: Protection

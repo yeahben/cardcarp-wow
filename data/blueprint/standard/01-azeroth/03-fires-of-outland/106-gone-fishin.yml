@@ -11,12 +11,12 @@ trait:
 
 cost: '3'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : 2 , → Draw three cards and skip your next turn. Use only on your turn.'
+    text: 'Ongoing: {2}, {activate} → Draw three cards and skip your next turn. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: ''

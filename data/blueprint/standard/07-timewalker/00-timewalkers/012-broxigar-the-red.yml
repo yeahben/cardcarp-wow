@@ -1,4 +1,4 @@
-name: Broxigar The Red
+name: Broxigar the Red
 
 origin: timewalkers-012
 
@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 30
+
+faction: Horde
+
+race: Orc
+
+class:
+  - Warrior
+
+rule:
+  - type: Ability
+    position: Front
+    text: Broxigar's Brutality
+  - type: Ability
+    position: Front
+    text: '{basic} {3}, Flip Broxigar → Broxigar deals 3 melee damage to target damaged ally.'
+  - type: Ability
+    position: Reverse
+    text: Broxigar's Rage
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {4} → Broxigar has +1 ATK this turn for each 5 damage on him.'
 
 regulation:
 

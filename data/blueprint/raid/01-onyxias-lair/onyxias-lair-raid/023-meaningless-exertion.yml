@@ -11,12 +11,12 @@ trait:
 
 cost: '1'
 
-instant: 'Choose one: Destroy target ability; or interrupt target ability card.'
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: 'Choose one: Destroy target ability; or interrupt target ability card.'
 
 regulation:
 
 errata: []
-
-temp: ''

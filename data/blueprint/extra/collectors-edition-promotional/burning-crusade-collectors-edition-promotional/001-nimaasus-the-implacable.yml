@@ -13,13 +13,23 @@ health: 29
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Paladin
+
+talent:
+  - Retribution
+
+profession:
+  - Mining
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Nimaasus → Nimaasus deals X holy damage to target ally, where X is the amount of damage that ally dealt to Nimaasus this turn.
+    text: '{3}, Flip Nimaasus → Nimaasus deals X holy damage to target ally, where X is the amount of damage that ally dealt to Nimaasus this turn.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

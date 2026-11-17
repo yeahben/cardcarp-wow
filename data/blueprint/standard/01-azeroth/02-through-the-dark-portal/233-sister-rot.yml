@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, you may destroy target ability.
+    text: When Sister Rot enters play, you may destroy target ability.
 
 regulation:
 
 errata: []
-
-temp: Undead Priest

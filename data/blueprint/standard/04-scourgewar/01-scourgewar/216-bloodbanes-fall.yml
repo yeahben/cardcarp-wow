@@ -1,4 +1,4 @@
-name: Bloodbanes Fall
+name: Bloodbane's Fall
 
 origin: scourgewar-216
 
@@ -7,28 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '3'
 
+defense: 1
+
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Back
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Your hero has Assault 1 .
+    text: Your hero has Assault 1. (+1 ATK on your turn)
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

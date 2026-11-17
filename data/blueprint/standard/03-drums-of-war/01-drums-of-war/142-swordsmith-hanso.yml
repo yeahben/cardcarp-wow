@@ -19,12 +19,21 @@ combat: Melee
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Your weapons have +3 ATK. Opposing weapons have -3 ATK.
+    text: Protector
+  - type: Ability
+    text: Your weapons have +3 ATK.
+  - type: Ability
+    text: Opposing weapons have -3 ATK.
 
 regulation:
 
 errata: []
-
-temp: Draenei Warrior

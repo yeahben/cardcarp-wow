@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Wrathguard
+  - Demon
+
 trait:
 
 cost: '3'
@@ -17,14 +21,14 @@ health: 3
 
 combat: Melee
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Smash
+    text: Smash (If this ally would deal more than fatal combat damage to a defending ally, it deals the rest to that ally's controller's hero.)
 
 regulation:
 
 errata: []
-
-temp: Wrathguard Demon

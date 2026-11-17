@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Prevent all damage that would be dealt to target ally this turn.
+    text: '{activate} → Prevent all damage that would be dealt to target ally this turn.'
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

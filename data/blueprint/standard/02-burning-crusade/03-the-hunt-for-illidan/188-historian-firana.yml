@@ -17,12 +17,21 @@ health: 3
 
 combat: Melee
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Scryer Reputation Stealth Opponents play with their hands revealed.
+    text: Scryer Reputation (Can't put Aldor cards in your deck.)
+  - type: Ability
+    text: Stealth
+  - type: Ability
+    text: Opponents play with their hands revealed.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

@@ -7,19 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Mace
+
 trait:
 
 cost: '7'
 
+damage: 7
+
+strike: 7
+
+combat: Melee
+
 class:
   - Warrior
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Fury Talent Your hero has Two-Handed Dual Wield . While you control no ready resources, you pay 7 less to strike with Two-Handed weapons.
+    text: Fury Talent (You can't put Arms Talents or Protection Talents in your deck.)
+  - type: Ability
+    text: Your hero has Two-Handed Dual Wield.
+  - type: Ability
+    text: While you control no ready resources, you pay {7} less to strike with Two-Handed weapons.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Mace

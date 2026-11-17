@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Wind
+  - Serpent
+
 trait:
 
 cost: '4'
@@ -20,12 +24,18 @@ combat: Nature
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Assault 2 Ferocity
+    text: Assault 2 (This ally has +2 ATK on your turn.)
+  - type: Ability
+    text: Ferocity (This ally can attack immediately.)
 
 regulation:
 
 errata: []
-
-temp: Wind Serpent

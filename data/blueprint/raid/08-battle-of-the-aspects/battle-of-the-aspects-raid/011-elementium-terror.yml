@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Terror
+
 trait:
 
 damage: 7
@@ -15,14 +18,16 @@ health: 3
 
 combat: Melee
 
-type: Boss
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
-    text: This ally can't be targeted by Raiders, and it attacks the Raiding ally with the highest ATK if able. When this ally is destroyed, flip Deathwing cards equal to Deathwing's Stage.
+    text: This ally can't be targeted by Raiders, and it attacks the Raiding ally with the highest ATK if able.
+  - type: Ability
+    text: When this ally is destroyed, flip Deathwing cards equal to Deathwing's Stage.
 
 regulation:
 
 errata: []
-
-temp: Terror

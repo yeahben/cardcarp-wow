@@ -17,12 +17,21 @@ health: 5
 
 combat: Ranged
 
+race: Draenei
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aldor Reputation Long-Range Opposing heroes and allies lose and can't have long-range.
+    text: Aldor Reputation (Can't put Scryer cards in your deck.)
+  - type: Ability
+    text: Long-Range (Defenders deal no combat damage to this character.)
+  - type: Ability
+    text: Opposing heroes and allies lose and can't have long-range.
 
 regulation:
 
 errata: []
-
-temp: Draenei Hunter

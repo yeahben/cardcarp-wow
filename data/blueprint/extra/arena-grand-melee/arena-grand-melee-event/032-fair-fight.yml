@@ -9,6 +9,8 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
     text: Name a face-up ability, ally, equipment, location, or quest in play. That card is banned. Each player reveals his deck and hand, then removes all cards with that name in all zones from the game.
@@ -16,5 +18,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

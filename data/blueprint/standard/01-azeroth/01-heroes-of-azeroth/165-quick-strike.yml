@@ -11,12 +11,12 @@ trait:
 
 cost: '3'
 
-instant: Your hero deals 2 melee damage to target hero or ally.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Your hero deals 2 melee damage to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: ''

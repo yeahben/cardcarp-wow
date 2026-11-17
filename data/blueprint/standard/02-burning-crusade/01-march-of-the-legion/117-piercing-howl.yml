@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '5'
@@ -14,12 +17,17 @@ cost: '5'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: Fury Hero Required Target opponent puts three allies from his party on top of their owners' decks.
+    text: Fury Hero Required
+  - type: Ability
+    text: Target opponent puts three allies from his party on top of their owners' decks.
 
 regulation:
 
 errata: []
-
-temp: Fury Talent

@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: While an ability is attached to this ally, he has Elusive and Stealth .
+    text: While an ability is attached to this ally, he has Elusive and Stealth.
 
 regulation:
 
 errata: []
-
-temp: Worgen Druid

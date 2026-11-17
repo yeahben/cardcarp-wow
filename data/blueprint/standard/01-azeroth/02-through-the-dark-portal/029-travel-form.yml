@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Druid
 
-instant: 'Ongoing : Exhaust your hero → You pay 1 less to complete your next quest this turn.'
+talent:
+  - Feral
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Exhaust your hero → You pay {1} less to complete your next quest this turn.'
 
 regulation:
 
 errata: []
-
-temp: Feral

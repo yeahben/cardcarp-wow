@@ -19,6 +19,16 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+limit:
+  - name: Unlimited
+
+instant: false
+
 rule:
   - type: Ability
     text: Orgrimmar Grunts has +1 ATK for each other ally named Orgrimmar Grunts in your party.
@@ -26,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Orc Warrior

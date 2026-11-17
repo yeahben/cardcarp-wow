@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Black Temple
+
 trait:
 
 cost: '1'
 
-instant: Interrupt target ability, ally, or equipment card.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Interrupt target ability, ally, or equipment card.
 
 regulation:
 
 errata: []
-
-temp: Black Temple

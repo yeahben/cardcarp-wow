@@ -17,12 +17,22 @@ health: 5
 
 combat: Holy
 
+race: Human
+
+class:
+  - Priest
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Argent Crusade Reputation You pay 1 less to play Unique allies, to a minimum of 1 .
+    text: Argent Crusade Reputation
+  - type: Ability
+    text: You pay {1} less to play Unique allies, to a minimum of {1}.
 
 regulation:
 
 errata: []
-
-temp: Human Priest

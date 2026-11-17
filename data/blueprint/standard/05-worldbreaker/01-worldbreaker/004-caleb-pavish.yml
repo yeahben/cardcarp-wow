@@ -13,16 +13,22 @@ health: 27
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Rogue
+
+talent:
+  - Assassination
+
 rule:
   - type: Ability
     position: Front
-    text: 2 → Flip Caleb
+    text: '{2} → Flip Caleb'
   - type: Ability
     position: Reverse
-    text: At the start of your turn, Caleb deals 1 melee damage to target hero.
+    text: At the start of your turn, Caleb deals 1 nature damage to target hero.
 
 regulation:
 
 errata: []
-
-temp: Worgen Rogue

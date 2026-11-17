@@ -7,22 +7,39 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Mace
+
 trait:
 
 cost: '5'
 
+damage: 1
+
+strike: 3
+
+combat: Holy
+
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: At the start of your turn, your hero heals 1 damage from itself for each ally you control. This weapon has +3 ATK while your hero is undamaged.
+    text: At the start of your turn, your hero heals 1 damage from itself for each ally you control.
+  - type: Ability
+    text: This weapon has +3 ATK while your hero is undamaged.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
     text: When Ya'za enters play, you may destroy target armor or item.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Rogue

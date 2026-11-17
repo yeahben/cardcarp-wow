@@ -9,14 +9,20 @@ category:
 
 trait:
 
+instant: false
+
+type: Betrayer
+
 stage: 1
+
+sequence: 1
 
 rule:
   - type: Ability
-    text: "Choose an opponent, and he chooses one: The Betrayer deals 5 fire damage to that player's hero; or The Betrayer deals 15 fire damage to a raiding hero of that player's choice. Ongoing : 2 → The Betrayer deals 1 fire damage to target opposing hero."
+    text: "Choose an opponent, and he chooses one: The Betrayer deals 5 fire damage to that player's hero; or The Betrayer deals 15 fire damage to a raiding hero of that player's choice."
+  - type: Ability
+    text: 'Ongoing: {2} → The Betrayer deals 1 fire damage to target opposing hero.'
 
 regulation:
 
 errata: []
-
-temp: ''

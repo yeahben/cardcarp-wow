@@ -17,12 +17,20 @@ health: 6
 
 combat: Frost
 
+race: Human
+
+class:
+  - Death Knight
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Destroy a Death Knight you control → Put a 3 / 3 Ghoul ally token into play.
+    text: '{1}, Destroy a Death Knight you control → Put a 3 {melee} / 3 {health} Ghoul ally token into play.'
 
 regulation:
 
 errata: []
-
-temp: Human Death Knight

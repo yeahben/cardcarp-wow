@@ -11,14 +11,14 @@ trait:
 
 cost: '2'
 
-instant: Interrupt target card. If you do, the Lich King heals damage from himself equal to that card's cost.
+instant: true
 
-type: Boss
+type: Lich King
 
-rule: []
+rule:
+  - type: Ability
+    text: Interrupt target card. If you do, the Lich King heals damage from himself equal to that card's cost.
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Aberration
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
+  - type: Ability
+    text: Aberration (Prevent all non-combat damage that would be dealt to this ally.)
 
 regulation:
 
 errata: []
-
-temp: Worgen Warrior

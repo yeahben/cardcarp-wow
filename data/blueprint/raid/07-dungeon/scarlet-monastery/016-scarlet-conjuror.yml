@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Conjuror
+
 trait:
 
 damage: 3
@@ -15,14 +18,16 @@ health: 2
 
 combat: Fire
 
+race: Human
+
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: Ferocity
+    text: Ferocity (This ally can attack immediately.)
 
 regulation:
 
 errata: []
-
-temp: Human Conjuror

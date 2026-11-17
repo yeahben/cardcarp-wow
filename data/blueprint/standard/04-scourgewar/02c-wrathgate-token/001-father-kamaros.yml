@@ -5,10 +5,32 @@ origin: wrathgate-token-001
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
 
 trait:
 
-rule: []
+damage: 1
+
+health: 1
+
+combat: Holy
+
+race: Human
+
+class:
+  - Priest
+
+limit:
+  - name: Unique
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Mend 4
 
 regulation:
 

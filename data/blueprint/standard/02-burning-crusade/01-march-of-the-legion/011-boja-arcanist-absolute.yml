@@ -13,13 +13,23 @@ health: 25
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Mage
+
+talent:
+  - Arcane
+
+profession:
+  - Alchemy
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 5 , Flip Bo'ja → Target player readies all of his resources.
+    text: "{5}, Flip Bo'ja → Target player readies all of his resources."
 
 regulation:
 
 errata: []
-
-temp: Troll Mage

@@ -19,12 +19,21 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Tauren Hero Required War Stomp When Razek attacks or defends, target opponent exhausts each ability and equipment he controls.
+    text: Tauren Hero Required
+  - type: Ability
+    text: War Stomp
+  - type: Ability
+    text: When Razek attacks or defends, target opponent exhausts each ability and equipment he controls.
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

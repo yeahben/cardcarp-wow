@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Attachment
+
 trait:
 
 cost: '4'
@@ -14,12 +17,19 @@ cost: '4'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target ally. Ongoing : You control attached ally. Attached ally can't attack."
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: You control attached ally.'
+  - type: Ability
+    text: Attached ally can't attack.
 
 regulation:
 
 errata: []
-
-temp: Discipline Attachment

@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Mage
 
-instant: "Attach to target hero, and its controller draws a card. Ongoing : Attached hero's controller's maximum hand size is increased by three."
+talent:
+  - Arcane
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target hero, and its controller draws a card.
+  - type: Ability
+    text: "Ongoing: Attached hero's controller's maximum hand size is increased by three."
 
 regulation:
 
 errata: []
-
-temp: Arcane

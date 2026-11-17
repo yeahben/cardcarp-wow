@@ -19,6 +19,13 @@ combat: Ranged
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
     text: This ally can't attack heroes.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Night Elf Hunter

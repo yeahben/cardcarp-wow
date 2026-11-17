@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive This ally has +1 ATK for each exhausted opposing resource.
+    text: Elusive (Can't be attacked.)
+  - type: Ability
+    text: Wynnd has +1 ATK for each exhausted opposing resource.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

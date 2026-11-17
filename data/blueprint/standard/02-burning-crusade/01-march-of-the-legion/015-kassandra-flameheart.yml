@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Hunter
+
+talent:
+  - Beast Mastery
+
+profession:
+  - Skinning
+  - Leatherworking
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Kassandra → Target Pet has +3 ATK this turn.
+    text: '{2}, Flip Kassandra → Target Pet has +3 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Hunter

@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive → Target hero or ally has +2 ATK while attacking this turn.
+    text: Elusive
+  - type: Ability
+    text: '{activate} → Target hero or ally has +2 ATK while attacking this turn.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive → You pay 1 less to play your next card this turn.
+    text: Elusive (Can't be attacked.)
+  - type: Ability
+    text: '{activate} → You pay {1} less to play your next card this turn.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

@@ -19,6 +19,13 @@ combat: Fire
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
     text: When Waz'luk enters play, he deals 1 fire damage to target hero.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Mage

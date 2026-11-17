@@ -15,14 +15,26 @@ damage: 5
 
 health: 4
 
-combat: Ranged
+combat: Arcane
+
+race: Blood Elf
+
+class:
+  - Mage
+
+limit:
+  - name: Unique
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Scryer Reputation Sabotage: Deck When Thelis sabotages a deck, switch that deck with yours.'
+    text: Scryer Reputation
+  - type: Ability
+    text: 'Sabotage: Deck'
+  - type: Ability
+    text: When Thelis sabotages a deck, switch that deck with yours.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

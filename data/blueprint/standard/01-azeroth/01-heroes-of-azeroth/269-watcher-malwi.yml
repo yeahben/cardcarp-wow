@@ -15,7 +15,16 @@ damage: 3
 
 health: 3
 
+combat: Ranged
+
 faction: Horde
+
+race: Troll
+
+class:
+  - Hunter
+
+instant: false
 
 rule:
   - type: Ability
@@ -24,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Hunter

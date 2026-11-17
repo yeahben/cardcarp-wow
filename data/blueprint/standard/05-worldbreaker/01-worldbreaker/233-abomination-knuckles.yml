@@ -7,20 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Fist
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 0
+
+combat: Melee
+
 class:
-  - Shaman
   - Rogue
+  - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this weapon enters play, you may destroy target armor or item.
+    text: When this equipment enters play, you may destroy target armor or item.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Fist

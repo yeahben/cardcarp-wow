@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Gronn
+
 trait:
 
 cost: '9'
@@ -17,14 +20,20 @@ health: 12
 
 combat: Melee
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Monster Hero Required You may reveal this ally from your opening hand once. If you do, your hero has +3 ATK on your first turn. Smash This ally has +6 ATK for each Ogre hero and ally you control.
+    text: Monster Hero Required
+  - type: Ability
+    text: You may reveal this ally from your opening hand once. If you do, your hero has +3 ATK on your first turn.
+  - type: Ability
+    text: Smash
+  - type: Ability
+    text: This ally has +6 ATK for each Ogre hero and ally you control.
 
 regulation:
 
 errata: []
-
-temp: Gronn

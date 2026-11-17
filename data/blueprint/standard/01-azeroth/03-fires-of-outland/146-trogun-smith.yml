@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, you may exhaust target armor.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Human Paladin

@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive
+    text: Elusive (This ally can't be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

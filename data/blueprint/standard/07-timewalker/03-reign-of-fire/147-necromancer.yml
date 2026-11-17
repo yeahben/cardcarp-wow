@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Scourge
+  - Necromancer
+
 trait:
 
 cost: '3'
@@ -17,14 +21,14 @@ health: 4
 
 combat: Shadow
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: At the start of your turn, you may remove target card in a graveyard from the game. If you do, put a 1 / 1 Skeleton Monster ally token into play.
+    text: At the start of your turn, you may remove target card in a graveyard from the game. If you do, put a 1 {melee} / 1 {health} Skeleton Monster ally token into play.
 
 regulation:
 
 errata: []
-
-temp: Scourge Necromancer

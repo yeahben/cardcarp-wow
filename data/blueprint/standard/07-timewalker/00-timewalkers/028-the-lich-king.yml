@@ -7,9 +7,31 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Spirit
+
 trait:
 
-rule: []
+health: 29
+
+class:
+  - Death Knight
+
+type: Monster
+
+rule:
+  - type: Ability
+    position: Front
+    text: Lich King's Siphon
+  - type: Ability
+    position: Front
+    text: "{basic} {4}, Flip The Lich King → When target ally is destroyed this turn, The Lich King heals damage from himself equal to that ally's cost."
+  - type: Ability
+    position: Reverse
+    text: Wrath of the Lich King
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {10} → Choose a number. Destroy all opposing abilities, allies, and equipment with that cost. Then each opponent reveals his hand and discards all abilities, allies, and equipment with that cost.'
 
 regulation:
 

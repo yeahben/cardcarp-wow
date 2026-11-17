@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Shield
+
 trait:
 
 cost: '6'
+
+defense: 3
 
 class:
   - Paladin
   - Warrior
 
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this armor enters play, put each other ability, ally, and equipment into it's owner's hand.
+    text: When this armor enters play, put each other ability, ally, and equipment into its owner's hand.
 
 regulation:
 
 errata: []
-
-temp: Armor Shield

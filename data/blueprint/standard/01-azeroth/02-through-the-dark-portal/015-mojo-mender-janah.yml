@@ -13,13 +13,23 @@ health: 26
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Priest
+
+talent:
+  - Holy
+
+profession:
+  - Jewelcrafting
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Mojo Mender Ja'nah → Ja'nah heals all damage from target ally.
+    text: "{2}, Flip Mojo Mender Ja'nah → Ja'nah heals all damage from target ally."
 
 regulation:
 
 errata: []
-
-temp: Troll Priest

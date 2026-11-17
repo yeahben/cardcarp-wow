@@ -19,6 +19,13 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
     text: When Narando readies, he has +2 ATK this turn.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Druid

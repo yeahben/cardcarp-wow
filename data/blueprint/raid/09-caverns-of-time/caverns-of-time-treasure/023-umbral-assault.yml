@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : If one or more cards from the top of an opponent's deck would be removed from the game, remove that many +1 instead."
+    text: "Ongoing: If one or more cards from the top of an opponent's deck would be removed from the game, remove that many +1 instead."
 
 regulation:
 
 errata: []
-
-temp: Shadow

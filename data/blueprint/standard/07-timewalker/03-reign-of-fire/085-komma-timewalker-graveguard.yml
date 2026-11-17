@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play and when she is revealed from your deck, target opposing ally has -2 ATK this turn.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Draenei Death Knight

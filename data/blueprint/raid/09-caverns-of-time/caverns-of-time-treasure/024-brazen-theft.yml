@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Rogue
 
+talent:
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
-    text: Play only if your hero dealt combat damage to an opposing hero this turn. Look at target player's hand and choose a card. That player discards that card.
+    text: Play only if your hero dealt combat damage to an opposing hero this turn.
+  - type: Ability
+    text: Look at target player's hand and choose a card. That player discards that card.
 
 regulation:
 
 errata: []
-
-temp: Subtlety Combo

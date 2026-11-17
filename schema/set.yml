@@ -25,6 +25,11 @@ collection:
   type: string
   required: true
 
+verified: # The date every card and blueprint in this set was last checked against
+          # its scan. Absent on sets that have not been checked yet.
+  type: string
+  regex: '^[0-9]{4}-[0-9]{2}-[0-9]{2}$'
+
 publisher: # who printed this set, not who holds the licence. Lives here rather
            # than on the collection because promo and catch-all collections
            # group by kind, not era, and run straight through a handoff.

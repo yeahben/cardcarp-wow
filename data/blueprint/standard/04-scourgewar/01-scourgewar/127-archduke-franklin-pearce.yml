@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: 3 , Discard a card → Put target equipment on the bottom of its owner's deck.
+    text: "{3}, Discard a card → Put target equipment on the bottom of its owner's deck."
 
 regulation:
 
 errata: []
-
-temp: Human Death Knight

@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
-    text: Target hero or ally has +1 ATK and Sentinel this turn.
+    text: Target hero or ally has +1 ATK and Sentinel this turn. (The first time it exhausts each turn, ready it.)
 
 regulation:
 
 errata: []
-
-temp: Enhancement

@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '4'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'On your turn: 1 , → Target ally has +1 / -1 this turn.'
+    text: 'On your turn: {1}, {activate} → Target ally has +1 / -1 this turn.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

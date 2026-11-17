@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Elemental
+  - Minion
+
 trait:
 
 damage: 4
@@ -15,6 +19,8 @@ health: 1
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
     text: When Lava Surger deals combat damage to a hero, ready Lava Surger. It can't attack that hero this turn.
@@ -22,5 +28,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Elemental Minion

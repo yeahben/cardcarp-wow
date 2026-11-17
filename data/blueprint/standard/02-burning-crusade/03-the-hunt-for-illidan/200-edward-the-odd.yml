@@ -17,6 +17,13 @@ health: 5
 
 combat: Melee
 
+race: Human
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
     text: Cards in opposing hands lose and can't have instant.
@@ -24,5 +31,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Human Paladin

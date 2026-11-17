@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : → Put target location or quest from your graveyard into your hand.'
+    text: 'Ongoing: {activate} → Put target location or quest from your graveyard into your hand.'
 
 regulation:
 
 errata: []
-
-temp: Enhancement

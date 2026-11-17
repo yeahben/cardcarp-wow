@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally attacks, he may deal shadow damage to target hero or ally equal to the number of Curses you control.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Blood Elf Warlock

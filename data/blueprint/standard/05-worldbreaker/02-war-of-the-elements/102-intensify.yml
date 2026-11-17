@@ -12,15 +12,19 @@ trait:
 cost: '3'
 
 class:
-  - Warlock
   - Mage
+  - Warlock
 
-instant: The next time target friendly hero or ally would deal any type of damage this turn, it deals double that much fire damage instead.
+talent:
+  - Fire
+  - Destruction
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: The next time target friendly hero or ally would deal any type of damage this turn, it deals double that much fire damage instead.
 
 regulation:
 
 errata: []
-
-temp: Fire Destruction

@@ -1,4 +1,4 @@
-name: Winters Icy Embrace
+name: Winter's Icy Embrace
 
 origin: icecrown-178
 
@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '1'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Opposing heroes and allies lose and can't have Resistances .
+    text: Opposing heroes and allies lose and can't have Resistances.
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

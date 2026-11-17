@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Kodo
+
 trait:
 
 cost: '1'
@@ -19,12 +22,22 @@ combat: Melee
 
 faction: Horde
 
+limit:
+  - name: Mount
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Tauren Hero Required You pay 1 to complete quests. When you place a resource face up, you may exhaust target card in play. (Mounts can't attack or be attacked.)
+    text: Tauren Hero Required
+  - type: Ability
+    text: You pay {1} less to complete quests.
+  - type: Ability
+    text: When you place a resource face up, you may exhaust target card in play.
+  - type: Ability
+    text: (Mounts can't attack or be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Kodo

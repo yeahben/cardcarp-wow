@@ -7,7 +7,12 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Elemental
+
 trait:
+  - 'Garr: 8'
 
 damage: 2
 
@@ -15,7 +20,7 @@ health: 2
 
 combat: Melee
 
-type: Ally
+instant: false
 
 rule:
   - type: Ability
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Elemental

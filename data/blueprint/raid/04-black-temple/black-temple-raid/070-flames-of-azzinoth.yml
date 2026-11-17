@@ -9,14 +9,20 @@ category:
 
 trait:
 
+instant: false
+
+type: Betrayer
+
 stage: 5
+
+sequence: 5
 
 rule:
   - type: Ability
-    text: 'The Betrayer deals 5 fire damage to each of two target opposing heroes and/or allies. Ongoing : → Draw a card.'
+    text: The Betrayer deals 5 fire damage to each of two target opposing heroes and/or allies.
+  - type: Ability
+    text: 'Ongoing: {activate} → Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

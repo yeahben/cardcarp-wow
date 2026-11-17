@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Bear
+  - Beast
+  - Demigod
+
 trait:
 
 cost: '4'
@@ -17,14 +22,20 @@ health: 4
 
 combat: Melee
 
+limit:
+  - name: Ursoc
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Ursoc can protect allies you control named Ursol the Wise. While you control Ursoc the Mighty and Ursol the Wise, if they would deal combat damage while attacking, they deal double that much instead.
+    text: Ursoc can protect allies you control named Ursol the Wise.
+  - type: Ability
+    text: While you control Ursoc the Mighty and Ursol the Wise, if they would deal combat damage while attacking, they deal double that much instead.
 
 regulation:
 
 errata: []
-
-temp: Bear Beast Demigod

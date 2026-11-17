@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Pirate
+
 trait:
 
 damage: 4
@@ -15,14 +18,16 @@ health: 1
 
 combat: Melee
 
+race: Human
+
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: Ferocity
+    text: Ferocity (This ally can attack immediately.)
 
 regulation:
 
 errata: []
-
-temp: Human Pirate

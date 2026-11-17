@@ -19,12 +19,22 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+limit:
+  - name: Unlimited
+
+instant: false
+
 rule:
   - type: Ability
-    text: Assault 1 At the start of your turn, this ally may deal 1 melee damage to target hero for each Orc ally you control.
+    text: Assault 1 (This ally has +1 ATK on your turn.)
+  - type: Ability
+    text: At the start of your turn, this ally may deal 1 melee damage to target hero for each Orc ally you control.
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

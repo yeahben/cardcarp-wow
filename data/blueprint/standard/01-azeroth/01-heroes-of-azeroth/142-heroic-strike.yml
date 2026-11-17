@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: Weapons you control have +3 ATK this turn.
+    text: Your weapons have +3 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Arms

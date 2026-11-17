@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Chimaera
+  - Talent
+
 trait:
 
 cost: '2'
@@ -20,12 +24,21 @@ combat: Nature
 class:
   - Hunter
 
+talent:
+  - Beast Mastery
+
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Beast Mastery Talent While this ally is in your graveyard, you can control an additional Pet.
+    text: Beast Mastery Hero Required
+  - type: Ability
+    text: While this ally is in your graveyard, you can control an additional Pet.
 
 regulation:
 
 errata: []
-
-temp: Chimaera

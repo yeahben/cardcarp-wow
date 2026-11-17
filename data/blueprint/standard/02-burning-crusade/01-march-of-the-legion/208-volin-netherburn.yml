@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: When you play an ability, Volin deals 2 shadow damage to target hero or ally and 2 shadow damage to himself.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Blood Elf Warlock

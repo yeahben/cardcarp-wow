@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Mend 2
+    text: Mend 2 (At the start of your turn, this ally may heal 2 damage from target hero or ally.)
 
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Discipline Talent Ongoing : At the start of your turn, you may add a clock counter to this ability. On your turn: Remove five clock counters from this ability and destroy it → Take an additional turn after this one.'
+    text: Discipline Talent (You can't put Holy Talents or Shadow Talents in your deck.)
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, you may add a clock counter to this ability.'
+  - type: Ability
+    text: 'On your turn: Remove five clock counters from this ability and destroy it → Take an additional turn after this one.'
 
 regulation:
 
 errata: []
-
-temp: Discipline

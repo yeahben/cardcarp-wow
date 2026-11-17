@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: This ally has Assault 2 while an opposing hero is face down.
+    text: This ally has Assault 2 while an opposing hero is face down. (It has +2 ATK on your turn.)
 
 regulation:
 
 errata: []
-
-temp: Human Hunter

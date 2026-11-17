@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Druid
 
-instant: 'Ongoing : Each of your armor has +1 DEF while your hero is in bear form.'
+talent:
+  - Feral
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Each of your armor has +1 DEF while your hero is in bear form.'
 
 regulation:
 
 errata: []
-
-temp: Feral

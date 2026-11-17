@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Fel Orc
+  - Traitor
+
 trait:
 
 cost: '5'
@@ -17,12 +21,17 @@ health: 3
 
 combat: Melee
 
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required When Bonechewer Behemoth enters play, he deals 4 fire damage to target hero.
+    text: Traitor Hero Required
+  - type: Ability
+    text: When Bonechewer Behemoth enters play, he deals 4 fire damage to target hero.
 
 regulation:
 
 errata: []
-
-temp: Fel Orc Warrior Traitor

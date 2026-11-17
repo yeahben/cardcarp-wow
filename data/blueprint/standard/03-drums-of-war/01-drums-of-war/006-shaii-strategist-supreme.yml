@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Hunter
+
+talent:
+  - Survival
+
+profession:
+  - Engineering
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 'If Shaii is defending: , Flip Shaii → Shaii deals 1 melee damage to target attacker.'
+    text: 'If Shaii is defending: {activate}, Flip Shaii → Shaii deals 1 melee damage to target attacker.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Hunter

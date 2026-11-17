@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Mage
 
-instant: Your hero deals 1 fire damage to each opposing ally.
+talent:
+  - Fire
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 1 fire damage to each opposing ally.
 
 regulation:
 
 errata: []
-
-temp: Fire

@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 27
+
+faction: Alliance
+
+race: Night Elf
+
+class:
+  - Druid
+
+rule:
+  - type: Ability
+    position: Front
+    text: Malfurion's Call
+  - type: Ability
+    position: Front
+    text: '{basic} {3}, Flip Malfurion → Put two 1 {melee} / 1 {health} Treant ally tokens into play.'
+  - type: Ability
+    position: Reverse
+    text: Malfurion's Tranquility
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {x} → Malfurion heals X damage from himself and each ally you control.'
 
 regulation:
 

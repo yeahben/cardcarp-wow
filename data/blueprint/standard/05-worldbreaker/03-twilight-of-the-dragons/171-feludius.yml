@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Water
+  - Elemental
+  - Ascendant
+
 trait:
 
 cost: '6'
@@ -17,12 +22,18 @@ health: 4
 
 combat: Frost
 
+limit:
+  - name: Feludius
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'When this or another card you control is destroyed, you may look at the top card of your deck. If you do, you may put it into your graveyard. allies you own everywhere have " Stash : Put a 2 / 1 Water Elemental ally token into play."'
+    text: When this or another {frost} card you control is destroyed, you may look at the top card of your deck. If you do, you may put it into your graveyard.
+  - type: Ability
+    text: '{frost} allies you own everywhere have "Stash: Put a 2 {frost} / 1 {health} Water Elemental ally token into play."'
 
 regulation:
 
 errata: []
-
-temp: Water Elemental Ascendant

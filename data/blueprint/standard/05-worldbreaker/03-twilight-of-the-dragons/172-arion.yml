@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Air
+  - Elemental
+  - Ascendant
+
 trait:
 
 cost: '6'
@@ -17,12 +22,18 @@ health: 5
 
 combat: Nature
 
+limit:
+  - name: Arion
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'When this or another card you control is destroyed, your hero may deal 1 nature damage to target hero. allies you own everywhere have " Stash : Put a 2 / 1 Air Elemental ally token into play."'
+    text: When this or another {nature} card you control is destroyed, your hero may deal 1 nature damage to target hero.
+  - type: Ability
+    text: '{nature} allies you own everywhere have "Stash: Put a 2 {nature} / 1 {health} Air Elemental ally token into play."'
 
 regulation:
 
 errata: []
-
-temp: Air Elemental Ascendant

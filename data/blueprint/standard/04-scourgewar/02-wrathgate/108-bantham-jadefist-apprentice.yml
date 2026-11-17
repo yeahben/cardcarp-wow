@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector This ally has -2 / -2 while attacking.
+    text: Protector
+  - type: Ability
+    text: This ally has -2 / -2 while attacking.
 
 regulation:
 
 errata: []
-
-temp: Human Warrior

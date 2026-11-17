@@ -13,12 +13,12 @@ cost: '1'
 
 faction: Alliance
 
-instant: Each player puts an ally he controls into its owner's hand.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Each player puts an {alliance} ally he controls into its owner's hand.
 
 regulation:
 
 errata: []
-
-temp: ''

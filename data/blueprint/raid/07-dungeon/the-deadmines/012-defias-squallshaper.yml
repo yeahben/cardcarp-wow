@@ -15,6 +15,13 @@ health: 2
 
 combat: Frost
 
+race: Human
+
+class:
+  - Mage
+
+instant: false
+
 type: Dungeon
 
 rule:
@@ -24,5 +31,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Human Mage

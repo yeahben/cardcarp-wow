@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Priest
 
-instant: Put target ally into its owner's hand. Delve
+talent:
+  - Shadow
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Put target ally into its owner's hand.
+  - type: Ability
+    text: Delve (Look at the top two cards of your deck. Put any number of them on top of your deck in any order, and the rest on the bottom.)
 
 regulation:
 
 errata: []
-
-temp: Shadow

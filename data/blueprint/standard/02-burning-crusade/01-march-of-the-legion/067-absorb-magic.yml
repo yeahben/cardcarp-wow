@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Priest
 
-instant: Destroy target ability. If you do, your hero heals damage from itself equal to that ability's cost.
+talent:
+  - Discipline
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Destroy target ability. If you do, your hero heals damage from itself equal to that ability's cost.
 
 regulation:
 
 errata: []
-
-temp: Discipline

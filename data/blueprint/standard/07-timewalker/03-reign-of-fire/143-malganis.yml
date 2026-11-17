@@ -1,0 +1,40 @@
+name: Mal'Ganis
+
+origin: reign-of-fire-143
+
+layout: Standard
+
+category:
+  - Ally
+
+subtype:
+  - Dreadlord
+  - Demon
+
+trait:
+
+cost: '8'
+
+damage: 9
+
+health: 9
+
+combat: Melee
+
+limit:
+  - name: Mal'Ganis
+    count: 1
+
+instant: false
+
+type: Monster
+
+rule:
+  - type: Ability
+    text: When Mal'Ganis enters play and when he attacks, Portal.
+  - type: Ability
+    text: If a Portal power would let you choose one card and put it into play, you may choose any number of cards and put them into play instead. (Each of those cards must still be a legal choice.)
+
+regulation:
+
+errata: []

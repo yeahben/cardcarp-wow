@@ -19,10 +19,15 @@ combat: Holy
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Priest

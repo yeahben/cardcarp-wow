@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Put 1 damage on Acolyte Demia → Demia deals 1 shadow damage to target hero or ally. Use only on your turn.
+    text: '{1}, Put 1 damage on Acolyte Demia → Demia deals 1 shadow damage to target hero or ally. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

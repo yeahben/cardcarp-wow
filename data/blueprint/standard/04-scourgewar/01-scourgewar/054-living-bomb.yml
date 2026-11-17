@@ -1,0 +1,35 @@
+name: Living Bomb
+
+origin: scourgewar-054
+
+layout: Standard
+
+category:
+  - Ability
+
+subtype:
+  - Talent
+
+trait:
+
+cost: '1'
+
+class:
+  - Mage
+
+talent:
+  - Fire
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Fire Hero Required
+  - type: Ability
+    text: Attach to target hero.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, add a fuse counter. Then, if there are ten or more, your hero deals 50 fire damage to attached hero, and destroy this ability.'
+
+regulation:
+
+errata: []

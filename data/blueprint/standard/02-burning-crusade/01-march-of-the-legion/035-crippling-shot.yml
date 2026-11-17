@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Hunter
 
-instant: Target hero or ally has -5 ATK this turn.
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target hero or ally has -5 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Survival

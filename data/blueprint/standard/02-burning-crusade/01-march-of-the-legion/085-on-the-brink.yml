@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '1'
@@ -14,12 +17,17 @@ cost: '1'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally. Ongoing : When attached ally becomes exhausted, destroy it.'
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: When attached ally becomes exhausted, destroy it.'
 
 regulation:
 
 errata: []
-
-temp: Assassination Combo

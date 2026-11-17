@@ -16,12 +16,17 @@ faction: Alliance
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
-    text: Alliance Hero Required Heroes and allies in your party have +2 ATK while attacking allies this turn.
+    text: Alliance Hero Required
+  - type: Ability
+    text: Heroes and allies in your party have +2 ATK while attacking allies this turn.
 
 regulation:
 
 errata: []
-
-temp: Enhancement

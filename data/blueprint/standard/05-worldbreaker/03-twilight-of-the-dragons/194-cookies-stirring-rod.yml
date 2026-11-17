@@ -1,4 +1,4 @@
-name: Cookies Stirring Rod
+name: Cookie's Stirring Rod
 
 origin: twilight-of-the-dragons-194
 
@@ -7,21 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Wand
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 1
+
+combat: Arcane
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Long-Range When your hero deals damage with this weapon, reveal the top card of your deck. If it's an card, put it into your hand.
+    text: Long-Range
+  - type: Ability
+    text: When your hero deals damage with this weapon, reveal the top card of your deck. If it's an {arcane} card, put it into your hand.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Wand

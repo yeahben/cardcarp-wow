@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Death Knight
 
+talent:
+  - Frost
+
+instant: false
+
 rule:
   - type: Ability
-    text: Eternal Your hero has +1 ATK this turn for each resource you control.
+    text: Eternal (When this enters your graveyard from anywhere, you may shuffle it into your deck.)
+  - type: Ability
+    text: Your hero has +1 ATK this turn for each resource you control.
 
 regulation:
 
 errata: []
-
-temp: Frost

@@ -19,6 +19,13 @@ combat: Fire
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: When Naila attacks, she deals 1 fire damage to each other hero and ally.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Blood Elf Warlock

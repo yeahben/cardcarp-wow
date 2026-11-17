@@ -1,4 +1,4 @@
-name: Calamitys Grasp
+name: Calamity's Grasp
 
 origin: naxxramas-treasure-030
 
@@ -7,20 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Fist
+
 trait:
 
 cost: '4'
 
+damage: 2
+
+strike: 1
+
+combat: Melee
+
 class:
-  - Shaman
   - Rogue
+  - Shaman
 
-instant: When this equipment enters play, choose "ability", "ally", or "equipment." You may discard a card of that kind. If you do, destroy target card if it shares that kind.
+limit:
+  - name: Melee
+    count: 1
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: When this weapon enters play, choose "ability," "ally," or "equipment." You may discard a card of that kind. If you do, destroy target card if it shares that kind.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Fist

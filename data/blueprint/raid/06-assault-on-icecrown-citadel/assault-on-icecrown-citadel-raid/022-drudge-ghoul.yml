@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ghoul
+
 trait:
 
 cost: '1'
@@ -17,14 +20,14 @@ health: 2
 
 combat: Melee
 
-type: Raid
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: 'Servant of Undeath : You may play this ally from your graveyard.'
+    text: 'Servant of Undeath: You may play this ally from your graveyard.'
 
 regulation:
 
 errata: []
-
-temp: Ghoul

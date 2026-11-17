@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Your hero has Dual Wield . Axes you control have +2 ATK. You pay 2 less to strike with Swords.'
+    text: 'Ongoing: Your hero has Dual Wield.'
+  - type: Ability
+    text: Axes you control have +2 ATK.
+  - type: Ability
+    text: You pay {2} less to strike with Swords.
 
 regulation:
 
 errata: []
-
-temp: Arms

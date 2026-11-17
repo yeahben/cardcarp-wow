@@ -7,16 +7,22 @@ layout: Standard
 category:
   - Misc
 
+subtype:
+  - Rune
+  - Golemagg the Incinerator
+
 trait:
 
-type: Raid
+instant: false
+
+stage: 8
 
 rule:
   - type: Ability
-    text: Your Core Ragers can't be destroyed or otherwise leave your control while your hero is Golemagg. When Golemagg is destroyed, remove all of your Core Ragers from the game.
+    text: Your Core Ragers can't be destroyed or otherwise leave your control while your hero is Golemagg.
+  - type: Ability
+    text: When Golemagg is destroyed, remove all of your Core Ragers from the game.
 
 regulation:
 
 errata: []
-
-temp: Golemagg the Incinerator Boss 8

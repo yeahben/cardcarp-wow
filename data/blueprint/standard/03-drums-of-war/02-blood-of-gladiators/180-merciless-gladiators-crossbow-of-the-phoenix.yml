@@ -1,4 +1,4 @@
-name: Merciless Gladiators Crossbow of the Phoenix
+name: Merciless Gladiator's Crossbow of the Phoenix
 
 origin: blood-of-gladiators-180
 
@@ -7,19 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Crossbow
+
 trait:
 
 cost: '3'
 
+damage: 0
+
+strike: 2
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
+type: Arena
+
 rule:
   - type: Ability
-    text: Merciless Gladiator's Crossbow of the Phoenix has +X ATK, where X is the combined ATK of your Pets. When you strike with this weapon, your hero has Long-Range this combat.
+    text: Merciless Gladiator's Crossbow of the Phoenix has +X ATK, where X is the combined ATK of your Pets.
+  - type: Ability
+    text: When you strike with this weapon, your hero has long-range this combat.
 
 regulation:
 
 errata: []
-
-temp: Ranged Arena Weapon Crossbow

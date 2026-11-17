@@ -7,20 +7,42 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor Set
+  - Mail
+
 trait:
 
 cost: '6'
+
+defense: 5
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Chest
+    count: 1
+  - name: Wrist
+    count: 1
+  - name: Hands
+    count: 1
+  - name: Waist
+    count: 1
+  - name: Legs
+    count: 1
+  - name: Feet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of your turn, add a scarlet counter to this armor. Your hero and allies you control have Assault 1 for each scarlet counter.
+    text: At the start of your turn, add a scarlet counter to this armor.
+  - type: Ability
+    text: Your hero and allies you control have Assault 1 for each scarlet counter.
 
 regulation:
 
 errata: []
-
-temp: Armor Set Mail

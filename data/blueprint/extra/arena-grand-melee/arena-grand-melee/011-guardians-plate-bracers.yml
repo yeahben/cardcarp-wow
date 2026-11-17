@@ -1,4 +1,4 @@
-name: Guardians Plate Bracers
+name: Guardian's Plate Bracers
 
 origin: arena-grand-melee-011
 
@@ -7,19 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '3'
 
+defense: 3
+
 class:
   - Warrior
 
+limit:
+  - name: Wrist
+    count: 1
+
+instant: false
+
+type: Arena
+
 rule:
   - type: Ability
-    text: Preparation
+    text: Preparation (On your first turn, you may play this card without paying its cost.)
 
 regulation:
 
 errata: []
-
-temp: Arena Armor Plate

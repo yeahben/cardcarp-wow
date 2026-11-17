@@ -19,12 +19,20 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warrior
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: 3 , Destroy Marshal Reginald Windsor → Destroy target ally with cost 7 or more.
+    text: '{3}, Destroy Marshal Reginald Windsor → Destroy target ally with cost 7 or more.'
 
 regulation:
 
 errata: []
-
-temp: Human Warrior

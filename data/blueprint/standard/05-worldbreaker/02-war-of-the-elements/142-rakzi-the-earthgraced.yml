@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'This ally has Assault 1 for each equipment you control. Stash : Target weapon you control has Assault 1 this turn.'
+    text: This ally has Assault 1 for each equipment you control.
+  - type: Ability
+    text: 'Stash: Target weapon you control has Assault 1 this turn.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Shaman

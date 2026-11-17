@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Finishing Move
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
-    text: As an additional cost to play, remove up to five Combo cards in your graveyard from the game. Destroy X target exhausted allies, where X is the number of cards removed this way.
+    text: As an additional cost to play, remove up to five Combo cards in your graveyard from the game.
+  - type: Ability
+    text: Destroy X target exhausted allies, where X is the number of cards removed this way.
 
 regulation:
 
 errata: []
-
-temp: Assassination Finishing Move

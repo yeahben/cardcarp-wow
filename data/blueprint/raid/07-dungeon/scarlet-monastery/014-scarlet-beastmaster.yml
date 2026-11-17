@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Beastmaster
+
 trait:
 
 damage: 2
@@ -14,6 +17,10 @@ damage: 2
 health: 2
 
 combat: Melee
+
+race: Human
+
+instant: false
 
 type: Dungeon
 
@@ -24,5 +31,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Human Beastmaster

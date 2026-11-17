@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity
+    text: Ferocity (This ally can attack immediately.)
 
 regulation:
 
 errata: []
-
-temp: Orc Mage

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Waitress
+
 trait:
 
 damage: 3
@@ -14,6 +17,10 @@ damage: 3
 health: 3
 
 combat: Melee
+
+race: Goblin
+
+instant: false
 
 type: Dungeon
 
@@ -24,5 +31,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Goblin Waitress

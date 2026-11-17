@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: If your hero has dealt fire ( ), frost ( ), or nature ( ) damage this turn, Sha'kar has Ferocity .
+    text: If your hero has dealt fire ({fire}), frost ({frost}), or nature ({nature}) damage this turn, Sha'kar has ferocity. (He can attack immediately.)
 
 regulation:
 
 errata: []
-
-temp: Troll Shaman

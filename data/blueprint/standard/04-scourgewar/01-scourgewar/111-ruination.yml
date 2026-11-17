@@ -14,6 +14,11 @@ cost: '5'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
     text: 'Choose one or both: Destroy target ally; or destroy target weapon.'
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Arms

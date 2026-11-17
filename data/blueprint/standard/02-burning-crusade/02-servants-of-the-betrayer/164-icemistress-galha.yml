@@ -19,12 +19,17 @@ combat: Frost
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Each opponent's maximum hand size is reduced by one for each ally in your party.
+    text: Each opponent's maximum hand size is reduced by one for each {frost} ally in your party.
 
 regulation:
 
 errata: []
-
-temp: Troll Mage

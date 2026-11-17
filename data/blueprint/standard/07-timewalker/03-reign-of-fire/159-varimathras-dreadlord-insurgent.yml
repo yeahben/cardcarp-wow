@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Dreadlord
+  - Demon
+
 trait:
 
 cost: '5'
@@ -17,14 +21,22 @@ health: 4
 
 combat: Shadow
 
+limit:
+  - name: Varimathras
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Monster Hero Required When Varimathras enters play, Portal . If you would reveal three cards with a Portal power, reveal six cards instead.
+    text: Monster Hero Required
+  - type: Ability
+    text: When Varimathras enters play, Portal.
+  - type: Ability
+    text: If you would reveal three cards with a Portal power, reveal six cards instead.
 
 regulation:
 
 errata: []
-
-temp: Dreadlord Demon

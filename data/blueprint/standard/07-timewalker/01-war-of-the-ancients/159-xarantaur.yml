@@ -19,12 +19,23 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+limit:
+  - name: Xarantaur
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Xarantaur has +1 / +1 for each card in all players' hands. At the start of each player's turn, that player draws a card.
+    text: Xarantaur has +1 / +1 for each card in all players' hands.
+  - type: Ability
+    text: At the start of each player's turn, that player draws a card.
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: This ally has Mend 2 while she's damaged.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Priest

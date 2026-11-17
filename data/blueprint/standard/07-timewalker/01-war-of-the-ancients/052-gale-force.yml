@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
-    text: Target ally has Ferocity this turn.
+    text: Target ally has Ferocity this turn. (It can attack immediately.)
 
 regulation:
 
 errata: []
-
-temp: Enhancement

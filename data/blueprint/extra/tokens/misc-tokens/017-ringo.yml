@@ -5,10 +5,29 @@ origin: misc-tokens-017
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
 
 trait:
 
-rule: []
+damage: 0
+
+health: 1
+
+combat: Melee
+
+race: Goblin
+
+limit:
+  - name: Unique
+
+instant: false
+
+rule:
+  - type: Ability
+    text: At the start of your turn, draw a card.
 
 regulation:
 

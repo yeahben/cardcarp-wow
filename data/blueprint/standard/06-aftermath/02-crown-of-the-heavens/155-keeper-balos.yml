@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Keeper of the Grove
+
 trait:
 
 cost: '2'
@@ -17,14 +20,17 @@ health: 4
 
 combat: Nature
 
+class:
+  - Druid
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Harmonize
+    text: Harmonize (You pay {1} less to play allies with printed cost 4 or more.)
 
 regulation:
 
 errata: []
-
-temp: Keeper of the Grove Druid

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Pandaren
+  - Monk
+
 trait:
 
 cost: '5'
@@ -17,12 +21,18 @@ health: 5
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play – If your hero has less remaining health than an opposing hero, this ally heals 5 damage from your hero. If you control fewer allies than an opponent, this ally deals 1 melee damage to all opposing allies. If you have fewer cards in hand than an opponent, draw a card.
+    text: When this ally enters play—
+  - type: Ability
+    text: If your hero has less remaining health than an opposing hero, this ally heals 5 damage from your hero.
+  - type: Ability
+    text: If you control fewer allies than an opponent, this ally deals 1 melee damage to all opposing allies.
+  - type: Ability
+    text: If you have fewer cards in hand than an opponent, draw a card.
 
 regulation:
 
 errata: []
-
-temp: Pandaren Monk

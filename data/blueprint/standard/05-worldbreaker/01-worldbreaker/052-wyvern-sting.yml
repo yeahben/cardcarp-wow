@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+  - Sting
+
 trait:
 
 cost: '1'
@@ -14,12 +18,19 @@ cost: '1'
 class:
   - Hunter
 
-instant: "Survival Hero Required Attach to target ally, or target hero or ally if you control a Ranged weapon. Ongoing : Attached character can't attack or exhaust unless its controller pays 2 ."
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Survival Hero Required
+  - type: Ability
+    text: Attach to target ally, or target hero or ally if you control a Ranged weapon.
+  - type: Ability
+    text: "Ongoing: Attached character can't attack or exhaust unless its controller pays {2}."
 
 regulation:
 
 errata: []
-
-temp: Survival Talent Sting

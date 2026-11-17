@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive When this ally deals combat damage to a defending hero for the first time each game, this ally has "Allies you control have +2 / +2" until he leaves play.
+    text: Elusive
+  - type: Ability
+    text: When this ally deals combat damage to a defending hero for the first time each game, this ally has "Allies you control have +2 / +2" until he leaves play.
 
 regulation:
 
 errata: []
-
-temp: Worgen Rogue

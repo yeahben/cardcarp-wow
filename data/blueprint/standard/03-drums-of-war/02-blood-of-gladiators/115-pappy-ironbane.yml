@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector At the end of your turn, you may destroy target ability or equipment.
+    text: Protector
+  - type: Ability
+    text: At the end of your turn, you may destroy target ability or equipment.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Warrior

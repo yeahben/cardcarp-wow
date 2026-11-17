@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: Put target , , or ally or weapon on top of its owner's deck.
+    text: Put target {shadow}, {holy}, or {frost} ally or weapon on top of its owner's deck.
 
 regulation:
 
 errata: []
-
-temp: Arms

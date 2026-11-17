@@ -7,7 +7,13 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Naga
+  - Traitor
+
 trait:
+
+cost: '4'
 
 type: Boss
 
@@ -16,13 +22,20 @@ stage: 1
 rule:
   - type: Ability
     position: Front
-    text: Immune At the end of your turn, put a spine counter on target opposing hero, and Naj'entus deals 2 melee damage to it. 2 , Exhaust a hero or ally in your party with no spine counters → Remove all spine counters from all characters and flip Naj'entus. Only an opponent can use this power, and only on his turn.
+    text: Immune (Can't be attacked, damaged, or targeted.)
+  - type: Ability
+    position: Front
+    text: At the end of your turn, put a spine counter on target opposing hero, and Naj'entus deals 2 melee damage to it.
+  - type: Ability
+    position: Front
+    text: "{2}, Exhaust a hero or ally in your party with no spine counters → Remove all spine counters from all characters and flip Naj'entus. Only an opponent can use this power, and only on his turn."
   - type: Ability
     position: Reverse
-    text: "(Printed: 5 ) When Naj'entus flips to this side, he deals 2 frost damage to each opposing hero. Naj'entus has +2 ATK while attacking."
+    text: When Naj'entus flips to this side, he deals 2 frost damage to each opposing hero.
+  - type: Ability
+    position: Reverse
+    text: Naj'entus has +2 ATK while attacking.
 
 regulation:
 
 errata: []
-
-temp: Naga Traitor

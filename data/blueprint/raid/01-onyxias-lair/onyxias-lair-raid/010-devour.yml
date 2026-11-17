@@ -11,12 +11,12 @@ trait:
 
 cost: '1'
 
-instant: If Onyxia is defending, she deals 5 melee damage to target attacking hero or ally.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: If Onyxia is defending, she deals 5 melee damage to target attacking hero or ally.
 
 regulation:
 
 errata: []
-
-temp: ''

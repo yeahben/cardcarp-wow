@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: This ally has Protector while she's undamaged.
+    text: Casey is a protector while she's undamaged.
 
 regulation:
 
 errata: []
-
-temp: Gnome Warrior

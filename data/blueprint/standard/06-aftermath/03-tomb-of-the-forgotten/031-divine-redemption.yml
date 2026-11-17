@@ -14,12 +14,17 @@ cost: '9'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Put target ally from your graveyard into play and attach this ability to it. Ongoing : Attached ally has +5 / +5, Protector and Invincible .'
+    text: Put target ally from your graveyard into play and attach this ability to it.
+  - type: Ability
+    text: "Ongoing: Attached ally has +5 / +5, Protector, and Invincible. (It can't leave play, be targeted, or be dealt damage.)"
 
 regulation:
 
 errata: []
-
-temp: Holy

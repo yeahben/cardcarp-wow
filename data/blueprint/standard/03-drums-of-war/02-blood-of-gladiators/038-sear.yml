@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Mage
 
-instant: Your hero deals 2 fire damage to target ally, or 6 if that ally was dealt damage this turn.
+talent:
+  - Fire
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 2 fire damage to target ally, or 6 if that ally was dealt damage this turn.
 
 regulation:
 
 errata: []
-
-temp: Fire

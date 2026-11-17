@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Scarab
+
 trait:
 
 cost: '1'
@@ -17,6 +20,8 @@ health: 1
 
 combat: Melee
 
+instant: false
+
 type: Monster
 
 rule:
@@ -26,5 +31,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Scarab

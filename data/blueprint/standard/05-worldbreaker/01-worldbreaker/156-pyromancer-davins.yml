@@ -19,12 +19,21 @@ combat: Fire
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Aberration 1 → Target friendly ally has +2 / -2 this turn. Stash : Target friendly ally has +2 / -2 this turn.'
+    text: Aberration
+  - type: Ability
+    text: '{1} → Target friendly ally has +2 / -2 this turn.'
+  - type: Ability
+    text: 'Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Target friendly ally has +2 / -2 this turn.'
 
 regulation:
 
 errata: []
-
-temp: Worgen Warlock

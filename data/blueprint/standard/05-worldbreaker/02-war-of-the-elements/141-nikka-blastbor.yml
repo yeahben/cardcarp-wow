@@ -19,10 +19,15 @@ combat: Arcane
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Hunter
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Goblin Hunter

@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'Pay 3 to complete this quest. Reward : Draw a card, or two cards if two or more allies have the same name.'
+    text: Pay {3} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card, or two cards if two or more allies have the same name.'
 
 regulation:
 
 errata: []
-
-temp: ''

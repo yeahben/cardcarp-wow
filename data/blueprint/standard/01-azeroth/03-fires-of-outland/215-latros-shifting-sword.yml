@@ -1,4 +1,4 @@
-name: Latros Shifting Sword
+name: Latro's Shifting Sword
 
 origin: fires-of-outland-215
 
@@ -7,21 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Sword
+
 trait:
 
 cost: '4'
 
+damage: 3
+
+strike: 2
+
+combat: Melee
+
 class:
-  - Warrior
   - Hunter
   - Rogue
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Your hero has Dual Wield . You pay 2 less to strike with other Swords.
+    text: Your hero has dual wield.
+  - type: Ability
+    text: You pay {2} less to strike with other Swords.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

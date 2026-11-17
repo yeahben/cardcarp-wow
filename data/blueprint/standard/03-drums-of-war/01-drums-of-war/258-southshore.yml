@@ -7,16 +7,17 @@ layout: Standard
 category:
   - Location
 
+subtype:
+  - City
+
 trait:
 
 faction: Alliance
 
 rule:
   - type: Ability
-    text: 'On your turn: 1 , → When target ally in your party next deals damage to an ally with lower cost this turn, draw a card.'
+    text: 'On your turn: {1}, {activate} → When target {alliance} ally in your party next deals damage to an ally with lower cost this turn, draw a card.'
 
 regulation:
 
 errata: []
-
-temp: City

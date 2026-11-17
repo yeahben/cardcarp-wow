@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Geist
+
 trait:
 
 cost: '1'
@@ -17,14 +20,19 @@ health: 1
 
 combat: Melee
 
-type: Raid
+limit:
+  - name: Unlimited
+
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: Scourge Hero Required This ally can't attack unless there is at least one card in each graveyard.
+    text: Scourge Hero Required
+  - type: Ability
+    text: This ally can't attack unless there is at least one card in each graveyard.
 
 regulation:
 
 errata: []
-
-temp: Geist

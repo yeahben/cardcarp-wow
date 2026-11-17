@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Demon
+  - Traitor
+
 trait:
 
 cost: '1'
@@ -17,12 +21,14 @@ health: 2
 
 combat: Shadow
 
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required When Sister of Pain attacks, she deals 1 shadow damage to target opposing hero.
+    text: Traitor Hero Required
+  - type: Ability
+    text: When Sister of Pain attacks, she deals 1 shadow damage to target opposing hero.
 
 regulation:
 
 errata: []
-
-temp: Demon Traitor

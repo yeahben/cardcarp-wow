@@ -19,12 +19,19 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector At the start of your turn, this ally heals 2 damage from your hero.
+    text: Protector
+  - type: Ability
+    text: At the start of your turn, this ally heals 2 damage from your hero.
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

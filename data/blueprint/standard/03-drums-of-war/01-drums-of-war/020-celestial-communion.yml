@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Druid
 
-instant: Your hero deals 1 arcane damage to target hero or ally for each ally in your party. Draw a card.
+talent:
+  - Balance
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 1 arcane damage to target hero or ally for each {arcane} ally in your party.
+  - type: Ability
+    text: Draw a card.
 
 regulation:
 
 errata: []
-
-temp: Balance

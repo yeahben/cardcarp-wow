@@ -14,6 +14,11 @@ cost: '3'
 class:
   - Hunter
 
+talent:
+  - Survival
+
+instant: false
+
 rule:
   - type: Ability
     text: Destroy all opposing allies that have or share the highest cost among opposing allies.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Survival

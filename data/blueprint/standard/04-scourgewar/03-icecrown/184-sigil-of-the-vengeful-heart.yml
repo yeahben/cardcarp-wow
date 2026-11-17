@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
@@ -14,12 +17,18 @@ cost: '2'
 class:
   - Death Knight
 
+limit:
+  - name: Relic
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , → Ready target Ghoul. When you play a Weapon, ready this item.
+    text: '{1}, {activate} → Ready target Ghoul.'
+  - type: Ability
+    text: When you play a weapon, ready this item.
 
 regulation:
 
 errata: []
-
-temp: Item Relic

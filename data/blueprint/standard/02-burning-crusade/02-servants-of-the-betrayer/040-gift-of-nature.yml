@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,19 @@ cost: '3'
 class:
   - Druid
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Restoration Hero Required Ongoing : Allies in your party can't be destroyed by fatal damage. At the end of each turn, destroy all allies in your party with fatal damage."
+    text: Restoration Hero Required
+  - type: Ability
+    text: "Ongoing: Allies in your party can't be destroyed by fatal damage."
+  - type: Ability
+    text: At the end of each turn, destroy all allies in your party with fatal damage.
 
 regulation:
 
 errata: []
-
-temp: Restoration Talent

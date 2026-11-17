@@ -7,16 +7,25 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '1'
 
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -25,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Item Off-Hand

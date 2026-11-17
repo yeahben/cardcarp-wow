@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Spirit
+  - Beast
+
 trait:
 
 cost: '7'
@@ -20,12 +24,20 @@ combat: Arcane
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Beast Mastery Talent Elusive , Stealth , Untargetable Damage that this ally would deal is unpreventable.
+    text: Beast Mastery Talent (You can't put Marksmanship Talents or Survival Talents in your deck.)
+  - type: Ability
+    text: Elusive, Stealth, Untargetable
+  - type: Ability
+    text: Damage that this ally would deal is unpreventable.
 
 regulation:
 
 errata: []
-
-temp: Spirit Beast

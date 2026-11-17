@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Discard a card → Target hero or ally has -1 this turn.
+    text: '{1}, Discard a card → Target hero or ally has -1 {health} this turn.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Death Knight

@@ -13,16 +13,19 @@ health: 27
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Rogue
+
 rule:
   - type: Ability
     position: Front
-    text: 4 → Flip Edwin
+    text: '{4} → Flip Edwin'
   - type: Ability
     position: Reverse
-    text: Allies you control have Stealth .
+    text: Allies you control have Stealth. (They can't be protected against.)
 
 regulation:
 
 errata: []
-
-temp: Worgen Rogue

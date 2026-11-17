@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warrior
 
-instant: Target ally or weapon has -3 ATK this turn.
+talent:
+  - Fury
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target ally or weapon has -3 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Fury

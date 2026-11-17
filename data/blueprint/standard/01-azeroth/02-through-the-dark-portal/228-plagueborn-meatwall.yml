@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Abomination
+
 trait:
 
 cost: '5'
@@ -19,12 +22,16 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When Plagueborn Meatwall defends against an ally, remove all damage from Plagueborn Meatwall, and he deals that much melee damage to each attacking ally.
+    text: Protector
+  - type: Ability
+    text: When Plagueborn Meatwall defends against an ally, remove all damage from Plagueborn Meatwall, and he deals that much melee damage to each attacking ally.
 
 regulation:
 
 errata: []
-
-temp: Undead Abomination

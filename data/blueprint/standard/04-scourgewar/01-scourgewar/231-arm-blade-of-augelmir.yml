@@ -7,20 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Fist
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 0
+
+combat: Melee
+
 class:
-  - Shaman
   - Rogue
+  - Shaman
 
-instant: When this weapon enters play, you may put target ability into its owner's hand.
+limit:
+  - name: Melee
+    count: 1
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: When this weapon enters play, you may put target ability into its owner's hand.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Fist

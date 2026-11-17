@@ -17,12 +17,19 @@ health: 3
 
 combat: Holy
 
+race: Draenei
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Aldor Reputation Inspire: All friendly heroes and allies with activated powers'
+    text: Aldor Reputation
+  - type: Ability
+    text: 'Inspire: All friendly heroes and allies with {activate} powers'
 
 regulation:
 
 errata: []
-
-temp: Draenei Warrior

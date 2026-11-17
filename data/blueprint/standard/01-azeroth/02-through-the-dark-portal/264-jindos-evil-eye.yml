@@ -1,4 +1,4 @@
-name: Jin'dos Evil Eye
+name: Jin'do's Evil Eye
 
 origin: through-the-dark-portal-264
 
@@ -7,15 +7,24 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
+
+limit:
+  - name: Neck
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -24,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Item Neck

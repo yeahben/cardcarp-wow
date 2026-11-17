@@ -13,13 +13,23 @@ health: 31
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Warrior
+
+talent:
+  - Fury
+
+profession:
+  - Herbalism
+  - Alchemy
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Bulkas Wildhorn → Destroy target ally with damage on it. Use only on your turn.
+    text: '{3}, Flip Bulkas Wildhorn → Destroy target ally with damage on it. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Warrior

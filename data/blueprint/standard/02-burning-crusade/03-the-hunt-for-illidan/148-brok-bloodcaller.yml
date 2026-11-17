@@ -19,12 +19,19 @@ combat: Ranged
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity At the end of your turn, destroy Brok if he's undamaged.
+    text: Ferocity
+  - type: Ability
+    text: At the end of your turn, destroy Brok if he's undamaged.
 
 regulation:
 
 errata: []
-
-temp: Orc Hunter

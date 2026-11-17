@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warlock
 
+talent:
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero deals 2 fire damage to target hero or ally, plus an additional 2 for each card you control.
+    text: Your hero deals 2 fire damage to target hero or ally, plus an additional 2 for each {fire} card you control.
 
 regulation:
 
 errata: []
-
-temp: Destruction

@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: When Vestia Abiectus deals combat damage, you may put an ability you control into its owner's hand.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Night Elf Priest

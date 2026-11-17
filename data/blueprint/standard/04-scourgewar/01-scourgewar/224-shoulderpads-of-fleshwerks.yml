@@ -5,10 +5,31 @@ origin: scourgewar-224
 layout: Standard
 
 category:
+  - Equipment
+
+subtype:
+  - Armor
+  - Leather
 
 trait:
 
-rule: []
+cost: '6'
+
+defense: 2
+
+class:
+  - Druid
+  - Rogue
+
+limit:
+  - name: Shoulder
+    count: 1
+
+instant: false
+
+rule:
+  - type: Ability
+    text: When this armor enters play, you may destroy target ally with Mend or Protector.
 
 regulation:
 

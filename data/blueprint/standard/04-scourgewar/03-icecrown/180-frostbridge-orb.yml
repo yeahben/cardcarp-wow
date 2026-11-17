@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '0'
@@ -15,12 +18,18 @@ class:
   - Druid
   - Mage
 
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Hero : Cards you control with Mend have an additional Mend 1 . Hero : Cards you control with Assault have an additional Assault 1 .'
+    text: '{druid} Hero: Cards you control with Mend have an additional Mend 1.'
+  - type: Ability
+    text: '{mage} Hero: Cards you control with Assault have an additional Assault 1.'
 
 regulation:
 
 errata: []
-
-temp: Item Off-Hand

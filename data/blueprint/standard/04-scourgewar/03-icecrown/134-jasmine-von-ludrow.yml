@@ -19,12 +19,17 @@ combat: Frost
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Frost Resistance
+    text: Frost Resistance (Prevent all frost ({frost}) damage that would be dealt to this ally.)
 
 regulation:
 
 errata: []
-
-temp: Undead Mage

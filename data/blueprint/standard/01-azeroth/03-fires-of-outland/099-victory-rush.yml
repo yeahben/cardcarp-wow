@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warrior
 
-instant: If your hero has dealt fatal combat damage to an ally this turn, destroy another target ally.
+talent:
+  - Fury
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: If your hero has dealt fatal combat damage to an ally this turn, destroy another target ally.
 
 regulation:
 
 errata: []
-
-temp: Fury

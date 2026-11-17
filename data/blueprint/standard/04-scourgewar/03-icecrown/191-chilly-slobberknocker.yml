@@ -7,23 +7,40 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Staff
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 5
+
+combat: Frost
+
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: As this weapon enters play, name two damage types. If the first type of damage would be dealt, that much +1 is dealt instead. If the second type of damage would be dealt, that much -1 is dealt instead.
+    text: As this weapon enters play, name two damage types.
+  - type: Ability
+    text: If the first type of damage would be dealt, that much +1 is dealt instead. If the second type of damage would be dealt, that much -1 is dealt instead.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Staff

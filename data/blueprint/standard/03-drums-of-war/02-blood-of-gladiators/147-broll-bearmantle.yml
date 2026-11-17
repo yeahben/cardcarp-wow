@@ -17,6 +17,16 @@ health: 0
 
 combat: Nature
 
+race: Night Elf
+
+class:
+  - Druid
+
+limit:
+  - name: Unique
+
+instant: false
+
 type: Arena
 
 rule:
@@ -26,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

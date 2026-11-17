@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Death Knight
 
-instant: Your hero deals 2 melee damage to target ally. That ally has -1 health this turn for each Disease you control.
+talent:
+  - Blood
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 2 melee damage to target ally. That ally has -1 health this turn for each Disease you control.
 
 regulation:
 
 errata: []
-
-temp: Blood

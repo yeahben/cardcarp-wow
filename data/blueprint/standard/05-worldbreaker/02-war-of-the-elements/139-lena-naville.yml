@@ -19,12 +19,19 @@ combat: Holy
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Mend 2 Stash : Your hero heals 2 damage from target ally.'
+    text: Mend 2 (At the start of your turn, this ally may heal 2 damage from target hero or ally.)
+  - type: Ability
+    text: 'Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Your hero heals 2 damage from target ally.'
 
 regulation:
 
 errata: []
-
-temp: Undead Priest

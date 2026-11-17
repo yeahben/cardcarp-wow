@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Abomination
+
 trait:
 
 damage: 2
@@ -15,14 +18,18 @@ health: 11
 
 combat: Melee
 
-type: Boss
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
-    text: 'Boss When Meathook enters play, exhaust all Raiding heroes and allies. Caverns Hero 2+ : Raiding allies that can attack must attack Meathook if able.'
+    text: Boss (The Caverns hero can't be attacked, and when this ally is dealt fatal damage, each Raider may draw a card.)
+  - type: Ability
+    text: When Meathook enters play, exhaust all Raiding heroes and allies.
+  - type: Ability
+    text: 'Caverns Hero 2+: Raiding allies that can attack must attack Meathook if able.'
 
 regulation:
 
 errata: []
-
-temp: Abomination

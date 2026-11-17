@@ -9,12 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: Choose a race and remove all damage from heroes and allies of that race. The player to your left chooses a class and removes all damage from heroes and allies of that class.
+    text: Choose a race and remove all damage from heroes and allies of that race.
+  - type: Ability
+    text: The player to your left chooses a class and removes all damage from heroes and allies of that class.
 
 regulation:
 
 errata: []
-
-temp: ''

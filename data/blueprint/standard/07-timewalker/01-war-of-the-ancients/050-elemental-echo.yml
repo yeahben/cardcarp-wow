@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Attachment
+
 trait:
 
 cost: '6'
@@ -14,12 +17,17 @@ cost: '6'
 class:
   - Shaman
 
+talent:
+  - Elemental
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally you control. Ongoing : When attached ally deals combat damage to a defending hero, put a token copy of that ally into play exhausted.'
+    text: Attach to target ally you control.
+  - type: Ability
+    text: 'Ongoing: When attached ally deals combat damage to a defending hero, put a token copy of that ally into play exhausted.'
 
 regulation:
 
 errata: []
-
-temp: Elemental Attachment

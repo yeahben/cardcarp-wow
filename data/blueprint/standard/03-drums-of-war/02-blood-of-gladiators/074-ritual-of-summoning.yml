@@ -14,12 +14,15 @@ cost: '8'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : On your turn: Exhaust your hero and two allies in your party → Put an ally card from your collection into play.'
+    text: 'Ongoing: On your turn: Exhaust your hero and two allies in your party → Put an ally card from your collection into play.'
 
 regulation:
 
 errata: []
-
-temp: Demonology

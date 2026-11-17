@@ -17,14 +17,24 @@ health: 4
 
 combat: Melee
 
+race: Human
+
+class:
+  - Warrior
+
+limit:
+  - name: Unique
+
+instant: false
+
 type: Arena
 
 rule:
   - type: Ability
-    text: Protector Opposing heroes and allies have -1 ATK / -1 health while in combat with Lo'Gosh for each Arena ally in your party.
+    text: Protector
+  - type: Ability
+    text: Opposing heroes and allies have -1 ATK / -1 health while in combat with Lo'Gosh for each Arena ally in your party.
 
 regulation:
 
 errata: []
-
-temp: Human Warrior

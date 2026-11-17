@@ -1,4 +1,4 @@
-name: Scryers Bloodgem
+name: Scryer's Bloodgem
 
 origin: the-hunt-for-illidan-221
 
@@ -7,27 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
-  - Paladin
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: Scryer Reputation Heroes and allies in your party with sabotage also have Stealth .
+    text: Scryer Reputation
+  - type: Ability
+    text: Heroes and allies in your party with sabotage also have stealth.
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: 2 , Discard a card → Target ally has +2 ATK this turn.
+    text: '{2}, Discard a card → Target ally has +2 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

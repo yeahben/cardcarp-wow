@@ -17,6 +17,16 @@ health: 5
 
 combat: Nature
 
+race: Troll
+
+class:
+  - Shaman
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: When each Shaman you control exhausts for the first time each turn, you may ready it.
@@ -24,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Shaman

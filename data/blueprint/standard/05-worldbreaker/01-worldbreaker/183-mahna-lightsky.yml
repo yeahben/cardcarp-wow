@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector This ally has Nature Resistance on opposing turns.
+    text: Protector
+  - type: Ability
+    text: This ally has Nature Resistance on opposing turns.
 
 regulation:
 
 errata: []
-
-temp: Tauren Paladin

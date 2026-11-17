@@ -13,16 +13,23 @@ health: 30
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warrior
+
+talent:
+  - Arms
+
+profession:
+  - Herbalism
+  - Enchanting
+
 rule:
   - type: Ability
     position: Front
-    text: 5 → You may flip Emmi.
-  - type: Ability
-    position: Reverse
-    text: Emmi has 1 ATK.
+    text: '{5} → You may flip Emmi.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Warrior

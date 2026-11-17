@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Death Knight
 
-instant: Your hero deals 3 melee damage to target ally, or put that ally on the bottom of its owner's deck if you control a Rune.
+talent:
+  - Frost
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 3 melee damage to target ally, or put that ally on the bottom of its owner's deck if you control a Rune.
 
 regulation:
 
 errata: []
-
-temp: Frost

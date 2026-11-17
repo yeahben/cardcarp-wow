@@ -7,14 +7,23 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
@@ -23,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Item Ring

@@ -71,6 +71,72 @@ data/card/standard/01-azeroth/
 
 <br>
 
+## 🔍 Transcribing a Card
+
+The printed card is the source of truth. Every set was read from scans, and a set file's `verified` date records when. If a record disagrees with the card in your hand, the card wins; if it disagrees with a later ruling or reworded reprint, it is not an error.
+
+### Card or blueprint?
+
+| On the card file (one printing) | On the blueprint (shared by reprints) |
+| --- | --- |
+| `index`, `rarity`, `artist`, `flavor`, `variation`, `set` | name, type line, cost, stats, class, faction and `rule` |
+
+A reprint with different wording (added reminder text, "Talent" in place of "Hero Required") keeps pointing at the original blueprint, which holds the **first printing's** text. A same-name card that plays differently gets a blueprint of its own.
+
+**Rarity** is read from the colour of the collector number: white Common, green Uncommon, blue Rare, purple Epic. Tokens have no rarity. **Artist** is the front face's "Art by" credit, with printed misspellings corrected to the artist's usual spelling.
+
+### The type line
+
+`Instant Ability — Fire Talent`, `Ally — Orc Warrior, Unique`, `Equipment — Armor — Plate, Chest (1)`:
+
+| Field | Holds | Example |
+| --- | --- | --- |
+| `category` | The card type | `[Ally]`, `[Equipment]`, `[Ability, Ally]`, `[Master Hero]` |
+| `type` | A printed prefix before the card type, and nothing else | `Arena`, `Scourge`, `Monster`, `Dungeon`, `Boss`, `Naxxramas` |
+| `instant` | `true` when the line reads "Instant" or carries the gold Instant tab. The silver "Basic" tab is its opposite and is not recorded | |
+| `race`, `class`, `talent`, `profession` | Those words, wherever they are printed. `class` also covers the lit class icons on abilities and equipment | `race: Orc`, `talent: [Fire]` |
+| `subtype` | Every other word of the type line, in printed order. Multi-word creature types stay whole | `[Armor, Plate]`, `[Weapon, Two-Handed, Staff]`, `[Talent]`, `[Core Hound]` |
+| `limit` | Tags at the right of the bar, as `{name, count}` | `Chest (1)` → `{name: Chest, count: 1}`; `Unique` → `{name: Unique}` |
+| `stage` | The number in "Stage 2", "Boss 3" | |
+| `sequence` | The number in "Event 21" on raid event cards | |
+| `trait` | Anything else printed on the bar | `5 XP`, `Gehennas: 2`, `Traitor` affiliations |
+
+`faction` is set only when a faction banner is printed. Cards showing both banners, and Monster cards, have none.
+
+### Stats
+
+| Field | Printed as |
+| --- | --- |
+| `cost` | The number in the top-left circle, kept as a string (`'3'`, `'X'`) |
+| `damage` + `combat` | The ATK number and the damage type shown by its icon. Go by the icon, not the card's class: many hunters print the Melee blade |
+| `health` | The red blood-drop |
+| `defense` | The shield on armor |
+| `strike` | The cost circle at the bottom right of a weapon |
+| `capture` | The tower icon on a location |
+
+### Rules text
+
+`rule` has one entry per printed paragraph, top to bottom, each `{type: Ability, text: …}`. Italic reminder text stays in its parentheses inside its paragraph. A bold power name printed on its own line is its own entry. Flavor text is not a rule; it goes on the card file.
+
+On double-sided cards each entry also carries `position: Front` or `position: Reverse`.
+
+The printed arrow is written `→`. Icons printed inside the text are brace tokens:
+
+| Token | Icon |
+| --- | --- |
+| `{1}` `{3}` `{x}` | A cost circle with that number or X |
+| `{activate}` | The exhaust icon (box with a curved arrow) |
+| `{alliance}` `{horde}` | Faction icons |
+| `{mage}` `{death knight}` … | Class icons, lower-case class name |
+| `{melee}` `{ranged}` `{arcane}` `{fire}` `{frost}` `{holy}` `{nature}` `{shadow}` | Damage-type icons |
+| `{health}` `{def}` `{strike}` | Blood-drop, armor shield, and the blank circle that stands for a weapon's strike cost |
+| `{basic}` `{instant}` | The silver Basic tab and gold Instant tab |
+| `{winter veil}` | The Feast of Winter Veil set icon |
+
+Quote the text in YAML when it starts with a brace.
+
+<br>
+
 ## 🧬 Curation Decisions
 
 Where a judgement call was made about the data, it is recorded here. **Please do not "correct" these back without raising it on Discord first.**
@@ -87,7 +153,19 @@ Why Do We Fight_           ->  Why Do We Fight?
 _Backstab_ Bindo Gearbomb  ->  "Backstab" Bindo Gearbomb
 ```
 
-A residue remains: some names have a bare `-s` where a possessive apostrophe belongs (`A'dals Signet` should likely be `A'dal's Signet`). Apostrophes are stripped when deriving IDs, so fixing these does **not** change any ID and can be done at any time.
+Names with a bare `-s` where a possessive apostrophe belonged (`A'dals Signet`) were corrected to the printed name during the scan check. Apostrophes are stripped when deriving IDs, so such a fix does **not** change any ID.
+
+### Printed names win
+
+A blueprint's `name` is the name printed on the card, including quote marks and capitals (`"I AM THE LAWGIVER!"`). Where a card prints no name (the blank Arena Grand Melee cards), a descriptive name is kept.
+
+### Cards that are not game pieces
+
+Art-only inserts (Tiny Snowman, Spirit of Competition) are `category: [Token]` with no rules. Raid cards with no type line, and the 2006 holiday greeting card, are `category: [Misc]`.
+
+### Known gaps
+
+- Reprint-only wording is not stored (see [Card or blueprint?](#card-or-blueprint)). Spire of Sunset costs 2 in Wrathgate and prints 3 in the 2011 Horde Mage starter; the blueprint keeps 2.
 
 ### Format legality
 

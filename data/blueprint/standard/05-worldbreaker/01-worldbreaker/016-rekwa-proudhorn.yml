@@ -13,10 +13,18 @@ health: 30
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Paladin
+
+talent:
+  - Retribution
+
 rule:
   - type: Ability
     position: Front
-    text: 2 → Flip Rekwa
+    text: '{2} → Flip Rekwa'
   - type: Ability
     position: Reverse
     text: Damage that Rekwa and allies you control would deal is unpreventable.
@@ -24,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Paladin

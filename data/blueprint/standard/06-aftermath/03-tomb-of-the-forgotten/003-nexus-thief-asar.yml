@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Ethereal
+
 trait:
+
+health: 27
+
+class:
+  - Rogue
 
 type: Monster
 
 rule:
   - type: Ability
     position: Front
-    text: 8 → Flip Asar face down. You pay 8 less to flip Asar if an opposing hero was dealt damage three or more times this turn.
+    text: '{8} → Flip Asar face down.'
+  - type: Ability
+    position: Front
+    text: You pay {8} less to flip Asar if an opposing hero was dealt damage three or more times this turn.
   - type: Ability
     position: Reverse
-    text: "At the start of your turn, Asar deals 1 melee damage to target opposing hero for each Monster hero and ally you control. Deckbuilding: You can't put or cards in your deck."
+    text: At the start of your turn, Asar deals 1 melee damage to target opposing hero for each Monster hero and ally you control.
+  - type: Ability
+    position: Reverse
+    text: "Deckbuilding: You can't put {horde} or {alliance} cards in your deck."
 
 regulation:
 
 errata: []
-
-temp: Ethereal Rogue 27

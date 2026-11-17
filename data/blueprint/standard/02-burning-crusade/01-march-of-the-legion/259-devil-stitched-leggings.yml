@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '3'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 3 , Exhaust your hero → Target hero or ally has -3 health this turn.
+    text: '{3}, Exhaust your hero → Target hero or ally has -3 health this turn.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

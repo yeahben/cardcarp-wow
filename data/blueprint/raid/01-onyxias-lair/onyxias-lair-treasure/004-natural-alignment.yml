@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Shaman
 
-instant: Your hero deals X nature damage to target hero or ally and heals X damage from target hero or ally, where X is the number of friendly players.
+talent:
+  - Elemental
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals X nature damage to target hero or ally and heals X damage from target hero or ally, where X is the number of friendly players.
 
 regulation:
 
 errata: []
-
-temp: Elemental

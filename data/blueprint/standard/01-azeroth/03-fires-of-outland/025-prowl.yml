@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Druid
 
+talent:
+  - Feral
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : Your hero has Stealth while in cat form. When your hero deals damage, put Prowl into its owner's hand."
+    text: 'Ongoing: Your hero has stealth while in cat form.'
+  - type: Ability
+    text: When your hero deals damage, put Prowl into its owner's hand.
 
 regulation:
 
 errata: []
-
-temp: Feral

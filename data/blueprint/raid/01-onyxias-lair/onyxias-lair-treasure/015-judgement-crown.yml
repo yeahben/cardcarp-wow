@@ -7,19 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '4'
 
+defense: 2
+
 class:
   - Paladin
 
+limit:
+  - name: Head
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , → Prevent the next 1 damage that would be dealt to target ally this turn. When you play a ability, ready Judgement Crown.
+    text: '{1}, {activate} → Prevent the next 1 damage that would be dealt to target ally this turn.'
+  - type: Ability
+    text: When you play a {paladin} ability, ready Judgement Crown.
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

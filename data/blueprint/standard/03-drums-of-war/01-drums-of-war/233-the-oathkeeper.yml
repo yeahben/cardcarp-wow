@@ -7,21 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Mace
+
 trait:
 
 cost: '4'
+
+damage: 6
+
+strike: 2
+
+combat: Melee
 
 class:
   - Druid
   - Paladin
   - Shaman
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: "When The Oathkeeper enters play, choose an oath: \"I won't play cards;\" or \"I won't draw cards.\" You can't break that oath."
+    text: "When The Oathkeeper enters play, choose an oath: \"I won't play cards;\" or \"I won't draw cards.\""
+  - type: Ability
+    text: You can't break that oath.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Mace

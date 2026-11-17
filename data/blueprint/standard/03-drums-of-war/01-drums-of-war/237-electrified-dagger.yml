@@ -7,22 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Dagger
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 0
+
+combat: Nature
+
 faction: Alliance
 
 class:
-  - Shaman
   - Rogue
+  - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Destroy Electrified Dagger → Your hero deals 2 nature damage divided as you choose to any number of target heroes and/or allies.
+    text: Destroy Electrified Dagger → Your hero deals 2 nature damage divided as you choose to any number of target {horde} heroes and/or allies.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Rogue
 
+talent:
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target location or quest. Ongoing : You control attached resource.'
+    text: Attach to target location or quest.
+  - type: Ability
+    text: 'Ongoing: You control attached resource.'
 
 regulation:
 
 errata: []
-
-temp: Subtlety

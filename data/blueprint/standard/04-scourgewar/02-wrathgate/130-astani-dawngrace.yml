@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector , Assault 1 , Mend 1
+    text: Protector, Assault 1, Mend 1
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

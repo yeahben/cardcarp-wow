@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
     text: When Barak enters play, each player secretly chooses a number. The player who chooses the highest number gains control of Barak, and you put that amount of damage on that player's hero. If there's a tie, you choose the outcome.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Orc Warrior

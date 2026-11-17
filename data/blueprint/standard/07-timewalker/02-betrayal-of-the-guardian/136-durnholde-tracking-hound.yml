@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Dog
+  - Beast
+
 trait:
 
 cost: '4'
@@ -17,6 +21,8 @@ health: 5
 
 combat: Melee
 
+instant: false
+
 type: Monster
 
 rule:
@@ -26,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dog Beast

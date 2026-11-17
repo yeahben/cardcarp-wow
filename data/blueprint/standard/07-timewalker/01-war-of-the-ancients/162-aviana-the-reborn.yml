@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Avian
+  - Demigod
+
 trait:
 
 cost: '1'
@@ -17,14 +21,22 @@ health: 1
 
 combat: Nature
 
+limit:
+  - name: Aviana
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Elusive → Another target Monster ally you control has Assault 2 and Smash this turn. → Another target Monster ally you control has Protector this turn.
+    text: Elusive
+  - type: Ability
+    text: '{activate} → Another target Monster ally you control has Assault 2 and Smash this turn.'
+  - type: Ability
+    text: '{activate} → Another target Monster ally you control has Protector this turn.'
 
 regulation:
 
 errata: []
-
-temp: Avian Demigod

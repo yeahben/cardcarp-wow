@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Priest
 
-instant: Friendly heroes and allies have Shadow Resistance this turn.
+talent:
+  - Shadow
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Friendly heroes and allies have Shadow Resistance this turn. (Prevent all shadow ({shadow}) damage that they would be dealt.)
 
 regulation:
 
 errata: []
-
-temp: Shadow

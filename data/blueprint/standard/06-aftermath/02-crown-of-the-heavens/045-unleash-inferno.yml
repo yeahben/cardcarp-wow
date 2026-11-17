@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally or weapon you control. Ongoing : 1 → Attached card has +2 ATK this turn.'
+    text: Attach to target ally or weapon you control.
+  - type: Ability
+    text: 'Ongoing: {1} → Attached card has +2 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Enhancement Attachment

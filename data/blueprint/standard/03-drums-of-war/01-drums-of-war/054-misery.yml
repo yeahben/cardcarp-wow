@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Shadow Hero Required Ongoing : x , → Target player puts the top X cards of his deck into his graveyard.'
+    text: Shadow Hero Required
+  - type: Ability
+    text: 'Ongoing: {x}, {activate} → Target player puts the top X cards of his deck into his graveyard.'
 
 regulation:
 
 errata: []
-
-temp: Shadow Talent

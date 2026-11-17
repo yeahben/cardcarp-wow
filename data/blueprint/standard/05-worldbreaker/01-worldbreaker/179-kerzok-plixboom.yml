@@ -19,12 +19,21 @@ combat: Ranged
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Long-Range Time is Money → Remove this ally from combat.
+    text: Long-Range
+  - type: Ability
+    text: Time is Money (This ally can use {activate} powers immediately.)
+  - type: Ability
+    text: '{activate} → Remove this ally from combat.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Hunter

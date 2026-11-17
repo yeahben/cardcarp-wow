@@ -19,12 +19,21 @@ combat: Holy
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Night Elf Hero Required Shadowmeld Prevent all damage that would be dealt to your hero while Zempre is exhausted.
+    text: Night Elf Hero Required
+  - type: Ability
+    text: Shadowmeld
+  - type: Ability
+    text: Prevent all damage that would be dealt to your hero while Zempre is exhausted.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Priest

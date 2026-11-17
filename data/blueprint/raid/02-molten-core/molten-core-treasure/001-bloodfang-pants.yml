@@ -7,19 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '4'
 
+defense: 2
+
 class:
   - Rogue
 
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you play a ability, you may pay 1 . If you do, your hero deals 1 melee damage to target exhausted hero or ally.
+    text: When you play a {rogue} ability, you may pay {1}. If you do, your hero deals 1 melee damage to target exhausted hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

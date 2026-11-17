@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Shaman
 
-instant: Destroy target ability if it's not attached to a friendly hero or ally.
+talent:
+  - Elemental
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Destroy target ability unless it's attached to a friendly hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Elemental

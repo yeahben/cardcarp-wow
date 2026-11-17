@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Tribe : When this or another Tauren ally enters play under your control, this ally deals 1 nature damage to target hero and heals 1 damage from your hero.'
+    text: 'Tribe: When this or another Tauren ally enters play under your control, this ally deals 1 nature damage to target hero and heals 1 damage from your hero.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

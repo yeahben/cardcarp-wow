@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Druid
 
-instant: 'Attach to target ally. Ongoing : Attached ally has +1 / +1 and Nature Resistance .'
+talent:
+  - Restoration
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +1 / +1 and Nature Resistance. (Prevent all nature ({nature}) damage that would be dealt to it.)'
 
 regulation:
 
 errata: []
-
-temp: Restoration

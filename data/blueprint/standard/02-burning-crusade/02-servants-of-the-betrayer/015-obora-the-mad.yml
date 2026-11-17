@@ -7,19 +7,30 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Traitor
+
 trait:
+  - Auchenai
 
 health: 25
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Mage
+
+profession:
+  - Jewelcrafting
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Obora → When an opponent draws a card this turn, Obora deals 1 arcane damage to target hero or ally in that opponent's party. Auchenai
+    text: "{2}, Flip Obora → When an opponent draws a card this turn, Obora deals 1 arcane damage to target hero or ally in that opponent's party."
 
 regulation:
 
 errata: []
-
-temp: Draenei Mage

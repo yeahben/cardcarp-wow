@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
     text: Steelsmith Joseph Carroll has +1 ATK and +1 health for each equipment you have.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Human Warrior

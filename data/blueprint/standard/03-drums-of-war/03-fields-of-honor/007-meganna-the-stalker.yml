@@ -13,13 +13,23 @@ health: 27
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Rogue
+
+talent:
+  - Assassination
+
+profession:
+  - Herbalism
+  - Skinning
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Meganna → This turn, heroes and allies in your party have Stealth , and they can attack Elusive heroes and allies.
+    text: '{3}, Flip Meganna → This turn, heroes and allies in your party have stealth, and they can attack elusive heroes and allies.'
 
 regulation:
 
 errata: []
-
-temp: Human Rogue

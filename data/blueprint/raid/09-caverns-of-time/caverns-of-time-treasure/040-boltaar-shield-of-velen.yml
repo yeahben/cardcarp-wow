@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Equipment and Ongoing abilities you control have Spellshield .
+    text: Protector
+  - type: Ability
+    text: Equipment and Ongoing abilities you control have Spellshield.
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

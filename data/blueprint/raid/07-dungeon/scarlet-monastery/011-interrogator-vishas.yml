@@ -8,6 +8,7 @@ category:
   - Ally
 
 trait:
+  - 2 XP
 
 damage: 3
 
@@ -15,14 +16,23 @@ health: 9
 
 combat: Melee
 
+race: Human
+
+class:
+  - Rogue
+
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: 'Boss Stealth Torture : When Vishas attacks, each opponent reveals the top card of his deck and puts it into his graveyard. Vishas has +3 ATK this turn for each different card type revealed this way.'
+    text: Boss (The Dungeon hero can't be attacked.)
+  - type: Ability
+    text: Stealth (This ally can't be protected against.)
+  - type: Ability
+    text: 'Torture: When Vishas attacks, each opponent reveals the top card of his deck and puts it into his graveyard. Vishas has +3 ATK this turn for each different card type revealed this way.'
 
 regulation:
 
 errata: []
-
-temp: Human Rogue

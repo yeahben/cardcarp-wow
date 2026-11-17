@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Leviathan
+
 trait:
 
 cost: '8'
@@ -17,14 +20,20 @@ health: 7
 
 combat: Shadow
 
+limit:
+  - name: Ozumat
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Ferocity , Eternal When Ozumat becomes targeted by an opposing card or effect, it deals 10 shadow damage to that opponent's hero.
+    text: Ferocity, Eternal (When this enters your graveyard from anywhere, you may shuffle it into your deck.)
+  - type: Ability
+    text: When Ozumat becomes targeted by an opposing card or effect, he deals 10 shadow damage to that opponent's hero.
 
 regulation:
 
 errata: []
-
-temp: Leviathan

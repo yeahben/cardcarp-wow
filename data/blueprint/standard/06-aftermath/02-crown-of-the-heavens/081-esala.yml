@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: While this ally is undamaged, she has Assault 4 .
+    text: While this ally is undamaged, she has Assault 4.
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

@@ -1,4 +1,4 @@
-name: Iceshriekers Touch
+name: Iceshrieker's Touch
 
 origin: icecrown-193
 
@@ -7,21 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Wand
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 1
+
+combat: Frost
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: "When your hero turns face down, it deals 1 frost damage to each opposing hero and ally. A character dealt damage this way can't attack or exhaust this turn. Death Rattle : Each player turns his hero face up."
+    text: When your hero turns face down, it deals 1 frost damage to each opposing hero and ally. A character dealt damage this way can't attack or exhaust this turn.
+  - type: Ability
+    text: 'Death Rattle: Each player turns his hero face up.'
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Wand

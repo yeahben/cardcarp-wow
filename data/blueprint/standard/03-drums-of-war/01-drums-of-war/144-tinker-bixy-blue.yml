@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'If Bixy is undamaged: → Target player discards a card and you draw a card.'
+    text: 'If Bixy is undamaged: {activate} → Target player discards a card and you draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Rogue

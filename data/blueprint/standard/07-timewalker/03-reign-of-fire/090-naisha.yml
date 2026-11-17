@@ -19,12 +19,23 @@ combat: Ranged
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Hunter
+
+limit:
+  - name: Naisha
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: As this ally enters play, name a card. Opponents can't play cards with that name.
+    text: As this ally enters play, name a card.
+  - type: Ability
+    text: Opponents can't play cards with that name.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Hunter

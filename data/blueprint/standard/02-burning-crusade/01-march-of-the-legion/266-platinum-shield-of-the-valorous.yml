@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Shield
+
 trait:
 
 cost: '3'
 
+defense: 0
+
 class:
   - Paladin
-  - Warrior
   - Shaman
+  - Warrior
+
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: This armor has +1 for each face-down resource you control.
+    text: Platinum Shield of the Valorous has +1 DEF for each face-down resource you have.
 
 regulation:
 
 errata: []
-
-temp: Armor Shield

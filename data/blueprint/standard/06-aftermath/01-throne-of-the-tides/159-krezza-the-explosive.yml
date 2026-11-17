@@ -19,6 +19,13 @@ combat: Arcane
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally deals damage to an opposing hero, she also deals 2 arcane damage to target opposing ally.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Goblin Mage

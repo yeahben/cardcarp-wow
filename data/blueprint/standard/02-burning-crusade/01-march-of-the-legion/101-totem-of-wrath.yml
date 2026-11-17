@@ -7,19 +7,35 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
 
+health: 1
+
 class:
   - Shaman
 
-instant: 'Elemental Hero Required Ongoing : If an ally in your party would deal non-combat damage, it deals that much +2 instead. (Totems can be attacked or targeted like allies.)'
+talent:
+  - Elemental
 
-rule: []
+limit:
+  - name: Fire Totem
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: Elemental Hero Required
+  - type: Ability
+    text: 'Ongoing: If an ally in your party would deal non-combat damage, it deals that much +2 instead.'
+  - type: Ability
+    text: (Totems can be attacked or targeted like allies.)
 
 regulation:
 
 errata: []
-
-temp: Elemental Talent 1

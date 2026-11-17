@@ -1,0 +1,33 @@
+name: Bloodfang Berserker
+
+origin: shadowfang-keep-009
+
+layout: Standard
+
+category:
+  - Ally
+
+trait:
+
+damage: 2
+
+health: 8
+
+combat: Melee
+
+race: Worgen
+
+class:
+  - Warrior
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Protector
+  - type: Ability
+    text: When this ally enters play, the MARKED hero's controller gains control of him, and flip another Dungeon card.
+
+regulation:
+
+errata: []

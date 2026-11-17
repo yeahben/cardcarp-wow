@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive
+    text: Elusive (This ally can't be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Night Elf Hunter

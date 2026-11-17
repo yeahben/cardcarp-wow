@@ -19,15 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
 class:
-  - Warlock
+  - Rogue
+
+instant: false
 
 rule:
   - type: Ability
-    text: Opposing Warlocks and cards can't ready.
+    text: Opposing Warlocks and {warlock} cards can't ready.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Rogue

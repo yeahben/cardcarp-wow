@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : If a card would be destroyed, put it into its owner's hand instead."
+    text: "Ongoing: If a card would be destroyed, put it into its owner's hand instead."
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Rogue
 
-instant: Your hero has Elusive and Spellshield this turn.
+talent:
+  - Subtlety
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero has Elusive and Spellshield this turn.
 
 regulation:
 
 errata: []
-
-temp: Subtlety

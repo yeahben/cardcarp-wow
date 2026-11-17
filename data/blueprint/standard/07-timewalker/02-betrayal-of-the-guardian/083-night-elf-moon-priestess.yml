@@ -19,10 +19,15 @@ combat: Holy
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Night Elf Priest

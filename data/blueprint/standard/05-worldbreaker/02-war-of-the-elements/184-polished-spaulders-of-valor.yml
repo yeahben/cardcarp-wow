@@ -7,21 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '4'
 
+defense: 2
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Shoulder
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'You pay 1 less to play equipment, and an additional 1 less for each heirloom counter on this armor, to a minimum of 1 . Stash : Add an heirloom counter to target equipment you control.'
+    text: You pay {1} less to play equipment, and an additional {1} less for each heirloom counter on this armor, to a minimum of {1}.
+  - type: Ability
+    text: 'Stash: Add an heirloom counter to target equipment you control.'
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

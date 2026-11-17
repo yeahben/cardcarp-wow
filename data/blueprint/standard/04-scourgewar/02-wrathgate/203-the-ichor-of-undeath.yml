@@ -12,14 +12,12 @@ trait:
 class:
   - Priest
 
-type: Class Restriction
-
 rule:
   - type: Ability
-    text: 'Pay 2 to complete this quest. Reward : Put target ally from your graveyard into your hand.'
+    text: Pay {2} to complete this quest.
+  - type: Ability
+    text: 'Reward: Put target ally from your graveyard into your hand.'
 
 regulation:
 
 errata: []
-
-temp: ''

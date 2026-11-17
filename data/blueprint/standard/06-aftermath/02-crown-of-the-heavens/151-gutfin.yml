@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Murloc
+
 trait:
 
 cost: '1'
@@ -17,14 +20,17 @@ health: 1
 
 combat: Holy
 
+class:
+  - Priest
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: This and other Murloc allies you control have +1 .
+    text: This and other Murloc allies you control have +1 {health}.
 
 regulation:
 
 errata: []
-
-temp: Murloc Priest

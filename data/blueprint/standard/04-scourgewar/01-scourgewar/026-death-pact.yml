@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Death Knight
 
+talent:
+  - Blood
+
+instant: false
+
 rule:
   - type: Ability
-    text: As an additional cost to play, destroy an ally you control. Your hero heals damage from itself equal to that ally's and has +X ATK this turn, where X was that ally's ATK.
+    text: As an additional cost to play, destroy an ally you control.
+  - type: Ability
+    text: Your hero heals damage from itself equal to that ally's {health} and has +X ATK this turn, where X was that ally's ATK.
 
 regulation:
 
 errata: []
-
-temp: Blood

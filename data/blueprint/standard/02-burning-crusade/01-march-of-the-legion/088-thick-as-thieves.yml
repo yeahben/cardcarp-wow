@@ -14,12 +14,15 @@ cost: '5'
 class:
   - Rogue
 
+talent:
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Allies with stealth in your party are Elusive and Untargetable .'
+    text: 'Ongoing: Allies with stealth in your party are elusive and untargetable.'
 
 regulation:
 
 errata: []
-
-temp: Subtlety

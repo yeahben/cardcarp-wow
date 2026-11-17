@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warlock
 
-instant: Draw a card for each opposing ally that left play this turn.
+talent:
+  - Destruction
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Draw a card for each opposing ally that left play this turn.
 
 regulation:
 
 errata: []
-
-temp: Destruction

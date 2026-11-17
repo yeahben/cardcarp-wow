@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Moth
+
 trait:
 
 cost: '6'
@@ -20,12 +23,18 @@ combat: Melee
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When this ally exhausts, ready up to three resources you control.
+    text: Protector
+  - type: Ability
+    text: When this ally exhausts, ready up to three resources you control.
 
 regulation:
 
 errata: []
-
-temp: Moth

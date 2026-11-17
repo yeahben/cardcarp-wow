@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: ', Put 1 damage on Kena Shadowbrand → Draw a card.'
+    text: '{activate}, Put 1 damage on Kena Shadowbrand → Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

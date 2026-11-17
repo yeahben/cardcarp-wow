@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Paladin
 
-instant: Your hero deals 3 holy damage to target attacker. That damage can't be prevented.
+talent:
+  - Retribution
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 3 holy damage to target attacker. That damage can't be prevented.
 
 regulation:
 
 errata: []
-
-temp: Retribution

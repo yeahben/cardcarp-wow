@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: 5 → This and other allies you control have +5 ATK, Absorb , and Smash this turn.
+    text: '{basic} {5} → This and other allies you control have +5 ATK, Absorb, and Smash this turn.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

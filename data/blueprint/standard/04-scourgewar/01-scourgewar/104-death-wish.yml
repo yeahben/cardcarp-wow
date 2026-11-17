@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Fury Hero Required Ongoing : → All heroes have +3 ATK this turn.'
+    text: Fury Hero Required
+  - type: Ability
+    text: 'Ongoing: {activate} → All heroes have +3 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Fury Talent

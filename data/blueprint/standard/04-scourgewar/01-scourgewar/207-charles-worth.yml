@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Tailoring
+  - Master
+
 trait:
 
 cost: '2'
@@ -17,12 +21,17 @@ health: 5
 
 combat: Arcane
 
+race: Human
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: This ally has Mend X , where X is the combined of Cloth armor you control.
+    text: This ally has Mend X, where X is the combined {def} of Cloth armor you control.
 
 regulation:
 
 errata: []
-
-temp: Human Tailoring Master

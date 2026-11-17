@@ -13,13 +13,23 @@ health: 25
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Mage
+
+talent:
+  - Frost
+
+profession:
+  - Enchanting
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: 4 , Flip Morganis Blackvein → Opponents can't draw cards this turn.
+    text: "{4}, Flip Morganis Blackvein → Opponents can't draw cards this turn."
 
 regulation:
 
 errata: []
-
-temp: Undead Mage

@@ -8,6 +8,7 @@ category:
   - Ally
 
 trait:
+  - Channeler 3
 
 damage: 0
 
@@ -15,12 +16,17 @@ health: 4
 
 combat: Shadow
 
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Dark Mending Channeler can attack only heroes and has +X ATK while attacking, where X is 1 plus the number of Warlocks that have left your party. → Dark Mending Channeler heals all damage from target friendly ally. Use only on your turn.
+    text: Dark Mending Channeler can attack only heroes and has +X ATK while attacking, where X is 1 plus the number of Warlocks that have left your party.
+  - type: Ability
+    text: '{activate} → Dark Mending Channeler heals all damage from target friendly ally. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Warlock

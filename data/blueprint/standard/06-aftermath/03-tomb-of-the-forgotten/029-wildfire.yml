@@ -14,12 +14,15 @@ cost: '5'
 class:
   - Mage
 
-instant: 'Choose one: Your hero deals 5 fire damage to target hero or ally, or your hero deals 1 fire damage to each opposing hero and ally.'
+talent:
+  - Fire
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Choose one: Your hero deals 5 fire damage to target hero or ally; or your hero deals 1 fire damage to each opposing hero and ally.'
 
 regulation:
 
 errata: []
-
-temp: Fire

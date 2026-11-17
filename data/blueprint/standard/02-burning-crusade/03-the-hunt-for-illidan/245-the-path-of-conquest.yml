@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'If no opposing allies are in play: Pay 2 to complete this quest. Reward : Draw a card.'
+    text: If no opposing allies are in play, pay {2} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Spider
+  - Beast
+
 trait:
 
 cost: '3'
@@ -17,14 +21,16 @@ health: 3
 
 combat: Nature
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Spellshield This ally has +1 / +1 for each other Beast ally you control.
+    text: Spellshield
+  - type: Ability
+    text: This ally has +1 / +1 for each other Beast ally you control.
 
 regulation:
 
 errata: []
-
-temp: Spider Beast

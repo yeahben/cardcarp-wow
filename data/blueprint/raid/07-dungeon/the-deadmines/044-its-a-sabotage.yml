@@ -1,4 +1,4 @@
-name: Its a Sabotage
+name: It's a Sabotage
 
 origin: the-deadmines-044
 
@@ -9,12 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: Put Helix Gearbreaker from the top of the Dungeon Deck into the graveyard.
+    text: Put Helix Gearbreaker from the top of the Dungeon deck into the graveyard.
+  - type: Ability
+    text: 'Reward: 3 XP'
 
 regulation:
 
 errata: []
-
-temp: ''

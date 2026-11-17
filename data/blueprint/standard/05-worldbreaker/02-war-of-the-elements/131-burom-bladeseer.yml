@@ -19,10 +19,15 @@ combat: Nature
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

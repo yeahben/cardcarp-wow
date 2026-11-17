@@ -12,15 +12,23 @@ trait:
 cost: '6'
 
 class:
-  - Warrior
   - Rogue
+  - Warrior
+
+talent:
+  - Arms
+  - Combat
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Ongoing : Your hero has Dual Wield . Melee weapons you control have +5 ATK. You pay 5 less to strike with Melee weapons.'
+    text: 'Ongoing: Your hero has Dual Wield.'
+  - type: Ability
+    text: Melee weapons you control have +5 ATK.
+  - type: Ability
+    text: You pay {5} less to strike with Melee weapons.
 
 regulation:
 
 errata: []
-
-temp: Arms Combat

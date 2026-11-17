@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Two-Headed
+  - Ogre
+  - Ninja
+
 trait:
 
 cost: '5'
@@ -17,12 +22,12 @@ health: 6
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: Conspicuous
+    text: Conspicuous (Any opposing hero or ally may protect against this ally.)
 
 regulation:
 
 errata: []
-
-temp: Two-Headed Ogre Ninja

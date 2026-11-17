@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: 3 → This turn, Koringar has all the payment powers of all other allies.
+    text: '{3} → This turn, Koringar has all the payment powers of all other allies.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Warrior

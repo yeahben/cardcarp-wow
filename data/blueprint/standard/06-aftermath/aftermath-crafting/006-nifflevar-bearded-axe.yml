@@ -7,21 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Axe
+
 trait:
 
 cost: '4'
 
+damage: 4
+
+strike: 4
+
+combat: Melee
+
 class:
-  - Shaman
   - Hunter
   - Rogue
+  - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When your hero deals damage with this weapon, you pay 4 less to complete your next quest this turn.
+    text: When your hero deals damage with this weapon, you pay {4} less to complete your next quest this turn.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Axe

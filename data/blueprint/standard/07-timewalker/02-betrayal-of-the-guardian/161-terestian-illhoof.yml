@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Satyr
+  - Demon
+
 trait:
 
 cost: '5'
@@ -17,14 +21,23 @@ health: 6
 
 combat: Shadow
 
+class:
+  - Warlock
+
+limit:
+  - name: Terestian
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: When this ally enters play, Portal . At the end of your turn, you may destroy another Demon ally you control. If you do, Terestian deals shadow damage to target opposing hero or ally equal to the cost of that destroyed Demon.
+    text: When this ally enters play, Portal (Reveal the top three cards of your deck. You may put a revealed Demon ally with cost less than this card's cost into play. Put the remaining cards on the bottom of your deck.)
+  - type: Ability
+    text: At the end of your turn, you may destroy another Demon ally you control. If you do, Terestian deals shadow damage to target opposing hero or ally equal to the cost of that destroyed Demon.
 
 regulation:
 
 errata: []
-
-temp: Satyr Demon Warlock

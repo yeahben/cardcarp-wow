@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : → Prevent the next non-melee (non- ) damage that would be dealt to your hero this turn.'
+    text: 'Ongoing: {activate} → Prevent the next non-melee (non-{melee}) damage that would be dealt to your hero this turn.'
 
 regulation:
 
 errata: []
-
-temp: Unholy

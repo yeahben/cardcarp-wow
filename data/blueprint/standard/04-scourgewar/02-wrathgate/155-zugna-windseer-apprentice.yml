@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Assault 1 When this ally exhausts for the first time each turn, you may pay 1 . If you do, ready her.
+    text: Assault 1
+  - type: Ability
+    text: When this ally exhausts for the first time each turn, you may pay {1}. If you do, ready her.
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

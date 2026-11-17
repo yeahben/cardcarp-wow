@@ -1,0 +1,32 @@
+name: Shadow Channeler
+
+origin: magtheridons-lair-raid-038
+
+layout: Standard
+
+category:
+  - Ally
+
+trait:
+  - Channeler 5
+
+damage: 0
+
+health: 4
+
+combat: Shadow
+
+class:
+  - Warlock
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Shadow Channeler can attack only heroes and has +X ATK while attacking, where X is 1 plus the number of Warlocks that have left your party.
+  - type: Ability
+    text: "{3}, {activate} → Shadow Channeler deals 1 shadow damage to each hero and ally in target raiding player's party. Use only on your turn."
+
+regulation:
+
+errata: []

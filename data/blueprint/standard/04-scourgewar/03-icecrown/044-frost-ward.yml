@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Mage
 
-instant: Your hero has Frost Resistance this turn. When damage that an opposing hero or ally would deal is prevented this way, your hero may deal that much frost damage to target hero or ally.
+talent:
+  - Frost
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero has Frost Resistance this turn. (Prevent all frost ({frost}) damage that would be dealt to it.)
+  - type: Ability
+    text: When damage that an opposing hero or ally would deal is prevented this way, your hero may deal that much frost damage to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Frost

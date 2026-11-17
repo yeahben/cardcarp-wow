@@ -12,15 +12,17 @@ trait:
 cost: '6'
 
 class:
-  - Warrior
   - Hunter
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: Put a 5 / 5 Pit Lord Demon Monster ally token into play with Protector . Put a 5 / 5 Fel Hound Demon Monster ally token into play with Ferocity .
+    text: Put a 5 {melee} / 5 {health} Pit Lord Demon Monster ally token into play with Protector.
+  - type: Ability
+    text: Put a 5 {melee} / 5 {health} Felhound Demon Monster ally token into play with Ferocity.
 
 regulation:
 
 errata: []
-
-temp: ''

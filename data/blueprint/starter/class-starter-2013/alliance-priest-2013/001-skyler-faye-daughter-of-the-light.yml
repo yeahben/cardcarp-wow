@@ -13,13 +13,16 @@ health: 26
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Priest
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Skyler → Skyler heals 3 damage from target ally you control.
+    text: '{basic} {1}, Flip Skyler → Skyler heals 3 damage from target ally you control.'
 
 regulation:
 
 errata: []
-
-temp: Human Priest

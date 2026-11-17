@@ -1,0 +1,36 @@
+name: Herod, The Scarlet Champion
+
+origin: scarlet-monastery-007
+
+layout: Standard
+
+category:
+  - Ally
+
+trait:
+  - 2 XP
+
+damage: 3
+
+health: 8
+
+combat: Melee
+
+race: Human
+
+class:
+  - Warrior
+
+instant: false
+
+type: Dungeon
+
+rule:
+  - type: Ability
+    text: Boss (The Dungeon hero can't be attacked.)
+  - type: Ability
+    text: 'Whirlwind: When Herod attacks, he deals 3 melee damage to each Raiding hero.'
+
+regulation:
+
+errata: []

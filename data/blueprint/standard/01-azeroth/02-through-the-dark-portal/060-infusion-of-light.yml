@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero heals 3 damage from target hero or ally. Draw a card.
+    text: Your hero heals 3 damage from target hero or ally.
+  - type: Ability
+    text: Draw a card.
 
 regulation:
 
 errata: []
-
-temp: Holy

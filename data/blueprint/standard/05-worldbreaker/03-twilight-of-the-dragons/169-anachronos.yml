@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Bronze
+  - Dragonkin
+
 trait:
 
 cost: '5'
@@ -17,6 +21,12 @@ health: 5
 
 combat: Melee
 
+limit:
+  - name: Anachronos
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: At the end of your turn, you may ready a resource you control for each Bronze Dragonkin you control.
@@ -24,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Bronze Dragonkin

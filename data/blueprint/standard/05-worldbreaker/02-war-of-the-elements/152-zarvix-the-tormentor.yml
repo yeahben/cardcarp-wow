@@ -19,12 +19,19 @@ combat: Shadow
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Time is Money → Target player puts the top card of his deck into his graveyard for each Goblin you control.
+    text: Time is Money
+  - type: Ability
+    text: '{activate} → Target player puts the top card of his deck into his graveyard for each Goblin you control.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Priest

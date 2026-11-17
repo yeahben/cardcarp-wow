@@ -13,12 +13,12 @@ cost: '2'
 
 faction: Alliance
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : 1 , → Target Worgen ally you control has Ferocity this turn.'
+    text: 'Ongoing: {1}, {activate} → Target Worgen ally you control has Ferocity this turn.'
 
 regulation:
 
 errata: []
-
-temp: ''

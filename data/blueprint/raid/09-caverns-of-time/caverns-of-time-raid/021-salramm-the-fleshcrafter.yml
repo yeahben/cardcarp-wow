@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Necromancer
+
 trait:
 
 damage: 2
@@ -15,14 +18,18 @@ health: 10
 
 combat: Shadow
 
-type: Boss
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
-    text: 'Boss Salramm attacks the ally with the lowest remaining health if able. Caverns Hero 2+ : When Salramm deals fatal damage to a defending ally, put a 3 / 3 Ghoul ally token into play.'
+    text: Boss (The Caverns hero can't be attacked, and when this ally is dealt fatal damage, each Raider may draw a card.)
+  - type: Ability
+    text: Salramm attacks the ally with the lowest remaining health if able.
+  - type: Ability
+    text: 'Caverns Hero 2+: When Salramm deals fatal damage to a defending ally, put a 3 {melee} / 3 {health} Ghoul ally token into play.'
 
 regulation:
 
 errata: []
-
-temp: Necromancer

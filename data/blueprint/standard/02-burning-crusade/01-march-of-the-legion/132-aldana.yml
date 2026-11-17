@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
     text: Your weapons have +2 ATK while your hero is defending.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Night Elf Warrior

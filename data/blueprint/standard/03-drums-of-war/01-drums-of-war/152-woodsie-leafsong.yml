@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Shadowmeld When Woodsie deals combat damage to an opponent's defending hero, you may destroy target ability or equipment he controls.
+    text: Shadowmeld (Elusive and untargetable while ready.)
+  - type: Ability
+    text: When Woodsie deals combat damage to an opponent's defending hero, you may destroy target ability or equipment he controls.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

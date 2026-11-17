@@ -9,14 +9,16 @@ category:
 
 trait:
 
-type: Boss
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
-    text: "Ongoing : Raiders can't play abilities. When a Caverns hero is defeated, destroy this ability."
+    text: "Ongoing: Raiders can't play abilities."
+  - type: Ability
+    text: When a Caverns hero is defeated, destroy this ability.
 
 regulation:
 
 errata: []
-
-temp: ''

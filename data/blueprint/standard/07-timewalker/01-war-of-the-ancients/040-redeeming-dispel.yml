@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Priest
 
-instant: 'Choose one: Destroy target ability; or put target ally from your graveyard into your hand.'
+talent:
+  - Discipline
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Choose one: Destroy target ability; or put target ally from your graveyard into your hand.'
 
 regulation:
 
 errata: []
-
-temp: Discipline

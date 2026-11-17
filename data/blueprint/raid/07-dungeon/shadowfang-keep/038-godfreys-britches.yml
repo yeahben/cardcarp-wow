@@ -1,4 +1,4 @@
-name: Godfreys Britches
+name: Godfrey's Britches
 
 origin: shadowfang-keep-038
 
@@ -7,14 +7,26 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
+
+defense: 5
+
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: This armor exhausts to prevent the first damage Godfrey would be dealt. When this armor enters play, Godfrey heals 5 damage from himself for each equipment in his party (including this) .
+    text: This armor exhausts to prevent the first damage Godfrey would be dealt.
+  - type: Ability
+    text: When this armor enters play, Godfrey heals 5 damage from himself for each equipment in his party (including this).
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

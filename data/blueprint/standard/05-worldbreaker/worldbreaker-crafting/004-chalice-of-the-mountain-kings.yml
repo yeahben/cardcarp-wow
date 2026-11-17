@@ -7,27 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Paladin
   - Death Knight
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: Artifact When this item enters play, each player may put a 1 / 1 Dwarf Sword Dancer ally token into play. Prevent all damage that Dwarves would deal to Dwarves.
+    text: Artifact (You may play this card from your graveyard.)
+  - type: Ability
+    text: When this item enters play, each player may put a 1 {melee} / 1 {health} Dwarf Sword Dancer ally token into play.
+  - type: Ability
+    text: Prevent all damage that Dwarves would deal to Dwarves.
 
 regulation:
 
 errata: []
-
-temp: Item

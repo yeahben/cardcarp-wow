@@ -11,10 +11,12 @@ trait:
 
 rule:
   - type: Ability
-    text: 'Aldor Reputation If an ally with inspire is in your party, pay 1 to complete this quest. Reward : Draw a card.'
+    text: Aldor Reputation (Can't put Scryer cards in your deck.)
+  - type: Ability
+    text: If an ally with inspire is in your party, pay {1} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

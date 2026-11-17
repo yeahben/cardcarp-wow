@@ -19,12 +19,23 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+limit:
+  - name: Grom
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Smash Grom has +X ATK while attacking, while X is the cost of a defender.
+    text: Smash
+  - type: Ability
+    text: Grom has +X ATK while attacking, where X is the cost of a defender.
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

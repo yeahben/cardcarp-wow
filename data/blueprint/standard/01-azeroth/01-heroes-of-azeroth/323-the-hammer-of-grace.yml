@@ -7,22 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Mace
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 3
+
+combat: Melee
+
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 1 , , Exhaust your hero → Your hero heals 2 damage from target hero or ally.
+    text: '{1}, {activate}, Exhaust your hero → Your hero heals 2 damage from target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

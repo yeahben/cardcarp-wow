@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, you may look at the top card of target player's deck. You may put that card into the graveyard.
+    text: When this ally enters play, you may look at the top card of target player's deck. You may put that card into his graveyard.
 
 regulation:
 
 errata: []
-
-temp: Human Hunter

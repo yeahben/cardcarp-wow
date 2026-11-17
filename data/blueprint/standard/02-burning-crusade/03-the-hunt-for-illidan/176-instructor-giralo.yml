@@ -17,12 +17,21 @@ health: 3
 
 combat: Holy
 
+race: Draenei
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Aldor Reputation Inspire: Ally When Giralo inspires an ally, that ally is a Protector this turn.'
+    text: Aldor Reputation
+  - type: Ability
+    text: "Inspire: Ally (You may ready one of your allies during each other player's ready step.)"
+  - type: Ability
+    text: When Giralo inspires an ally, that ally is a protector this turn.
 
 regulation:
 
 errata: []
-
-temp: Draenei Priest

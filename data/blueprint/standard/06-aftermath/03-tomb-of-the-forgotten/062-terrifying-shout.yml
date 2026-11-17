@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Shout
+
 trait:
 
 cost: '3'
@@ -14,12 +17,15 @@ cost: '3'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: Put target ally or equipment on top of it's owner's deck.
+    text: Put target ally or equipment on top of its owner's deck.
 
 regulation:
 
 errata: []
-
-temp: Fury Shout

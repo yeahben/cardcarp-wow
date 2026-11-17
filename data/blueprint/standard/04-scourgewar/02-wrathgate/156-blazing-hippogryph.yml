@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Hippogryph
+
 trait:
 
 cost: '2'
@@ -17,12 +20,22 @@ health: 4
 
 combat: Melee
 
+limit:
+  - name: Mount
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Argent Crusade Reputation → Ready a location you control. When you place a resource face up, you may heal all damage from target Unique ally you control. (Mounts can't attack or be attacked.)
+    text: Argent Crusade Reputation
+  - type: Ability
+    text: '{activate} → Ready a location you control.'
+  - type: Ability
+    text: When you place a resource face up, your hero may heal all damage from target Unique ally you control.
+  - type: Ability
+    text: (Mounts can't attack or be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Hippogryph

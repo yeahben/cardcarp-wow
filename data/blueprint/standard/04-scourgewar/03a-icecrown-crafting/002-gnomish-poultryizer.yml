@@ -7,28 +7,40 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+  - Trinket
+
 trait:
 
 cost: '3'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: Engineering Hero Required 3 , → Add a feather counter, and this turn, target ally can't attack or protect, loses and can't have powers, and is also a Chicken. Chickens have -1 / -1 for each feather counter.
+    text: Engineering Hero Required
+  - type: Ability
+    text: "{3}, {activate}, → Add a feather counter, and this turn, target ally can't attack or protect, loses and can't have powers, and is also a Chicken."
+  - type: Ability
+    text: Chickens have -1 / -1 for each feather counter.
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

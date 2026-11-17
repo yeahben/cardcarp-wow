@@ -15,9 +15,16 @@ damage: 6
 
 health: 5
 
-combat: Ranged
+combat: Arcane
 
 faction: Alliance
+
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
 
 rule:
   - type: Ability
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Smash
+    text: Smash (If this ally would deal more than fatal combat damage to a defending ally, it deals the rest to that ally's controller's hero.)
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

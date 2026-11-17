@@ -13,10 +13,15 @@ health: 28
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Shaman
+
 rule:
   - type: Ability
     position: Front
-    text: 3 → Flip Merissa
+    text: '{3} → Flip Merissa'
   - type: Ability
     position: Reverse
     text: When you play an equipment, Merissa has Assault 1 this turn.
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Shaman

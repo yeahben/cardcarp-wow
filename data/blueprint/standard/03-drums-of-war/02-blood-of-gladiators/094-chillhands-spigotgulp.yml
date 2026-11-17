@@ -19,12 +19,19 @@ combat: Frost
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: If you would draw a card, you may skip drawing it instead. When you skip drawing a card this way, target ally can't attack this turn.
+    text: If you would draw a card, you may skip drawing it instead.
+  - type: Ability
+    text: When you skip drawing a card this way, target ally can't attack this turn.
 
 regulation:
 
 errata: []
-
-temp: Gnome Mage

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '1'
@@ -14,12 +17,17 @@ cost: '1'
 class:
   - Hunter
 
+talent:
+  - Beast Mastery
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Beast Mastery Hero Required Ongoing : At the start of your turn, if you have a Pet, your hero heals 2 damage from itself and each of your Pets.'
+    text: Beast Mastery Hero Required
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, if you have a Pet, your hero heals 2 damage from itself and each of your Pets.'
 
 regulation:
 
 errata: []
-
-temp: Beast Mastery Talent

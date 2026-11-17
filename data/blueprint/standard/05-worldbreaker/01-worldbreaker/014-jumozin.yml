@@ -13,10 +13,18 @@ health: 27
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Druid
+
+talent:
+  - Balance
+
 rule:
   - type: Ability
     position: Front
-    text: 4 → Flip Jumo'zin
+    text: "{4} → Flip Jumo'zin"
   - type: Ability
     position: Reverse
     text: When Jumo'zin is dealt combat damage while defending, he deals 1 nature damage to the source of that damage.
@@ -24,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Druid

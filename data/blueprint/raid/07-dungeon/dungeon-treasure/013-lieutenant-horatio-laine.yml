@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Investigator
+
 trait:
 
 cost: '3'
@@ -19,6 +22,14 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+limit:
+  - name: Horatio Laine
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: At the end of your turn, target opponent reveals the top card of his deck. If it's an ally, remove it from the game. If it's a weapon, you may put it into play under your control.
@@ -26,5 +37,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Human Investigator

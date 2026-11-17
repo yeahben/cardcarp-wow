@@ -19,12 +19,19 @@ combat: Ranged
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive Long-Range
+    text: Elusive
+  - type: Ability
+    text: Long-Range (Defenders deal no combat damage to this character.)
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

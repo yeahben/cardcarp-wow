@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Diplomacy: Gnomes 1 , → Draw a card.'
+    text: 'Diplomacy: Gnomes (You pay {1} less to play Gnome allies, to a minimum of {1}.)'
+  - type: Ability
+    text: '{1}, {activate} → Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Human Rogue

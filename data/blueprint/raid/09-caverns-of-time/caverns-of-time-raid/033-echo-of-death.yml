@@ -7,16 +7,21 @@ layout: Standard
 category:
   - Event
 
+subtype:
+  - Echo of Sylvanas
+
 trait:
 
-type: Boss
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
-    text: Put two 3 / 3 Ghoul ally tokens into play. If Sylvanas is the Caverns hero, put four into play instead.
+    text: Put two 3 {melee} / 3 {health} Ghoul ally tokens into play.
+  - type: Ability
+    text: If Sylvanas is the Caverns hero, put four into play instead.
 
 regulation:
 
 errata: []
-
-temp: Echo of Sylvanas

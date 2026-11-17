@@ -1,4 +1,4 @@
-name: Kel'Thuzads Blast
+name: Kel'Thuzad's Blast
 
 origin: naxxramas-raid-061
 
@@ -9,16 +9,18 @@ category:
 
 trait:
 
-type: Raid
+instant: false
+
+type: Kel'Thuzad
 
 stage: 1
 
+sequence: 1
+
 rule:
   - type: Ability
-    text: "Ongoing : At the end of your turn, Kel'Thuzad deals 5 frost damage to a random raiding hero, and then attach Frost Blast to it."
+    text: "Ongoing: At the end of your turn, Kel'Thuzad deals 5 frost damage to a random raiding hero, and then attach Frost Blast to it."
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -7,28 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'This item enters play exhausted. On your turn: , Destroy this item → This turn, your hero becomes an Ogre Monster hero and has +6 ATK and Smash .'
+    text: This item enters play exhausted.
+  - type: Ability
+    text: 'On your turn: {activate}, Destroy this item → This turn, your hero becomes an Ogre Monster hero and has +6 ATK and Smash.'
 
 regulation:
 
 errata: []
-
-temp: Item

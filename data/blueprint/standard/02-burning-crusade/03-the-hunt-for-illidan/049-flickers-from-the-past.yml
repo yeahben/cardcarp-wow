@@ -14,6 +14,11 @@ cost: '7'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
     text: Put any number of target ongoing ability cards from your graveyard into play if their combined cost is less than or equal to the number of resources you have.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Arcane

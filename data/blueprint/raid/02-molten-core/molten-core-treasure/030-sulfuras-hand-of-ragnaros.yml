@@ -7,20 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Mace
+
 trait:
 
 cost: '8'
+
+damage: 7
+
+strike: 5
+
+combat: Melee
 
 class:
   - Paladin
   - Warrior
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When your hero is dealt combat damage, it deals 1 fire damage to the source of that damage. When you strike with Sulfuras, your hero deals 7 fire damage to target hero or ally.
+    text: When your hero is dealt combat damage, it deals 1 fire damage to the source of that damage.
+  - type: Ability
+    text: When you strike with Sulfuras, your hero deals 7 fire damage to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Mace

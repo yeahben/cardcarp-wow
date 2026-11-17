@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '6'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Waist
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: x , Exhaust your hero → Your hero deals X arcane damage to target hero or ally.
+    text: '{x}, Exhaust your hero → Your hero deals X arcane damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

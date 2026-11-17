@@ -14,12 +14,19 @@ cost: '1'
 class:
   - Druid
 
-instant: 'Ongoing : You may complete quest cards from your graveyard. As you do, remove them from the game as an additional cost.'
+talent:
+  - Feral
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: You may complete quest cards from your graveyard. As you do, remove them from the game as an additional cost.'
 
 regulation:
 
 errata: []
-
-temp: Feral

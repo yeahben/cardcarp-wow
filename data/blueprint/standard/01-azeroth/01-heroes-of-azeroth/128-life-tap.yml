@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Warlock
 
-instant: As an additional cost to play, put 2 damage on your hero. Draw two cards.
+talent:
+  - Affliction
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: As an additional cost to play Life Tap, put 2 damage on your hero.
+  - type: Ability
+    text: Draw two cards.
 
 regulation:
 
 errata: []
-
-temp: Affliction

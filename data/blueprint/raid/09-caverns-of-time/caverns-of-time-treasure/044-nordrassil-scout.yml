@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, you pay 3 less to complete your next quest this turn.
+    text: When this ally enters play, you pay {3} less to complete your next quest this turn.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Hunter

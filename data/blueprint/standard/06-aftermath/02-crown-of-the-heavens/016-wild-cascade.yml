@@ -14,12 +14,15 @@ cost: '6'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : At the start of your turn, put a token copy of each token ally you control into play.'
+    text: 'Ongoing: At the start of your turn, put a token copy of each token ally you control into play.'
 
 regulation:
 
 errata: []
-
-temp: Balance

@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
     text: Other allies have -1 health.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Orc Warrior

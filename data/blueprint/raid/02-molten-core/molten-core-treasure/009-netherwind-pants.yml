@@ -7,19 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '3'
 
+defense: 1
+
 class:
   - Mage
 
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you play a ability, you may pay 1 . If you do, you and target opponent each draw a card.
+    text: When you play a {mage} ability, you may pay {1}. If you do, you and target opponent each draw a card.
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

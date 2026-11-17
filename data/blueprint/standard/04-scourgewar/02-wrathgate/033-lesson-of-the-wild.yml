@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: You may exhaust a non-hero Druid you control rather than pay this ability's cost. Put target non-token ally into its owner's resource row face down, then exhaust it.
+    text: You may exhaust a non-hero Druid you control rather than pay this ability's cost.
+  - type: Ability
+    text: Put target non-token ally into its owner's resource row face down, then exhaust it.
 
 regulation:
 
 errata: []
-
-temp: Balance

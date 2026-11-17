@@ -14,12 +14,21 @@ cost: '1'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+limit:
+  - name: Seal
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Your Melee weapons have +1 ATK. Destroy Seal of Righteousness → Your hero deals 2 holy damage to target ally.'
+    text: 'Ongoing: Your Melee weapons have +1 ATK.'
+  - type: Ability
+    text: Destroy Seal of Righteousness → Your hero deals 2 holy damage to target ally.
 
 regulation:
 
 errata: []
-
-temp: Holy

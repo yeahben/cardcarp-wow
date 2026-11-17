@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Mechanical
+  - Chicken
+
 trait:
 
 cost: '1'
@@ -17,12 +21,14 @@ health: 1
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive At the start of your turn, each player rolls a die. If two or more players roll the same number, destroy Robotic Homing Chicken and all allies in those players' parties.
+    text: Elusive
+  - type: Ability
+    text: At the start of your turn, each player rolls a die. If two or more players roll the same number, destroy Robotic Homing Chicken and all allies in those players' parties.
 
 regulation:
 
 errata: []
-
-temp: Mechanical Chicken

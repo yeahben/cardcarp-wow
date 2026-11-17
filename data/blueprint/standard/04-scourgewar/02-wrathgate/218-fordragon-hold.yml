@@ -13,10 +13,10 @@ faction: Alliance
 
 rule:
   - type: Ability
-    text: '→ Target hero or ally you control has Assault 1 this turn. If you control an ally with Bolvar in its name: → heroes and allies you control have Assault 1 this turn.'
+    text: '{activate} → Target {alliance} hero or ally you control has Assault 1 this turn.'
+  - type: Ability
+    text: 'If you control an ally with Bolvar in its name: {activate} → {alliance} heroes and allies you control have Assault 1 this turn.'
 
 regulation:
 
 errata: []
-
-temp: ''

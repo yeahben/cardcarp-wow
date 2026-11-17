@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero deals 3 arcane damage to target ally. Draw a card.
+    text: Your hero deals 3 arcane damage to target ally.
+  - type: Ability
+    text: Draw a card.
 
 regulation:
 
 errata: []
-
-temp: Balance

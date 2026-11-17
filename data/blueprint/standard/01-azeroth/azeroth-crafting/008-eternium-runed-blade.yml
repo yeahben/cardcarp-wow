@@ -7,22 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Dagger
+
 trait:
 
 cost: '7'
 
+damage: 1
+
+strike: 4
+
+combat: Melee
+
 class:
+  - Mage
   - Priest
   - Shaman
   - Warlock
-  - Mage
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Players can't play allies. Allies can't be destroyed.
+    text: Players can't play allies.
+  - type: Ability
+    text: Allies can't be destroyed.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

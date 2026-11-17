@@ -14,12 +14,17 @@ cost: '6'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
-    text: Destroy target ally. Put a 3 / 3 Ghoul ally token into play.
+    text: Destroy target ally.
+  - type: Ability
+    text: Put a 3 {melee} / 3 {health} Ghoul ally token into play.
 
 regulation:
 
 errata: []
-
-temp: Unholy

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Kraken
+
 trait:
 
 cost: '8'
@@ -17,14 +20,18 @@ health: 12
 
 combat: Frost
 
+limit:
+  - name: Kolorath
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: When Kolorath enters play, put all non- allies into their owners' hands.
+    text: When Kolorath enters play, put all non-{frost} allies into their owners' hands.
 
 regulation:
 
 errata: []
-
-temp: Kraken

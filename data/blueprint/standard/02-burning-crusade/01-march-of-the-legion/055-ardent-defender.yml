@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '6'
@@ -14,12 +17,17 @@ cost: '6'
 class:
   - Paladin
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Protection Hero Required Ongoing : Prevent all damage that would be dealt to your hero while it has 25 or more damage.'
+    text: Protection Hero Required
+  - type: Ability
+    text: 'Ongoing: Prevent all damage that would be dealt to your hero while it has 25 or more damage.'
 
 regulation:
 
 errata: []
-
-temp: Protection Talent

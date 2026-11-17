@@ -7,21 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '3'
 
+defense: 3
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Feet
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'When damage is prevented with this armor, Hero : Ready a weapon you control. Hero : Ready another armor you control. Hero : Ready your hero.'
+    text: When damage is prevented with this armor,
+  - type: Ability
+    text: '{death knight} Hero: Ready a weapon you control.'
+  - type: Ability
+    text: '{paladin} Hero: Ready another armor you control.'
+  - type: Ability
+    text: '{warrior} Hero: Ready your hero.'
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Rogue
 
+talent:
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Subtlety Hero Required Ongoing : → Target ally can't deal damage this turn."
+    text: Subtlety Hero Required
+  - type: Ability
+    text: "Ongoing: {activate} → Target ally can't deal damage this turn."
 
 regulation:
 
 errata: []
-
-temp: Subtlety Talent

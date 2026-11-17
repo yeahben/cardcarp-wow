@@ -1,4 +1,4 @@
-name: Zovaar The Fallen
+name: Zovaar the Fallen
 
 origin: timewalkers-030
 
@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 29
+
+race: Draenei
+
+class:
+  - Paladin
+
+type: Monster
+
+rule:
+  - type: Ability
+    position: Front
+    text: Zovaar's Blessing
+  - type: Ability
+    position: Front
+    text: '{basic} {3}, Flip Zovaar → Zovaar heals 1 damage from target hero or ally for each ally you control.'
+  - type: Ability
+    position: Reverse
+    text: Zovaar's Vengeance
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {6} → Zovaar has +ATK this turn equal to the remaining health of target ally you control.'
 
 regulation:
 

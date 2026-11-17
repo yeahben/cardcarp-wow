@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: Grogmar has Ferocity while you have a weapon.
+    text: Grogmar has ferocity while you have a weapon.
 
 regulation:
 
 errata: []
-
-temp: Orc Death Knight

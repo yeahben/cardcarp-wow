@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Other Tauren allies you control have +2 .
+    text: Other Tauren allies you control have +2 {health}.
 
 regulation:
 
 errata: []
-
-temp: Tauren Priest

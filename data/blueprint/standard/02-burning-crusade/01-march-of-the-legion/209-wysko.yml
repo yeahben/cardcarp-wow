@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Weapons you control have +1 ATK while your hero is attacking.
+    text: Your weapons have +1 ATK while your hero is attacking.
 
 regulation:
 
 errata: []
-
-temp: Troll Warrior

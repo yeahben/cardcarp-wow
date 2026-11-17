@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Shadowmeld
+    text: Protector
+  - type: Ability
+    text: Shadowmeld (Elusive and untargetable while ready.)
 
 regulation:
 
 errata: []
-
-temp: Night Elf Warrior

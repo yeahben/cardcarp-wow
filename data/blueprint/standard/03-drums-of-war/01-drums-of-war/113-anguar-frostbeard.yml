@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Frost Resistance
+    text: Frost Resistance (Prevent all frost or {frost} damage that this ally would be dealt.)
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

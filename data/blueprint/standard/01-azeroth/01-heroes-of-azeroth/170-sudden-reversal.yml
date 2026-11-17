@@ -11,12 +11,12 @@ trait:
 
 cost: '1'
 
-instant: Target ally has +4 ATK while defending this turn.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Target ally has +4 ATK while defending this turn.
 
 regulation:
 
 errata: []
-
-temp: ''

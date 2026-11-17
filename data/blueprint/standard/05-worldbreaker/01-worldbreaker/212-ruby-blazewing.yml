@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Red
+  - Dragonkin
+
 trait:
 
 cost: '6'
@@ -17,12 +21,14 @@ health: 4
 
 combat: Fire
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'When this or another ally enters play under your control, it may deal 1 fire damage to target ally. Stash : Your hero deals fire damage to target hero equal to the number of Dragonkin you control.'
+    text: When this or another ally enters play under your control, it may deal 1 fire damage to target ally.
+  - type: Ability
+    text: 'Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Your hero deals fire damage to target hero equal to the number of Dragonkin you control.'
 
 regulation:
 
 errata: []
-
-temp: Red Dragonkin

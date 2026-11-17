@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: 3 → Heroes and allies you control have +2 ATK while attacking heroes this turn.
+    text: '{basic} {3} → Heroes and allies you control have +2 ATK while attacking heroes this turn.'
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

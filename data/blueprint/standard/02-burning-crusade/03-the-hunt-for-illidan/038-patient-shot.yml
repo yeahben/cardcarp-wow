@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Hunter
 
+talent:
+  - Marksmanship
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Your hero has " → This hero deals 1 ranged damage to target hero or ally."'
+    text: 'Ongoing: Your hero has "{activate} → This hero deals 1 ranged damage to target hero or ally."'
 
 regulation:
 
 errata: []
-
-temp: Marksmanship

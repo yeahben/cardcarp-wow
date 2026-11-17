@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Fire Resistance
+    text: Fire Resistance (Prevent all fire [{fire}] damage that this ally would be dealt.)
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Hunter

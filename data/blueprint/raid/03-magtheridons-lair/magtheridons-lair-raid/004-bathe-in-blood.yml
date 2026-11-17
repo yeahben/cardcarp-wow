@@ -11,12 +11,14 @@ trait:
 
 cost: '0'
 
+instant: false
+
 rule:
   - type: Ability
-    text: Magtheridon deals 2 melee damage to target hero or ally. If Magtheridon is Unleashed, gain a Blood.
+    text: Magtheridon deals 2 melee damage to target hero or ally.
+  - type: Ability
+    text: If Magtheridon is Unleashed, gain a Blood.
 
 regulation:
 
 errata: []
-
-temp: ''

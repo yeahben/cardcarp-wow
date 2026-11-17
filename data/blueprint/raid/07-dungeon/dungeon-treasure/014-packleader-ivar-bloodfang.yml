@@ -19,12 +19,23 @@ combat: Melee
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Warrior
+
+limit:
+  - name: Ivar
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Aberration Once per turn: Growl → Allies you control have Assault 2 this turn.'
+    text: Aberration
+  - type: Ability
+    text: 'Once per turn: Growl → Allies you control have Assault 2 this turn.'
 
 regulation:
 
 errata: []
-
-temp: Worgen Warrior

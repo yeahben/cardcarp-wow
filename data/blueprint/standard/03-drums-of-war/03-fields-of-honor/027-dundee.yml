@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Crocolisk
+
 trait:
 
 cost: '3'
@@ -20,6 +23,12 @@ combat: Melee
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: As each turn starts, prevent the next damage that Dundee would be dealt this turn.
@@ -27,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Crocolisk

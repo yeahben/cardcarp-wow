@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '3'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: → Your hero deals 1 arcane damage to target hero or ally. Use only if you have seven or more cards in hand.
+    text: '{activate} → Your hero deals 1 arcane damage to target hero or ally. Use only if you have seven or more cards in hand.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

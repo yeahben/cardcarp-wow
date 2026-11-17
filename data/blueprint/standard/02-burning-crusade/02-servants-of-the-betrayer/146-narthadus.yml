@@ -19,12 +19,19 @@ combat: Holy
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive At the end of your turn, you may destroy target ability.
+    text: Elusive (Can't be attacked.)
+  - type: Ability
+    text: At the end of your turn, you may destroy target ability.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Priest

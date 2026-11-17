@@ -11,6 +11,8 @@ trait:
 
 cost: '3'
 
+instant: false
+
 rule:
   - type: Ability
     text: Put target ally into its owner's hand.
@@ -18,5 +20,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Blessing
+
 trait:
 
 cost: '1'
@@ -14,12 +17,19 @@ cost: '1'
 class:
   - Paladin
 
-instant: 'Attach to target ally. Ongoing : Attached ally has +1 ATK and +1 health. When attached ally becomes exhausted, your hero heals 1 damage from it.'
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +1 ATK and +1 health.'
+  - type: Ability
+    text: When attached ally becomes exhausted, your hero heals 1 damage from it.
 
 regulation:
 
 errata: []
-
-temp: Protection Blessing

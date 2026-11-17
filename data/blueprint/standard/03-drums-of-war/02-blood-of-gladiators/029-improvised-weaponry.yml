@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Hunter
 
+talent:
+  - Marksmanship
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target Melee weapon. Ongoing : Attached weapon loses Melee (1), has Ranged (1), becomes a weapon, and has "When you strike with this weapon, your hero has Long-Range this combat."'
+    text: Attach to target Melee weapon.
+  - type: Ability
+    text: 'Ongoing: Attached weapon loses Melee (1), has Ranged (1), becomes a {ranged} weapon, and has "When you strike with this weapon, your hero has long-range this combat."'
 
 regulation:
 
 errata: []
-
-temp: Marksmanship

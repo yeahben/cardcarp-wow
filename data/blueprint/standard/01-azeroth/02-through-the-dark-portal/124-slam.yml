@@ -14,6 +14,11 @@ cost: '3'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero deals X melee damage to target hero or ally, where X is 1 plus the ATK of one of your Melee weapons.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Fury

@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
     text: If this ally would be dealt damage, prevent all but 1 of it.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Paladin

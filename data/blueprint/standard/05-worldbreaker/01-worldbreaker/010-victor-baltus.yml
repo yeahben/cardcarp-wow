@@ -13,10 +13,18 @@ health: 28
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Warlock
+
+talent:
+  - Demonology
+
 rule:
   - type: Ability
     position: Front
-    text: 2 → Flip Victor
+    text: '{2} → Flip Victor'
   - type: Ability
     position: Reverse
     text: Demons you control have +1 / +1.
@@ -24,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Worgen Warlock

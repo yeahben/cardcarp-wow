@@ -9,18 +9,28 @@ category:
 
 trait:
 
-type: Raid
+instant: false
 
 rule:
   - type: Ability
     position: Front
-    text: "If a raiding hero or ally would deal non-combat damage, it deals that much -1 instead. On your turn: → Put a Web Wrap from your graveyard into your hand. When a Boss is destroyed, destroy all Naxxramas tokens. When Maexxna is destroyed, flip this card. Anub'Rekhan Grand Widow Faerlina Maexxna"
+    text: If a raiding hero or ally would deal non-combat damage, it deals that much -1 instead.
+  - type: Ability
+    position: Front
+    text: 'On your turn: {activate} → Put a Web Wrap from your graveyard into your hand.'
+  - type: Ability
+    position: Front
+    text: When a Boss is destroyed, destroy all Naxxramas tokens.
+  - type: Ability
+    position: Front
+    text: When Maexxna is destroyed, flip this card.
   - type: Ability
     position: Reverse
-    text: When this card flips to this side, say "Who dares violate the sanctity of my domain? Be warned, all who trespass here are doomed!" If a raiding hero or ally would deal non-combat damage, it deals that much +1 instead.
+    text: When this card flips to this side, say "Who dares violate the sanctity of my domain? Be warned, all who trespass here are doomed!"
+  - type: Ability
+    position: Reverse
+    text: If a raiding hero or ally would deal non-combat damage, it deals that much +1 instead.
 
 regulation:
 
 errata: []
-
-temp: ''

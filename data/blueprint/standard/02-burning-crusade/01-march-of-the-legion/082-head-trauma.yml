@@ -14,6 +14,11 @@ cost: '4'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
     text: Destroy target resource.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Assassination

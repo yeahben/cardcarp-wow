@@ -7,19 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Bow
+
 trait:
 
 cost: '7'
 
+damage: 5
+
+strike: 2
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you strike with Rokh'delar, your hero has Long-Range this combat.
+    text: When you strike with Rhok'delar, your hero has long-range this combat.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Bow

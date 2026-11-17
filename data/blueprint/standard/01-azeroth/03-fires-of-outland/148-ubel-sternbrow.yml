@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Ubel Sternbrow can protect himself.
+    text: Protector
+  - type: Ability
+    text: Ubel Sternbrow can protect himself.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Paladin

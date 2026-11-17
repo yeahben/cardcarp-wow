@@ -11,10 +11,12 @@ trait:
 
 rule:
   - type: Ability
-    text: 'Scryer Reputation If an ally with sabotage is in your party, pay 1 to complete this quest. Reward : Draw a card.'
+    text: Scryer Reputation (Can't put Aldor cards in your deck.)
+  - type: Ability
+    text: If an ally with sabotage is in your party, pay {1} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

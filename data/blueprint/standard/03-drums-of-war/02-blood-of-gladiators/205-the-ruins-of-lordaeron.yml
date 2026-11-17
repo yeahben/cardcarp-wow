@@ -7,14 +7,19 @@ layout: Standard
 category:
   - Location
 
+subtype:
+  - Arena
+
 trait:
+
+capture: 3
 
 rule:
   - type: Ability
-    text: When a hero or ally in your party deals damage, add an arena counter. , Remove three arena counters → Put up to three target cards from one player's graveyard on the bottom of his deck.
+    text: When a hero or ally in your party deals damage, add an arena counter.
+  - type: Ability
+    text: "{activate}, Remove three arena counters → Put up to three target cards from one player's graveyard on the bottom of his deck."
 
 regulation:
 
 errata: []
-
-temp: Arena

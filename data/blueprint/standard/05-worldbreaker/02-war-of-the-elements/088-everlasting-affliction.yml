@@ -14,12 +14,21 @@ cost: '3'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Affliction Talent Attach to target opposing hero. Ongoing : At the start of your turn, your hero deals 1 shadow damage to attached hero. If damage is dealt this way, you may search your deck for a card named Everlasting Affliction and attach it to attached hero.'
+    text: Affliction Talent (You can't put Demonology Talents or Destruction Talents in your deck.)
+  - type: Ability
+    text: Attach to target opposing hero.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero deals 1 shadow damage to attached hero.'
+  - type: Ability
+    text: If damage is dealt this way, you may search your deck for a card named Everlasting Affliction and attach it to attached hero.
 
 regulation:
 
 errata: []
-
-temp: Affliction

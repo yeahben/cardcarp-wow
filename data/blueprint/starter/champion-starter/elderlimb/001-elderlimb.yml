@@ -7,20 +7,29 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Ancient
+
 trait:
+
+health: 27
+
+class:
+  - Druid
 
 type: Monster
 
 rule:
   - type: Ability
     position: Front
-    text: 4 → Flip Elderlimb face down.
+    text: '{4} → Flip Elderlimb'
   - type: Ability
     position: Reverse
-    text: "Ancient's Lore : At the start of your turn, Elderlimb heals 4 damage from himself if you control a Treant. Deckbuilding: You can't put or cards in your deck."
+    text: "Ancient's Lore: At the start of your turn, Elderlimb heals 4 damage from himself if you control a Treant."
+  - type: Ability
+    position: Reverse
+    text: "Deckbuilding: You can't put {horde} or {alliance} cards in your deck."
 
 regulation:
 
 errata: []
-
-temp: Ancient Druid 27

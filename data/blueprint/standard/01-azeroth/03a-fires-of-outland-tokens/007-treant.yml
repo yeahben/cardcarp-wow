@@ -5,10 +5,25 @@ origin: fires-of-outland-tokens-007
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
+  - Treant
 
 trait:
 
-rule: []
+damage: 1
+
+health: 1
+
+combat: Melee
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Ferocity
 
 regulation:
 

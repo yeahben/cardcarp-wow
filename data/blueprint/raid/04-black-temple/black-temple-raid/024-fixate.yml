@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Black Temple
+
 trait:
 
 cost: '1'
 
-instant: Your hero has +3 ATK, and combat damage that it would deal is unpreventable this turn.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Your hero has +3 ATK, and combat damage that it would deal is unpreventable this turn.
 
 regulation:
 
 errata: []
-
-temp: Black Temple

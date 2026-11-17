@@ -19,6 +19,13 @@ combat: Fire
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally deals damage to an ally, you may remove target weapon from the game.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

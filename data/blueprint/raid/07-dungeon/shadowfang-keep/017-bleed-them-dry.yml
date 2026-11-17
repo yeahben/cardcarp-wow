@@ -9,14 +9,16 @@ category:
 
 trait:
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: "Attach to the MARKED hero, and Godfrey deals 4 shadow damage to it. Ongoing : Attached hero can't be healed."
+    text: Attach to the MARKED hero, and Godfrey deals 4 shadow damage to it.
+  - type: Ability
+    text: "Ongoing: Attached hero can't be healed."
 
 regulation:
 
 errata: []
-
-temp: ''

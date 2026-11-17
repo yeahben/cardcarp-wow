@@ -19,12 +19,19 @@ combat: Arcane
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive At the start of your turn, this ally may deal 1 arcane damage to target hero or ally for each card you control.
+    text: Elusive
+  - type: Ability
+    text: At the start of your turn, this ally may deal 1 arcane damage to target hero or ally for each {arcane} card you control.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '4'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When an attacking ally deals combat damage to your hero, you may pay 2 . If you do, put that ally into its owner's hand.
+    text: When an attacking ally deals combat damage to your hero, you may pay {2}. If you do, put that ally into its owner's hand.
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

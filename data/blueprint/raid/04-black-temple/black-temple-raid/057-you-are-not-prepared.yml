@@ -1,0 +1,22 @@
+name: You Are Not Prepared!
+
+origin: black-temple-raid-057
+
+layout: Standard
+
+category:
+  - Event
+
+trait:
+
+instant: false
+
+sequence: 17
+
+rule:
+  - type: Ability
+    text: Your hero deals 2 melee damage to each opposing hero and ally.
+
+regulation:
+
+errata: []

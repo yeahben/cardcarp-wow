@@ -9,12 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: A Raiding hero has 1 remaining during a Dungeon turn but isn't destroyed.
+    text: A Raiding hero has 1 remaining {health} during a Dungeon turn but isn't destroyed.
+  - type: Ability
+    text: 'Reward: 3 XP'
 
 regulation:
 
 errata: []
-
-temp: ''

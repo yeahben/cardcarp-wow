@@ -1,4 +1,4 @@
-name: Trackers Blade
+name: Tracker's Blade
 
 origin: caverns-of-time-treasure-069
 
@@ -7,19 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Dagger
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 1
+
+combat: Melee
+
 class:
   - Rogue
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Dual Wield Stealth
+    text: Dual Wield
+  - type: Ability
+    text: Stealth (When you strike with this weapon, your hero can't be protected against this combat.)
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

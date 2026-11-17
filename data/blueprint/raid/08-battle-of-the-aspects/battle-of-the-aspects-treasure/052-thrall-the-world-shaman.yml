@@ -17,12 +17,25 @@ health: 4
 
 combat: Nature
 
+race: Orc
+
+class:
+  - Shaman
+
+limit:
+  - name: Thrall
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Protector When Thrall readies, choose one: Thrall heals 3 damage from your hero; or Thrall deals 3 nature damage to target opposing hero. 3 → Ready Thrall.'
+    text: Protector
+  - type: Ability
+    text: 'When Thrall readies, choose one: Thrall heals 3 damage from your hero; or Thrall deals 3 nature damage to target opposing hero.'
+  - type: Ability
+    text: '{3} → Ready Thrall.'
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

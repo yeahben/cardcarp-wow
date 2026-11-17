@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '7'
@@ -14,12 +17,15 @@ cost: '7'
 class:
   - Rogue
 
-instant: Target any number of opposing abilities, allies, and equipment. You control them until the end of your turn.
+talent:
+  - Subtlety
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target any number of opposing abilities, allies, and equipment. You control them until the end of your turn.
 
 regulation:
 
 errata: []
-
-temp: Subtlety Combo

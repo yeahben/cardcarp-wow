@@ -1,4 +1,4 @@
-name: Wubs Cursed Hexblade
+name: Wub's Cursed Hexblade
 
 origin: fields-of-honor-182
 
@@ -7,21 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Dagger
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 2
+
+combat: Melee
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 2 , Destroy Wub's Cursed Hexblade → Destroy target ally. If an opponent went first this game, put a card with the same name as that ally from a graveyard into your party.
+    text: "{2}, Destroy Wub's Cursed Hexblade → Destroy target ally. If an opponent went first this game, put a card with the same name as that ally from a graveyard into your party."
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

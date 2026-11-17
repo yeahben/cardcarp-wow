@@ -19,12 +19,19 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Shadow Resistance You may play this ally without paying its cost if a hero or ally you controlled dealt shadow ( ) damage to an opposing hero this turn.
+    text: Shadow Resistance
+  - type: Ability
+    text: You may play this ally without paying his cost if a hero or ally you controlled dealt shadow ({shadow}) damage to an opposing hero this turn.
 
 regulation:
 
 errata: []
-
-temp: Undead Priest

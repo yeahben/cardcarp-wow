@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '7'
@@ -14,12 +17,17 @@ cost: '7'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: Shadow Hero Required Target player discards his hand.
+    text: Shadow Hero Required
+  - type: Ability
+    text: Target player discards his hand.
 
 regulation:
 
 errata: []
-
-temp: Shadow Talent

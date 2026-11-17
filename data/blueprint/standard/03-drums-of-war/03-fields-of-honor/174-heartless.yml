@@ -7,21 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Sword
+
 trait:
 
 cost: '3'
 
+damage: 3
+
+strike: 3
+
+combat: Melee
+
 class:
-  - Warrior
   - Death Knight
   - Rogue
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Your hero has Dual Wield . Put 1 damage on an ally in your party → You pay 1 less the next time you strike with Heartless this turn.
+    text: Your hero has dual wield.
+  - type: Ability
+    text: Put 1 damage on an ally in your party → You pay {1} less the next time you strike with Heartless this turn.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

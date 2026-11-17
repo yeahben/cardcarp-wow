@@ -13,13 +13,16 @@ health: 28
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Warlock
+
 rule:
   - type: Ability
     position: Front
-    text: x , Flip Jindal'an → Reveal the top X cards of your deck. Put a revealed Demon into your hand and the rest on the bottom of your deck.
+    text: "{x}, Flip Jindal'an → Reveal the top X cards of your deck. Put a revealed Demon into your hand and the rest on the bottom of your deck."
 
 regulation:
 
 errata: []
-
-temp: Troll Warlock

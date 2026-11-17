@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Paladin
 
-instant: Your hero heals all damage from target defending ally. Prevent the next 5 combat damage that would be dealt to that ally this turn.
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero heals all damage from target defending ally. Prevent the next 5 combat damage that would be dealt to that ally this turn.
 
 regulation:
 
 errata: []
-
-temp: Holy

@@ -17,12 +17,24 @@ health: 7
 
 combat: Melee
 
+race: Orc
+
+class:
+  - Warrior
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Argent Crusade Reputation Protector Cards everywhere are Unique.
+    text: Argent Crusade Reputation
+  - type: Ability
+    text: Protector
+  - type: Ability
+    text: Cards everywhere are Unique.
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

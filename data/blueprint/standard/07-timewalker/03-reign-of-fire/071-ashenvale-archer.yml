@@ -19,6 +19,13 @@ combat: Ranged
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, if you control an ally with cost 4 or more, this ally deals 2 ranged damage to target hero.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Night Elf Hunter

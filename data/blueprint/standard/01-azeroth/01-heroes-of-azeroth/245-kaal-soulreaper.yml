@@ -19,12 +19,20 @@ combat: Shadow
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warlock
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: 7 , Remove Kaal Soulreaper from the game → Players put all ally cards from their graveyards into play.
+    text: '{7}, Remove Kaal Soulreaper from the game → Players put all ally cards from their graveyards into play.'
 
 regulation:
 
 errata: []
-
-temp: Orc Warlock

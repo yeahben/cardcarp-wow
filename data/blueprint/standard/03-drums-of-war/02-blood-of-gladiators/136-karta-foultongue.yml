@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Hardiness 1 → This turn, target ally must attack if able and can attack only Karta if able.
+    text: Hardiness (If this ally would be dealt damage, prevent 1 of it.)
+  - type: Ability
+    text: '{1} → This turn, target ally must attack if able and can attack only Karta if able.'
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

@@ -14,12 +14,19 @@ cost: '1'
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target ally. Ongoing : Attached ally has Assault 2 and Smash . When attached ally is destroyed, if it was a Monster, put this ability from the graveyard into its owner's hand."
+    text: Attach to target ally.
+  - type: Ability
+    text: "Ongoing: Attached ally has Assault 2 and Smash. (If it would deal more than fatal combat damage to a defending ally, it deals the rest to that ally's controller's hero.)"
+  - type: Ability
+    text: When attached ally is destroyed, if it was a Monster, put this ability from the graveyard into its owner's hand.
 
 regulation:
 
 errata: []
-
-temp: Enhancement

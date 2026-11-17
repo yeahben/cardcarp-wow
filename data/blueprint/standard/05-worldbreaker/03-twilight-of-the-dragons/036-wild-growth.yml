@@ -14,12 +14,19 @@ cost: '1'
 class:
   - Druid
 
-instant: 'Restoration Talent Your hero heals all damage from each ally you control. Then, this ability enters play with a growth counter for each ally healed this way. Ongoing : Your hero has Mend 1 for each growth counter on this ability.'
+talent:
+  - Restoration
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Restoration Talent (You can't put Balance Talents or Feral Talents in your deck.)
+  - type: Ability
+    text: Your hero heals all damage from each ally you control. Then, this ability enters play with a growth counter for each ally healed this way.
+  - type: Ability
+    text: 'Ongoing: Your hero has Mend 1 for each growth counter on this ability.'
 
 regulation:
 
 errata: []
-
-temp: Restoration

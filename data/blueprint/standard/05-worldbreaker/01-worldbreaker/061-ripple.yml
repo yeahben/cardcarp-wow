@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Your hero deals 1 arcane damage to each opposing hero and ally. Stash : The next time your hero would deal damage with an ability this turn, it deals that much +1 instead.'
+    text: Your hero deals 1 arcane damage to each opposing hero and ally.
+  - type: Ability
+    text: 'Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): The next time your hero would deal damage with an ability this turn, it deals that much +1 instead.'
 
 regulation:
 
 errata: []
-
-temp: Arcane

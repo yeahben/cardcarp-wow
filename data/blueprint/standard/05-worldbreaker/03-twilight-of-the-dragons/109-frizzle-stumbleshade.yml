@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: Untargetable
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Gnome Priest

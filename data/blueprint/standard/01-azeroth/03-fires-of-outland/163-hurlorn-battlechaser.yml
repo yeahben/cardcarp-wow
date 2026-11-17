@@ -19,12 +19,19 @@ combat: Ranged
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Long-Range When Hurlorn Battlechaser enters play, he deals 2 ranged damage to target hero or ally.
+    text: Long-Range (Defenders deal no combat damage to this character.)
+  - type: Ability
+    text: When Hurlorn Battlechaser enters play, he deals 2 ranged damage to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Tauren Hunter

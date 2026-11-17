@@ -17,12 +17,24 @@ health: 8
 
 combat: Melee
 
+race: Blood Elf
+
+class:
+  - Mage
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Scryer Reputation Sabotage: Game When Varen sabotages a game, the winner of this game also wins the next game.'
+    text: Scryer Reputation
+  - type: Ability
+    text: 'Sabotage: Game'
+  - type: Ability
+    text: When Varen sabotages a game, the winner of this game also wins the next game.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

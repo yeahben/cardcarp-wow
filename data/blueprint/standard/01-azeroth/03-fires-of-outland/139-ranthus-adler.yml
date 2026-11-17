@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Destroy Ranthus Adler → Put target ally into its owner's hand.
+    text: "{1}, Destroy Ranthus Adler → Put target ally into its owner's hand."
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

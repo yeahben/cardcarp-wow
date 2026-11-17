@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: 2 , → Ready another target ally.
+    text: '{2}, {activate} → Ready another target ally.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

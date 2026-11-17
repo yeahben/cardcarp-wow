@@ -5,10 +5,27 @@ origin: misc-tokens-014
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
+  - Skeleton
 
 trait:
 
-rule: []
+damage: 1
+
+health: 1
+
+combat: Melee
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Ferocity, Protector
+  - type: Ability
+    text: At end of turn, destroy this token.
 
 regulation:
 

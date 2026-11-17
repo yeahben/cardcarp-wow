@@ -1,0 +1,22 @@
+name: The Brotherhood Assembles
+
+origin: the-deadmines-020
+
+layout: Standard
+
+category:
+  - Ability
+
+trait:
+
+instant: false
+
+type: Dungeon
+
+rule:
+  - type: Ability
+    text: Reveal the top three cards of the Dungeon Deck. Put each revealed Dungeon ally into play and the rest into the graveyard.
+
+regulation:
+
+errata: []

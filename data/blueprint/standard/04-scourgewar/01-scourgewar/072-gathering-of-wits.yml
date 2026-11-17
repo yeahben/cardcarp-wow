@@ -14,6 +14,11 @@ cost: '7'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
     text: Gain control of any number of target opposing allies with combined cost less than or equal to the number of resources you control.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Shadow

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Elemental
+
 trait:
 
 damage: 2
@@ -15,14 +19,14 @@ health: 2
 
 combat: Fire
 
-type: Ally
+instant: false
 
 rule:
   - type: Ability
-    text: Ferocity Son of Flame can't be dealt fire ( ) damage. When the last Son of Flame leaves play, if Ragnaros is submerged, flip Ragnaros.
+    text: Ferocity
+  - type: Ability
+    text: Son of Flame can't be dealt fire ({fire}) damage. When the last Son of Flame leaves play, if Ragnaros is Submerged, flip Ragnaros.
 
 regulation:
 
 errata: []
-
-temp: Elemental

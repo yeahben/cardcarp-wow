@@ -14,6 +14,11 @@ cost: '4'
 class:
   - Rogue
 
+talent:
+  - Combat
+
+instant: false
+
 rule:
   - type: Ability
     text: Exhaust each opposing ally and equipment with cost 4 or less. Those cards can't ready during their controller's next ready step.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Combat

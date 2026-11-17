@@ -13,6 +13,18 @@ health: 30
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Warrior
+
+talent:
+  - Fury
+
+profession:
+  - Blacksmithing
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
@@ -21,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Warrior

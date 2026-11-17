@@ -11,6 +11,8 @@ trait:
 
 cost: '3'
 
+instant: false
+
 rule:
   - type: Ability
     text: When Onyxia deals combat damage to an ally this turn, ready Onyxia.
@@ -18,5 +20,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

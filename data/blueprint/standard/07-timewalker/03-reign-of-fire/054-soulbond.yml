@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Attachment
+
 trait:
 
 cost: '4'
@@ -14,12 +17,17 @@ cost: '4'
 class:
   - Warlock
 
-instant: "Attach to target Demon ally. Ongoing : If your hero would be dealt damage, it's dealt to attached ally instead."
+talent:
+  - Demonology
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target Demon ally.
+  - type: Ability
+    text: "Ongoing: If your hero would be dealt damage, it's dealt to attached ally instead."
 
 regulation:
 
 errata: []
-
-temp: Demonology Attachment

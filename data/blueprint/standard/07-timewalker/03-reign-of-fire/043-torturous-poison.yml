@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Poison
+  - Attachment
+
 trait:
 
 cost: '1'
@@ -14,12 +18,17 @@ cost: '1'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target hero or ally that was dealt combat damage by your hero this turn. Ongoing : At the start of your turn, add a poison counter to this ability. Then, your hero deals 1 nature damage to attached character for each poison counter on this ability.'
+    text: Attach to target hero or ally that was dealt combat damage by your hero this turn.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, add a poison counter to this ability. Then, your hero deals 1 nature damage to attached character for each poison counter on this ability.'
 
 regulation:
 
 errata: []
-
-temp: Assassination Poison Attachment

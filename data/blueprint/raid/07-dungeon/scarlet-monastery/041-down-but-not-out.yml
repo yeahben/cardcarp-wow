@@ -9,12 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
     text: Have 60 or more total damage on Raiding heroes with no Raiding heroes being destroyed by the damage.
+  - type: Ability
+    text: 'Reward: 3 XP'
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, Delve .
+    text: When this ally enters play, Delve. (Look at the top two cards of your deck. Put any number of them on top of your deck in any order, and the rest on the bottom.)
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

@@ -1,4 +1,4 @@
-name: Landros Lichling
+name: Landro's Lichling
 
 origin: war-of-the-elements-176
 
@@ -6,6 +6,9 @@ layout: Standard
 
 category:
   - Ally
+
+subtype:
+  - Lich
 
 trait:
 
@@ -17,12 +20,12 @@ health: 3
 
 combat: Frost
 
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of your turn, you may destroy this ally. If you do, target opponent chooses and ally he controls, and you gain control of it.
+    text: At the start of your turn, you may destroy this ally. If you do, target opponent chooses an ally he controls, and you gain control of it.
 
 regulation:
 
 errata: []
-
-temp: Lich

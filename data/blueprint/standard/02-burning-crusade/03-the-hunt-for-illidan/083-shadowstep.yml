@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '1'
@@ -14,12 +17,17 @@ cost: '1'
 class:
   - Rogue
 
-instant: 'Subtlety Hero Required Ongoing : Ready opposing heroes and allies also count as being exhausted. (They are still ready.)'
+talent:
+  - Subtlety
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Subtlety Hero Required
+  - type: Ability
+    text: 'Ongoing: Ready opposing heroes and allies also count as being exhausted. (They are still ready.)'
 
 regulation:
 
 errata: []
-
-temp: Subtlety Talent

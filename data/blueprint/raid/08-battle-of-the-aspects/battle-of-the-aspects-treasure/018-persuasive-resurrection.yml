@@ -14,12 +14,15 @@ cost: '7'
 class:
   - Priest
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : At the start of your turn, you may put target ally from an opponent's graveyard into play under your control."
+    text: "Ongoing: At the start of your turn, you may put target ally from an opponent's graveyard into play under your control."
 
 regulation:
 
 errata: []
-
-temp: Holy

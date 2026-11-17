@@ -19,6 +19,13 @@ combat: Ranged
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally deals combat damage to a defender, she may deal 1 ranged damage to a second target hero or ally.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Night Elf Hunter

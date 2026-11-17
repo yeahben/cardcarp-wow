@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '3'
 
+defense: 6
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: This armor can only prevent melee ( ) damage.
+    text: This armor can prevent only melee ({melee}) damage.
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

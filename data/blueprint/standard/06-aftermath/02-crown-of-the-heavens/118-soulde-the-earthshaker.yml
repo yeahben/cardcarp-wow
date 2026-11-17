@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Allies you control with cost 4 or more have +2 / +2 and Protector .
+    text: Allies you control with cost 4 or more have +2 / +2 and Protector.
 
 regulation:
 
 errata: []
-
-temp: Tauren Warrior

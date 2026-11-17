@@ -14,12 +14,19 @@ cost: '5'
 class:
   - Paladin
 
+talent:
+  - Retribution
+
+limit:
+  - name: Aura
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When a hero or ally in your party is dealt combat damage, it deals 1 holy damage to the source of that combat damage.'
+    text: 'Ongoing: When a hero or ally in your party is dealt combat damage, it deals 1 holy damage to the source of that combat damage.'
 
 regulation:
 
 errata: []
-
-temp: Retribution

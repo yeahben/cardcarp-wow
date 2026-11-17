@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,19 @@ cost: '3'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Discipline Hero Required Ongoing : At the start of your turn, add a haste counter. For each haste counter, you pay 1 less to play your first card each turn.'
+    text: Discipline Hero Required
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, add a haste counter.'
+  - type: Ability
+    text: For each haste counter, you pay {1} less to play your first card each turn.
 
 regulation:
 
 errata: []
-
-temp: Discipline Talent

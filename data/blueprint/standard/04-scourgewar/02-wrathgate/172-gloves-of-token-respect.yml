@@ -7,21 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '3'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Hands
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'On your turn: 2 → Put a 1 / 1 Spider ally token into play. , Destroy this armor → Put a copy of target ally token into play.'
+    text: 'On your turn: {2} → Put a 1 {nature} / 1 {health} Spider ally token into play.'
+  - type: Ability
+    text: '{activate}, Destroy this armor → Put a copy of target ally token into play.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '4'
@@ -14,12 +17,17 @@ cost: '4'
 class:
   - Hunter
 
-instant: Survival Hero Required Destroy target ally. If you do, ready up to X of your resources, where X is that ally's cost.
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Survival Hero Required
+  - type: Ability
+    text: Destroy target ally. If you do, ready up to X of your resources, where X is that ally's cost.
 
 regulation:
 
 errata: []
-
-temp: Survival Talent

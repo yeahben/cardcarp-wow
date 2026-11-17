@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Furbolg
+
 trait:
 
 cost: '4'
@@ -17,14 +20,17 @@ health: 4
 
 combat: Fire
 
+class:
+  - Shaman
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: While you have four or more cards in your graveyard, this ally has Assault 2 and Smash .
+    text: While you have four or more cards in your graveyard, this ally has Assault 2 and Smash. (If this ally would deal more than fatal combat damage to a defending ally, it deals the rest to that ally's controller's hero.)
 
 regulation:
 
 errata: []
-
-temp: Furbolg Shaman

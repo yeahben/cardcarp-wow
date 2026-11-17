@@ -17,12 +17,21 @@ health: 1
 
 combat: Melee
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Scryer Reputation Sabotage: Armor When Salvan sabotages a player's armor, exhaust all of that player's armor."
+    text: Scryer Reputation (Can't put Aldor cards in your deck.)
+  - type: Ability
+    text: 'Sabotage: Armor (This ally can attack opposing armor.)'
+  - type: Ability
+    text: When Salvan sabotages a player's armor, exhaust all of that player's armor.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

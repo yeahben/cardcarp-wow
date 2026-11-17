@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+limit:
+  - name: Presence
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : You pay 1 less to play and strike with weapons.'
+    text: 'Ongoing: You pay {1} less to play and strike with weapons.'
 
 regulation:
 
 errata: []
-
-temp: Unholy

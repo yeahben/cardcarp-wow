@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Mok'Nathal
+  - Beastmaster
+
 trait:
 
 cost: '8'
@@ -19,6 +23,11 @@ combat: Melee
 
 faction: Horde
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: When Leoroxx attacks, destroy all opposing allies.
@@ -26,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Mok'Nathal Beastmaster

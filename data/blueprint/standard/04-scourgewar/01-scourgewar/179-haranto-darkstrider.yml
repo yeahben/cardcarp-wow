@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector This ally can't attack unless an opponent controls more allies than you.
+    text: Protector
+  - type: Ability
+    text: This ally can't attack unless an opponent controls more allies than you.
 
 regulation:
 
 errata: []
-
-temp: Tauren Death Knight

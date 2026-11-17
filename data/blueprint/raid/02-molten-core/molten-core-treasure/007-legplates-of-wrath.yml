@@ -7,19 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '3'
 
+defense: 3
+
 class:
   - Warrior
 
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you play a ability, you may pay 1 . If you do, ready target armor.
+    text: When you play a {warrior} ability, you may pay {1}. If you do, ready target armor.
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

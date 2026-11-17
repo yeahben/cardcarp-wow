@@ -7,19 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Gun
+
 trait:
 
 cost: '4'
 
+damage: 3
+
+strike: 2
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Long-Range Ranged Dual Wield
+    text: Long-Range (When you strike with this weapon on your turn, defenders deal no combat damage to the attacker.)
+  - type: Ability
+    text: Ranged Dual Wield (You can control a second Ranged weapon. You can strike with a second Ranged weapon during the same combat.)
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Gun

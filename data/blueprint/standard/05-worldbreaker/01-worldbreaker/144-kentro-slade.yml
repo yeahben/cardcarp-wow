@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, if you control an armor, item, and weapon, destroy this ally. If you do, search your deck and/or hand for a master hero and put it into play.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Human Warrior

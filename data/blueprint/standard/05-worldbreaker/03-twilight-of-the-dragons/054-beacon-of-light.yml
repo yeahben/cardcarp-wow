@@ -14,12 +14,21 @@ cost: '2'
 class:
   - Paladin
 
-instant: 'Holy Talent Attach to target ally. Ongoing : When damage is healed from a hero or ally you control, add that many light counters to this ability. Attached ally has +1 / +1 for each light counter on this ability.'
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Holy Talent (You can't put Protection Talents or Retribution Talents in your deck.)
+  - type: Ability
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: When damage is healed from a hero or ally you control, add that many light counters to this ability.'
+  - type: Ability
+    text: Attached ally has +1 / +1 for each light counter on this ability.
 
 regulation:
 
 errata: []
-
-temp: Holy

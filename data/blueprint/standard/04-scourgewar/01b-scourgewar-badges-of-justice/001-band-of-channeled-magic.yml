@@ -7,23 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: At the start of your turn, you may pay 2 . If you do, draw a card. Otherwise, destroy this item.
+    text: At the start of your turn, you may pay {2}. If you do, draw a card. Otherwise, destroy this item.
 
 regulation:
 
 errata: []
-
-temp: Item Ring

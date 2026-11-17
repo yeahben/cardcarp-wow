@@ -19,12 +19,21 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+limit:
+  - name: Drek'Thar
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Bloodrush : At the start of your turn, if an opposing hero has more damage on it than your hero, put X 1 / 1 Wolf Beast Monster ally tokens into play with Ferocity , where X is the difference in damage between your hero and the opposing hero with the most damage.'
+    text: 'Bloodrush: At the start of your turn, if an opposing hero has more damage on it than your hero, put X 1 {melee} / 1 {health} Wolf Beast Monster ally tokens into play with Ferocity, where X is the difference in damage between your hero and the opposing hero with the most damage.'
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

@@ -7,21 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '1'
 
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: As this item enters play, name an ability or equipment with cost 3 or less. Opposing cards in play with the chosen name lose and can't have powers.
+    text: As this item enters play, name an ability or equipment with cost 3 or less.
+  - type: Ability
+    text: Opposing cards in play with the chosen name lose and can't have powers.
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

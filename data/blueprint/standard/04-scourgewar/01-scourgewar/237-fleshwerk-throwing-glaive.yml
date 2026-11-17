@@ -7,20 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Shuriken
+
 trait:
 
 cost: '2'
 
+damage: 2
+
+strike: 1
+
+combat: Ranged
+
 class:
-  - Warrior
   - Rogue
+  - Warrior
+
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Thrown Hero : This weapon has +1 ATK. Hero : You pay 1 less to strike with this weapon.'
+    text: Thrown
+  - type: Ability
+    text: '{rogue} Hero: This weapon has +1 ATK.'
+  - type: Ability
+    text: '{warrior} Hero: You pay {1} less to strike with this weapon.'
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Shuriken

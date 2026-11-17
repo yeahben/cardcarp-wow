@@ -1,14 +1,25 @@
-name: Feast Of Great Winter
+name: Feast of Great Winter
 
 origin: holiday-2006-001
 
 layout: Standard
 
 category:
+  - Misc
 
 trait:
 
-rule: []
+damage: 6
+
+health: 7
+
+combat: Frost
+
+instant: false
+
+rule:
+  - type: Ability
+    text: It's that special time of year when all of us, gnome and orc, night elf and tauren, dwarf and troll, set aside our differences and celebrate together.
 
 regulation:
 

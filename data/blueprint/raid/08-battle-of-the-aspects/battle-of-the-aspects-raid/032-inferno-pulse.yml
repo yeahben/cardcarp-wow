@@ -9,14 +9,16 @@ category:
 
 trait:
 
-type: Boss
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
-    text: Deathwing deals 1 fire damage to each Raiding hero and ally. Flip an additional Deathwing card.
+    text: Deathwing deals 1 fire damage to each Raiding hero and ally.
+  - type: Ability
+    text: Flip an additional Deathwing card.
 
 regulation:
 
 errata: []
-
-temp: ''

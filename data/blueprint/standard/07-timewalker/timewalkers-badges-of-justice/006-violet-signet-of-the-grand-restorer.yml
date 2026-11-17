@@ -7,22 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '6'
 
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
+
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: → Put target card from your graveyard on the bottom of your deck. Then, your hero heals damage from itself equal to that card's cost.
+    text: "{activate} → Put target card from your graveyard on the bottom of your deck. Then, your hero heals damage from itself equal to that card's cost."
 
 regulation:
 
 errata: []
-
-temp: Item Ring

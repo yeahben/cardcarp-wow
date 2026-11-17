@@ -19,12 +19,25 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Rogue
+
+limit:
+  - name: Zul'jin
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Stealth Zul'jin has +1 ATK for each damage on him. Once per turn: Put 1 damage on Zul'jin → Ready Zul'jin."
+    text: Stealth
+  - type: Ability
+    text: Zul'jin has +1 ATK for each damage on him.
+  - type: Ability
+    text: "Once per turn: {basic} Put 1 damage on Zul'jin → Ready Zul'jin."
 
 regulation:
 
 errata: []
-
-temp: Troll Rogue

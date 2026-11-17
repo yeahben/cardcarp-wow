@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When Bolan readies, he heals all damage from target ally.
+    text: Protector
+  - type: Ability
+    text: When Bolan readies, he heals all damage from target ally.
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

@@ -14,12 +14,15 @@ cost: '5'
 class:
   - Priest
 
-instant: Gain control of target attacking ally.
+talent:
+  - Shadow
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Gain control of target attacking ally.
 
 regulation:
 
 errata: []
-
-temp: Shadow

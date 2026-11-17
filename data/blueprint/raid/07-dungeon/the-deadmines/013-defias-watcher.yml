@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Mechanical
+  - Golem
+
 trait:
 
 damage: 5
@@ -14,6 +18,8 @@ damage: 5
 health: 5
 
 combat: Melee
+
+instant: false
 
 type: Dungeon
 
@@ -24,5 +30,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Mechanical Golem

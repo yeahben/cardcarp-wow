@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Destroy this ally → Destroy target armor or weapon.
+    text: '{1}, Destroy Moira Darkheart → Destroy target armor or weapon.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Rogue

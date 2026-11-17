@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Stealth When Aesadonna attacks, destroy target exhausted ally.
+    text: Stealth
+  - type: Ability
+    text: When Aesadonna attacks, destroy target exhausted ally.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

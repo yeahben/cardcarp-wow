@@ -11,10 +11,8 @@ trait:
 
 rule:
   - type: Ability
-    text: 1 , → Delve
+    text: '{1}, {activate} → Delve (Look at the top two cards of your deck. Put any number of them on top of your deck in any order, and the rest on the bottom.)'
 
 regulation:
 
 errata: []
-
-temp: ''

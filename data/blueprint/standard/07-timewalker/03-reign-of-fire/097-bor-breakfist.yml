@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Target orc ally has Ferocity this turn.
+    text: '{basic} {activate} → Target Orc ally has Ferocity this turn.'
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

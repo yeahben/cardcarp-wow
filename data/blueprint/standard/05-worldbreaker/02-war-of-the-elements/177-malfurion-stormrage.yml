@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Archdruid
+
 trait:
 
 cost: '8'
@@ -17,12 +20,20 @@ health: 8
 
 combat: Nature
 
+race: Night Elf
+
+limit:
+  - name: Malfurion
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector , Stealth , Untargetable At the start of your turn, you may put target ally with cost less than or equal to the number of resources you control from your graveyard into play.
+    text: Protector, Stealth, Untargetable
+  - type: Ability
+    text: At the start of your turn, you may put target ally with cost less than or equal to the number of resources you control from your graveyard into play.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Archdruid

@@ -19,12 +19,19 @@ combat: Frost
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: 0 → Norrin'thal becomes an ally this turn. Use only once per turn. 0 → Norrin'thal becomes an ally this turn. Use only once per turn.
+    text: "{0} → Norrin'thal becomes an {arcane} ally this turn. Use only once per turn."
+  - type: Ability
+    text: "{0} → Norrin'thal becomes a {fire} ally this turn. Use only once per turn."
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

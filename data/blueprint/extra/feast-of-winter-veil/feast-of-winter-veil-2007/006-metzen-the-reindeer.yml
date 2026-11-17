@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Reindeer
+
 trait:
 
 cost: '1'
@@ -17,12 +20,19 @@ health: 2
 
 combat: Melee
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive When Metzen enters play, target opponent puts three Pirate ally tokens with 1 ATK / 1 health into play. → Ready target hero or ally. Use only if no Pirates are in play.
+    text: Elusive
+  - type: Ability
+    text: When Metzen enters play, target opponent puts three Pirate ally tokens with 1 ATK / 1 health into play.
+  - type: Ability
+    text: '{activate} → Ready target hero or ally. Use only if no Pirates are in play.'
 
 regulation:
 
 errata: []
-
-temp: Reindeer

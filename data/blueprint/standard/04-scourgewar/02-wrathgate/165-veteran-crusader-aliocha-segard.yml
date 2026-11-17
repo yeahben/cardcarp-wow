@@ -17,12 +17,24 @@ health: 1
 
 combat: Holy
 
+race: Human
+
+class:
+  - Paladin
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Argent Crusade Reputation Protector This ally has +1 / +1 for each other Unique ally you control.
+    text: Argent Crusade Reputation
+  - type: Ability
+    text: Protector
+  - type: Ability
+    text: This ally has +1 / +1 for each other Unique ally you control.
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

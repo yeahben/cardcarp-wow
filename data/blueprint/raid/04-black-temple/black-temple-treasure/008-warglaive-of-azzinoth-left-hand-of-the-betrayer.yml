@@ -7,20 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Warglaive Sword
+
 trait:
 
-cost: '4'
+cost: '5'
+
+damage: 3
+
+strike: 0
+
+combat: Melee
 
 class:
-  - Warrior
   - Rogue
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+  - name: Unique
+
+instant: false
 
 rule:
   - type: Ability
-    text: Your hero has Dual Wield while you have another Warglaive. When Warglaive of Azzinoth leaves play, put a Demon ally token named Flame of Azzinoth into play with 3 ATK / 3 health and Ferocity .
+    text: Your hero has dual wield while you have another Warglaive.
+  - type: Ability
+    text: When Warglaive of Azzinoth leaves play, put a Demon ally token named Flame of Azzinoth into play with 3 {fire} ATK / 3 health and ferocity.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Warglaive Sword

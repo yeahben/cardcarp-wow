@@ -7,25 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+  - Potion
+
 trait:
 
 cost: '5'
 
 class:
-  - Priest
-  - Hunter
   - Druid
-  - Paladin
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
   - Shaman
+  - Warlock
+
+instant: false
 
 rule:
   - type: Ability
-    text: 4 , Destroy Super Mana Potion → Draw four cards.
+    text: '{4}, Destroy Super Mana Potion → Draw four cards.'
 
 regulation:
 
 errata: []
-
-temp: Item Potion

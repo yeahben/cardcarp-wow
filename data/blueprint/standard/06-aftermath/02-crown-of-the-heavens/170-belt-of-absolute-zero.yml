@@ -7,14 +7,26 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '3'
 
+defense: 2
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Waist
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -23,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Armor Plate

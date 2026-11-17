@@ -7,12 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Dagger
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 1
+
+combat: Melee
+
 class:
   - Rogue
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -21,5 +38,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

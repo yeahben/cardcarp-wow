@@ -19,14 +19,19 @@ combat: Fire
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Warlock
+
+instant: false
+
 type: Arena
 
 rule:
   - type: Ability
-    text: When Kileana or another Arena ally enters your party, it may deal 1 fire damage to each other hero and ally other than itself.
+    text: When Kileana or another Arena ally enters your party, it may deal 1 fire damage to each other hero and ally.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Warlock

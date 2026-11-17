@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Shaman
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Restoration Hero Required Ongoing : You pay 1 less to play Totems.'
+    text: Restoration Hero Required
+  - type: Ability
+    text: 'Ongoing: You pay {1} less to play Totems.'
 
 regulation:
 
 errata: []
-
-temp: Restoration Talent

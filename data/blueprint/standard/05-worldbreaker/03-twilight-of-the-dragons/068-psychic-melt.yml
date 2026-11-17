@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Priest
 
-instant: Target opponent chooses and destroys an ally he controls.
+talent:
+  - Shadow
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target opponent chooses and destroys an ally he controls.
 
 regulation:
 
 errata: []
-
-temp: Shadow

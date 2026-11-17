@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Paladin
 
-instant: Your hero deals 1 unpreventable holy damage to target hero or ally. For each damage dealt this way, prevent the next 1 damage that would be dealt to a second hero or ally this turn.
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 1 unpreventable holy damage to target hero or ally. For each damage dealt this way, prevent the next 1 damage that would be dealt to a second hero or ally this turn.
 
 regulation:
 
 errata: []
-
-temp: Holy

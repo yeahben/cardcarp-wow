@@ -19,12 +19,21 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Assault 2 When this ally deals damage to a hero, you may draw a card. Death Rattle : Target ally you control has Assault 2 this turn.'
+    text: Assault 2
+  - type: Ability
+    text: When this ally deals damage to a hero, you may draw a card.
+  - type: Ability
+    text: 'Death Rattle: Target ally you control has Assault 2 this turn.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Warrior

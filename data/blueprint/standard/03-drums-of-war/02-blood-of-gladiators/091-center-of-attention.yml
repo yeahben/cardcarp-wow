@@ -11,12 +11,14 @@ trait:
 
 cost: '2'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally. Ongoing : Attached ally is AWESOME!'
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally is AWESOME! (At the start of your turn, each player may compliment this ally. If he does, he draws a card.)'
 
 regulation:
 
 errata: []
-
-temp: ''

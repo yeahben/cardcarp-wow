@@ -11,15 +11,26 @@ trait:
 
 cost: '2'
 
+health: 1
+
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+limit:
+  - name: Air Totem
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Totem Ongoing : Opposing allies can't attack your heroes, allies, or Totems unless their controller pays 1 for each attacker."
+    text: Totem (Can be attacked or targeted like an ally.)
+  - type: Ability
+    text: "Ongoing: Opposing allies can't attack your heroes, allies, or Totems unless their controller pays {1} for each attacker."
 
 regulation:
 
 errata: []
-
-temp: Enhancement 1

@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Druid
 
-instant: As an additional cost to play this ability, destroy an ability, ally, or equipment you control. Your hero deals 5 nature damage to target hero.
+talent:
+  - Balance
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: As an additional cost to play this ability, destroy an ability, ally, or equipment you control.
+  - type: Ability
+    text: Your hero deals 5 nature damage to target hero.
 
 regulation:
 
 errata: []
-
-temp: Balance

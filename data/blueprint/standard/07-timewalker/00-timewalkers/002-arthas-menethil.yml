@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 29
+
+faction: Alliance
+
+race: Human
+
+class:
+  - Death Knight
+
+rule:
+  - type: Ability
+    position: Front
+    text: Minion of Arthas
+  - type: Ability
+    position: Front
+    text: '{basic} {5}, Flip Arthas → Put a 3 {melee} / 3 {health} Ghoul ally token into play.'
+  - type: Ability
+    position: Reverse
+    text: Gift of Arthas
+  - type: Ability
+    position: Reverse
+    text: "Once per game: {basic} {8} → Put target ally with cost less than the number of cards in an opponent's graveyard from that graveyard into play under your control."
 
 regulation:
 

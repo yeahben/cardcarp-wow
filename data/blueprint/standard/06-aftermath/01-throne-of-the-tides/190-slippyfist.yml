@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Murloc
+
 trait:
 
 cost: '1'
@@ -17,14 +20,17 @@ health: 1
 
 combat: Frost
 
+class:
+  - Rogue
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: This and other Murloc allies you control have Elusive while ready.
+    text: This and other Murloc allies you control have Elusive while ready. (They can't be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Murloc Rogue

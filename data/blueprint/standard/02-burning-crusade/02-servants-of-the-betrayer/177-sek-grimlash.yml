@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: 2 , Destroy another ally in your party → Put a Demon ally card from your graveyard into play if its cost is less than or equal to the number of resources you have.
+    text: '{2}, Destroy another ally in your party → Put a Demon ally card from your graveyard into play if its cost is less than or equal to the number of resources you have.'
 
 regulation:
 
 errata: []
-
-temp: Orc Warlock

@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : Damage dealt by friendly heroes can't be prevented."
+    text: "Ongoing: Damage dealt by friendly heroes can't be prevented."
 
 regulation:
 
 errata: []
-
-temp: Holy

@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '3'
 
+defense: 2
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Shoulder
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 2 → Your hero has Protector this turn.
+    text: '{2} → Your hero has Protector this turn. (It may exhaust to become the defender when an opposing hero or ally attacks.)'
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

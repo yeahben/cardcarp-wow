@@ -13,10 +13,18 @@ health: 28
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Warlock
+
+talent:
+  - Demonology
+
 rule:
   - type: Ability
     position: Front
-    text: 2 → Flip Grizlik
+    text: '{2} → Flip Grizlik'
   - type: Ability
     position: Reverse
     text: You can control an additional Pet.
@@ -24,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Goblin Warlock

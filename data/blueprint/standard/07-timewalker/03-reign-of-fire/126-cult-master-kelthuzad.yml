@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Scourge
+  - Necromancer
+
 trait:
 
 cost: '4'
@@ -17,14 +21,20 @@ health: 5
 
 combat: Shadow
 
+limit:
+  - name: Kel'Thuzad
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 1 → Target player puts the top card of his deck into his graveyard. 2 → You may play target ally in a graveyard this turn. (Pay costs as normal.)
+    text: '{basic} {1} → Target player puts the top card of his deck into his graveyard.'
+  - type: Ability
+    text: '{basic} {2} → You may play target ally in a graveyard this turn. (Pay costs as normal.)'
 
 regulation:
 
 errata: []
-
-temp: Scourge Necromancer

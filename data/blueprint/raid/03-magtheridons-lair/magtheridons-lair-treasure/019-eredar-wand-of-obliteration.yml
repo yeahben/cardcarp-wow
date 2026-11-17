@@ -7,20 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Wand
+
 trait:
 
 cost: '4'
+
+damage: 1
+
+strike: 1
+
+combat: Shadow
 
 class:
   - Priest
   - Warlock
 
+limit:
+  - name: Wand
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When your hero deals shadow ( ) damage to an opponent's hero, you may destroy an ability, ally, or equipment you control. If you do, that opponent destroys an ability, ally, or equipment he controls.
+    text: When your hero deals shadow ({shadow}) damage to an opponent's hero, you may destroy an ability, ally, or equipment you control. If you do, that opponent destroys an ability, ally, or equipment he controls.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Wand

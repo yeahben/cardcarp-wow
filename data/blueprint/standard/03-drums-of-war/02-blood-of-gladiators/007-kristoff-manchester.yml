@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+talent:
+  - Affliction
+
+profession:
+  - Alchemy
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Kristoff → When Kristoff deals damage with an attachment this turn, he heals that much from himself.
+    text: '{2}, Flip Kristoff → When Kristoff deals damage with an attachment this turn, he heals that much from himself.'
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

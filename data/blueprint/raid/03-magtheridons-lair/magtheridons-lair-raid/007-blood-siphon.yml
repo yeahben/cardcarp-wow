@@ -11,12 +11,12 @@ trait:
 
 cost: '1'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Destroy Blood Siphon → Draw three cards.'
+    text: 'Ongoing: Destroy Blood Siphon → Draw three cards.'
 
 regulation:
 
 errata: []
-
-temp: ''

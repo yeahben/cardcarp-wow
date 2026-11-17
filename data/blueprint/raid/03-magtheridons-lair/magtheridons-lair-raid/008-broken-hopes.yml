@@ -11,12 +11,12 @@ trait:
 
 cost: '1'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Destroy Broken Hopes → Destroy target ability or equipment.'
+    text: 'Ongoing: Destroy Broken Hopes → Destroy target ability or equipment.'
 
 regulation:
 
 errata: []
-
-temp: ''

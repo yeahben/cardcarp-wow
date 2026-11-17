@@ -13,16 +13,22 @@ health: 26
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Priest
+
+talent:
+  - Holy
+
 rule:
   - type: Ability
     position: Front
-    text: 3 → Flip Tilly
+    text: '{3} → Flip Tilly'
   - type: Ability
     position: Reverse
-    text: Each ally you control has Mend 1 .
+    text: Each ally you control has Mend 1. (At the start of your turn, it may heal 1 damage from target hero or ally.)
 
 regulation:
 
 errata: []
-
-temp: Gnome Priest

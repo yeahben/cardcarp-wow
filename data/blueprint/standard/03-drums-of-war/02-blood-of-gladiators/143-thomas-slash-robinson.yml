@@ -1,4 +1,4 @@
-name: 'Thomas slash: Robinson'
+name: Thomas "Slash" Robinson
 
 origin: blood-of-gladiators-143
 
@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Remove an ally card in your graveyard from the game → Thomas has Ferocity this turn.
+    text: Remove an ally card in your graveyard from the game → Thomas has ferocity this turn.
 
 regulation:
 
 errata: []
-
-temp: Undead Mage

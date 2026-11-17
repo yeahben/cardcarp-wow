@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'When this ally attacks, you may exhaust target ally. Stash : Exhaust target ally.'
+    text: When this ally attacks, you may exhaust target ally.
+  - type: Ability
+    text: 'Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Exhaust target ally.'
 
 regulation:
 
 errata: []
-
-temp: Worgen Rogue

@@ -19,12 +19,20 @@ combat: Arcane
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Mage
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 → This turn, target ally can't attack or protect, loses and can't have powers, and is a Boar. Use only once per turn.
+    text: "{1} → This turn, target ally can't attack or protect, loses and can't have powers, and is a Boar. Use only once per turn."
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

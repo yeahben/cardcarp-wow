@@ -13,13 +13,23 @@ health: 27
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Rogue
+
+talent:
+  - Subtlety
+
+profession:
+  - Mining
+  - Skinning
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Kayleitha → While Kayleitha is stealthed, prevent all combat damage that would be dealt to her this turn.
+    text: '{2}, Flip Kayleitha → While Kayleitha is stealthed, prevent all combat damage that would be dealt to her this turn.'
 
 regulation:
 
 errata: []
-
-temp: Undead Rogue

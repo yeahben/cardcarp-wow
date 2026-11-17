@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
+talent:
+  - Survival
+
+profession:
+  - Mining
+  - Skinning
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Chaigon → Target ally has -3 ATK this turn.
+    text: '{1}, Flip Chaigon → Target ally has -3 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

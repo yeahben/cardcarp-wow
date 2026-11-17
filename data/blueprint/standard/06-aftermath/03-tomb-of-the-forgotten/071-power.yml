@@ -1,0 +1,24 @@
+name: Power
+
+origin: tomb-of-the-forgotten-071
+
+layout: Standard
+
+category:
+  - Ability
+
+trait:
+
+cost: '1'
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +2 ATK.'
+
+regulation:
+
+errata: []

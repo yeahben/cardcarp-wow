@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: ', Destroy an ally in your party → Draw a card.'
+    text: '{activate}, Destroy an ally in your party → Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

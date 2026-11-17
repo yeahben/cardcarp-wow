@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Assault 2 When this ally deals damage while attacking, you may destroy target equipment.
+    text: Assault 2
+  - type: Ability
+    text: When this ally deals damage while attacking, you may destroy target equipment.
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

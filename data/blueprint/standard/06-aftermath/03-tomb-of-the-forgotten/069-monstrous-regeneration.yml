@@ -11,12 +11,14 @@ trait:
 
 cost: '1'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target friendly Monster ally. Ongoing : Attached ally has +1 / +1 and Mend 1 . (At the start of your turn, it may heal 1 damage from target hero or ally.)'
+    text: Attach to target friendly Monster ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +1 / +1 and Mend 1. (At the start of your turn, it may heal 1 damage from target hero or ally.)'
 
 regulation:
 
 errata: []
-
-temp: ''

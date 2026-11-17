@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+
 trait:
 
 damage: 2
@@ -15,14 +18,19 @@ health: 2
 
 combat: Melee
 
-type: Ally
+race: Human
+
+class:
+  - Death Knight
+
+instant: false
 
 rule:
   - type: Ability
-    text: Ferocity When this ally leaves play, the Boss player puts a Spectral Rider into play.
+    text: Ferocity
+  - type: Ability
+    text: When this ally leaves play, the Boss player puts a Spectral Rider into play.
 
 regulation:
 
 errata: []
-
-temp: Human Death Knight

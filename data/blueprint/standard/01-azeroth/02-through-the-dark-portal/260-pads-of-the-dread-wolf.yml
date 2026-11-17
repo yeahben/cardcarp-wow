@@ -7,18 +7,28 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '1'
 
+defense: 1
+
 class:
   - Druid
   - Rogue
+
+limit:
+  - name: Feet
+    count: 1
+
+instant: false
 
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

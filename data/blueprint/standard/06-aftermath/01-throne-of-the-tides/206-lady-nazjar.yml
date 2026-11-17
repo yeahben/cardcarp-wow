@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Naga
+  - Sea Witch
+
 trait:
 
 cost: '6'
@@ -17,14 +21,18 @@ health: 7
 
 combat: Frost
 
+limit:
+  - name: Naz'jar
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 3 , Exhaust two Naga heroes and/or allies you control → Naz'jar deals 5 frost damage to target hero or ally. A character dealt damage this way can't attack or exhaust this turn.
+    text: "{3}, Exhaust two Naga heroes and/or allies you control → Naz'jar deals 5 frost damage to target hero or ally. A character dealt damage this way can't attack or exhaust this turn."
 
 regulation:
 
 errata: []
-
-temp: Naga Sea Witch

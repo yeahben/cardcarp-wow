@@ -7,22 +7,32 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Admiral
+
 trait:
+  - 2 XP
 
-cost: '3'
+damage: 6
 
-damage: 2
-
-health: 3
+health: 12
 
 combat: Melee
 
+race: Worgen
+
+instant: false
+
+type: Dungeon
+
 rule:
   - type: Ability
-    text: Ferocity , Stealth At the end of each turn, if Ripsnarl is damaged, you may put him into his owner's hand.
+    text: Boss (The Dungeon hero can't be attacked.)
+  - type: Ability
+    text: Stealth
+  - type: Ability
+    text: 'Thirst for Blood: Ripsnarl attacks the Raiding ally with the highest printed {health} if able. If unable to attack allies, he attacks the MARKED hero.'
 
 regulation:
 
 errata: []
-
-temp: Worgen Rogue

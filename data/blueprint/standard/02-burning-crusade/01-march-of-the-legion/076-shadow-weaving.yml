@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '4'
@@ -14,12 +17,19 @@ cost: '4'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Shadow Hero Required Attach to target opposing hero or ally. Ongoing : If attached character would be dealt shadow ( ) damage, it's dealt that much +2 instead."
+    text: Shadow Hero Required
+  - type: Ability
+    text: Attach to target opposing hero or ally.
+  - type: Ability
+    text: "Ongoing: If attached character would be dealt shadow ({shadow}) damage, it's dealt that much +2 instead."
 
 regulation:
 
 errata: []
-
-temp: Shadow Talent

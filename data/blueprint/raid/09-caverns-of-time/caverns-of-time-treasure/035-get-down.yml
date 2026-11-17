@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Warrior
 
-instant: Target armor you control can prevent damage that would be dealt to allies you control this turn.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target armor you control can prevent damage that would be dealt to allies you control this turn.
 
 regulation:
 
 errata: []
-
-temp: Protection

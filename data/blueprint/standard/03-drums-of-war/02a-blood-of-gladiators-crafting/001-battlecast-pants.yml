@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '3'
 
+defense: 0
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: → Cards in your hand are instant this turn until you play a card.
+    text: '{activate} → Cards in your hand are instant this turn until you play a card.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

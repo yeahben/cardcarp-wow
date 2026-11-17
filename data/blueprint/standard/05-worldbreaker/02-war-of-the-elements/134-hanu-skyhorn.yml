@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: 3 → Target ally has Arcane Resistance this turn.
+    text: '{3} → Target ally has Arcane Resistance this turn. (Prevent all arcane ({arcane}) damage that would be dealt to it.)'
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

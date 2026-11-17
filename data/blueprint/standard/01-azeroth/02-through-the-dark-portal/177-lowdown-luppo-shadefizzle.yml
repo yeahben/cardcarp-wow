@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Gnome Hero Required Elusive , Stealth , Untargetable
+    text: Gnome Hero Required
+  - type: Ability
+    text: Elusive, Stealth, Untargetable
 
 regulation:
 
 errata: []
-
-temp: Gnome Rogue

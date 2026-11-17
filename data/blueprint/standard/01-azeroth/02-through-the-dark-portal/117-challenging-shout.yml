@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Shout
+
 trait:
 
 cost: '2'
@@ -14,12 +17,15 @@ cost: '2'
 class:
   - Warrior
 
-instant: This turn, opposing heroes and allies must attack if able and can attack only your hero if able.
+talent:
+  - Fury
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: This turn, opposing heroes and allies must attack if able and can attack only your hero if able.
 
 regulation:
 
 errata: []
-
-temp: Fury Shout

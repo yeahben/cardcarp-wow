@@ -19,12 +19,23 @@ combat: Arcane
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Mage
+
+limit:
+  - name: Rhonin
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of your turn, Rhonin may deal 1 arcane damage to target opposing hero. If a hero or ally you control would deal non-combat damage, it deals that much +1 for each ally you control instead.
+    text: At the start of your turn, Rhonin may deal 1 arcane damage to target opposing hero.
+  - type: Ability
+    text: If a hero or ally you control would deal non-combat damage, it deals that much +1 for each ally you control instead.
 
 regulation:
 
 errata: []
-
-temp: Human Mage

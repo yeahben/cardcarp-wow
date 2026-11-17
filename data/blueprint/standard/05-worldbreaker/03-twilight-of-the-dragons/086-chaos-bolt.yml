@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Warlock
 
+talent:
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
-    text: Destruction Talent Reveal the top card of target opponent's deck and remove it from the game. If it's an ability, ally, or equipment, your hero deals shadow damage to that opponent's hero equal to the cost of that revealed card, and you may play it this turn. (Pay costs as normal.)
+    text: Destruction Talent (You can't put Affliction Talents or Demonology Talents in your deck.)
+  - type: Ability
+    text: Reveal the top card of target opponent's deck and remove it from the game. If it's an ability, ally, or equipment, your hero deals shadow damage to that opponent's hero equal to the cost of that revealed card, and you may play it this turn. (Pay costs as normal.)
 
 regulation:
 
 errata: []
-
-temp: Destruction

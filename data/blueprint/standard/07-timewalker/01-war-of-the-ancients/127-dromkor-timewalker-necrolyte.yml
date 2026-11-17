@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: If this ally would be destroyed, you may remove three Orc allies in your graveyard from the game. If you do, exhaust this ally and remove all damage from him instead.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Orc Warlock

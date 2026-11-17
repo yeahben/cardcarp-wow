@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Priest
 
-instant: Your hero heals 5 damage from itself and 5 damage from a second target hero or ally.
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero heals 5 damage from itself and 5 damage from another target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Holy

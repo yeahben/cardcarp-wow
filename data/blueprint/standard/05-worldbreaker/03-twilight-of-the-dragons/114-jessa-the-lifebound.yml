@@ -19,12 +19,19 @@ combat: Arcane
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When this ally is destroyed, put three 1 / 1 Treant ally tokens into play.
+    text: Protector
+  - type: Ability
+    text: When this ally is destroyed, put three 1 {melee} /1 {health} Treant ally tokens into play.
 
 regulation:
 
 errata: []
-
-temp: Worgen Druid

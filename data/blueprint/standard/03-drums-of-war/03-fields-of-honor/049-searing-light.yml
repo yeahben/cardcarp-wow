@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,19 @@ cost: '2'
 class:
   - Priest
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Holy Hero Required Ongoing : 2 , Discard an ability card → Your hero deals 3 unpreventable holy damage to target hero or ally. Destroy Searing Light → Your hero deals 3 unpreventable holy damage to target hero or ally.'
+    text: Holy Hero Required
+  - type: Ability
+    text: 'Ongoing: {2}, Discard an ability card → Your hero deals 3 unpreventable holy damage to target hero or ally.'
+  - type: Ability
+    text: Destroy Searing Light → Your hero deals 3 unpreventable holy damage to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Holy Talent

@@ -1,4 +1,4 @@
-name: Forest Stalkers Bracers
+name: Forest Stalker's Bracers
 
 origin: drums-of-war-207
 
@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '3'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Wrist
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 → Target hero or ally has Stealth this turn.
+    text: "{1} → Target hero or ally has stealth this turn. (Can't protect against it.)"
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

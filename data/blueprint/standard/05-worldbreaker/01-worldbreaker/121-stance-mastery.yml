@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warrior
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : → Your hero has +1 ATK this combat.'
+    text: 'Ongoing: {activate} → Your hero has +1 ATK this combat.'
 
 regulation:
 
 errata: []
-
-temp: Protection

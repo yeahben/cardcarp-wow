@@ -14,6 +14,11 @@ cost: '3'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
     text: Gain control of target ability. If it's attached to a hero or ally, you may attach it to another hero or ally.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Arcane

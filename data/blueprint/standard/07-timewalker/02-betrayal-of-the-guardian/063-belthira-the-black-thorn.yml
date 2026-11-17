@@ -1,0 +1,37 @@
+name: Belthira the Black Thorn
+
+origin: betrayal-of-the-guardian-063
+
+layout: Standard
+
+category:
+  - Ally
+
+trait:
+
+cost: '6'
+
+damage: 5
+
+health: 3
+
+combat: Melee
+
+faction: Alliance
+
+race: Night Elf
+
+class:
+  - Rogue
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Elusive, Haste 3, Stealth
+  - type: Ability
+    text: When this ally deals combat damage to a hero, remove the top card of that hero's controller's deck from the game. Then, search his deck, graveyard, and hand for all cards with that name and remove them from the game.
+
+regulation:
+
+errata: []

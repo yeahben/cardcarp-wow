@@ -13,13 +13,16 @@ health: 28
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Hunter
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 2 , Flip Zunjo → Target ally has -4 ATK this turn.'
+    text: 'On your turn: {2}, Flip Zunjo → Target ally has -4 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Troll Hunter

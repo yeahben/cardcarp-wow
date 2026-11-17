@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Exhaust target armor.
+    text: '{activate} → Exhaust target armor.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Warrior

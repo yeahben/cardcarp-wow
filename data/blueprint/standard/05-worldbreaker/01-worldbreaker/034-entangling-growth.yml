@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Druid
 
-instant: "Attach to target opposing ally and exhaust it. Ongoing : Attached ally can't ready during its controller's ready step."
+talent:
+  - Balance
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target opposing ally and exhaust it.
+  - type: Ability
+    text: "Ongoing: Attached ally can't ready during its controller's ready step."
 
 regulation:
 
 errata: []
-
-temp: Balance Attachment

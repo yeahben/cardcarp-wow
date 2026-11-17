@@ -7,19 +7,30 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Traitor
+
 trait:
+  - Auchenai
 
 health: 28
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+profession:
+  - Mining
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Ixamos, destroy a friendly Totem → Ready Ixamos and all of your weapons. Auchenai
+    text: '{2}, Flip Ixamos, destroy a friendly Totem → Ready Ixamos and all of your weapons.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

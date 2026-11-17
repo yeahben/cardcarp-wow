@@ -9,14 +9,24 @@ category:
 
 trait:
 
-type: Dungeon
+cost: '2'
+
+class:
+  - Druid
+
+talent:
+  - Feral
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Attach to the Dungeon ally with the highest printed . Ongoing : When attached ally is destroyed, flip a Dungeon card.'
+    text: Feral Talent (You can't put Balance Talents or Restoration Talents in your deck.)
+  - type: Ability
+    text: 'Ongoing: When your hero deals combat damage to a hero, add a frenzy counter to this ability.'
+  - type: Ability
+    text: Your hero has Assault 1 for each frenzy counter on this ability.
 
 regulation:
 
 errata: []
-
-temp: ''

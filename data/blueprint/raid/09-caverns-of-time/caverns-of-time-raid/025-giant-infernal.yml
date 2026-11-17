@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Infernal
+  - Demon
+
 trait:
 
 damage: 4
@@ -15,7 +19,9 @@ health: 1
 
 combat: Fire
 
-type: Boss
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
@@ -24,5 +30,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Infernal Demon

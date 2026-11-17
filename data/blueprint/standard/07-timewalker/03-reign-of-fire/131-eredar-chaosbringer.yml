@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Eredar
+  - Demon
+
 trait:
 
 cost: '7'
@@ -17,14 +21,17 @@ health: 5
 
 combat: Fire
 
+class:
+  - Warlock
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: When this ally enters play, Portal .
+    text: When this ally enters play, Portal. (Reveal the top three cards of your deck. You may put a revealed Demon ally with cost less than this ally's cost into play. Put the remaining cards on the bottom of your deck.)
 
 regulation:
 
 errata: []
-
-temp: Eredar Demon Warlock

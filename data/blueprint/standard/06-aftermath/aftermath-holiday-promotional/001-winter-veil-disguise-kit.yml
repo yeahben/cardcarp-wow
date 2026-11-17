@@ -7,28 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: → Target ally you control is also a Snowman this turn. When a Snowman you control defends against a non- hero or ally, remove it from combat.
+    text: '{activate} → Target ally you control is also a Snowman this turn.'
+  - type: Ability
+    text: Snowmen you control can't be attacked, except by {fire} heroes and allies or with {fire} weapons.
 
 regulation:
 
 errata: []
-
-temp: Item

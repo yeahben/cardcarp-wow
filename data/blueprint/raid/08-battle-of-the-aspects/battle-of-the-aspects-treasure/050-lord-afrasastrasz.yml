@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Red
+  - Dragonkin
+
 trait:
 
 cost: '7'
@@ -17,12 +21,18 @@ health: 8
 
 combat: Fire
 
+limit:
+  - name: Afrasastrasz
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'At the end of your turn, put a 1 / 1 Red Dragonkin ally token into play for each ally you control. On your turn, if Afrasastrasz is in your hand: 6 , Reveal Afrasastrasz and shuffle him into your deck → Put six 1 / 1 Red Dragonkin ally tokens into play.'
+    text: At the end of your turn, put a 1 {fire} / 1 {health} Red Dragonkin ally token into play for each ally you control.
+  - type: Ability
+    text: 'On your turn, if Afrasastrasz is in your hand: {6}, Reveal Afrasastrasz and shuffle him into your deck → Put six 1 {fire} / 1 {health} Red Dragonkin ally tokens into play.'
 
 regulation:
 
 errata: []
-
-temp: Red Dragonkin

@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Empower Druid : When this ally enters play, if you control another Druid hero or ally, reveal the top five cards of your deck. Put all revealed attachments into your hand and the rest on the bottom of your deck.'
+    text: 'Empower Druid: When this ally enters play, if you control another Druid hero or ally, reveal the top five cards of your deck. Put all revealed attachments into your hand and the rest on the bottom of your deck.'
 
 regulation:
 
 errata: []
-
-temp: Troll Druid

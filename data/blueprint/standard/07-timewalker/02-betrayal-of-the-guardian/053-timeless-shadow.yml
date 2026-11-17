@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Warlock
 
-instant: Echo Target opponent chooses an ally he controls and puts it into its owner's hand.
+talent:
+  - Affliction
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Echo (When you play this ability, if you control two or more allies that share a {horde} or {alliance} race, copy this ability. You may choose new targets for the copy.)
+  - type: Ability
+    text: Target opponent chooses an ally he controls and puts it into its owner's hand.
 
 regulation:
 
 errata: []
-
-temp: Affliction

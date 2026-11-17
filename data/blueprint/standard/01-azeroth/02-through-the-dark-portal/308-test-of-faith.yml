@@ -13,10 +13,10 @@ faction: Horde
 
 rule:
   - type: Ability
-    text: 'Pay 1 to complete this quest. Reward : Discard your hand, then draw a card.'
+    text: Pay {1} to complete this quest.
+  - type: Ability
+    text: 'Reward: Discard your hand, then draw a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

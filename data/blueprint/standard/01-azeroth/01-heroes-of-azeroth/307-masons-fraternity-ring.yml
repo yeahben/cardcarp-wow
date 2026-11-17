@@ -7,17 +7,26 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
+  - Hunter
   - Paladin
+  - Rogue
   - Shaman
+  - Warrior
+
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
@@ -26,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Item Ring

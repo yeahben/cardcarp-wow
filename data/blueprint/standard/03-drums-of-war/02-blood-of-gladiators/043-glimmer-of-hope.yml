@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Paladin
 
-instant: Interrupt target ability card that's targeting a card in play you control.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Interrupt target ability card that's targeting a card in play you control.
 
 regulation:
 
 errata: []
-
-temp: Protection

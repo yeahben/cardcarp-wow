@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero deals 1 nature damage to each of up to three target allies. Put a 1 / 1 Treant ally token into play for each ally that was dealt fatal damage this way.
+    text: Your hero deals 1 nature damage to each of up to three target allies. Put a 1 {melee} / 1 {health} Treant ally token into play for each ally that was dealt fatal damage this way.
 
 regulation:
 
 errata: []
-
-temp: Balance

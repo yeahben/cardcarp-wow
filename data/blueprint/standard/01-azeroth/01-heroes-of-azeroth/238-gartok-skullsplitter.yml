@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally attacks, you may exhaust target armor.
+    text: When Gartok Skullsplitter attacks, you may exhaust target armor.
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

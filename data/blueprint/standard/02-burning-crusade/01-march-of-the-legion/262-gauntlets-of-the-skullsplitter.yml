@@ -7,13 +7,25 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '3'
 
+defense: 2
+
 class:
   - Paladin
   - Warrior
+
+limit:
+  - name: Hands
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -22,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Armor Plate

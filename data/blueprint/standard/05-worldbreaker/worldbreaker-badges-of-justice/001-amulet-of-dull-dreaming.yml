@@ -7,15 +7,24 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
   - Druid
-  - Shaman
   - Hunter
   - Rogue
+  - Shaman
+
+limit:
+  - name: Neck
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -24,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Item Neck

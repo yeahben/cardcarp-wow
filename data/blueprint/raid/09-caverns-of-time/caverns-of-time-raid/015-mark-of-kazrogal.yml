@@ -7,16 +7,21 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Attachment
+
 trait:
 
-type: Boss
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
-    text: "Attach to the MARKED hero. Ongoing : At the start of the Caverns hero's turn, attached hero's controller chooses one: the Caverns hero deals 6 shadow damage to attached hero; or the Caverns hero deals 3 shadow damage to each other Raiding hero."
+    text: Attach to the MARKED hero.
+  - type: Ability
+    text: "Ongoing: At the start of the Caverns hero's turn, attached hero's controller chooses one: the Caverns hero deals 6 shadow damage to attached hero; or the Caverns hero deals 3 shadow damage to each other Raiding hero."
 
 regulation:
 
 errata: []
-
-temp: Attachment

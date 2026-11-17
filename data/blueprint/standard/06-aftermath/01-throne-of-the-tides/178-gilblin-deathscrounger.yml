@@ -17,14 +17,21 @@ health: 2
 
 combat: Frost
 
+race: Goblin
+
+class:
+  - Death Knight
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: This ally can attack only heroes. At the start of your turn, if this ally is in your graveyard, you may remove another Monster ally in your graveyard from the game. If you do, put this ally into play.
+    text: This ally can attack only heroes.
+  - type: Ability
+    text: At the start of your turn, if this ally is in your graveyard, you may remove another Monster ally in your graveyard from the game. If you do, put this ally into play.
 
 regulation:
 
 errata: []
-
-temp: Goblin Death Knight

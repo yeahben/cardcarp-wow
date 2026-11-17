@@ -11,14 +11,14 @@ trait:
 
 cost: '1'
 
-instant: Exhaust all opposing cards.
+instant: true
 
-type: Boss
+type: Lich King
 
-rule: []
+rule:
+  - type: Ability
+    text: Exhaust all opposing cards.
 
 regulation:
 
 errata: []
-
-temp: ''

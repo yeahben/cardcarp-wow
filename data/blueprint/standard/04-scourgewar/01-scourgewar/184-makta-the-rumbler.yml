@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
     text: While you control a Shout, allies you control have +1 / +1, and opposing allies have -1 / -1.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Warrior

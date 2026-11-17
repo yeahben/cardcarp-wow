@@ -7,19 +7,35 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '4'
 
+health: 1
+
 class:
   - Shaman
 
+talent:
+  - Restoration
+
+limit:
+  - name: Water Totem
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Restoration Hero Required Totem Ongoing : At the start of your turn, draw a card for each hero and ally in your party.'
+    text: Restoration Hero Required
+  - type: Ability
+    text: Totem (Can be attacked or targeted like an ally.)
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, draw a card for each hero and ally in your party.'
 
 regulation:
 
 errata: []
-
-temp: Restoration Talent 1

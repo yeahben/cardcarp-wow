@@ -7,20 +7,27 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '2'
 
 class:
-  - Shaman
   - Rogue
+  - Shaman
 
-instant: Exhaust up to X target opposing cards, where X is the number of Rogues and Shaman you control.
+talent:
+  - Combat
+  - Enhancement
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Exhaust up to X target opposing cards, where X is the number of Rogues and Shaman you control.
 
 regulation:
 
 errata: []
-
-temp: Combat Enhancement Combo

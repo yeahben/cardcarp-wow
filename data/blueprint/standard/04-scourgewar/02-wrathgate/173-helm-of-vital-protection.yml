@@ -7,21 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '3'
 
+defense: 2
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Weapons you control have +1 ATK. Other armor you control have +1 .
+    text: Weapons you control have +1 ATK.
+  - type: Ability
+    text: Other armor you control have +1 {def}.
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

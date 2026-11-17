@@ -7,20 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Sword
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 3
+
+combat: Melee
+
 class:
-  - Warlock
   - Mage
+  - Warlock
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 1 , , Discard an ability card → Destroy target ally.
+    text: '{1}, {activate}, Discard an ability card → Destroy target ally.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '5'
+
+defense: 3
 
 class:
   - Paladin
   - Warrior
 
+limit:
+  - name: Wrist
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: You pay 5 less to strike with weapons.
+    text: You pay {5} less to strike with weapons.
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

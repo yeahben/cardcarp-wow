@@ -14,6 +14,11 @@ cost: '3'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero deals 3 unpreventable holy damage to target ally. If that ally has fatal damage, destroy any number of abilities attached to a card you control.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Holy

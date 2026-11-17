@@ -11,12 +11,14 @@ trait:
 
 cost: '4'
 
+instant: false
+
 rule:
   - type: Ability
-    text: Stage 3 Only Put all opposing allies into their owners' hands. Opponents can't play allies until after your next turn.
+    text: Stage 3 Only
+  - type: Ability
+    text: Put all opposing allies into their owners' hands. Opponents can't play allies until after your next turn.
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -19,10 +19,15 @@ combat: Fire
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Warlock
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Warlock

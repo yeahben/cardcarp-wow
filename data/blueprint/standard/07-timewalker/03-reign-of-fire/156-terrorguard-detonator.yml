@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Terrorguard
+  - Demon
+
 trait:
 
 cost: '4'
@@ -17,6 +21,8 @@ health: 2
 
 combat: Shadow
 
+instant: false
+
 type: Monster
 
 rule:
@@ -26,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Terrorguard Demon

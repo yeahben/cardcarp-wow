@@ -13,10 +13,15 @@ health: 27
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Druid
+
 rule:
   - type: Ability
     position: Front
-    text: 3 → Flip Sumi'jin face down.
+    text: "{3} → Flip Sumi'jin"
   - type: Ability
     position: Reverse
     text: When an ally enters play under your control, Sumi'jin may heal 1 damage from herself.
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Druid

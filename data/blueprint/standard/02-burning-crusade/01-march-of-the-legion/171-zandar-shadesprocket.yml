@@ -19,12 +19,19 @@ combat: Shadow
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive When Zandar is dealt damage, also put that much on your hero.
+    text: Elusive (Can't be attacked.)
+  - type: Ability
+    text: When Zandar is dealt damage, also put that much on your hero.
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

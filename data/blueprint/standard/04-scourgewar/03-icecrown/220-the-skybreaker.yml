@@ -11,12 +11,14 @@ trait:
 
 faction: Alliance
 
+capture: 2
+
 rule:
   - type: Ability
-    text: 'When a quest you control turns face down, add a cannonball counter. On your turn: 1 , , Remove two cannonball counters → Your hero deals 4 ranged damage to target hero.'
+    text: When a quest you control turns face down, add a cannonball counter.
+  - type: Ability
+    text: 'On your turn: {1}, {activate}, Remove two cannonball counters → Your hero deals 4 ranged damage to target hero.'
 
 regulation:
 
 errata: []
-
-temp: ''

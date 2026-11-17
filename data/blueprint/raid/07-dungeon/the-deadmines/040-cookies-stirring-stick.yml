@@ -1,4 +1,4 @@
-name: Cookies Stirring Stick
+name: Cookie's Stirring Stick
 
 origin: the-deadmines-040
 
@@ -7,14 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Wand
+
 trait:
+
+damage: 3
+
+strike: 0
+
+combat: Nature
+
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: The Dungeon hero strikes with this weapon the first time it attacks each turn. When this weapon enters play, the Dungeon hero heals 5 damage from itself.
+    text: The Dungeon hero strikes with this weapon the first time it attacks each turn.
+  - type: Ability
+    text: When this weapon enters play, the Dungeon hero heals 5 damage from itself.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Wand

@@ -19,12 +19,19 @@ combat: Holy
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Frost Resistance At the start of your turn, you may destroy this ally. If you do, destroy target ability.
+    text: Frost Resistance (Prevent all frost ({frost}) damage that would be dealt to this ally.)
+  - type: Ability
+    text: At the start of your turn, you may destroy this ally. If you do, destroy target ability.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Paladin

@@ -7,22 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Mace
+
 trait:
 
 cost: '4'
 
+damage: 3
+
+strike: 2
+
+combat: Melee
+
 class:
   - Paladin
-  - Warrior
-  - Shaman
   - Rogue
+  - Shaman
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When your hero deals combat damage with The Shatterer to a hero, destroy one of that hero's controller's weapons unless he pays 2 .
+    text: When your hero deals combat damage with The Shatterer to a hero, destroy one of that hero's controller's weapons unless he pays {2}.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

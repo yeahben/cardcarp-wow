@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Friendly Pets have +2 .
+    text: Friendly Pets have +2 health.
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

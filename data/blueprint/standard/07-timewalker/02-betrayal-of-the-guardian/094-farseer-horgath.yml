@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Bloodrush : At the start of your turn, if an opposing hero has more damage on it than your hero, you may put this ally from your graveyard into your hand.'
+    text: 'Bloodrush: At the start of your turn, if an opposing hero has more damage on it than your hero, you may put this ally from your graveyard into your hand.'
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

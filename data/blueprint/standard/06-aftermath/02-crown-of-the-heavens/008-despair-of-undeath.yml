@@ -14,12 +14,15 @@ cost: '5'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
-    text: Put a 3 / 3 Ghoul ally token into play. Opposing allies have -1 this turn for each Ghoul you control.
+    text: Put a 3 {melee} / 3 {health} Ghoul ally token into play. Opposing allies have -1 {health} this turn for each Ghoul you control.
 
 regulation:
 
 errata: []
-
-temp: Unholy

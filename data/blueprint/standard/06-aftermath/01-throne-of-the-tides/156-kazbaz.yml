@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Elusive
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
+  - type: Ability
+    text: Elusive (This ally can't be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Goblin Warrior

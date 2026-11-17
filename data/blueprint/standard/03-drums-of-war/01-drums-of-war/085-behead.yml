@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warrior
 
-instant: If target ally is damaged, destroy it. Otherwise, your hero deals 1 melee damage to it.
+talent:
+  - Fury
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: If target ally is damaged, destroy it. Otherwise, your hero deals 1 melee damage to it.
 
 regulation:
 
 errata: []
-
-temp: Fury

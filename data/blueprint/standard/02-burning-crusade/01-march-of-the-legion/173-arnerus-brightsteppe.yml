@@ -19,6 +19,13 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
     text: Each of your armor has +5 DEF while your hero is attacking.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

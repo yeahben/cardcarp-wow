@@ -7,21 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Sword
+
 trait:
 
 cost: '3'
 
+damage: 3
+
+strike: 1
+
+combat: Shadow
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: While this weapon is in your graveyard, your hero has Protector .
+    text: While this weapon is in your graveyard, your hero has Protector.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

@@ -1,4 +1,4 @@
-name: Penelopes Rose
+name: Penelope's Rose
 
 origin: through-the-dark-portal-266
 
@@ -7,15 +7,24 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
   - Druid
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -24,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Item Off-Hand

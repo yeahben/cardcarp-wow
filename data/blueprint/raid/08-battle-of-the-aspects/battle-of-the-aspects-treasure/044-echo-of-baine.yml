@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Echo
+
 trait:
 
 cost: '7'
@@ -17,14 +20,16 @@ health: 1
 
 combat: Fire
 
+race: Tauren
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: While there is an Echo of Baine in your graveyard, prevent all damage that would be dealt to this ally, and he has Ferocity .
+    text: While there is an Echo of Baine in your graveyard, prevent all damage that would be dealt to this ally, and he has Ferocity.
 
 regulation:
 
 errata: []
-
-temp: Tauren Echo

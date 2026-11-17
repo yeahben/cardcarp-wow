@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Gorilla
+
 trait:
 
 cost: '7'
@@ -17,6 +20,11 @@ health: 5
 
 combat: Melee
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: When King Mukla enters play, you may gain control of target ally with cost 3 or less.
@@ -24,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Gorilla

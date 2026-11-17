@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of each player's turn, put a 1 / 1 Treant ally token into play.
+    text: At the start of each player's turn, put a 1 {melee} / 1 {health} Treant ally token into play.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

@@ -11,10 +11,8 @@ trait:
 
 rule:
   - type: Ability
-    text: → Put X +1 counters on target Cloth armor you control, where X is the number of Tailoring heroes and allies you control.
+    text: '{activate} → Put X +1 {def} counters on target Cloth armor you control, where X is the number of Tailoring heroes and allies you control.'
 
 regulation:
 
 errata: []
-
-temp: ''

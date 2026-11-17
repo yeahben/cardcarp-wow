@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Priest
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target friendly ally. Ongoing : Attached ally has " → This ally heals 5 damage from target hero or ally."'
+    text: Attach to target friendly ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has "{activate} → This ally heals 5 damage from target hero or ally."'
 
 regulation:
 
 errata: []
-
-temp: Holy

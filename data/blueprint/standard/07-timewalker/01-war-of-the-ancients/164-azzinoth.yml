@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Doomguard
+  - Demon
+
 trait:
 
 cost: '4'
@@ -17,14 +21,20 @@ health: 3
 
 combat: Shadow
 
+limit:
+  - name: Azzinoth
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Other Demon allies you control can protect Azzinoth. When another Demon ally you control is destroyed, Azzinoth deals 2 shadow damage to target opposing hero and heals 2 damage from your hero.
+    text: Other Demon allies you control can protect Azzinoth.
+  - type: Ability
+    text: When another Demon ally you control is destroyed, Azzinoth deals 2 shadow damage to target opposing hero and heals 2 damage from your hero.
 
 regulation:
 
 errata: []
-
-temp: Doomguard Demon

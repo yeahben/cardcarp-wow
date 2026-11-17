@@ -14,12 +14,17 @@ cost: '8'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Remove your deck from the game. Ongoing : If you would draw a card, choose a card you removed and put it into your hand instead.'
+    text: Remove your deck from the game.
+  - type: Ability
+    text: 'Ongoing: If you would draw a card, choose a card you removed and put it into your hand instead.'
 
 regulation:
 
 errata: []
-
-temp: Demonology

@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 25
+
+faction: Alliance
+
+race: Night Elf
+
+class:
+  - Mage
+
+rule:
+  - type: Ability
+    position: Front
+    text: Illidan's Focus
+  - type: Ability
+    position: Front
+    text: '{basic} {2}, Flip Illidan → The next time Illidan would deal non-combat damage this turn, he deals that much +1 instead.'
+  - type: Ability
+    position: Reverse
+    text: Illidan's Fury
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {5} → Illidan deals 1 arcane damage to target ally for each ability in your graveyard.'
 
 regulation:
 

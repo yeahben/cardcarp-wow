@@ -1,4 +1,4 @@
-name: Veterans Dreadweave Belt
+name: Veteran's Dreadweave Belt
 
 origin: fields-of-honor-163
 
@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '3'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Waist
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Players pay 2 more to play cards.
+    text: Players pay {2} more to play cards.
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

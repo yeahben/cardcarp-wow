@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '25'
@@ -14,12 +17,19 @@ cost: '25'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Discipline Hero Required You pay 1 less to play Enlightenment for each ability card in your graveyard. Ongoing : At the start of your turn, you win the game.'
+    text: Discipline Hero Required
+  - type: Ability
+    text: You pay {1} less to play Enlightenment for each ability card in your graveyard.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, you win the game.'
 
 regulation:
 
 errata: []
-
-temp: Discipline Talent

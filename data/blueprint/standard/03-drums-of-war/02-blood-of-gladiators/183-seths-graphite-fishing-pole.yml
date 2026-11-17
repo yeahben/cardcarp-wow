@@ -1,4 +1,4 @@
-name: Seths Graphite Fishing Pole
+name: Seth's Graphite Fishing Pole
 
 origin: blood-of-gladiators-183
 
@@ -7,27 +7,42 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Fishing Pole
+
 trait:
 
 cost: '6'
 
+damage: 0
+
+strike: 6
+
+combat: Melee
+
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
-  - Paladin
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: → Put the card tenth from the top of your deck into hand.
+    text: '{activate} → Put the card tenth from the top of your deck into hand.'
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Fishing Pole

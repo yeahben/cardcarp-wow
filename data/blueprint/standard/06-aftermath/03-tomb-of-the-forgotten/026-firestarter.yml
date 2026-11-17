@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Mage
 
+talent:
+  - Fire
+
+instant: false
+
 rule:
   - type: Ability
-    text: Fire Talent Your hero deals 1 fire damage to each opposing hero and ally, or 4 if that character was dealt fire damage this turn.
+    text: Fire Talent (You can't put Arcane Talents or Frost Talents in your deck.)
+  - type: Ability
+    text: Your hero deals 1 fire damage to each opposing hero and ally, or 4 if that character was dealt fire damage this turn.
 
 regulation:
 
 errata: []
-
-temp: Fire

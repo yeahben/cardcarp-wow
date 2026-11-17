@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Shaman
 
-instant: Ready target ally.
+talent:
+  - Enhancement
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Ready target ally.
 
 regulation:
 
 errata: []
-
-temp: Enhancement

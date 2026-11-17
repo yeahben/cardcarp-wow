@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Exhaust an ally you control → You pay 1 less to play your next ability this turn, to a minimum of 1 . Exhaust a ally you control → The next time your hero would deal damage with an ability this turn, it deals that much +1 instead.'
+    text: 'Ongoing: Exhaust an {arcane} ally you control → You pay {1} less to play your next ability this turn, to a minimum of {1}.'
+  - type: Ability
+    text: Exhaust a {fire} ally you control → The next time your hero would deal damage with an ability this turn, it deals that much +1 instead.
 
 regulation:
 
 errata: []
-
-temp: Arcane

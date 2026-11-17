@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
     text: When Rantuko readies, he deals 1 shadow damage to each opposing ally.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Death Knight

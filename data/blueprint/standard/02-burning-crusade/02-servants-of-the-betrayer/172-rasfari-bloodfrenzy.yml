@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity When Ras'fari attacks for the first time each turn, ready him if he has damage.
+    text: Ferocity (Can attack immediately.)
+  - type: Ability
+    text: When Ras'fari attacks for the first time each turn, ready him if he has damage.
 
 regulation:
 
 errata: []
-
-temp: Troll Warrior

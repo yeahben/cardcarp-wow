@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Traitor
+
 trait:
 
 cost: '3'
@@ -14,12 +17,14 @@ cost: '3'
 class:
   - Mage
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Traitor Hero Required Ongoing : When an opponent draws a card, your hero deals 1 arcane damage to his hero.'
+    text: Traitor Hero Required
+  - type: Ability
+    text: 'Ongoing: When an opponent draws a card, your hero deals 1 arcane damage to his hero.'
 
 regulation:
 
 errata: []
-
-temp: Traitor

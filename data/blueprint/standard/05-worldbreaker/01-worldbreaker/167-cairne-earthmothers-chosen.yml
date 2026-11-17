@@ -1,4 +1,4 @@
-name: Cairne, Earthmothers Chosen
+name: Cairne, Earthmother's Chosen
 
 origin: worldbreaker-167
 
@@ -6,6 +6,9 @@ layout: Standard
 
 category:
   - Ally
+
+subtype:
+  - High Chieftain
 
 trait:
 
@@ -19,12 +22,20 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+limit:
+  - name: Cairne
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Tauren heroes and allies you control have War Stomp . Stash : Put a 1 / 1 Tauren Warrior ally token into play.'
+    text: Tauren heroes and allies you control have Warstomp. (When they attack or defend, you may exhaust target hero or ally.)
+  - type: Ability
+    text: 'Stash: Put a 1 {nature} / 1 {health} {horde} Tauren Warrior ally token into play.'
 
 regulation:
 
 errata: []
-
-temp: Tauren High Chieftain

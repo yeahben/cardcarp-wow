@@ -14,6 +14,11 @@ cost: '3'
 class:
   - Shaman
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero heals 8 damage from target hero or ally.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Restoration

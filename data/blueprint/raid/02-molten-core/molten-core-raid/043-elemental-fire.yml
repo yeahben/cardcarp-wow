@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Ragnaros
+
 trait:
 
 cost: '1'
 
-instant: When a hero or ally deals damage to Ragnaros this turn, Ragnaros deals that much fire damage to each hero and ally in that character's party.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: When a hero or ally deals damage to Ragnaros this turn, Ragnaros deals that much fire damage to each hero and ally in that character's party.
 
 regulation:
 
 errata: []
-
-temp: Ragnaros

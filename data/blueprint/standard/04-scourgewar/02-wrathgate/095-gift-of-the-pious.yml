@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Blessing
+
 trait:
 
 cost: '6'
@@ -15,12 +18,16 @@ class:
   - Druid
   - Paladin
 
+talent:
+  - Restoration
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Allies you control have +1 / +1 for each Druid and Paladin you control.'
+    text: 'Ongoing: Allies you control have +1 / +1 for each Druid and Paladin you control.'
 
 regulation:
 
 errata: []
-
-temp: Restoration Protection Blessing

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Demon
+
 trait:
 
 cost: '7'
@@ -17,6 +20,11 @@ health: 4
 
 combat: Shadow
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: When Collidus enters play, put each other ally into its owner's hand.
@@ -24,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Demon

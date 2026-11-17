@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '4'
+
+defense: 2
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Feet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'If an ally you controlled was destroyed this turn: → Target hero or ally has Assault 2 this turn.'
+    text: 'If an ally you controlled was destroyed this turn: {activate} → Target hero or ally has Assault 2 this turn.'
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

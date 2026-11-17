@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Warrior
 
-instant: Opposing heroes and allies must attack this turn if able. When an opponent proposes a combat this turn, you may change the proposed defender. (It must be a legal choice for the attacker.)
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Opposing heroes and allies must attack this turn if able.
+  - type: Ability
+    text: When an opponent proposes a combat this turn, you may change the proposed defender. (It must be a legal choice for the attacker.)
 
 regulation:
 
 errata: []
-
-temp: Protection

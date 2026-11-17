@@ -14,6 +14,11 @@ cost: '2'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
     text: Target opponent puts an ally from his party into its owner's hand. If he does, that opponent discards a card.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Shadow

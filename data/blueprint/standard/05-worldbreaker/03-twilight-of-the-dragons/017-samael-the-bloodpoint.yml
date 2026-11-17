@@ -13,16 +13,19 @@ health: 28
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Hunter
+
 rule:
   - type: Ability
     position: Front
-    text: 2 → Flip Samael face down.
+    text: '{2} → Flip Samael'
   - type: Ability
     position: Reverse
-    text: Ranged weapons you control have Assault 1 .
+    text: Ranged weapons you control have Assault 1. (They have +1 ATK on your turn.)
 
 regulation:
 
 errata: []
-
-temp: Undead Hunter

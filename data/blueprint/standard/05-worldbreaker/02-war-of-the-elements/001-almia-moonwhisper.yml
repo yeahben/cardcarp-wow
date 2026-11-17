@@ -13,16 +13,19 @@ health: 25
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Mage
+
 rule:
   - type: Ability
     position: Front
-    text: 5 → Flip Almia
+    text: '{5} → Flip Almia'
   - type: Ability
     position: Reverse
-    text: At the start of your turn, if you control an ally, you may draw a card.
+    text: At the start of your turn, if you control an {arcane} ally, you may draw a card.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Mage

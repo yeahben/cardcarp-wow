@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally deals combat damage to a defending hero, draw a card.
+    text: When Randipan deals combat damage to a defending hero, draw a card.
 
 regulation:
 
 errata: []
-
-temp: Gnome Rogue

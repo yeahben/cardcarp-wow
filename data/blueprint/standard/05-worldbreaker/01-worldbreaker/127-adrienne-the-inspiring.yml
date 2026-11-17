@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: 4 → Target ally has Assault 4 this turn.
+    text: '{4} → Target ally has Assault 4 this turn. (It has +4 ATK on your turn.)'
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

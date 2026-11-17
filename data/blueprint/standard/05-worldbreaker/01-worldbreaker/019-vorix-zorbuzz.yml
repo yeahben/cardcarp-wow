@@ -13,16 +13,22 @@ health: 27
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Rogue
+
+talent:
+  - Assassination
+
 rule:
   - type: Ability
     position: Front
-    text: 3 → Flip Vorix
+    text: '{3} → Flip Vorix'
   - type: Ability
     position: Reverse
-    text: If Vorix would deal melee damage, he deals that much nature damage +1 instead.
+    text: When Vorix would deal melee damage, he deals that much nature damage +1 instead.
 
 regulation:
 
 errata: []
-
-temp: Goblin Rogue

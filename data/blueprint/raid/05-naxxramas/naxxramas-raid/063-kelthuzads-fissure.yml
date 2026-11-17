@@ -1,4 +1,4 @@
-name: Kel'Thuzads Fissure
+name: Kel'Thuzad's Fissure
 
 origin: naxxramas-raid-063
 
@@ -9,16 +9,18 @@ category:
 
 trait:
 
-type: Raid
+instant: false
+
+type: Kel'Thuzad
 
 stage: 3
 
+sequence: 3
+
 rule:
   - type: Ability
-    text: 'Ongoing : At the end of your turn, target up to one raiding ability, up to one raiding ally, and up to one raiding equipment. Remove them from the game.'
+    text: 'Ongoing: At the end of your turn, target up to one raiding ability, up to one raiding ally, and up to one raiding equipment. Remove them from the game.'
 
 regulation:
 
 errata: []
-
-temp: ''

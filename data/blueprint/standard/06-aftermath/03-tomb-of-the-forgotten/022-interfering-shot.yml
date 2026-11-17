@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Hunter
 
+talent:
+  - Survival
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target ally. Ongoing : Attached ally can't attack your hero."
+    text: Attach to target ally.
+  - type: Ability
+    text: "Ongoing: Attached ally can't attack your hero."
 
 regulation:
 
 errata: []
-
-temp: Survival

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Keeper of the Grove
+
 trait:
 
 cost: '3'
@@ -17,14 +20,19 @@ health: 4
 
 combat: Nature
 
+class:
+  - Druid
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Harmonize When this ally enters play, he heals 3 damage from target hero or ally.
+    text: Harmonize (You pay {1} less to play allies with printed cost 4 or more.)
+  - type: Ability
+    text: When this ally enters play, he heals 3 damage from target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Keeper of the Grove Druid

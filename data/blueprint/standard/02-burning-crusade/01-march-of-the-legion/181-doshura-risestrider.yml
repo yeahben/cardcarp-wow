@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When Doshura enters play, you may destroy target exhausted ally.
+    text: Protector
+  - type: Ability
+    text: When Doshura enters play, you may destroy target exhausted ally.
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

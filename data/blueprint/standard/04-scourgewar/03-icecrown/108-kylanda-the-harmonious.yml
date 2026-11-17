@@ -19,12 +19,19 @@ combat: Frost
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Totems you control have +3 .
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
+  - type: Ability
+    text: Totems you control have +3 {health}.
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

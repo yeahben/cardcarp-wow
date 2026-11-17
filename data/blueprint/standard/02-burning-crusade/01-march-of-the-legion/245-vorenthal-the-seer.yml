@@ -17,12 +17,22 @@ health: 8
 
 combat: Fire
 
+race: Blood Elf
+
+class:
+  - Mage
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Scryer Reputation If you would draw a card, draw two instead.
+    text: Scryer Reputation (Can't put Aldor cards in your deck.)
+  - type: Ability
+    text: If you would draw a card, draw two instead.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

@@ -7,24 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
+  - Hunter
   - Paladin
+  - Rogue
   - Shaman
+  - Warrior
+
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: Your hero can't be destroyed. While your hero has fatal damage on it, when it's dealt damage, destroy that many of your equipment and/or resources.
+    text: Your hero can't be destroyed.
+  - type: Ability
+    text: While your hero has fatal damage on it, when it's dealt damage, destroy that many of your equipment and/or resources.
 
 regulation:
 
 errata: []
-
-temp: Item Ring

@@ -1,4 +1,4 @@
-name: Brutal Gladiators Greatsword
+name: Brutal Gladiator's Greatsword
 
 origin: arena-grand-melee-006
 
@@ -7,19 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Sword
+
 trait:
 
 cost: '5'
 
+damage: 5
+
+strike: 3
+
+combat: Melee
+
 class:
   - Paladin
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
+type: Arena
+
 rule:
   - type: Ability
-    text: Preparation
+    text: Preparation (On your first turn, you may play this card without paying its cost.)
 
 regulation:
 
 errata: []
-
-temp: 2H Arena Weapon Sword

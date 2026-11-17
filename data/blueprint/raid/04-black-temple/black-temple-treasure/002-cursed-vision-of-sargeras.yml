@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '3'
+
+defense: 2
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Head
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: → If you completed a quest this turn, turn target resource face down.
+    text: '{activate} → If you completed a quest this turn, turn target resource face down.'
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

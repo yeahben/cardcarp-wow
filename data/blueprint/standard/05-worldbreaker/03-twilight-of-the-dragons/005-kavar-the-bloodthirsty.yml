@@ -13,10 +13,15 @@ health: 29
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Death Knight
+
 rule:
   - type: Ability
     position: Front
-    text: 4 → Flip Kavar face down.
+    text: '{4} → Flip Kavar'
   - type: Ability
     position: Reverse
     text: At the start of your turn, you may exhaust target card.
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Worgen Death Knight

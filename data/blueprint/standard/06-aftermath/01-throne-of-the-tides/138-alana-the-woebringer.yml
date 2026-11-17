@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, remove the top half of target opponent's deck from the game, rounded up.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Priest

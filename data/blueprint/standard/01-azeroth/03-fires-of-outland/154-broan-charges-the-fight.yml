@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity When Broan Charges-the-Fight enters play, you may ready target ally with cost 2 or less.
+    text: Ferocity
+  - type: Ability
+    text: When Broan Charges-the-Fight enters play, you may ready target ally with cost 2 or less.
 
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

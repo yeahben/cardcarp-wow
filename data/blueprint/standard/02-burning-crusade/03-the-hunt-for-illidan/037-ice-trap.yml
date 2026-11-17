@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Hunter
 
-instant: Trap Your hero deals 3 frost damage to target attacker. Remove a character dealt damage this way from combat.
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Trap (You may exhaust your defending hero rather than pay this card's cost.)
+  - type: Ability
+    text: Your hero deals 3 frost damage to target attacker. Remove a character dealt damage this way from combat.
 
 regulation:
 
 errata: []
-
-temp: Survival

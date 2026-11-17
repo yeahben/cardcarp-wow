@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : All heroes and allies are Conspicuous .'
+    text: 'Ongoing: All heroes and allies are conspicuous. (Any opposing hero or ally may protect against them.)'
 
 regulation:
 
 errata: []
-
-temp: ''

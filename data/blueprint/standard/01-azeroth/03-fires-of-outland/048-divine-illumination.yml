@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '1'
@@ -14,12 +17,19 @@ cost: '1'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: Holy Hero Required You pay 1 less to play abilities this turn, to a minimum of 1 . Draw a card.
+    text: Holy Hero Required
+  - type: Ability
+    text: You pay {1} less to play abilities this turn, to a minimum of {1}.
+  - type: Ability
+    text: Draw a card.
 
 regulation:
 
 errata: []
-
-temp: Holy Talent

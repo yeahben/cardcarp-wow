@@ -19,12 +19,19 @@ combat: Holy
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector At the end of each opponent's turn, if your hero wasn't dealt damage this turn, you may draw a card.
+    text: Protector
+  - type: Ability
+    text: At the end of each opponent's turn, if your hero wasn't dealt damage this turn, you may draw a card.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

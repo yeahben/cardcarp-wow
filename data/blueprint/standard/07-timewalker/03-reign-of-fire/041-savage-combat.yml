@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Rogue
 
+talent:
+  - Combat
+
+instant: false
+
 rule:
   - type: Ability
-    text: Combat Talent This turn, when your hero deals combat damage to a hero, it also deals that much melee damage to each opposing ally.
+    text: Combat Talent (You can't put Assassination Talents or Subtlety Talents in your deck.)
+  - type: Ability
+    text: This turn, when your hero deals combat damage to a hero, it also deals that much melee damage to each opposing ally.
 
 regulation:
 
 errata: []
-
-temp: Combat

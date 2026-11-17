@@ -6,6 +6,7 @@ layout: Standard
 
 category:
   - Ability
+  - Ally
 
 trait:
 
@@ -20,14 +21,23 @@ combat: Fire
 class:
   - Shaman
 
-type: Ally
+talent:
+  - Elemental
+
+limit:
+  - name: Fire Totem
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: "Ongoing : When this card enters play, put two 2 / 1 Fire Elemental ally tokens into play. allies you control have Ferocity . (Totems can't attack.)"
+    text: 'Ongoing: When this card enters play, put two 2 {fire} / 1 {health} Fire Elemental ally tokens into play.'
+  - type: Ability
+    text: '{fire} allies you control have Ferocity. (They can attack immediately.)'
+  - type: Ability
+    text: (Totems can't attack.)
 
 regulation:
 
 errata: []
-
-temp: Elemental

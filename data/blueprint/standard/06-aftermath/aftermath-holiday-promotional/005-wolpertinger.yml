@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Wolpertinger
+
 trait:
 
 cost: '8'
@@ -17,14 +20,16 @@ health: 10
 
 combat: Melee
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Elusive , Stealth , Untargetable When this ally is destroyed, destroy your hero.
+    text: Elusive, Stealth, Untargetable
+  - type: Ability
+    text: When this ally is destroyed, destroy your hero.
 
 regulation:
 
 errata: []
-
-temp: Wolpertinger

@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: Destroy all opposing rare or epic cards.
+    text: Destroy all opposing rare and epic cards.
 
 regulation:
 
 errata: []
-
-temp: ''

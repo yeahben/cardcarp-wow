@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Shadowmeld When Wyler deals combat damage to a defending ally, destroy that ally.
+    text: Shadowmeld (Elusive and untargetable while ready.)
+  - type: Ability
+    text: When Wyler deals combat damage to a defending ally, destroy that ally.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Rogue

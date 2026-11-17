@@ -19,12 +19,17 @@ combat: Frost
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Will of the Forsaken
+    text: Will of the Forsaken (This ally can't leave play unless it has fatal damage or 0 health.)
 
 regulation:
 
 errata: []
-
-temp: Undead Mage

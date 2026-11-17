@@ -13,13 +13,23 @@ health: 25
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Mage
+
+talent:
+  - Frost
+
+profession:
+  - Mining
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Loraala → Loraala deals 3 frost damage to target hero. A hero dealt damage this way can't attack this turn.
+    text: "{2}, Flip Loraala → Loraala deals 3 frost damage to target hero. A hero dealt damage this way can't attack this turn."
 
 regulation:
 
 errata: []
-
-temp: Draenei Mage

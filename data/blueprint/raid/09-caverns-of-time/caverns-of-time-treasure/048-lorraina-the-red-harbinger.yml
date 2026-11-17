@@ -19,12 +19,19 @@ combat: Ranged
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters combat, she may deal 2 ranged damage to target attacker or defender. When this ally deals damage to a hero or ally, you may ready a resource you control.
+    text: When this ally enters combat, she may deal 2 ranged damage to target attacker or defender.
+  - type: Ability
+    text: When this ally deals damage to a hero or ally, you may ready a resource you control.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Hunter

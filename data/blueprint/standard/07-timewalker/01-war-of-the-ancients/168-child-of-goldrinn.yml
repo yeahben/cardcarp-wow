@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Wolf
+  - Beast
+
 trait:
 
 cost: '3'
@@ -17,14 +21,16 @@ health: 1
 
 combat: Melee
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Ferocity Stealth
+    text: Ferocity (This ally can attack immediately.)
+  - type: Ability
+    text: Stealth (This ally can't be protected against.)
 
 regulation:
 
 errata: []
-
-temp: Wolf Beast

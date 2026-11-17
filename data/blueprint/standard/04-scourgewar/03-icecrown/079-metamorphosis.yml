@@ -5,7 +5,11 @@ origin: icecrown-079
 layout: Standard
 
 category:
-  - Hero
+  - Master Hero
+
+subtype:
+  - Demon
+  - Talent
 
 trait:
 
@@ -20,15 +24,19 @@ combat: Fire
 class:
   - Warlock
 
-type: Master
+talent:
+  - Demonology
+
+instant: false
 
 rule:
   - type: Ability
     position: Front
-    text: Demonology Hero Required At the start of your turn, put your starting hero back into play unless you destroy an ally you control. If you destroyed an ally this way, your hero deals shadow damage equal to that ally's cost to target hero or ally.
+    text: Demonology Hero Required
+  - type: Ability
+    position: Front
+    text: At the start of your turn, put your starting hero back into play unless you destroy an ally you control. If you destroyed an ally this way, your hero deals shadow damage equal to that ally's cost to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Demon Warlock Demonology Talent

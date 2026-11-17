@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ready allies you control have +2 ATK and Spellshield .
+    text: Ready allies you control have +2 ATK and Spellshield.
 
 regulation:
 
 errata: []
-
-temp: Tauren Paladin

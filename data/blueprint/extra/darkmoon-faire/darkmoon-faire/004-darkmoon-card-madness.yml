@@ -7,27 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
-  - Paladin
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: "On your turn: 2 , → Remove the top card of target opponent's deck from the game. If it's an ability, ally, or equipment card, he destroys a card of that kind he controls."
+    text: "On your turn: {2}, {activate} → Remove the top card of target opponent's deck from the game. If it's an ability, ally, or equipment card, he destroys a card of that kind he controls."
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

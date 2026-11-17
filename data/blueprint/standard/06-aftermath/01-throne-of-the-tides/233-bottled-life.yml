@@ -7,28 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+  - Potion
+
 trait:
 
 cost: '1'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'When this item enters play, put a 1 / 1 Treant ally token into play. On your turn: Exhaust a Druid hero or ally you control and destroy this item → Put a 1 / 1 Treant ally token into play.'
+    text: When this item enters play, put a 1 {melee} / 1 {health} Treant ally token into play.
+  - type: Ability
+    text: 'On your turn: Exhaust a Druid hero or ally you control and destroy this item → Put a 1 {melee} / 1 {health} Treant ally token into play.'
 
 regulation:
 
 errata: []
-
-temp: Item Potion

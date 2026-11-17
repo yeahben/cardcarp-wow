@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Each hero is in rabid rabbit form . (For each damage on it, it has +1 ATK while attacking an ally.)'
+    text: 'Ongoing: Each hero is in rabid rabbit form. (For each damage on it, it has +1 ATK while attacking an ally.)'
 
 regulation:
 
 errata: []
-
-temp: ''

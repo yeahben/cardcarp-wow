@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '1'
@@ -14,12 +17,15 @@ cost: '1'
 class:
   - Rogue
 
+talent:
+  - Subtlety
+
+instant: true
+
 rule:
   - type: Ability
-    text: Target hero or ally has +2 ATK while attacking and has Stealth this turn.
+    text: Target hero or ally has +2 ATK while attacking and has stealth this turn. (Can't protect against it.)
 
 regulation:
 
 errata: []
-
-temp: Subtlety Combo

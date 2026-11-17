@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : On your turn: 1 , → Target ally has +1 / -1 this turn.'
+    text: 'Ongoing: On your turn: {1}, {activate} → Target ally has +1 / -1 this turn.'
 
 regulation:
 
 errata: []
-
-temp: Affliction

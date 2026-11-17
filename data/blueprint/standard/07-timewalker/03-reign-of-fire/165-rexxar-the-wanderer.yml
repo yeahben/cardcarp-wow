@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ogre
+
 trait:
 
 cost: '4'
@@ -17,12 +20,23 @@ health: 4
 
 combat: Melee
 
+race: Orc
+
+class:
+  - Hunter
+
+limit:
+  - name: Rexxar
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When Rexxar enters play, search your deck for a Beast ally, reveal it, and put it into your hand. Beast allies you control have +1 / +1.
+    text: When Rexxar enters play, search your deck for a Beast ally and put it into your hand.
+  - type: Ability
+    text: Beast allies you control have +1 / +1.
 
 regulation:
 
 errata: []
-
-temp: Orc Ogre Hunter

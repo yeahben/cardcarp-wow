@@ -12,8 +12,14 @@ trait:
 cost: '1'
 
 class:
-  - Warrior
   - Shaman
+  - Warrior
+
+talent:
+  - Enhancement
+  - Fury
+
+instant: false
 
 rule:
   - type: Ability
@@ -22,5 +28,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Enhancement Fury

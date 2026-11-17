@@ -7,19 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '3'
 
+defense: 1
+
 class:
   - Rogue
 
+limit:
+  - name: Head
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Exhaust target hero or ally. Use only on your turn. When you play a ability, ready Bloodfang Hood.
+    text: '{activate} → Exhaust target hero or ally. Use only on your turn.'
+  - type: Ability
+    text: When you play a {rogue} ability, ready Bloodfang Hood.
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

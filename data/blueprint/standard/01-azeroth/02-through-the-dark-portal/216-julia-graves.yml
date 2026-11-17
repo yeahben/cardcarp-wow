@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: You may remove two ally cards in your graveyard from the game rather than pay Julia Graves's cost.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Warlock

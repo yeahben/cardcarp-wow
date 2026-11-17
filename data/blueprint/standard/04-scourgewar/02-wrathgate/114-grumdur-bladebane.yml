@@ -19,12 +19,19 @@ combat: Frost
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Each opposing ally has -1 ATK on its controller's turn.
+    text: Protector
+  - type: Ability
+    text: Each opposing ally has -1 ATK during its controller's turn.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Death Knight

@@ -19,12 +19,19 @@ combat: Ranged
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Long-Range When Swiftshot or another ally enters your party, it may deal 1 ranged damage to target hero or ally.
+    text: Long-Range
+  - type: Ability
+    text: When Swiftshot or another {ranged} ally enters your party, it may deal 1 ranged damage to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Tauren Hunter

@@ -5,10 +5,32 @@ origin: tomb-of-the-forgotten-165
 layout: Standard
 
 category:
+  - Equipment
+
+subtype:
+  - Armor
+  - Shield
 
 trait:
 
-rule: []
+cost: '3'
+
+defense: 3
+
+class:
+  - Paladin
+  - Shaman
+  - Warrior
+
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: When this armor enters play, exhaust target opposing hero or ally.
 
 regulation:
 

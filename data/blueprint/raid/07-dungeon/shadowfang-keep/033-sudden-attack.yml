@@ -9,14 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: 'Ongoing : When a Dungeon ally enters play, destroy this ability. If you do, Dungeon allies have +5 ATK and Ferocity this turn.'
+    text: 'Ongoing: When a Dungeon ally enters play, destroy this ability. If you do, Dungeon allies have +5 ATK and Ferocity this turn.'
 
 regulation:
 
 errata: []
-
-temp: ''

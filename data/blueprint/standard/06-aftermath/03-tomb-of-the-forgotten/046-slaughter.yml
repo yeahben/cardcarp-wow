@@ -14,6 +14,11 @@ cost: '4'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
     text: Destroy target ally or weapon with cost 4 or less. If you do, add +1 ATK counters to a weapon you control equal to the ATK of the card destroyed this way.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Assassination

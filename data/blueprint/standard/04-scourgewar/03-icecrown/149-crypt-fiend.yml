@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Crypt Fiend
+
 trait:
 
 cost: '6'
@@ -17,14 +20,19 @@ health: 3
 
 combat: Shadow
 
-type: Raid
+limit:
+  - name: Unlimited
+
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: Scourge Hero Required Prevent all damage that and allies would deal to this ally.
+    text: Scourge Hero Required
+  - type: Ability
+    text: Prevent all damage that {alliance} and {horde} allies would deal to this ally.
 
 regulation:
 
 errata: []
-
-temp: Crypt Fiend

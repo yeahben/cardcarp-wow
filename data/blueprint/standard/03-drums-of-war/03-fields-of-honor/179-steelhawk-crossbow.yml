@@ -7,19 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Crossbow
+
 trait:
 
 cost: '3'
 
+damage: 3
+
+strike: 1
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you strike with Steelhawk Crossbow, your hero has Long-Range this combat. At the start of your turn, exhaust Steelhawk Crossbow unless you pay 1 .
+    text: When you strike with Steelhawk Crossbow, your hero has long-range this combat.
+  - type: Ability
+    text: At the start of your turn, exhaust Steelhawk Crossbow unless you pay {1}.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Crossbow

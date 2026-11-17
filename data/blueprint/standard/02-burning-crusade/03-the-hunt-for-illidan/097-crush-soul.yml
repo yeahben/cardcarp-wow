@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warlock
 
-instant: Interrupt target ally card. If you do, remove it from the game and put damage on your hero equal to that card's ATK.
+talent:
+  - Destruction
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Interrupt target ally card. If you do, remove it from the game and put damage on your hero equal to that card's ATK.
 
 regulation:
 
 errata: []
-
-temp: Destruction

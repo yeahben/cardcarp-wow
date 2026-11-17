@@ -19,6 +19,13 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
     text: Each ally has ATK equal to its printed ATK, has health equal to its printed health, and can't gain or lose ATK or health.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Warrior
 
-instant: 'Ongoing : Your hero has Protector .'
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Your hero has protector.'
 
 regulation:
 
 errata: []
-
-temp: Protection

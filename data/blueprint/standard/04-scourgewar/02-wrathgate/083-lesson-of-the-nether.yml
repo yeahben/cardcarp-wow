@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: You may exhaust a non-hero Warlock you control rather than pay this ability's cost. Look at target opponent's hand and choose a card. Remove it from the game.
+    text: You may exhaust a non-hero Warlock you control rather than pay this ability's cost.
+  - type: Ability
+    text: Look at target opponent's hand and choose a card. Remove that card from the game.
 
 regulation:
 
 errata: []
-
-temp: Demonology

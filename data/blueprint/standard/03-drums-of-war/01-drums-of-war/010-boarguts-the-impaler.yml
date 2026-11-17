@@ -13,13 +13,23 @@ health: 30
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+talent:
+  - Fury
+
+profession:
+  - Blacksmithing
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Boarguts → Boarguts has +1 ATK this turn for each of your weapons.
+    text: '{3}, Flip Boarguts → Boarguts has +1 ATK this turn for each of your weapons.'
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

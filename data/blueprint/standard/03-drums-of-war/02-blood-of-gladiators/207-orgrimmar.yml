@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Location
 
+subtype:
+  - City
+
 trait:
 
 faction: Horde
 
 rule:
   - type: Ability
-    text: Orc Hero Required → Target Orc in your party has Ferocity this turn.
+    text: Orc Hero Required
+  - type: Ability
+    text: '{activate} → Target Orc in your party has ferocity this turn.'
 
 regulation:
 
 errata: []
-
-temp: City

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Traitor
+
 trait:
 
 cost: '4'
@@ -17,12 +20,16 @@ health: 2
 
 combat: Melee
 
+race: Human
+
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required If Charming Courtesan would be dealt 2 or less damage, prevent it.
+    text: Traitor Hero Required
+  - type: Ability
+    text: If Charming Courtesan would be dealt 2 or less damage, prevent it.
 
 regulation:
 
 errata: []
-
-temp: Human Traitor

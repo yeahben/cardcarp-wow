@@ -14,12 +14,17 @@ cost: '5'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Exhaust any number of target allies in target opponent's party. Ongoing : Each of them can't ready during its controller's ready step."
+    text: Exhaust any number of target allies in target opponent's party.
+  - type: Ability
+    text: "Ongoing: Each of them can't ready during its controller's ready step."
 
 regulation:
 
 errata: []
-
-temp: Balance

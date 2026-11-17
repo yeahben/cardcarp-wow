@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Hippogryph
+
 trait:
 
 cost: '2'
@@ -17,14 +20,22 @@ health: 3
 
 combat: Nature
 
+limit:
+  - name: Mount
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Opponents pay 1 more to complete quests. When an opponent places a resource face up into his resource row, this ally deals 3 nature damage to his hero. (Mounts can't attack or be attacked.)
+    text: Opponents pay {1} more to complete quests.
+  - type: Ability
+    text: When an opponent places a resource face up into his resource row, this ally deals 3 nature damage to his hero.
+  - type: Ability
+    text: (Mounts can't attack or be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Hippogryph

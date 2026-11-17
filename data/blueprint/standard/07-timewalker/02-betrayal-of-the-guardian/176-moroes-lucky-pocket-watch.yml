@@ -7,22 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
-  - Druid
-  - Warrior
   - Death Knight
+  - Druid
   - Paladin
+  - Warrior
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: 2 , → Reveal the top card of your deck. The next time your hero would be dealt damage this turn, prevent damage equal to the cost of the revealed card.
+    text: '{2}, {activate} → Reveal the top card of your deck. The next time your hero would be dealt damage this turn, prevent damage equal to the cost of the revealed card.'
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

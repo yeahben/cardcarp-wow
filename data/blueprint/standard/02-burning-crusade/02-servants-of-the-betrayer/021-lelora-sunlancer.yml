@@ -13,13 +13,23 @@ health: 29
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+talent:
+  - Holy
+
+profession:
+  - Mining
+  - Blacksmithing
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Lelora → Prevent all damage that would be dealt to and dealt by target friendly ally this turn.
+    text: '{3}, Flip Lelora → Prevent all damage that would be dealt to and dealt by target friendly ally this turn.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

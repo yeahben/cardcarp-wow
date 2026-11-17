@@ -7,19 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Gun
+
 trait:
 
 cost: '4'
 
+damage: 1
+
+strike: 2
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you strike with Dwarven Hand Cannon, your hero has Long-Range this combat. 2 → Dwarven Hand Cannon has +1 ATK this turn.
+    text: When you strike with Dwarven Hand Cannon, your hero has long-range this combat. (Defenders deal no combat damage to it.)
+  - type: Ability
+    text: '{2} → Dwarven Hand Cannon has +1 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Gun

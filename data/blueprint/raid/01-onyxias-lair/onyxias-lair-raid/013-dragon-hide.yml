@@ -11,12 +11,12 @@ trait:
 
 cost: '1'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : → Prevent the next 2 damage that would be dealt to Onyxia this turn.'
+    text: 'Ongoing: {activate} → Prevent the next 2 damage that would be dealt to Onyxia this turn.'
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -7,22 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Sword
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 2
+
+combat: Melee
+
 class:
-  - Paladin
-  - Warrior
   - Death Knight
+  - Paladin
   - Rogue
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 1 , → Allies you control have Assault 1 this turn.
+    text: '{1}, {activate} → Allies you control have Assault 1 this turn. (They have +1 ATK on your turn.)'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

@@ -19,12 +19,20 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: When Kelm attacks, each opponent destroys an card he controls.
+    text: When Kelm attacks, each opponent destroys an {alliance} card he controls.
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

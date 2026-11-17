@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity When Marun attacks, you pay 1 less to complete your next quest this turn.
+    text: Ferocity (Can attack immediately.)
+  - type: Ability
+    text: When Marun attacks, you pay {1} less to complete your next quest this turn.
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

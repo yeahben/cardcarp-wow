@@ -14,12 +14,17 @@ cost: '6'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target ally. Ongoing : When attached ally attacks, you may put target ally with cost less than attached ally's cost from your graveyard into play."
+    text: Attach to target ally.
+  - type: Ability
+    text: "Ongoing: When attached ally attacks, you may put target ally with cost less than attached ally's cost from your graveyard into play."
 
 regulation:
 
 errata: []
-
-temp: Discipline

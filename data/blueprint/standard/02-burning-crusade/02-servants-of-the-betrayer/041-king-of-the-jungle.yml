@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '6'
@@ -14,12 +17,21 @@ cost: '6'
 class:
   - Druid
 
-instant: 'Ongoing : Your hero has +1 ATK while attacking for each other ability you control. Your hero is in Cat Form .'
+talent:
+  - Feral
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Your hero has +1 ATK while attacking for each other ability you control.'
+  - type: Ability
+    text: Your hero is in cat form. (+1 ATK while attacking. Destroy this card when you strike with a weapon or play a non-Feral ability.)
 
 regulation:
 
 errata: []
-
-temp: Feral Combo

@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Rogue
 
-instant: Destroy all allies with cost 2 or less. (Token allies have a cost of 0.)
+talent:
+  - Assassination
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Destroy all allies with cost 2 or less. (Token allies have a cost of 0.)
 
 regulation:
 
 errata: []
-
-temp: Assassination

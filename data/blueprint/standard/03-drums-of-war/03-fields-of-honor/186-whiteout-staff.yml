@@ -7,24 +7,39 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Staff
+
 trait:
 
 cost: '3'
+
+damage: 1
+
+strike: 3
+
+combat: Frost
 
 faction: Horde
 
 class:
   - Druid
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When an ally is dealt frost or damage, destroy it.
+    text: When an {alliance} ally is dealt frost or {frost} damage, destroy it.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Staff

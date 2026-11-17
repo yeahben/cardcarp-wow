@@ -1,0 +1,35 @@
+name: Nuada Windwaker
+
+origin: reign-of-fire-106
+
+layout: Standard
+
+category:
+  - Ally
+
+trait:
+
+cost: '5'
+
+damage: 3
+
+health: 4
+
+combat: Nature
+
+faction: Horde
+
+race: Tauren
+
+class:
+  - Shaman
+
+instant: false
+
+rule:
+  - type: Ability
+    text: 'Tribe: When this or another Tauren ally enters play under your control, you may ready target hero or ally.'
+
+regulation:
+
+errata: []

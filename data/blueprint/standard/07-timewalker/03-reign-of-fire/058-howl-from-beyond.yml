@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Warrior
 
-instant: Warp Put target ally on top of its owner's deck.
+talent:
+  - Fury
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Warp (As this ability is revealed from your deck, you may remove it from the game. If you do, you may play it immediately without paying its cost.)
+  - type: Ability
+    text: Put target ally on top of its owner's deck.
 
 regulation:
 
 errata: []
-
-temp: Fury

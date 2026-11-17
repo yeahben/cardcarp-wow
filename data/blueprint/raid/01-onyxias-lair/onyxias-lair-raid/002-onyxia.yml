@@ -1,0 +1,35 @@
+name: Onyxia
+
+origin: onyxias-lair-raid-002
+
+layout: Standard
+
+category:
+  - Hero
+
+subtype:
+  - Black Dragon
+
+trait:
+
+health: 30
+
+stage: 2
+
+rule:
+  - type: Ability
+    position: Front
+    text: Long-Range
+  - type: Ability
+    position: Front
+    text: Onyxia has +2 ATK while attacking.
+  - type: Ability
+    position: Front
+    text: '{2}, Flip Onyxia → Put a Whelp into play for each resource you have. Use only on your turn.'
+  - type: Ability
+    position: Reverse
+    text: Long-Range. Onyxia has +2 ATK while attacking.
+
+regulation:
+
+errata: []

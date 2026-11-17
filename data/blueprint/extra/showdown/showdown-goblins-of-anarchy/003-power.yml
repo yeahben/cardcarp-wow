@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Biker
+
 trait:
 
 cost: '2'
@@ -17,12 +20,23 @@ health: 2
 
 combat: Melee
 
+race: Goblin
+
+class:
+  - Warrior
+
+limit:
+  - name: Power
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Time is Money On your turn: → Your hero and allies you control have Assault 1 this turn for each Biker you control.'
+    text: Time is Money
+  - type: Ability
+    text: 'On your turn: {activate} → Your hero and allies you control have Assault 1 this turn for each Biker you control.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Warrior Biker

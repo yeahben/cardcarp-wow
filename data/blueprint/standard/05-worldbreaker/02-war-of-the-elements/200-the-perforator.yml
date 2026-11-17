@@ -7,13 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Fist
+
 trait:
 
 cost: '4'
 
+damage: 0
+
+strike: 0
+
+combat: Melee
+
 class:
-  - Shaman
   - Rogue
+  - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -22,5 +39,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: 1H Weapon Fist

@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Hunter
 
-instant: "Trap Attach to target attacker. Ongoing : At the start of your turn, your hero deals 1 fire damage to each other hero and ally in attached character's party."
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Trap (You may exhaust your defending hero rather than pay this card's cost.)
+  - type: Ability
+    text: Attach to target attacker.
+  - type: Ability
+    text: "Ongoing: At the start of your turn, your hero deals 1 fire damage to each other hero and ally in attached character's party."
 
 regulation:
 
 errata: []
-
-temp: Survival

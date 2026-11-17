@@ -19,6 +19,16 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Warrior
+
+limit:
+  - name: Unlimited
+
+instant: false
+
 rule:
   - type: Ability
     text: Ironforge Guards has +1 health for each other ally named Ironforge Guards in your party.
@@ -26,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Warrior

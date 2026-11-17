@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Naga
+
 trait:
 
 cost: '3'
@@ -17,14 +20,17 @@ health: 4
 
 combat: Frost
 
+class:
+  - Mage
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: When this ally attacks, she deals 1 frost damage to each and hero and ally.
+    text: When this ally attacks, she deals 1 frost damage to each {horde} and {alliance} hero and ally.
 
 regulation:
 
 errata: []
-
-temp: Naga Mage

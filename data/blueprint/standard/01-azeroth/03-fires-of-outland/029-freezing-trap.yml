@@ -14,12 +14,19 @@ cost: '4'
 class:
   - Hunter
 
-instant: "Trap Attach to target attacking ally and remove it from combat. Ongoing : Attached ally can't attack or protect and loses all powers."
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Trap (You may exhaust your defending hero rather than pay this card's cost.)
+  - type: Ability
+    text: Attach to target attacking ally and remove it from combat.
+  - type: Ability
+    text: "Ongoing: Attached ally can't attack or protect and loses all powers."
 
 regulation:
 
 errata: []
-
-temp: Survival

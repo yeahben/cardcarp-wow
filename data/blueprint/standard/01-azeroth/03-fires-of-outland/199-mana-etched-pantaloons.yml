@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '5'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: → Draw a card. Use only if you have seven or more cards in your hand.
+    text: '{activate} → Draw a card. Use only if you have seven or more cards in your hand.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

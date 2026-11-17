@@ -7,14 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Polearm
+
 trait:
 
 cost: '4'
 
+damage: 4
+
+strike: 2
+
+combat: Melee
+
 class:
+  - Hunter
   - Paladin
   - Warrior
-  - Hunter
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -23,5 +40,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: 2H Weapon Polearm

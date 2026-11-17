@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Protector Tribe : When this or another Tauren ally enters play under your control, this ally may deal 2 melee damage to target damaged ally.'
+    text: Protector
+  - type: Ability
+    text: 'Tribe: When this or another Tauren ally enters play under your control, this ally may deal 2 melee damage to target damaged ally.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Death Knight

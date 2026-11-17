@@ -9,14 +9,20 @@ category:
 
 trait:
 
+instant: false
+
+type: Betrayer
+
 stage: 3
+
+sequence: 3
 
 rule:
   - type: Ability
-    text: 'Choose a number greater than 0, and destroy all opposing cards in play with that cost. Ongoing : At the start of your turn, if you control five Betrayer events, The Betrayer deals 20 fire damage to each opposing hero.'
+    text: Choose a number greater than 0, and destroy all opposing cards in play with that cost.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, if you control five Betrayer events, The Betrayer deals 20 fire damage to each opposing hero.'
 
 regulation:
 
 errata: []
-
-temp: ''

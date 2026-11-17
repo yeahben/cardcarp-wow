@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: This ally has +3 ATK while attacking an exhausted hero or ally.
+    text: Skronk has +3 ATK while attacking an exhausted hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Orc Rogue

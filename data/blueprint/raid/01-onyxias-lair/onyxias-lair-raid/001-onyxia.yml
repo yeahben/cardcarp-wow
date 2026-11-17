@@ -7,18 +7,26 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Black Dragon
+
 trait:
+
+health: 20
+
+stage: 1
 
 rule:
   - type: Ability
     position: Front
-    text: Onyxia has +3 ATK while attacking. 20 , Flip Onyxia → Destroy all opposing heroes.
+    text: Onyxia has +1 ATK while attacking.
+  - type: Ability
+    position: Front
+    text: '{10}, Flip Onyxia → Destroy target opposing hero.'
   - type: Ability
     position: Reverse
-    text: Onyxia has +3 ATK while attacking.
+    text: Onyxia has +1 ATK while attacking.
 
 regulation:
 
 errata: []
-
-temp: Black Dragon Stage 3

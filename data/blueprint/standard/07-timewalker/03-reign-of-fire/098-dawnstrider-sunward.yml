@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Horde
 
-instant: Protector
+race: Tauren
 
-rule: []
+class:
+  - Paladin
+
+instant: true
+
+rule:
+  - type: Ability
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
 
 regulation:
 
 errata: []
-
-temp: Tauren Paladin

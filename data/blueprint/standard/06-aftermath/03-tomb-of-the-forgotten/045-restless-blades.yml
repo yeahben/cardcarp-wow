@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Rogue
 
+talent:
+  - Combat
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Combat Talent Ongoing : Weapons you control have +1 ATK. Your hero has Infinite Wield .'
+    text: Combat Talent (You can't include Assassination Talents or Subtlety Talents in your deck.)
+  - type: Ability
+    text: 'Ongoing: Weapons you control have +1 ATK.'
+  - type: Ability
+    text: Your hero has Infinite Wield. (You can control any number of one-handed Melee weapons and strike with any number of one-handed Melee weapons during the same combat.)
 
 regulation:
 
 errata: []
-
-temp: Combat

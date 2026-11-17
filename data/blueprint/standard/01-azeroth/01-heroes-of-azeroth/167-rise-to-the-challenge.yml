@@ -11,12 +11,16 @@ trait:
 
 cost: '15'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to your hero and remove all damage from it. Draw cards until you reach your maximum hand size. Ongoing : Attached hero has +10 health.'
+    text: Attach to your hero and remove all damage from it.
+  - type: Ability
+    text: Draw cards until you reach your maximum hand size.
+  - type: Ability
+    text: 'Ongoing: Your hero has +10 health.'
 
 regulation:
 
 errata: []
-
-temp: ''

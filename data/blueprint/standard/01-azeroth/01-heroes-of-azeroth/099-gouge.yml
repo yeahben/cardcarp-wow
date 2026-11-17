@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '1'
@@ -14,12 +17,15 @@ cost: '1'
 class:
   - Rogue
 
-instant: Exhaust target hero or ally. It can't ready during its controller's next ready step.
+talent:
+  - Combat
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Exhaust target hero or ally. It can't ready during its controller's next ready step.
 
 regulation:
 
 errata: []
-
-temp: Combat Combo

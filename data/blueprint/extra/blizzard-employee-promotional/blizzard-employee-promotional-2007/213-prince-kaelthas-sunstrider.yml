@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Traitor
+
 trait:
 
 cost: '9'
@@ -17,12 +20,22 @@ health: 8
 
 combat: Arcane
 
+race: Blood Elf
+
+class:
+  - Mage
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required At the end of your turn, gain control of all ready opposing resources. (Move them to your resource row.)
+    text: Traitor Hero Required
+  - type: Ability
+    text: At the end of your turn, gain control of all ready opposing resources.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage Traitor

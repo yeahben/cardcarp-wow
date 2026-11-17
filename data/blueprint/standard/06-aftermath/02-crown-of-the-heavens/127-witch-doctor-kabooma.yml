@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally deals combat damage to a defending hero, reveal the top card of your deck. This ally deals shadow damage to your hero equal to that revealed card's cost, then put that card into your hand.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Warlock

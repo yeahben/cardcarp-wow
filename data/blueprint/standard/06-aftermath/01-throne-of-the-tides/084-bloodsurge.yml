@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Fury Talent Ongoing : If a hero would deal damage, it deals double that much instead.'
+    text: Fury Talent (You can't put Arms Talents or Protection Talents in your deck.)
+  - type: Ability
+    text: 'Ongoing: If a hero would deal damage, it deals double that much instead.'
 
 regulation:
 
 errata: []
-
-temp: Fury

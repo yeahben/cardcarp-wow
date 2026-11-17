@@ -5,26 +5,30 @@ origin: caverns-of-time-raid-005
 layout: Standard
 
 category:
-  - Ally
+  - Hero
+
+subtype:
+  - Dreadlord
+  - Demon
 
 trait:
 
-cost: '8'
+damage: 0
 
-damage: 9
+health: 25
 
-health: 9
+combat: Shadow
 
-combat: Melee
-
-type: Monster
+type: Caverns
 
 rule:
   - type: Ability
-    text: When Mal'Ganis enters play and when he attacks, Portal . If a Portal power would let you choose one card and put it into play, you may choose any number of cards and put them into play instead. (Each of those cards must still be a legal choice.)
+    text: Flip 2, Assault 3
+  - type: Ability
+    text: "Entrance: Mal'Ganis deals 1 shadow damage to each Raiding hero and ally for each Caverns hero that has been defeated."
+  - type: Ability
+    text: Mal'Ganis has an additional Assault 5 while attacking a Raiding hero with less damage on it than Mal'Ganis.
 
 regulation:
 
 errata: []
-
-temp: Dreadlord Demon

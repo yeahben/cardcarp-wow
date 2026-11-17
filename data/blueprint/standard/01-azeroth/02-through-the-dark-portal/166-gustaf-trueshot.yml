@@ -19,12 +19,21 @@ combat: Ranged
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Dwarf Hero Required Long-Range 1 → Look at the top card of your deck. You may put it into your graveyard.
+    text: Dwarf Hero Required
+  - type: Ability
+    text: Long-Range (Defenders deal no combat damage to this character.)
+  - type: Ability
+    text: '{1} → Look at the top card of your deck. You may put it into your graveyard.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

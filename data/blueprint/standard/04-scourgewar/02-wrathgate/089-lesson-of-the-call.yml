@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: You max exhaust a non-hero Warrior you control rather than pay this ability's cost. Put target ally on top of its owner's deck.
+    text: You may exhaust a non-hero Warrior you control rather than pay this ability's cost.
+  - type: Ability
+    text: Put target ally on top of its owner's deck.
 
 regulation:
 
 errata: []
-
-temp: Fury

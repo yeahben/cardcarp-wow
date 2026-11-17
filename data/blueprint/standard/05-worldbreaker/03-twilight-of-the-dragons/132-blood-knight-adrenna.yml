@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When this ally is destroyed, prevent all damage that would be dealt to target ally you control this turn.
+    text: Protector
+  - type: Ability
+    text: When this ally is destroyed, prevent all damage that would be dealt to target ally you control this turn.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

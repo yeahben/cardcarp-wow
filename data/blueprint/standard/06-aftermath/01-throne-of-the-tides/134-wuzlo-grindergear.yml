@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Weapons you control have Assault 2 .
+    text: Weapons you control have Assault 2. (They have +2 ATK on your turn.)
 
 regulation:
 
 errata: []
-
-temp: Gnome Warrior

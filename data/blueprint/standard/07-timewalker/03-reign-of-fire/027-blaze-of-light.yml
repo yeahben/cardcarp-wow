@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Paladin
 
-instant: Your hero heals 2 unpreventable holy damage to target ally. If that ally is a Demon, remove it from the game instead.
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 2 unpreventable holy damage to target ally. If that ally is a Demon, remove it from the game instead.
 
 regulation:
 
 errata: []
-
-temp: Holy

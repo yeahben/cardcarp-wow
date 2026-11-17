@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Naga
+  - Traitor
+
 trait:
 
 cost: '6'
@@ -17,12 +21,17 @@ health: 3
 
 combat: Melee
 
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required When Coilskar General enters play, put three Naga ally tokens into play with 1 ATK / 1 health.
+    text: Traitor Hero Required
+  - type: Ability
+    text: When Coilskar General enters play, put three Naga ally tokens into play with 1 {melee} ATK / 1 health.
 
 regulation:
 
 errata: []
-
-temp: Naga Warrior Traitor

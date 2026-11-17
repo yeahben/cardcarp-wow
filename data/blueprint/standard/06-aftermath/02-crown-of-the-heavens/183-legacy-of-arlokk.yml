@@ -7,21 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Staff
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 4
+
+combat: Fire
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'On your turn: 2 , , Exhaust your hero → Your hero deals 1 fire damage to target ally. On your turn: 8 , , Exhaust your hero → Your hero deals 4 fire damage to target hero.'
+    text: 'On your turn: {2}, {activate}, Exhaust your hero → Your hero deals 1 fire damage to target ally.'
+  - type: Ability
+    text: 'On your turn: {8}, {activate}, Exhaust your hero → Your hero deals 4 fire damage to target hero.'
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Staff

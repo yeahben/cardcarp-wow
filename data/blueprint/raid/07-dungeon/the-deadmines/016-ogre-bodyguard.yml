@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ogre
+
 trait:
 
 damage: 2
@@ -14,6 +17,11 @@ damage: 2
 health: 4
 
 combat: Melee
+
+class:
+  - Warrior
+
+instant: false
 
 type: Dungeon
 
@@ -24,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Ogre Warrior

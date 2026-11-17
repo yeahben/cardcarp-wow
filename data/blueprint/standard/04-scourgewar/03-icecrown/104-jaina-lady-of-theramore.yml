@@ -19,12 +19,22 @@ combat: Frost
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Mage
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Frost Resistance Each opponent pays 1 more to play cards that share a card type with a card in his graveyard. You pay 1 less to play cards that share a card type with a card in your graveyard, to a minimum of 1.
+    text: Frost Resistance
+  - type: Ability
+    text: Each opponent pays {1} more to play cards that share a card type with a card in his graveyard. You pay {1} less to play cards that share a card type with a card in your graveyard, to a minimum of 1.
 
 regulation:
 
 errata: []
-
-temp: Human Mage

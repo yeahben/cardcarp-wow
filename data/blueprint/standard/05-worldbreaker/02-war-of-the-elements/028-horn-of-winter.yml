@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Death Knight
 
+talent:
+  - Frost
+
+instant: false
+
 rule:
   - type: Ability
-    text: Heroes and allies you control have Assault 1 this turn.
+    text: Heroes and allies you control have Assault 1 this turn. (They have +1 ATK on your turn.)
 
 regulation:
 
 errata: []
-
-temp: Frost

@@ -7,16 +7,31 @@ layout: Standard
 category:
   - Misc
 
+subtype:
+  - Mode
+
 trait:
 
-type: Boss
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
-    text: "At the end of Deathwing's turn, if Cataclysm has twenty or fewer madness counters, add zero to three madness counters to it, determined at random. If Deathwing is dealt 4 or more damage in one turn, remove a madness counter from Cataclysm. At the start of Deathwing's turn, if Cataclysm has: 1-6 madness counters: Put a Corrupted Blood ally token into play for each madness counter. 7-12 madness counters: The MARKED hero's controller destroy two non-hero cards he controls. 13-19 madness counters: The MARKED hero's controller destroys four non-hero cards he controls. 20+ madness counters: Destroy the MARKED hero."
+    text: At the end of Deathwing's turn, if Cataclysm has twenty or fewer madness counters, add zero to three madness counters to it, determined at random.
+  - type: Ability
+    text: If Deathwing is dealt 4 or more damage in one turn, remove a madness counter from Cataclysm.
+  - type: Ability
+    text: "At the start of Deathwing's turn, if Cataclysm has:"
+  - type: Ability
+    text: '1-6 madness counters: Put a Corrupted Blood ally token into play for each madness counter.'
+  - type: Ability
+    text: "7-12 madness counters: The MARKED hero's controller destroys two non-hero cards he controls."
+  - type: Ability
+    text: "13-19 madness counters: The MARKED hero's controller destroys four non-hero cards he controls."
+  - type: Ability
+    text: '20+ madness counters: Destroy the MARKED hero.'
 
 regulation:
 
 errata: []
-
-temp: ''

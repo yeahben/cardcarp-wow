@@ -11,12 +11,14 @@ trait:
 
 cost: '3'
 
+instant: false
+
 rule:
   - type: Ability
-    text: Play only if seven or more Bloods are in play. Remove all damage from target opposing hero and put it on a second target hero.
+    text: Play only if seven or more Bloods are in play.
+  - type: Ability
+    text: Remove all damage from target opposing hero and put it on a second target hero.
 
 regulation:
 
 errata: []
-
-temp: ''

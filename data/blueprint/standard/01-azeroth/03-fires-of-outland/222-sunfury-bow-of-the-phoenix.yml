@@ -7,21 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Bow
+
 trait:
 
 cost: '4'
 
+damage: 2
+
+strike: 2
+
+combat: Ranged
+
 class:
-  - Warrior
   - Hunter
   - Rogue
+  - Warrior
+
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When you strike with Sunfury Bow of the Phoenix, your hero has Long-Range this combat. → Your hero deals 1 ranged damage to target hero.
+    text: When you strike with Sunfury Bow of the Phoenix, your hero has long-range this combat. (Defenders deal no combat damage to it.)
+  - type: Ability
+    text: '{activate} → Your hero deals 1 ranged damage to target hero.'
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Bow

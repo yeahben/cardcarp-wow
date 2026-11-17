@@ -19,6 +19,13 @@ combat: Fire
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, target ally has +3 ATK this turn.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

@@ -1,4 +1,4 @@
-name: What Illidan Wants, Illidan Gets ...
+name: What Illidan Wants, Illidan Gets . . .
 
 origin: the-hunt-for-illidan-252
 
@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'If you control a Demon: Pay 2 to complete this quest. Reward : Draw a card.'
+    text: If a Demon is in your party, pay {2} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

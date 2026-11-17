@@ -7,20 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Bow
+
 trait:
 
 cost: '4'
+
+damage: 3
+
+strike: 4
+
+combat: Ranged
 
 class:
   - Hunter
   - Rogue
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this weapon enters play, you pay 4 less to strike with it this turn.
+    text: When this weapon enters play, you pay {4} less to strike with it this turn.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Bow

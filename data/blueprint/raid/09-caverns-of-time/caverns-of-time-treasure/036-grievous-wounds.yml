@@ -14,6 +14,11 @@ cost: '3'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
     text: Double the damage on each opposing ally.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Fury

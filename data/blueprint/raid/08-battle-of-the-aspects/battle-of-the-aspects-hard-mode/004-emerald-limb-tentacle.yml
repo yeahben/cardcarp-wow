@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Tentacle
+
 trait:
 
 damage: 0
@@ -15,14 +18,18 @@ health: 10
 
 combat: Melee
 
-type: Boss
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
-    text: This ally can't leave play except by fatal damage. At the start of Deathwing's turn, this ally heals 3 damage from Deathwing. When this ally is destroyed, the Raiders choose a hero, and it heals 15 damage from itself.
+    text: This ally can't leave play except by fatal damage.
+  - type: Ability
+    text: At the start of Deathwing's turn, this ally heals 3 damage from Deathwing.
+  - type: Ability
+    text: When this ally is destroyed, the Raiders choose a hero, and it heals 15 damage from itself.
 
 regulation:
 
 errata: []
-
-temp: Tentacle

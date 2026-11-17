@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Destroy another ally in your party → Destroy target ability.
+    text: '{1}, Destroy another ally in your party → Destroy target ability.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Priest

@@ -13,13 +13,16 @@ health: 25
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Mage
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Olvek → Choose "ability", "ally", or "equipment", then reveal the top card of your deck. If it has the chosen type, put it into your hand.
+    text: '{1}, Flip Olvek → Choose "ability," "ally," or "equipment," then reveal the top card of your deck. If it has the chosen type, put it into your hand.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Mage

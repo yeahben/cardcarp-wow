@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Druid
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Restoration Hero Required Ongoing : When you play a Form, you may ready up to X of your resources, where X is its cost.'
+    text: Restoration Hero Required
+  - type: Ability
+    text: 'Ongoing: When you play a Form, you may ready up to X of your resources, where X is its cost.'
 
 regulation:
 
 errata: []
-
-temp: Restoration Talent

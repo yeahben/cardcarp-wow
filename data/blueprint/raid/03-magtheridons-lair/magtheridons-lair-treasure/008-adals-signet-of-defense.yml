@@ -1,14 +1,32 @@
-name: A'dals Signet of Defense
+name: A'dal's Signet of Defense
 
 origin: magtheridons-lair-treasure-008
 
 layout: Standard
 
 category:
+  - Equipment
+
+subtype:
+  - Item
 
 trait:
 
-rule: []
+cost: '1'
+
+class:
+  - Paladin
+  - Warrior
+
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
+
+rule:
+  - type: Ability
+    text: '{activate} → Target armor has +3 DEF this turn.'
 
 regulation:
 

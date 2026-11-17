@@ -19,10 +19,15 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Shaman
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Troll Shaman

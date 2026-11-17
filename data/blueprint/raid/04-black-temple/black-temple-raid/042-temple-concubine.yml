@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Traitor
+
 trait:
 
 cost: '4'
@@ -17,12 +20,16 @@ health: 3
 
 combat: Melee
 
+race: Blood Elf
+
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required If Temple Concubine would be dealt 3 or more damage, prevent it.
+    text: Traitor Hero Required
+  - type: Ability
+    text: If Temple Concubine would be dealt 3 or more damage, prevent it.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Traitor

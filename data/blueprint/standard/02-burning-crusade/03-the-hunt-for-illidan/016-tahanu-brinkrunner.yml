@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+talent:
+  - Restoration
+
+profession:
+  - Enchanting
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 4 , Flip Tahanu → Put target ally card from your graveyard into hand.
+    text: '{4}, Flip Tahanu → Put target ally card from your graveyard into hand.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

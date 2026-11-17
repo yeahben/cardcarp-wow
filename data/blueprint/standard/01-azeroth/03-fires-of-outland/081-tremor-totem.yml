@@ -11,15 +11,26 @@ trait:
 
 cost: '2'
 
+health: 1
+
 class:
   - Shaman
 
-instant: 'Ongoing : At the start of each turn, destroy any number of abilities attached to heroes and allies in your party. (Totems can be attacked or targeted like allies.)'
+talent:
+  - Restoration
 
-rule: []
+limit:
+  - name: Earth Totem
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: At the start of each turn, destroy any number of abilities attached to heroes and allies in your party.'
+  - type: Ability
+    text: (Totems can be attacked or targeted like allies.)
 
 regulation:
 
 errata: []
-
-temp: Restoration 1

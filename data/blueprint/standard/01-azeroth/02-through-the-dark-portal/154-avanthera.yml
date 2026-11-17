@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 → If Avanthera is in combat, remove her from combat.
+    text: '{1} → If Avanthera is in combat, remove her from combat.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Hunter

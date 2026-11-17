@@ -19,12 +19,20 @@ combat: Frost
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Mage
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Opposing allies can't attack."
+    text: Opposing allies can't attack.
 
 regulation:
 
 errata: []
-
-temp: Human Mage

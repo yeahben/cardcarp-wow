@@ -9,12 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: Opponents can't use hero powers this turn. You can use opposing hero powers this turn.
+    text: Opponents can't use hero powers this turn.
+  - type: Ability
+    text: You can use opposing hero powers this turn.
 
 regulation:
 
 errata: []
-
-temp: ''

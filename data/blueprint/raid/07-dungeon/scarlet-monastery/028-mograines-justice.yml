@@ -1,4 +1,4 @@
-name: Mograines Justice
+name: Mograine's Justice
 
 origin: scarlet-monastery-028
 
@@ -9,14 +9,20 @@ category:
 
 trait:
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: 'Level 1 : Destroy all Raiding allies that have or share the highest among Raiding allies. Level 2 : Each Raider chooses and destroys a resource he controls. Level 3 : Each Raider discards two cards. Level 4 : Put two random bosses from the Dungeon graveyard into play.'
+    text: 'Level 1: Destroy all Raiding allies that have or share the highest {health} among Raiding allies.'
+  - type: Ability
+    text: 'Level 2: Each Raider chooses and destroys a resource he controls.'
+  - type: Ability
+    text: 'Level 3: Each Raider discards two cards.'
+  - type: Ability
+    text: 'Level 4: Put two random bosses from the Dungeon graveyard into play.'
 
 regulation:
 
 errata: []
-
-temp: ''

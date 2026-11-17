@@ -7,21 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Dagger
+
 trait:
 
 cost: '4'
 
+damage: 1
+
+strike: 3
+
+combat: Melee
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: At the start of your turn, you may pay 4 and destroy this weapon. If you do, destroy all abilities, allies, and equipment.
+    text: At the start of your turn, you may pay {4} and destroy this weapon. If you do, destroy all abilities, allies, and equipment.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

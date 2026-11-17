@@ -7,17 +7,34 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Eredar
+  - Demon
+
 trait:
 
-type: Boss
+damage: 0
+
+health: 30
+
+combat: Shadow
+
+class:
+  - Warlock
+
+type: Caverns
 
 rule:
   - type: Ability
     position: Front
-    text: 'Flip 1 , Assault 4 , Long-Range Entrance : Flip a Caverns card for each Caverns hero that has been defeated. When a Caverns card is flipped, do the following: Ally: Each Raider chooses and destroys an ally he controls. Ability: Each Raider chooses and discards a card. Event: Each Raider chooses two face up resources he controls and turns them face down.'
+    text: Flip 1, Assault 4, Long-Range
+  - type: Ability
+    position: Front
+    text: 'Entrance: Flip a Caverns card for each Caverns hero that has been defeated.'
+  - type: Ability
+    position: Front
+    text: 'When a Caverns card is flipped, do the following: Ally: Each Raider chooses and destroys an ally he controls. Ability: Each Raider chooses and discards a card. Event: Each Raider chooses two face up resources he controls and turns them face down.'
 
 regulation:
 
 errata: []
-
-temp: Eredar Demon Warlock 30

@@ -19,12 +19,19 @@ combat: Fire
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Escape Artist Your hero is Untargetable .
+    text: Escape Artist (When this ally becomes targeted by an opposing card or effect, you may put it into its owner's hand.)
+  - type: Ability
+    text: Your hero is untargetable.
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

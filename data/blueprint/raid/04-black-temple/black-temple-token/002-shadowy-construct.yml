@@ -7,7 +7,13 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Shadowy
+  - Construct
+
 trait:
+  - Ghost Construct
 
 damage: 2
 
@@ -15,14 +21,14 @@ health: 1
 
 combat: Melee
 
-type: Ally
+instant: false
 
 rule:
   - type: Ability
-    text: When Teron Gorefiend is destroyed, destroy Shadowy Construct. (This ally is a ghost, but it can attack only non-ghosts. See ghost rules.)
+    text: When Teron Gorefiend is destroyed, destroy Shadowy Construct.
+  - type: Ability
+    text: (This ally is a ghost, but it can attack only non-ghosts. See ghost rules.)
 
 regulation:
 
 errata: []
-
-temp: Shadowy Construct

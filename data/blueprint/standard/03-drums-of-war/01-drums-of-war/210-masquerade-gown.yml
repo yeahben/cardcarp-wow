@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '6'
+
+defense: 0
 
 class:
   - Druid
   - Priest
 
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Target ally in your party becomes a copy of a second target ally in your party this turn.
+    text: '{activate} → Target ally in your party becomes a copy of a second target ally in your party this turn.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

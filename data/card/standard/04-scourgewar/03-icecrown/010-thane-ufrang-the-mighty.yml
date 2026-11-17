@@ -2,13 +2,13 @@ blueprint: thane-ufrang-the-mighty-icecrown-010
 
 index: '010'
 
-rarity:
+rarity: Uncommon
 
-artist:
+artist: Phroilan Gardner
 
 variation:
   - Flip
 
-flavor:
+flavor: '"You dare challenge the might of the vrykul in our homelands? By Valhalas, you will soon be nothing more than a mindless servant of undeath."'
 
 set: Icecrown

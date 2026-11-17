@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Death Knight
 
+talent:
+  - Frost
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally. Ongoing : Attached ally has -2 / -2.'
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has -2 / -2.'
 
 regulation:
 
 errata: []
-
-temp: Frost

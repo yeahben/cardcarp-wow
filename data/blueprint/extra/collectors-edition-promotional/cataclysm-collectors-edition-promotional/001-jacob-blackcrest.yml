@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Warlock
+
+talent:
+  - Demonology
+
+profession:
+  - Enchanting
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: 4 , Flip Jacob → Put target Demon from your graveyard into your hand.
+    text: '{4}, Flip Jacob → Put target Demon from your graveyard into your hand.'
 
 regulation:
 
 errata: []
-
-temp: Worgen Warlock

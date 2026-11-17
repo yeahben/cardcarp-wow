@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Harmonize Mend 2
+    text: Harmonize (You pay {1} less to play allies with printed cost 4 or more.)
+  - type: Ability
+    text: Mend 2 (At the start of your turn, this ally may heal 2 damage from target hero or ally.)
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

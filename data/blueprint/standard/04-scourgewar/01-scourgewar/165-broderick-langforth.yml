@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: While this ally is in your graveyard, your hero has Assault 1 .
+    text: While this ally is in your graveyard, your hero has Assault 1.
 
 regulation:
 
 errata: []
-
-temp: Undead Mage

@@ -13,12 +13,16 @@ cost: '3'
 
 faction: Horde
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Troll Hero Required Ongoing : When your hero is dealt damage, put a berserk counter on Berserking. When your hero attacks, remove all berserk counters from Berserking. Your hero has +1 ATK this combat for each counter you removed.'
+    text: Troll Hero Required
+  - type: Ability
+    text: 'Ongoing: When your hero is dealt damage, put a berserk counter on Berserking.'
+  - type: Ability
+    text: When your hero attacks, remove all berserk counters from Berserking. Your hero has +1 ATK this combat for each counter you removed.
 
 regulation:
 
 errata: []
-
-temp: ''

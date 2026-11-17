@@ -13,12 +13,12 @@ cost: '4'
 
 faction: Alliance
 
-instant: Target ally has " → Destroy target ally." this turn.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Target ally has "{activate} → Destroy target ally" this turn.
 
 regulation:
 
 errata: []
-
-temp: ''

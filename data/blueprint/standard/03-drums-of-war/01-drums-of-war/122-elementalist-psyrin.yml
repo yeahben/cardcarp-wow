@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Psyrin can't attack. → Target ally has +3 ATK this turn.
+    text: Psyrin can't attack.
+  - type: Ability
+    text: '{activate} → Target ally has +3 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

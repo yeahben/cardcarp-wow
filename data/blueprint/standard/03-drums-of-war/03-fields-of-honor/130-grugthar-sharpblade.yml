@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, choose a hero or ally in your party. Other characters can't attack this turn.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Orc Rogue

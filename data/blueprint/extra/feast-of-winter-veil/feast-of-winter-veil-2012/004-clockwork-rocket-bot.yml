@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Mechanical
+
 trait:
 
 cost: '3'
@@ -17,6 +20,8 @@ health: 2
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, target another random hero or ally. This ally and that targeted character deal melee damage to each other equal to their respective ATK.
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Mechanical

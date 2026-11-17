@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Nerubian
+
 trait:
 
 cost: '1'
@@ -17,12 +20,14 @@ health: 3
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: Nerubian Reputation At the start of your turn, discard a card.
+    text: Nerubian Reputation (You can't put cards with other reputations in your deck.)
+  - type: Ability
+    text: At the start of your turn, discard a card.
 
 regulation:
 
 errata: []
-
-temp: Nerubian

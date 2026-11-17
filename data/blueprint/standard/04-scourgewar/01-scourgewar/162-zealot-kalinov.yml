@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: While this ally is in your graveyard, your hero has Mend 1 .
+    text: While this ally is in your graveyard, your hero has Mend 1.
 
 regulation:
 
 errata: []
-
-temp: Human Priest

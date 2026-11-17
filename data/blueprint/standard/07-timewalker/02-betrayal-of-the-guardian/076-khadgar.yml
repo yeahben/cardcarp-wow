@@ -19,12 +19,23 @@ combat: Arcane
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Mage
+
+limit:
+  - name: Khadgar
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: You pay 2 less to play abilities, to a minimum of 1 . When you play an ability, you may ready Khadgar.
+    text: You pay {2} less to play abilities, to a minimum of {1}.
+  - type: Ability
+    text: When you play an ability, you may ready Khadgar.
 
 regulation:
 
 errata: []
-
-temp: Human Mage

@@ -11,12 +11,14 @@ trait:
 
 cost: '1'
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : At the start of your turn, if it's stage 2, roll a die and put that many Whelps into play. Destroy The Whelp Pits → Roll a die and put that many Whelps into play."
+    text: "Ongoing: At the start of your turn, if it's stage 2, roll a die and put that many Whelps into play."
+  - type: Ability
+    text: Destroy The Whelp Pits → Roll a die and put that many Whelps into play.
 
 regulation:
 
 errata: []
-
-temp: ''

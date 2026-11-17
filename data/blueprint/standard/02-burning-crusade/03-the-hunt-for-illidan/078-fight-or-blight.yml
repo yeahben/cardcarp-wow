@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Poison
+
 trait:
 
 cost: '1'
@@ -14,12 +17,17 @@ cost: '1'
 class:
   - Rogue
 
-instant: 'Choose one: Target hero has Stealth this turn; or attach to target hero or ally that your hero dealt combat damage to this turn. Ongoing : At the start of your turn, your hero deals 1 nature damage to attached character.'
+talent:
+  - Subtlety
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Choose one: Target hero has stealth this turn; or attach to target hero or ally that your hero dealt combat damage to this turn.'
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero deals 1 nature damage to attached character.'
 
 regulation:
 
 errata: []
-
-temp: Subtlety Poison

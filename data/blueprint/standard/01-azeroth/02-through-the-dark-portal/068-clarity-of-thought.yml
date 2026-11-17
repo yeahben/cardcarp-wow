@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Priest
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : → Draw a card. Use only if your hero has no damage on it.'
+    text: 'Ongoing: {activate} → Draw a card. Use only if your hero has no damage on it.'
 
 regulation:
 
 errata: []
-
-temp: Holy

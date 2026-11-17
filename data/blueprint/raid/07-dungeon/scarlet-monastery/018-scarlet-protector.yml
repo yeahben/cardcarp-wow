@@ -15,14 +15,19 @@ health: 4
 
 combat: Holy
 
+race: Human
+
+class:
+  - Paladin
+
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: This ally attacks the Raiding ally with the highest printed instead of the MARKED hero, if able. If two or more Raiding allies are tied, the Raiders choose. If unable to attack allies, she attacks the MARKED hero.
+    text: This ally attacks the Raiding ally with the highest printed {health} instead of the MARKED hero, if able. If two or more Raiding allies are tied, the Raiders choose. If unable to attack allies, she attacks the MARKED hero.
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

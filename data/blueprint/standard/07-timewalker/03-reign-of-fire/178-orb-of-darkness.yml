@@ -7,21 +7,24 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
-  - Priest
   - Death Knight
+  - Priest
   - Warlock
+
+instant: false
 
 rule:
   - type: Ability
-    text: 1 , {exhaust} → Target opponent puts the top three cards of his deck into his graveyard unless he chooses and discards a card.
+    text: '{1}, {activate} → Target opponent puts the top three cards of his deck into his graveyard unless he chooses and discards a card.'
 
 regulation:
 
 errata: []
-
-temp: Item

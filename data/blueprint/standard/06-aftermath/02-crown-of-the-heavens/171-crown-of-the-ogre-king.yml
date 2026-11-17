@@ -7,28 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '3'
 
+defense: 2
+
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Heroes and allies you control with Smash have Assault 3 .
+    text: Heroes and allies you control with Smash have Assault 3.
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

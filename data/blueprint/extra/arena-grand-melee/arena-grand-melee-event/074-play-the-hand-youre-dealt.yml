@@ -9,6 +9,8 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
     text: Ignoring heroes and resources, count how many cards in play each player controls, then shuffle them all together. Deal each player the number of cards he controlled, and he puts them into play.
@@ -16,5 +18,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

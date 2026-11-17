@@ -14,6 +14,11 @@ cost: '1'
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
     text: Look at the top five cards of your deck. Choose one, shuffle the rest into your deck, then put that card on top.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Enhancement

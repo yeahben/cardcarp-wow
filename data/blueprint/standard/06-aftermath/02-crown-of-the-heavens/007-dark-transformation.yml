@@ -14,12 +14,21 @@ cost: '5'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Unholy Talent Attach to target Ghoul. Ongoing : Attached Ghoul has +7 / +7. When attached Ghoul deals damage to an opposing hero, destroy target opposing ally.'
+    text: Unholy Talent (You can't put Blood Talents or Frost Talents in your deck.)
+  - type: Ability
+    text: Attach to target Ghoul.
+  - type: Ability
+    text: 'Ongoing: Attached Ghoul has +7 / +7.'
+  - type: Ability
+    text: When attached Ghoul deals damage to an opposing hero, destroy target opposing ally.
 
 regulation:
 
 errata: []
-
-temp: Unholy Attachment

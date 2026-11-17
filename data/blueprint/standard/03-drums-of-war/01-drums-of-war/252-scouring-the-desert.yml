@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'Pay 4 to complete this quest. Reward : Draw a card. You may shuffle your graveyard into your deck.'
+    text: Pay {4} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card. You may shuffle your graveyard into your deck.'
 
 regulation:
 
 errata: []
-
-temp: ''

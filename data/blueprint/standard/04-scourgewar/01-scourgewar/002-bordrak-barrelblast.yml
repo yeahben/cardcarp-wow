@@ -13,6 +13,18 @@ health: 28
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
+talent:
+  - Marksmanship
+
+profession:
+  - Leatherworking
+  - Inscription
+
 rule:
   - type: Ability
     position: Front
@@ -21,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

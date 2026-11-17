@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '1'
@@ -14,12 +17,19 @@ cost: '1'
 class:
   - Druid
 
-instant: 'Feral Hero Required Ongoing : While in cat form, your hero has +2 ATK while attacking an exhausted defender. While in bear form, your hero has +4 ATK while protecting.'
+talent:
+  - Feral
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Feral Hero Required
+  - type: Ability
+    text: 'Ongoing: While in cat form, your hero has +2 ATK while attacking an exhausted defender.'
+  - type: Ability
+    text: While in bear form, your hero has +4 ATK while protecting.
 
 regulation:
 
 errata: []
-
-temp: Feral Talent

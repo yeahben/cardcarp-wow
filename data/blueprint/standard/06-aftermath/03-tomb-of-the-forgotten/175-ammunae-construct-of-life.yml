@@ -7,28 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: Your hero has "If damage would be healed from a hero or ally you control, that much +1 is healed instead." At the start of your turn and when 1 or more damage is healed from a hero or ally you control, put a power counter on this item. At the end of your turn, if this item has five or more power counters on it, destroy it. If you do, put six 0 / 1 Bloodpetal ally tokens into play with Mend 1 .
+    text: Your hero has "If damage would be healed from a hero or ally you control, that much +1 is healed instead."
+  - type: Ability
+    text: At the start of your turn and when 1 or more damage is healed from a hero or ally you control, put a power counter on this item.
+  - type: Ability
+    text: At the end of your turn, if this item has five or more power counters on it, destroy it. If you do, put six 0 {nature} / 1 {health} Bloodpetal ally tokens into play with Mend 1.
 
 regulation:
 
 errata: []
-
-temp: Item

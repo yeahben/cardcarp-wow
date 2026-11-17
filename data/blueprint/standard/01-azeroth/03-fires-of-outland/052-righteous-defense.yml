@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Paladin
 
-instant: Remove target friendly defending ally from combat, and your hero becomes a defender. Opposing heroes and allies can't attack that ally this turn.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Remove target friendly defending ally from combat, and your hero becomes a defender. Opposing heroes and allies can't attack that ally this turn.
 
 regulation:
 
 errata: []
-
-temp: Protection

@@ -12,8 +12,14 @@ trait:
 cost: '3'
 
 class:
-  - Warlock
   - Mage
+  - Warlock
+
+talent:
+  - Fire
+  - Destruction
+
+instant: false
 
 rule:
   - type: Ability
@@ -22,5 +28,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Fire Destruction

@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : At the start of your turn, each opponent puts a card from the top of his deck into his graveyard for each hero and ally he controls.'
+    text: 'Ongoing: At the start of your turn, each opponent puts a card from the top of his deck into his graveyard for each hero and ally he controls.'
 
 regulation:
 
 errata: []
-
-temp: Unholy

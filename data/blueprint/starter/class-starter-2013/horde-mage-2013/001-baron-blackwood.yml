@@ -13,13 +13,16 @@ health: 25
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Mage
+
 rule:
   - type: Ability
     position: Front
-    text: 5 , Flip Blackwood → Blackwood deals 4 fire damage to each opposing hero, and 1 fire damage to each opposing ally.
+    text: '{basic} {5}, Flip Blackwood → Blackwood deals 4 fire damage to each opposing hero, and 1 fire damage to each opposing ally.'
 
 regulation:
 
 errata: []
-
-temp: Undead Mage

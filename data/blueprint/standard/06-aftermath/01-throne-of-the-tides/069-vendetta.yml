@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
-    text: Assassination Talent Destroy target exhausted ally, or gain control of it if you have no cards in your hand.
+    text: Assassination Talent (You can't put Combat Talents or Subtlety Talents in your deck.)
+  - type: Ability
+    text: Destroy target exhausted ally, or gain control of it if you have no cards in your hand.
 
 regulation:
 
 errata: []
-
-temp: Assassination

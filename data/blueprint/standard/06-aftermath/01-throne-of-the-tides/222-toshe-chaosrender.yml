@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Taunka
+
 trait:
 
 cost: '4'
@@ -17,12 +20,23 @@ health: 0
 
 combat: Nature
 
+class:
+  - Shaman
+
+limit:
+  - name: Toshe
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Opponents can't complete quests. You can complete opposing quests. (You get the rewards.) Toshe has +1 / +1 for each opposing face-down resource.
+    text: Opponents can't complete quests.
+  - type: Ability
+    text: You can complete opposing quests. (You get the rewards.)
+  - type: Ability
+    text: Toshe has +1 / +1 for each opposing face-down resource.
 
 regulation:
 
 errata: []
-
-temp: Taunka Shaman

@@ -13,10 +13,10 @@ faction: Horde
 
 rule:
   - type: Ability
-    text: "While more allies are in an opponent's party than in yours, pay 2 to complete this quest. Reward : Draw a card."
+    text: While more allies are in an opponent's party than in yours, pay {2} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

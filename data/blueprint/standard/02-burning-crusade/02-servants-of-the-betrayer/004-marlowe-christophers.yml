@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+talent:
+  - Destruction
+
+profession:
+  - Alchemy
+  - Enchanting
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 6 , Flip Marlowe → Target hero or ally has -5 this turn.'
+    text: '{6}, Flip Marlowe → Target hero or ally has -5 health this turn. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

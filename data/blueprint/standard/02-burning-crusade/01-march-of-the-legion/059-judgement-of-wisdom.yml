@@ -14,12 +14,17 @@ cost: '5'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target opposing hero or ally. Ongoing : When a friendly hero or ally deals combat damage to attached character, that friendly character's controller draws a card."
+    text: Attach to target opposing hero or ally.
+  - type: Ability
+    text: "Ongoing: When a friendly hero or ally deals combat damage to attached character, that friendly character's controller draws a card."
 
 regulation:
 
 errata: []
-
-temp: Holy

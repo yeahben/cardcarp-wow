@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Pit Lord
+  - Demon
+
 trait:
 
 cost: '7'
@@ -17,14 +21,16 @@ health: 7
 
 combat: Melee
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Monster Hero Required This ally has +7 / +7 while an opponent controls a or hero.
+    text: Monster Hero Required
+  - type: Ability
+    text: This ally has +7 / +7 while an opponent controls a {horde} or {alliance} hero.
 
 regulation:
 
 errata: []
-
-temp: Pit Lord Demon

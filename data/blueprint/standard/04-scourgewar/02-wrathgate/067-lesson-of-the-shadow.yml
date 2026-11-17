@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Rogue
 
-instant: You may exhaust a non-hero Rogue you control rather than pay this ability's cost. Target hero or ally has Assault 3 and Stealth this turn.
+talent:
+  - Subtlety
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: You may exhaust a non-hero Rogue you control rather than pay this ability's cost.
+  - type: Ability
+    text: Target hero or ally has Assault 3 and Stealth this turn.
 
 regulation:
 
 errata: []
-
-temp: Subtlety Combo

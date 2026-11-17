@@ -7,17 +7,38 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Infinite
+  - Dragonkin
+  - Aspect
+
 trait:
 
-type: Boss
+damage: 0
+
+health: 30
+
+combat: Arcane
+
+type: Caverns
 
 rule:
   - type: Ability
     position: Front
-    text: "Long-Range If Murozond is the first Caverns hero, put him on the bottom of the Caverns hero pile. Entrance : Put a time counter on Murozond for each Caverns hero that has been defeated. At the start of Murozond's turn, put a time counter on him. Murozond has Flip X and Assault X , where X is the number of time counters on him."
+    text: Long-Range
+  - type: Ability
+    position: Front
+    text: If Murozond is the first Caverns hero, put him on the bottom of the Caverns hero pile.
+  - type: Ability
+    position: Front
+    text: 'Entrance: Put a time counter on Murozond for each Caverns hero that has been defeated.'
+  - type: Ability
+    position: Front
+    text: At the start of Murozond's turn, put a time counter on him.
+  - type: Ability
+    position: Front
+    text: Murozond has Flip X and Assault X, where X is the number of time counters on him.
 
 regulation:
 
 errata: []
-
-temp: Infinite Dragonkin Aspect 30

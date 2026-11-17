@@ -7,21 +7,28 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '1'
 
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Neck
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Your hero has Spellshield .
+    text: Your hero has Spellshield.
 
 regulation:
 
 errata: []
-
-temp: Item Neck

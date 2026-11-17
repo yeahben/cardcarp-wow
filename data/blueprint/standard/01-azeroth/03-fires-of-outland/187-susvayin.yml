@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Sus'vayin has Ferocity and Long-Range while more allies are in an opponent's party than in yours.
+    text: Sus'vayin has ferocity and long-range while more allies are in an opponent's party than in yours.
 
 regulation:
 
 errata: []
-
-temp: Troll Mage

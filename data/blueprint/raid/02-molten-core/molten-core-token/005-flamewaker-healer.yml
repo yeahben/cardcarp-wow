@@ -7,7 +7,12 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Flamewaker
+
 trait:
+  - 'Majordomo Executus: 4'
 
 damage: 1
 
@@ -15,14 +20,12 @@ health: 3
 
 combat: Melee
 
-type: Ally
+instant: false
 
 rule:
   - type: Ability
-    text: → Flamewaker Healer deals 1 shadow damage to each hero and ally in target opponent's party.
+    text: "{activate} → Flamewaker Healer deals 1 shadow damage to each hero and ally in target opponent's party."
 
 regulation:
 
 errata: []
-
-temp: Flamewaker

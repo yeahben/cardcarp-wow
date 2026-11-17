@@ -7,21 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Sword
+
 trait:
 
 cost: '4'
 
+damage: 4
+
+strike: 3
+
+combat: Melee
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: At the start of your turn, if this weapon is in your graveyard, you may pay 1 . If you do, put it into your hand.
+    text: At the start of your turn, if this weapon is in your graveyard, you may pay {1}. If you do, put it into your hand.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Sword

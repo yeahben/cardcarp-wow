@@ -19,10 +19,15 @@ combat: Arcane
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Mage
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Night Elf Mage

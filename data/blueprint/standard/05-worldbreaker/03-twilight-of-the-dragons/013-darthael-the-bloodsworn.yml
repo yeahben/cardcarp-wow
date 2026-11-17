@@ -13,16 +13,19 @@ health: 30
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Warrior
+
 rule:
   - type: Ability
     position: Front
-    text: 4 → Flip Dar'thael face down.
+    text: "{4} → Flip Dar'thael"
   - type: Ability
     position: Reverse
-    text: Protector
+    text: Protector (Dar'thael may exhaust to become the defender when an opposing hero or ally attacks.)
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Warrior

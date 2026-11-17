@@ -14,12 +14,15 @@ cost: '7'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: You may put an ally card from your hand into play. If you do, destroy a second target ally in your party, then put a third ally card from your graveyard into hand.
+    text: You may put an ally card from your hand into play. If you do, destroy a second target ally in your party, then put a third target ally card from your graveyard into hand.
 
 regulation:
 
 errata: []
-
-temp: Demonology

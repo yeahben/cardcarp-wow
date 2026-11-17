@@ -7,28 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Naga allies you control have Assault 3 . On your turn: → Target ally you control is also a Naga this turn, and if it would deal any type of damage this turn, it deals frost damage instead.'
+    text: Naga allies you control have Assault 3.
+  - type: Ability
+    text: 'On your turn: {activate} → Target ally you control is also a Naga this turn, and if it would deal any type of damage this turn, it deals frost damage instead.'
 
 regulation:
 
 errata: []
-
-temp: Item

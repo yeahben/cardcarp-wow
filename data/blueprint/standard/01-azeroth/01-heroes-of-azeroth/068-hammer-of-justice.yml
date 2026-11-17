@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Paladin
 
-instant: Exhaust target hero or ally. It can't ready during its controller's next ready step. Draw a card.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Exhaust target hero or ally. It can't ready during its controller's next ready step.
+  - type: Ability
+    text: Draw a card.
 
 regulation:
 
 errata: []
-
-temp: Protection

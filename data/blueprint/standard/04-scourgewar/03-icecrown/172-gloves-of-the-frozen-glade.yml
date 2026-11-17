@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '3'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Hands
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: '3 , → Ready your hero and all Melee weapons you control. Death Rattle : Your hero has Stealth this turn.'
+    text: '{3}, {activate} → Ready your hero and all Melee weapons you control.'
+  - type: Ability
+    text: 'Death Rattle: Your hero has Stealth this turn.'
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

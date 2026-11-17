@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Mage
 
-instant: 'Attach to target friendly hero or ally. Ongoing : If damage would be healed from attached character, that much damage +2 is healed instead.'
+talent:
+  - Arcane
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target friendly hero or ally.
+  - type: Ability
+    text: 'Ongoing: If damage would be healed from attached character, that much damage +2 is healed instead.'
 
 regulation:
 
 errata: []
-
-temp: Arcane

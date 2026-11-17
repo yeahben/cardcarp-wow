@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Shadowfiend
+
 trait:
 
 cost: '2'
@@ -20,12 +23,19 @@ combat: Shadow
 class:
   - Priest
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity When this ally deals combat damage to a hero, ready a resource you control. At the end of your turn, put this ally into its owner's hand.
+    text: Ferocity
+  - type: Ability
+    text: When Shadowfiend deals combat damage to a hero, ready one of your resources.
+  - type: Ability
+    text: At the end of your turn, put Shadowfiend into its owner's hand.
 
 regulation:
 
 errata: []
-
-temp: Shadowfiend

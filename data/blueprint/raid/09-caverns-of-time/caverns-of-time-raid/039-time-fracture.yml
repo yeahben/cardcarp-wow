@@ -7,16 +7,21 @@ layout: Standard
 category:
   - Event
 
+subtype:
+  - Murozond
+
 trait:
 
-type: Boss
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
-    text: Switch the ATK and Health of each Raiding ally this turn. If Murozond is the Caverns hero, double the number of time counters on him.
+    text: Switch the ATK and Health of each Raiding ally this turn.
+  - type: Ability
+    text: If Murozond is the Caverns hero, double the number of time counters on him.
 
 regulation:
 
 errata: []
-
-temp: Murozond

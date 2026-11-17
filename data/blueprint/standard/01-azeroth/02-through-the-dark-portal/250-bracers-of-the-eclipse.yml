@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '2'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Wrist
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Remove Bracers of the Eclipse from the Game → Remove your deck from the game. Shuffle your graveyard face down. It is now your deck.
+    text: '{1}, Remove Bracers of the Eclipse from the game → Remove your deck from the game. Shuffle your graveyard face down. It is now your deck.'
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

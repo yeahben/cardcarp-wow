@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: When 1 or more damage is healed from a hero or ally you control, you may pay 1 . If you do, put a 1 / 1 Treant ally token into play.
+    text: When 1 or more damage is healed from a hero or ally you control, you may pay {1}. If you do, put a 1 {melee} / 1 {health} Treant ally token into play.
 
 regulation:
 
 errata: []
-
-temp: Worgen Druid

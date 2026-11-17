@@ -9,12 +9,18 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: If you're at a convention, draw three cards. If you're in a store, draw two cards. If you're at home, draw a card. If you're at work, all players discard their cards. (You should be working!)
+    text: If you're at a convention, draw three cards.
+  - type: Ability
+    text: If you're in a store, draw two cards.
+  - type: Ability
+    text: If you're in a home, draw a card.
+  - type: Ability
+    text: If you're at work, all players discard their hands. (You should be working!)
 
 regulation:
 
 errata: []
-
-temp: ''

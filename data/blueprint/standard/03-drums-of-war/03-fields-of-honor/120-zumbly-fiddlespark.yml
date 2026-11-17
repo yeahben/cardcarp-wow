@@ -19,12 +19,21 @@ combat: Melee
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Escape Artist When Zumbly leaves play, target ally is a Protector this turn.
+    text: Protector
+  - type: Ability
+    text: Escape Artist (When this ally becomes targeted by an opposing card or effect, you may put it into its owner's hand.)
+  - type: Ability
+    text: When Zumbly leaves play, target ally is a protector this turn.
 
 regulation:
 
 errata: []
-
-temp: Gnome Warrior

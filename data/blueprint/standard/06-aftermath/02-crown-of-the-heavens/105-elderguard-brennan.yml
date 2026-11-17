@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
     text: This ally enters play with 4 damage on him.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Death Knight

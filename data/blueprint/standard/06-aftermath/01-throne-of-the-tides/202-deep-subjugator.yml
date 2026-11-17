@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Merciless One
+
 trait:
 
 cost: '3'
@@ -17,14 +20,16 @@ health: 2
 
 combat: Melee
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Elusive This ally has +2 / +2 while you control another Merciless One.
+    text: Elusive (This ally can't be attacked.)
+  - type: Ability
+    text: This ally has +2 / +2 while you control another Merciless One.
 
 regulation:
 
 errata: []
-
-temp: Merciless One

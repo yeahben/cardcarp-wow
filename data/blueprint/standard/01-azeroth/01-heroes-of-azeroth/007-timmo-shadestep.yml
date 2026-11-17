@@ -13,13 +13,23 @@ health: 27
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Rogue
+
+talent:
+  - Assassination
+
+profession:
+  - Engineering
+  - Mining
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 5 , Flip Timmo → Destroy target exhausted ally.'
+    text: '{5}, Flip Timmo Shadestep → Destroy target exhausted ally. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Rogue

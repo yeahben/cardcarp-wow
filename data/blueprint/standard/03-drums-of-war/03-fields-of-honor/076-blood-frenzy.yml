@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '1'
@@ -14,12 +17,17 @@ cost: '1'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Arms Hero Required Ongoing : Heroes and allies in your party have +1 ATK while in combat with heroes and allies with an attachment.'
+    text: Arms Hero Required
+  - type: Ability
+    text: 'Ongoing: Heroes and allies in your party have +1 ATK while in combat with heroes and allies with an attachment.'
 
 regulation:
 
 errata: []
-
-temp: Arms Talent

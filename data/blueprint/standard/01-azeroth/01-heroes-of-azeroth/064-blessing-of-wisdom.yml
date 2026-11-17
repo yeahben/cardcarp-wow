@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Blessing
+
 trait:
 
 cost: '5'
@@ -14,12 +17,17 @@ cost: '5'
 class:
   - Paladin
 
-instant: 'Attach to target hero or ally. Ongoing : Attached character has " → Draw a card."'
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target hero or ally.
+  - type: Ability
+    text: 'Ongoing: Attached character has "{activate} → Draw a card."'
 
 regulation:
 
 errata: []
-
-temp: Holy Blessing

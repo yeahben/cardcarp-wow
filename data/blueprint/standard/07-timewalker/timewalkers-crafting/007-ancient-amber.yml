@@ -7,28 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '5'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: At the start of your turn, you may destroy this item. If you do, reveal the top card of your deck. If its cost is odd, put a 7 / 7 Devilsaur Beast Monster ally token into play with Ferocity and Smash . Otherwise, put a 1 / 1 Frog Beast Monster ally token into play.
+    text: At the start of your turn, you may destroy this item. If you do, reveal the top card of your deck. If its cost is odd, put a 7 {melee} / 7 {health} Devilsaur Beast Monster ally token into play with Ferocity and Smash. Otherwise, put a 1 {melee} / 1 {health} Frog Beast Monster ally token into play.
 
 regulation:
 
 errata: []
-
-temp: Item

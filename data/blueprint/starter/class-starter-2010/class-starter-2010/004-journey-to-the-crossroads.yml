@@ -13,10 +13,10 @@ faction: Horde
 
 rule:
   - type: Ability
-    text: 'Pay 5 to complete this quest. Reward : Draw a card for each different race among heroes and allies you control.'
+    text: Pay {5} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card for each different {horde} race among heroes and allies you control.'
 
 regulation:
 
 errata: []
-
-temp: ''

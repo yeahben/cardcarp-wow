@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: 3 , Destroy Tyrus Sheynathren → Interrupt target ability card.
+    text: '{3}, Destroy Tyrus Sheynathren → Interrupt target ability card.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Priest

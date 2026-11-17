@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,25 @@ cost: '3'
 class:
   - Druid
 
-instant: 'Restoration Hero Required Ongoing : You pay 1 less to play Restoration abilities, to a minimum of 1 . If damage would be healed from a friendly hero or ally, that much damage +1 is healed. When you play a non-Restoration ability, destroy Tree of Life.'
+talent:
+  - Restoration
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: Restoration Hero Required
+  - type: Ability
+    text: 'Ongoing: You pay {1} less to play Restoration abilities, to a minimum of {1}.'
+  - type: Ability
+    text: If damage would be healed from a friendly hero or ally, that much damage +1 is healed instead.
+  - type: Ability
+    text: When you play a non-Restoration ability, destroy Tree of Life.
 
 regulation:
 
 errata: []
-
-temp: Restoration Talent

@@ -13,13 +13,23 @@ health: 25
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Mage
+
+talent:
+  - Arcane
+
+profession:
+  - Jewelcrafting
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: 5 , Flip Ruby Gemsparkle → Draw two cards.
+    text: '{5}, Flip Ruby Gemsparkle → Draw two cards.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Mage

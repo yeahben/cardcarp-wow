@@ -19,6 +19,13 @@ combat: Nature
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, target opposing ally can't ready during its controller's ready step while this ally remains under your control.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Hunter
 
-instant: Your hero deals 1 ranged damage to target hero or ally. Ready one of your resources for each damage dealt this way.
+talent:
+  - Marksmanship
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 1 ranged damage to target hero or ally. Ready one of your resources for each damage dealt this way.
 
 regulation:
 
 errata: []
-
-temp: Marksmanship

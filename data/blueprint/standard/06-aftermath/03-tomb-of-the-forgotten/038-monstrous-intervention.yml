@@ -14,12 +14,15 @@ cost: '6'
 class:
   - Priest
 
-instant: Monster heroes and allies you control have Invincible this turn.
+talent:
+  - Discipline
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Monster heroes and allies you control have Invincible this turn. (They can't leave play, be targeted, or be dealt damage.)
 
 regulation:
 
 errata: []
-
-temp: Discipline

@@ -14,12 +14,19 @@ cost: '5'
 class:
   - Rogue
 
-instant: Finishing Move You pay x less to play Surge of Adrenaline. Draw three cards.
+talent:
+  - Combat
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Finishing Move (To play, remove X Combo cards in your graveyard from the game, where X is 5 or less.)
+  - type: Ability
+    text: You pay {x} less to play Surge of Adrenaline.
+  - type: Ability
+    text: Draw three cards.
 
 regulation:
 
 errata: []
-
-temp: Combat

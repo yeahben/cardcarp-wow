@@ -14,12 +14,19 @@ cost: '1'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Arcane Talent Ongoing : This ability enters play exhausted. This ability can be exhausted to pay the cost of abilities as though it were a resource.'
+    text: Arcane Talent (You can't put Fire Talents or Frost Talents in your deck.)
+  - type: Ability
+    text: 'Ongoing: This ability enters play exhausted.'
+  - type: Ability
+    text: This ability can be exhausted to pay the cost of abilities as though it were a resource.
 
 regulation:
 
 errata: []
-
-temp: Arcane

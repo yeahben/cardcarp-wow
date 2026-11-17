@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Water
+  - Elemental
+
 trait:
 
 cost: '1'
@@ -20,12 +24,18 @@ combat: Frost
 class:
   - Mage
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive 2 , → Exhaust target ally.
+    text: Elusive (This ally can't be attacked.)
+  - type: Ability
+    text: '{2}, {activate} → Exhaust target ally.'
 
 regulation:
 
 errata: []
-
-temp: Water Elemental

@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: "On your turn: → Destroy another target ally. If you do, that ally's controller reveals cards from the top of his deck until he reveals an ally. He puts that revealed ally into play and shuffles the rest into his deck."
+    text: "On your turn: {activate} → Destroy another target ally. If you do, that ally's controller reveals cards from the top of his deck until he reveals an ally. He puts that revealed ally into play and shuffles the rest into his deck."
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

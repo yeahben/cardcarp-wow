@@ -1,0 +1,22 @@
+name: The Captain's Command
+
+origin: the-deadmines-022
+
+layout: Standard
+
+category:
+  - Ability
+
+trait:
+
+instant: false
+
+type: Dungeon
+
+rule:
+  - type: Ability
+    text: The Dungeon hero deals 3 melee damage to the MARKED hero for each Dungeon ally in play.
+
+regulation:
+
+errata: []

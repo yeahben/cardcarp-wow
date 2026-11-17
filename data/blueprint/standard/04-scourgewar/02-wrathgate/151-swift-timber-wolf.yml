@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Timber
+  - Wolf
+
 trait:
 
 cost: '2'
@@ -19,12 +23,22 @@ combat: Melee
 
 faction: Horde
 
+limit:
+  - name: Mount
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Orc Hero Required You pay 1 less to complete quests. When you place a resource face up, your hero has Assault 2 this turn. (Mounts can't attack or be attacked.)
+    text: Orc Hero Required
+  - type: Ability
+    text: You pay {1} less to complete quests.
+  - type: Ability
+    text: When you place a resource face up, your hero has Assault 2 this turn.
+  - type: Ability
+    text: (Mounts can't attack or be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Timber Wolf

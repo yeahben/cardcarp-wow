@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '1'
+
+defense: 1
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Feet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this armor prevents damage, you may pay 4 . If you do, draw a card.
+    text: When this armor prevents damage, you may pay {4}. If you do, draw a card.
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

@@ -17,12 +17,19 @@ health: 4
 
 combat: Melee
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Scryer Reputation When Kai or another Scryer ally enters your party, opposing heroes and allies can't protect this turn.
+    text: Scryer Reputation (Can't put Aldor cards in your deck.)
+  - type: Ability
+    text: When Kai or another Scryer ally enters your party, opposing heroes and allies can't protect this turn.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

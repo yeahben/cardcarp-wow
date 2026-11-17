@@ -7,16 +7,21 @@ layout: Standard
 category:
   - Event
 
+subtype:
+  - Mannoroth
+
 trait:
 
-type: Boss
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
-    text: The first time the Caverns hero attacks this turn, ready him. If Mannoroth is the Caverns hero, when he deals combat damage to an opposing hero this turn, put a 5 / 5 Doomguard Demon Monster ally token into play.
+    text: The first time the Caverns hero attacks this turn, ready him.
+  - type: Ability
+    text: If Mannoroth is the Caverns hero, when he deals combat damage to an opposing hero this turn, put a 5 {shadow} / 5 {health} Doomguard Demon Monster ally token into play.
 
 regulation:
 
 errata: []
-
-temp: Mannoroth

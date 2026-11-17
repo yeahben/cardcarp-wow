@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: You pay 1 less to strike with each weapon you control.
+    text: You pay {1} less to strike with weapons.
 
 regulation:
 
 errata: []
-
-temp: Human Warrior

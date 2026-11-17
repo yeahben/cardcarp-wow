@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity
+    text: Ferocity (Can attack immediately.)
 
 regulation:
 
 errata: []
-
-temp: Troll Mage

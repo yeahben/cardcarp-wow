@@ -14,6 +14,11 @@ cost: '1'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero deals 1 arcane damage to target hero or ally, or 3 if you played another ability this turn.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Arcane

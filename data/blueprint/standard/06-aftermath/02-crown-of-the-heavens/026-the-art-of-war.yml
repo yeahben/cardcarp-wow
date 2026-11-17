@@ -14,12 +14,19 @@ cost: '6'
 class:
   - Paladin
 
+talent:
+  - Retribution
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Retribution Talent Ongoing : At the start of your turn, your hero heals damage from itself equal to the highest remaining health among allies you control. On your turn, your hero has +X ATK, where X is the highest ATK among allies you control.'
+    text: Retribution Talent (You can't put Holy Talents or Protection Talents in your deck.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero heals damage from itself equal to the highest remaining health among allies you control.'
+  - type: Ability
+    text: On your turn, your hero has +X ATK, where X is the highest ATK among allies you control.
 
 regulation:
 
 errata: []
-
-temp: Retribution

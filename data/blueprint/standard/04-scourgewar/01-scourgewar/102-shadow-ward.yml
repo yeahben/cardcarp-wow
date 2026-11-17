@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: true
+
 rule:
   - type: Ability
-    text: Your hero has Shadow Resistance this turn. When damage that an opposing hero or ally would deal is prevented this way, your hero may deal that much shadow damage to target hero or ally.
+    text: Your hero has Shadow Resistance this turn. (Prevent all shadow ({shadow}) damage that it would be dealt.)
+  - type: Ability
+    text: When damage that an opposing hero or ally would deal is prevented this way, your hero may deal that much shadow damage to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Demonology

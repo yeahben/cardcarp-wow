@@ -14,6 +14,11 @@ cost: '4'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
     text: Target opponent discards a random card and destroys a random ally he controls.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Shadow

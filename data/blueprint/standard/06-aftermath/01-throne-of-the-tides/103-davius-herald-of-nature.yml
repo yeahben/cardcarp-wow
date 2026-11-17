@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Empower Druid : When this ally enters play, if you control another Druid hero or ally, reveal the top card of your deck. You may place it into your resource row exhausted as an additional resource.'
+    text: 'Empower Druid: When this ally enters play, if you control another Druid hero or ally, reveal the top card of your deck. You may place it into your resource row exhausted as an additional resource.'
 
 regulation:
 
 errata: []
-
-temp: Worgen Druid

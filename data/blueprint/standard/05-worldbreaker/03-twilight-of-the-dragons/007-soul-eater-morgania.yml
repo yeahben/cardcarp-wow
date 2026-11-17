@@ -13,10 +13,15 @@ health: 28
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Warlock
+
 rule:
   - type: Ability
     position: Front
-    text: 2 → Flip Morgania face down.
+    text: '{2} → Flip Morgania'
   - type: Ability
     position: Reverse
     text: When an opposing ally is destroyed, Morgania heals 1 damage from herself.
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Worgen Warlock

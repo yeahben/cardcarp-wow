@@ -7,16 +7,28 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '3'
 
+defense: 1
+
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Back
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -25,5 +37,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Armor Cloth

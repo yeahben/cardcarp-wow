@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'On your turn, if a hero or ally you controlled dealt frost ( ) damage this turn: 2 , → Put a 2 / 1 Water Elemental ally token into play. When a Water Elemental enters play under your control, your hero may heal 2 damage from itself.'
+    text: 'On your turn, if a hero or ally you controlled dealt frost ({frost}) damage this turn: {2}, {activate} → Put a 2 {frost} / 1 {health} Water Elemental ally token into play.'
+  - type: Ability
+    text: When a Water Elemental enters play under your control, your hero may heal 2 damage from itself.
 
 regulation:
 
 errata: []
-
-temp: ''

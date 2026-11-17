@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+talent:
+  - Enhancement
+
+profession:
+  - Mining
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Ixamos, exhaust one of your Totems → Ready target ally.
+    text: '{3}, Flip Ixamos, exhaust one of your Totems → Ready target ally.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

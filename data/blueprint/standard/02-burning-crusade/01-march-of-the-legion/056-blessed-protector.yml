@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Paladin
 
-instant: Your hero has Protector this turn. Draw a card.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero has protector this turn.
+  - type: Ability
+    text: Draw a card.
 
 regulation:
 
 errata: []
-
-temp: Protection

@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Druid
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Each player may place an additional resource during his turn.'
+    text: 'Ongoing: Each player may place an additional resource during his turn.'
 
 regulation:
 
 errata: []
-
-temp: Restoration

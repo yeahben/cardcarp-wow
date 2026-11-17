@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Spellbook
+
 trait:
 
 cost: '1'
@@ -17,12 +20,14 @@ health: 1
 
 combat: Arcane
 
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive , Spellshield You have no maximum hand size.
+    text: Elusive, Spellshield
+  - type: Ability
+    text: You have no maximum hand size.
 
 regulation:
 
 errata: []
-
-temp: Spellbook

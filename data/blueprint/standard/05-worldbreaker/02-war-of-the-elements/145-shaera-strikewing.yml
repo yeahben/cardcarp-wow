@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Stealth Stash : Target ally has Stealth this turn.'
+    text: Stealth (This ally can't be protected against.)
+  - type: Ability
+    text: 'Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Target ally has Stealth this turn.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

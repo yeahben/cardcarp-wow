@@ -1,4 +1,4 @@
-name: Smites Reaver
+name: Smite's Reaver
 
 origin: dungeon-treasure-054
 
@@ -7,23 +7,40 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Axe
+
 trait:
 
 cost: '4'
 
+damage: 4
+
+strike: 2
+
+combat: Melee
+
 class:
-  - Warrior
-  - Rogue
-  - Paladin
   - Death Knight
+  - Paladin
+  - Rogue
   - Shaman
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When you strike with this weapon, you may exhaust target hero or ally. When you strike with this weapon for the first time each turn, at the end of this combat, you may ready it and your hero.
+    text: When you strike with this weapon, you may exhaust target hero or ally.
+  - type: Ability
+    text: When you strike with this weapon for the first time each turn, you may ready it and your hero at the end of this combat.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Axe

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Imp
+  - Demon
+
 trait:
 
 cost: '1'
@@ -20,12 +24,18 @@ combat: Fire
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive 1 , → Grimdron deals 1 fire damage to target hero or ally.
+    text: Elusive
+  - type: Ability
+    text: '{1}, {activate} → Grimdron deals 1 fire damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Imp Demon

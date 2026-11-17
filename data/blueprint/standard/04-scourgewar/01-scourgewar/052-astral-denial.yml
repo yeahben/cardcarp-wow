@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Mage
 
-instant: "Interrupt target quest reward effect. Ongoing : When an opponent completes a quest, destroy this ability. If you do, interrupt that quest's reward effect."
+talent:
+  - Arcane
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Interrupt target quest reward effect.
+  - type: Ability
+    text: "Ongoing: When an opponent completes a quest, destroy this ability. If you do, interrupt that quest's reward effect."
 
 regulation:
 
 errata: []
-
-temp: Arcane

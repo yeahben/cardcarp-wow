@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Shaman
 
-instant: Your hero deals 4 nature damage to target hero or ally. If you targeted a hero, you may interrupt an ability played by its controller.
+talent:
+  - Elemental
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 4 nature damage to target hero or ally. If you targeted a hero, you may interrupt an ability card played by its controller.
 
 regulation:
 
 errata: []
-
-temp: Elemental

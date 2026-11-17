@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Trade Prince
+
 trait:
 
 cost: '2'
@@ -19,12 +22,18 @@ combat: Melee
 
 faction: Horde
 
+race: Goblin
+
+limit:
+  - name: Gallywix
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Goblin allies you control have Time is Money and " → Ready a resource you control."
+    text: Goblin allies you control have Time is Money and "{activate} → Ready a resource you control."
 
 regulation:
 
 errata: []
-
-temp: Goblin Trade Prince

@@ -11,12 +11,12 @@ trait:
 
 cost: '1'
 
-instant: Each player may dance the way he imagines his hero would dance. If he does, he may turn his hero face up.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Each player may dance the way he imagines his hero would dance. If he does, he may turn his hero face up.
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Shaman
 
-instant: 'Lightning Shield enters play with three lightning counters on it. Ongoing : When your hero is dealt damage by a hero or ally, remove a lightning counter from Lightning Shield. If you do, your hero deals 2 nature damage to that character. If you removed the last counter, destroy Lightning Shield.'
+talent:
+  - Enhancement
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Lightning Shield enters play with three lightning counters on it.
+  - type: Ability
+    text: 'Ongoing: When your hero is dealt damage by a hero or ally, remove a lightning counter from Lightning Shield. If you do, your hero deals 2 nature damage to that character. If you removed the last counter, destroy Lightning Shield.'
 
 regulation:
 
 errata: []
-
-temp: Enhancement

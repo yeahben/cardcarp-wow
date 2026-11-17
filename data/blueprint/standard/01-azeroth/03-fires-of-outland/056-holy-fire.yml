@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Priest
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target hero or ally, and your hero deals 2 holy damage to it. That damage can't be prevented. Ongoing : At the start of each turn, your hero deals 1 holy damage to attached character. That damage can't be prevented."
+    text: Attach to target hero or ally, and your hero deals 2 holy damage to it. That damage can't be prevented.
+  - type: Ability
+    text: "Ongoing: At the start of your turn, your hero deals 1 holy damage to attached character. That damage can't be prevented."
 
 regulation:
 
 errata: []
-
-temp: Holy

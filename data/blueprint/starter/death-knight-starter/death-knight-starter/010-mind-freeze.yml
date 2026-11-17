@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Death Knight
 
-instant: Interrupt target ability or ally card. If you do, exhaust all of its controller's resources.
+talent:
+  - Frost
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Interrupt target ability or ally card. If you do, exhaust all of its controller's resources.
 
 regulation:
 
 errata: []
-
-temp: Frost

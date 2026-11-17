@@ -7,24 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '1'
 
 class:
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
+  - Hunter
   - Paladin
+  - Rogue
   - Shaman
+  - Warrior
+
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: ', Destroy an ally in your party → Your hero has +2 ATK while attacking this turn.'
+    text: '{activate}, Destroy an ally in your party → Your hero has +2 ATK while attacking this turn.'
 
 regulation:
 
 errata: []
-
-temp: Item Ring

@@ -7,23 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Dagger
+
 trait:
 
 cost: '4'
 
+damage: 1
+
+strike: 3
+
+combat: Frost
+
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 3 , → Your hero deals 1 frost damage to target hero or ally. A character dealt damage this way can't attack or protect this turn.
+    text: "{3}, {activate} → Your hero deals 1 frost damage to target hero or ally. A character dealt damage this way can't attack or protect this turn."
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

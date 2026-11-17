@@ -1,4 +1,4 @@
-name: Bloodsea Brigands Vest
+name: Bloodsea Brigand's Vest
 
 origin: blood-of-gladiators-158
 
@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '3'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 2 , Destroy Bloodsea Brigand's Vest → Put the top two cards of your deck into your resource row face down and exhausted.
+    text: "{2}, Destroy Bloodsea Brigand's Vest → Put the top two cards of your deck into your resource row face down and exhausted."
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

@@ -19,14 +19,19 @@ combat: Ranged
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
+instant: false
+
 type: Arena
 
 rule:
   - type: Ability
-    text: 1 , Destroy an Arena ally in your party → Turn target resource face down.
+    text: '{1}, Destroy an Arena ally in your party → Turn target resource face down.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

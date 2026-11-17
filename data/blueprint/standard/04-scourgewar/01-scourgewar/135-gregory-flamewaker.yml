@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Assault 3
+    text: Assault 3 (+3 ATK on your turn)
 
 regulation:
 
 errata: []
-
-temp: Human Mage

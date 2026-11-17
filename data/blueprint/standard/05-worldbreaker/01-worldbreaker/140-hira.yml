@@ -19,10 +19,15 @@ combat: Fire
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '4'
@@ -14,12 +17,17 @@ cost: '4'
 class:
   - Rogue
 
+talent:
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Subtlety Hero Required Choose one or more: Destroy target exhausted ally; destroy target exhausted equipment; or destroy target exhausted resource.'
+    text: Subtlety Hero Required
+  - type: Ability
+    text: 'Choose one or more: Destroy target exhausted ally; destroy target exhausted equipment; or destroy target exhausted resource.'
 
 regulation:
 
 errata: []
-
-temp: Subtlety Talent

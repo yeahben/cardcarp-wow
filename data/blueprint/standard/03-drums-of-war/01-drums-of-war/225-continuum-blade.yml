@@ -7,14 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Sword
+
 trait:
 
 cost: '5'
 
+damage: 1
+
+strike: 2
+
+combat: Melee
+
 class:
+  - Mage
   - Paladin
   - Warlock
-  - Mage
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -23,5 +39,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

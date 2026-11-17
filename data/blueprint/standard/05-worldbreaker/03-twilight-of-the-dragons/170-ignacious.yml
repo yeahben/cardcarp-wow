@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Fire
+  - Elemental
+  - Ascendant
+
 trait:
 
 cost: '6'
@@ -17,12 +22,18 @@ health: 6
 
 combat: Fire
 
+limit:
+  - name: Ignacious
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'When this or another card you control is destroyed, you may turn target resource face down. allies you own everywhere have " Stash : Put a 2 / 1 Fire Elemental ally token into play."'
+    text: When this or another {fire} card you control is destroyed, you may turn target resource face down.
+  - type: Ability
+    text: '{fire} allies you own everywhere have "Stash: Put a 2 {fire} / 1 {health} Fire Elemental ally token into play."'
 
 regulation:
 
 errata: []
-
-temp: Fire Elemental Ascendant

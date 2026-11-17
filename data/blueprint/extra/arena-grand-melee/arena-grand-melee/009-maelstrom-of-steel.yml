@@ -14,14 +14,19 @@ cost: '3'
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 type: Arena
 
 rule:
   - type: Ability
-    text: 'Preparation Ongoing : You pay 1 less to strike with weapons.'
+    text: Preparation (On your first turn, you may play this card without paying its cost.)
+  - type: Ability
+    text: 'Ongoing: You pay {1} less to strike with weapons.'
 
 regulation:
 
 errata: []
-
-temp: ''

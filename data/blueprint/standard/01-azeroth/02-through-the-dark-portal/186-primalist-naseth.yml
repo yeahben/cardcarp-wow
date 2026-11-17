@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Primalist Naseth deals 4 nature damage to target hero or ally and heals 4 damage from another hero or ally.
+    text: '{activate} → Primalist Naseth deals 4 nature damage to target hero or ally and heals 4 damage from another target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

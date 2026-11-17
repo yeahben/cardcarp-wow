@@ -14,12 +14,21 @@ cost: '3'
 class:
   - Druid
 
-instant: 'Ongoing : Your hero has Bear Form . Your hero has +5 for each ally you control.'
+talent:
+  - Feral
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Your hero has Bear Form. (Has Protector. Destroy this card when you strike with a weapon or play a non-Feral ability.)'
+  - type: Ability
+    text: Your hero has +5 {health} for each ally you control.
 
 regulation:
 
 errata: []
-
-temp: Feral

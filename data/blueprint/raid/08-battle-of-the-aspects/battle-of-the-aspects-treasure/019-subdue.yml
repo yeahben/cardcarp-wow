@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target opposing ally. Draw a card. Ongoing : Attached ally can only attack heroes.'
+    text: Attach to target opposing ally. Draw a card.
+  - type: Ability
+    text: 'Ongoing: Attached ally can attack only heroes.'
 
 regulation:
 
 errata: []
-
-temp: Discipline

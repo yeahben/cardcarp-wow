@@ -7,20 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Shield
+
 trait:
 
 cost: '6'
+
+defense: 0
 
 class:
   - Paladin
   - Warrior
 
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero has Protector . At the start of your turn, add a +1 counter to this armor for each ally you control. Your hero has Assault 10 while this armor has 10 or more .
+    text: Your hero has Protector.
+  - type: Ability
+    text: At the start of your turn, add a +1 {def} counter to this armor for each ally you control.
+  - type: Ability
+    text: Your hero has Assault 10 while this armor has 10 or more {def}.
 
 regulation:
 
 errata: []
-
-temp: Armor Shield

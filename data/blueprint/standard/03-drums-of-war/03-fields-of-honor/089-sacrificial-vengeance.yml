@@ -15,12 +15,18 @@ class:
   - Paladin
   - Warlock
 
+talent:
+  - Retribution
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally in your party. Ongoing : When attached ally is destroyed, target opponent destroys an ally in his party.'
+    text: Attach to target ally in your party.
+  - type: Ability
+    text: 'Ongoing: When attached ally is destroyed, target opponent destroys an ally in his party.'
 
 regulation:
 
 errata: []
-
-temp: Retribution Demonology

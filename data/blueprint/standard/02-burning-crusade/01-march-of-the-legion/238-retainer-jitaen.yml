@@ -17,12 +17,21 @@ health: 3
 
 combat: Melee
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Scryer Reputation Sabotage: Quest When Jitaen sabotages a quest, turn it face down.'
+    text: Scryer Reputation (Can't put Aldor cards in your deck.)
+  - type: Ability
+    text: 'Sabotage: Quest (This ally can attack opposing quests.)'
+  - type: Ability
+    text: When Jitaen sabotages a quest, turn it face down.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

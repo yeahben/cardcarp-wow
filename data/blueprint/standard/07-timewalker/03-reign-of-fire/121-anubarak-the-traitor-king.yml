@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Scourge
+  - Crypt Lord
+
 trait:
 
 cost: '6'
@@ -17,14 +21,20 @@ health: 6
 
 combat: Melee
 
+limit:
+  - name: Anub'arak
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Protector 2 , Remove six cards in a graveyard from the game → Put Anub'arak from your graveyard into play.
+    text: Protector
+  - type: Ability
+    text: "{basic} {2}, Remove six cards in a graveyard from the game → Put Anub'arak from your graveyard into play."
 
 regulation:
 
 errata: []
-
-temp: Scourge Crypt Lord

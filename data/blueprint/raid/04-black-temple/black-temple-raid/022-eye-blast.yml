@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Black Temple
+
 trait:
 
 cost: '1'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Destroy Eye Blast → Destroy target ability, ally, or equipment.'
+    text: 'Ongoing: Destroy Eye Blast → Destroy target ability, ally, or equipment.'
 
 regulation:
 
 errata: []
-
-temp: Black Temple

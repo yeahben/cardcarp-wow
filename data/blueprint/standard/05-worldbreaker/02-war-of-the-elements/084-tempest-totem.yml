@@ -6,6 +6,7 @@ layout: Standard
 
 category:
   - Ability
+  - Ally
 
 trait:
 
@@ -20,14 +21,23 @@ combat: Frost
 class:
   - Shaman
 
-type: Ally
+talent:
+  - Restoration
+
+limit:
+  - name: Water Totem
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: "Ongoing : When this card enters play, you may put target Totem from your graveyard into your hand. You pay 1 less to play Totems, to a minimum of 1 . (Totems can't attack.)"
+    text: 'Ongoing: When this card enters play, you may put target Totem from your graveyard into your hand.'
+  - type: Ability
+    text: You pay {1} less to play Totems, to a minimum of {1}.
+  - type: Ability
+    text: (Totems can't attack.)
 
 regulation:
 
 errata: []
-
-temp: Restoration

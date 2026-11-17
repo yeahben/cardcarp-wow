@@ -1,0 +1,32 @@
+name: Onyxia
+
+origin: onyxias-lair-raid-003
+
+layout: Standard
+
+category:
+  - Hero
+
+subtype:
+  - Black Dragon
+
+trait:
+
+health: 50
+
+stage: 3
+
+rule:
+  - type: Ability
+    position: Front
+    text: Onyxia has +3 ATK while attacking.
+  - type: Ability
+    position: Front
+    text: '{20}, Flip Onyxia → Destroy all opposing heroes.'
+  - type: Ability
+    position: Reverse
+    text: Onyxia has +3 ATK while attacking.
+
+regulation:
+
+errata: []

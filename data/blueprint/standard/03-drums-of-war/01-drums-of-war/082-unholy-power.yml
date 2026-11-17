@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '4'
@@ -14,12 +17,17 @@ cost: '4'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: Demonology Hero Required Demons in your party have +3 ATK / +3 health.
+    text: Demonology Hero Required
+  - type: Ability
+    text: Demons in your party have +3 ATK / +3 health.
 
 regulation:
 
 errata: []
-
-temp: Demonology Talent

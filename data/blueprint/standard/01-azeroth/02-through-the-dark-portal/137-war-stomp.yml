@@ -13,12 +13,14 @@ cost: '3'
 
 faction: Horde
 
-instant: Tauren Hero Required Exhaust all opposing heroes and allies.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Tauren Hero Required
+  - type: Ability
+    text: Exhaust all opposing heroes and allies.
 
 regulation:
 
 errata: []
-
-temp: ''

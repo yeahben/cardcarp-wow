@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ghost Wolf
+
 trait:
 
 damage: 4
@@ -15,14 +18,16 @@ health: 4
 
 combat: Melee
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: 'Ferocity Level 3+ : When this ally enters play, exhaust all opposing allies.'
+    text: Ferocity
+  - type: Ability
+    text: 'Level 3+: When this ally enters play, exhaust all opposing allies.'
 
 regulation:
 
 errata: []
-
-temp: Ghost Wolf

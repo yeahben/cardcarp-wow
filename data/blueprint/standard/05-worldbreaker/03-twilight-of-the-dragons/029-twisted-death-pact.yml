@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Death Knight
 
-instant: As an additional cost to play this ability, destroy an ability, ally, or equipment you control. Put a 3 / 3 Ghoul ally token into play.
+talent:
+  - Blood
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: As an additional cost to play this ability, destroy an ability, ally, or equipment you control.
+  - type: Ability
+    text: Put a 3 {melee} / 3 {health} Ghoul ally token into play.
 
 regulation:
 
 errata: []
-
-temp: Blood

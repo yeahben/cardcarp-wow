@@ -7,24 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
-  - Priest
   - Druid
-  - Paladin
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: While you control an Egg ally token, your hero has Protector . At the end of your turn, put a 0 / 1 Egg ally token into play. At the start of your turn, you may destroy this item. If you do, all Egg ally tokens you control become 8 / 8 Twilight Dragonkin.
+    text: While you control an Egg ally token, your hero has Protector.
+  - type: Ability
+    text: At the end of your turn, put a 0 {shadow} / 1 {health} Egg ally token into play.
+  - type: Ability
+    text: At the start of your turn, you may destroy this item. If you do, all Egg ally tokens you control become 8 {shadow} / 8 {health} Twilight Dragonkin.
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

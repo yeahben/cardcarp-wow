@@ -14,12 +14,19 @@ cost: '4'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : Typhoon enters play with two wind counters. Opposing heroes and allies can't attack or protect. At the start of your turn, remove a wind counter. If none remain, destroy Typhoon."
+    text: 'Ongoing: Typhoon enters play with two wind counters.'
+  - type: Ability
+    text: Opposing heroes and allies can't attack or protect.
+  - type: Ability
+    text: At the start of your turn, remove a wind counter. If none remain, destroy Typhoon.
 
 regulation:
 
 errata: []
-
-temp: Balance

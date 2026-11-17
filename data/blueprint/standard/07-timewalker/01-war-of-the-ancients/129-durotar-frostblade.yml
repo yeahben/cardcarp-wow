@@ -13,16 +13,21 @@ cost: '4'
 
 damage: 7
 
-health: 4
+health: 1
 
 combat: Frost
 
 faction: Horde
+
+race: Orc
+
+class:
+  - Death Knight
+
+instant: false
 
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Orc Death Knight

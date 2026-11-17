@@ -9,6 +9,8 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
     text: Each player may reveal how much money he has in his pockets. The player with the most money searches his deck for a card and puts it into hand.
@@ -16,5 +18,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

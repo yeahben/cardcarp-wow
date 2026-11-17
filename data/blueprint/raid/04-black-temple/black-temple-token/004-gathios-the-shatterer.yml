@@ -7,7 +7,11 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+
 trait:
+  - 'Illidari Council Member: 4'
 
 damage: 5
 
@@ -15,14 +19,19 @@ health: 3
 
 combat: Holy
 
-type: Ally
+race: Blood Elf
+
+class:
+  - Paladin
+
+instant: false
 
 rule:
   - type: Ability
-    text: Protector If Gathios would be dealt damage, prevent all but 1 of it.
+    text: Protector
+  - type: Ability
+    text: If Gathios would be dealt damage, prevent all but 1 of it.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

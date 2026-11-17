@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Paladin
 
+talent:
+  - Retribution
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When an attacking ally deals damage to an ally you control, you may destroy that attacker.'
+    text: 'Ongoing: When an attacking ally deals damage to an ally you control, you may destroy that attacker.'
 
 regulation:
 
 errata: []
-
-temp: Retribution

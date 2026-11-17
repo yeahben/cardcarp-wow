@@ -7,28 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '1'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: 1 , Destroy this item → Put target ally you control into its owner's hand.
+    text: "{basic} {1}, Destroy this item → Put target ally you control into its owner's hand."
 
 regulation:
 
 errata: []
-
-temp: Item

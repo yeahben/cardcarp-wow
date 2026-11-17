@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Fire Resistance Shadow Resistance
+    text: Fire Resistance (Prevent all fire or {fire} damage that this ally would be dealt.)
+  - type: Ability
+    text: Shadow Resistance (Prevent all shadow or {shadow} damage that this ally would be dealt.)
 
 regulation:
 
 errata: []
-
-temp: Troll Rogue

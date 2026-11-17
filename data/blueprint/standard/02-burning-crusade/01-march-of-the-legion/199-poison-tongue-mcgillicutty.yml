@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: When Poison Tongue is destroyed, you may destroy target resource.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Priest

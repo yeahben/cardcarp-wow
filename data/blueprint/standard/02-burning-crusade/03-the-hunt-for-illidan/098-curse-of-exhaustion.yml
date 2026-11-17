@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+  - Curse
+
 trait:
 
 cost: '9'
@@ -14,12 +18,17 @@ cost: '9'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: Affliction Hero Required Target player skips his next turn.
+    text: Affliction Hero Required
+  - type: Ability
+    text: Target player skips his next turn.
 
 regulation:
 
 errata: []
-
-temp: Affliction Talent Curse

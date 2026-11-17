@@ -12,15 +12,21 @@ trait:
 cost: '3'
 
 class:
-  - Warrior
   - Death Knight
+  - Warrior
+
+talent:
+  - Blood
+  - Arms
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Attach to target weapon. Ongoing : As this ability enters play, choose one: This ability has "Attached weapon has +3 ATK"; or this ability has "You pay 3 less to strike with attached weapon."'
+    text: Attach to target weapon.
+  - type: Ability
+    text: 'Ongoing: As this ability enters play, choose one: This ability has "Attached weapon has +3 ATK"; or this ability has "You pay {3} less to strike with attached weapon."'
 
 regulation:
 
 errata: []
-
-temp: Blood Arms

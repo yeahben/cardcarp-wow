@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Spirit
+  - Guardian
+
 trait:
 
 cost: '8'
@@ -20,12 +24,18 @@ combat: Holy
 class:
   - Paladin
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Rift Protector
+    text: Rift (Choose a {horde} or {alliance} race. You pay {1} less to play this ally for each ally you control of the chosen race.)
+  - type: Ability
+    text: Protector
 
 regulation:
 
 errata: []
-
-temp: Spirit Guardian

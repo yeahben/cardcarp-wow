@@ -13,10 +13,8 @@ faction: Alliance
 
 rule:
   - type: Ability
-    text: Night Elf allies in your hand have Haste 1 .
+    text: Night Elf allies in your hand have Haste 1.
 
 regulation:
 
 errata: []
-
-temp: ''

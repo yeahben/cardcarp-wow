@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Stealth
+    text: Stealth (This ally can't be protected against.)
 
 regulation:
 
 errata: []
-
-temp: Orc Rogue

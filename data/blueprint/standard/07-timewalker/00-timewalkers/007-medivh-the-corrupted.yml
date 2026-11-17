@@ -1,4 +1,4 @@
-name: Medivh The Corrupted
+name: Medivh the Corrupted
 
 origin: timewalkers-007
 
@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 28
+
+faction: Alliance
+
+race: Human
+
+class:
+  - Warlock
+
+rule:
+  - type: Ability
+    position: Front
+    text: Medivh's Sight
+  - type: Ability
+    position: Front
+    text: "{basic} {1}, Flip Medivh → Look at target player's hand."
+  - type: Ability
+    position: Reverse
+    text: Medivh's Dark Portal
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {6} → Search your deck for an ally, reveal it, and put it into your hand.'
 
 regulation:
 

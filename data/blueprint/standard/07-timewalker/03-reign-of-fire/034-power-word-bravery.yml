@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Double the of all friendly allies.'
+    text: 'Ongoing: Double the {health} of all friendly allies.'
 
 regulation:
 
 errata: []
-
-temp: Discipline

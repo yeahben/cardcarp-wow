@@ -14,12 +14,19 @@ cost: '3'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Balance Talent Ongoing : → Reveal the top card of your deck. If it's cost is 4 or more, add a bliss counter to this ability. While there are three or more bliss counters on this ability, you pay 4 less to play cards."
+    text: Balance Talent (You can't put Feral Talents or Restoration Talents in your deck.)
+  - type: Ability
+    text: 'Ongoing: {basic} {activate} → Reveal the top card of your deck. If its cost is 4 or more, add a bliss counter to this ability.'
+  - type: Ability
+    text: While there are three or more bliss counters on this ability, you pay {4} less to play cards.
 
 regulation:
 
 errata: []
-
-temp: Balance

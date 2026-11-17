@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Sorcerer
+
 trait:
 
 damage: 2
@@ -15,14 +18,16 @@ health: 3
 
 combat: Frost
 
+race: Human
+
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: When this ally enters play, he deals 2 frost damage to each Raiding ally.
+    text: When this ally enters play, he deals 2 frost damage to each ready Raiding ally.
 
 regulation:
 
 errata: []
-
-temp: Human Sorcerer

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Broken
+
 trait:
 
 cost: '4'
@@ -17,12 +20,17 @@ health: 1
 
 combat: Melee
 
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Traitor Hero : Elusive , Ferocity Loyal Hero : Long-Range , Stealth'
+    text: 'Traitor Hero: Elusive, Ferocity'
+  - type: Ability
+    text: 'Loyal Hero: Long-Range, Stealth'
 
 regulation:
 
 errata: []
-
-temp: Broken Rogue

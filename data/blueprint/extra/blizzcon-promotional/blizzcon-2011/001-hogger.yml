@@ -7,22 +7,29 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Gnoll
+
 trait:
 
 health: 30
+
+class:
+  - Warrior
 
 type: Monster
 
 rule:
   - type: Ability
     position: Front
-    text: 5 → Flip Hogger face down.
+    text: '{5} → Flip Hogger'
   - type: Ability
     position: Reverse
-    text: "Summon Minion : At the start of your turn, put a 1 / 1 Gnoll Monster ally token into play. Deckbuilding: You can't put or cards in your deck."
+    text: 'Summon Minion: At the start of your turn, put a 1 {melee} / 1 {health} Gnoll Monster ally token into play.'
+  - type: Ability
+    position: Reverse
+    text: "Deckbuilding: You can't put {horde} or {alliance} cards in your deck."
 
 regulation:
 
 errata: []
-
-temp: Gnoll Warrior

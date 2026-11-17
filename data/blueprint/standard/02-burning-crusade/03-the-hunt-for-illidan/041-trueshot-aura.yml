@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '4'
@@ -14,12 +17,25 @@ cost: '4'
 class:
   - Hunter
 
+talent:
+  - Marksmanship
+
+limit:
+  - name: Aura
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Marksmanship Hero Required Ongoing : allies in your party have +2 ATK while attacking. Your Ranged weapons have +2 ATK while your hero is attacking. If your hero would deal ranged damage with an ability, it deals that much +2 instead.'
+    text: Marksmanship Hero Required
+  - type: Ability
+    text: 'Ongoing: {hunter} allies in your party have +2 ATK while attacking.'
+  - type: Ability
+    text: Your Ranged weapons have +2 ATK while your hero is attacking.
+  - type: Ability
+    text: If your hero would deal ranged damage with an ability, it deals that much +2 instead.
 
 regulation:
 
 errata: []
-
-temp: Marksmanship Talent

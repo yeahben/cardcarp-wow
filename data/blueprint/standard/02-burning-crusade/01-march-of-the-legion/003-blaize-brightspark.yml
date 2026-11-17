@@ -13,13 +13,23 @@ health: 25
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Mage
+
+talent:
+  - Fire
+
+profession:
+  - Alchemy
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Blaize → Blaize deals 3 fire damage to target hero or ally that was dealt fire ( ) damage this turn.
+    text: '{1}, Flip Blaize → Blaize deals 3 fire damage to target hero or ally that was dealt fire ({fire}) damage this turn.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Mage

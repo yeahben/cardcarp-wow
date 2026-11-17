@@ -7,21 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: Your hero has Protector . When your hero protects, you may put a 1 / 1 Bee ally token into play.
+    text: Your hero has Protector.
+  - type: Ability
+    text: When your hero protects, you may put a 1 {nature} / 1 {health} Bee ally token into play.
 
 regulation:
 
 errata: []
-
-temp: Item Ring

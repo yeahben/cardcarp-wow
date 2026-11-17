@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
-    text: Unholy Hero Required Remove target ally in a graveyard from the game. If you do, your hero deals 4 shadow damage to each opposing hero and ally.
+    text: Unholy Hero Required
+  - type: Ability
+    text: Remove target ally in a graveyard from the game. If you do, your hero deals 4 shadow damage to each opposing hero and ally.
 
 regulation:
 
 errata: []
-
-temp: Unholy Talent

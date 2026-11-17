@@ -5,10 +5,13 @@ origin: war-of-the-ancients-240
 layout: Standard
 
 category:
+  - Location
 
 trait:
 
-rule: []
+rule:
+  - type: Ability
+    text: 'If an opposing hero has 15 or more damage on it: {basic} {activate} → Your hero deals 1 arcane damage to target hero or ally.'
 
 regulation:
 

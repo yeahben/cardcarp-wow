@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Demons have Ferocity .
+    text: Demons have ferocity. (They can attack immediately.)
 
 regulation:
 
 errata: []
-
-temp: Orc Warlock

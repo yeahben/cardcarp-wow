@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Protector Stash : Target ally has -1 ATK this turn.'
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
+  - type: Ability
+    text: 'Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Target ally has -1 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Death Knight

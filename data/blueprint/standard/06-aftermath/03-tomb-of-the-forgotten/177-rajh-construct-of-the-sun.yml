@@ -7,28 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: Your hero has Protector . At the start of your turn and when you play an ally, add a power counter to this item. At the end of your turn, if this item has five ore more power counters on it, destroy it. If you do, put a 6 / 6 Construct ally token into play with Protector .
+    text: Your hero has Protector.
+  - type: Ability
+    text: At the start of your turn and when you play an ally, add a power counter to this item.
+  - type: Ability
+    text: At the end of your turn, if this item has five or more power counters on it, destroy it. If you do, put a 6 {fire} / 6 {health} Construct ally token into play with Protector.
 
 regulation:
 
 errata: []
-
-temp: Item

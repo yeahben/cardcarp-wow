@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Shaman
 
-instant: Your hero heals 4 damage from each of up to two target heroes and/or allies.
+talent:
+  - Restoration
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero heals 4 damage from each of up to two target heroes and/or allies.
 
 regulation:
 
 errata: []
-
-temp: Restoration

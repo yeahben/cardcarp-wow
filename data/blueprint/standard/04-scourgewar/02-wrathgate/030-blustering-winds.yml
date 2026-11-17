@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Druid
 
-instant: Target up to three heroes and/or allies. They can't attack or protect this turn.
+talent:
+  - Balance
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target up to three heroes and/or allies. They can't attack or protect this turn.
 
 regulation:
 
 errata: []
-
-temp: Balance

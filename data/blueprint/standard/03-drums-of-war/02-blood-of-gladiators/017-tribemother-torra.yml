@@ -13,13 +13,23 @@ health: 29
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+talent:
+  - Restoration
+
+profession:
+  - Engineering
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Torra → Target up to three heroes and/or allies. Torra heals 3, 2, and 1 damage from them, respectively.
+    text: '{3}, Flip Torra → Target up to three heroes and/or allies. Torra heals 3, 2, and 1 damage from them, respectively.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

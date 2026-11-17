@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : At the end of your turn, if no Ghouls are in your party, you may remove target ally card in a graveyard from the game. If you do, put a Ghoul ally token into play with 3 ATK / 3 health.'
+    text: 'Ongoing: At the end of your turn, if no Ghouls are in your party, you may remove target ally card in a graveyard from the game. If you do, put a Ghoul ally token into play with 3 {melee} ATK / 3 health.'
 
 regulation:
 
 errata: []
-
-temp: Unholy

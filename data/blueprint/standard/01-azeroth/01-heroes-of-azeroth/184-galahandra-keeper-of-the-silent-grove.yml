@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive 1 , → Exhaust target ally.
+    text: Elusive
+  - type: Ability
+    text: '{1}, {activate} → Exhaust target ally.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

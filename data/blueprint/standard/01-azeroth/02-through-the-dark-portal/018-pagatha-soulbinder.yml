@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warlock
+
+talent:
+  - Destruction
+
+profession:
+  - Mining
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 5 , Flip Pagatha Soulbinder → Interrupt target ally card.
+    text: '{5}, Flip Pagatha Soulbinder → Interrupt target ally card.'
 
 regulation:
 
 errata: []
-
-temp: Undead Warlock

@@ -14,12 +14,19 @@ cost: '3'
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Enhancement Talent Ongoing : Totems you control have +2 . Your hero has Assault 1 for each Totem you control.'
+    text: Enhancement Talent (You can't put Elemental Talents or Restoration Talents in your deck.)
+  - type: Ability
+    text: 'Ongoing: Totems you control have +2 {health}.'
+  - type: Ability
+    text: Your hero has Assault 1 for each Totem you control.
 
 regulation:
 
 errata: []
-
-temp: Enhancement

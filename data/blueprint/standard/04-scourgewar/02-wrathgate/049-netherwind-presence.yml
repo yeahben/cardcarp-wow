@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '7'
@@ -14,12 +17,17 @@ cost: '7'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: Arcane Hero Required Draw seven cards.
+    text: Arcane Hero Required
+  - type: Ability
+    text: Draw seven cards.
 
 regulation:
 
 errata: []
-
-temp: Arcane Talent

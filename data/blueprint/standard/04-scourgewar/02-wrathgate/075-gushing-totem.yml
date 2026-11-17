@@ -11,15 +11,24 @@ trait:
 
 cost: '3'
 
+health: 1
+
 class:
   - Shaman
 
+talent:
+  - Restoration
+
+limit:
+  - name: Water Totem
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When an opposing ability, ally, or equipment enters play, you may draw a card.'
+    text: 'Ongoing: When an opposing ability, ally, or equipment enters play, you may draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Restoration 1

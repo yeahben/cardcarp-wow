@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target hero or ally. Ongoing : Attached character has +5 health.'
+    text: Attach to target hero or ally.
+  - type: Ability
+    text: 'Ongoing: Attached character has +5 health.'
 
 regulation:
 
 errata: []
-
-temp: Discipline

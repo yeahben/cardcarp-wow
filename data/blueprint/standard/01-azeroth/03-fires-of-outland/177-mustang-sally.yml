@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: 4 , Destroy an ally in your party other than Mustang Sally → Destroy target ally with cost 4 or less.
+    text: '{4}, Destroy an ally in your party other than Mustang Sally → Destroy target ally with cost 4 or less.'
 
 regulation:
 
 errata: []
-
-temp: Undead Rogue

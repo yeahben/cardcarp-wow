@@ -19,12 +19,19 @@ combat: Ranged
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity Long-Range
+    text: Ferocity
+  - type: Ability
+    text: Long-Range (Defenders deal no combat damage to this character.)
 
 regulation:
 
 errata: []
-
-temp: Tauren Hunter

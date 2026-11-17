@@ -1,0 +1,22 @@
+name: You Are Not Prepared!
+
+origin: black-temple-raid-051
+
+layout: Standard
+
+category:
+  - Event
+
+trait:
+
+instant: false
+
+sequence: 5
+
+rule:
+  - type: Ability
+    text: Choose "ability," "ally," or "equipment." Target player destroys all cards of that kind he controls.
+
+regulation:
+
+errata: []

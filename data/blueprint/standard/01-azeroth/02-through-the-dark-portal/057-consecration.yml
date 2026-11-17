@@ -14,12 +14,15 @@ cost: '6'
 class:
   - Paladin
 
-instant: Your hero deals 2 unpreventable holy damage to each opposing hero and ally.
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 2 holy damage to each hero and ally in target player's party. That damage can't be prevented.
 
 regulation:
 
 errata: []
-
-temp: Holy

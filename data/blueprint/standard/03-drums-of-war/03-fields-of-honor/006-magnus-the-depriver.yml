@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
+talent:
+  - Beast Mastery
+
+profession:
+  - Herbalism
+  - Alchemy
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 2 , Flip Magnus → Target player turns one of his face-up resources face down.'
+    text: 'On your turn: {2}, Flip Magnus → Target player turns one of his face-up resources face down.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

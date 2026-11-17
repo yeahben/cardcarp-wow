@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
-instant: Protector At the start of your turn, destroy Ol' Stonewall.
+race: Dwarf
 
-rule: []
+class:
+  - Warrior
+
+instant: true
+
+rule:
+  - type: Ability
+    text: Protector
+  - type: Ability
+    text: At the start of your turn, destroy Ol' Stonewall.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Warrior

@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Empower Mage : When this ally enters play, if you control another Mage hero or ally, this ally deals 3 fire damage divided as you choose to any number of target heroes and/or allies.'
+    text: 'Empower Mage: When this ally enters play, if you control another Mage hero or ally, this ally deals 3 fire damage divided as you choose to any number of target heroes and/or allies.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Mage

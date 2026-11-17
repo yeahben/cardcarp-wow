@@ -5,10 +5,25 @@ origin: misc-tokens-022
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
+  - Pandaren
 
 trait:
 
-rule: []
+damage: 1
+
+health: 1
+
+combat: Melee
+
+instant: false
+
+rule:
+  - type: Ability
+    text: This ally has +1 ATK / +1 health for each other Pandaren in your party.
 
 regulation:
 

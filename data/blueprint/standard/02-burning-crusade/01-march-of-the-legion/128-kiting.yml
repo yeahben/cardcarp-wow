@@ -11,12 +11,14 @@ trait:
 
 cost: '4'
 
-instant: "Attach to target ally. Ongoing : 1 → Target hero or ally can't deal combat damage to attached ally this turn. Use only once per turn."
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Attach to target ally.
+  - type: Ability
+    text: "Ongoing: {1} → Target hero or ally can't deal combat damage to attached ally this turn. Use only once per turn."
 
 regulation:
 
 errata: []
-
-temp: ''

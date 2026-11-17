@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '1'
@@ -14,12 +17,17 @@ cost: '1'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Arcane Hero Required Ongoing : When you play an ability, you may pay 1 . If you do and your hero would deal damage with that ability this turn, it deals that much damage +1 instead.'
+    text: Arcane Hero Required
+  - type: Ability
+    text: 'Ongoing: When you play an ability, you may pay {1}. If you do and your hero would deal damage with that ability this turn, it deals that much damage +1 instead.'
 
 regulation:
 
 errata: []
-
-temp: Arcane Talent

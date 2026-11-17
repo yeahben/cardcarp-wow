@@ -13,13 +13,23 @@ health: 26
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Priest
+
+talent:
+  - Discipline
+
+profession:
+  - Jewelcrafting
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Joren → The next time target hero or ally would be dealt damage this turn, prevent it.
+    text: '{2}, Flip Joren → The next time target hero or ally would be dealt damage this turn, prevent it.'
 
 regulation:
 
 errata: []
-
-temp: Undead Priest

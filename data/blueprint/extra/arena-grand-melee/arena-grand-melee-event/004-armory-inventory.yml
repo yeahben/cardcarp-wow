@@ -9,6 +9,8 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
     text: You may search your deck for an ability or equipment card associated with one of your online World of Warcraft® characters. If you do, remove it from the game, and you may play it without paying its cost this turn.
@@ -16,5 +18,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

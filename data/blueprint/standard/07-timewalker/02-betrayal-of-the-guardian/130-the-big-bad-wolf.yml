@@ -17,14 +17,25 @@ health: 5
 
 combat: Melee
 
+race: Worgen
+
+class:
+  - Warrior
+
+limit:
+  - name: Big Bad
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: When Big Bad enters play, target opposing ally can't attack or exhaust, loses and can't have powers, and becomes 0 / 5 until Big Bad leaves play. Big Bad must attack that ally if able. When Big Bad deals fatal combat damage to that ally, he has +5 / +5 and Invincible .
+    text: When Big Bad enters play, target opposing ally can't attack or exhaust, loses and can't have powers, and becomes 0 / 5 until Big Bad leaves play. Big Bad must attack that ally if able.
+  - type: Ability
+    text: When Big Bad deals fatal combat damage to that ally, he has +5 / +5 and Invincible.
 
 regulation:
 
 errata: []
-
-temp: Worgen Warrior

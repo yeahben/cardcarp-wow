@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: You pay 1 less to strike with weapons. Opponents pay 1 more to strike with weapons.
+    text: You pay {1} less to strike with weapons.
+  - type: Ability
+    text: Opponents pay {1} more to strike with weapons.
 
 regulation:
 
 errata: []
-
-temp: Human Rogue

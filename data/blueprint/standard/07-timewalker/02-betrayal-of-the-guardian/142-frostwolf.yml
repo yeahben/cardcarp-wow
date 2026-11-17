@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Wolf
+  - Beast
+
 trait:
 
 cost: '3'
@@ -17,14 +21,14 @@ health: 2
 
 combat: Melee
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: This and other allies you control have +1 ATK while attacking heroes and allies.
+    text: This and other allies you control have +1 ATK while attacking {alliance} heroes and allies.
 
 regulation:
 
 errata: []
-
-temp: Wolf Beast

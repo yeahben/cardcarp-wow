@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: Eternal Look at cards from the top of your deck equal to the number of resources you control. Put one of those cards into your hand and the rest on the bottom of your deck.
+    text: Eternal (When this enters your graveyard from anywhere, you may shuffle it into your deck.)
+  - type: Ability
+    text: Look at cards from the top of your deck equal to the number of resources you control. Put one of those cards into your hand and the rest on the bottom of your deck.
 
 regulation:
 
 errata: []
-
-temp: Arcane

@@ -19,10 +19,15 @@ combat: Frost
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Death Knight
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Tauren Death Knight

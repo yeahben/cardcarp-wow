@@ -5,18 +5,30 @@ origin: crown-of-the-heavens-038
 layout: Standard
 
 category:
-  - Event
+  - Ability
 
 trait:
 
-type: Boss
+cost: '2'
+
+class:
+  - Rogue
+
+talent:
+  - Subtlety
+
+instant: false
 
 rule:
   - type: Ability
-    text: The MARKED hero's controller rolls a die. If he rolls even, put that many Corrupted Blood ally tokens into play. If he rolls odd, Deathwing deals that much fire damage to each hero and ally that Raider controls.
+    text: Subtlety Talent (You can't put Assassination Talents or Combat Talents in your deck.)
+  - type: Ability
+    text: Attach to target hero.
+  - type: Ability
+    text: 'Ongoing: When your hero deals combat damage to attached hero, add a bleed counter to this ability for each weapon you struck with this combat.'
+  - type: Ability
+    text: At the start of your turn, your hero deals 1 melee damage to attached hero for each bleed counter on this ability.
 
 regulation:
 
 errata: []
-
-temp: ''

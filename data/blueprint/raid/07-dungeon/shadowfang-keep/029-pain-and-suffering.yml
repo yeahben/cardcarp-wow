@@ -1,0 +1,22 @@
+name: Pain and Suffering
+
+origin: shadowfang-keep-029
+
+layout: Standard
+
+category:
+  - Ability
+
+trait:
+
+instant: false
+
+type: Dungeon
+
+rule:
+  - type: Ability
+    text: The Raiders choose and discard seven total cards between them. If they don't have seven cards, they choose and destroy seven Raiding cards instead.
+
+regulation:
+
+errata: []

@@ -13,13 +13,23 @@ health: 30
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warrior
+
+talent:
+  - Arms
+
+profession:
+  - Mining
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Victoria Jaton → Weapon cards in your hand are instant this turn.
+    text: '{2}, Flip Victoria Jaton → Weapon cards in your hand are instant this turn.'
 
 regulation:
 
 errata: []
-
-temp: Human Warrior

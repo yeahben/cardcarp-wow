@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
     text: Kagella Shadowmark has +1 ATK for each exhausted ally in your party.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Orc Rogue

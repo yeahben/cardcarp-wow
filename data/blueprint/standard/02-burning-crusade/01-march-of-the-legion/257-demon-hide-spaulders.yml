@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '3'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Shoulder
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Each of your weapons has +1 ATK this turn. → Each of your armor has +1 DEF this turn.
+    text: '{activate} → Each of your weapons has +1 ATK this turn.'
+  - type: Ability
+    text: '{activate} → Each of your armor has +1 DEF this turn.'
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector At the end of your turn, ready Kulan Earthguard.
+    text: Protector
+  - type: Ability
+    text: At the end of your turn, ready Kulan Earthguard.
 
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

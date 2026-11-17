@@ -7,20 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Axe
+
 trait:
 
 cost: '4'
 
+damage: 2
+
+strike: 0
+
+combat: Melee
+
 class:
-  - Paladin
-  - Warrior
   - Hunter
+  - Paladin
   - Shaman
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule: []
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Axe

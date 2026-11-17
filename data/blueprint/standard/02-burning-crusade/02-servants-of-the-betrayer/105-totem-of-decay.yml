@@ -7,19 +7,32 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Traitor
+
 trait:
 
 cost: '4'
 
+health: 1
+
 class:
   - Shaman
 
-instant: 'Traitor Hero Required Ongoing : At the start of your turn, each opponent destroys an ability, ally, or equipment he controls. (Totems can be attacked or targeted like allies.)'
+limit:
+  - name: Earth Totem
+    count: 1
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Traitor Hero Required
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, each opponent destroys an ability, ally, or equipment he controls.'
+  - type: Ability
+    text: (Totems can be attacked or targeted like allies.)
 
 regulation:
 
 errata: []
-
-temp: Traitor 1

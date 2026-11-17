@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Ragnaros
+
 trait:
 
 cost: '2'
 
-instant: Interrupt target ability, ally, or equipment card.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Interrupt target ability, ally, or equipment card.
 
 regulation:
 
 errata: []
-
-temp: Ragnaros

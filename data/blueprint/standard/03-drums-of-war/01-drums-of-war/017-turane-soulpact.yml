@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Warlock
+
+talent:
+  - Demonology
+
+profession:
+  - Alchemy
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 3 , Flip Turane, destroy X allies in your party → Turane deals X shadow damage to target hero or ally.'
+    text: 'On your turn: {3}, Flip Turane, destroy X allies in your party → Turane deals X shadow damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Warlock

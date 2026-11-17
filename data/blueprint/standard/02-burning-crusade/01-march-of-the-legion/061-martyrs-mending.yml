@@ -1,4 +1,4 @@
-name: Martyrs Mending
+name: Martyr's Mending
 
 origin: march-of-the-legion-061
 
@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Paladin
 
-instant: Your hero heals any amount of damage from other friendly heroes and allies. Put that much damage on your hero.
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero heals any amount of damage from other friendly heroes and allies. Put that much damage on your hero.
 
 regulation:
 
 errata: []
-
-temp: Holy

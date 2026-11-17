@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Location
 
+subtype:
+  - City
+
 trait:
 
 faction: Horde
 
 rule:
   - type: Ability
-    text: Undead Hero Required → You may remove target ally card in a graveyard from the game. If you do, an Undead in your party heals 2 damage from itself.
+    text: Undead Hero Required
+  - type: Ability
+    text: '{activate} → You may remove target ally card in a graveyard from the game. If you do, an Undead in your party heals 2 damage from itself.'
 
 regulation:
 
 errata: []
-
-temp: City

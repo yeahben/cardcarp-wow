@@ -17,12 +17,25 @@ health: 3
 
 combat: Melee
 
+race: Human
+
+class:
+  - Rogue
+
+limit:
+  - name: Edwin VanCleef
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Stealth , Untargetable When Edwin enters play, put two 1 / 1 Defias Thug ally tokens into play with "This ally can protect allies with VanCleef in their names." When Edwin is destroyed, you may put an ally named Vanessa VanCleef from your hand into play.
+    text: Stealth, Untargetable
+  - type: Ability
+    text: When Edwin enters play, put two 1 {melee} / 1 {health} Defias Thug ally tokens into play with "This ally can protect allies with VanCleef in their names."
+  - type: Ability
+    text: When Edwin is destroyed, you may put an ally named Vanessa VanCleef from your hand into play.
 
 regulation:
 
 errata: []
-
-temp: Human Rogue

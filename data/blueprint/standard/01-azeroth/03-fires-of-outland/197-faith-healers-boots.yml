@@ -1,4 +1,4 @@
-name: Faith Healers Boots
+name: Faith Healer's Boots
 
 origin: fires-of-outland-197
 
@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '4'
+
+defense: 0
 
 class:
   - Druid
   - Priest
   - Shaman
 
+limit:
+  - name: Feet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Put an ally card from your graveyard into your hand. Use only if your hero healed damage this turn.
+    text: '{activate} → Put an ally card from your graveyard into your hand. Use only if your hero healed damage this turn.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

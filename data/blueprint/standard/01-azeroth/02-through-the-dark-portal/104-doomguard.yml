@@ -5,22 +5,37 @@ origin: through-the-dark-portal-104
 layout: Standard
 
 category:
-  - Token
+  - Ally
+
+subtype:
+  - Doomguard
+  - Demon
 
 trait:
 
-damage: 5
+cost: '7'
 
-health: 5
+damage: 8
 
-combat: Shadow
+health: 8
 
-type: Monster
+combat: Melee
 
-rule: []
+class:
+  - Warlock
+
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
+rule:
+  - type: Ability
+    text: When Doomguard enters play, choose at random a friendly hero or ally other than Doomguard, then destroy that character.
+  - type: Ability
+    text: At the end of your turn, destroy target opposing ally.
 
 regulation:
 
 errata: []
-
-temp: Doomguard Demon

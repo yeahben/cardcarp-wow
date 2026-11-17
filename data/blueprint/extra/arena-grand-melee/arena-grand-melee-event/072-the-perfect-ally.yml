@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : Ally cards in all zones lose their powers and have Tatulla the Reclaimer's power. (When Tatulla enters play, target player destroys an ability or equipment he controls.)"
+    text: "Ongoing: Ally cards in all zones lose their powers and have Tatulla the Reclaimer's power. (When Tatulla enters play, target player destroys an ability or equipment he controls.)"
 
 regulation:
 
 errata: []
-
-temp: ''

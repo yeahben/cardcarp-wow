@@ -13,13 +13,16 @@ health: 28
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Hunter
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 2 , Flip Simon → Simon deals ranged damage to target hero or ally equal to the ATK of a pet you control.'
+    text: 'On your turn: {2}, Flip Simon → Simon deals ranged damage to target hero or ally equal to the ATK of a Pet you control.'
 
 regulation:
 
 errata: []
-
-temp: Human Hunter

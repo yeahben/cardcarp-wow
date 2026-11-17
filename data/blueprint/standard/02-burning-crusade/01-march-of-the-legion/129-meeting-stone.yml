@@ -11,12 +11,12 @@ trait:
 
 cost: '10'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : , Exhaust two allies in your party → Search your deck for an ally card and put it into play.'
+    text: 'Ongoing: {activate}, Exhaust two allies in your party → Search your deck for an ally card and put it into play.'
 
 regulation:
 
 errata: []
-
-temp: ''

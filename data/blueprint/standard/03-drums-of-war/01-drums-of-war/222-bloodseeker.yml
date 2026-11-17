@@ -7,19 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Crossbow
+
 trait:
 
 cost: '2'
 
+damage: 3
+
+strike: 2
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you strike with Bloodseeker, your hero has Long-Range this combat. At the end of your turn, if no damage was dealt with Bloodseeker this turn, put 3 damage on your hero.
+    text: When you strike with Bloodseeker, your hero has long-range this combat.
+  - type: Ability
+    text: At the end of your turn, if no damage was dealt with Bloodseeker this turn, put 3 damage on your hero.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Crossbow

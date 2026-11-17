@@ -7,21 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '1'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'If this armor has three or more heirloom counters: → Look at the top three cards of your deck. Put one into your hand and the rest on the bottom of your deck. Stash : Add an heirloom counter to target equipment you control.'
+    text: 'If this armor has three or more heirloom counters: {activate} → Look at the top three cards of your deck. Put one into your hand and the rest on the bottom of your deck.'
+  - type: Ability
+    text: 'Stash: Add an heirloom counter to target equipment you control.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

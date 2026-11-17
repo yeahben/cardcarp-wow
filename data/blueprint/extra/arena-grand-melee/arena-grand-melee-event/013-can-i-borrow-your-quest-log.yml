@@ -1,14 +1,21 @@
-name: '"Can I Borrow Your Quest Log"'
+name: '"Can I Borrow Your Quest Log?"'
 
 origin: arena-grand-melee-event-013
 
 layout: Standard
 
 category:
+  - Event
 
 trait:
 
-rule: []
+instant: false
+
+rule:
+  - type: Ability
+    text: Opponents can't complete quests this turn.
+  - type: Ability
+    text: You can complete opposing quests this turn.
 
 regulation:
 

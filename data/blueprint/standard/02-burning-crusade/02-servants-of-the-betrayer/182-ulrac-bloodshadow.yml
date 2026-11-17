@@ -19,12 +19,19 @@ combat: Shadow
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity When Ulrac attacks, put a Demon ally card from your graveyard into hand.
+    text: Ferocity
+  - type: Ability
+    text: When Ulrac attacks, put a Demon ally card from your graveyard into hand.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Warlock

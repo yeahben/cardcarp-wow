@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Core Hound
+
 trait:
 
 cost: '5'
@@ -20,14 +23,20 @@ combat: Fire
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Beast Mastery Talent This ally can attack two opposing heroes and/or allies at the same time. (This ally deals combat damage to both defenders, and both defenders deal combat damage back to this ally.)
+    text: Beast Mastery Talent (You can't put Marksmanship Talents or Survival Talents in your deck.)
+  - type: Ability
+    text: This ally can attack two opposing heroes and/or allies at the same time. (This ally deals combat damage to both defenders, and both defenders deal combat damage back to this ally.)
 
 regulation:
 
 errata: []
-
-temp: Core Hound

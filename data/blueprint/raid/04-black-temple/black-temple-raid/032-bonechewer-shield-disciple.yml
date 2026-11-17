@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Fel Orc
+  - Traitor
+
 trait:
 
 cost: '4'
@@ -17,12 +21,17 @@ health: 6
 
 combat: Melee
 
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required Protector
+    text: Traitor Hero Required
+  - type: Ability
+    text: Protector
 
 regulation:
 
 errata: []
-
-temp: Fel Orc Warrior Traitor

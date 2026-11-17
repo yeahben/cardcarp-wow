@@ -9,14 +9,16 @@ category:
 
 trait:
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: Mograine has +3 ATK this turn. When Mograine attacks for the first time this turn, ready him. The next time Mograine attacks this turn, he attacks another random Raiding hero.
+    text: Mograine has +3 ATK this turn.
+  - type: Ability
+    text: When Mograine attacks for the first time this turn, ready him. The next time Mograine attacks this turn, he attacks another random Raiding hero.
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, target player puts the top five cards of his deck into his graveyard.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Paladin

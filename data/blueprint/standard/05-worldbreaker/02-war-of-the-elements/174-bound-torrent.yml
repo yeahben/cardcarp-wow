@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Water
+  - Elemental
+
 trait:
 
 cost: '4'
@@ -17,12 +21,17 @@ health: 1
 
 combat: Frost
 
+limit:
+  - name: Unlimited
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive When this ally exhausts, put a 2 / 1 Water Elemental ally token into play.
+    text: Elusive
+  - type: Ability
+    text: When this ally exhausts, put a 2 {frost} / 1 {health} Water Elemental ally token into play.
 
 regulation:
 
 errata: []
-
-temp: Water Elemental

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ogre
+
 trait:
 
 cost: '7'
@@ -17,14 +20,21 @@ health: 6
 
 combat: Frost
 
+class:
+  - Shaman
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Enrage When you reveal an ally this way, this ally has +2 ATK and Ferocity this turn. Smash
+    text: Enrage (As this ally enters play, you may reveal the top card of your deck.)
+  - type: Ability
+    text: When you reveal an ally this way, this ally has +2 ATK and Ferocity this turn.
+  - type: Ability
+    text: Smash (If this ally would deal more than fatal combat damage to a defending ally, it deals the rest to that ally's controller's hero.)
 
 regulation:
 
 errata: []
-
-temp: Ogre Shaman

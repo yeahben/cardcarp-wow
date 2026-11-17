@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Tribe : When this or another Tauren ally enters play under your control, this ally heals damage from your hero equal to that ally's , then deals unpreventable holy damage to target opposing hero equal to that ally's ."
+    text: "Tribe: When this or another Tauren ally enters play under your control, this ally heals damage from your hero equal to that ally's {health}, then deals unpreventable holy damage to target opposing hero equal to that ally's {health}."
 
 regulation:
 
 errata: []
-
-temp: Tauren Priest

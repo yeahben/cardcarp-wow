@@ -7,19 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Gun
+
 trait:
 
 cost: '3'
 
+damage: 3
+
+strike: 2
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 → When you strike with Telescopic Sharprifle this turn, your hero has Long-Range this turn.
+    text: '{1} → When you strike with Telescopic Sharprifle this turn, your hero has long-range this turn. (Defenders deal no combat damage to it.)'
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Gun

@@ -19,6 +19,13 @@ combat: Nature
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
     text: When Cromarius enters play, destroy target opposing ability if its controller has more abilities than you.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Orc Shaman

@@ -14,6 +14,11 @@ cost: '1'
 class:
   - Druid
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
     text: Destroy target ability or equipment with cost less than or equal to the number of token allies you control.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Restoration

@@ -7,22 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Mace
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 3
+
+combat: Holy
+
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 1 , Exhaust your hero → Reveal a random card from your hand. If it's a card, your hero deals 2 unpreventable holy damage to target hero or ally and heals 2 damage from itself.
+    text: "{1}, Exhaust your hero → Reveal a random card from your hand. If it's a {holy} card, your hero deals 2 unpreventable holy damage to target hero or ally and heals 2 damage from itself."
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

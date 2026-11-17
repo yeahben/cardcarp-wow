@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Turtle
+
 trait:
 
 cost: '2'
@@ -20,6 +23,12 @@ combat: Melee
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: If Shelly would be dealt combat damage, prevent 1 of that damage.
@@ -27,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Turtle

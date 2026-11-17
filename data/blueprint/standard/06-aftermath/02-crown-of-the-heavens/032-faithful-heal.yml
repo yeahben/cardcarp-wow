@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Priest
 
-instant: Target up to two allies you control. Your hero heals damage from itself equal to their combined ATK.
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target up to two allies you control. Your hero heals damage from itself equal to their combined ATK.
 
 regulation:
 
 errata: []
-
-temp: Holy

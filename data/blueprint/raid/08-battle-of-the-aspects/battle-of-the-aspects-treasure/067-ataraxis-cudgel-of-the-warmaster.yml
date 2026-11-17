@@ -7,19 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Mace
+
 trait:
 
 cost: '4'
 
+damage: 7
+
+strike: 5
+
+combat: Melee
+
 class:
   - Warrior
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Opponents pay 3 more to strike with weapons.
+    text: Opponents pay {3} more to strike with weapons.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Mace

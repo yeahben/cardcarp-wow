@@ -14,12 +14,17 @@ cost: '5'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally. Ongoing : You control attached ally.'
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: You control attached ally.'
 
 regulation:
 
 errata: []
-
-temp: Shadow

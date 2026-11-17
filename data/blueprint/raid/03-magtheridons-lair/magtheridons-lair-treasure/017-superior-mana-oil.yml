@@ -7,25 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '1'
 
 class:
-  - Priest
-  - Hunter
   - Druid
-  - Paladin
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
   - Shaman
+  - Warlock
+
+instant: false
 
 rule:
   - type: Ability
-    text: Superior Mana Oil enters play attached to one of your weapons. At the start of your turn, you may reveal the top card of your deck. If it's an ability card, put it into your hand. Otherwise, put it into your graveyard.
+    text: Superior Mana Oil enters play attached to one of your weapons.
+  - type: Ability
+    text: At the start of your turn, you may reveal the top card of your deck. If it's an ability card, put it into your hand. Otherwise, put it into your graveyard.
 
 regulation:
 
 errata: []
-
-temp: Item

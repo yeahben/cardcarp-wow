@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Paladin
 
-instant: If damage was dealt with target ability or equipment this turn, destroy it.
+talent:
+  - Retribution
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: If damage was dealt with target ability or equipment this turn, destroy it.
 
 regulation:
 
 errata: []
-
-temp: Retribution

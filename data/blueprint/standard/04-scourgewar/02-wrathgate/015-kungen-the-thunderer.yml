@@ -13,6 +13,18 @@ health: 31
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Warrior
+
+talent:
+  - Arms
+
+profession:
+  - Inscription
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
@@ -21,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Warrior

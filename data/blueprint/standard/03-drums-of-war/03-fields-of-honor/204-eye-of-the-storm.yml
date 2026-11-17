@@ -7,14 +7,19 @@ layout: Standard
 category:
   - Location
 
+subtype:
+  - Battleground
+
 trait:
+
+capture: 4
 
 rule:
   - type: Ability
-    text: When you play a card, add an honor counter. , Remove four honor counters → Exhaust up to four target heroes and/or allies.
+    text: When you play a card, add an honor counter.
+  - type: Ability
+    text: '{activate}, Remove four honor counters → Exhaust up to four target heroes and/or allies.'
 
 regulation:
 
 errata: []
-
-temp: Battleground

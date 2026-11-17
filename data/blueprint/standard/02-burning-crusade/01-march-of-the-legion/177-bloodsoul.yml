@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: This ally can attack only heroes.
+    text: Bloodsoul can attack only heroes.
 
 regulation:
 
 errata: []
-
-temp: Orc Warlock

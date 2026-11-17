@@ -7,9 +7,15 @@ layout: Standard
 category:
   - Misc
 
+subtype:
+  - Rune
+  - Gehennas
+
 trait:
 
-type: Raid
+instant: false
+
+stage: 3
 
 rule:
   - type: Ability
@@ -18,5 +24,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Gehennas Boss 3

@@ -19,6 +19,13 @@ combat: Nature
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 type: Arena
 
 rule:
@@ -28,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

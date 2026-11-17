@@ -1,4 +1,4 @@
-name: Gladiators Maul
+name: Gladiator's Maul
 
 origin: fields-of-honor-173
 
@@ -7,19 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Mace
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 2
+
+combat: Melee
+
 class:
   - Druid
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
+type: Arena
+
 rule:
   - type: Ability
-    text: You can place the top card of your deck face down (as your one resource per turn) .
+    text: You can place the top card of your deck face down (as your one resource per turn).
 
 regulation:
 
 errata: []
-
-temp: 2H Arena Weapon Mace

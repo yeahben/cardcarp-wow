@@ -9,14 +9,16 @@ category:
 
 trait:
 
-type: Boss
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
-    text: Put a Corrupted Blood ally token into play. If Deathwing deals combat damage to a Raiding hero this turn, allies Deathwing controls have +1 ATK this turn.
+    text: Put a Corrupted Blood ally token into play.
+  - type: Ability
+    text: If Deathwing deals combat damage to a Raiding hero this turn, allies Deathwing controls have +1 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: ''

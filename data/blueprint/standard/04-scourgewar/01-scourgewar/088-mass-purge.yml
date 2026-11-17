@@ -14,6 +14,11 @@ cost: '2'
 class:
   - Shaman
 
+talent:
+  - Elemental
+
+instant: false
+
 rule:
   - type: Ability
     text: Destroy any number of abilities that aren't attached to friendly cards.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Elemental

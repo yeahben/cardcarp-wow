@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Camel
+
 trait:
 
 cost: '3'
@@ -17,12 +20,14 @@ health: 3
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive When you play a resource face up into your resource row, this ally has +3 ATK and Sentinel this turn.
+    text: Elusive
+  - type: Ability
+    text: When you place a resource face up into your resource row, this ally has +3 ATK and Sentinel this turn.
 
 regulation:
 
 errata: []
-
-temp: Camel

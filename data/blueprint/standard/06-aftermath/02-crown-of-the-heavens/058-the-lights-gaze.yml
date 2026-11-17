@@ -1,4 +1,4 @@
-name: The Lights Gaze
+name: The Light's Gaze
 
 origin: crown-of-the-heavens-058
 
@@ -15,6 +15,11 @@ class:
   - Paladin
   - Priest
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero heals 10 damage from target hero or ally.
@@ -22,5 +27,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Holy

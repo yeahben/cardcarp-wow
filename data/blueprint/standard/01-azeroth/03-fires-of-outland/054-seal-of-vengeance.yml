@@ -16,12 +16,23 @@ faction: Alliance
 class:
   - Paladin
 
+talent:
+  - Retribution
+
+limit:
+  - name: Seal
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Alliance Hero Required Ongoing : At the end of each turn, your hero deals 1 holy damage to each hero and ally it dealt combat damage to this turn. 1 , Destroy Seal of Vengeance → Your hero deals 1 holy damage to each hero and ally it dealt combat damage to this turn.'
+    text: Alliance Hero Required
+  - type: Ability
+    text: 'Ongoing: At the end of each turn, your hero deals 1 holy damage to each hero and ally it dealt combat damage to this turn.'
+  - type: Ability
+    text: '{1}, Destroy Seal of Vengeance → Your hero deals 1 holy damage to each hero and ally it dealt combat damage to this turn.'
 
 regulation:
 
 errata: []
-
-temp: Retribution

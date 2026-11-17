@@ -19,12 +19,19 @@ combat: Fire
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Token allies you control have +1 / +1. Stash : Ready target token ally.'
+    text: Token allies you control have +1 / +1.
+  - type: Ability
+    text: 'Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Ready target token ally.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Shaman

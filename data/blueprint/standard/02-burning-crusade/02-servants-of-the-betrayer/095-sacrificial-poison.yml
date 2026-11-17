@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Poison
+  - Traitor
+
 trait:
 
 cost: '2'
@@ -14,12 +18,16 @@ cost: '2'
 class:
   - Rogue
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Traitor Hero Required Attach to target hero that your hero dealt combat damage to this turn. Ongoing : At the start of attached hero's controller's turn, he destroys an ally in his party."
+    text: Traitor Hero Required
+  - type: Ability
+    text: Attach to target hero that your hero dealt combat damage to this turn.
+  - type: Ability
+    text: "Ongoing: At the start of attached hero's controller's turn, he destroys an ally in his party."
 
 regulation:
 
 errata: []
-
-temp: Poison Traitor

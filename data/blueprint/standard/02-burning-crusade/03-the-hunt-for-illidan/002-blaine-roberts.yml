@@ -13,13 +13,23 @@ health: 30
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warrior
+
+talent:
+  - Protection
+
+profession:
+  - Alchemy
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Blaine → Destroy target armor or item.
+    text: '{2}, Flip Blaine → Destroy target armor or item.'
 
 regulation:
 
 errata: []
-
-temp: Human Warrior

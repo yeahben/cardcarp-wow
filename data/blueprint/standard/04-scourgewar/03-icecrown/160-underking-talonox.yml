@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Crypt Lord
+
 trait:
 
 cost: '3'
@@ -17,14 +20,23 @@ health: 6
 
 combat: Melee
 
-type: Raid
+limit:
+  - name: Unique
+
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: Scourge Hero Required This ally has -1 / -1 while there is an ability in an opposing graveyard. This ally has -1 / -1 while there is an ally in an opposing graveyard. This ally has -1 / -1 while there is an equipment in an opposing graveyard.
+    text: Scourge Hero Required
+  - type: Ability
+    text: This ally has -1 / -1 while there is an ability in an opposing graveyard.
+  - type: Ability
+    text: This ally has -1 / -1 while there is an ally in an opposing graveyard.
+  - type: Ability
+    text: This ally has -1 / -1 while there is an equipment in an opposing graveyard.
 
 regulation:
 
 errata: []
-
-temp: Crypt Lord

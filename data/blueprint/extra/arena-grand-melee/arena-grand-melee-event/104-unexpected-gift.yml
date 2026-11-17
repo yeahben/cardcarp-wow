@@ -9,12 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: Put Unexpected Gift into your hand. Discard Unexpected Gift → Destroy target ability, ally, equipment, or resource.
+    text: Put Unexpected Gift into your hand.
+  - type: Ability
+    text: Discard Unexpected Gift into the Arena graveyard → Destroy target ability, ally, equipment, or resource.
 
 regulation:
 
 errata: []
-
-temp: ''

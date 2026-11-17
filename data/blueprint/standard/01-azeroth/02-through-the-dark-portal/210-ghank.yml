@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Stealth When Ghank enters play, you may destroy target exhausted ally with damage on it.
+    text: Stealth (Can't protect against this character.)
+  - type: Ability
+    text: When Ghank enters play, you may destroy target exhausted ally with damage on it.
 
 regulation:
 
 errata: []
-
-temp: Orc Rogue

@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Rogue
 
+talent:
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Opposing heroes and allies attack at random. Opponents pay 2 more to play abilities that target a hero or ally you control.'
+    text: 'Ongoing: Opposing heroes and allies attack at random.'
+  - type: Ability
+    text: Opponents pay {2} more to play abilities that target a hero or ally you control.
 
 regulation:
 
 errata: []
-
-temp: Subtlety

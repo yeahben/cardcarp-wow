@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Banshee
+
 trait:
 
 cost: '4'
@@ -17,14 +20,19 @@ health: 3
 
 combat: Shadow
 
-type: Raid
+limit:
+  - name: Unlimited
+
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: Scourge Hero Required and allies have -1 / -1.
+    text: Scourge Hero Required
+  - type: Ability
+    text: '{alliance} and {horde} allies have -1 / -1.'
 
 regulation:
 
 errata: []
-
-temp: Banshee

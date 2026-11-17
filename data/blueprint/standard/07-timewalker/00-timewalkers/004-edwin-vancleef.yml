@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 27
+
+faction: Alliance
+
+race: Human
+
+class:
+  - Rogue
+
+rule:
+  - type: Ability
+    position: Front
+    text: VanCleef's Revenge
+  - type: Ability
+    position: Front
+    text: '{basic} {2}, Flip Edwin → Edwin has +1 ATK and Stealth this turn.'
+  - type: Ability
+    position: Reverse
+    text: VanCleef's Thugs
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {5} → Put two 1 {melee} / 1 {health} Defias Thug ally tokens into play with "This ally can protect your hero."'
 
 regulation:
 

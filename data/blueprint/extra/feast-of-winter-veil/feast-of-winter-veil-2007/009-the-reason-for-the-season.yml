@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: "During your turn, pay 3 to complete this quest. Reward : Draw a card. If it's December, draw another card."
+    text: During your turn, pay {3} to complete this quest.
+  - type: Ability
+    text: "Reward: Draw a card. If it's December, draw another card."
 
 regulation:
 
 errata: []
-
-temp: ''

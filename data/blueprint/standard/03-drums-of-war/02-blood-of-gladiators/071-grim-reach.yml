@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: Affliction Hero Required Opposing heroes and allies have -1 health this turn for each ongoing ability you control.
+    text: Affliction Hero Required
+  - type: Ability
+    text: Opposing heroes and allies have -1 health this turn for each ongoing ability you control.
 
 regulation:
 
 errata: []
-
-temp: Affliction Talent

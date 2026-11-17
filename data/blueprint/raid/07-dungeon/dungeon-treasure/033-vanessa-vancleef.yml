@@ -1,0 +1,39 @@
+name: Vanessa VanCleef
+
+origin: dungeon-treasure-033
+
+layout: Standard
+
+category:
+  - Ally
+
+trait:
+
+cost: '5'
+
+damage: 4
+
+health: 5
+
+combat: Nature
+
+race: Human
+
+class:
+  - Rogue
+
+limit:
+  - name: Vanessa VanCleef
+    count: 1
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Stealth, Untargetable
+  - type: Ability
+    text: When Vanessa enters play, she may deal 4 nature damage to target exhausted hero or ally.
+
+regulation:
+
+errata: []

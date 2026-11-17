@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Empower Paladin : When this ally enters play, if you control another Paladin hero or ally, each ally you control with cost 2 or less has +X ATK this turn, where X is its ATK.'
+    text: 'Empower Paladin: When this ally enters play, if you control another Paladin hero or ally, double the ATK of each ally you control with cost 2 or less this turn.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Paladin

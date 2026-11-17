@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Broken
+  - Elder
+  - Sage
+
 trait:
 
 cost: '8'
@@ -17,12 +22,21 @@ health: 9
 
 combat: Melee
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Loyal Hero Required Protector , Stealth Other allies in your party are Untargetable . Traitor cards can't be played.
+    text: Loyal Hero Required
+  - type: Ability
+    text: Protector, Stealth
+  - type: Ability
+    text: Other allies in your party are untargetable.
+  - type: Ability
+    text: Traitor cards can't be played.
 
 regulation:
 
 errata: []
-
-temp: Broken Elder Sage

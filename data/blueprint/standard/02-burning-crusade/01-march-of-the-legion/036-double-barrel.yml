@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Hunter
 
-instant: 'Ongoing : Your hero has Ranged Dual Wield .'
+talent:
+  - Marksmanship
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Your hero has Ranged dual wield. (Can have a second Ranged weapon. Can strike with a second Ranged weapon during the same combat.)'
 
 regulation:
 
 errata: []
-
-temp: Marksmanship

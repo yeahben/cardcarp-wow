@@ -13,13 +13,23 @@ health: 29
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+talent:
+  - Retribution
+
+profession:
+  - Blacksmithing
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Blindburn → When the next ally you control is destroyed this turn, each opponent destroys an ally he controls.
+    text: '{3}, Flip Blindburn → When the next ally in your party is destroyed this turn, each opponent destroys an ally in his party.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

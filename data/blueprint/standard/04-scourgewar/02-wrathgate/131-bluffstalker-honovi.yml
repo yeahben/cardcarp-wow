@@ -19,12 +19,19 @@ combat: Ranged
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Assault 2 Allies have -2 ATK while defending against this ally.
+    text: Assault 2
+  - type: Ability
+    text: Allies have -2 ATK while defending against this ally.
 
 regulation:
 
 errata: []
-
-temp: Tauren Hunter

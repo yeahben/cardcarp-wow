@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Shaman
 
-instant: Destroy target ability. If you do, your hero deals 3 nature damage to that ability's controller's hero.
+talent:
+  - Restoration
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Destroy target ability. If you do, your hero deals 3 nature damage to that ability's controller's hero.
 
 regulation:
 
 errata: []
-
-temp: Restoration

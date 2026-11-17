@@ -19,10 +19,15 @@ combat: Arcane
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Mage
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Undead Mage

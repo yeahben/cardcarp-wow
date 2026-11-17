@@ -5,7 +5,12 @@ origin: war-of-the-elements-021
 layout: Standard
 
 category:
-  - Hero
+  - Master Hero
+
+subtype:
+  - Blue
+  - Dragonkin
+  - Aspect
 
 trait:
 
@@ -15,17 +20,18 @@ damage: 1
 
 health: 38
 
-combat: Ranged
+combat: Arcane
 
-type: Master
+instant: false
 
 rule:
   - type: Ability
     position: Front
-    text: You pay 3 less to play Kalecgos for each ability you played this turn. When you play a non-Ongoing ability, copy it. (You may choose new targets for the copy.)
+    text: You pay {3} less to play Kalecgos for each ability you played this turn.
+  - type: Ability
+    position: Front
+    text: When you play a non-Ongoing ability, copy it. (You may choose new targets for the copy.)
 
 regulation:
 
 errata: []
-
-temp: Blue Dragonkin Aspect

@@ -12,15 +12,21 @@ trait:
 cost: '2'
 
 class:
-  - Warlock
   - Mage
+  - Warlock
+
+talent:
+  - Fire
+  - Destruction
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Attach to target hero or ally. Ongoing : At the start of your turn, your hero deals 1 fire damage to attached character for each Mage and Warlock you control.'
+    text: Attach to target hero or ally.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero deals 1 fire damage to attached character for each Mage and Warlock you control.'
 
 regulation:
 
 errata: []
-
-temp: Fire Destruction

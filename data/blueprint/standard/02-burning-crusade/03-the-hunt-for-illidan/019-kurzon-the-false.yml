@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Eredar
+  - Demon
+
 trait:
 
 health: 28
@@ -16,13 +20,11 @@ faction: Alliance
 rule:
   - type: Ability
     position: Front
-    text: 1 , Put three allies from your party into their owner's hands → Flip Kurzon face down.
+    text: "{1}, Put three {alliance} allies from your party into their owners' hands → Flip Kurzon face down."
   - type: Ability
     position: Reverse
-    text: allies in your party have Elusive .
+    text: '{alliance} allies in your party are elusive.'
 
 regulation:
 
 errata: []
-
-temp: Eredar Demon

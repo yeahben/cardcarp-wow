@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Giant Spider
+
 trait:
+
+health: 18
 
 type: Boss
 
 rule:
   - type: Ability
     position: Front
-    text: "Assault 8 At the start of your turn, heroes and allies in target raider's party lose and can't have powers this turn. On your turn: 9 → Flip Maexxna face down."
+    text: Assault 8
+  - type: Ability
+    position: Front
+    text: At the start of your turn, heroes and allies in target raider's party lose and can't have powers this turn.
+  - type: Ability
+    position: Front
+    text: 'On your turn: {9} → Flip Maexxna face down.'
   - type: Ability
     position: Reverse
-    text: Assault 12 At the start of your turn, if you didn't take the last turn, take an extra turn after this one.
+    text: Assault 12
+  - type: Ability
+    position: Reverse
+    text: At the start of your turn, if you didn't take the last turn, take an extra turn after this one.
 
 regulation:
 
 errata: []
-
-temp: Giant Spider 18

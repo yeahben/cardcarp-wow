@@ -1,4 +1,4 @@
-name: Vengeful Gladiators Cleaver
+name: Vengeful Gladiator's Cleaver
 
 origin: fields-of-honor-180
 
@@ -7,21 +7,39 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Axe
+
 trait:
 
 cost: '4'
 
+damage: 4
+
+strike: 2
+
+combat: Melee
+
 class:
-  - Warrior
   - Death Knight
   - Shaman
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
+type: Arena
 
 rule:
   - type: Ability
-    text: Your hero has Dual Wield . You can strike with Vengeful Gladiator's Cleaver while an ally in your party is in combat. (If you do, that ally gains this card's ATK and damage type this combat.)
+    text: Your hero has dual wield.
+  - type: Ability
+    text: You can strike with Vengeful Gladiator's Cleaver while an ally in your party is in combat. (If you do, that ally gains this card's ATK and damage type this combat.)
 
 regulation:
 
 errata: []
-
-temp: 1H Arena Weapon Axe

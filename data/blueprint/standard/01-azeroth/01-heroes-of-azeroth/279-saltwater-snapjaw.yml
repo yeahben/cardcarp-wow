@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Turtle
+
 trait:
 
 cost: '3'
@@ -17,14 +20,12 @@ health: 3
 
 combat: Melee
 
-faction: Horde
+instant: false
 
 rule:
   - type: Ability
-    text: 3 → Prevent all damage that would be dealt to Saltwater Snapjaw this turn.
+    text: '{3} → Prevent all damage that would be dealt to Saltwater Snapjaw this turn.'
 
 regulation:
 
 errata: []
-
-temp: Turtle

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '1'
@@ -15,12 +18,20 @@ class:
   - Death Knight
   - Warlock
 
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'As each turn starts, Hero : Prevent the next 3 melee ( ) damage that would be dealt to your hero this turn. Hero : Prevent the next 3 non-melee damage that would be dealt to your hero this turn.'
+    text: As each turn starts,
+  - type: Ability
+    text: '{warlock} Hero: Prevent the next 3 melee ({melee}) damage that would be dealt to your hero this turn.'
+  - type: Ability
+    text: '{death knight} Hero: Prevent the next 3 non-melee damage that would be dealt to your hero this turn.'
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

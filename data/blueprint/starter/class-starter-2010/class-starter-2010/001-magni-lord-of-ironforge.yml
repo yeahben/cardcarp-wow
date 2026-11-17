@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - King
+
 trait:
 
 cost: '7'
@@ -19,12 +22,22 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Warrior
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When this ally is dealt combat damage by an attacking ally, you may put an ally with cost less than or equal to that attacking ally's cost from your hand into play.
+    text: Protector
+  - type: Ability
+    text: When this ally is dealt combat damage by an attacking ally, you may put an {alliance} ally with cost less than or equal to that attacking ally's cost from your hand into play.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Warrior King

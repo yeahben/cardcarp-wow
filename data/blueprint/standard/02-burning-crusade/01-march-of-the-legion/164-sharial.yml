@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive → Exhaust target equipment.
+    text: Elusive (Can't be attacked.)
+  - type: Ability
+    text: '{activate} → Exhaust target equipment.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Rogue

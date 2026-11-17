@@ -13,16 +13,19 @@ health: 25
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Mage
+
 rule:
   - type: Ability
     position: Front
-    text: 3 → Flip Jaina face down.
+    text: '{3} → Flip Jaina'
   - type: Ability
     position: Reverse
-    text: 'Frost Focus : If Jaina would deal damage to an opposing hero or ally, she deals that much +1 instead.'
+    text: "Frost Focus: When an opposing hero or ally would be dealt frost ({frost}) damage by Jaina, it's dealt that much +1 instead."
 
 regulation:
 
 errata: []
-
-temp: Human Mage

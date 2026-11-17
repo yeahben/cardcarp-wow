@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '4'
+
+defense: 2
 
 class:
   - Paladin
   - Warrior
 
+limit:
+  - name: Waist
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 4 , → Ready your hero and one of your Melee weapons.
+    text: '{4}, {activate} → Ready your hero and one of your Melee weapons.'
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

@@ -13,13 +13,16 @@ health: 29
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 5 , Flip Saria → Target opposing ally deals melee damage to itself equal to its ATK.'
+    text: 'On your turn: {5}, Flip Saria → Target opposing ally deals melee damage to itself equal to its ATK.'
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

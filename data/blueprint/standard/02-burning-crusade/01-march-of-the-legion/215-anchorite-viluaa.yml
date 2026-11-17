@@ -17,12 +17,19 @@ health: 3
 
 combat: Holy
 
+race: Draenei
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Aldor Reputation Inspire: Hero'
+    text: Aldor Reputation (Can't put Scryer cards in your deck.)
+  - type: Ability
+    text: "Inspire: Hero (Ready your hero during each other player's ready step.)"
 
 regulation:
 
 errata: []
-
-temp: Draenei Priest

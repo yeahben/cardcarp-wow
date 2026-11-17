@@ -19,12 +19,21 @@ combat: Holy
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Haste 2 When this ally enters play, he heals 2 damage from target hero or ally. When this ally deals damage to a hero, you may return him to his owner's hand.
+    text: Haste 2
+  - type: Ability
+    text: When this ally enters play, he heals 2 damage from target hero or ally.
+  - type: Ability
+    text: When this ally deals damage to a hero, you may return him to his owner's hand.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Priest

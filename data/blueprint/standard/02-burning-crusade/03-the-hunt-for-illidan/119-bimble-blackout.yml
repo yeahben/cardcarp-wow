@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: When Bimble is removed from the game from anywhere, draw a card.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

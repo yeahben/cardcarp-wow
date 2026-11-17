@@ -19,12 +19,19 @@ combat: Shadow
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, target ally has -2 ATK this turn. Protector
+    text: When this ally enters play, target ally has -2 ATK this turn.
+  - type: Ability
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
 
 regulation:
 
 errata: []
-
-temp: Worgen Death Knight

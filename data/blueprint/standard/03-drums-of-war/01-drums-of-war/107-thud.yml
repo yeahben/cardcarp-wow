@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '2'
@@ -15,12 +18,16 @@ class:
   - Paladin
   - Rogue
 
-instant: Exhaust target card in play. It can't ready during its controller's next ready step.
+talent:
+  - Protection
+  - Combat
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Exhaust target card in play. It can't ready during its controller's next ready step.
 
 regulation:
 
 errata: []
-
-temp: Protection Combat Combo

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '4'
@@ -14,12 +17,17 @@ cost: '4'
 class:
   - Mage
 
+talent:
+  - Fire
+
+instant: false
+
 rule:
   - type: Ability
-    text: Fire Hero Required Your hero deals X fire damage to each hero and ally, where X is target ally's health.
+    text: Fire Hero Required
+  - type: Ability
+    text: Your hero deals X fire damage to each hero and ally, where X is target ally's health.
 
 regulation:
 
 errata: []
-
-temp: Fire Talent

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Succubus
+  - Demon
+
 trait:
 
 cost: '5'
@@ -20,6 +24,12 @@ combat: Shadow
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
@@ -29,5 +39,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Succubus Demon

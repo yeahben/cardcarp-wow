@@ -9,16 +9,20 @@ category:
 
 trait:
 
-type: Raid
+instant: false
+
+type: Naxxramas
 
 stage: 1
 
+sequence: 1
+
 rule:
   - type: Ability
-    text: Target hero or ally you control has Assault 3 this turn. If you're in the Construct Quarter, it has an additional Assault 3 and can't be protected against this turn.
+    text: Target hero or ally you control has Assault 3 this turn.
+  - type: Ability
+    text: If you're in the Construct Quarter, it has an additional Assault 3 and can't be protected against this turn.
 
 regulation:
 
 errata: []
-
-temp: ''

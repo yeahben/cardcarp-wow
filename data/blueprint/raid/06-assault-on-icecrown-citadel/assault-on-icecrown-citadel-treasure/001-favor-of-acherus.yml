@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Allies and weapons you control have Assault 1 for each Disease attached to opposing heroes.'
+    text: 'Ongoing: Allies and weapons you control have Assault 1 for each Disease attached to opposing heroes.'
 
 regulation:
 
 errata: []
-
-temp: Unholy

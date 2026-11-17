@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Tol'vir
+
 trait:
 
 cost: '5'
@@ -17,14 +20,22 @@ health: 5
 
 combat: Melee
 
+class:
+  - Rogue
+  - Warrior
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: While you control one or more equipment, this ally has Stealth . While you control two or more equipment, this ally has Ferocity . While you control three or more equipment, this ally has Sentinel .
+    text: While you control one or more equipment, this ally has Stealth.
+  - type: Ability
+    text: While you control two or more equipment, this ally has Ferocity.
+  - type: Ability
+    text: While you control three or more equipment, this ally has Sentinel.
 
 regulation:
 
 errata: []
-
-temp: Tol'vir Rogue Warrior

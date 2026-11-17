@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When you play an ability, Dannon has +2 ATK this turn.
+    text: Protector
+  - type: Ability
+    text: When you play an ability, Dannon has +2 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

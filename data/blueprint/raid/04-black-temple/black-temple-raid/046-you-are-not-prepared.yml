@@ -1,0 +1,22 @@
+name: You Are Not Prepared!
+
+origin: black-temple-raid-046
+
+layout: Standard
+
+category:
+  - Event
+
+trait:
+
+instant: false
+
+sequence: 21
+
+rule:
+  - type: Ability
+    text: Target an opposing ability, ally, or equipment. Remove all opposing cards in play with the same name as that card from the game.
+
+regulation:
+
+errata: []

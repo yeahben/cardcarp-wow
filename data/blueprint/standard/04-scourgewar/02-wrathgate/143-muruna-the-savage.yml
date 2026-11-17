@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Allies you control have +2 while you control a Form.
+    text: Protector
+  - type: Ability
+    text: Allies you control have +2 {health} while you control a Form.
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

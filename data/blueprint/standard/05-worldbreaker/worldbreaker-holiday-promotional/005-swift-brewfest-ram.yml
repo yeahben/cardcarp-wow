@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ram
+
 trait:
 
 cost: '2'
@@ -17,12 +20,18 @@ health: 4
 
 combat: Melee
 
+limit:
+  - name: Mount
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: "When you place a resource face up, choose one at random: Each player draws a card; or each player discards a card. (Mounts can't attack or be attacked.)"
+    text: 'When you place a resource face up, choose one at random: Each player draws a card; or each player discards a card.'
+  - type: Ability
+    text: (Mounts can't attack or be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Ram

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Attachment
+
 trait:
 
 cost: '3'
@@ -14,12 +17,19 @@ cost: '3'
 class:
   - Warrior
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Protection Talent Attach to target ally. Ongoing : Attached ally has +4 / +4, Protector , and "At the end of your turn, you may ready this ally."'
+    text: Protection Talent (You can't put Arms Talents or Fury Talents in your deck.)
+  - type: Ability
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +4 / +4, Protector, and "At the end of your turn, you may ready this ally."'
 
 regulation:
 
 errata: []
-
-temp: Protection Attachment

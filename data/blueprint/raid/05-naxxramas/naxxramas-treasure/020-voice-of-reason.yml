@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Shield
+
 trait:
 
 cost: '3'
+
+defense: 2
 
 class:
   - Paladin
   - Shaman
 
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero has Mend 2 for each 5 damage on it. Your hero has Protector while you control no damaged allies.
+    text: Your hero has Mend 2 for each 5 damage on it.
+  - type: Ability
+    text: Your hero has Protector while you control no damaged allies.
 
 regulation:
 
 errata: []
-
-temp: Armor Shield

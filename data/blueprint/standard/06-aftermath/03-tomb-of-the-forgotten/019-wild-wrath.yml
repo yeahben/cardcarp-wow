@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Druid
 
-instant: Your hero deals 2 nature damage to target ally. Put a 1 / 1 Treant ally token into play.
+talent:
+  - Balance
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 2 nature damage to target ally. Put a 1 {melee} / 1 {health} Treant ally token into play.
 
 regulation:
 
 errata: []
-
-temp: Balance

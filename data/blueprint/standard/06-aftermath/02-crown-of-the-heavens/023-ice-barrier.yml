@@ -14,12 +14,21 @@ cost: '3'
 class:
   - Mage
 
+talent:
+  - Frost
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Frost Talent This ability enters play with three ice counters. Ongoing : If your hero would be dealt damage, remove an ice counter from this ability. Then, if no ice counters remain, destroy this ability. At the start of your turn, your hero deals 5 frost damage to target opposing hero.'
+    text: Frost Talent (You can't put Arcane Talents or Fire Talents in your deck.)
+  - type: Ability
+    text: This ability enters play with three ice counters.
+  - type: Ability
+    text: 'Ongoing: If your hero would be dealt damage, remove an ice counter from this ability. If you do, prevent that damage. Then, if no ice counters remain, destroy this ability.'
+  - type: Ability
+    text: At the start of your turn, your hero deals 5 frost damage to target opposing hero.
 
 regulation:
 
 errata: []
-
-temp: Frost

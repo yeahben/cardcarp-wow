@@ -7,21 +7,28 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: Your hero has Assault 1 .
+    text: Your hero has Assault 1. (It has +1 ATK on your turn.)
 
 regulation:
 
 errata: []
-
-temp: Item

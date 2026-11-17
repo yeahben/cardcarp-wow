@@ -13,16 +13,19 @@ health: 25
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Mage
+
 rule:
   - type: Ability
     position: Front
-    text: 4 → Flip Nomak face down.
+    text: '{4} → Flip Nomak'
   - type: Ability
     position: Reverse
-    text: When Nomak deals fire ( ) damage for the first time on each of your turns, allies you control have Assault 1 this turn. This power triggers only once per turn.
+    text: When Nomak deals fire ({fire}) damage for the first time on each of your turns, allies you control have Assault 1 this turn.
 
 regulation:
 
 errata: []
-
-temp: Worgen Mage

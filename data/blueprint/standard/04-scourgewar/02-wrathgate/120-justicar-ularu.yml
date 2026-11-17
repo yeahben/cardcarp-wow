@@ -19,6 +19,13 @@ combat: Frost
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters combat for the first time on each of your turns, ready him if a Priest is defending.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

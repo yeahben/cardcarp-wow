@@ -7,19 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Shield
+
 trait:
 
 cost: '5'
 
+defense: 3
+
 class:
   - Paladin
 
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this armor enters play, your hero deals unpreventable holy damage to target ally equal to the combined of this and other armor you control.
+    text: When this armor enters play, your hero deals unpreventable holy damage to target ally equal to the combined {def} of this and other armor you control.
 
 regulation:
 
 errata: []
-
-temp: Armor Shield

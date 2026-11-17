@@ -13,10 +13,10 @@ faction: Horde
 
 rule:
   - type: Ability
-    text: 'During your turn, pay 1 to complete this quest. Reward : Draw a card, and target opponent puts a Boar ally token with 1 ATK and 1 health into play.'
+    text: During your turn, pay {1} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card, and target opponent puts a Boar ally token with 1 ATK and 1 health into play.'
 
 regulation:
 
 errata: []
-
-temp: ''

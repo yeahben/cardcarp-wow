@@ -13,10 +13,10 @@ faction: Alliance
 
 rule:
   - type: Ability
-    text: "During your turn, pay 3 to complete this quest. Reward : Choose one: Put an ally from your party into its owner's hand; or draw a card. If your hero is a Draenei, you may choose both."
+    text: During your turn, pay {3} to complete this quest.
+  - type: Ability
+    text: "Reward: Choose one: Put an ally from your party into its owner's hand; or draw a card. If your hero is a Draenei, you may choose both."
 
 regulation:
 
 errata: []
-
-temp: ''

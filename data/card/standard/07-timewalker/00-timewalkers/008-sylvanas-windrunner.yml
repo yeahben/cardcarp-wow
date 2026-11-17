@@ -2,13 +2,13 @@ blueprint: sylvanas-windrunner-timewalkers-008
 
 index: '008'
 
-rarity: Rare
+rarity: Uncommon
 
-artist: Unknown
+artist: James Ryman
 
 variation:
   - Flip
 
-flavor: ''
+flavor: "\"You think I'm running from you? Apparently you've never fought elves before.\""
 
 set: Timewalkers

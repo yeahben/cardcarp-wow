@@ -14,6 +14,11 @@ cost: '4'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
     text: Opposing allies have -X / -X this turn, where X is the cost of a Disease you control.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Unholy

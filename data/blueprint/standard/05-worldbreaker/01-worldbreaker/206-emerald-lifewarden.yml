@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Green
+  - Dragonkin
+
 trait:
 
 cost: '4'
@@ -17,12 +21,14 @@ health: 3
 
 combat: Nature
 
+instant: false
+
 rule:
   - type: Ability
-    text: "You can place an additional resource on each of your turns. Stash : Reveal the top card of your deck. If it's a quest, put it into your hand."
+    text: You can place an additional resource on each of your turns.
+  - type: Ability
+    text: "Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Reveal the top card of your deck. If it's a quest, put it into your hand."
 
 regulation:
 
 errata: []
-
-temp: Green Dragonkin

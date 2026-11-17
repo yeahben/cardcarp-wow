@@ -7,21 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Axe
+
 trait:
 
 cost: '4'
 
+damage: 0
+
+strike: 0
+
+combat: Melee
+
 class:
-  - Warrior
   - Death Knight
   - Shaman
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: This weapon enters play with five +1 ATK counters. At the start of your turn, remove a +1 ATK counter. If none remain, destroy this weapon.
+    text: This weapon enters play with five +1 ATK counters.
+  - type: Ability
+    text: At the start of your turn, remove a +1 ATK counter. If none remain, destroy this weapon.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Axe

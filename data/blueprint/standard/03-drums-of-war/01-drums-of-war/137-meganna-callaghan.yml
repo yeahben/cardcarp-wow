@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Meganna can attack Elusive heroes and allies.
+    text: Meganna can attack elusive heroes and allies.
 
 regulation:
 
 errata: []
-
-temp: Human Rogue

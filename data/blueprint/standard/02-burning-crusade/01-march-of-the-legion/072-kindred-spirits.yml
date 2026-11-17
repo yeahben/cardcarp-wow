@@ -14,12 +14,15 @@ cost: '7'
 class:
   - Priest
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : Your hero can't be destroyed while another friendly hero or ally is in play."
+    text: "Ongoing: Your hero can't be destroyed while another friendly hero or ally is in play."
 
 regulation:
 
 errata: []
-
-temp: Holy

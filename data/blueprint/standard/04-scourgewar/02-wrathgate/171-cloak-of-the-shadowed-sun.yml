@@ -7,20 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '4'
+
+defense: 1
 
 class:
   - Druid
   - Warrior
 
+limit:
+  - name: Back
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Your hero has Protector . Hero : Opposing allies have -1 ATK. Hero : Opposing allies have -1 .'
+    text: Your hero has Protector.
+  - type: Ability
+    text: '{druid} Hero: Opposing allies have -1 ATK.'
+  - type: Ability
+    text: '{warrior} Hero: Opposing allies have -1 {health}.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

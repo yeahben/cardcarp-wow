@@ -5,7 +5,12 @@ origin: black-temple-treasure-001
 layout: Standard
 
 category:
-  - Hero
+  - Master Hero
+
+subtype:
+  - Demon
+  - Demonhunter
+  - Traitor
 
 trait:
 
@@ -17,15 +22,18 @@ health: 35
 
 combat: Melee
 
-type: Master
+race: Night Elf
+
+instant: false
 
 rule:
   - type: Ability
     position: Front
-    text: Traitor Hero Required At the start of your turn, you may put a Traitor ally card from your collection into play.
+    text: Traitor Hero Required
+  - type: Ability
+    position: Front
+    text: At the start of your turn, you may put a Traitor ally card from your collection into play.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Demon Demonhunter Traitor

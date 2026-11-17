@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Molten Core
+
 trait:
 
 cost: '1'
 
-instant: Your hero deals 2 fire damage to target opposing ally. If your hero is Magmadar, he also deals 2 fire damage to each other hero and ally in that ally's party.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Your hero deals 2 fire damage to target opposing ally. If your hero is Magmadar, he also deals 2 fire damage to each other hero and ally in that ally's party.
 
 regulation:
 
 errata: []
-
-temp: Molten Core

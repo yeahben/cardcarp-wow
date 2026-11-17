@@ -19,12 +19,19 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: This ally enters play with 2 damage on her. This ally has Assault 4 and Spellshield while undamaged.
+    text: This ally enters play with 2 damage on her.
+  - type: Ability
+    text: This ally has Assault 4 and Spellshield while undamaged.
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

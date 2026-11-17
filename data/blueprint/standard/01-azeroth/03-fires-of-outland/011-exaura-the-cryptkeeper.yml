@@ -13,13 +13,23 @@ health: 25
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Mage
+
+talent:
+  - Arcane
+
+profession:
+  - Enchanting
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Exaura → Remove two target ally cards in one graveyard from the game. Draw a card. Use only on your turn.
+    text: '{2}, Flip Exaura → Remove two target ally cards in one graveyard from the game. Draw a card. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Undead Mage

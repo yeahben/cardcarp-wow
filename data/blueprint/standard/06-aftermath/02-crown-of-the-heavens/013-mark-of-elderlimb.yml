@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally. Ongoing : When attached ally deals damage to an opposing hero, put two 1 / 1 Treant ally tokens into play.'
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: When attached ally deals damage to an opposing hero, put two 1 {melee} / 1 {health} Treant ally tokens into play.'
 
 regulation:
 
 errata: []
-
-temp: Balance

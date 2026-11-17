@@ -5,8 +5,21 @@ origin: fires-of-outland-tokens-013
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
+  - Boar
 
 trait:
+
+damage: 1
+
+health: 1
+
+combat: Melee
+
+instant: false
 
 rule: []
 

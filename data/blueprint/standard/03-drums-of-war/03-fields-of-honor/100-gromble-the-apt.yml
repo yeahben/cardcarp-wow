@@ -15,14 +15,23 @@ damage: 1
 
 health: 3
 
+combat: Ranged
+
 faction: Alliance
+
+race: Dwarf
+
+class:
+  - Hunter
+
+instant: false
 
 rule:
   - type: Ability
-    text: Find Treasure Your hero can be exhausted to pay costs as though it were a resource.
+    text: Find Treasure (When this ally enters play, you may draw a card. If you do, discard a card.)
+  - type: Ability
+    text: Your hero can be exhausted to pay costs as though it were a resource.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

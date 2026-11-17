@@ -13,16 +13,19 @@ health: 27
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Druid
+
 rule:
   - type: Ability
     position: Front
-    text: 3 → Flip Kanga
+    text: '{3} → Flip Kanga'
   - type: Ability
     position: Reverse
-    text: You pay 1 less to play Feral abilities, to a minimum of 1 .
+    text: You pay {1} less to play Feral abilities, to a minimum of {1}.
 
 regulation:
 
 errata: []
-
-temp: Troll Druid

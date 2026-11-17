@@ -13,10 +13,15 @@ health: 28
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Shaman
+
 rule:
   - type: Ability
     position: Front
-    text: 6 → Flip Deragor face down.
+    text: '{6} → Flip Deragor'
   - type: Ability
     position: Reverse
     text: At the start of your turn, target up to three heroes and/or allies. Deragor heals 3, 2, and 1 damage from them, respectively.
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Shaman

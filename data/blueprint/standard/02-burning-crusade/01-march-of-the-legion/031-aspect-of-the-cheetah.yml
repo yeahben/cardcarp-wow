@@ -14,12 +14,21 @@ cost: '1'
 class:
   - Hunter
 
+talent:
+  - Beast Mastery
+
+limit:
+  - name: Aspect
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : You pay 1 less to complete quests, to a minimum of 1 . When your hero is dealt damage, put Aspect of the Cheetah from play into its owner's hand."
+    text: 'Ongoing: You pay {1} less to complete quests, to a minimum of {1}.'
+  - type: Ability
+    text: When your hero is dealt damage, put Aspect of the Cheetah from play into its owner's hand.
 
 regulation:
 
 errata: []
-
-temp: Beast Mastery

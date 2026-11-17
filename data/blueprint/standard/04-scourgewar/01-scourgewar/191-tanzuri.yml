@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: This ally has Assault 2 while an opposing ally with cost 4 or more is in play.
+    text: This ally has Assault 2 while an opposing ally with cost 4 or more is in play. (+2 ATK on your turn)
 
 regulation:
 
 errata: []
-
-temp: Troll Hunter

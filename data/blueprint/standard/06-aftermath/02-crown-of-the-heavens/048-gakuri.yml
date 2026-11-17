@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Imp
+  - Demon
+
 trait:
 
 cost: '3'
@@ -20,14 +24,18 @@ combat: Fire
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: ', Destroy another Monster or Demon ally you control → This ally deals 4 fire damage to target hero or ally.'
+    text: '{activate}, Destroy another Monster or Demon ally you control → This ally deals 4 fire damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Imp Demon

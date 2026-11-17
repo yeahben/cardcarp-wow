@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Warlock
 
+talent:
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
-    text: As an additional cost to play this ability, destroy an ally you control. Destroy up to two target allies.
+    text: As an additional cost to play this ability, destroy an ally you control.
+  - type: Ability
+    text: Destroy up to two target allies.
 
 regulation:
 
 errata: []
-
-temp: Destruction

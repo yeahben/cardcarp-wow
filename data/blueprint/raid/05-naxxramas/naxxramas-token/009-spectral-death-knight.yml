@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Spectral
+
 trait:
 
 damage: 2
@@ -15,7 +19,10 @@ health: 1
 
 combat: Melee
 
-type: Ally
+class:
+  - Death Knight
+
+instant: false
 
 rule:
   - type: Ability
@@ -24,5 +31,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Spectral Death Knight

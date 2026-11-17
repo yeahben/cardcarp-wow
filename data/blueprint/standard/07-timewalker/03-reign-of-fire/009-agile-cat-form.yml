@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Cat
+  - Form
+
 trait:
 
 cost: '1'
@@ -14,12 +18,19 @@ cost: '1'
 class:
   - Druid
 
-instant: 'Ongoing : Your hero has Assault 1 .'
+talent:
+  - Feral
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Your hero has Assault 1.'
 
 regulation:
 
 errata: []
-
-temp: Feral Cat Form

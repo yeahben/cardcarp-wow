@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Alliance
 
-instant: You pay 3 less to play this ally if you played an ability this turn.
+race: Draenei
 
-rule: []
+class:
+  - Mage
+
+instant: true
+
+rule:
+  - type: Ability
+    text: You pay {3} less to play this ally if you played an ability this turn.
 
 regulation:
 
 errata: []
-
-temp: Draenei Mage

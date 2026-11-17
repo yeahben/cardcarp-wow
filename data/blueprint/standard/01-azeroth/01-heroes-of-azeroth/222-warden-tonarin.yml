@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Elusive
+    text: Elusive, Protector
 
 regulation:
 
 errata: []
-
-temp: Night Elf Warrior

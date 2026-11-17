@@ -15,14 +15,19 @@ health: 3
 
 combat: Fire
 
+race: Human
+
+class:
+  - Mage
+
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: Long-Range
+    text: Long-Range (Defenders deal no combat damage to this ally.)
 
 regulation:
 
 errata: []
-
-temp: Human Mage

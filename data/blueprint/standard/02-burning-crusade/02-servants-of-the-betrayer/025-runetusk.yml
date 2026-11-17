@@ -13,13 +13,23 @@ health: 26
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Priest
+
+talent:
+  - Shadow
+
+profession:
+  - Herbalism
+  - Alchemy
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Runetusk → Target opponent discards a card. Use only on your turn.
+    text: '{2}, Flip Runetusk → Target opponent discards a card. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Troll Priest

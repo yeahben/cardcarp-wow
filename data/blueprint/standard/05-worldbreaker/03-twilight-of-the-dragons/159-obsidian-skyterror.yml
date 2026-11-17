@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Black
+  - Dragonkin
+
 trait:
 
 cost: '5'
@@ -17,6 +21,8 @@ health: 3
 
 combat: Fire
 
+instant: false
+
 rule:
   - type: Ability
     text: When this or another Black or Twilight Dragonkin ally you control is destroyed, you may destroy target Dragonkin ally.
@@ -24,5 +30,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Black Dragonkin

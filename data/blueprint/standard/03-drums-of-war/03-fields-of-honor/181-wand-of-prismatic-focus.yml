@@ -7,14 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Wand
+
 trait:
 
 cost: '4'
 
+damage: 1
+
+strike: 1
+
+combat: Shadow
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Wand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -23,5 +39,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Wand

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Tol'vir
+
 trait:
 
 cost: '3'
@@ -17,14 +20,20 @@ health: 4
 
 combat: Holy
 
+class:
+  - Paladin
+  - Warrior
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Protector , Sentinel
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
+  - type: Ability
+    text: Sentinel (The first time this ally exhausts each turn, ready it.)
 
 regulation:
 
 errata: []
-
-temp: Tol'vir Paladin Warrior

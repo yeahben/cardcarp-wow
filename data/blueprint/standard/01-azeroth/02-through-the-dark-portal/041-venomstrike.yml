@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Scorpid
+
 trait:
 
 cost: '4'
@@ -20,6 +23,12 @@ combat: Melee
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: At the end of each turn, Venomstrike deals 4 nature damage to each hero and ally it dealt damage to this turn.
@@ -27,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Scorpid

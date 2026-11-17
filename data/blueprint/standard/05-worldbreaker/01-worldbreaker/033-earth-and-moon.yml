@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Balance Talent Ongoing : If a hero or an ally you control would deal arcane ( ) or nature ( ) damage, it deals that much +2 instead.'
+    text: Balance Hero Required
+  - type: Ability
+    text: 'Ongoing: If a hero or ally you control would deal arcane ({arcane}) or nature ({nature}) damage, it deals that much +2 instead.'
 
 regulation:
 
 errata: []
-
-temp: Balance Talent

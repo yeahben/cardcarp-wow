@@ -11,15 +11,26 @@ trait:
 
 cost: '2'
 
+health: 1
+
 class:
   - Shaman
 
+talent:
+  - Restoration
+
+limit:
+  - name: Water Totem
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : When an opposing ability, ally, or equipment readies, put it into its owner's hand. (Totems can be attacked or targeted like allies.)"
+    text: "Ongoing: When an opposing ability, ally, or equipment readies, put it into its owner's hand."
+  - type: Ability
+    text: (Totems can be attacked or targeted like allies.)
 
 regulation:
 
 errata: []
-
-temp: Restoration 1

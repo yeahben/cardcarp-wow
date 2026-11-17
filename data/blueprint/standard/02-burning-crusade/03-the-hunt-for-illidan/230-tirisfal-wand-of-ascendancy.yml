@@ -7,21 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Wand
+
 trait:
 
 cost: '1'
 
+damage: 1
+
+strike: 1
+
+combat: Shadow
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Wand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Remove an ability card in your graveyard from the game → You pay 1 less the next time you strike with Tirisfal Wand of Ascendancy this turn.
+    text: Remove an ability card in your graveyard from the game → You pay {1} less the next time you strike with Tirisfal Wand of Ascendancy this turn.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Wand

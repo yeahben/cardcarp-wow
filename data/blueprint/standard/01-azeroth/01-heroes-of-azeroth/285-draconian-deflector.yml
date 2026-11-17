@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Shield
+
 trait:
 
 cost: '4'
 
+defense: 4
+
 class:
   - Paladin
-  - Warrior
   - Shaman
+  - Warrior
+
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Your hero has Protector .
+    text: Your hero has protector.
 
 regulation:
 
 errata: []
-
-temp: Armor Shield

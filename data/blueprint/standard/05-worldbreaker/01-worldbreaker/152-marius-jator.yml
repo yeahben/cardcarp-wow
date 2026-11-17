@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Long-Range Once on each of your turns: 1 → This ally has Assault 3 and loses and can't have Long-Range this turn."
+    text: Long-Range (When this ally attacks, defenders deal no combat damage to it.)
+  - type: Ability
+    text: "Once on each of your turns: {1} → This ally has Assault 3 and loses and can't have Long-Range this turn."
 
 regulation:
 
 errata: []
-
-temp: Worgen Hunter

@@ -7,21 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Wand
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 1
+
+combat: Frost
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
 
-instant: When Wand of Biting Cold enters play, target hero or ally can't attack this turn.
+limit:
+  - name: Wand
+    count: 1
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: When Wand of Biting Cold enters play, target hero or ally can't attack this turn.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Wand

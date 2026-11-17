@@ -19,12 +19,24 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Warrior
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector You pay 1 less to play Vanndar for each honor counter on cards you control. 1 , Remove an honor counter from a card you control → Each player destroys one of his resources.
+    text: Protector
+  - type: Ability
+    text: You pay {1} less to play Vanndar for each honor counter on cards you control.
+  - type: Ability
+    text: '{1}, Remove an honor counter from a card you control → Each player destroys one of his resources.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Warrior

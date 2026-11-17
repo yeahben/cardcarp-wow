@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, reveal the top card of your deck. If it's an ability, ally, or equipment, target opponent removes cards from the top of his deck from the game equal to that revealed card's cost.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Priest

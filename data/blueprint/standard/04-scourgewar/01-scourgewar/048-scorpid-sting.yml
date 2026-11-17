@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Sting
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Hunter
 
-instant: "Attach to target hero. Ongoing : At the start of attached hero's controller's turn, he exhausts an equipment he controls. If you control a Ranged weapon, he exhausts a second equipment he controls."
+talent:
+  - Marksmanship
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target hero.
+  - type: Ability
+    text: "Ongoing: At the start of attached hero's controller's turn, he exhausts an equipment he controls. If you control a Ranged weapon, he exhausts a second equipment he controls."
 
 regulation:
 
 errata: []
-
-temp: Marksmanship Sting

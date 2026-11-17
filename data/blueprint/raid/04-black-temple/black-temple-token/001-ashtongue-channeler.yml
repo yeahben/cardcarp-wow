@@ -1,0 +1,32 @@
+name: Ashtongue Channeler
+
+origin: black-temple-token-001
+
+layout: Standard
+
+category:
+  - Token
+
+subtype:
+  - Ally
+  - Broken
+  - Channeler
+
+trait:
+  - 'Shade of Akama: 6'
+
+damage: 0
+
+health: 1
+
+combat: Shadow
+
+instant: false
+
+rule:
+  - type: Ability
+    text: '{1}, Destroy Ashtongue Channeler → Draw a card.'
+
+regulation:
+
+errata: []

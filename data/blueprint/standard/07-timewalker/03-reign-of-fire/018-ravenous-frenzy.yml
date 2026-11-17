@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Hunter
 
-instant: Target ally has +4 ATK this turn. Target ally has -4 ATK this turn.
+talent:
+  - Beast Mastery
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target ally has +4 ATK this turn.
+  - type: Ability
+    text: Target ally has -4 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Beast Mastery

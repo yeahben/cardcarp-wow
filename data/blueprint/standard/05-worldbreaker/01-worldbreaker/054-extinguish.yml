@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Mage
 
-instant: 'Ongoing : When this ability enters play, you may interrupt target ability. If your hero would be dealt magical damage (Arcane ( ), Fire ( ), Frost ( ), Holy ( ), Nature ( ), or Shadow ( ) ) , prevent 1 of it.'
+talent:
+  - Arcane
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: When this ability enters play, you may interrupt target ability.'
+  - type: Ability
+    text: If your hero would be dealt magical damage (Arcane ({arcane}), Fire ({fire}), Frost ({frost}), Holy ({holy}), Nature ({nature}), or Shadow ({shadow})), prevent 1 of it.
 
 regulation:
 
 errata: []
-
-temp: Arcane

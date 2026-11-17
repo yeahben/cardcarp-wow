@@ -19,12 +19,17 @@ combat: Frost
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Berserking
+    text: Berserking (+1 ATK for each damage.)
 
 regulation:
 
 errata: []
-
-temp: Troll Mage

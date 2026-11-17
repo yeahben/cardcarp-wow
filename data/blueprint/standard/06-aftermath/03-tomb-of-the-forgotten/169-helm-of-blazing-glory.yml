@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '8'
 
+defense: 4
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: While your hero has 5 or more remaining health, double the ATK of weapons you control and double the of armor you control.
+    text: While your hero has 5 or less remaining health, double the ATK of weapons you control and double the {def} of armor you control.
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

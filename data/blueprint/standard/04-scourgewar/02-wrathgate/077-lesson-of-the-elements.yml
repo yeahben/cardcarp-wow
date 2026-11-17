@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Shaman
 
+talent:
+  - Elemental
+
+instant: false
+
 rule:
   - type: Ability
-    text: You may exhaust a non-hero Shaman you control rather than pay this ability's cost. Your hero deals 3 nature damage divided as you choose to any number of target heroes and/or allies.
+    text: You may exhaust a non-hero Shaman you control rather than pay this ability's cost.
+  - type: Ability
+    text: Your hero deals 3 nature damage divided as you choose to any number of target heroes and/or allies.
 
 regulation:
 
 errata: []
-
-temp: Elemental

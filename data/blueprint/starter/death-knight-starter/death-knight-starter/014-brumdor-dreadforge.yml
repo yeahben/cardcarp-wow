@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Destroy one of your equipment → Draw a card.
+    text: '{1}, Destroy one of your equipment → Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Death Knight

@@ -7,16 +7,23 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Attachment
+
 trait:
 
 cost: '8'
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Monster Hero Required Attach to target hero. Its controller searches his hand and deck for four cards, removes them from the game face down, and puts the remaining cards into his graveyard. Ongoing : If attached hero's controller would draw a card, he puts a card removed this way into his hand instead. If he can't, destroy his hero."
+    text: Monster Hero Required
+  - type: Ability
+    text: Attach to target hero. Its controller searches his hand and deck for four cards, removes them from the game face down, and puts the remaining cards into his graveyard.
+  - type: Ability
+    text: "Ongoing: If attached hero's controller would draw a card, he puts a card removed this way into his hand instead. If he can't, destroy his hero."
 
 regulation:
 
 errata: []
-
-temp: Attachment

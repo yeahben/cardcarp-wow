@@ -6,6 +6,7 @@ layout: Standard
 
 category:
   - Ability
+  - Ally
 
 trait:
 
@@ -20,14 +21,23 @@ combat: Nature
 class:
   - Shaman
 
-instant: "When this Totem enters play, you may change a target of target opposing card or effect to this Totem. Ongoing : Opposing cards and effects must target this Totem if able. (Totems can't attack.)"
+talent:
+  - Enhancement
 
-type: Ally
+limit:
+  - name: Air Totem
+    count: 1
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: When this Totem enters play, you may change a target of target opposing card or effect to this Totem.
+  - type: Ability
+    text: 'Ongoing: Opposing cards and effects must target this Totem if able.'
+  - type: Ability
+    text: (Totems can't attack.)
 
 regulation:
 
 errata: []
-
-temp: Enhancement

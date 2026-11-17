@@ -17,12 +17,17 @@ health: 1
 
 combat: Frost
 
+race: Human
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: "While you control two or more allies that share a or race: → Target ally can't attack or exhaust this turn."
+    text: "While you control two or more allies that share a {horde} or {alliance} race: {activate} → Target ally can't attack or exhaust this turn."
 
 regulation:
 
 errata: []
-
-temp: Human Mage

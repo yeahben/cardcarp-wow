@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector At the start of your turn, put a Totem card from your graveyard into hand.
+    text: Protector
+  - type: Ability
+    text: At the start of your turn, put a Totem card from your graveyard into hand.
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

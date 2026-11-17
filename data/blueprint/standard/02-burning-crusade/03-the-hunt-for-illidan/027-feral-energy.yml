@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Druid
 
+talent:
+  - Feral
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : While in Cat Form , when your hero deals combat damage to a defending hero, you may pay 1 . If you do, its controller discards a card.'
+    text: 'Ongoing: While in cat form, when your hero deals combat damage to a defending hero, you may pay {1}. If you do, its controller discards a card.'
 
 regulation:
 
 errata: []
-
-temp: Feral

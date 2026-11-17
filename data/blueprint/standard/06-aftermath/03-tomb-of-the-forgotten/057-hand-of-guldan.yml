@@ -14,12 +14,17 @@ cost: '7'
 class:
   - Warlock
 
-instant: Demonology Talent Your hero deals 6 shadow damage to target hero or ally. If an ally is dealt fatal damage this way, put a token copy of that ally into play under your control. That copy is also a Demon.
+talent:
+  - Demonology
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Demonology Talent (You can't put Affliction Talents or Destruction Talents in your deck.)
+  - type: Ability
+    text: Your hero deals 6 shadow damage to target hero or ally. If an ally is dealt fatal damage this way, put a token copy of that ally into play under your control. That copy is also a Demon.
 
 regulation:
 
 errata: []
-
-temp: Demonology

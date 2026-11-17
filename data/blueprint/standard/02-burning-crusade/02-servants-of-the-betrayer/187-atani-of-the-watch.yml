@@ -17,12 +17,19 @@ health: 4
 
 combat: Melee
 
+race: Draenei
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aldor Reputation If damage would be dealt to your hero, it's dealt to Atani instead.
+    text: Aldor Reputation (Can't put Scryer cards in your deck.)
+  - type: Ability
+    text: If damage would be dealt to your hero, it's dealt to Atani instead.
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

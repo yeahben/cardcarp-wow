@@ -14,6 +14,11 @@ cost: '2'
 class:
   - Hunter
 
+talent:
+  - Marksmanship
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero deals ranged damage to target hero or ally equal to 1 plus the ATK of one of your Ranged weapons.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Marksmanship

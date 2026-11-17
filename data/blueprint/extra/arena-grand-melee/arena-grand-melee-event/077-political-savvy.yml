@@ -9,6 +9,8 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
     text: Each player writes down the name of the player who complains the most. Players reveal their votes. If one player has the most votes, each other player who gives that player a tissue may draw a card.
@@ -16,5 +18,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

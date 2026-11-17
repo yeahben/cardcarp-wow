@@ -13,13 +13,23 @@ health: 30
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+talent:
+  - Arms
+
+profession:
+  - Blacksmithing
+  - Mining
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Gorebelly → You pay 3 less the next time you strike with a Melee weapon this turn.
+    text: '{1}, Flip Gorebelly → You pay {3} less the next time you strike with a Melee weapon this turn.'
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

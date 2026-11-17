@@ -13,13 +13,23 @@ health: 30
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Warrior
+
+talent:
+  - Fury
+
+profession:
+  - Blacksmithing
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 4 , Flip Benjamin → Opposing allies have -1 health this turn.'
+    text: 'On your turn: {4}, Flip Benjamin → Opposing allies have -1 health this turn.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Warrior

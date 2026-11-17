@@ -17,12 +17,21 @@ health: 3
 
 combat: Melee
 
+race: Undead
+
+class:
+  - Rogue
+
+limit:
+  - name: Mercenary Dominic
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Once per turn: 2 → Your hero has Assault 2 this turn.'
+    text: 'Once per turn: {2} → Your hero has Assault 2 this turn. (It has +2 ATK on your turn.)'
 
 regulation:
 
 errata: []
-
-temp: Undead Rogue

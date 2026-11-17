@@ -11,12 +11,14 @@ trait:
 
 cost: '2'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target hero or ally. Ongoing : Attached character is also a Demon.'
+    text: Attach to target hero or ally.
+  - type: Ability
+    text: 'Ongoing: Attached character is also a Demon.'
 
 regulation:
 
 errata: []
-
-temp: ''

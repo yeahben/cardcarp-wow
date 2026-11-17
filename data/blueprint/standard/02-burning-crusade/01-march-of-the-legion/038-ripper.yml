@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ravager
+
 trait:
 
 cost: '1'
@@ -20,12 +23,16 @@ combat: Melee
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 3 → Double Ripper's ATK this turn.
+    text: "{3} → Double Ripper's ATK this turn."
 
 regulation:
 
 errata: []
-
-temp: Ravager

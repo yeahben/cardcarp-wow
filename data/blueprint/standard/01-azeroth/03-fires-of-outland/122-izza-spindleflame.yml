@@ -19,12 +19,19 @@ combat: Fire
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive At the start of each turn, Izza Spindleflame deals 1 fire damage to each hero.
+    text: Elusive
+  - type: Ability
+    text: At the start of each turn, Izza Spindleflame deals 1 fire damage to each hero.
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

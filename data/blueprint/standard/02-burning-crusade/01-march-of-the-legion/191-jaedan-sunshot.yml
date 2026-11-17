@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you play an ability, Jaedan has Long-Range this turn.
+    text: When you play an ability, Jaedan has long-range this turn. (Defenders deal no combat damage to her.)
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Hunter

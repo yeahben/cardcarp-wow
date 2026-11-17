@@ -17,12 +17,22 @@ health: 6
 
 combat: Holy
 
+race: Draenei
+
+class:
+  - Priest
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aldor Reputation Ready allies in your party have +3 ATK / +3 health.
+    text: Aldor Reputation
+  - type: Ability
+    text: Ready allies in your party have +3 ATK / +3 health.
 
 regulation:
 
 errata: []
-
-temp: Draenei Priest

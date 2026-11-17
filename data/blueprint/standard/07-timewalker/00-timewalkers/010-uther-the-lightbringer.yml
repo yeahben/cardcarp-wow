@@ -1,4 +1,4 @@
-name: Uther The Lightbringer
+name: Uther the Lightbringer
 
 origin: timewalkers-010
 
@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 29
+
+faction: Alliance
+
+race: Human
+
+class:
+  - Paladin
+
+rule:
+  - type: Ability
+    position: Front
+    text: Uther's Faith
+  - type: Ability
+    position: Front
+    text: '{basic} {3}, Flip Uther → Uther heals 5 damage from himself.'
+  - type: Ability
+    position: Reverse
+    text: Uther's Redemption
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {4} → Put target ally from your graveyard into your hand.'
 
 regulation:
 

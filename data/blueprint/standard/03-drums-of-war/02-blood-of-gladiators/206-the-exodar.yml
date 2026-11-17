@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Location
 
+subtype:
+  - City
+
 trait:
 
 faction: Alliance
 
 rule:
   - type: Ability
-    text: Draenei Hero Required 1 , → Draenei in your party have +1 ATK this turn.
+    text: Draenei Hero Required
+  - type: Ability
+    text: '{1}, {activate} → Draenei in your party have +1 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: City

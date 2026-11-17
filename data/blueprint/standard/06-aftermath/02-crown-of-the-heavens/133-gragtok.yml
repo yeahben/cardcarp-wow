@@ -5,10 +5,31 @@ origin: crown-of-the-heavens-133
 layout: Standard
 
 category:
+  - Ally
+
+subtype:
+  - Ogre
 
 trait:
 
-rule: []
+cost: '4'
+
+damage: 3
+
+health: 5
+
+combat: Fire
+
+class:
+  - Mage
+
+instant: false
+
+type: Monster
+
+rule:
+  - type: Ability
+    text: When an ally with 6 or more ATK enters play under your control, this ally deals 1 fire damage to each opposing hero and ally.
 
 regulation:
 

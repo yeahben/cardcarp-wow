@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Curse
+
 trait:
 
 cost: '3'
@@ -14,12 +17,19 @@ cost: '3'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target hero or ally. Ongoing : At the start of your turn, your hero deals 1 shadow damage to attached character. 3 → Search your deck for a card named Curse of Endless Suffering and attach it to attached character.'
+    text: Attach to target hero or ally.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero deals 1 shadow damage to attached character.'
+  - type: Ability
+    text: '{3} → Search your deck for a card named Curse of Endless Suffering and attach it to attached character.'
 
 regulation:
 
 errata: []
-
-temp: Affliction Curse

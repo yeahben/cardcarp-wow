@@ -11,6 +11,8 @@ trait:
 
 cost: '8'
 
+instant: false
+
 rule:
   - type: Ability
     text: Turn your deck over.
@@ -18,5 +20,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

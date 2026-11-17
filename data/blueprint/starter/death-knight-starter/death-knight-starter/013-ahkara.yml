@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: When Ahkara enters play, put a Ghoul ally token into play with 3 ATK / 3 health.
+    text: When Ahkara enters play, put a Ghoul ally token into play with 3 {melee} ATK / 3 health.
 
 regulation:
 
 errata: []
-
-temp: Draenei Death Knight

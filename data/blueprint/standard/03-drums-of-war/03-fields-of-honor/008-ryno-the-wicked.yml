@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+talent:
+  - Destruction
+
+profession:
+  - Herbalism
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 2 , Flip Ryno → Put a Felhunter Demon ally token into play with 1 ATK / 1 health and Pet (1).'
+    text: 'On your turn: {2}, Flip Ryno → Put a Felhunter Demon ally token into play with 1 {melee} ATK / 1 health and Pet (1).'
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

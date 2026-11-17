@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: "3 , Destroy Krenig Soulguard → Choose one: Destroy target ability; or put target ability into its owner's hand."
+    text: "{3}, Destroy Krenig Soulguard → Choose one: Destroy target ability; or put target ability into its owner's hand."
 
 regulation:
 
 errata: []
-
-temp: Dwarf Priest

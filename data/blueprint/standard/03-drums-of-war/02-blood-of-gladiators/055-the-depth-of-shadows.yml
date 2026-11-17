@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '6'
@@ -14,12 +17,15 @@ cost: '6'
 class:
   - Rogue
 
-instant: Your hero deals 1 melee damage to target hero or ally. Its controller destroys one of his resources for each damage dealt this way.
+talent:
+  - Assassination
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 1 melee damage to target hero or ally. Its controller destroys one of his resources for each damage dealt this way.
 
 regulation:
 
 errata: []
-
-temp: Assassination Combo

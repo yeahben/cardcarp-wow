@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Warlock
 
+talent:
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When this ability enters play, your hero deals 2 unpreventable shadowfire damage to target hero or ally. 2 → and cards you control have +1 ATK this turn.'
+    text: 'Ongoing: When this ability enters play, your hero deals 2 unpreventable shadowfire damage to target hero or ally.'
+  - type: Ability
+    text: '{2} → {shadow} and {fire} cards you control have +1 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Destruction

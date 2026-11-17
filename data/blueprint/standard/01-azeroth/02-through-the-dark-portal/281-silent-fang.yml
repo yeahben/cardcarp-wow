@@ -7,22 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Sword
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 1
+
+combat: Melee
+
 class:
-  - Paladin
-  - Warrior
   - Hunter
+  - Paladin
   - Rogue
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 2 , Destroy Silent Fang → Interrupt target ability card.
+    text: '{2}, Destroy Silent Fang → Interrupt target ability card.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

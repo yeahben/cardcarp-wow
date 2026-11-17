@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Mok'Nathal
+  - Beastmaster
+
 trait:
 
 cost: '7'
@@ -19,12 +23,17 @@ combat: Ranged
 
 faction: Horde
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: When Rexxar enters play, put a unique Bear ally token named Misha with 3 ATK, 3 health, and Ferocity into play. Rexxar has +3 ATK and +3 health while Misha is in your party.
+    text: When Rexxar enters play, put a unique Bear ally token named Misha with 3 ATK, 3 health, and ferocity into play.
+  - type: Ability
+    text: Rexxar has +3 ATK and +3 health while Misha is in your party.
 
 regulation:
 
 errata: []
-
-temp: Mok'Nathal Beastmaster

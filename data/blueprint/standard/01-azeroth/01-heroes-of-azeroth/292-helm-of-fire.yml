@@ -7,24 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '3'
 
+defense: 1
+
 class:
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
+  - Hunter
   - Paladin
+  - Rogue
   - Shaman
+  - Warrior
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 5 , Exhaust your hero → Your hero deals 3 fire damage to target hero or ally.
+    text: '{5}, Exhaust your hero → Your hero deals 3 fire damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

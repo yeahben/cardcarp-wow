@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Mechanical
+
 trait:
 
 cost: '6'
@@ -17,12 +20,16 @@ health: 0
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: Scryer Reputation Protector Arcane Guardian has +1 ATK / +1 health for each card in your hand.
+    text: Scryer Reputation (Can't put Aldor cards in your deck.)
+  - type: Ability
+    text: Protector
+  - type: Ability
+    text: Arcane Guardian has +1 ATK / +1 health for each card in your hand.
 
 regulation:
 
 errata: []
-
-temp: Mechanical

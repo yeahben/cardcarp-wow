@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Mage
 
-instant: 'Attach to target friendly hero or ally. Ongoing : If attached character would be dealt damage with an ability, prevent 1 of that damage.'
+talent:
+  - Arcane
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target friendly hero or ally.
+  - type: Ability
+    text: 'Ongoing: If attached character would be dealt damage with an ability, prevent 1 of that damage.'
 
 regulation:
 
 errata: []
-
-temp: Arcane

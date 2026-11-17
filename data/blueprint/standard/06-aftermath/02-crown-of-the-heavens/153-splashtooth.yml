@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Murloc
+
 trait:
 
 cost: '3'
@@ -17,14 +20,17 @@ health: 4
 
 combat: Shadow
 
+class:
+  - Warlock
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: When this or another Murloc ally enters play under your control, you may Delve .
+    text: When this or another Murloc ally enters play under your control, you may Delve. (Look at the top two cards of your deck. Put any number of them on top of your deck in any order, and the rest on the bottom.)
 
 regulation:
 
 errata: []
-
-temp: Murloc Warlock

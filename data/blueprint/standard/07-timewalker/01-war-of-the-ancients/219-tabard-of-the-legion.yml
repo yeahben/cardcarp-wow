@@ -7,28 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '1'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Tabard
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 3 , → Look at the top card of your deck. You may put that card on the bottom of your deck. You pay 1 less to use this power for each Demon ally you control.
+    text: '{3}, {activate} → Look at the top card of your deck. You may put that card on the bottom of your deck. You pay {1} less to use this power for each Demon ally you control.'
 
 regulation:
 
 errata: []
-
-temp: Item Tabard

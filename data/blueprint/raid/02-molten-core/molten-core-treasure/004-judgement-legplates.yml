@@ -7,19 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '4'
 
+defense: 3
+
 class:
   - Paladin
 
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you play a ability, you may pay 1 . If you do, prevent all damage that would be dealt to and dealt by target friendly ally this turn.
+    text: When you play a {paladin} ability, you may pay {1}. If you do, prevent all damage that would be dealt to and dealt by target friendly ally this turn.
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

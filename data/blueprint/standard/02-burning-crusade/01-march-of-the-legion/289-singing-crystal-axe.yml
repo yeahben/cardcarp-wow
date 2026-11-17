@@ -7,20 +7,39 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Axe
+
 trait:
 
 cost: '3'
+
+damage: 5
+
+strike: 0
+
+combat: Melee
 
 class:
   - Paladin
   - Warrior
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Singing Crystal Axe enters play with four slow counters. You pay 1 more to strike with Singing Crystal Axe for each slow counter. When you strike with Singing Crystal Axe, remove a slow counter.
+    text: Singing Crystal Axe enters play with four slow counters.
+  - type: Ability
+    text: You pay {1} more to strike with Singing Crystal Axe for each slow counter.
+  - type: Ability
+    text: When you strike with Singing Crystal Axe, remove a slow counter.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Axe

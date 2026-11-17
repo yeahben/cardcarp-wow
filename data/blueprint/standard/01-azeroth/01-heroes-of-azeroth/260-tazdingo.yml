@@ -19,6 +19,13 @@ combat: Ranged
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
     text: When Taz'dingo enters play, he deals 1 ranged damage to target hero or ally.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Hunter

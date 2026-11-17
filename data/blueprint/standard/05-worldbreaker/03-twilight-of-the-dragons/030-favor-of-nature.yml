@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target friendly ally. Ongoing : Attached ally has Assault 2 . When attached ally is destroyed, put two 1 / 1 Treant ally tokens into play.'
+    text: Attach to target friendly ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has Assault 2.'
+  - type: Ability
+    text: When attached ally is destroyed, put two 1 {melee} / 1 {health} Treant ally tokens into play.
 
 regulation:
 
 errata: []
-
-temp: Balance

@@ -19,15 +19,17 @@ combat: Ranged
 
 faction: Alliance
 
+race: Draenei
+
 class:
   - Hunter
 
+instant: false
+
 rule:
   - type: Ability
-    text: Pets you control have +2 / +2.
+    text: '{hunter} Pets you control have +2 / +2.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Hunter

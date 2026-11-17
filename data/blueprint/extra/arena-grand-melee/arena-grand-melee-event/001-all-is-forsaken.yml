@@ -9,12 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: Remove all allies from the game. Each player puts all ally cards from his graveyard into play.
+    text: Remove all allies from the game.
+  - type: Ability
+    text: Each player puts all ally cards from his graveyard into play.
 
 regulation:
 
 errata: []
-
-temp: ''

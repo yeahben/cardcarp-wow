@@ -7,22 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '1'
 
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
+
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: ', Exhaust X of your equipment → Your hero heals X damage from itself.'
+    text: '{activate}, Exhaust X of your equipment → Your hero heals X damage from itself.'
 
 regulation:
 
 errata: []
-
-temp: Item Ring

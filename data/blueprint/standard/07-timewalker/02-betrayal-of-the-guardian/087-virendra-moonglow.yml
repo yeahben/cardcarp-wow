@@ -19,12 +19,19 @@ combat: Holy
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Haste 2 When this ally enters play, if you control another Night Elf ally, you may destroy target ability.
+    text: Haste 2 (You pay {2} less to play this ally if an ally you control dealt damage to an opposing hero this turn.)
+  - type: Ability
+    text: When this ally enters play, if you control another Night Elf ally, you may destroy target ability.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Priest

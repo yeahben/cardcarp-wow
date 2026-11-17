@@ -9,12 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
     text: Destroy the Dungeon hero or a Dungeon Boss ally using the Defias Cannon, the Defias Gunpowder, or a Defias Watcher.
+  - type: Ability
+    text: 'Reward: 3 XP'
 
 regulation:
 
 errata: []
-
-temp: ''

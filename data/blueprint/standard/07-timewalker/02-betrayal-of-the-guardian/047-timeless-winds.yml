@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Shaman
 
-instant: Echo Target ally or weapon has +2 ATK this turn.
+talent:
+  - Enhancement
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Echo (When you play this ability, if you control two or more allies that share a {horde} or {alliance} race, copy this ability. You may choose new targets for the copy.)
+  - type: Ability
+    text: Target ally or weapon has +2 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Enhancement

@@ -13,10 +13,18 @@ health: 28
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Hunter
+
+talent:
+  - Survival
+
 rule:
   - type: Ability
     position: Front
-    text: 3 → Flip Valerie
+    text: '{3} → Flip Valerie'
   - type: Ability
     position: Reverse
     text: Prevent the first 1 damage that would be dealt to Valerie each turn.
@@ -24,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Hunter

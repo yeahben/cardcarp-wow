@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector 3 , Discard a card → Destroy target ability or equipment.
+    text: Protector
+  - type: Ability
+    text: '{3}, Discard a card → Destroy target ability or equipment.'
 
 regulation:
 
 errata: []
-
-temp: Undead Warrior

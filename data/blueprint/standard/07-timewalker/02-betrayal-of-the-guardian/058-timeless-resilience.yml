@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Warrior
 
-instant: Echo Prevent the next 2 damage that would be dealt to target hero or ally this turn.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Echo (When you play this ability, if you control two or more allies that share a {horde} or {alliance} race, copy this ability. You may choose new targets for the copy.)
+  - type: Ability
+    text: Prevent the next 2 damage that would be dealt to target hero or ally this turn.
 
 regulation:
 
 errata: []
-
-temp: Protection

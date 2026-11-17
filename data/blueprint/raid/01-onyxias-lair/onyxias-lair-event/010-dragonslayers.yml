@@ -9,14 +9,12 @@ category:
 
 trait:
 
-type: Raid
+instant: false
 
 rule:
   - type: Ability
-    text: Opposing allies have Ferocity until your next turn.
+    text: Opposing allies have ferocity until your next turn.
 
 regulation:
 
 errata: []
-
-temp: ''

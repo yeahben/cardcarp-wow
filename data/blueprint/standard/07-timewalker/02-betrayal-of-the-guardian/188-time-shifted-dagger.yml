@@ -7,23 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Dagger
+
 trait:
 
 cost: '4'
 
+damage: 1
+
+strike: 2
+
+combat: Melee
+
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this weapon enters play, switch the ATK and of target ally this turn.
+    text: When this weapon enters play, switch the ATK and {health} of target ally this turn.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

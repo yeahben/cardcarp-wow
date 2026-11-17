@@ -1,4 +1,4 @@
-name: Pit Lords Destroyer
+name: Pit Lord's Destroyer
 
 origin: war-of-the-ancients-227
 
@@ -7,14 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Mace
+
 trait:
 
 cost: '4'
 
+damage: 2
+
+strike: 3
+
+combat: Melee
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -23,5 +40,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: 2H Weapon Mace

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Vrykul
+
 trait:
 
 cost: '5'
@@ -17,14 +20,22 @@ health: 4
 
 combat: Shadow
 
-type: Raid
+class:
+  - Death Knight
+
+limit:
+  - name: Unique
+
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: Scourge Hero Required When this ally enters play, for each Unlimited ally you control, you may search your deck for an ally with the same name as that Unlimited ally and put it into play.
+    text: Scourge Hero Required
+  - type: Ability
+    text: When this ally enters play, for each Unlimited ally you control, you may search your deck for an ally with the same name as that Unlimited ally and put it into play.
 
 regulation:
 
 errata: []
-
-temp: Vrykul Death Knight

@@ -15,14 +15,23 @@ damage: 1
 
 health: 1
 
+combat: Ranged
+
 faction: Alliance
+
+race: Dwarf
+
+class:
+  - Hunter
+
+instant: false
 
 rule:
   - type: Ability
-    text: When Brala enters play, make up a name. At the start of your turn, put a unique Bear ally token with that name and 1 ATK / 1 health into play.
+    text: When Brala enters play, make up a name.
+  - type: Ability
+    text: At the start of your turn, put a unique Bear ally token with that name and 1 {melee} ATK / 1 health into play.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

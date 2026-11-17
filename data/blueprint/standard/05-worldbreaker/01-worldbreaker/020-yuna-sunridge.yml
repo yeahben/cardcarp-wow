@@ -13,16 +13,22 @@ health: 27
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Priest
+
+talent:
+  - Holy
+
 rule:
   - type: Ability
     position: Front
-    text: 3 → Flip Yuna
+    text: '{3} → Flip Yuna'
   - type: Ability
     position: Reverse
-    text: Mend 1
+    text: Mend 1 (At the start of your turn, Yuna may heal 1 damage from target hero or ally.)
 
 regulation:
 
 errata: []
-
-temp: Tauren Priest

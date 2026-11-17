@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
     text: Destroy another ally you control → Target Orc ally has Ferocity this turn.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Orc Death Knight

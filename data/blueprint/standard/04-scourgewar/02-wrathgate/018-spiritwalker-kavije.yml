@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Shaman
+
+talent:
+  - Restoration
+
+profession:
+  - Blacksmithing
+  - Mining
+
 rule:
   - type: Ability
     position: Front
-    text: Flip Kavi'je, discard a Shaman → You pay 2 less to play your next Totem this turn.
+    text: Flip Kavi'je, discard a Shaman → You pay {2} less to play your next Totem this turn.
 
 regulation:
 
 errata: []
-
-temp: Troll Shaman

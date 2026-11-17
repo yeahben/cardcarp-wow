@@ -14,12 +14,25 @@ cost: '6'
 class:
   - Warlock
 
+talent:
+  - Affliction
+  - Demonology
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to your hero. Ongoing : Attached hero has: → Your hero deals 2 shadow damage to target hero and heals 2 damage from itself. → Search your deck for a Demon, reveal it, and put it into your hand. → Your hero deals 1 fire damage to each ally.'
+    text: Attach to your hero.
+  - type: Ability
+    text: 'Ongoing: Attached hero has:'
+  - type: Ability
+    text: '{activate} → Your hero deals 2 shadow damage to target hero and heals 2 damage from itself.'
+  - type: Ability
+    text: '{activate} → Search your deck for a Demon, reveal it, and put it into your hand.'
+  - type: Ability
+    text: '{activate} → Your hero deals 1 fire damage to each ally.'
 
 regulation:
 
 errata: []
-
-temp: Affliction Demonology Destruction

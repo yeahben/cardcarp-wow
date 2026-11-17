@@ -14,12 +14,15 @@ cost: '5'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : 2 , Destroy Mana Ruby → Draw cards until you reach your maximum hand size.'
+    text: 'Ongoing: {2}, Destroy Mana Ruby → Draw cards until you reach your maximum hand size.'
 
 regulation:
 
 errata: []
-
-temp: Arcane

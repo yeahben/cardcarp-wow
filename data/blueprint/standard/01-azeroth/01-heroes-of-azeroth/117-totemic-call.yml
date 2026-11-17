@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Shaman
 
-instant: 'Choose one or more: If you have an Air Totem, ready your hero and one of your Melee weapons; or if you have an Earth Totem, allies in your party have +1 ATK this turn; or if you have a Fire Totem, your hero deals 2 fire damage to target hero or ally; or if you have a Water Totem, draw two cards.'
+talent:
+  - Elemental
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'For each type of Totem you have, do the following:'
+  - type: Ability
+    text: 'Air: Ready your hero and one of your Melee weapons. Earth: Allies in your party have +1 ATK this turn. Fire: Your hero deals 2 fire damage to target hero or ally. Water: Draw two cards.'
 
 regulation:
 
 errata: []
-
-temp: Elemental

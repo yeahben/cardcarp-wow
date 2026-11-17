@@ -5,10 +5,25 @@ origin: misc-tokens-024
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
+  - Wolf
 
 trait:
 
-rule: []
+damage: 1
+
+health: 1
+
+combat: Melee
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Ferocity
 
 regulation:
 

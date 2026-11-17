@@ -7,21 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '4'
 
+defense: 1
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this armor enters play, put X +1 counters on it, where X is the cost of a non- , non- ally you control. This armor can prevent damage to non- , non- allies you control.
+    text: When this armor enters play, put X +1 {def} counters on it, where X is the cost of a non-{horde}, non-{alliance} ally you control.
+  - type: Ability
+    text: This armor can prevent damage to non-{horde} non-{alliance} allies you control.
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

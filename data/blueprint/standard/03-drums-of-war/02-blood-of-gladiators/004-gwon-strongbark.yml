@@ -13,13 +13,23 @@ health: 27
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+talent:
+  - Balance
+
+profession:
+  - Engineering
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 4 , Flip Gwon → Ally tokens in your party have +2 ATK this turn.
+    text: '{4}, Flip Gwon → Ally tokens in your party have +2 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

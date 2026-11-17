@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Lich
+
 trait:
 
 cost: '4'
@@ -17,14 +20,14 @@ health: 6
 
 combat: Frost
 
-type: Raid
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: 'Frostbolt Volley : When Lady Deathwhisper enters play, she deals 2 frost damage to each opposing hero and ally.'
+    text: 'Frostbolt Volley: When Lady Deathwhisper enters play, she deals 2 frost damage to each opposing hero and ally.'
 
 regulation:
 
 errata: []
-
-temp: Lich

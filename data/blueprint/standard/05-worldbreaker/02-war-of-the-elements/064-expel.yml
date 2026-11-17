@@ -14,6 +14,11 @@ cost: '1'
 class:
   - Priest
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero deals 1 unpreventable holy damage to target ally for each ally you control.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Holy

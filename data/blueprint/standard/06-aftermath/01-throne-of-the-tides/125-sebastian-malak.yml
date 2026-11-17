@@ -19,6 +19,13 @@ combat: Nature
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
     text: This ally has +2 ATK while in combat with a Monster.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Worgen Rogue

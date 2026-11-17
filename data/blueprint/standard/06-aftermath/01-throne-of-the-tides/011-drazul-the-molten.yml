@@ -13,13 +13,16 @@ health: 25
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Mage
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Drazul → Drazul deals 4 fire damage to target hero or ally that was dealt damage this turn.
+    text: '{3}, Flip Drazul → Drazul deals 4 fire damage to target hero or ally that was dealt damage this turn.'
 
 regulation:
 
 errata: []
-
-temp: Orc Mage

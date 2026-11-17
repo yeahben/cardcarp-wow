@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
+talent:
+  - Beast Mastery
+
+profession:
+  - Mining
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Grumpherys → Your Pets are Elusive and Untargetable this turn.
+    text: '{3}, Flip Grumpherys → Your Pets are elusive and untargetable this turn.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

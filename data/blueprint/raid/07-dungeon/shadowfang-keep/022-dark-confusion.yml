@@ -9,14 +9,20 @@ category:
 
 trait:
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: "The MARKED hero's controller rolls a die. 1-3: The MARKED hero deals 10 melee damage to each other Raiding hero. 4-5: Each other Raider discards three random cards. 6: Each other Raider draws a card."
+    text: "The MARKED hero's controller rolls a die:"
+  - type: Ability
+    text: '1-3: The MARKED hero deals 10 melee damage to each other Raiding hero.'
+  - type: Ability
+    text: '4-5: Each other Raider discards three random cards.'
+  - type: Ability
+    text: '6: Each other Raider draws a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

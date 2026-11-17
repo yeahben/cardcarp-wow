@@ -7,20 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Fist
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 0
+
+combat: Melee
+
 class:
-  - Shaman
   - Rogue
+  - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Your hero has Dual Wield .
+    text: Your hero has Dual Wield. (You can control a second one-handed Melee weapon instead of an Off-Hand equipment. You can strike with a second Melee weapon during the same combat.)
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Fist

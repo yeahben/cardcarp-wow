@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Murloc
+
 trait:
 
 cost: '3'
@@ -17,6 +20,11 @@ health: 2
 
 combat: Frost
 
+class:
+  - Warrior
+
+instant: false
+
 type: Monster
 
 rule:
@@ -26,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Murloc Warrior

@@ -17,12 +17,22 @@ health: 7
 
 combat: Holy
 
+race: Draenei
+
+class:
+  - Paladin
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Aldor Reputation Inspire: Ability, ally, equipment, hero, and resource'
+    text: Aldor Reputation
+  - type: Ability
+    text: 'Inspire: Ability, ally, equipment, hero, and resource'
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

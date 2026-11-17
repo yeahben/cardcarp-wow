@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Banshee
+  - Ranger
+
 trait:
 
 cost: '9'
@@ -19,6 +23,13 @@ combat: Melee
 
 faction: Horde
 
+race: Undead
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: Other Undead heroes and allies in your party can't be destroyed.
@@ -26,5 +37,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Banshee Ranger

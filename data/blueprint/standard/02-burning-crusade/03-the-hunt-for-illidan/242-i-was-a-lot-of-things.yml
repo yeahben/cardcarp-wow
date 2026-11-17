@@ -1,14 +1,19 @@
-name: I Was a Lot of Things
+name: I Was a Lot of Things . . .
 
 origin: the-hunt-for-illidan-242
 
 layout: Standard
 
 category:
+  - Quest
 
 trait:
 
-rule: []
+rule:
+  - type: Ability
+    text: Pay {3} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card for each opposing hero.'
 
 regulation:
 

@@ -13,16 +13,22 @@ health: 28
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Shaman
+
+talent:
+  - Elemental
+
 rule:
   - type: Ability
     position: Front
-    text: 4 → Flip Bragvi
+    text: '{4} → Flip Bragvi'
   - type: Ability
     position: Reverse
-    text: When an opposing hero is dealt nature ( ) damage, Bragvi may deal 1 nature damage to target ally.
+    text: When an opposing hero is dealt nature ({nature}) damage, Bragvi may deal 1 nature damage to target ally.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Shaman

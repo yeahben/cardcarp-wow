@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When you complete a quest, you may put a 1 / 1 Treant ally token into play.'
+    text: 'Ongoing: When you complete a quest, you may put a 1 {melee} / 1 {health} Treant ally token into play.'
 
 regulation:
 
 errata: []
-
-temp: Balance

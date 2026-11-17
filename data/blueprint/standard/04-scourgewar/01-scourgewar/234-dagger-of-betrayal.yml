@@ -7,19 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Dagger
+
 trait:
 
 cost: '2'
 
+damage: 2
+
+strike: 1
+
+combat: Melee
+
 class:
   - Rogue
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'On your turn: → Target opponent chooses an ally he controls. Exchange control of that ally and this weapon.'
+    text: 'On your turn: {activate} → Target opponent chooses an ally he controls. Exchange control of that ally and this weapon.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

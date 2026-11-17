@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive
+    text: Elusive (This ally can't be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Night Elf Rogue

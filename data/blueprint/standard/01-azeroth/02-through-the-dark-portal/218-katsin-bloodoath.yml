@@ -19,12 +19,19 @@ combat: Holy
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector 3 → Prevent all combat damage that would be dealt to and dealt by target friendly ally this turn.
+    text: Protector
+  - type: Ability
+    text: '{3} → Prevent all combat damage that would be dealt to and dealt by target friendly ally this turn.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

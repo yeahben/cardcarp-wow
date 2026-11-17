@@ -7,16 +7,23 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Naxxramas
+
 trait:
 
 cost: '4'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target raiding ally. Ongoing : You control attached ally. Put 1 damage on attached ally → The Boss heals 1 damage from itself.'
+    text: Attach to target raiding ally.
+  - type: Ability
+    text: 'Ongoing: You control attached ally.'
+  - type: Ability
+    text: Put 1 damage on attached ally → The Boss heals 1 damage from itself.
 
 regulation:
 
 errata: []
-
-temp: Naxxramas

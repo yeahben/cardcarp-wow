@@ -7,28 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '6'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: 6 , , Make a jingle noise → Reveal the top card of your deck. If its an ability, ally, or equipment, you may play it this turn without paying its cost.
+    text: '{basic} {6}, {activate}, Make a jingle noise → Reveal the top card of your deck. If it is an ability, ally, or equipment, you may play it this turn without paying its cost.'
 
 regulation:
 
 errata: []
-
-temp: Item

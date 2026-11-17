@@ -13,16 +13,19 @@ health: 28
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Hunter
+
 rule:
   - type: Ability
     position: Front
-    text: 4 → Flip Baxxel
+    text: '{4} → Flip Baxxel'
   - type: Ability
     position: Reverse
-    text: Pets you control have Assault 2 .
+    text: Pets you control have Assault 2. (They have +2 ATK on your turn.)
 
 regulation:
 
 errata: []
-
-temp: Goblin Hunter

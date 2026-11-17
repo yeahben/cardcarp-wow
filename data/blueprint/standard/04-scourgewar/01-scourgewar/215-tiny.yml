@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Raptor
+
 trait:
 
 cost: '1'
@@ -17,12 +20,18 @@ health: 3
 
 combat: Melee
 
+limit:
+  - name: Mount
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you place a resource face up, you pay 2 less to complete your next quest this turn. (Mounts can't attack or be attacked.)
+    text: When you place a resource face up, you pay {2} less to complete your next quest this turn.
+  - type: Ability
+    text: (Mounts can't attack or be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Raptor

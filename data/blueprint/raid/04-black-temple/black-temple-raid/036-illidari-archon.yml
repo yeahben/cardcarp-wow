@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Traitor
+
 trait:
 
 cost: '3'
@@ -17,12 +20,19 @@ health: 4
 
 combat: Shadow
 
+race: Blood Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required When Illidari Archon attacks, you may ready one of your resources.
+    text: Traitor Hero Required
+  - type: Ability
+    text: When Illidari Archon attacks, you may ready one of your resources.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Priest Traitor

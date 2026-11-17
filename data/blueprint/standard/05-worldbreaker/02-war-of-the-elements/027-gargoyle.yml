@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Gargoyle
+
 trait:
 
 cost: '4'
@@ -20,12 +23,20 @@ combat: Nature
 class:
   - Death Knight
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Unholy Talent Ferocity At the end of your turn, if this ally is undamaged, put him into his owner's hand.
+    text: Unholy Talent (You can't put Blood Talents or Frost Talents in your deck.)
+  - type: Ability
+    text: Ferocity
+  - type: Ability
+    text: At the end of your turn, if this ally is undamaged, put him into his owner's hand.
 
 regulation:
 
 errata: []
-
-temp: Gargoyle

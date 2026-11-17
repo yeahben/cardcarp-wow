@@ -14,6 +14,11 @@ cost: '4'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
     text: Destroy target ally. If you control a Ghoul, your hero heals 5 damage from itself.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Unholy

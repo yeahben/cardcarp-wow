@@ -5,8 +5,23 @@ origin: champion-token-003
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
+  - Gnoll
 
 trait:
+
+damage: 1
+
+health: 1
+
+combat: Melee
+
+instant: false
+
+type: Monster
 
 rule: []
 

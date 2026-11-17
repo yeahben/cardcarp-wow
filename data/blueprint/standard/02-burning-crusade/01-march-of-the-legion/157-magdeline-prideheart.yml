@@ -19,12 +19,19 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When Magdeline defends, she heals 1 damage from target hero or ally.
+    text: Protector
+  - type: Ability
+    text: When Magdeline defends, she heals 1 damage from target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

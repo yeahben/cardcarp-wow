@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Rogue
 
-instant: Assassination Hero Required Your hero deals melee damage to target hero or ally equal to 1 plus the combined ATK of your Daggers.
+talent:
+  - Assassination
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Assassination Hero Required
+  - type: Ability
+    text: Your hero deals melee damage to target hero or ally equal to 1 plus the combined ATK of your Daggers.
 
 regulation:
 
 errata: []
-
-temp: Assassination Talent Combo

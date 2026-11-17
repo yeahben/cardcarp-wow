@@ -19,12 +19,21 @@ combat: Melee
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Escape Artist If you would draw a card, you may skip drawing it instead. When you skip drawing a card this way, turn target resource face down.
+    text: Escape Artist (When this ally becomes targeted by an opposing card or effect, you may put it into its owner's hand.)
+  - type: Ability
+    text: If you would draw a card, you may skip drawing it instead.
+  - type: Ability
+    text: When you skip drawing a card this way, turn target resource face down.
 
 regulation:
 
 errata: []
-
-temp: Gnome Rogue

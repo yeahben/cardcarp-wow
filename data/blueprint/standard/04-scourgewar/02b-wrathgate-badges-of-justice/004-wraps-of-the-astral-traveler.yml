@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '3'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Wrist
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'On your turn: 3 , → Remove target opposing ability, ally, or equipment from the game. Its owner puts it into play at the start of your next turn.'
+    text: 'On your turn: {3}, {activate} → Remove target opposing ability, ally, or equipment from the game. Its owner puts it into play at the start of your next turn.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Protector On your turn: 5 → Put target equipment on the bottom of its owner's deck."
+    text: Protector
+  - type: Ability
+    text: "On your turn: {5} → Put target equipment on the bottom of its owner's deck."
 
 regulation:
 
 errata: []
-
-temp: Goblin Death Knight

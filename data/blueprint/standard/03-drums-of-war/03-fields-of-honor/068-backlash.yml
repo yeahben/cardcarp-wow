@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Warlock
 
-instant: 'Destruction Hero Required Ongoing : → If an opposing hero or ally dealt damage to your hero this turn, draw a card.'
+talent:
+  - Destruction
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Destruction Hero Required
+  - type: Ability
+    text: 'Ongoing: {activate} → If an opposing hero or ally dealt damage to your hero this turn, draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Destruction Talent

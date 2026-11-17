@@ -17,12 +17,21 @@ health: 3
 
 combat: Nature
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Scryer Reputation Sabotage: All keywords When Alashon sabotages keywords, opposing cards everywhere lose and can't have keyword powers while he remains in your party."
+    text: Scryer Reputation
+  - type: Ability
+    text: 'Sabotage: All keywords'
+  - type: Ability
+    text: When Alashon sabotages keywords, opposing cards everywhere lose and can't have keyword powers while he remains in your party.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

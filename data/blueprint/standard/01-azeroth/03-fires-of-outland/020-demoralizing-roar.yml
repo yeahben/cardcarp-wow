@@ -14,12 +14,21 @@ cost: '6'
 class:
   - Druid
 
-instant: 'Ongoing : Opposing allies have -2 ATK. Your hero is in Bear Form .'
+talent:
+  - Feral
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Opposing allies have -2 ATK.'
+  - type: Ability
+    text: Your hero is in bear form. (Has protector. Destroy this card when you strike with a weapon or play a non-Feral ability.)
 
 regulation:
 
 errata: []
-
-temp: Feral

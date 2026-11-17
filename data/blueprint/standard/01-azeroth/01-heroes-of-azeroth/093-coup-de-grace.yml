@@ -1,14 +1,27 @@
-name: Coup de Grace
+name: Coup de Grâce
 
 origin: heroes-of-azeroth-093
 
 layout: Standard
 
 category:
+  - Ability
 
 trait:
 
-rule: []
+cost: '2'
+
+class:
+  - Rogue
+
+talent:
+  - Assassination
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Destroy target exhausted ally.
 
 regulation:
 

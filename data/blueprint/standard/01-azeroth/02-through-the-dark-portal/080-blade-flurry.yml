@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '4'
@@ -14,12 +17,17 @@ cost: '4'
 class:
   - Rogue
 
+talent:
+  - Combat
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Combat Hero Required Ongoing : When your hero deals combat damage with a weapon to an ally, you may have your hero deal that much melee damage to another target hero or ally.'
+    text: Combat Hero Required
+  - type: Ability
+    text: 'Ongoing: When your hero deals combat damage with a weapon to an ally, you may have your hero deal that much melee damage to another target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Combat Talent

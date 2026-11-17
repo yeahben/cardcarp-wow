@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Priest
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero heals 3 damage from each hero and ally you control.
+    text: Your hero heals 3 damage from each hero and ally in your party.
 
 regulation:
 
 errata: []
-
-temp: Holy

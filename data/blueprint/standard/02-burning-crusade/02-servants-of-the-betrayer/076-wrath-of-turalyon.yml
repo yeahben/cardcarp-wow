@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Paladin
 
-instant: Destroy all allies that attacked this turn.
+talent:
+  - Retribution
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Destroy all allies that attacked this turn.
 
 regulation:
 
 errata: []
-
-temp: Retribution

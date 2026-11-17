@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warlock
+
+talent:
+  - Demonology
+
+profession:
+  - Mining
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Plague → If Plague would be dealt damage this turn, you may choose a Demon in your party. If you do, that damage is dealt to that Demon instead.
+    text: '{2}, Flip Plague → If Plague would be dealt damage this turn, you may choose a Demon in your party. If you do, that damage is dealt to that Demon instead.'
 
 regulation:
 
 errata: []
-
-temp: Undead Warlock

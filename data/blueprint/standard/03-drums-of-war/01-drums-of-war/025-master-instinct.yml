@@ -14,12 +14,21 @@ cost: '2'
 class:
   - Druid
 
-instant: 'Ongoing : Your hero is in Bear Form . → This turn, your hero loses Bear Form and is in Cat Form while you control Master Instinct.'
+talent:
+  - Feral
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Your hero is in bear form.'
+  - type: Ability
+    text: '{activate} → This turn, your hero loses bear form and is in cat form while you control Master Instinct.'
 
 regulation:
 
 errata: []
-
-temp: Feral

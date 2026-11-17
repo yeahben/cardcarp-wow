@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero has Protector .
+    text: Your hero has protector.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

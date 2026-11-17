@@ -17,12 +17,19 @@ health: 2
 
 combat: Frost
 
+race: Blood Elf
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Scryer Reputation When an ability enters play, you may have target player gain control of it. If it's attached, that player may reattach it.
+    text: Scryer Reputation
+  - type: Ability
+    text: When an ability enters play, you may have target player gain control of it. If it's attached, that player may reattach it.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

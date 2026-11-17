@@ -7,28 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+  - Potion
+
 trait:
 
 cost: '1'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
 
-instant: 2 , Destroy this item → Prevent all magical damage that would be dealt to target hero or ally this turn. (Arcane ( ), Fire ( ), Frost ( ), Holy ( ), Nature ( ), and Shadow ( ) are the magical damage types)
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: '{2}, Destroy this item → Prevent all magical damage that would be dealt to target hero or ally this turn. (Arcane ({arcane}), Fire ({fire}), Frost ({frost}), Holy ({holy}), Nature ({nature}), and Shadow ({shadow}) are the magical damage types)'
 
 regulation:
 
 errata: []
-
-temp: Item Potion

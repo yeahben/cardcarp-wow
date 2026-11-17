@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Succubus
+  - Demon
+
 trait:
 
 cost: '3'
@@ -20,12 +24,16 @@ combat: Shadow
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: → This ally deals 2 shadow damage to target ally.
+    text: '{activate} → Angrida deals 2 shadow damage to target ally.'
 
 regulation:
 
 errata: []
-
-temp: Succubus Demon

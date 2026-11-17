@@ -9,16 +9,20 @@ category:
 
 trait:
 
-type: Raid
+instant: false
+
+type: Naxxramas
 
 stage: 15
 
+sequence: 15
+
 rule:
   - type: Ability
-    text: Destroy target raiding equipment. If you're in the Military Wing, the Boss deals melee damage to that equipment's controller's hero equal to its cost.
+    text: Destroy target raiding equipment.
+  - type: Ability
+    text: If you're in the Military Quarter, the Boss deals melee damage to that equipment's controller's hero equal to its cost.
 
 regulation:
 
 errata: []
-
-temp: ''

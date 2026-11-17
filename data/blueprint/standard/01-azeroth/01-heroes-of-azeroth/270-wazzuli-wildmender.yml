@@ -19,6 +19,13 @@ combat: Nature
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, Wazzuli Wildmender heals 1 damage from each hero and ally in your party.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Shaman

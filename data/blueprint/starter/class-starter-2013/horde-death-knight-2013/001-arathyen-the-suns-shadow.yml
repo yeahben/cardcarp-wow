@@ -1,4 +1,4 @@
-name: Arathyen, the Suns Shadow
+name: Arathyen, the Sun's Shadow
 
 origin: horde-death-knight-2013-001
 
@@ -13,13 +13,16 @@ health: 29
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Death Knight
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Arathyen → Ready target Ghoul you control.
+    text: '{basic} {2}, Flip Arathyen → Ready target Ghoul you control.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Death Knight

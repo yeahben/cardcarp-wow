@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Smash When this ally deals Smash damage, put a 1 / 1 Treant ally token into play for each Smash damage dealt.
+    text: Smash
+  - type: Ability
+    text: When this ally deals Smash damage, put a 1 {melee} / 1 {health} Treant ally token into play for each Smash damage dealt.
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

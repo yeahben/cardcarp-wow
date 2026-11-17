@@ -1,4 +1,4 @@
-name: Serpents Nest
+name: Serpent's Nest
 
 origin: assault-on-icecrown-citadel-treasure-003
 
@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Hunter
 
-instant: "Ongoing : When an ability, ally, or equipment enters play under an opponent's control on his turn, you may put a 1 / 1 snake ally token into play."
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: "Ongoing: When an ability, ally, or equipment enters play under an opponent's control on his turn, you may put a 1 {nature} / 1 {health} snake ally token into play."
 
 regulation:
 
 errata: []
-
-temp: Survival

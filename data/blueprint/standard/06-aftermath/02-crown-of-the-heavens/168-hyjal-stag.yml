@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Stag
+
 trait:
 
 cost: '1'
@@ -17,6 +20,8 @@ health: 1
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
     text: Destroy this ally, exhaust a ready Monster hero or ally you control → This ally heals 4 damage from that character.
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Stag

@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : If a friendly hero would deal holy ( ) or melee ( ) damage, it deals that much +1 instead.'
+    text: 'Ongoing: If a friendly hero would deal holy ({holy}) or melee ({melee}) damage, it deals that much +1 instead.'
 
 regulation:
 
 errata: []
-
-temp: Holy

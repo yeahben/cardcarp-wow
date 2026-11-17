@@ -7,20 +7,28 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Pit Lord
+
 trait:
+  - Chained
 
 health: 100
 
 rule:
   - type: Ability
     position: Front
-    text: "Untargetable Magtheridon can't attack or be dealt damage. When the last Channeler leaves your party or you place your fifth resource, flip Magtheridon."
+    text: Untargetable
+  - type: Ability
+    position: Front
+    text: Magtheridon can't attack or be dealt damage.
+  - type: Ability
+    position: Front
+    text: When the last Channeler leaves your party or you place your fifth resource, flip Magtheridon.
   - type: Ability
     position: Reverse
-    text: "When Magtheridon flips to this side, put five Cubes into play, gain a Blood, and say, \"I am UNLEASHED!\" Put Magtheridon's Lair into play on the Cooldown side and swap this card with Unleashed Magtheridon."
+    text: When Magtheridon flips to this side, put five Cubes into play, gain a Blood, and say, "I am UNLEASHED!" Put Magtheridon's Lair into play on the Cooldown side and swap this card with Unleashed Magtheridon.
 
 regulation:
 
 errata: []
-
-temp: Pit Lord

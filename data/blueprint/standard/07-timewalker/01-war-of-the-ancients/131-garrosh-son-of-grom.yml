@@ -19,12 +19,25 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+limit:
+  - name: Garrosh
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity Garrosh can attack only heroes. At the start of your turn, for this and each other Orc ally you control, put a 2 / 2 Orc Warrior ally token into play with Ferocity and "This ally can attack only heroes."
+    text: Ferocity
+  - type: Ability
+    text: Garrosh can attack only heroes.
+  - type: Ability
+    text: At the start of your turn, for this and each other Orc ally you control, put a 2 {melee} / 2 {health} {horde} Orc Warrior ally token into play with Ferocity and "This ally can attack only heroes."
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

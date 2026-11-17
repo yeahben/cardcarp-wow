@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: 3 → This ally has Assault 3 this turn.
+    text: '{3} → This ally has Assault 3 this turn.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Hunter

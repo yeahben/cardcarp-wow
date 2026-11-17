@@ -7,13 +7,25 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '3'
 
+defense: 1
+
 class:
   - Hunter
   - Shaman
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -22,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Armor Mail

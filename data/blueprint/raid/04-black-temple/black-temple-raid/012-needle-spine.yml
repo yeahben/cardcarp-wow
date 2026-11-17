@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Traitor
+
 trait:
 
 cost: '1'
@@ -14,12 +17,14 @@ cost: '1'
 class:
   - Hunter
 
-instant: Traitor Hero Required When target hero or ally deals combat damage to your defending hero this turn, your hero also deals that much ranged damage to it.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Traitor Hero Required
+  - type: Ability
+    text: When target hero or ally deals combat damage to your defending hero this turn, your hero also deals that much ranged damage to it.
 
 regulation:
 
 errata: []
-
-temp: Traitor

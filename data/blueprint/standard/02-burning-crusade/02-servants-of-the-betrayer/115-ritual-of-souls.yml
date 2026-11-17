@@ -14,12 +14,19 @@ cost: '3'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Play only if two or more allies are in your party. Ongoing : Ritual of Souls enters play with four spirit counters. , Remove a spirit counter → Your hero heals 3 damage from target hero or ally. If no counters remain, destroy Ritual of Souls.'
+    text: Play only if two or more allies are in your party.
+  - type: Ability
+    text: 'Ongoing: Ritual of Souls enters play with four spirit counters.'
+  - type: Ability
+    text: '{activate}, Remove a spirit counter → Your hero heals 3 damage from target hero or ally. If no counters remain, destroy Ritual of Souls.'
 
 regulation:
 
 errata: []
-
-temp: Demonology

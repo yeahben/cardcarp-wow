@@ -19,12 +19,21 @@ combat: Holy
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Draenei Hero Required Inspiring Presence Prevent all combat damage that would be dealt.
+    text: Draenei Hero Required
+  - type: Ability
+    text: Inspiring Presence
+  - type: Ability
+    text: Prevent all combat damage that would be dealt.
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target hero. Ongoing : At the start of your turn, your hero deals 1 melee damage to each ally in attached hero's party."
+    text: Attach to target hero.
+  - type: Ability
+    text: "Ongoing: At the start of your turn, your hero deals 1 melee damage to each ally in attached hero's party."
 
 regulation:
 
 errata: []
-
-temp: Arms

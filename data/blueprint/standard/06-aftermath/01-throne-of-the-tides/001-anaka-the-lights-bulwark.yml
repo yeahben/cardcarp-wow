@@ -1,4 +1,4 @@
-name: Anaka the Lights Bulwark
+name: Anaka the Light's Bulwark
 
 origin: throne-of-the-tides-001
 
@@ -13,13 +13,16 @@ health: 29
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Paladin
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 4 , Flip Anaka → Target hero or ally you control has Invincible this turn.'
+    text: "On your turn: {4}, Flip Anaka → Target hero or ally you control has Invincible this turn. (It can't leave play, be targeted, or be dealt damage.)"
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

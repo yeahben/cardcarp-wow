@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: Delve Reveal the top two cards of your deck. Put all revealed allies into your hand and the rest on the bottom of your deck.
+    text: Delve (Look at the top two cards of your deck. Put any number of them on top of your deck in any order, and the rest on the bottom.)
+  - type: Ability
+    text: Reveal the top two cards of your deck. Put all revealed allies into your hand and the rest on the bottom of your deck.
 
 regulation:
 
 errata: []
-
-temp: Demonology

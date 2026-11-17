@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Destroy Bernard → Destroy target attacking ally.
+    text: '{1}, Destroy Bernard → Destroy target attacking ally.'
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

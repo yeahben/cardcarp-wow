@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: allies in your party have " → This ally deals nature damage equal to its ATK, divided as you choose, to any number of target allies."
+    text: '{nature} allies in your party have "{activate} → This ally deals nature damage equal to its ATK, divided as you choose, to any number of target allies."'
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

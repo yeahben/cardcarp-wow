@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, you may destroy target equipment.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Draenei Warrior

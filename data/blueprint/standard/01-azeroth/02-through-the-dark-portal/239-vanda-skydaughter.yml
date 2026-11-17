@@ -19,10 +19,15 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

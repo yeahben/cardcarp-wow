@@ -7,22 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Mace
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 3
+
+combat: Melee
+
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 2 , → Put target ally from your party into its owner's hand. Use only on your turn.
+    text: "{2}, {activate} → Put target ally from your party into its owner's hand. Use only on your turn."
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

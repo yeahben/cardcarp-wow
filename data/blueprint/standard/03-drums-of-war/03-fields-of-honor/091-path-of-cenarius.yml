@@ -11,12 +11,14 @@ trait:
 
 cost: '2'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally. Ongoing : Attached ally has " 1 , → Ready another target ally."'
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has "{1}, {activate} → Ready another target ally."'
 
 regulation:
 
 errata: []
-
-temp: ''

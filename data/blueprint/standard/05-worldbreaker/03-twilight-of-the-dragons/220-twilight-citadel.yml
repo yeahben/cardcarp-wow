@@ -11,10 +11,8 @@ trait:
 
 rule:
   - type: Ability
-    text: 'On your turn: 1 , → Put a 1 / 1 Twilight Dragonkin ally token into play.'
+    text: 'On your turn: {1}, {activate} → Put a 1 {shadow} / 1 {health} Twilight Dragonkin ally token into play.'
 
 regulation:
 
 errata: []
-
-temp: ''

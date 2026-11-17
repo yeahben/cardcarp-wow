@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Death Knight
 
+talent:
+  - Frost
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally, then Delve . Ongoing : Attached ally has +4 ATK.'
+    text: Attach to target ally, then Delve. (Look at the top two cards of your deck. Put any number of them on top of your deck in any order, and the rest on the bottom.)
+  - type: Ability
+    text: 'Ongoing: Attached ally has +4 ATK.'
 
 regulation:
 
 errata: []
-
-temp: Frost

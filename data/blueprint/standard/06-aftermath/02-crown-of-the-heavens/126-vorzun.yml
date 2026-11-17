@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, target ally has Long-Range this turn.
+    text: When this ally enters play, target ally has Long-Range this turn. (Defenders deal no combat damage to it.)
 
 regulation:
 
 errata: []
-
-temp: Troll Hunter

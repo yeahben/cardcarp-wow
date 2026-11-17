@@ -19,12 +19,19 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When this ally enters play, if an ally you controlled was destroyed this turn, you may put a 3 / 3 Ghoul ally token into play.
+    text: Protector
+  - type: Ability
+    text: When this ally enters play, if an ally you controlled was destroyed this turn, you may put a 3 {melee} / 3 {health} Ghoul ally token into play.
 
 regulation:
 
 errata: []
-
-temp: Human Death Knight

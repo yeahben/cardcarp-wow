@@ -13,13 +13,23 @@ health: 27
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+talent:
+  - Restoration
+
+profession:
+  - Engineering
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Lanthus → Exhaust target ally.
+    text: '{2}, Flip Lanthus → Exhaust target ally.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

@@ -7,20 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '4'
+
+defense: 5
 
 class:
   - Paladin
   - Warrior
 
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Blacksmithing Hero Required Your hero has +5 health. Destroy Bulwark of the Ancient Kings → Your hero has +25 health until the end of your next turn.
+    text: Blacksmithing Hero Required
+  - type: Ability
+    text: Your hero has +5 health.
+  - type: Ability
+    text: Destroy Bulwark of the Ancient Kings → Your hero has +25 health until the end of your next turn.
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target opposing hero or ally. Ongoing : When a friendly hero or ally deals combat damage to attached character, that friendly character heals 2 damage from itself.'
+    text: Attach to target opposing hero or ally.
+  - type: Ability
+    text: 'Ongoing: When a friendly hero or ally deals combat damage to attached character, that friendly character heals 2 damage from itself.'
 
 regulation:
 
 errata: []
-
-temp: Holy

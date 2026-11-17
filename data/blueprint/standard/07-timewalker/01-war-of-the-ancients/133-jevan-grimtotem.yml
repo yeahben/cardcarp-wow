@@ -19,12 +19,23 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+limit:
+  - name: Jevan
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Smash Tribe : When this or another Tauren ally enters play under your control, double Jevan's ATK this turn."
+    text: Smash
+  - type: Ability
+    text: "Tribe: When this or another Tauren ally enters play under your control, double Jevan's ATK this turn."
 
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

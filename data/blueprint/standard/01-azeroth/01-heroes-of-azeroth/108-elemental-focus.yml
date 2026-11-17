@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Shaman
 
+talent:
+  - Elemental
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Elemental Hero Required Ongoing : You pay 1 less to play Elemental abilities, to a minimum of 1 .'
+    text: Elemental Hero Required
+  - type: Ability
+    text: 'Ongoing: You pay {1} less to play Elemental abilities, to a minimum of {1}.'
 
 regulation:
 
 errata: []
-
-temp: Elemental Talent

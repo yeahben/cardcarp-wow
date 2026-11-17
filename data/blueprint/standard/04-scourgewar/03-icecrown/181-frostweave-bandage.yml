@@ -7,28 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+  - Bandage
+
 trait:
 
 cost: '1'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: '1 , Destroy this item → Your hero heals 4 damage from target hero or ally. Death Rattle : Target hero or ally has Frost Resistance this turn.'
+    text: '{1}, Destroy this item → Your hero heals 4 damage from target hero or ally.'
+  - type: Ability
+    text: 'Death Rattle: Target hero or ally has Frost Resistance this turn.'
 
 regulation:
 
 errata: []
-
-temp: Item Bandage

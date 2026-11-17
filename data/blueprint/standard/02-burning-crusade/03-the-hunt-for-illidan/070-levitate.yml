@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : At the start of each opponent's turn, that opponent chooses an ally in his party. That ally can't attack this turn."
+    text: "Ongoing: At the start of each opponent's turn, that opponent chooses an ally in his party. That ally can't attack this turn."
 
 regulation:
 
 errata: []
-
-temp: Discipline

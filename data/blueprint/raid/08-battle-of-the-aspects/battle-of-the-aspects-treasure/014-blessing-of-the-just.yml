@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Blessing
+
 trait:
 
 cost: '1'
@@ -14,12 +17,19 @@ cost: '1'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally. Ongoing : At the start of your turn, add a justice counter to this ability. Attached ally has +1 / +1 for each justice counter on this ability.'
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, add a justice counter to this ability.'
+  - type: Ability
+    text: Attached ally has +1 / +1 for each justice counter on this ability.
 
 regulation:
 
 errata: []
-
-temp: Holy Blessing

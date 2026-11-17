@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Monkey
+
 trait:
 
 cost: '3'
@@ -17,12 +20,12 @@ health: 2
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, each friendly player may draw a card (including you) .
+    text: When this ally enters play, each friendly player may draw a card (including you).
 
 regulation:
 
 errata: []
-
-temp: Monkey

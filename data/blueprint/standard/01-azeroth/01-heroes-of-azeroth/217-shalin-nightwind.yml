@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive
+    text: Elusive (Can't be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

@@ -9,14 +9,16 @@ category:
 
 trait:
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: "Attach to the Dungeon ally with the highest printed . Ongoing : When attached ally deals damage to a Raiding hero, that hero's controller discards two random cards."
+    text: Attach to the Dungeon ally with the highest printed {health}.
+  - type: Ability
+    text: "Ongoing: When attached ally deals damage to a Raiding hero, that hero's controller discards two random cards."
 
 regulation:
 
 errata: []
-
-temp: ''

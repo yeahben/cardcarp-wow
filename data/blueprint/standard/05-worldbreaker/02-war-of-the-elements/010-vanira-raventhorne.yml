@@ -13,16 +13,19 @@ health: 27
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Druid
+
 rule:
   - type: Ability
     position: Front
-    text: 5 → Flip Vanira
+    text: '{5} → Flip Vanira'
   - type: Ability
     position: Reverse
-    text: Vanira has Assault 2 while you control a Form.
+    text: Vanira has Assault 2 while you control a Form. (She has +2 ATK on your turn.)
 
 regulation:
 
 errata: []
-
-temp: Worgen Druid

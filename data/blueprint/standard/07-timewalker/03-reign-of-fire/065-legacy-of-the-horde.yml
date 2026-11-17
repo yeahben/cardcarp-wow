@@ -15,12 +15,14 @@ class:
   - Priest
   - Shaman
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : If a friendly hero or ally would deal damage, it deals double that much instead. If a friendly hero or ally would be dealt damage, prevent half that damage, rounded up.'
+    text: 'Ongoing: If a friendly hero or ally would deal damage, it deals double that much instead.'
+  - type: Ability
+    text: If a friendly hero or ally would be dealt damage, prevent half that damage, rounded up.
 
 regulation:
 
 errata: []
-
-temp: ''

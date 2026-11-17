@@ -7,25 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+  - Potion
+
 trait:
 
 cost: '1'
 
 class:
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
+  - Rogue
   - Shaman
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: Destroy this item → Target friendly hero or ally has Shadow Resistance this turn.
+    text: Destroy this item → Target friendly hero or ally has Shadow Resistance this turn. (Prevent all shadow ({shadow}) damage that it would be dealt.)
 
 regulation:
 
 errata: []
-
-temp: Item Potion

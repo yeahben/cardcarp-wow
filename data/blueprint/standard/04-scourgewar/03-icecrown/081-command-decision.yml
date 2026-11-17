@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Warrior
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : 1 , → Target ally you control has Protector this turn.'
+    text: 'Ongoing: {1}, {activate} → Target ally you control has Protector this turn.'
 
 regulation:
 
 errata: []
-
-temp: Protection

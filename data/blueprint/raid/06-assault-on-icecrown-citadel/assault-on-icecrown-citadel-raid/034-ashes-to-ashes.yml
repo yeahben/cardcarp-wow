@@ -1,0 +1,24 @@
+name: Ashes to Ashes
+
+origin: assault-on-icecrown-citadel-raid-034
+
+layout: Standard
+
+category:
+  - Event
+
+trait:
+
+instant: false
+
+type: Lich King
+
+rule:
+  - type: Ability
+    text: Pay {1} to initiate this event.
+  - type: Ability
+    text: 'Event: Draw a card for each ally that was destroyed this turn.'
+
+regulation:
+
+errata: []

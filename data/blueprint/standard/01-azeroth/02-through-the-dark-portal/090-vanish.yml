@@ -14,12 +14,19 @@ cost: '1'
 class:
   - Rogue
 
-instant: "Your hero is Elusive this turn. If it's defending, remove all attackers from combat. Ongoing : Your hero has Stealth . When your hero deals damage, destroy Vanish."
+talent:
+  - Subtlety
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero is elusive this turn. If it's defending, remove all attackers from combat.
+  - type: Ability
+    text: 'Ongoing: Your hero has stealth.'
+  - type: Ability
+    text: When your hero deals damage, destroy Vanish.
 
 regulation:
 
 errata: []
-
-temp: Subtlety

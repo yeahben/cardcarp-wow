@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of your turn, this ally deals 1 melee damage to target hero for each Forsaken Royal Dreadguard you and other friendly players control (including himself) .
+    text: At the start of your turn, this ally deals 1 melee damage to target hero for each Forsaken Royal Dreadguard you and other friendly players control (including himself).
 
 regulation:
 
 errata: []
-
-temp: Undead Rogue

@@ -17,12 +17,17 @@ health: 3
 
 combat: Frost
 
+race: Human
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, she deals 1 frost damage to target opposing hero or ally for this and each other cards you control.
+    text: When this ally enters play, she deals 1 frost damage to target opposing hero or ally for this and each other {frost} card you control.
 
 regulation:
 
 errata: []
-
-temp: Human Mage

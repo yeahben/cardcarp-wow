@@ -19,12 +19,21 @@ combat: Nature
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Night Elf Hero Required Elusive → Put your hand on the bottom of your deck, then draw that many cards.
+    text: Night Elf Hero Required
+  - type: Ability
+    text: Elusive
+  - type: Ability
+    text: '{activate} → Put your hand on the bottom of your deck, then draw that many cards.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

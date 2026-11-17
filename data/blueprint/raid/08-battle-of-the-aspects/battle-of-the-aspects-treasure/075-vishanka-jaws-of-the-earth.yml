@@ -7,19 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Bow
+
 trait:
 
 cost: '7'
 
+damage: 0
+
+strike: 0
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Long-Range This weapon enters play with five +1 ATK counters. At the start of your turn, remove a +1 ATK counter from this weapon. If none remain, destroy it.
+    text: Long-Range
+  - type: Ability
+    text: This weapon enters play with five +1 ATK counters.
+  - type: Ability
+    text: At the start of your turn, remove a +1 ATK counter from this weapon. If none remain, destroy it.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Bow

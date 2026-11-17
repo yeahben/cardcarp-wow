@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, target opposing ally has -3 ATK this turn.
+    text: When Tez Tez enters play, target opposing ally has -3 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Troll Priest

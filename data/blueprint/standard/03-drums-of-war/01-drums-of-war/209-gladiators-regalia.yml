@@ -1,4 +1,4 @@
-name: Gladiators Regalia
+name: Gladiator's Regalia
 
 origin: drums-of-war-209
 
@@ -7,19 +7,41 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor Set
+  - Cloth
+
 trait:
 
 cost: '8'
 
+defense: 5
+
 class:
   - Mage
 
+limit:
+  - name: Chest
+    count: 1
+  - name: Hands
+    count: 1
+  - name: Head
+    count: 1
+  - name: Legs
+    count: 1
+  - name: Shoulder
+    count: 1
+
+instant: false
+
+type: Arena
+
 rule:
   - type: Ability
-    text: Opposing allies lose and can't have powers. → Your hero deals 2 fire damage to target hero or ally.
+    text: Opposing allies lose and can't have powers.
+  - type: Ability
+    text: '{activate} → Your hero deals 2 fire damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Arena Armor Set Cloth

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Moonkin
+  - Form
+
 trait:
 
 cost: '2'
@@ -14,12 +18,21 @@ cost: '2'
 class:
   - Druid
 
-instant: 'Ongoing : If your hero would deal or heal damage, it deals or heals that much +1 instead. While you control five or more Ongoing abilities: → Draw a card.'
+talent:
+  - Balance
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: If your hero would deal or heal damage, it deals or heals that much +1 instead.'
+  - type: Ability
+    text: 'While you control five or more Ongoing abilities: {activate} → Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Balance Moonkin Form

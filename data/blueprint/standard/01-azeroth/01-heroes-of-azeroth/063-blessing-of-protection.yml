@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Blessing
+
 trait:
 
 cost: '2'
@@ -14,12 +17,19 @@ cost: '2'
 class:
   - Paladin
 
-instant: 'Attach to target hero or ally you control. Ongoing : Prevent all damage that would be dealt to and dealt by attached character. At end of turn, destroy this ability.'
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target hero or ally in your party.
+  - type: Ability
+    text: 'Ongoing: Prevent all damage that would be dealt to and dealt by attached character.'
+  - type: Ability
+    text: At end of turn, destroy Blessing of Protection.
 
 regulation:
 
 errata: []
-
-temp: Protection Blessing

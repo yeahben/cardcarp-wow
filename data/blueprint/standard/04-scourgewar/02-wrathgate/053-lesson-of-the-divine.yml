@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Paladin
 
-instant: You may exhaust a non-hero Paladin you control rather than pay this ability's cost. Exhaust target hero or ally. It can't ready during its controller's next ready step. Draw a card.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: You may exhaust a non-hero Paladin you control rather than pay this ability's cost.
+  - type: Ability
+    text: Exhaust target hero or ally. It can't ready during its controller's next ready step. Draw a card.
 
 regulation:
 
 errata: []
-
-temp: Protection

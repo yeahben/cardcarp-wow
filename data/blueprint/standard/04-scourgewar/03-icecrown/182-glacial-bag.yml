@@ -7,28 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Bag
+    count: 5
+
+instant: false
 
 rule:
   - type: Ability
-    text: Exhaust a Bag you control → Add a thaw counter. , Remove four thaw counters → Draw three cards.
+    text: Exhaust a Bag you control → Add a thaw counter.
+  - type: Ability
+    text: '{activate}, Remove four thaw counters → Draw three cards.'
 
 regulation:
 
 errata: []
-
-temp: Item Bag

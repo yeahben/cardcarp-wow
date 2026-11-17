@@ -14,6 +14,11 @@ cost: '3'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
     text: You may choose an ally in your party and have target player gain control of it. If you do, gain control of target ally in his party.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Shadow

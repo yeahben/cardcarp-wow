@@ -19,12 +19,19 @@ combat: Frost
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Mend 2 This ally has -1 ATK for each damage on him.
+    text: Mend 2 (At the start of your turn, this ally may heal 2 damage from target hero or ally.)
+  - type: Ability
+    text: This ally has -1 ATK for each damage on him.
 
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

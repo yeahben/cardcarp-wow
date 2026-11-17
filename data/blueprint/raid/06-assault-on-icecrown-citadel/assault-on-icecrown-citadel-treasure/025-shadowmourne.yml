@@ -7,14 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Axe
+
 trait:
 
 cost: '6'
 
+damage: 0
+
+strike: 0
+
+combat: Melee
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -23,5 +40,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: 2H Weapon Axe

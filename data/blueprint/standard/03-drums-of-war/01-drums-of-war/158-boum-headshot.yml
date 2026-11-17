@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity
+    text: Ferocity (Can attack immediately.)
 
 regulation:
 
 errata: []
-
-temp: Orc Hunter

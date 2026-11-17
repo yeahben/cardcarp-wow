@@ -14,12 +14,21 @@ cost: '1'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+limit:
+  - name: Seal
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : Weapons you control have Assault 1 . When your hero deals combat damage with a weapon, you may destroy target ability that's attached to a friendly card."
+    text: 'Ongoing: Weapons you control have Assault 1.'
+  - type: Ability
+    text: When your hero deals combat damage with a weapon, you may destroy target ability that's attached to a friendly card.
 
 regulation:
 
 errata: []
-
-temp: Holy

@@ -19,6 +19,13 @@ combat: Frost
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
     text: Destroy Tonks → Target hero or ally can't attack this turn.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Gnome Mage

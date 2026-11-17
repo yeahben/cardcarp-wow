@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Serpent
+
 trait:
 
 cost: '4'
@@ -20,12 +23,18 @@ combat: Nature
 class:
   - Hunter
 
-instant: Trap When Hissy enters play, he deals 1 nature damage to target attacker.
+limit:
+  - name: Pet
+    count: 1
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Trap (You may exhaust your defending hero rather than pay this card's cost.)
+  - type: Ability
+    text: When Hissy enters play, he deals 1 nature damage to target attacker.
 
 regulation:
 
 errata: []
-
-temp: Serpent

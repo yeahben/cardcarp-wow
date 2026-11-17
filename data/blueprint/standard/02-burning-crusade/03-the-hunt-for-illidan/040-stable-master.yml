@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Hunter
 
+talent:
+  - Beast Mastery
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : You can control an additional Pet.'
+    text: 'Ongoing: You can have an additional Pet.'
 
 regulation:
 
 errata: []
-
-temp: Beast Mastery

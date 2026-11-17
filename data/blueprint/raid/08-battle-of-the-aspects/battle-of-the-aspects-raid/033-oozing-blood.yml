@@ -9,14 +9,16 @@ category:
 
 trait:
 
-type: Boss
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
-    text: Put two Corrupted Blood ally tokens into play. Flip an additional Deathwing card.
+    text: Put two Corrupted Blood ally tokens into play.
+  - type: Ability
+    text: Flip an additional Deathwing card.
 
 regulation:
 
 errata: []
-
-temp: ''

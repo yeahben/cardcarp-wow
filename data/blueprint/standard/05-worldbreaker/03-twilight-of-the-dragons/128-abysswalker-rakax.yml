@@ -19,6 +19,13 @@ combat: Fire
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, he may deal 1 fire damage to target ally. If that ally has fatal damage, remove it from the game.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Goblin Warlock

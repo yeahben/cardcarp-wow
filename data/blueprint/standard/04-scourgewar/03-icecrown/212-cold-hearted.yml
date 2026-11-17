@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: "Pay 3 to complete this quest. Reward : Draw a card. Target ally's damage type becomes this turn."
+    text: Pay {3} to complete this quest.
+  - type: Ability
+    text: "Reward: Draw a card. Target ally's damage type becomes {frost} this turn."
 
 regulation:
 
 errata: []
-
-temp: ''

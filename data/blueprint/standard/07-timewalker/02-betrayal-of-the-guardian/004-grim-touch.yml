@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Attachment
+
 trait:
 
 cost: '5'
@@ -14,12 +17,19 @@ cost: '5'
 class:
   - Death Knight
 
+talent:
+  - Frost
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally you control. Ongoing : Attached ally has Assault 1 for each card in opposing graveyards. When attached ally attacks, target opponent puts the top three cards of his deck into his graveyard.'
+    text: Attach to target ally you control.
+  - type: Ability
+    text: 'Ongoing: Attached ally has Assault 1 for each card in opposing graveyards.'
+  - type: Ability
+    text: When attached ally attacks, target opponent puts the top three cards of his deck into his graveyard.
 
 regulation:
 
 errata: []
-
-temp: Frost Attachment

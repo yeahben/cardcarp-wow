@@ -5,10 +5,17 @@ origin: through-the-dark-portal-309
 layout: Standard
 
 category:
+  - Quest
 
 trait:
 
-rule: []
+faction: Horde
+
+rule:
+  - type: Ability
+    text: During your turn, pay {3} to complete this quest.
+  - type: Ability
+    text: 'Reward: Choose one: Target player turns one of his quests face down; or draw a card. If your hero is a Troll, you may choose both.'
 
 regulation:
 

@@ -7,21 +7,28 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
   - Paladin
-  - Warrior
   - Shaman
+  - Warrior
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: At the end of your turn, put a Blocker ally token into play with 0 ATK / 1 health and Protector .
+    text: At the end of your turn, put a Blocker ally token into play with 0 {melee} ATK / 1 health and protector.
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

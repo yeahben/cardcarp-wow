@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Shaman
 
-instant: 'Attach to target ally or weapon you control. Ongoing : Attached card has Assault 3 .'
+talent:
+  - Enhancement
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target ally or weapon you control.
+  - type: Ability
+    text: 'Ongoing: Attached card has Assault 3.'
 
 regulation:
 
 errata: []
-
-temp: Enhancement

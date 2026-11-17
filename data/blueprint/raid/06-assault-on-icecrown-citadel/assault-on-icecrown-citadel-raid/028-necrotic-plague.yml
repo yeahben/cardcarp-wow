@@ -11,14 +11,16 @@ trait:
 
 cost: '1'
 
-type: Boss
+instant: false
+
+type: Lich King
 
 rule:
   - type: Ability
-    text: "Attach to target hero. Ongoing : At the start of the Lich King's turn, he deals 1 shadow damage to attached hero for each ally in its controller's graveyard."
+    text: Attach to target hero.
+  - type: Ability
+    text: "Ongoing: At the start of the Lich King's turn, he deals 1 shadow damage to attached hero for each ally in its controller's graveyard."
 
 regulation:
 
 errata: []
-
-temp: ''

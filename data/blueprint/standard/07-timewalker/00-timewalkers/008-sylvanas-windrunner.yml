@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 28
+
+faction: Alliance
+
+race: High Elf
+
+class:
+  - Hunter
+
+rule:
+  - type: Ability
+    position: Front
+    text: Sight of Sylvanas
+  - type: Ability
+    position: Front
+    text: "{basic} {2}, Flip Sylvanas → Look at the top three cards of target opponent's deck. Put one on top of his deck and the rest on the bottom."
+  - type: Ability
+    position: Reverse
+    text: Aim of Sylvanas
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {8} → Sylvanas deals 13 ranged damage to target ally.'
 
 regulation:
 

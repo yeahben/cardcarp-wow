@@ -13,13 +13,23 @@ health: 25
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Mage
+
+talent:
+  - Fire
+
+profession:
+  - Enchanting
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 4 , Flip Ozzati → Ozzati deals 1 fire damage to each opposing hero and ally. Use only on your turn.
+    text: '{4}, Flip Ozzati → Ozzati deals 1 fire damage to each opposing hero and ally. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Mage

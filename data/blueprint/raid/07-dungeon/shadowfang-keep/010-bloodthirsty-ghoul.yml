@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ghoul
+
 trait:
 
 damage: 8
@@ -14,6 +17,8 @@ damage: 8
 health: 4
 
 combat: Melee
+
+instant: false
 
 type: Dungeon
 
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Ghoul

@@ -19,12 +19,17 @@ combat: Frost
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Unity : While you control three or more Human allies, if another Human ally you control would be dealt damage, you may have it dealt to this ally instead.'
+    text: 'Unity: While you control three or more Human allies, if another Human ally you control would be dealt damage, you may have it dealt to this ally instead.'
 
 regulation:
 
 errata: []
-
-temp: Human Death Knight

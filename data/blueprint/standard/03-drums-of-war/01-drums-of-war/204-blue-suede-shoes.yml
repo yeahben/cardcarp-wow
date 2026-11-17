@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '2'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
 
-instant: When Blue Suede Shoes enters play, target card in play you control is Untargetable this turn.
+limit:
+  - name: Feet
+    count: 1
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: When Blue Suede Shoes enters play, target card in play you control is untargetable this turn.
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

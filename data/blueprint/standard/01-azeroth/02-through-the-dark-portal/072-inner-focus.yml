@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Discipline Hero Required Ongoing : Destroy Inner Focus → When you play your next ability this turn, ready up to X of your resources, where X is that ability's cost."
+    text: Discipline Hero Required
+  - type: Ability
+    text: "Ongoing: Destroy Inner Focus → When you play your next ability this turn, ready up to X of your resources, where X is that ability's cost."
 
 regulation:
 
 errata: []
-
-temp: Discipline Talent

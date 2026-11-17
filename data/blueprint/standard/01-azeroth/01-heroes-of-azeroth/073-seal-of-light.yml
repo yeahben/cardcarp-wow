@@ -14,12 +14,21 @@ cost: '3'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+limit:
+  - name: Seal
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When your hero deals combat damage with a weapon, it heals 2 damage from itself. 1 , Destroy Seal of Light → Your hero heals 4 damage from itself.'
+    text: 'Ongoing: When your hero deals combat damage with a weapon, it heals 2 damage from itself.'
+  - type: Ability
+    text: '{1}, Destroy Seal of Light → Your hero heals 4 damage from itself.'
 
 regulation:
 
 errata: []
-
-temp: Holy

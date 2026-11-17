@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Druid
 
+talent:
+  - Feral
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Your hero has Assault 2 while you control a form.'
+    text: 'Ongoing: Your hero has Assault 2 while you control a Form.'
 
 regulation:
 
 errata: []
-
-temp: Feral

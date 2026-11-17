@@ -1,4 +1,4 @@
-name: Ursocs Fury
+name: Ursoc's Fury
 
 origin: scourgewar-040
 
@@ -14,12 +14,21 @@ cost: '1'
 class:
   - Druid
 
-instant: 'Ongoing : 1 , → Ready your hero. Your hero has Bear Form .'
+talent:
+  - Feral
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: {1}, {activate} → Ready your hero.'
+  - type: Ability
+    text: Your hero has Bear Form. (Has Protector. Destroy this card when you strike with a weapon or play a non-Feral ability.)
 
 regulation:
 
 errata: []
-
-temp: Feral

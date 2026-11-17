@@ -7,14 +7,19 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Cat
+
 trait:
+
+health: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: This ally can't attack. When this ally is destroyed, say "No!!! A curse upon you, interlopers! The armies of the Lich King will hunt you down. You will not escape your fate ..."
+    text: This ally can't attack.
 
 regulation:
 
 errata: []
-
-temp: 1 Cat

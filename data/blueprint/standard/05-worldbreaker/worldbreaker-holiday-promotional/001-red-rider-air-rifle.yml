@@ -7,28 +7,48 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Gun
+
 trait:
 
 cost: '5'
 
+damage: 1
+
+strike: 2
+
+combat: Ranged
+
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Long-Range This weapon enters play with two eye counters. This weapon has +2 ATK for each eye counter on it. When you strike with this weapon, reveal the top card of your deck. If it has an odd cost, remove an eye counter from this weapon.
+    text: Long-Range
+  - type: Ability
+    text: This weapon enters play with two eye counters.
+  - type: Ability
+    text: This weapon has +2 ATK for each eye counter on it.
+  - type: Ability
+    text: When you strike with this weapon, reveal the top card of your deck. If it has an odd cost, remove an eye counter from this weapon.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Gun

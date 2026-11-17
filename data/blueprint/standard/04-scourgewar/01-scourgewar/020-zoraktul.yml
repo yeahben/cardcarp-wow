@@ -13,6 +13,18 @@ health: 27
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Rogue
+
+talent:
+  - Subtlety
+
+profession:
+  - Leatherworking
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
@@ -21,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Rogue

@@ -12,15 +12,21 @@ trait:
 cost: '2'
 
 class:
-  - Paladin
   - Death Knight
+  - Paladin
+
+talent:
+  - Frost
+  - Protection
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Ongoing : Your hero has Protector . When your hero protects, it may deal 2 melee damage to target attacker.'
+    text: 'Ongoing: Your hero has Protector.'
+  - type: Ability
+    text: When your hero protects, it may deal 2 melee damage to target attacker.
 
 regulation:
 
 errata: []
-
-temp: Frost Protection

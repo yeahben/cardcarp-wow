@@ -7,27 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '6'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
-  - Paladin
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: 6 , , Concede the game → Players can keep any of their equipment and start the next game with those cards in play.
+    text: '{6}, {activate}, Concede the game → Players can keep any of their equipment and start the next game with those cards in play.'
 
 regulation:
 
 errata: []
-
-temp: Item

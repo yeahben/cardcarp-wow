@@ -14,12 +14,19 @@ cost: '1'
 class:
   - Rogue
 
-instant: "Play only if your hero has stealth. Attach to target hero or ally. Ongoing : At the start of your turn, your hero deals 1 melee damage to attached character. The controller of a character dealt damage this way can't play abilities this turn."
+talent:
+  - Assassination
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Play only if your hero has stealth.
+  - type: Ability
+    text: Attach to target hero or ally.
+  - type: Ability
+    text: "Ongoing: At the start of your turn, your hero deals 1 melee damage to attached character. The controller of a character dealt damage this way can't play abilities this turn."
 
 regulation:
 
 errata: []
-
-temp: Assassination

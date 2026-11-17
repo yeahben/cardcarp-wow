@@ -13,10 +13,12 @@ type: Arena
 
 rule:
   - type: Ability
-    text: 'As a cost to place this quest face up, choose an opponent, and he may draw a card. Pay 5 to complete this quest. Reward : Draw three cards.'
+    text: As a cost to place this quest face up, choose an opponent, and he may draw a card.
+  - type: Ability
+    text: Pay {5} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw three cards.'
 
 regulation:
 
 errata: []
-
-temp: ''

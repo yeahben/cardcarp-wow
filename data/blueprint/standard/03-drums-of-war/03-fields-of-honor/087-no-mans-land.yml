@@ -1,4 +1,4 @@
-name: No Mans Land
+name: No Man's Land
 
 origin: fields-of-honor-087
 
@@ -15,12 +15,18 @@ class:
   - Druid
   - Warlock
 
+talent:
+  - Restoration
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally in your party. Ongoing : When attached ally is destroyed, draw two cards.'
+    text: Attach to target ally in your party.
+  - type: Ability
+    text: 'Ongoing: When attached ally is destroyed, draw two cards.'
 
 regulation:
 
 errata: []
-
-temp: Restoration Demonology

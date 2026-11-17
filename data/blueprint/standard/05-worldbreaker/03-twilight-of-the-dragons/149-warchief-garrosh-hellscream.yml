@@ -15,16 +15,25 @@ damage: 6
 
 health: 3
 
-combat: Nature
+combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+limit:
+  - name: Garrosh
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When another ally enters play under your control, it has Assault 2 , Ferocity , and "At the end of your turn, destroy this ally" this turn.
+    text: When another {horde} ally enters play under your control, it has Assault 2, Ferocity, and "At the end of your turn, destroy this ally" this turn.
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

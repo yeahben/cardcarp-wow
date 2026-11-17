@@ -19,6 +19,16 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Priest
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: Heroes and allies can't attack.
@@ -26,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Human Priest

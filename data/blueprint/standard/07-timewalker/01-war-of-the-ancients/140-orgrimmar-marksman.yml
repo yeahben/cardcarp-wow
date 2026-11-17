@@ -19,12 +19,19 @@ combat: Fire
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity When this ally enters play, put a 2 / 2 Orc Warrior token into play with Ferocity and "This ally can attack only heroes."
+    text: Ferocity (This ally can attack immediately.)
+  - type: Ability
+    text: When this ally enters play, put a 2 {melee} / 2 {health} {horde} Orc Warrior ally token into play with Ferocity and "This ally can attack only heroes."
 
 regulation:
 
 errata: []
-
-temp: Orc Hunter

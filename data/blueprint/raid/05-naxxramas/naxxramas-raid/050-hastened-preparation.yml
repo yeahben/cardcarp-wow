@@ -9,16 +9,18 @@ category:
 
 trait:
 
-type: Raid
+instant: false
+
+type: Naxxramas
 
 stage: 10
 
+sequence: 10
+
 rule:
   - type: Ability
-    text: 'The raid leader chooses one: He readies all of his resources, or each raider readies two of his resources.'
+    text: 'The raid leader chooses one: He readies all of his resources; or each raider readies two of his resources.'
 
 regulation:
 
 errata: []
-
-temp: ''

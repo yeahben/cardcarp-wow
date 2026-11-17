@@ -7,22 +7,34 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Ranger
+
 trait:
 
-health: 28
+health: 35
 
 faction: Horde
+
+race: Undead
+
+class:
+  - Hunter
 
 rule:
   - type: Ability
     position: Front
-    text: 5 → Flip Sylvanas face down.
+    text: 'Song of Sylvanas: Sylvanas and allies in her party have Assault 1. (They have +1 ATK on your turn.)'
+  - type: Ability
+    position: Front
+    text: 'On your turn: {7} → Flip Sylvanas.'
   - type: Ability
     position: Reverse
-    text: 'Song of Sylvanas : Sylvanas and allies you control have Assault 1 .'
+    text: 'Shriek of the Highborne: When Sylvanas flips to this side, she deals 7 shadow damage to target Scourge hero or ally.'
+  - type: Ability
+    position: Reverse
+    text: 'Empowered Song of Sylvanas: Sylvanas and allies in her party have Assault 2.'
 
 regulation:
 
 errata: []
-
-temp: Undead Hunter

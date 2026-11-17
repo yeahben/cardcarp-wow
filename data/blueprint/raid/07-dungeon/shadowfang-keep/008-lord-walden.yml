@@ -8,6 +8,7 @@ category:
   - Ally
 
 trait:
+  - 2 XP
 
 damage: 3
 
@@ -15,14 +16,21 @@ health: 11
 
 combat: Frost
 
+race: Undead
+
+class:
+  - Mage
+
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: 'Boss Mystery Toxin : When Walden attacks, randomly determine if Walden deals 3 nature damage to each exhausted Raiding ally or Walden deals 3 frost damage to each ready Raiding ally.'
+    text: Boss (The Dungeon hero can't be attacked.)
+  - type: Ability
+    text: 'Mystery Toxin: When Walden attacks, randomly determine if Walden deals 3 nature damage to each exhausted Raiding ally or Walden deals 3 frost damage to each ready Raiding ally.'
 
 regulation:
 
 errata: []
-
-temp: Undead Mage

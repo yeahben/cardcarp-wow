@@ -14,12 +14,17 @@ cost: '5'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: Put target ally from your graveyard into play if its cost is less than or equal to the number of resources you control. Draw a card.
+    text: Put target ally card from your graveyard into play if its cost is less than or equal to the number of resources you have.
+  - type: Ability
+    text: Draw a card.
 
 regulation:
 
 errata: []
-
-temp: Holy

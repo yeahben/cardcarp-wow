@@ -14,6 +14,11 @@ cost: '5'
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
     text: Target a hero or ally, and you may target an additional character for each Totem you control. Your hero deals 4 melee damage to each target.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Enhancement

@@ -1,0 +1,24 @@
+name: Crush
+
+origin: battle-of-the-aspects-raid-022
+
+layout: Standard
+
+category:
+  - Event
+
+trait:
+
+instant: false
+
+type: Deathwing
+
+rule:
+  - type: Ability
+    text: Deathwing attacks the Raiding ally with the highest remaining health if able this turn.
+  - type: Ability
+    text: Deathwing has +5 ATK and Smash this turn. (If Deathwing would deal more than fatal combat damage to a defending ally, he deals the rest to that ally's controller's hero.)
+
+regulation:
+
+errata: []

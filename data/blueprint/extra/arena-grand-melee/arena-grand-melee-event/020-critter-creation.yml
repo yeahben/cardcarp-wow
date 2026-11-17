@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : All face-down resources are also Critter allies with 1 ATK / 1 health, Elusive , and Untargetable .'
+    text: 'Ongoing: All face-down resources are also Critter allies with 1 {melee} ATK / 1 health, elusive, and untargetable.'
 
 regulation:
 
 errata: []
-
-temp: ''

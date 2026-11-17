@@ -9,12 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Each ally has +X health, where X is its printed health. As Aura of Fortitude leaves play, remove all damage from all allies.'
+    text: 'Ongoing: Each ally has +X health, where X is its printed health.'
+  - type: Ability
+    text: As Aura of Fortitude leaves play, remove all damage from all allies.
 
 regulation:
 
 errata: []
-
-temp: ''

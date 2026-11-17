@@ -1,4 +1,4 @@
-name: Its Always Hallows End Somewhere
+name: It's Always Hallow's End Somewhere
 
 origin: arena-grand-melee-event-047
 
@@ -9,6 +9,8 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
     text: Each other player may give you a piece of candy or some other confection. The Arena deals 5 sugar damage to the hero of each player who doesn't.
@@ -16,5 +18,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

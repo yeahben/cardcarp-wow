@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Tinker
+
 trait:
 
 cost: '9'
@@ -19,6 +22,13 @@ combat: Melee
 
 faction: Alliance
 
+race: Gnome
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start and end of your turn, draw a card for each Gnome in your party.
@@ -26,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Gnome Tinker

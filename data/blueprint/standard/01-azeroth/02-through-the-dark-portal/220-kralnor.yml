@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: When Kralnor enters play, you may search your deck for a Staff card and let everyone LOOK IT OVER. If you do, shuffle your deck and put that card on top.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Orc Warlock

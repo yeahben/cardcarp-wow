@@ -14,6 +14,11 @@ cost: '2'
 class:
   - Paladin
 
+talent:
+  - Retribution
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero deals 2 melee damage and 2 unpreventable holy damage to target ally.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Retribution

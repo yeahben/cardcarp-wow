@@ -7,21 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '6'
 
+defense: 3
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Hands
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this armor enters play, you may destroy target armor or weapon. Opposing weapons have -1 ATK. Opposing armor have -1 .
+    text: When this armor enters play, you may destroy target armor or weapon.
+  - type: Ability
+    text: Opposing weapons have -1 ATK.
+  - type: Ability
+    text: Opposing armor have -1 {def}.
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

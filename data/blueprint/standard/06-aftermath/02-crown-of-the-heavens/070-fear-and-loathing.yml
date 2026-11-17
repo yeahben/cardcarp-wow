@@ -11,12 +11,14 @@ trait:
 
 cost: '3'
 
-instant: "Empower Hunter : If you control a Hunter hero or ally, destroy target opposing ally that entered play this turn. Empower Warlock : If you control a Warlock hero or ally, put target opposing ally into its owner's hand."
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: 'Empower Hunter: If you control a Hunter hero or ally, destroy target opposing ally that entered play this turn.'
+  - type: Ability
+    text: "Empower Warlock: If you control a Warlock hero or ally, put target opposing ally into its owner's hand."
 
 regulation:
 
 errata: []
-
-temp: ''

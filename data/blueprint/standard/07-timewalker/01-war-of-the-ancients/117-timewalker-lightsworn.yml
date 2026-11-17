@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Unity : When you control three or more Human allies, this ally has Assault 3 .'
+    text: 'Unity: While you control three or more Human allies, this ally has Assault 3. (She has +3 ATK on your turn.)'
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

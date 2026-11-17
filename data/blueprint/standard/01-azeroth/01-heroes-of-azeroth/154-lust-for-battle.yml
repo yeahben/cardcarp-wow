@@ -9,17 +9,16 @@ category:
 
 trait:
 
-cost: '2'
+cost: '4'
 
-class:
-  - Shaman
+faction: Horde
 
-instant: Allies you control have +2 ATK this turn.
+instant: false
 
-rule: []
+rule:
+  - type: Ability
+    text: 'Ongoing: All allies have ferocity.'
 
 regulation:
 
 errata: []
-
-temp: Enhancement

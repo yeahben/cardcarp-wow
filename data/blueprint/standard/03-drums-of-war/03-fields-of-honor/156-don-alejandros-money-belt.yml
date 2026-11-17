@@ -1,4 +1,4 @@
-name: Don Alejandros Money Belt
+name: Don Alejandro's Money Belt
 
 origin: fields-of-honor-156
 
@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '3'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Waist
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: → You may reveal an equipment card from your hand. If you do, put it into your resource row face down and exhausted.
+    text: '{activate} → You may reveal an equipment card from your hand. If you do, put it into your resource row face down and exhausted.'
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

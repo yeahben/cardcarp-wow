@@ -19,12 +19,23 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Hunter
+
+limit:
+  - name: Rokhan
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: As Rokhan enters play, name a card. Opposing cards in play with that name lose and can't have powers.
+    text: As Rokhan enters play, name a card.
+  - type: Ability
+    text: Opposing cards in play with that name lose and can't have powers.
 
 regulation:
 
 errata: []
-
-temp: Troll Hunter

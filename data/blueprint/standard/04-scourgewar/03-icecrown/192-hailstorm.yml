@@ -7,21 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Sword
+
 trait:
 
 cost: '3'
 
+damage: 3
+
+strike: 2
+
+combat: Frost
+
 class:
-  - Warrior
   - Death Knight
   - Rogue
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: '1 , Remove five cards in your graveyard from the game → Your hero deals 1 frost damage to each opposing hero and ally. Death Rattle : Your hero deals 1 frost damage to each opposing hero and ally.'
+    text: '{1}, Remove five cards in your graveyard from the game → Your hero deals 1 frost damage to each opposing hero and ally.'
+  - type: Ability
+    text: 'Death Rattle: Your hero deals 1 frost damage to each opposing hero and ally.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

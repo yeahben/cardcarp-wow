@@ -9,12 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
     text: There are twenty or more cards in the Dungeon graveyard.
+  - type: Ability
+    text: 'Reward: 3 XP'
 
 regulation:
 
 errata: []
-
-temp: ''

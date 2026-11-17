@@ -7,20 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '3'
+
+defense: 2
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this armor enters play, name "Demon", a race, or an race. You pay 1 less to play allies of the named race, to a minimum of 1 . Your hero has Assault 1 for each ally you control of the named race.
+    text: When this armor enters play, name "Demon", a {horde} race, or an {alliance} race.
+  - type: Ability
+    text: You pay {1} less to play allies of the named race, to a minimum of {1}.
+  - type: Ability
+    text: Your hero has Assault 1 for each ally you control of the named race.
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

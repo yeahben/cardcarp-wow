@@ -1,0 +1,30 @@
+name: The Casualties of War
+
+origin: the-deadmines-023
+
+layout: Standard
+
+category:
+  - Ability
+
+trait:
+
+instant: false
+
+type: Dungeon
+
+rule:
+  - type: Ability
+    text: 'Each Raider rolls a die, then chooses and destroys:'
+  - type: Ability
+    text: '1-3: An ally he controls.'
+  - type: Ability
+    text: '4: An equipment he controls.'
+  - type: Ability
+    text: '5: An ability he controls.'
+  - type: Ability
+    text: '6: A resource he controls.'
+
+regulation:
+
+errata: []

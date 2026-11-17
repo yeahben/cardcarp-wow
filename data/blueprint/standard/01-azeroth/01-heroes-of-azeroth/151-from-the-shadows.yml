@@ -13,12 +13,12 @@ cost: '5'
 
 faction: Alliance
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : All allies have Elusive .'
+    text: 'Ongoing: All allies have elusive.'
 
 regulation:
 
 errata: []
-
-temp: ''

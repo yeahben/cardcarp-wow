@@ -11,15 +11,26 @@ trait:
 
 cost: '1'
 
+health: 1
+
 class:
   - Shaman
 
-instant: 'Ongoing : When one of your Totems is destroyed, it deals 1 nature damage to each opposing hero and ally. (Totems can be attacked or targeted like allies.)'
+talent:
+  - Elemental
 
-rule: []
+limit:
+  - name: Earth Totem
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: When one of your Totems is destroyed, it deals 1 nature damage to each opposing hero and ally.'
+  - type: Ability
+    text: (Totems can be attacked or targeted like allies.)
 
 regulation:
 
 errata: []
-
-temp: Elemental 1

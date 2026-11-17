@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: allies in your party have Long-Range .
+    text: '{ranged} allies in your party have long-range.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

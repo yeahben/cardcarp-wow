@@ -19,6 +19,13 @@ combat: Fire
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, Marka deals 3 fire damage to herself.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Warlock

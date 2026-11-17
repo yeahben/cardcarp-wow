@@ -14,12 +14,21 @@ cost: '3'
 class:
   - Hunter
 
+talent:
+  - Beast Mastery
+
+limit:
+  - name: Aspect
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : allies you control have +2 / +2. 2 → Target ally you control has Nature Resistance this turn.'
+    text: 'Ongoing: {nature} allies you control have +2 / +2.'
+  - type: Ability
+    text: '{2} → Target ally you control has Nature Resistance this turn.'
 
 regulation:
 
 errata: []
-
-temp: Beast Mastery

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Elemental
+  - Minion
+
 trait:
 
 damage: 3
@@ -15,6 +19,8 @@ health: 2
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
     text: When Lava Pack enters play, put the top card of the Minion deck into play as an ally.
@@ -22,5 +28,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Elemental Minion

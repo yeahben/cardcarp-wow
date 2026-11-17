@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Blue
+  - Dragonkin
+
 trait:
 
 cost: '3'
@@ -17,6 +21,8 @@ health: 3
 
 combat: Arcane
 
+instant: false
+
 rule:
   - type: Ability
     text: When you play an ability, this ally deals 1 arcane damage to target hero for each Mage and Warlock you control.
@@ -24,5 +30,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Blue Dragonkin

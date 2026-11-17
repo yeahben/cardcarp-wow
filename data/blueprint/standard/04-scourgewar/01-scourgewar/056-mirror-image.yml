@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: Put three 0 / 1 Mirror ally tokens into play with "If damage would be dealt to your hero, it's dealt to a random hero or Mirror you control instead."
+    text: Put three 0 {arcane} / 1 {health} Mirror ally tokens into play with "If damage would be dealt to your hero, it's dealt to a random hero or Mirror you control instead."
 
 regulation:
 
 errata: []
-
-temp: Arcane

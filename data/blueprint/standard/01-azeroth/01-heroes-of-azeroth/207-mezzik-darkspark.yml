@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: ', Destroy an ally in your party → Mezzik Darkspark deals X shadow damage to target hero or ally, where X is the ATK of the destroyed ally.'
+    text: '{activate}, Destroy an ally in your party → Mezzik Darkspark deals X shadow damage to target hero or ally, where X is the ATK of the destroyed ally.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

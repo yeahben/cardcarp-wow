@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
     text: When another ally in your party is destroyed, you may destroy target equipment.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Rogue

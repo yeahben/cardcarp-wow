@@ -7,19 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Crossbow
+
 trait:
 
 cost: '4'
 
+damage: 1
+
+strike: 0
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Long-Range This weapon has +1 ATK for each different color among Dragonkin you control. (Dragonkin colors are Black, Blue, Bronze, Green, Red, and Twilight.)
+    text: Long-Range
+  - type: Ability
+    text: This weapon has +1 ATK for each different color among Dragonkin you control. (Dragonkin colors are Black, Blue, Bronze, Green, Red, and Twilight.)
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Crossbow

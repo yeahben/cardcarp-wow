@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : At the start of your turn, draw a card.'
+    text: 'Ongoing: At the start of your turn, draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Arcane

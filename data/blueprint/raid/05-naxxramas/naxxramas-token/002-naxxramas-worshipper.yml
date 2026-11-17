@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Worshipper
+
 trait:
 
 damage: 1
@@ -15,14 +19,16 @@ health: 5
 
 combat: Fire
 
-type: Ally
+race: Human
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Any raider: Exhaust a Priest you control → Gain control of this ally. Any raider who controls this ally: Destroy this ally → Flip Faerlina face up.'
+    text: 'Any raider: Exhaust a Priest you control → Gain control of this ally.'
+  - type: Ability
+    text: 'Any raider who controls this ally: Destroy this ally → Flip Faerlina face up.'
 
 regulation:
 
 errata: []
-
-temp: Human Worshipper

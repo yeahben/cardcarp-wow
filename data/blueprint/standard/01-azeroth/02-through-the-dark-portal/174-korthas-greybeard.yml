@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector → Prevent the next 1 damage that would be dealt to target hero or ally this turn.
+    text: Protector
+  - type: Ability
+    text: '{activate} → Prevent the next 1 damage that would be dealt to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Paladin

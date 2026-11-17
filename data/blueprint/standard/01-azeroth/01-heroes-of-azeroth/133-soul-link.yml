@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '4'
@@ -14,12 +17,17 @@ cost: '4'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Demonology Hero Required Ongoing : Put 1 damage on an ally in your party → Prevent the next 1 damage that would be dealt to your hero this turn.'
+    text: Demonology Hero Required
+  - type: Ability
+    text: 'Ongoing: Put 1 damage on an ally in your party → Prevent the next 1 damage that would be dealt to your hero this turn.'
 
 regulation:
 
 errata: []
-
-temp: Demonology Talent

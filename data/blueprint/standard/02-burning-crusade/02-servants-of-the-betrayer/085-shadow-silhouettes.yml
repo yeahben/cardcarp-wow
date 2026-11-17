@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Shadow
+  - Silhouette
+
 trait:
 
 cost: '4'
@@ -20,6 +24,12 @@ combat: Shadow
 class:
   - Priest
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: At the end of your turn, remove 6 damage from your hero and put 1 damage on Shadow Silhouettes for each damage removed this way.
@@ -27,5 +37,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Shadow Silhouette

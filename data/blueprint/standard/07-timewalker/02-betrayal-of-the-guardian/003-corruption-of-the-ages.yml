@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Death Knight
 
+talent:
+  - Blood
+
+instant: false
+
 rule:
   - type: Ability
-    text: Rift Your hero deals 5 shadow damage to target hero and heals 1 damage from itself for each damage dealt this way.
+    text: Rift (Choose a {horde} or {alliance} race. You pay {1} less to play this ability for each ally you control of the chosen race.)
+  - type: Ability
+    text: Your hero deals 5 shadow damage to target hero and heals 1 damage from itself for each damage dealt this way.
 
 regulation:
 
 errata: []
-
-temp: Blood

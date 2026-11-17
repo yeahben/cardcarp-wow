@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Hunter
 
-instant: Target ally has -2 ATK this turn, or -4 ATK if it's a Dragonkin.
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target ally has -2 ATK this turn, or -4 ATK if it's a Dragonkin.
 
 regulation:
 
 errata: []
-
-temp: Survival

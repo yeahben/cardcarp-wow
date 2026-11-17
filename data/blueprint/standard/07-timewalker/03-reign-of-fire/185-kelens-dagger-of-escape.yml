@@ -1,4 +1,4 @@
-name: Kelens Dagger of Escape
+name: Kelen's Dagger of Escape
 
 origin: reign-of-fire-185
 
@@ -7,20 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Dagger
+
 trait:
 
 cost: '2'
 
+damage: 2
+
+strike: 2
+
+combat: Melee
+
 class:
-  - Shaman
   - Rogue
+  - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 1 → Remove your hero from the game. If you do, put this weapon into its owner's hand.
+    text: "{1} → Remove your hero from combat. If you do, put this weapon into its owner's hand."
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

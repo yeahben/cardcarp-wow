@@ -17,12 +17,19 @@ health: 2
 
 combat: Melee
 
+race: Draenei
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aldor Reputation Destroy Kentho → Interrupt target card or effect targeting a card in play you control.
+    text: Aldor Reputation
+  - type: Ability
+    text: Destroy Kentho → Interrupt target card or effect targeting a card in play you control.
 
 regulation:
 
 errata: []
-
-temp: Draenei Warrior

@@ -1,14 +1,22 @@
-name: Call To Arms Alterac Valley
+name: 'Call to Arms: Alterac Valley'
 
 origin: fields-of-honor-187
 
 layout: Standard
 
 category:
+  - Quest
+
+subtype:
+  - Battleground
 
 trait:
 
-rule: []
+rule:
+  - type: Ability
+    text: Pay {4} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card. You pay {4} less to complete your next quest this turn. You may add an honor counter to a Battleground card you control.'
 
 regulation:
 

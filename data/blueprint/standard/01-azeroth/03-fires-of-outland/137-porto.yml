@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Friendly Totems are Untargetable .
+    text: Protector
+  - type: Ability
+    text: Friendly Totems are untargetable.
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

@@ -7,24 +7,39 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Staff
+
 trait:
 
 cost: '3'
+
+damage: 1
+
+strike: 3
+
+combat: Nature
 
 faction: Alliance
 
 class:
   - Druid
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When a ally is dealt nature or damage, destroy it.
+    text: When a {horde} ally is dealt nature or {nature} damage, destroy it.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Staff

@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Turtle
+  - Beast
+  - Demigod
+
 trait:
 
 cost: '6'
@@ -17,14 +22,22 @@ health: 13
 
 combat: Melee
 
+limit:
+  - name: Tortolla
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Monster Hero Required Protector Other Monster heroes and allies you control have Spellshield .
+    text: Monster Hero Required
+  - type: Ability
+    text: Protector
+  - type: Ability
+    text: Other Monster heroes and allies you control have Spellshield. (They can't be targeted by opponents.)
 
 regulation:
 
 errata: []
-
-temp: Turtle Beast Demigod

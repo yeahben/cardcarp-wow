@@ -13,13 +13,23 @@ health: 27
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Rogue
+
+talent:
+  - Combat
+
+profession:
+  - Engineering
+  - Leatherworking
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Ressa → Ressa deals melee damage to target ally equal to the ATK of one of your weapons.
+    text: '{2}, Flip Ressa → Ressa deals melee damage to target ally equal to the ATK of one of your weapons.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Rogue

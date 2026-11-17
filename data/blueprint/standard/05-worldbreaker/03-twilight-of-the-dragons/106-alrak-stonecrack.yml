@@ -19,6 +19,13 @@ combat: Fire
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally is destroyed, put target opposing ally into its owner's hand.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Warlock

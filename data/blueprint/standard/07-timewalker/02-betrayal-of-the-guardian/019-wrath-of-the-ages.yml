@@ -14,12 +14,17 @@ cost: '5'
 class:
   - Hunter
 
+talent:
+  - Beast Mastery
+
+instant: false
+
 rule:
   - type: Ability
-    text: Rift This turn, double the ATK of target ally, and it has Smash .
+    text: Rift (Choose a {horde} or {alliance} race. You pay {1} less to play this ability for each ally you control of the chosen race.)
+  - type: Ability
+    text: This turn, double the ATK of target ally, and it has Smash.
 
 regulation:
 
 errata: []
-
-temp: Beast Mastery

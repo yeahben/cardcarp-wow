@@ -13,13 +13,23 @@ health: 27
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+talent:
+  - Combat
+
+profession:
+  - Mining
+  - Blacksmithing
+
 rule:
   - type: Ability
     position: Front
-    text: 5 , Flip Daspien Bladedancer → Daspien deals X melee damage to target hero or ally, where X is the combined ATK of your Melee weapons.
+    text: '{5}, Flip Daspien Bladedancer → Daspien deals X melee damage to target hero or ally, where X is the combined ATK of your Melee weapons.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

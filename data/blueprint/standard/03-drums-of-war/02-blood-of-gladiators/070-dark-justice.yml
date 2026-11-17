@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warlock
 
-instant: Remove target ally from the game and put damage on your hero equal to that ally's ATK.
+talent:
+  - Affliction
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Remove target ally from the game and put damage on your hero equal to that ally's ATK.
 
 regulation:
 
 errata: []
-
-temp: Affliction

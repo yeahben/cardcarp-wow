@@ -11,12 +11,14 @@ trait:
 
 cost: '4'
 
+instant: false
+
 rule:
   - type: Ability
-    text: Stage 2 Only Put ten Whelps into play.
+    text: Stage 2 Only
+  - type: Ability
+    text: Put ten Whelps into play.
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Mage
 
+talent:
+  - Fire
+
+instant: false
+
 rule:
   - type: Ability
-    text: Fire Hero Required Your hero deals 2 fire damage to each opposing hero and ally. A character dealt damage this way can't protect this turn.
+    text: Fire Hero Required
+  - type: Ability
+    text: Your hero deals 2 fire damage to each opposing hero and ally. A character dealt damage this way can't protect this turn.
 
 regulation:
 
 errata: []
-
-temp: Fire Talent

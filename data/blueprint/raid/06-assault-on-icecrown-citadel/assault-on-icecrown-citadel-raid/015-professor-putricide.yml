@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Mad Scientist
+
 trait:
 
 cost: '6'
@@ -17,14 +20,16 @@ health: 15
 
 combat: Melee
 
-type: Raid
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: 'Protector Unstable Experiment : At the end of your turn, roll a die. When you roll a die this way, Professor Putricide deals that much nature damage to target hero or ally.'
+    text: Protector
+  - type: Ability
+    text: 'Unstable Experiment: At the end of your turn, roll a die. When you roll a die this way, Professor Putricide deals that much nature damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Mad Scientist

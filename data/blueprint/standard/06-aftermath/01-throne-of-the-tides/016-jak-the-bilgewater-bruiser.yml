@@ -13,13 +13,16 @@ health: 30
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Warrior
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 4 , Flip Jak → Ready Jak and target weapon you control. You pay 4 less to strike with it this turn.'
+    text: 'On your turn: {4}, Flip Jak → Ready Jak and target weapon you control. You pay {4} less to strike with it this turn.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Warrior

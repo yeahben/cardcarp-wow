@@ -1,4 +1,4 @@
-name: Winters Grasp
+name: Winter's Grasp
 
 origin: heroes-of-azeroth-060
 
@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Mage
 
+talent:
+  - Frost
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : Opposing allies can't attack heroes or allies in your party unless their controller pays 1 for each attacker."
+    text: "Ongoing: Opposing allies can't attack heroes or allies in your party unless their controller pays {1} for each attacker."
 
 regulation:
 
 errata: []
-
-temp: Frost

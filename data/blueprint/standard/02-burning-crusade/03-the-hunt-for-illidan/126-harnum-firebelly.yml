@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Frost Resistance
+    text: Frost Resistance (Prevent all frost [{frost}] damage that this ally would be dealt.)
 
 regulation:
 
 errata: []
-
-temp: Dwarf Priest

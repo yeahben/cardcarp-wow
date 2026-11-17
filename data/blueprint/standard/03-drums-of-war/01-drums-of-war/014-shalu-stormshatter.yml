@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+talent:
+  - Elemental
+
+profession:
+  - Alchemy
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Shalu → Destroy target ability that's not attached to a friendly hero or ally.
+    text: "{3}, Flip Shalu → Destroy target ability that's not attached to a friendly hero or ally."
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

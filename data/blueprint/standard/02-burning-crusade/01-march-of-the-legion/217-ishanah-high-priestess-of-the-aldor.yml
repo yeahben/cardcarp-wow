@@ -17,12 +17,22 @@ health: 8
 
 combat: Holy
 
+race: Draenei
+
+class:
+  - Priest
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aldor Reputation At the start of each opponent's turn, he chooses an ally in his party. Gain control of that ally.
+    text: Aldor Reputation (Can't put Scryer cards in your deck.)
+  - type: Ability
+    text: At the start of each opponent's turn, he chooses an ally in his party. Gain control of that ally.
 
 regulation:
 
 errata: []
-
-temp: Draenei Priest

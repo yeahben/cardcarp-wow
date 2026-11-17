@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 29
+
+faction: Horde
+
+race: Tauren
+
+class:
+  - Hunter
+
+rule:
+  - type: Ability
+    position: Front
+    text: Huln's Aim
+  - type: Ability
+    position: Front
+    text: '{basic} {4}, Flip Huln → Target ally you control has Long-Range this turn.'
+  - type: Ability
+    position: Reverse
+    text: Huln's Honor
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {6} → Huln has +3 ATK and Long-Range this turn.'
 
 regulation:
 

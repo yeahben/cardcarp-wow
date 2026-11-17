@@ -13,16 +13,19 @@ health: 25
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Mage
+
 rule:
   - type: Ability
     position: Front
-    text: 5 → Flip Rizzli face down.
+    text: '{5} → Flip Rizzli'
   - type: Ability
     position: Reverse
-    text: At the start of your turn, Rizzli may deal fire damage to target hero or ally equal to the ATK of a ally you control.
+    text: At the start of your turn, Rizzli may deal fire damage to target hero or ally equal to the ATK of a {fire} ally you control.
 
 regulation:
 
 errata: []
-
-temp: Goblin Mage

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '2'
@@ -14,12 +17,21 @@ cost: '2'
 class:
   - Druid
 
-instant: 'Your hero has Assault 2 this turn. Ongoing : Your hero has Cat Form .'
+talent:
+  - Feral
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero has Assault 2 this turn.
+  - type: Ability
+    text: 'Ongoing: Your hero has Cat Form. (It has +1 ATK while attacking. Destroy this card when you strike with a weapon or play a non-Feral ability.)'
 
 regulation:
 
 errata: []
-
-temp: Feral Combo

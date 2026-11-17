@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
     text: You may destroy four of your resources rather than pay Kiani De'nara's cost.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

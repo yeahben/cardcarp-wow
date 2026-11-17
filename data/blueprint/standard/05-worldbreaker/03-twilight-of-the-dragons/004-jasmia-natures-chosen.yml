@@ -1,4 +1,4 @@
-name: Jasmia, Natures Chosen
+name: Jasmia, Nature's Chosen
 
 origin: twilight-of-the-dragons-004
 
@@ -13,10 +13,15 @@ health: 27
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Druid
+
 rule:
   - type: Ability
     position: Front
-    text: 4 → Flip Jasmia face down.
+    text: '{4} → Flip Jasmia'
   - type: Ability
     position: Reverse
     text: When an ally enters play under your control, Jasmia may heal all damage from another target ally.
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Worgen Druid

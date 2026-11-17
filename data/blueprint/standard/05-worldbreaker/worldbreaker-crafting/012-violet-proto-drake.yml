@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Dragonkin
+
 trait:
 
 cost: '7'
@@ -17,12 +20,14 @@ health: 5
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: You pay 1 less to play this ally for each different color among Dragonkin you control. Other Dragonkin you control have +2 / +2.
+    text: You pay {1} less to play this ally for each different color among Dragonkin you control.
+  - type: Ability
+    text: Other Dragonkin you control have +2 / +2.
 
 regulation:
 
 errata: []
-
-temp: Dragonkin

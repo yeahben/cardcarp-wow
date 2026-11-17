@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Priest
 
-instant: The next time damage would be dealt to target hero or ally this turn, prevent it. For each damage prevented this way, your hero heals 1 damage from that character.
+talent:
+  - Discipline
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: The next time damage would be dealt to target hero or ally this turn, prevent it. For each damage prevented this way, your hero heals 1 damage from that character.
 
 regulation:
 
 errata: []
-
-temp: Discipline

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Eredar
+  - Demon
+
 trait:
 
 cost: '6'
@@ -17,14 +21,18 @@ health: 7
 
 combat: Melee
 
+limit:
+  - name: Malchezaar
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: At the start of your turn, reveal the top card of your deck. If its cost is odd, you may play it without paying its cost. Otherwise, put a 6 / 6 Infernal Demon Monster ally token into play.
+    text: At the start of your turn, reveal the top card of your deck. If its cost is odd, you may play it without paying its cost. Otherwise, put a 6 {fire} / 6 {health} Infernal Demon Monster ally token into play.
 
 regulation:
 
 errata: []
-
-temp: Eredar Demon

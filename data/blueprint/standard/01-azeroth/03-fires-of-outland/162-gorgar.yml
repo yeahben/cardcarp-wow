@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Gor'gar enters play with an ankh counter. While Gor'gar has an ankh counter, when he's destroyed, you may have his owner put him from his graveyard into play, then remove his ankh counter.
+    text: Gor'gar enters play with an ankh counter.
+  - type: Ability
+    text: While Gor'gar has an ankh counter, when he's destroyed, you may have his owner put him from his graveyard into play, then remove his ankh counter.
 
 regulation:
 
 errata: []
-
-temp: Troll Shaman

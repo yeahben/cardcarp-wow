@@ -13,10 +13,8 @@ faction: Alliance
 
 rule:
   - type: Ability
-    text: 'Unity : While you control three or more Human allies: 1 , → Put a 1 / 1 Human Warrior ally token into play with Protector .'
+    text: 'Unity: While you control three or more Human allies: {basic} {1}, {activate} → Put a 1 {melee} / 1 {health} {alliance} Human Warrior ally token into play with Protector.'
 
 regulation:
 
 errata: []
-
-temp: ''

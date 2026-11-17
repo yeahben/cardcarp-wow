@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Demigod
+
 trait:
 
 cost: '8'
@@ -17,6 +20,12 @@ health: 9
 
 combat: Melee
 
+limit:
+  - name: Nespirah
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
@@ -26,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Demigod

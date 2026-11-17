@@ -1,14 +1,42 @@
-name: Life... and Death
+name: Life and Death
 
 origin: wrathgate-192
 
 layout: Standard
 
 category:
+  - Equipment
+
+subtype:
+  - Weapon
+  - Sword
 
 trait:
 
-rule: []
+cost: '5'
+
+damage: 1
+
+strike: 4
+
+combat: Melee
+
+class:
+  - Mage
+  - Paladin
+  - Warlock
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
+rule:
+  - type: Ability
+    text: When you play an ally, you may draw a card.
+  - type: Ability
+    text: When an ally you control leaves play, discard a card.
 
 regulation:
 

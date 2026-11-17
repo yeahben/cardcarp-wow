@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Mage
 
-instant: Your hero deals 2 unpreventable frostfire damage to target ally. This turn, an ally dealt damage this way can't attack or exhaust, and loses and can't have powers. (Frostfire damage counts as both frost and fire.)
+talent:
+  - Frost
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 2 unpreventable frostfire damage to target ally. This turn, an ally dealt damage this way can't attack or exhaust, and loses and can't have powers. (Frostfire damage counts as both frost and fire.)
 
 regulation:
 
 errata: []
-
-temp: Frost

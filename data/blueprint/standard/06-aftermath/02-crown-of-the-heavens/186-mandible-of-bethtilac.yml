@@ -7,19 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Sword
+
 trait:
 
 cost: '3'
 
+damage: 2
+
+strike: 1
+
+combat: Melee
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule: []
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

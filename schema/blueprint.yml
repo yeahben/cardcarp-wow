@@ -26,6 +26,13 @@ category:
     type: string
     allowed: ['Ally', 'Hero', 'Master Hero', 'Ability', 'Equipment', 'Location', 'Event', 'Quest', 'Achievement', 'Token', 'Craft', 'Dungeon', 'Badge', 'Misc']
 
+subtype: # The words of the printed type line that are not a race, class or talent tree,
+         # in printed order: ['Armor', 'Plate'], ['Weapon', 'Two-Handed', 'Staff'], ['Talent'], ['Demon'].
+  type: list
+  required: false
+  schema:
+    type: string
+
 trait: # A catch-all to categorize/tag. Kept disjoint from category: a trait
        # never reuses a category's name, so blueprint_exception can match on either.
   type: list
@@ -52,11 +59,27 @@ health:
   min: 0
   coerce: int
 
+defense: # DEF, printed in the shield on armor.
+  type: integer
+  required: false
+  min: 0
+  coerce: int
+
+strike: # Strike cost, printed in the circle at the bottom right of a weapon.
+  type: integer
+  required: false
+  min: 0
+  coerce: int
+
 combat:
   type: string
   required: false
 
 faction:
+  type: string
+  required: false
+
+race:
   type: string
   required: false
 
@@ -66,8 +89,39 @@ class:
   schema:
     type: string
 
-instant:
-  type: string
+talent: # Talent trees: a hero's specialisation, or the tree(s) an ability belongs to.
+  type: list
+  required: false
+  schema:
+    type: string
+
+profession:
+  type: list
+  required: false
+  schema:
+    type: string
+
+limit: # The tags at the right of the type line: 'Hands (1)' is name Hands, count 1.
+       # 'Unique' and 'Unlimited' carry no count. Armor sets list five slots.
+  type: list
+  required: false
+  schema:
+    type: dict
+    schema:
+      name:
+        type: string
+        required: true
+      count:
+        type: integer
+        required: false
+
+capture: # The number printed in the tower icon at the bottom right of some locations.
+  type: integer
+  required: false
+  min: 0
+
+instant: # True when the type line reads "Instant". Absent on sets not yet checked against scans.
+  type: boolean
   required: false
 
 type:
@@ -75,6 +129,10 @@ type:
   required: false
 
 stage:
+  type: integer
+  required: false
+
+sequence: # The number printed after the type on raid event cards: 'Event 21', 'Naxxramas Event 2'.
   type: integer
   required: false
 

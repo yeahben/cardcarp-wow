@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Bloodrush : When this ally deals combat damage while attacking for the first time each turn, if an opposing hero has more damage on it than your hero, ready this ally.'
+    text: 'Bloodrush: When this ally deals combat damage while attacking for the first time each turn, if an opposing hero has more damage on it than your hero, ready this ally.'
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

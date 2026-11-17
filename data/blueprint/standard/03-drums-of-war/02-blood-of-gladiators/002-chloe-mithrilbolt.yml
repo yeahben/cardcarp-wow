@@ -13,13 +13,23 @@ health: 30
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warrior
+
+talent:
+  - Protection
+
+profession:
+  - Skinning
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Chloe → When Chloe protects this turn, ready her.
+    text: '{1}, Flip Chloe → When Chloe protects this turn, ready her.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Warrior

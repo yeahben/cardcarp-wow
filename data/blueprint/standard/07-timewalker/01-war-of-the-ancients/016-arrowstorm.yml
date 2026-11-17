@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Hunter
 
-instant: Your hero deals 4 ranged damage to target opposing ally with cost 4 or more.
+talent:
+  - Marksmanship
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 4 ranged damage to target opposing ally with cost 4 or more.
 
 regulation:
 
 errata: []
-
-temp: Marksmanship

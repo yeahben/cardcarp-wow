@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Shadow Resistance
+    text: Shadow Resistance (Prevent all shadow or {shadow} damage that this ally would be dealt.)
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

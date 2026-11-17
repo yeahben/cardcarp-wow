@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Red
+  - Dragonkin
+
 trait:
 
 cost: '6'
@@ -17,6 +21,8 @@ health: 5
 
 combat: Fire
 
+instant: false
+
 rule:
   - type: Ability
     text: Allies you control have "When this ally deals damage to an opposing hero, this ally also heals that much damage from your hero."
@@ -24,5 +30,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Red Dragonkin

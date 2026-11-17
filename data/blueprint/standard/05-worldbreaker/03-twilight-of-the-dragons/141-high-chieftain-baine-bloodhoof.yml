@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - High Chieftain
+
 trait:
 
 cost: '7'
@@ -19,12 +22,20 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+limit:
+  - name: Baine
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Prevent all damage that would be dealt to this ally while you control another ally.
+    text: Protector
+  - type: Ability
+    text: Prevent all damage that would be dealt to this ally while you control another {horde} ally.
 
 regulation:
 
 errata: []
-
-temp: Tauren High Chieftain

@@ -15,14 +15,19 @@ health: 4
 
 combat: Melee
 
+race: Human
+
+class:
+  - Paladin
+
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: This ally has Assault 4 while the Dungeon controls a ally.
+    text: This ally has Assault 4 while the Dungeon controls a {holy} ally.
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

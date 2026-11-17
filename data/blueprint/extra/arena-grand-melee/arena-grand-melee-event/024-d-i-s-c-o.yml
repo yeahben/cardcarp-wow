@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : At the end of each player's turn, he readies all heroes and allies in his party if he can hear music."
+    text: "Ongoing: At the end of each player's turn, he readies all heroes and allies in his party if he can hear music."
 
 regulation:
 
 errata: []
-
-temp: ''

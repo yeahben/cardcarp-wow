@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Dreadlord
+  - Demon
+
 trait:
 
 damage: 1
@@ -15,14 +19,18 @@ health: 10
 
 combat: Melee
 
-type: Boss
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
-    text: 'Boss Absorb Caverns Hero 2+ : Anetheron has Assault 1 for each Caverns hero that has been defeated.'
+    text: Boss (The Caverns hero can't be attacked, and when this ally is dealt fatal damage, each Raider may draw a card.)
+  - type: Ability
+    text: Absorb
+  - type: Ability
+    text: 'Caverns Hero 2+: Anetheron has Assault 1 for each Caverns hero that has been defeated.'
 
 regulation:
 
 errata: []
-
-temp: Dreadlord Demon

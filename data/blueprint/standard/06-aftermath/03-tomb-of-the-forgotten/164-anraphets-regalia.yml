@@ -1,4 +1,4 @@
-name: Anraphets Regalia
+name: Anraphet's Regalia
 
 origin: tomb-of-the-forgotten-164
 
@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '2'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Your hero has Mend 1 .
+    text: Your hero has Mend 1. (At the start of your turn, it may heal 1 damage from target hero or ally.)
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

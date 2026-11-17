@@ -5,10 +5,36 @@ origin: magtheridons-lair-treasure-018
 layout: Standard
 
 category:
+  - Equipment
+
+subtype:
+  - Weapon
+  - Two-Handed
+  - Staff
 
 trait:
 
-rule: []
+cost: '4'
+
+damage: 1
+
+strike: 3
+
+combat: Melee
+
+class:
+  - Druid
+  - Priest
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
+rule:
+  - type: Ability
+    text: '{2}, {activate} → Remove a friendly ally from the game. If you do, its owner puts it into play at the end of your turn. Use only on your turn.'
 
 regulation:
 

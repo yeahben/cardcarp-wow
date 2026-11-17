@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Shaman
 
+talent:
+  - Elemental
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Elemental Talent Ongoing : When you play an ability, reveal the top card of your deck. If it has the same cost as that ability, you may put it into your hand.'
+    text: Elemental Talent (You can't put Enhancement Talents or Restoration Talents in your deck.)
+  - type: Ability
+    text: 'Ongoing: When you play an ability, reveal the top card of your deck. If it has the same cost as that ability, you may put it into your hand.'
 
 regulation:
 
 errata: []
-
-temp: Elemental

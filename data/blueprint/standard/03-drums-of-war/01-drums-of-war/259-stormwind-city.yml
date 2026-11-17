@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Location
 
+subtype:
+  - City
+
 trait:
 
 faction: Alliance
 
 rule:
   - type: Ability
-    text: 'Human Hero Required If a Human ally is in your party: → You pay 2 less to play your next ally this turn.'
+    text: Human Hero Required
+  - type: Ability
+    text: 'If a Human ally is in your party: {activate} → You pay {2} less to play your next ally this turn.'
 
 regulation:
 
 errata: []
-
-temp: City

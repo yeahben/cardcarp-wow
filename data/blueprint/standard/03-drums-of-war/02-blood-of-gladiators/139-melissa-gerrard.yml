@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: When Melissa attacks, target hero or ally has -1 health this turn.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Warlock

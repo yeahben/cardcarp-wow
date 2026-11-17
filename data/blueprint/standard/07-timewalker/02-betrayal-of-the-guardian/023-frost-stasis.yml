@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Attachment
+
 trait:
 
 cost: '3'
@@ -14,12 +17,19 @@ cost: '3'
 class:
   - Mage
 
+talent:
+  - Frost
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target opposing ally. Ongoing : Attached ally can't attack or exhaust. When attached ally is dealt damage, destroy it and put three 2 / 1 Water Elemental ally tokens into play,"
+    text: Attach to target opposing ally.
+  - type: Ability
+    text: "Ongoing: Attached ally can't attack or exhaust."
+  - type: Ability
+    text: When attached ally is dealt damage, destroy it and put three 2 {frost} / 1 {health} Water Elemental ally tokens into play.
 
 regulation:
 
 errata: []
-
-temp: Frost Attachment

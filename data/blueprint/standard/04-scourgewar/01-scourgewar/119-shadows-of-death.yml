@@ -15,12 +15,16 @@ class:
   - Death Knight
   - Warlock
 
+talent:
+  - Unholy
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : 1 , Destroy a Demon or Ghoul you control → Your hero deals 3 shadow damage to target hero or ally.'
+    text: 'Ongoing: {1}, Destroy a Demon or Ghoul you control → Your hero deals 3 shadow damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Unholy Destruction

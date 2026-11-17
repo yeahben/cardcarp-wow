@@ -19,6 +19,16 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: Other Horde allies in your party have +3 ATK and +3 health.
@@ -26,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Orc Shaman

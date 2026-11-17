@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Hunter
 
-instant: Trap Remove your defending hero from combat. If you do, your hero deals 4 fire damage to target hero.
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Trap (You may exhaust your defending hero rather than pay this card's cost.)
+  - type: Ability
+    text: Remove your defending hero from combat. If you do, your hero deals 4 fire damage to target hero.
 
 regulation:
 
 errata: []
-
-temp: Survival

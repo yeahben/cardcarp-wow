@@ -17,12 +17,22 @@ health: 3
 
 combat: Holy
 
+race: Draenei
+
+class:
+  - Paladin
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aldor Reputation Cards can't leave opposing graveyards.
+    text: Aldor Reputation (Can't put Scryer cards in your deck.)
+  - type: Ability
+    text: Cards can't leave opposing graveyards.
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

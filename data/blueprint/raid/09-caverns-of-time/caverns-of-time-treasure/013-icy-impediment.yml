@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Mage
 
+talent:
+  - Frost
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : Each opposing equipment can't exhaust unless its controller pays 1 ."
+    text: "Ongoing: Each opposing equipment can't exhaust unless its controller pays {1}."
 
 regulation:
 
 errata: []
-
-temp: Frost

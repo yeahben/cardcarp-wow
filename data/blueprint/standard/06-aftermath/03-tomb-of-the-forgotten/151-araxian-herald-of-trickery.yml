@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Satyr
+  - Demon
+
 trait:
 
 cost: '6'
@@ -17,14 +21,17 @@ health: 6
 
 combat: Melee
 
+class:
+  - Rogue
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 'Empower Rogue : When this ally enters play, if you control another Rogue hero or ally, your hero has +4 ATK this turn.'
+    text: 'Empower Rogue: When this ally enters play, if you control another Rogue hero or ally, your hero has +4 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Satyr Demon Rogue

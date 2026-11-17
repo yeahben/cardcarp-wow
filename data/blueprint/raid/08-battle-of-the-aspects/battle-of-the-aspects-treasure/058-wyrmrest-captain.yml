@@ -17,6 +17,13 @@ health: 4
 
 combat: Melee
 
+race: Tauren
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, reveal the top card of your deck. This ally has +ATK this turn equal to the cost of that revealed card.
@@ -24,5 +31,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Warrior

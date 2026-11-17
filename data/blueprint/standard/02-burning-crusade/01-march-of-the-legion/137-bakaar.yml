@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero has Long-Range .
+    text: Your hero has long-range. (Defenders deal no combat damage to it.)
 
 regulation:
 
 errata: []
-
-temp: Draenei Hunter

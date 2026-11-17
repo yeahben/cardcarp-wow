@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Tol'vir
+
 trait:
+
+health: 29
+
+class:
+  - Paladin
 
 type: Monster
 
 rule:
   - type: Ability
     position: Front
-    text: 8 → Flip The Forgotten face down. You pay 8 less to flip The Forgotten if you control an ability, an ally, and an equipment.
+    text: '{8} → Flip The Forgotten face down.'
+  - type: Ability
+    position: Front
+    text: You pay {8} less to flip The Forgotten if you control an ability, an ally, and an equipment.
   - type: Ability
     position: Reverse
-    text: "When The Forgotten deals combat damage to an opposing hero, he heals that much damage from himself. Deckbuilding: You can't put or cards in your deck."
+    text: When The Forgotten deals combat damage to an opposing hero, he heals that much damage from himself.
+  - type: Ability
+    position: Reverse
+    text: "Deckbuilding: You can't put {horde} or {alliance} cards in your deck."
 
 regulation:
 
 errata: []
-
-temp: Tol'vir Paladin 29

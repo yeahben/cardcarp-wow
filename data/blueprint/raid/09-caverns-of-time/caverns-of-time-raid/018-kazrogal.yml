@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Doomguard
+  - Demon
+
 trait:
 
 damage: 1
@@ -15,14 +19,18 @@ health: 12
 
 combat: Melee
 
-type: Boss
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
-    text: "Boss When Kaz'rogal enters play, he deals 4 shadow damage to the hero of each Raider that controls no ready resources. Caverns Hero 2+ : Kaz'rogal has Assault 1 for each exhausted resource the MARKED hero controls."
+    text: Boss (The Caverns hero can't be attacked, and when this ally is dealt fatal damage, each Raider may draw a card.)
+  - type: Ability
+    text: When Kaz'rogal enters play, he deals 4 shadow damage to the hero of each Raider that controls no ready resources.
+  - type: Ability
+    text: "Caverns Hero 2+: Kaz'rogal has Assault 1 for each exhausted resource the MARKED hero controls."
 
 regulation:
 
 errata: []
-
-temp: Doomguard Demon

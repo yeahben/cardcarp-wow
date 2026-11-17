@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '3'
+
+defense: 2
 
 class:
   - Paladin
   - Warrior
 
+limit:
+  - name: Feet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 2 , Destroy Master Cannoneer Boots → Your hero deals 2 melee damage to target hero or ally.
+    text: '{2}, Destroy Master Cannoneer Boots → Your hero deals 2 melee damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

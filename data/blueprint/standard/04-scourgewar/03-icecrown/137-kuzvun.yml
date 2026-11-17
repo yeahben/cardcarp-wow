@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Long-Range
+    text: Long-Range (While this ally is attacking, the defender can't deal combat damage to it.)
 
 regulation:
 
 errata: []
-
-temp: Troll Hunter

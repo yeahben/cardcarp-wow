@@ -19,12 +19,19 @@ combat: Ranged
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Time is Money → Target ally has Long-Range this turn.
+    text: Time is Money (This ally can use {activate} powers immediately.)
+  - type: Ability
+    text: '{activate} → Target ally has Long-Range this turn.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Hunter

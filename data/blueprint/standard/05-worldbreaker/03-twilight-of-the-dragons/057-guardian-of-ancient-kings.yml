@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Spirit
+  - Guardian
+
 trait:
 
 cost: '2'
@@ -20,12 +24,20 @@ combat: Holy
 class:
   - Paladin
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: While you control a Holy ability, this ally has Mend 2 . While you control a Protection ability, this ally has Protector . While you control a Retribution ability, this ally has Assault 2 .
+    text: While you control a Holy ability, this ally has Mend 2.
+  - type: Ability
+    text: While you control a Protection ability, this ally has Protector.
+  - type: Ability
+    text: While you control a Retribution ability, this ally has Assault 2.
 
 regulation:
 
 errata: []
-
-temp: Spirit Guardian

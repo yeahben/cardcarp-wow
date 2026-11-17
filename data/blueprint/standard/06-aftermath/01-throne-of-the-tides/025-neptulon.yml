@@ -5,7 +5,12 @@ origin: throne-of-the-tides-025
 layout: Standard
 
 category:
-  - Hero
+  - Master Hero
+
+subtype:
+  - Water
+  - Elemental
+  - Lord
 
 trait:
 
@@ -17,15 +22,21 @@ health: 38
 
 combat: Frost
 
-type: Master
+instant: false
+
+type: Monster
 
 rule:
   - type: Ability
     position: Front
-    text: 'Fire Resistance When your hero becomes Neptulon, reveal the top ten cards of your deck. Remove all revealed Frost and cards from the game, and put the rest on the bottom of your deck. Tidal Surge : Allies you control have +1 / +1 for each card removed this way.'
+    text: Fire Resistance
+  - type: Ability
+    position: Front
+    text: When your hero becomes Neptulon, reveal the top ten cards of your deck. Remove all revealed Frost and {frost} cards from the game, and put the rest on the bottom of your deck.
+  - type: Ability
+    position: Front
+    text: 'Tidal Surge: Allies you control have +1 / +1 for each card removed this way.'
 
 regulation:
 
 errata: []
-
-temp: Water Elemental Lord

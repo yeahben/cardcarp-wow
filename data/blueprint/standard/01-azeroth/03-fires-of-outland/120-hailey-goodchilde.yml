@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: → This ally heals all damage from target ally.
+    text: '{activate} → Hailey Goodchilde heals all damage from target ally.'
 
 regulation:
 
 errata: []
-
-temp: Human Priest

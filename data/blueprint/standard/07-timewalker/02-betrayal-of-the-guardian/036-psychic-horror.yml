@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: Shadow Talent Target up to one each of an opposing ability, ally, and equipment, and put those cards into their owners' hands.
+    text: Shadow Talent (You can't put Discipline Talents or Holy Talents in your deck.)
+  - type: Ability
+    text: Target up to one each of an opposing ability, ally, and equipment, and put those cards into their owners' hands.
 
 regulation:
 
 errata: []
-
-temp: Shadow

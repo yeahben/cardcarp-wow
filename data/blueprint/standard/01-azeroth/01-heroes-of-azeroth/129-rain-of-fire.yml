@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Warlock
 
+talent:
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : At the start of your turn, pay 4 or destroy Rain of Fire. At the end of your turn, your hero deals 1 fire damage to each opposing hero and ally.'
+    text: 'Ongoing: At the start of your turn, pay {4} or destroy Rain of Fire.'
+  - type: Ability
+    text: At the end of your turn, your hero deals 1 fire damage to each opposing hero and ally.
 
 regulation:
 
 errata: []
-
-temp: Destruction

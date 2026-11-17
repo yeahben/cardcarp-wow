@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Shout
+
 trait:
 
 cost: '4'
@@ -14,12 +17,15 @@ cost: '4'
 class:
   - Warrior
 
-instant: 'Ongoing : Opposing allies have -1 health.'
+talent:
+  - Fury
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Opposing allies have -1 health.'
 
 regulation:
 
 errata: []
-
-temp: Fury Shout

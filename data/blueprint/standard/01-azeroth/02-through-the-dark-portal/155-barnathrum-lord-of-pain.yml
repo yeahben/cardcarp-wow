@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , → Double the damage on each ally.
+    text: '{1}, {activate} → Double the damage on each ally.'
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

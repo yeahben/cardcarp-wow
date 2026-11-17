@@ -1,0 +1,22 @@
+name: You Are Not Prepared!
+
+origin: black-temple-raid-054
+
+layout: Standard
+
+category:
+  - Event
+
+trait:
+
+instant: false
+
+sequence: 14
+
+rule:
+  - type: Ability
+    text: 'Ongoing: {activate} → Exhaust target ally.'
+
+regulation:
+
+errata: []

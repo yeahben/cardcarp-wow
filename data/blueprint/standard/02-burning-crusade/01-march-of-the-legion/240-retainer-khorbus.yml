@@ -17,12 +17,19 @@ health: 4
 
 combat: Melee
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Scryer Reputation When Khorbus deals combat damage, put him from play into his owner's hand.
+    text: Scryer Reputation (Can't put Aldor cards in your deck.)
+  - type: Ability
+    text: When Khorbus deals combat damage, put him from play into his owner's hand.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

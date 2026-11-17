@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: 2 , → Destroy target ability.
+    text: '{2}, {activate} → Destroy target ability.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Priest

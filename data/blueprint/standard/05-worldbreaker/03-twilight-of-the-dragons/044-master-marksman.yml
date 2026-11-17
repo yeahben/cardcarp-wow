@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Hunter
 
+talent:
+  - Marksmanship
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Marksmanship Talent Ongoing : Your hero has Ranged Dual Wield . Ranged weapons you control have +1 ATK, and you pay 1 less to strike with them.'
+    text: Marksmanship Talent (You can't put Beast Mastery Talents or Survival Talents in your deck.)
+  - type: Ability
+    text: 'Ongoing: Your hero has Ranged Dual Wield.'
+  - type: Ability
+    text: Ranged weapons you control have +1 ATK, and you pay {1} less to strike with them.
 
 regulation:
 
 errata: []
-
-temp: Marksmanship

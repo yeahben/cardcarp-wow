@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Hunter
 
+talent:
+  - Marksmanship
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target friendly ally. Ongoing : When an opposing ally enters play, attached ally deals 1 ranged damage to it.'
+    text: Attach to target friendly ally.
+  - type: Ability
+    text: 'Ongoing: When an opposing ally enters play, attached ally deals 1 ranged damage to it.'
 
 regulation:
 
 errata: []
-
-temp: Marksmanship

@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: 5 , → Each player destroys one of his resources.
+    text: '{5}, {activate} → Each player destroys one of his resources.'
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

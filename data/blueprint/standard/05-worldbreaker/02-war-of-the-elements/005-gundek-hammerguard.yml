@@ -13,16 +13,19 @@ health: 29
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Paladin
+
 rule:
   - type: Ability
     position: Front
-    text: 4 → Flip Gundek
+    text: '{4} → Flip Gundek'
   - type: Ability
     position: Reverse
-    text: Protector
+    text: Protector (Gundek may exhaust to become the defender when an opposing hero or ally attacks.)
 
 regulation:
 
 errata: []
-
-temp: Dwarf Paladin

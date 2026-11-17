@@ -17,14 +17,21 @@ health: 16
 
 combat: Melee
 
-type: Raid
+race: Orc
+
+class:
+  - Death Knight
+
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: 'Protector Blood Power : Deathbringer Saurfang has +1 ATK for each damage on him.'
+    text: Protector
+  - type: Ability
+    text: 'Blood Power: Deathbringer Saurfang has +1 ATK for each damage on him.'
 
 regulation:
 
 errata: []
-
-temp: Orc Death Knight

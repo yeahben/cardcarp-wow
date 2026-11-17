@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
-    text: Echo Put a 3 / 3 Ghoul ally token into play.
+    text: Echo (When you play this ability, if you control two or more allies that share a {horde} or {alliance} race, copy this ability.)
+  - type: Ability
+    text: Put a 3 {melee} / 3 {health} Ghoul ally token into play.
 
 regulation:
 
 errata: []
-
-temp: Unholy

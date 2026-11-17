@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Your hero has Assault 1 for each armor and item you control.'
+    text: 'Ongoing: Your hero has Assault 1 for each armor and item you control.'
 
 regulation:
 
 errata: []
-
-temp: Arms

@@ -1,4 +1,4 @@
-name: Vengeful Gladiators Piercing Touch
+name: Vengeful Gladiator's Piercing Touch
 
 origin: blood-of-gladiators-187
 
@@ -7,21 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Wand
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 1
+
+combat: Fire
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Wand
+    count: 1
+
+instant: false
+
+type: Arena
 
 rule:
   - type: Ability
-    text: 1 , Remove an ability card in your graveyard from the game → Vengeful Gladiator's Piercing Touch has +1 ATK this turn.
+    text: "{1}, Remove an ability card in your graveyard from the game → Vengeful Gladiator's Piercing Touch has +1 ATK this turn."
 
 regulation:
 
 errata: []
-
-temp: Ranged Arena Weapon Wand

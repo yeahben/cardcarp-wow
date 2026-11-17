@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: You pay 1 less to play Arcane Research for each other card named Arcane Research in your graveyard. Draw two cards.
+    text: You pay {1} less to play Arcane Research for each other card named Arcane Research in your graveyard.
+  - type: Ability
+    text: Draw two cards.
 
 regulation:
 
 errata: []
-
-temp: Arcane

@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target ability, ally, equipment, or resource. Ongoing : Attached card loses and can't have powers."
+    text: Attach to target ability, ally, equipment, or resource.
+  - type: Ability
+    text: "Ongoing: Attached card loses and can't have powers."
 
 regulation:
 
 errata: []
-
-temp: Arcane

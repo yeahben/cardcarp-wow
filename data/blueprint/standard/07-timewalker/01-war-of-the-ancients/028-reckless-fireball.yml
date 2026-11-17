@@ -14,6 +14,11 @@ cost: '2'
 class:
   - Mage
 
+talent:
+  - Fire
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero deals 4 fire damage to target opposing hero or ally. That character's controller may discard a card from his hand. If he does, his hero deals 4 fire damage to target hero or ally of his choice.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Fire

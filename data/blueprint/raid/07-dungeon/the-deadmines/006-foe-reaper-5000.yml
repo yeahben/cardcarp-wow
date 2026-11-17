@@ -7,7 +7,12 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Mechanical
+  - Golem
+
 trait:
+  - 2 XP
 
 damage: 0
 
@@ -15,14 +20,18 @@ health: 10
 
 combat: Melee
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: 'Boss Assault 5 , Ferocity Overdrive : While Foe Reaper has 5 or more damage, he has an additional Assault 10 .'
+    text: Boss (The Dungeon hero can't be attacked.)
+  - type: Ability
+    text: Assault 5, Ferocity
+  - type: Ability
+    text: 'Overdrive: While Foe Reaper has 5 or more damage, he has an additional Assault 10.'
 
 regulation:
 
 errata: []
-
-temp: Mechanical Golem

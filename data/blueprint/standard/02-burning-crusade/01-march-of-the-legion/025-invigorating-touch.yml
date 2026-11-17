@@ -14,6 +14,11 @@ cost: '1'
 class:
   - Druid
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero heals 6 damage from target hero.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Restoration

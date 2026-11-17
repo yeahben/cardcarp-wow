@@ -7,19 +7,30 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Traitor
+
 trait:
+  - Shattered Hand
 
 health: 30
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+profession:
+  - Mining
+  - Enchanting
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Lionar → Destroy target ally with Protector . Use only on your turn. Shattered Hand
+    text: '{2}, Flip Lionar → Destroy target ally with protector. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

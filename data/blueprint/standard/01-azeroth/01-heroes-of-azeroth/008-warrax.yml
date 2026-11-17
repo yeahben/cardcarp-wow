@@ -13,13 +13,23 @@ health: 30
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Warrior
+
+talent:
+  - Protection
+
+profession:
+  - Blacksmithing
+  - Mining
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Warrax → Warrax has Protector this turn.
+    text: '{1}, Flip Warrax → Warrax has protector this turn.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Warrior

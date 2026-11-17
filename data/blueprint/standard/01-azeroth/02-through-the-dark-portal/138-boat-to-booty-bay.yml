@@ -11,12 +11,17 @@ trait:
 
 cost: '4'
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : → Remove an ally in your party from the game. Use only on your turn. , Destroy Boat to Booty Bay → Put all ally cards removed by Boat to Booty Bay into play under your control. Use only on your turn.'
+    text: 'Ongoing: {activate} → Remove an ally in your party from the game. Use only on your turn.'
+  - type: Ability
+    text: '{activate}, Destroy Boat to Booty Bay → Put all ally cards removed by Boat to Booty Bay into play under your control. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: ''

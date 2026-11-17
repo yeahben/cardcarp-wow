@@ -19,15 +19,17 @@ combat: Ranged
 
 faction: Alliance
 
+race: Dwarf
+
 class:
-  - Mage
+  - Hunter
+
+instant: false
 
 rule:
   - type: Ability
-    text: 2 → When the next opposing Mage or card enters play this turn, destroy it.
+    text: '{2} → When the next opposing Mage or {mage} card enters play this turn, destroy it.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

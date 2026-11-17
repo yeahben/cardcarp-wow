@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Blessing
+  - Attachment
+
 trait:
 
 cost: '2'
@@ -14,12 +18,17 @@ cost: '2'
 class:
   - Paladin
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally you control. Ongoing : Attached ally has +5 and Protector .'
+    text: Attach to target ally you control.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +5 {health} and Protector.'
 
 regulation:
 
 errata: []
-
-temp: Protection Blessing Attachment

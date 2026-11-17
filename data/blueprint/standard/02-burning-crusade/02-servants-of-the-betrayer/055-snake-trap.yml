@@ -14,12 +14,17 @@ cost: '6'
 class:
   - Hunter
 
-instant: Trap Put X Snake ally tokens with 1 ATK / 1 health into play, where X is target opposing attacker's cost.
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Trap (You may exhaust your defending hero rather than pay this card's cost.)
+  - type: Ability
+    text: Put X Snake ally tokens with 1 {nature} ATK / 1 health into play, where X is target opposing attacker's cost.
 
 regulation:
 
 errata: []
-
-temp: Survival

@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : While you control no ready resources, allies you control have +2 ATK.'
+    text: 'Ongoing: While you control no ready resources, allies you control have +2 ATK.'
 
 regulation:
 
 errata: []
-
-temp: Fury

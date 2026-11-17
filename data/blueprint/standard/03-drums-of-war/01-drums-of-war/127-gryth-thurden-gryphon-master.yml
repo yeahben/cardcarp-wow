@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Flight
+  - Master
+
 trait:
 
 cost: '1'
@@ -19,12 +23,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Gryth has +1 ATK / +1 health while you have a location. → Ready target location.
+    text: Gryth has +1 ATK / +1 health while you have a location.
+  - type: Ability
+    text: '{activate} → Ready target location.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Flight Master

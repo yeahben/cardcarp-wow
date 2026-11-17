@@ -7,14 +7,15 @@ layout: Standard
 category:
   - Location
 
+subtype:
+  - Arena
+
 trait:
 
 rule:
   - type: Ability
-    text: → Target ally in your party is an Arena ally this turn.
+    text: '{activate} → Target ally in your party is an Arena ally this turn.'
 
 regulation:
 
 errata: []
-
-temp: Arena

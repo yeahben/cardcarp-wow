@@ -7,19 +7,30 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Traitor
+
 trait:
+  - Tortured Spirit
 
 health: 30
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Warrior
+
+profession:
+  - Mining
+  - Blacksmithing
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Fallenstar → Fallenstar deals 2 melee damage to target hero or ally without damage. Use only on your turn. Tortured Spirit
+    text: '{2}, Flip Fallenstar → Fallenstar deals 2 melee damage to target hero or ally without damage. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Warrior

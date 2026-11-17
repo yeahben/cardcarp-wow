@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Demon
+
 trait:
 
 cost: '6'
@@ -15,12 +18,19 @@ damage: 7
 
 health: 4
 
+combat: Ranged
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Long-Range When Razorsaw enters play, he deals 4 ranged damage to target ally in your party. When Razorsaw leaves play, he deals 4 ranged damage to target ally.
+    text: Long-Range (Defenders deal no combat damage to this character.)
+  - type: Ability
+    text: When Razorsaw enters play, he deals 4 ranged damage to target ally in your party. When Razorsaw leaves play, he deals 4 ranged damage to target ally.
 
 regulation:
 
 errata: []
-
-temp: Demon

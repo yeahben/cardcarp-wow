@@ -14,12 +14,17 @@ cost: '6'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: You pay 1 less to play this ability for each armor you control. Your hero deals melee damage to each opposing ally equal to the ATK of a Melee weapon you control.
+    text: You pay {1} less to play this ability for each armor you control.
+  - type: Ability
+    text: Your hero deals melee damage to each opposing ally equal to the ATK of a Melee weapon you control.
 
 regulation:
 
 errata: []
-
-temp: Arms

@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Stealth → Target hero or ally has Stealth this turn.
+    text: Stealth (Can't protect against this character.)
+  - type: Ability
+    text: '{activate} → Target hero or ally has stealth this turn.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Rogue

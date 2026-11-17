@@ -1,4 +1,4 @@
-name: Deadmans Hand
+name: Deadman's Hand
 
 origin: dungeon-treasure-042
 
@@ -7,21 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
@@ -30,5 +39,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Item Ring

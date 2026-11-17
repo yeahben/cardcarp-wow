@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Curse
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target hero. Ongoing : Attached hero's controller pays 1 more to play abilities."
+    text: Attach to target hero.
+  - type: Ability
+    text: "Ongoing: Attached hero's controller pays {1} more to play abilities."
 
 regulation:
 
 errata: []
-
-temp: Affliction Curse

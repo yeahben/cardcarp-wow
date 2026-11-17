@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector This ally has Nature Resistance while you control another ally.
+    text: Protector
+  - type: Ability
+    text: This ally has Nature Resistance while you control another ally.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

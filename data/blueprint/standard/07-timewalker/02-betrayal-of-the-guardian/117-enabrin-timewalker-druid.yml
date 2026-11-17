@@ -17,12 +17,17 @@ health: 1
 
 combat: Arcane
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'While you control two or more allies that share a or race: → Draw a card.'
+    text: 'While you control two or more allies that share a {horde} or {alliance} race: {activate} → Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

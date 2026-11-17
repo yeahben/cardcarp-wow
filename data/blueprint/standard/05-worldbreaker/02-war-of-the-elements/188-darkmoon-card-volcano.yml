@@ -7,23 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '7'
 
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'At the start of your turn, you win the game if there are no cards in your deck. Stash : Target player puts the top two cards of his deck into his graveyard.'
+    text: At the start of your turn, you win the game if there are no cards in your deck.
+  - type: Ability
+    text: 'Stash: Target player puts the top two cards of his deck into his graveyard.'
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

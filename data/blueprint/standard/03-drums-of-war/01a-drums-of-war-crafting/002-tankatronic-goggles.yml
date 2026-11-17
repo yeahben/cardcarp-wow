@@ -7,20 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '2'
+
+defense: 2
 
 class:
   - Paladin
   - Warrior
 
+limit:
+  - name: Head
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Engineering Hero Required When Tankatronic Goggles enters play, look at target player's hand. Your hero is a Protector . Opposing allies lose and can't have Elusive , Stealth , and Untargetable .
+    text: Engineering Hero Required
+  - type: Ability
+    text: When Tankatronic Goggles enters play, look at target player's hand.
+  - type: Ability
+    text: Your hero is a protector. Opposing allies lose and can't have elusive, stealth, and untargetable.
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

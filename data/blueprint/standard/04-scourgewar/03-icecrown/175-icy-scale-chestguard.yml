@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '4'
+
+defense: 3
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: If a friendly hero or ally would deal frost ( ) damage, it deals that much +1 instead.
+    text: If a friendly hero or ally would deal frost ({frost}) damage, it deals that much +1 instead.
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

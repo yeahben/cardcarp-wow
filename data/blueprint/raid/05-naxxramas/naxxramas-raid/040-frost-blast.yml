@@ -1,0 +1,25 @@
+name: Frost Blast
+
+origin: naxxramas-raid-040
+
+layout: Standard
+
+category:
+  - Token
+
+subtype:
+  - Kel'Thuzad's Mark
+
+trait:
+
+instant: false
+
+rule:
+  - type: Ability
+    text: "Ongoing: Attached hero can't attack, exhaust, or be dealt damage."
+  - type: Ability
+    text: At the start of your turn, destroy Frost Blast, and then Kel'Thuzad deals 10 frost damage to attached hero.
+
+regulation:
+
+errata: []

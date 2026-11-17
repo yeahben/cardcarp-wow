@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive When an ally with cost 4 or more enters play under your control, this ally deals 4 ranged damage to target hero.
+    text: Elusive
+  - type: Ability
+    text: When an ally with cost 4 or more enters play under your control, this ally deals 4 ranged damage to target hero.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Hunter

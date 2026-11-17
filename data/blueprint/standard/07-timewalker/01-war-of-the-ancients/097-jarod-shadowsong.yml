@@ -19,12 +19,21 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Warrior
+
+limit:
+  - name: Jarod
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive , Spellshield , Stealth
+    text: Elusive, Spellshield, Stealth
 
 regulation:
 
 errata: []
-
-temp: Night Elf Warrior

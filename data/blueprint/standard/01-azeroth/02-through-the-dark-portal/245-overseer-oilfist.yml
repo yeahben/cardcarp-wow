@@ -17,6 +17,16 @@ health: 2
 
 combat: Melee
 
+race: Dwarf
+
+class:
+  - Warrior
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: When Overseer Oilfist enters play, reveal the top four cards of your deck. Put a revealed equipment card into your hand and the rest on the bottom of your deck.
@@ -24,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Warrior

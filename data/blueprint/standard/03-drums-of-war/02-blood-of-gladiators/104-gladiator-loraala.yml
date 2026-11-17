@@ -19,14 +19,19 @@ combat: Fire
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Mage
+
+instant: false
+
 type: Arena
 
 rule:
   - type: Ability
-    text: Arena allies in your party have " → This ally deals 3 fire damage to target hero."
+    text: Arena allies in your party have "{activate} → This ally deals 3 fire damage to target hero."
 
 regulation:
 
 errata: []
-
-temp: Draenei Mage

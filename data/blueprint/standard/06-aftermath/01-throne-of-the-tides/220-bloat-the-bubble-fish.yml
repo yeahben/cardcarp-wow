@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Fish
+
 trait:
 
 cost: '2'
@@ -17,12 +20,14 @@ health: 1
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive 1 → This ally has +1 ATK this turn.
+    text: Elusive
+  - type: Ability
+    text: '{1} → This ally has +1 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Fish

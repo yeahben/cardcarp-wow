@@ -7,19 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Crossbow
+
 trait:
 
 cost: '2'
 
+damage: 0
+
+strike: 2
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you strike with this weapon, your hero has Long-Range this combat. This weapon has Assault 1 for each card in opposing hands.
+    text: When you strike with this weapon, your hero has Long-Range this combat.
+  - type: Ability
+    text: This weapon has Assault 1 for each card in opposing hands.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Crossbow

@@ -7,19 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Bow
+
 trait:
 
 cost: '5'
 
+damage: 4
+
+strike: 2
+
+combat: Frost
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you strike with this weapon, your hero has Long-Range this combat. When your hero deals combat damage with this weapon to a hero, your hero deals that much frost damage to target ally in that hero's party.
+    text: When you strike with this weapon, your hero has Long-Range this combat.
+  - type: Ability
+    text: When your hero deals combat damage with this weapon to a hero, your hero deals that much frost damage to target ally in that hero's party.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Bow

@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Death Knight
 
+talent:
+  - Blood
+
+instant: false
+
 rule:
   - type: Ability
-    text: Destroy any number of Diseases you control. Your hero deals 2 shadow damage to each opposing ally for each Disease destroyed this way.
+    text: Destroy any number of Diseases you control.
+  - type: Ability
+    text: Your hero deals 2 shadow damage to each opposing ally for each Disease destroyed this way.
 
 regulation:
 
 errata: []
-
-temp: Blood

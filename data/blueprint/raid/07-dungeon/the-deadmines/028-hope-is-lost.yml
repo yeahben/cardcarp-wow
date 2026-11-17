@@ -1,14 +1,21 @@
-name: Hope is Lost
+name: Hope Is Lost
 
 origin: the-deadmines-028
 
 layout: Standard
 
 category:
+  - Ability
 
 trait:
 
-rule: []
+instant: false
+
+type: Dungeon
+
+rule:
+  - type: Ability
+    text: Each non-MARKED hero's controller chooses and destroys an ability, ally, or equipment he controls.
 
 regulation:
 

@@ -6,6 +6,7 @@ layout: Standard
 
 category:
   - Ability
+  - Ally
 
 trait:
 
@@ -20,14 +21,23 @@ combat: Nature
 class:
   - Shaman
 
-type: Ally
+talent:
+  - Restoration
+
+limit:
+  - name: Air Totem
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: "Restoration Talent Ongoing : When an ally you control deals damage to an opposing hero, this Totem heals that much damage from your hero. (Totems can't attack.)"
+    text: Restoration Talent (You can't put Elemental Talents or Enhancement Talents in your deck.)
+  - type: Ability
+    text: 'Ongoing: When an ally you control deals damage to an opposing hero, this Totem heals that much damage from your hero.'
+  - type: Ability
+    text: (Totems can't attack.)
 
 regulation:
 
 errata: []
-
-temp: Restoration

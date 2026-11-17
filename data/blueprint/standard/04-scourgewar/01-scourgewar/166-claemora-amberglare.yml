@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, target hero or ally has Assault 2 this turn.
+    text: When this ally enters play, target hero or ally has Assault 2 this turn. (+2 ATK on your turn)
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Hunter

@@ -14,12 +14,17 @@ cost: '5'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
-    text: As an additional cost to play this ability, destroy an ability, ally, or equipment you control. Destroy all exhausted opposing allies.
+    text: As an additional cost to play this ability, destroy an ability, ally, or equipment you control.
+  - type: Ability
+    text: Destroy all exhausted opposing allies.
 
 regulation:
 
 errata: []
-
-temp: Assassination

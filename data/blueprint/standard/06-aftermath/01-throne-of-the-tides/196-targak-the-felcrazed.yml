@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ogre
+
 trait:
 
 cost: '9'
@@ -17,14 +20,17 @@ health: 8
 
 combat: Shadow
 
+class:
+  - Warlock
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: You pay 1 less to play this ally for each Monster hero and ally you control.
+    text: You pay {1} less to play this ally for each Monster hero and ally you control.
 
 regulation:
 
 errata: []
-
-temp: Ogre Warlock

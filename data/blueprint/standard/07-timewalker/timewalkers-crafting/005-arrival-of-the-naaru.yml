@@ -7,28 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Exhaust an ally you control → Add a meditation counter to this item. While this item has five or more meditation counters: , Destroy this item → Put a 5 / 5 Naaru ally token into play with Absorb and Protector .'
+    text: Exhaust an ally you control → Add a meditation counter to this item.
+  - type: Ability
+    text: 'While this item has five or more meditation counters: {basic} {activate}, Destroy this item → Put a 5 {holy} / 5 {health} Naaru ally token into play with Absorb and Protector.'
 
 regulation:
 
 errata: []
-
-temp: Item

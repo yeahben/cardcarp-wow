@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '1'
 
+defense: 0
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Hands
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: As this armor enters play, you may reveal any number of equipment from your hand. This armor enters play with a +1 counter on it for each card revealed this way.
+    text: As this armor enters play, you may reveal any number of equipment from your hand. This armor enters play with a +1 {def} counter on it for each card revealed this way.
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

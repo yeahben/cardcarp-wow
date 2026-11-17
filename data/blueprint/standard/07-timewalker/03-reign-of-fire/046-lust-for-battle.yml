@@ -1,0 +1,28 @@
+name: Lust for Battle
+
+origin: reign-of-fire-046
+
+layout: Standard
+
+category:
+  - Ability
+
+trait:
+
+cost: '2'
+
+class:
+  - Shaman
+
+talent:
+  - Enhancement
+
+instant: true
+
+rule:
+  - type: Ability
+    text: Allies you control have +2 ATK this turn.
+
+regulation:
+
+errata: []

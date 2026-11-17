@@ -11,12 +11,14 @@ trait:
 
 cost: '3'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Choose an ally type. Ongoing : All allies also have that type. (Examples of types are Chicken, Demon, Druid, Gnome, and Yeti.)'
+    text: Choose an ally type.
+  - type: Ability
+    text: 'Ongoing: All allies also have that type. (Examples of types are Chicken, Demon, Druid, Gnome, and Yeti.)'
 
 regulation:
 
 errata: []
-
-temp: ''

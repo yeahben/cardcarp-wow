@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally deals combat damage to an opposing hero, you may put up to three allies from your hand into play.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Priest

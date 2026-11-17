@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
@@ -14,12 +17,18 @@ cost: '2'
 class:
   - Shaman
 
+limit:
+  - name: Relic
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , , Destroy a totem you control → Your hero deals nature damage equal to that Totem's cost to target hero or ally. When you play a Totem, ready this item.
+    text: "{1}, {activate}, Destroy a Totem you control → Your hero deals nature damage equal to that Totem's cost to target hero or ally."
+  - type: Ability
+    text: When you play a Totem, ready this item.
 
 regulation:
 
 errata: []
-
-temp: Item Relic

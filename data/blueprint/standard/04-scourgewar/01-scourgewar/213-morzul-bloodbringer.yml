@@ -17,12 +17,20 @@ health: 5
 
 combat: Shadow
 
+race: Human
+
+class:
+  - Warlock
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Remove a Warlock ally you control from the game → Remove target ally from the game.
+    text: '{1}, Remove a Warlock ally you control from the game → Remove target ally from the game.'
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

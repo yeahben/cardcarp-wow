@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Priest
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : At the start of your turn, your hero heals 2 damage from each hero and ally you control. At the end of your turn, destroy this ability if you don't control an ally."
+    text: 'Ongoing: At the start of your turn, your hero heals 2 damage from each hero and ally you control.'
+  - type: Ability
+    text: At the end of your turn, destroy this ability if you don't control an ally.
 
 regulation:
 
 errata: []
-
-temp: Holy

@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Warrior
 
-instant: Destroy target armor or item.
+talent:
+  - Arms
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Destroy target armor or item.
 
 regulation:
 
 errata: []
-
-temp: Arms

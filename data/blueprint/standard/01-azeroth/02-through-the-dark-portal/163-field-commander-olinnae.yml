@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector All other allies in your party have Protector .
+    text: Protector
+  - type: Ability
+    text: All other allies in your party have protector.
 
 regulation:
 
 errata: []
-
-temp: Draenei Warrior

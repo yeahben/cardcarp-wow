@@ -7,28 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+  - Potion
+
 trait:
 
 cost: '3'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'When this item enters play, your hero deals 3 shadow damage to target opposing hero and heals 1 damage from itself for each damage dealt this way. On your turn: Exhaust a Warlock hero or ally you control and destroy this item → Your hero deals 3 shadow damage to target opposing hero and heals 1 damage from itself for each damage dealt this way.'
+    text: When this item enters play, your hero deals 3 shadow damage to target opposing hero and heals 1 damage from itself for each damage dealt this way.
+  - type: Ability
+    text: 'On your turn: Exhaust a Warlock hero or ally you control and destroy this item → Your hero deals 3 shadow damage to target opposing hero and heals 1 damage from itself for each damage dealt this way.'
 
 regulation:
 
 errata: []
-
-temp: Item Potion

@@ -1,4 +1,4 @@
-name: Merciless Gladiators Greatsword
+name: Merciless Gladiator's Greatsword
 
 origin: drums-of-war-231
 
@@ -7,13 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Sword
+
 trait:
 
 cost: '6'
 
+damage: 7
+
+strike: 4
+
+combat: Melee
+
 class:
   - Paladin
   - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
+type: Arena
 
 rule:
   - type: Ability
@@ -22,5 +41,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: 2H Arena Weapon Sword

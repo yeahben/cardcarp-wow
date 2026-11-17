@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When this ability enters play, you may destroy target equipment. → Target weapon you control has Thrown this turn.'
+    text: 'Ongoing: When this ability enters play, you may destroy target equipment.'
+  - type: Ability
+    text: "{activate} → Target weapon you control has Thrown this turn. (When you strike with that weapon, it has Long-Range this combat. At the end of this turn, put that weapon into its owner's hand.)"
 
 regulation:
 
 errata: []
-
-temp: Arms

@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+talent:
+  - Enhancement
+
+profession:
+  - Mining
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Moala Stonebinder → Your weapons can't be destroyed this turn.
+    text: "{2}, Flip Moala Stonebinder → Your weapons can't be destroyed this turn."
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When Hoofbeat readies, draw a card.
+    text: Protector
+  - type: Ability
+    text: When Hoofbeat readies, draw a card.
 
 regulation:
 
 errata: []
-
-temp: Tauren Warrior

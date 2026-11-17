@@ -19,12 +19,19 @@ combat: Frost
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Domona deals 2 frost damage to target hero or ally. When an opposing hero or ally attacks, ready Domona.
+    text: '{activate} → Domona deals 2 frost damage to target hero or ally.'
+  - type: Ability
+    text: When an opposing hero or ally attacks, ready Domona.
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

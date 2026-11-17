@@ -17,12 +17,21 @@ health: 3
 
 combat: Melee
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Scryer Reputation Sabotage: Weapon When Nealos sabotages a weapon, exhaust it. It can't ready during its controller's next ready step."
+    text: Scryer Reputation (Can't put Aldor cards in your deck.)
+  - type: Ability
+    text: 'Sabotage: Weapon (This ally can attack opposing weapons.)'
+  - type: Ability
+    text: When Nealos sabotages a weapon, exhaust it. It can't ready during its controller's next ready step.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

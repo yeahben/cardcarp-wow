@@ -1,4 +1,4 @@
-name: Maimgors Bite
+name: Maimgor's Bite
 
 origin: crown-of-the-heavens-185
 
@@ -7,20 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Axe
+
 trait:
 
 cost: '4'
 
+damage: 1
+
+strike: 0
+
+combat: Melee
+
 class:
-  - Shaman
   - Rogue
+  - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Dual Wield Double the ATK of this and other weapons you control.
+    text: Dual Wield
+  - type: Ability
+    text: Double the ATK of this and other weapons you control.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Axe

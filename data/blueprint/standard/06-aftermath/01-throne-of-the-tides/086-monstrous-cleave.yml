@@ -14,6 +14,11 @@ cost: '4'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
     text: Target up to two allies. Your hero deals 4 melee damage to the first target. If you control two or more Monster heroes and/or allies, your hero deals 4 melee damage to the second target.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Fury

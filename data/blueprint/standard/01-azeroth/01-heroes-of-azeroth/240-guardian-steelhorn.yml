@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Guardian Steelhorn can't attack.
+    text: Protector
+  - type: Ability
+    text: Guardian Steelhorn can't attack.
 
 regulation:
 
 errata: []
-
-temp: Tauren Warrior

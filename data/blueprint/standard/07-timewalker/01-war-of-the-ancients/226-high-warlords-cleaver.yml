@@ -1,4 +1,4 @@
-name: High Warlords Cleaver
+name: High Warlord's Cleaver
 
 origin: war-of-the-ancients-226
 
@@ -7,26 +7,41 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Axe
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 1
+
+combat: Melee
+
 faction: Horde
 
 class:
-  - Warrior
-  - Hunter
-  - Rogue
-  - Paladin
   - Death Knight
+  - Hunter
+  - Paladin
+  - Rogue
   - Shaman
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: While your hero is attacking an hero, this weapon has +3 ATK.
+    text: While your hero is attacking an {alliance} hero, this weapon has +3 ATK.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Axe

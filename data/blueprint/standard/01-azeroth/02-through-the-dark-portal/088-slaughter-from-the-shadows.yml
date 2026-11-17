@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
-    text: Play only if your hero has stealth. Destroy all exhausted allies.
+    text: Play only if your hero has stealth.
+  - type: Ability
+    text: Destroy all exhausted allies.
 
 regulation:
 
 errata: []
-
-temp: Assassination

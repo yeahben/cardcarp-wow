@@ -13,13 +13,16 @@ health: 28
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Warlock
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 3 , Flip Kalia → Target player discards a card at random.'
+    text: 'On your turn: {3}, Flip Kalia → Target player discards a card at random.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Warlock

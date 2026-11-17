@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '3'
 
+defense: 0
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Wrist
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: → You pay 1 less to play your next ability this turn.
+    text: '{activate} → You pay {1} less to play your next ability this turn.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

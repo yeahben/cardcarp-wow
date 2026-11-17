@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Lich
+
 trait:
 
 damage: 3
@@ -20,13 +23,17 @@ type: Boss
 rule:
   - type: Ability
     position: Front
-    text: "When Kel'Thuzad loses Immune, gain control of up to one target raiding ally. Then, search a raiding deck, graveyard, hand, and removed from game zone for up to one ally each and put them into play. At the end of your turn, flip Kel'Thuzad."
+    text: When Kel'Thuzad loses Immune, gain control of up to one target raiding ally. Then, search a raiding deck, graveyard, hand, and removed from game zone for up to one ally each and put them into play.
+  - type: Ability
+    position: Front
+    text: At the end of your turn, flip Kel'Thuzad.
   - type: Ability
     position: Reverse
-    text: "At the end of each raider's turn, Kel'Thuzad deals 30 frost damage to his hero. Any raider: Exhaust a card you control → This turn, prevent all damage that would be dealt to your hero this way."
+    text: At the end of each raider's turn, Kel'Thuzad deals 30 frost damage to his hero.
+  - type: Ability
+    position: Reverse
+    text: 'Any raider: Exhaust a {frost} card you control → This turn, prevent all damage that would be dealt to your hero this way.'
 
 regulation:
 
 errata: []
-
-temp: Lich

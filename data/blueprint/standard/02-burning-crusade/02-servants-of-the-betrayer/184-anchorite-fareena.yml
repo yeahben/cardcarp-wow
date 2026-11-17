@@ -17,12 +17,19 @@ health: 3
 
 combat: Holy
 
+race: Draenei
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aldor Reputation 0 → Attach target attachment to Fareena. Use only once per turn.
+    text: Aldor Reputation
+  - type: Ability
+    text: '{0} → Attach target attachment to Fareena. Use only once per turn.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Priest

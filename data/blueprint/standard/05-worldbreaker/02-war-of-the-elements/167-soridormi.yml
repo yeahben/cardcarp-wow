@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Bronze
+  - Dragonkin
+  - Consort
+
 trait:
 
 cost: '6'
@@ -15,14 +20,18 @@ damage: 5
 
 health: 6
 
-combat: Ranged
+combat: Arcane
+
+limit:
+  - name: Soridormi
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 1 → Target ally you control has Protector , Elusive , Stealth , or Untargetable this turn.
+    text: '{1} → Target ally you control has Protector, Elusive, Stealth, or Untargetable this turn.'
 
 regulation:
 
 errata: []
-
-temp: Bronze Dragonkin Consort

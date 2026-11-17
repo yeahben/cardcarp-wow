@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Priest
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Holy Hero Required Ongoing : Friendly heroes and allies have " → This character heals 2 damage from itself."'
+    text: Holy Hero Required
+  - type: Ability
+    text: 'Ongoing: Friendly heroes and allies have "{activate} → This character heals 2 damage from itself."'
 
 regulation:
 
 errata: []
-
-temp: Holy Talent

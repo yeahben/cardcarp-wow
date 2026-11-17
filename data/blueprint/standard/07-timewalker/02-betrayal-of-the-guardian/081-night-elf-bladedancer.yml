@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Haste 2 Elusive
+    text: Haste 2 (You pay {2} less to play this ally if an ally you control dealt damage to an opposing hero this turn.)
+  - type: Ability
+    text: Elusive (This ally can't be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Night Elf Warrior

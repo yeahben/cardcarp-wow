@@ -14,6 +14,11 @@ cost: '2'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero deals 3 shadow damage to target ally. If an ally is dealt fatal damage this way, your hero heals 3 damage from itself.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Shadow

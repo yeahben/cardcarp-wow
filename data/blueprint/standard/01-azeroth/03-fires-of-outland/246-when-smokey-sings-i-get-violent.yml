@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'During your turn, destroy When Smokey Sings, I Get Violent and pay 5 to complete this quest. Reward : Target opponent destroys one of his resources.'
+    text: During your turn, destroy When Smokey Sings, I Get Violent and pay {5} to complete this quest.
+  - type: Ability
+    text: 'Reward: Target opponent destroys one of his resources.'
 
 regulation:
 
 errata: []
-
-temp: ''

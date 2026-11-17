@@ -14,12 +14,19 @@ cost: '4'
 class:
   - Paladin
 
+talent:
+  - Retribution
+
+limit:
+  - name: Aura
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : For each armor you control, your weapons have +1 ATK and you pay 1 less to strike with them.'
+    text: 'Ongoing: For each armor you control, your weapons have +1 ATK and you pay {1} less to strike with them.'
 
 regulation:
 
 errata: []
-
-temp: Retribution

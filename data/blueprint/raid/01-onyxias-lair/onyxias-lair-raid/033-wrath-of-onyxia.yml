@@ -11,6 +11,8 @@ trait:
 
 cost: '6'
 
+instant: false
+
 rule:
   - type: Ability
     text: Destroy all opposing allies.
@@ -18,5 +20,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

@@ -19,6 +19,13 @@ combat: Fire
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play and when he is revealed from your deck, you may destroy target ability.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Shaman

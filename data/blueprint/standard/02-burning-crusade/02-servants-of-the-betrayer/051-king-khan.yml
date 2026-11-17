@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Gorilla
+
 trait:
 
 cost: '4'
@@ -20,6 +23,12 @@ combat: Nature
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: When King Khan enters combat, he deals 2 nature damage to each opposing ally.
@@ -27,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Gorilla

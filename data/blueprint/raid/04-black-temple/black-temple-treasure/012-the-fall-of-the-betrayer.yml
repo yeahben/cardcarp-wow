@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: "Pay 2 to complete this quest. Reward : If target opposing hero's printed health is more than your hero's, draw a card."
+    text: Pay {2} to complete this quest.
+  - type: Ability
+    text: "Reward: If target opposing hero's printed health is more than your hero's, draw a card."
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -1,4 +1,4 @@
-name: Natures Focus
+name: Nature's Focus
 
 origin: scourgewar-038
 
@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Druid
 
-instant: 'Choose one: Your hero deals 4 nature damage to target ally; or your hero heals 4 damage from target hero.'
+talent:
+  - Balance
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Choose one: Your hero deals 4 nature damage to target ally; or your hero heals 4 damage from target hero.'
 
 regulation:
 
 errata: []
-
-temp: Balance

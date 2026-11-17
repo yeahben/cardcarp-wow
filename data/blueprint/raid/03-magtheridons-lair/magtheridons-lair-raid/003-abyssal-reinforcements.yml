@@ -11,12 +11,14 @@ trait:
 
 cost: '3'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Put an Abyssal ally token with 6 ATK / 6 health into play. Ongoing : Destroy two Bloods → Put an Abyssal ally token with 6 ATK / 6 health into play. Use only on your turn.'
+    text: Put an Abyssal ally token with 6 ATK / 6 health into play.
+  - type: Ability
+    text: 'Ongoing: Destroy two Bloods → Put an Abyssal ally token with 6 ATK / 6 health into play. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Djinni
+  - Air
+  - Elemental
+
 trait:
 
 cost: '9'
@@ -17,14 +22,24 @@ health: 10
 
 combat: Nature
 
+limit:
+  - name: Siamat
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Monster Hero Required When Siamat enters play, exhaust all and allies. and allies can't ready. At the start of your turn, put a 2 / 1 Air Elemental ally token into play for each exhausted and ally.
+    text: Monster Hero Required
+  - type: Ability
+    text: When Siamat enters play, exhaust all {horde} and {alliance} allies.
+  - type: Ability
+    text: "{horde} and {alliance} allies can't ready."
+  - type: Ability
+    text: At the start of your turn, put a 2 {nature} / 1 {health} Air Elemental ally token into play for each exhausted {horde} and {alliance} ally.
 
 regulation:
 
 errata: []
-
-temp: Djinni Air Elemental

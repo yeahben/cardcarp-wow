@@ -1,4 +1,4 @@
-name: Peroth'arns Belt
+name: Peroth'arn's Belt
 
 origin: caverns-of-time-treasure-058
 
@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '3'
+
+defense: 0
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Waist
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: This armor enters play with two +1 counters on it. Remove a +1 counter from this armor → Target hero or ally has Stealth this turn.
+    text: This armor enters play with two +1 {def} counters on it.
+  - type: Ability
+    text: '{basic} Remove a +1 {def} counter from this armor → Target hero or ally has Stealth this turn.'
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

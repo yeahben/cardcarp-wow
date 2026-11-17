@@ -7,7 +7,12 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Abomination
+
 trait:
+  - Kel'Thuzad
 
 damage: 4
 
@@ -15,14 +20,14 @@ health: 4
 
 combat: Melee
 
-type: Ally
+instant: false
 
 rule:
   - type: Ability
-    text: This ally can't be protected against. Damage that this ally would deal is unpreventable.
+    text: This ally can't be protected against.
+  - type: Ability
+    text: Damage that this ally would deal is unpreventable.
 
 regulation:
 
 errata: []
-
-temp: Abomination

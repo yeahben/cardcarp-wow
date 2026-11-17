@@ -7,28 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Bag
+    count: 5
+
+instant: false
 
 rule:
   - type: Ability
-    text: You have no maximum hand size. , Pay 1 for each card in your hand → Draw a card.
+    text: You have no maximum hand size.
+  - type: Ability
+    text: '{activate}, Pay {1} for each card in your hand → Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Item Bag

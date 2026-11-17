@@ -11,12 +11,12 @@ trait:
 
 cost: '2'
 
-instant: Target ally has +2 ATK this turn.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Target ally has +2 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: ''

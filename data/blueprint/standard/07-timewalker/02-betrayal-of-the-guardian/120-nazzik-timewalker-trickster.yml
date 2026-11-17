@@ -17,12 +17,21 @@ health: 3
 
 combat: Melee
 
+race: Goblin
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Stealth When this ally deals combat damage to a defending hero, choose one: that hero's controller chooses and discards a card; or you draw a card. If you control two or more allies that share a or race, you may choose both."
+    text: Stealth
+  - type: Ability
+    text: "When this ally deals combat damage to a defending hero, choose one: that hero's controller chooses and discards a card; or you draw a card."
+  - type: Ability
+    text: If you control two or more allies that share a {horde} or {alliance} race, you may choose both.
 
 regulation:
 
 errata: []
-
-temp: Goblin Rogue

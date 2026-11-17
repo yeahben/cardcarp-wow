@@ -1,0 +1,37 @@
+name: Mograine's Might
+
+origin: scarlet-monastery-040
+
+layout: Standard
+
+category:
+  - Equipment
+
+subtype:
+  - Weapon
+  - Two-Handed
+  - Mace
+
+trait:
+
+damage: 0
+
+strike: 0
+
+combat: Melee
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Mograine strikes with this weapon the first time he attacks each turn.
+  - type: Ability
+    text: This weapon has ATK equal to double Mograine's level.
+
+regulation:
+
+errata: []

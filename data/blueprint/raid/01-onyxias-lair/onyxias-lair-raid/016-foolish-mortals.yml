@@ -11,12 +11,12 @@ trait:
 
 cost: '1'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Destroy Foolish Mortals! → Prevent the next 5 damage that would be dealt to Onyxia this turn.'
+    text: 'Ongoing: Destroy Foolish Mortals! → Prevent the next 5 damage that would be dealt to Onyxia this turn.'
 
 regulation:
 
 errata: []
-
-temp: ''

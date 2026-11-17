@@ -9,12 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Heroes and allies lose their race and class and become Night Elf Mohawks. As an additional cost to propose combat, the attacking player must say, "I pity the fool!"'
+    text: 'Ongoing: Heroes and allies lose their race and class and become Night Elf Mohawks.'
+  - type: Ability
+    text: As an additional cost to propose combat, the attacking player must say, "I pity the fool!"
 
 regulation:
 
 errata: []
-
-temp: ''

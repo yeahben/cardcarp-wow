@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '3'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Hands
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 3 , → Target ally has Assault X this turn, where X is its ATK.
+    text: '{3}, {activate} → Target ally has Assault X this turn, where X is its ATK.'
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

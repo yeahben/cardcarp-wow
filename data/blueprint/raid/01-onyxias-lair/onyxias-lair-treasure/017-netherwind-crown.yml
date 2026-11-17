@@ -7,19 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '3'
 
+defense: 0
+
 class:
   - Mage
 
+limit:
+  - name: Head
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , → Your hero deals 1 arcane damage to target ally. When you play a ability, ready Netherwind Crown.
+    text: '{1}, {activate} → Your hero deals 1 arcane damage to target ally.'
+  - type: Ability
+    text: When you play a {mage} ability, ready Netherwind Crown.
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

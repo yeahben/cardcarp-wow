@@ -14,12 +14,15 @@ cost: '0'
 class:
   - Priest
 
-instant: Your hero heals 3 damage from target hero or ally.
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero heals 3 damage from target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Holy

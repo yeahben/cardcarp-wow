@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When Zy'lah Manslayer deals combat damage to an ally, ready her.
+    text: Protector
+  - type: Ability
+    text: When Zy'lah Manslayer deals combat damage to an ally, ready her.
 
 regulation:
 
 errata: []
-
-temp: Troll Warrior

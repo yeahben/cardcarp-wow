@@ -19,6 +19,16 @@ combat: Melee
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: Exhaust a Blood Elf in your party → Interrupt target ability card.
@@ -26,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

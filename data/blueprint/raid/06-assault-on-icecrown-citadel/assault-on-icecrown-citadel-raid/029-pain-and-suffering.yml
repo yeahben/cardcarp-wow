@@ -11,14 +11,16 @@ trait:
 
 cost: '2'
 
-instant: 'Ongoing : Opposing heroes and allies have -2 ATK while attacking. At the start of your turn, destroy this ability. If you do, the Lich King deals 4 shadow damage to each opposing hero.'
+instant: true
 
-type: Boss
+type: Lich King
 
-rule: []
+rule:
+  - type: Ability
+    text: 'Ongoing: Opposing heroes and allies have -2 ATK while attacking.'
+  - type: Ability
+    text: At the start of your turn, destroy this ability. If you do, the Lich King deals 4 shadow damage to each opposing hero.
 
 regulation:
 
 errata: []
-
-temp: ''

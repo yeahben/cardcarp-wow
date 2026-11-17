@@ -1,4 +1,4 @@
-name: Marksmans Legguards
+name: Marksman's Legguards
 
 origin: fields-of-honor-160
 
@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '1'
+
+defense: 1
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Destroy Marksman's Legguards → Target ally has Long-Range this turn.
+    text: "{1}, Destroy Marksman's Legguards → Target ally has long-range this turn."
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

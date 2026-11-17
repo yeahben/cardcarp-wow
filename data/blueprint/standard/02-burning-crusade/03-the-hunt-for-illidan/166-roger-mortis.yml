@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Put 1 damage on another ally in your party → Roger deals 1 fire damage to target hero or ally. Use only on your turn.
+    text: '{1}, Put 1 damage on another ally in your party → Roger deals 1 fire damage to target hero or ally. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Undead Warlock

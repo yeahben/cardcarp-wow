@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: You pay 3 less to play this ally if you played an equipment this turn.
+    text: You pay {3} less to play this ally if you played an equipment this turn.
 
 regulation:
 
 errata: []
-
-temp: Goblin Rogue

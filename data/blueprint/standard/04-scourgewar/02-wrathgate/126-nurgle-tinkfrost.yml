@@ -19,12 +19,17 @@ combat: Frost
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Opposing heroes and allies can't attack unless their controller pays 1 for each attacker.
+    text: Opposing heroes and allies can't attack unless their controller pays {1} for each attacker.
 
 regulation:
 
 errata: []
-
-temp: Gnome Mage

@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+talent:
+  - Enhancement
+
+profession:
+  - Herbalism
+  - Alchemy
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Haruka Skycaller → Ready target Melee weapon.
+    text: '{2}, Flip Haruka Skycaller → Ready target Melee weapon.'
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

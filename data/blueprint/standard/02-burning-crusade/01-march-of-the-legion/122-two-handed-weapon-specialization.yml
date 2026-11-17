@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '5'
@@ -14,12 +17,17 @@ cost: '5'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Arms Hero Required Ongoing : Your Two-Handed weapons have +5 ATK.'
+    text: Arms Hero Required
+  - type: Ability
+    text: 'Ongoing: Your Two-Handed weapons have +5 ATK.'
 
 regulation:
 
 errata: []
-
-temp: Arms Talent

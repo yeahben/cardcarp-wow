@@ -7,28 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '1'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: 1 , {exhaust} → Target ally has Protector this turn.
+    text: '{1}, {activate} → Target ally has Protector this turn. (It can exhaust to become the defender when an opposing hero or ally attacks.)'
 
 regulation:
 
 errata: []
-
-temp: Item Ring

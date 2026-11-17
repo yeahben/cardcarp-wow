@@ -19,10 +19,15 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Death Knight
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Orc Death Knight

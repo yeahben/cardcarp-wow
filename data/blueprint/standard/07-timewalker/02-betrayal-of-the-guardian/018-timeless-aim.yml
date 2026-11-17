@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Hunter
 
-instant: Echo Your hero deals 2 ranged damage to target hero or ally.
+talent:
+  - Marksmanship
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Echo (When you play this ability, if you control two or more allies that share a {horde} or {alliance} race, copy this ability. You may choose new targets for the copy.)
+  - type: Ability
+    text: Your hero deals 2 ranged damage to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Marksmanship

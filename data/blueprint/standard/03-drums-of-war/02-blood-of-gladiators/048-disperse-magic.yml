@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Destroy Disperse Magic → Destroy target ability.'
+    text: 'Ongoing: Destroy Disperse Magic → Destroy target ability.'
 
 regulation:
 
 errata: []
-
-temp: Discipline

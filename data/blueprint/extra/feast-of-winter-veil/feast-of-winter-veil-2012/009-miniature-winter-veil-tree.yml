@@ -1,0 +1,47 @@
+name: Miniature Winter Veil Tree
+
+origin: feast-of-winter-veil-2012-009
+
+layout: Standard
+
+category:
+  - Equipment
+
+subtype:
+  - Weapon
+  - One-Handed
+  - Dagger
+
+trait:
+
+cost: '3'
+
+damage: 0
+
+strike: 1
+
+combat: Melee
+
+class:
+  - Druid
+  - Hunter
+  - Mage
+  - Priest
+  - Rogue
+  - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
+rule:
+  - type: Ability
+    text: '{basic} {activate} → Add a +1 ATK counter to this weapon, and another target player gains control of this weapon.'
+
+regulation:
+
+errata: []

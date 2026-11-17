@@ -9,12 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
     text: Defeat Mograine without any Raiding heroes being destroyed.
+  - type: Ability
+    text: 'Reward: 2 XP'
 
 regulation:
 
 errata: []
-
-temp: ''

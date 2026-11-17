@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector War Stomp
+    text: Protector
+  - type: Ability
+    text: War Stomp (When this ally attacks or defends, you may exhaust target opposing hero or ally.)
 
 regulation:
 
 errata: []
-
-temp: Tauren Warrior

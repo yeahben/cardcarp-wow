@@ -1,4 +1,4 @@
-name: Ar'tors Mainstay
+name: Ar'tor's Mainstay
 
 origin: the-hunt-for-illidan-205
 
@@ -7,13 +7,25 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '4'
 
+defense: 2
+
 class:
   - Hunter
   - Shaman
+
+limit:
+  - name: Hands
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -22,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Armor Mail

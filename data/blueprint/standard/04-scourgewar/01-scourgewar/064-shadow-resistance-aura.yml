@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Paladin
 
-instant: 'Ongoing : Friendly allies have Shadow Resistance while ready.'
+talent:
+  - Protection
 
-rule: []
+limit:
+  - name: Aura
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Friendly allies have Shadow Resistance while ready. (Prevent all shadow ({shadow}) damage that they would be dealt.)'
 
 regulation:
 
 errata: []
-
-temp: Protection

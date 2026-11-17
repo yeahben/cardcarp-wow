@@ -19,15 +19,17 @@ combat: Arcane
 
 faction: Alliance
 
+race: Gnome
+
 class:
   - Mage
 
+instant: false
+
 rule:
   - type: Ability
-    text: Mages and cards in your hand are instant.
+    text: Mages and {mage} cards in your hand are instant.
 
 regulation:
 
 errata: []
-
-temp: Gnome Mage

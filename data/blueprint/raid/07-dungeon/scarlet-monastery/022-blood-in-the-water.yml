@@ -1,0 +1,24 @@
+name: Blood in the Water
+
+origin: scarlet-monastery-022
+
+layout: Standard
+
+category:
+  - Ability
+
+trait:
+
+instant: false
+
+type: Dungeon
+
+rule:
+  - type: Ability
+    text: Attach to the Dungeon ally with the highest printed {health}.
+  - type: Ability
+    text: 'Ongoing: When attached ally is destroyed, flip a Dungeon card.'
+
+regulation:
+
+errata: []

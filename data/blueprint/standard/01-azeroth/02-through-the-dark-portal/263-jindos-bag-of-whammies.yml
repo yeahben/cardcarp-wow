@@ -1,4 +1,4 @@
-name: Jin'dos Bag of Whammies
+name: Jin'do's Bag of Whammies
 
 origin: through-the-dark-portal-263
 
@@ -7,22 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '6'
 
 class:
   - Druid
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Each player's maximum hand size is reduced by four. At the start of each player's turn, that player draws cards until he reaches his maximum hand size.
+    text: Each player's maximum hand size is reduced by four.
+  - type: Ability
+    text: At the start of each player's turn, that player draws cards until he reaches his maximum hand size.
 
 regulation:
 
 errata: []
-
-temp: Item Off-Hand

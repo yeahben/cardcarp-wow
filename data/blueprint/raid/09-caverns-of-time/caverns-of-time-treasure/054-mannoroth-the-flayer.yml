@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Pit Lord
+  - Demon
+
 trait:
 
 cost: '8'
@@ -17,14 +21,25 @@ health: 9
 
 combat: Melee
 
+class:
+  - Warrior
+
+limit:
+  - name: Mannoroth
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Protector Other allies you control have Assault 2 . Non- allies opponents control have -2 ATK.
+    text: Protector
+  - type: Ability
+    text: Other {melee} allies you control have Assault 2.
+  - type: Ability
+    text: Non-{melee} allies opponents control have -2 ATK.
 
 regulation:
 
 errata: []
-
-temp: Pit Lord Demon Warrior

@@ -19,12 +19,19 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Shadow Resistance 1 , Remove this ally from the game → Draw a card.
+    text: Shadow Resistance (Prevent all shadow ({shadow}) damage that this ally would be dealt.)
+  - type: Ability
+    text: '{1}, Remove this ally from the game → Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Undead Warlock

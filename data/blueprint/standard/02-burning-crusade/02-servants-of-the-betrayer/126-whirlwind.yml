@@ -14,12 +14,15 @@ cost: '5'
 class:
   - Warrior
 
-instant: Your hero deals melee damage to each opposing ally equal to the ATK of a Melee weapon you control.
+talent:
+  - Fury
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals melee damage to each opposing ally equal to the ATK of one of your Melee weapons.
 
 regulation:
 
 errata: []
-
-temp: Fury

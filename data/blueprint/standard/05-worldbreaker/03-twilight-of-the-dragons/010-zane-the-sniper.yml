@@ -13,16 +13,19 @@ health: 28
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Hunter
+
 rule:
   - type: Ability
     position: Front
-    text: 2 → Flip Zane face down.
+    text: '{2} → Flip Zane'
   - type: Ability
     position: Reverse
-    text: You pay 1 less to strike with Ranged weapons.
+    text: You pay {1} less to strike with Ranged weapons.
 
 regulation:
 
 errata: []
-
-temp: Human Hunter

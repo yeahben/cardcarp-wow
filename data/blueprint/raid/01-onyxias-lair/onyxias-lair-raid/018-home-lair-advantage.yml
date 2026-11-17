@@ -11,12 +11,12 @@ trait:
 
 cost: '1'
 
-instant: This turn, Onyxia can't be targeted by opponents, and your cards can't be interrupted.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: This turn, Onyxia can't be targeted by opponents, and your cards can't be interrupted.
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: 0 → Put a card from your hand into target player's hand. Use only once per turn. (He owns that card for the rest of the game.)
+    text: "{0} → Put a card from your hand into target player's hand. Use only once per turn. (He owns that card for the rest of the game.)"
 
 regulation:
 
 errata: []
-
-temp: Dwarf

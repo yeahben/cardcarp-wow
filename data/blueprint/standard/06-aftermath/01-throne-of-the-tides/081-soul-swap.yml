@@ -14,12 +14,17 @@ cost: '6'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: Affliction Talent Your hero deals shadow damage to target hero equal to half its remaining health, rounded up, and heals 1 damage from itself for each damage dealt this way.
+    text: Affliction Talent (You can't put Demonology Talents or Destruction Talents in your deck.)
+  - type: Ability
+    text: Your hero deals shadow damage to target hero equal to half its remaining health, rounded up, and heals 1 damage from itself for each damage dealt this way.
 
 regulation:
 
 errata: []
-
-temp: Affliction

@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector , Assault 1 , Mend 1
+    text: Protector, Assault 1, Mend 1
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

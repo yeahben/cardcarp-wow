@@ -12,15 +12,19 @@ trait:
 cost: '2'
 
 class:
-  - Shaman
   - Mage
+  - Shaman
 
-instant: Target ally loses and can't have powers this turn. Draw a card.
+talent:
+  - Arcane
+  - Elemental
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target ally loses and can't have powers this turn. Draw a card.
 
 regulation:
 
 errata: []
-
-temp: Arcane Elemental

@@ -16,12 +16,17 @@ faction: Horde
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
-    text: Horde Hero Required Heroes and allies in your party have +2 ATK while attacking heroes this turn.
+    text: Horde Hero Required
+  - type: Ability
+    text: Heroes and allies in your party have +2 ATK while attacking heroes this turn.
 
 regulation:
 
 errata: []
-
-temp: Enhancement

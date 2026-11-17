@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Warp Stalker
+
 trait:
 
 cost: '7'
@@ -20,12 +23,18 @@ combat: Melee
 class:
   - Hunter
 
-instant: 3 → Remove Blinky from the game and put a warp counter on him. 3 , Remove a warp counter → Put Blinky into play. Use only if Blinky is removed from the game.
+limit:
+  - name: Pet
+    count: 1
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: '{3} → Remove Blinky from the game and put a warp counter on him.'
+  - type: Ability
+    text: '{3}, Remove a warp counter → Put Blinky into play. Use only if Blinky is removed from the game.'
 
 regulation:
 
 errata: []
-
-temp: Warp Stalker

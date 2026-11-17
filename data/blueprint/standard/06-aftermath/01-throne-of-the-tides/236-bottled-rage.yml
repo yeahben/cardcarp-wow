@@ -7,28 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+  - Potion
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'When this item enters play, your hero and allies you control have +1 ATK this turn. On your turn: Exhaust a warrior hero or ally you control and destroy this item → Your hero and allies you control have +1 ATK this turn.'
+    text: When this item enters play, your hero and allies you control have +1 ATK this turn.
+  - type: Ability
+    text: 'On your turn: Exhaust a Warrior hero or ally you control and destroy this item → Your hero and allies you control have +1 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Item Potion

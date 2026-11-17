@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Blessing
+
 trait:
 
 cost: '5'
@@ -14,12 +17,17 @@ cost: '5'
 class:
   - Paladin
 
-instant: 'Attach to target ally in your party. Ongoing : If attached ally would be dealt damage, that much damage is dealt to your hero instead.'
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target ally in your party.
+  - type: Ability
+    text: 'Ongoing: If attached ally would be dealt damage, that much damage is dealt to your hero instead.'
 
 regulation:
 
 errata: []
-
-temp: Protection Blessing

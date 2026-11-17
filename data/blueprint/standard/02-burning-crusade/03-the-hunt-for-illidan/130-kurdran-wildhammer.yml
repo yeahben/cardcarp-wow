@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Gryphon Rider
+
 trait:
 
 cost: '7'
@@ -19,12 +22,19 @@ combat: Ranged
 
 faction: Alliance
 
+race: Dwarf
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive When Kurdran becomes exhausted, he may deal 4 nature damage to target hero or ally.
+    text: Elusive
+  - type: Ability
+    text: When Kurdran becomes exhausted, he may deal 4 nature damage to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Gryphon Rider

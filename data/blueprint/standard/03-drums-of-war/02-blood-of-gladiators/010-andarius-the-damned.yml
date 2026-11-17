@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warlock
+
+talent:
+  - Affliction
+
+profession:
+  - Alchemy
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Andarius → Put an attachment you control into its owner's hand.
+    text: "{2}, Flip Andarius → Put an attached ability you control into its owner's hand."
 
 regulation:
 
 errata: []
-
-temp: Undead Warlock

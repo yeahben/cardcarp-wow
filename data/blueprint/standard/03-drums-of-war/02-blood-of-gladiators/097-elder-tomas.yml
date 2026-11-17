@@ -19,12 +19,19 @@ combat: Fire
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Inspiring Presence → Ready another target ally.
+    text: Inspiring Presence (If a hero or ally in your party would deal non-combat damage, it deals that much +1 instead.)
+  - type: Ability
+    text: '{activate} → Ready another target ally.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

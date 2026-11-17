@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+talent:
+  - Feral
+
+profession:
+  - Enchanting
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Thangal → Ready Thangal. Use only while he's in bear form.
+    text: "{3}, Flip Thangal → Ready Thangal. Use only while he's in bear form."
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

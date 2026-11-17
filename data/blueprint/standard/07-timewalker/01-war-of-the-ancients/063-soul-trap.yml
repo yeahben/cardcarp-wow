@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Warlock
 
+talent:
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
-    text: As an additional cost to play, put 5 damage on your hero. Remove target ally from the game.
+    text: As an additional cost to play, put 5 damage on your hero.
+  - type: Ability
+    text: Remove target ally from the game.
 
 regulation:
 
 errata: []
-
-temp: Destruction

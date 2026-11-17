@@ -14,12 +14,18 @@ cost: '2'
 class:
   - Paladin
 
-instant: 'Choose one: Prevent the next 3 damage that target ally would be dealt this turn; or attach to target hero. Ongoing : Attached hero has +1 ATK while attacking.'
+talent:
+  - Protection
+  - Retribution
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Choose one: Prevent the next 3 damage that target ally would be dealt this turn; or attach to target hero.'
+  - type: Ability
+    text: 'Ongoing: Attached hero has +1 ATK while attacking.'
 
 regulation:
 
 errata: []
-
-temp: Protection Retribution

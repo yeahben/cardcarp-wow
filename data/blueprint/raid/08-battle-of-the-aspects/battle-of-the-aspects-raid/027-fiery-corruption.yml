@@ -9,14 +9,16 @@ category:
 
 trait:
 
-type: Boss
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
-    text: Deathwing deals 5 fire damage to each Raiding hero. Each Raider draws a card.
+    text: Deathwing deals 5 fire damage to each Raiding hero.
+  - type: Ability
+    text: Each Raider draws a card.
 
 regulation:
 
 errata: []
-
-temp: ''

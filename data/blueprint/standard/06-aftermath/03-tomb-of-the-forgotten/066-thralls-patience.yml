@@ -1,4 +1,4 @@
-name: Thralls Patience
+name: Thrall's Patience
 
 origin: tomb-of-the-forgotten-066
 
@@ -7,16 +7,25 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Aspect of Thrall
+
 trait:
 
 cost: '5'
 
+limit:
+  - name: Patience
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : On your turn: Exhaust an Aspect of Thrall ability you control → Put a 2 / 1 Earth Elemental ally token into play. When your hero attacks, if you control four exhausted Aspect of Thrall abilities, destroy all four of them. If you do, search your deck and/or hand for a master hero named Thrall the Earth-Warder and put it into play.'
+    text: 'Ongoing: On your turn: Exhaust an Aspect of Thrall ability you control → Put a 2 {melee} / 1 {health} Earth Elemental ally token into play.'
+  - type: Ability
+    text: When your hero attacks, if you control four exhausted Aspect of Thrall abilities, destroy all four of them. If you do, search your deck and/or hand for a master hero named Thrall and put it into play.
 
 regulation:
 
 errata: []
-
-temp: Aspect of Thrall

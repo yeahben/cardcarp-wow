@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Dragonhawk
+
 trait:
 
 cost: '7'
@@ -17,12 +20,14 @@ health: 5
 
 combat: Fire
 
+instant: false
+
 rule:
   - type: Ability
-    text: As this ally enters play, choose "ability," "ally," or "equipment." Opposing cards of the chosen type lose and can't have powers.
+    text: As this ally enters play, choose "ability," "ally," or "equipment."
+  - type: Ability
+    text: Opposing cards of the chosen type lose and can't have powers.
 
 regulation:
 
 errata: []
-
-temp: Dragonhawk

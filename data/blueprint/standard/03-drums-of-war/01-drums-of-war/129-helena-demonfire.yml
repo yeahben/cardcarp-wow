@@ -19,12 +19,19 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Diplomacy: Demons Opposing heroes and allies have -1 ATK / -1 health for each Demon in your party.'
+    text: 'Diplomacy: Demons (You pay {1} less to play Demon allies, to a minimum of {1}.)'
+  - type: Ability
+    text: Opposing heroes and allies have -1 ATK / -1 health for each Demon in your party.
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

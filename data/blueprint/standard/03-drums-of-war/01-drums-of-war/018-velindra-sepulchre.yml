@@ -13,13 +13,23 @@ health: 25
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Mage
+
+talent:
+  - Arcane
+
+profession:
+  - Alchemy
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Velindra → This turn, target ally can't attack or protect, loses and can't have powers, and is also a Sheep.
+    text: "{1}, Flip Velindra → This turn, target ally can't attack or protect, loses and can't have powers, and is also a Sheep."
 
 regulation:
 
 errata: []
-
-temp: Undead Mage

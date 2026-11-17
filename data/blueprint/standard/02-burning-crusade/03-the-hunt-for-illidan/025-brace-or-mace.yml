@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Druid
 
-instant: 'Choose one: Your hero heals 4 damage from target hero; or attach to target ally. Ongoing : Attached ally has +1 ATK / +1 health.'
+talent:
+  - Restoration
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Choose one: Your hero heals 4 damage from target hero; or attach to target ally.'
+  - type: Ability
+    text: 'Ongoing: Attached ally has +1 ATK / +1 health.'
 
 regulation:
 
 errata: []
-
-temp: Restoration

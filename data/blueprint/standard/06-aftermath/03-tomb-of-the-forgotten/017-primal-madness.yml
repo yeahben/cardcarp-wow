@@ -14,12 +14,23 @@ cost: '5'
 class:
   - Druid
 
-instant: 'Feral Combat Talent Ongoing : Your hero has Assault 3 , Mend 3 , Protector , and Stealth . At the end of your turn, you may ready your hero.'
+talent:
+  - Feral
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: Feral Talent (You can't put Balance Talents or Restoration Talents in your deck.)
+  - type: Ability
+    text: 'Ongoing: Your hero has Assault 3, Mend 3, Protector, and Stealth.'
+  - type: Ability
+    text: At the end of your turn, you may ready your hero.
 
 regulation:
 
 errata: []
-
-temp: Feral

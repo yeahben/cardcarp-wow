@@ -16,12 +16,23 @@ faction: Horde
 class:
   - Paladin
 
+talent:
+  - Retribution
+
+limit:
+  - name: Seal
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Horde Hero Required Ongoing : When your hero deals combat damage with a weapon to a hero or ally, your hero also deals 2 holy damage to that character and 1 holy damage to itself. 1 , Destroy Seal of Blood → Your hero deals 2 holy damage to target hero or ally and 1 holy damage to itself.'
+    text: Horde Hero Required
+  - type: Ability
+    text: 'Ongoing: When your hero deals combat damage with a weapon to a hero or ally, your hero also deals 2 holy damage to that character and 1 holy damage to itself.'
+  - type: Ability
+    text: '{1}, Destroy Seal of Blood → Your hero deals 2 holy damage to target hero or ally and 1 holy damage to itself.'
 
 regulation:
 
 errata: []
-
-temp: Retribution

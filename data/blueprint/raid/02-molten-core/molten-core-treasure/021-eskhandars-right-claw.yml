@@ -1,4 +1,4 @@
-name: Eskhandars Right Claw
+name: Eskhandar's Right Claw
 
 origin: molten-core-treasure-021
 
@@ -7,15 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Fist
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 0
+
+combat: Melee
+
 class:
-  - Warrior
-  - Shaman
   - Hunter
   - Rogue
+  - Shaman
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: true
 
 rule:
   - type: Ability
@@ -24,5 +40,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: 1H Weapon Fist

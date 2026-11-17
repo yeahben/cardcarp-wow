@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Murloc
+
 trait:
 
 cost: '5'
@@ -17,14 +20,19 @@ health: 3
 
 combat: Melee
 
+class:
+  - Warrior
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: This and other Murloc allies you control have +2 / +2. At the start of your turn, put a 1 / 1 Murloc Monster ally token into play.
+    text: This and other Murloc allies you control have +2 / +2.
+  - type: Ability
+    text: At the start of your turn, put a 1 {melee} / 1 {health} Murloc Monster ally token into play.
 
 regulation:
 
 errata: []
-
-temp: Murloc Warrior

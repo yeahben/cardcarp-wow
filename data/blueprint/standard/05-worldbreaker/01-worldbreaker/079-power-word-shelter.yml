@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Priest
 
-instant: 'Attach to target ally. Ongoing : Prevent all damage that would be dealt to attached ally. At the end of turn, destroy this ability.'
+talent:
+  - Discipline
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Prevent all damage that would be dealt to attached ally.'
+  - type: Ability
+    text: At end of turn, destroy this ability.
 
 regulation:
 
 errata: []
-
-temp: Discipline

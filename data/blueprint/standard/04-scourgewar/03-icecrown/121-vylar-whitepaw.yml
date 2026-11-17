@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When this ally defends, it heals 1 damage from itself.
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
+  - type: Ability
+    text: When this ally defends, it heals 1 damage from itself.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

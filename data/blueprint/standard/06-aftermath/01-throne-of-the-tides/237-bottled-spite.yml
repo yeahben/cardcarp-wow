@@ -7,28 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+  - Potion
+
 trait:
 
 cost: '3'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'When this item enters play, your hero deals 1 nature damage to each opposing hero and ally. On your turn: Exhaust a Monster hero or ally you control and destroy this item → Your hero deals 1 nature damage to each opposing hero and ally.'
+    text: When this item enters play, your hero deals 1 nature damage to each opposing hero and ally.
+  - type: Ability
+    text: 'On your turn: Exhaust a Monster hero or ally you control and destroy this item → Your hero deals 1 nature damage to each opposing hero and ally.'
 
 regulation:
 
 errata: []
-
-temp: Item Potion

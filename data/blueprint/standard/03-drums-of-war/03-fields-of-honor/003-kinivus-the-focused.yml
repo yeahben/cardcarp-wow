@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+talent:
+  - Enhancement
+
+profession:
+  - Alchemy
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Kinivus → You can't discard cards this turn.
+    text: "{3}, Flip Kinivus → You can't discard cards this turn."
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

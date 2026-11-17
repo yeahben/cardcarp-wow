@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Naga
+
 trait:
 
 cost: '3'
@@ -17,14 +20,17 @@ health: 2
 
 combat: Shadow
 
+class:
+  - Priest
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 'Empower Monster : When this ally enters play, if you control another Monster hero or ally, you may put target ally from your graveyard into your hand.'
+    text: 'Empower Monster: When this ally enters play, if you control another Monster hero or ally, you may put target ally from your graveyard into your hand.'
 
 regulation:
 
 errata: []
-
-temp: Naga Priest

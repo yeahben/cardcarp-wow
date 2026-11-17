@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Shout
+
 trait:
 
 cost: '2'
@@ -14,12 +17,15 @@ cost: '2'
 class:
   - Warrior
 
-instant: 'Ongoing : Allies in your party have Protector .'
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Allies in your party have protector.'
 
 regulation:
 
 errata: []
-
-temp: Protection Shout

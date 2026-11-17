@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,23 @@ cost: '3'
 class:
   - Paladin
 
+talent:
+  - Retribution
+
+limit:
+  - name: Seal
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Retribution Hero Required Ongoing : When your hero deals combat damage with a weapon to a hero or ally, your hero then deals 2 holy damage to that character. 1 , Destroy Seal of Command → Your hero deals 4 holy damage to target exhausted hero or ally.'
+    text: Retribution Hero Required
+  - type: Ability
+    text: 'Ongoing: When your hero deals combat damage with a weapon to a hero or ally, your hero then deals 2 holy damage to that character.'
+  - type: Ability
+    text: '{1}, Destroy Seal of Command → Your hero deals 4 holy damage to target exhausted hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Retribution Talent

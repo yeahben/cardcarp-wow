@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Shivarra
+  - Demon
+
 trait:
 
 cost: '5'
@@ -17,6 +21,8 @@ health: 3
 
 combat: Fire
 
+instant: false
+
 type: Monster
 
 rule:
@@ -26,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Shivarra Demon

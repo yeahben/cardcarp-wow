@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Succubus
+  - Demon
+
 trait:
 
 cost: '3'
@@ -17,14 +21,14 @@ health: 1
 
 combat: Shadow
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: When this ally enters play, you may exhaust target ally. If can't ready during its controller's next ready step.
+    text: When this ally enters play, you may exhaust target ally. It can't ready during its controller's next ready step.
 
 regulation:
 
 errata: []
-
-temp: Succubus Demon

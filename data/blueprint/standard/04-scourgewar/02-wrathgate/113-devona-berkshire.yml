@@ -19,12 +19,21 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: While you control a Death Knight or Warrior, this ally has Protector . While you control a Hunter or Shaman, this ally has Assault 2 . While you control a Priest or Druid, this ally has Mend 2 .
+    text: While you control a Death Knight or Warrior, this ally has Protector.
+  - type: Ability
+    text: While you control a Hunter or Shaman, this ally has Assault 2.
+  - type: Ability
+    text: While you control a Priest or Druid, this ally has Mend 2.
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

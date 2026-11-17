@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Gain control of target ally until end of turn.
+    text: '{activate} → Gain control of target ally until end of turn.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Priest

@@ -5,23 +5,34 @@ origin: wrathgate-064
 layout: Standard
 
 category:
-  - Hero
+  - Master Hero
+
+subtype:
+  - Spirit
+  - Talent
 
 trait:
 
 cost: '25'
 
+health: 0
+
 class:
   - Priest
 
-instant: Holy Hero Required You pay 1 less to play Spirit of Redemption for each damage on your hero. Spirit of Redemption can't be destroyed while you control an ally.
+talent:
+  - Holy
 
-type: Master
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Holy Hero Required
+  - type: Ability
+    text: You pay {1} less to play Spirit of Redemption for each damage on your hero.
+  - type: Ability
+    text: Spirit of Redemption can't be destroyed while you control an ally.
 
 regulation:
 
 errata: []
-
-temp: Spirit Holy Talent

@@ -15,12 +15,16 @@ class:
   - Priest
   - Shaman
 
-instant: Your hero heals 6 damage from each friendly hero and ally.
+talent:
+  - Holy
+  - Restoration
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero heals 6 damage from each friendly hero and ally.
 
 regulation:
 
 errata: []
-
-temp: Holy Restoration

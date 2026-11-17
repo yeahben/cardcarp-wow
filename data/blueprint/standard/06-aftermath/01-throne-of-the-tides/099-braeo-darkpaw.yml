@@ -19,6 +19,13 @@ combat: Nature
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
     text: This ally has +2 / +2 for each attachment attached to him.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Worgen Druid

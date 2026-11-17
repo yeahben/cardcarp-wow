@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Naxxramas
+
 trait:
 
 cost: '3'
 
-instant: The Boss deals 3 frost damage to each raiding hero and ally. A character dealt damage this way can't attack this turn.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: The Boss deals 3 frost damage to each raiding hero and ally. A character dealt damage this way can't attack this turn.
 
 regulation:
 
 errata: []
-
-temp: Naxxramas

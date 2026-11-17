@@ -7,28 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this item enters play, remove target ally from the game. If you do, add three marble counters, and that ally's owner puts it into play under his control when this item leaves play. At the start of your turn, remove a marble counter. If none remain, destroy this item.
+    text: When this item enters play, remove target ally from the game. If you do, add three marble counters, and that ally's owner puts it into play under his control when this item leaves play.
+  - type: Ability
+    text: At the start of your turn, remove a marble counter. If none remain, destroy this item.
 
 regulation:
 
 errata: []
-
-temp: Item

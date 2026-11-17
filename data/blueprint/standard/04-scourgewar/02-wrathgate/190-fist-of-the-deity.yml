@@ -7,20 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Fist
+
 trait:
 
 cost: '4'
 
+damage: 2
+
+strike: 0
+
+combat: Melee
+
 class:
-  - Shaman
   - Rogue
+  - Shaman
 
-instant: Your hero has Dual Wield . When this weapon enters play, it has +2 ATK this turn.
+limit:
+  - name: Melee
+    count: 1
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero has Dual Wield.
+  - type: Ability
+    text: When this weapon enters play, it has +2 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Fist

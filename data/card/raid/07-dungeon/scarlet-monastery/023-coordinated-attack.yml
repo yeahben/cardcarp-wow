@@ -1,13 +1,13 @@
-blueprint: coordinated-attack-onyxias-lair-treasure-002
+blueprint: coordinated-attack-scarlet-monastery-023
 
 index: '023'
 
-rarity: Uncommon
+rarity: Common
 
-artist: Dan Brereton
+artist: Richard Wright
 
 variation: []
 
-flavor: "\"Here's da plan. You sneak up to it, den I toss dis axe at its head.\""
+flavor:
 
 set: Scarlet Monastery

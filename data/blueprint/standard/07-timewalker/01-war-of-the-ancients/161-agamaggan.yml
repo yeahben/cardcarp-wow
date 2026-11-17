@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Boar
+  - Beast
+  - Demigod
+
 trait:
 
 cost: '6'
@@ -17,14 +22,24 @@ health: 6
 
 combat: Melee
 
+limit:
+  - name: Agamaggan
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Monster Hero Required Smash When Agamaggan deals combat damage to an exhausted ally, ready Agamaggan. 3 → Exhaust target ally.
+    text: Monster Hero Required
+  - type: Ability
+    text: Smash
+  - type: Ability
+    text: When Agamaggan deals combat damage to an exhausted ally, ready Agamaggan.
+  - type: Ability
+    text: '{basic} {3} → Exhaust target ally.'
 
 regulation:
 
 errata: []
-
-temp: Boar Beast Demigod

@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '6'
+
+defense: 1
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Head
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of your turn, you may pay 1 . If you do, draw a card.
+    text: At the start of your turn, you may pay {1}. If you do, draw a card.
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

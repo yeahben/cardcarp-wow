@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Enhancement Talent Attach to target ally you control. Ongoing : Your hero has Assault X , where X is attached ally's ATK."
+    text: Enhancement Talent (You can't put Elemental Talents or Restoration Talents in your deck.)
+  - type: Ability
+    text: Attach to target ally you control.
+  - type: Ability
+    text: "Ongoing: Your hero has Assault X, where X is attached ally's ATK."
 
 regulation:
 
 errata: []
-
-temp: Enhancement

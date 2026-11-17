@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Alchemist
+
 trait:
 
 cost: '2'
@@ -17,12 +20,19 @@ health: 2
 
 combat: Fire
 
+race: Undead
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Argent Crusade Reputation 1 , Discard a Unique card → Draw a card.
+    text: Argent Crusade Reputation (You can't put cards with other reputations in your deck.)
+  - type: Ability
+    text: '{1}, Discard a Unique card → Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Undead Alchemist

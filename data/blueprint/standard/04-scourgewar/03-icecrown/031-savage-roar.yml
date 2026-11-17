@@ -14,12 +14,19 @@ cost: '1'
 class:
   - Druid
 
+talent:
+  - Feral
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Finishing Move Ongoing : This ability enters play with X roar counters. While you control a Form, your hero has Assault 1 for each roar counter.'
+    text: Finishing Move (To play, remove X Combo cards in your graveyard from the game, where X is 5 or less.)
+  - type: Ability
+    text: 'Ongoing: This ability enters play with X roar counters.'
+  - type: Ability
+    text: While you control a Form, your hero has Assault 1 for each roar counter.
 
 regulation:
 
 errata: []
-
-temp: Feral

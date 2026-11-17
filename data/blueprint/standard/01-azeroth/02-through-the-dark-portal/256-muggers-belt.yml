@@ -1,4 +1,4 @@
-name: Muggers Belt
+name: Mugger's Belt
 
 origin: through-the-dark-portal-256
 
@@ -7,12 +7,24 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '6'
 
+defense: 1
+
 class:
   - Rogue
+
+limit:
+  - name: Waist
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -21,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Armor Leather

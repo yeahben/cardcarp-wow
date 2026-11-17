@@ -11,12 +11,12 @@ trait:
 
 cost: '8'
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : At the end of each player's turn, that player may put an ally card from his graveyard into play with damage on it equal to its health minus 1."
+    text: "Ongoing: At the end of each player's turn, that player may put an ally card from his graveyard into play with damage on it equal to its health minus 1."
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Imp
+  - Demon
+
 trait:
 
 cost: '1'
@@ -20,12 +24,18 @@ combat: Fire
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive x , → Gakmat deals X fire damage to target ally and itself.
+    text: Elusive (Can't be attacked.)
+  - type: Ability
+    text: '{x}, {activate} → Gakmat deals X fire damage to target ally and itself.'
 
 regulation:
 
 errata: []
-
-temp: Imp Demon

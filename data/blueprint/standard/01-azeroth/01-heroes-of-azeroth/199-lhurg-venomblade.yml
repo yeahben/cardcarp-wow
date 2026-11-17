@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Destroy target exhausted ally.
+    text: '{activate} → Destroy target exhausted ally.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Rogue

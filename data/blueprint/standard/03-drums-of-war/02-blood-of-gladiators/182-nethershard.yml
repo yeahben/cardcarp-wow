@@ -7,23 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Dagger
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 3
+
+combat: Melee
+
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'On your turn: 2 , Exhaust your hero → Target opponent removes a card in his hand from the game.'
+    text: 'On your turn: {2}, Exhaust your hero → Target opponent removes a card in his hand from the game.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

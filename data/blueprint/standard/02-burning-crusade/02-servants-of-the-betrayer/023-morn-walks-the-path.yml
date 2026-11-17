@@ -13,13 +13,23 @@ health: 29
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Hunter
+
+talent:
+  - Survival
+
+profession:
+  - Herbalism
+  - Alchemy
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Morn → You can play target ability card from your graveyard this turn.
+    text: '{3}, Flip Morn → You can play target ability card from your graveyard this turn.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Hunter

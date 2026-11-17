@@ -1,4 +1,4 @@
-name: Jaga'zul the Wilds Fury
+name: Jaga'zul the Wild's Fury
 
 origin: twilight-of-the-dragons-143
 
@@ -19,6 +19,13 @@ combat: Nature
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally is destroyed, you may put him from the graveyard into his owner's resource row face down and exhausted.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Druid

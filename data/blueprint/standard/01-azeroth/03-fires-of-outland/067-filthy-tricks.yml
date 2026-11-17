@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '6'
@@ -14,12 +17,15 @@ cost: '6'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Cards in your graveyard are Combo cards.'
+    text: 'Ongoing: Cards in your graveyard are Combo cards.'
 
 regulation:
 
 errata: []
-
-temp: Assassination Combo

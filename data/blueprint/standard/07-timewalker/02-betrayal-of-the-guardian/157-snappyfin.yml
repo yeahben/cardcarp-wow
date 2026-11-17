@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Murloc
+
 trait:
 
 cost: '5'
@@ -17,14 +20,17 @@ health: 4
 
 combat: Frost
 
-instant: Murloc allies in your hand are .
+class:
+  - Mage
+
+instant: true
 
 type: Monster
 
-rule: []
+rule:
+  - type: Ability
+    text: Murloc allies in your hand are {instant}.
 
 regulation:
 
 errata: []
-
-temp: Murloc Mage

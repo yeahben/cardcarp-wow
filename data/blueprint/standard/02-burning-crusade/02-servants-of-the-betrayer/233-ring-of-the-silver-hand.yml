@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
@@ -16,12 +19,16 @@ class:
   - Paladin
   - Shaman
 
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Prevent all combat damage that target attacking ally would deal to your hero this combat.
+    text: '{activate} → Prevent all combat damage that target attacking ally would deal to your hero this combat.'
 
 regulation:
 
 errata: []
-
-temp: Item Ring

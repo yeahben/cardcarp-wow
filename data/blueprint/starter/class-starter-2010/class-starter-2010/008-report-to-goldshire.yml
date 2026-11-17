@@ -13,10 +13,10 @@ faction: Alliance
 
 rule:
   - type: Ability
-    text: 'If you control more allies than an opponent: Pay 1 to complete this quest. Reward : Draw a card.'
+    text: 'If you control more allies than an opponent: Pay {1} to complete this quest.'
+  - type: Ability
+    text: 'Reward: Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

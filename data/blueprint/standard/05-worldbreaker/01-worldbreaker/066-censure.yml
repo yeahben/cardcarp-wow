@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Paladin
 
-instant: Put target opposing attacking ally into its owner's hand.
+talent:
+  - Retribution
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Put target opposing attacking ally into its owner's hand.
 
 regulation:
 
 errata: []
-
-temp: Retribution

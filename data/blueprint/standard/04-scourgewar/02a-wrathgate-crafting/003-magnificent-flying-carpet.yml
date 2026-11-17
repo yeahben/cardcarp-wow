@@ -7,28 +7,39 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Mount
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Tailoring Hero Required You can control any number of locations. When you place a resource face up, you may ready all locations you control.
+    text: Tailoring Hero Required
+  - type: Ability
+    text: You can control any number of locations.
+  - type: Ability
+    text: When you place a resource face up, you may ready all locations you control.
 
 regulation:
 
 errata: []
-
-temp: Item Mount

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Bone
+  - Wraith
+
 trait:
 
 cost: '3'
@@ -17,14 +21,14 @@ health: 7
 
 combat: Melee
 
-type: Raid
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: "Bone Storm : When Lord Marrowgar is destroyed, he deals 1 melee damage to each opposing hero for each ally in its controller's graveyard."
+    text: "Bone Storm: When Lord Marrowgar is destroyed, he deals 1 melee damage to each opposing hero for each ally in its controller's graveyard."
 
 regulation:
 
 errata: []
-
-temp: Bone Wraith

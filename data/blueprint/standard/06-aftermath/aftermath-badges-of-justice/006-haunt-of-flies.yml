@@ -7,23 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '1'
 
+defense: 1
+
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Back
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this armor prevents damage on an opponent's turn, add a fly counter to it. Remove three fly counters from this armor → Put a 2 / 1 Swarm ally token into play with Ferocity and Stealth .
+    text: When this armor prevents damage on an opponent's turn, add a fly counter to it.
+  - type: Ability
+    text: Remove three fly counters from this armor → Put a 2 {nature} / 1 {health} Swarm ally token into play with Ferocity and Stealth.
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

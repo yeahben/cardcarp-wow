@@ -11,15 +11,28 @@ trait:
 
 cost: '3'
 
+health: 5
+
 class:
   - Shaman
 
+talent:
+  - Elemental
+
+limit:
+  - name: Earth Totem
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : Opposing heroes and allies can attack only Stoneclaw Totem if able. When a hero or ally deals combat damage to Stoneclaw Totem, that character can't ready during its controller's next ready step. (Totems can be attacked or targeted like allies.)"
+    text: 'Ongoing: Opposing heroes and allies can attack only Stoneclaw Totem if able.'
+  - type: Ability
+    text: When a hero or ally deals combat damage to Stoneclaw Totem, that character can't ready during its controller's next ready step.
+  - type: Ability
+    text: (Totems can be attacked or targeted like allies.)
 
 regulation:
 
 errata: []
-
-temp: Elemental 5

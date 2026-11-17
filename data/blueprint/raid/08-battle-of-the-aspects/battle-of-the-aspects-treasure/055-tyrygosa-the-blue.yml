@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Blue
+  - Dragonkin
+  - Consort
+
 trait:
 
 cost: '7'
@@ -17,12 +22,16 @@ health: 10
 
 combat: Arcane
 
+limit:
+  - name: Tyrygosa
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When Tyrygosa enters play, you may remove a non-Ongoing ability in your hand from the game. At the start of your turn, you may copy that ability. If you do, you may play the copy without paying it's cost.
+    text: When Tyrygosa enters play, you may remove a non-Ongoing ability in your hand from the game. At the start of your turn, you may play a copy of that ability without paying its cost.
 
 regulation:
 
 errata: []
-
-temp: Blue Dragonkin Consort

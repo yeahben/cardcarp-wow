@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: 4 → Draw a card.
+    text: '{4} → Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

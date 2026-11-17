@@ -7,16 +7,21 @@ layout: Standard
 category:
   - Event
 
+subtype:
+  - Archimonde
+
 trait:
 
-type: Boss
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
-    text: Each Raider chooses and discards two cards. If Archimonde is the Caverns hero, flip two additional Caverns cards.
+    text: Each Raider chooses and discards two cards.
+  - type: Ability
+    text: If Archimonde is the Caverns hero, flip two additional Caverns cards.
 
 regulation:
 
 errata: []
-
-temp: Archimonde

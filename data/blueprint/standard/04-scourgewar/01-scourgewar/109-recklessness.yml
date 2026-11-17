@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : At the start of your turn, add an abandon counter. If your hero would deal or be dealt damage, that much +X is dealt instead, where X is the number of abandon counters.'
+    text: 'Ongoing: At the start of your turn, add an abandon counter.'
+  - type: Ability
+    text: If your hero would deal or be dealt damage, that much +X is dealt instead, where X is the number of abandon counters.
 
 regulation:
 
 errata: []
-
-temp: Fury

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Snake
+
 trait:
 
 cost: '6'
@@ -20,12 +23,18 @@ combat: Nature
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: As an additional cost to play this ally, destroy an ability, ally, or equipment you control. When this ally enters play, you may destroy target ally or equipment with cost 4 or more.
+    text: As an additional cost to play this ally, destroy an ability, ally, or equipment you control.
+  - type: Ability
+    text: When this ally enters play, you may destroy target ally or equipment with cost 4 or more.
 
 regulation:
 
 errata: []
-
-temp: Snake

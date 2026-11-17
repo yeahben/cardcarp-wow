@@ -13,13 +13,16 @@ health: 27
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Rogue
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 4 , Flip Elycia → Target hero or ally has +2 ATK and Stealth this turn.'
+    text: "On your turn: {4}, Flip Elycia → Target hero or ally has +2 ATK and Stealth this turn. (It can't be protected against.)"
 
 regulation:
 
 errata: []
-
-temp: Worgen Rogue

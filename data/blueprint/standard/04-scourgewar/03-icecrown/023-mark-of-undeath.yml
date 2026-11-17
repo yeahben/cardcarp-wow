@@ -14,12 +14,19 @@ cost: '3'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target friendly non-token ally. Ongoing : When attached ally is destroyed, put a 3 / 3 Ghoul ally token into play. When attached ally is destroyed, put this ability from its owner's graveyard into play attached to target non-token ally."
+    text: Attach to target friendly non-token ally.
+  - type: Ability
+    text: 'Ongoing: When attached ally is destroyed, put a 3 {melee} / 3 {health} Ghoul ally token into play.'
+  - type: Ability
+    text: When attached ally is destroyed, put this ability from its owner's graveyard into play attached to target friendly non-token ally.
 
 regulation:
 
 errata: []
-
-temp: Unholy

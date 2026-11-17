@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '1'
@@ -14,12 +17,15 @@ cost: '1'
 class:
   - Rogue
 
+talent:
+  - Combat
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Destroy Hidden Weaponry → When target opposing ally is next dealt combat damage this turn, destroy it.'
+    text: 'Ongoing: Destroy Hidden Weaponry → When target opposing ally is next dealt combat damage this turn, destroy it.'
 
 regulation:
 
 errata: []
-
-temp: Combat Combo

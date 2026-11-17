@@ -14,12 +14,17 @@ cost: '6'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero deals 5 arcane damage to target hero or ally. Draw a card.
+    text: Your hero deals 5 arcane damage to target hero or ally.
+  - type: Ability
+    text: Draw a card.
 
 regulation:
 
 errata: []
-
-temp: Balance

@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Shaman
 
-instant: Your hero deals 2 nature damage to target ally. Target ally has +2 ATK this turn.
+talent:
+  - Elemental
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 2 nature damage to target ally.
+  - type: Ability
+    text: Target ally has +2 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Elemental

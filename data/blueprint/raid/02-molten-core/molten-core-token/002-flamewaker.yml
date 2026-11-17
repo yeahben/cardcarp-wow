@@ -7,7 +7,12 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Flamewaker
+
 trait:
+  - 'Gehennas: 2'
 
 damage: 3
 
@@ -15,14 +20,12 @@ health: 2
 
 combat: Melee
 
-type: Ally
+instant: false
 
 rule:
   - type: Ability
-    text: 1 , Destroy Flamewaker → Destroy target equipment.
+    text: '{1}, Destroy Flamewaker → Destroy target equipment.'
 
 regulation:
 
 errata: []
-
-temp: Flamewaker

@@ -14,12 +14,19 @@ cost: '3'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target opposing ally. Ongoing : Attached ally becomes 1 / 1 and is also a Pig. When attached ally is destroyed, your hero heals 3 damage from itself.'
+    text: Attach to target opposing ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally becomes 1 / 1 and is also a Pig.'
+  - type: Ability
+    text: When attached ally is destroyed, your hero heals 3 damage from itself.
 
 regulation:
 
 errata: []
-
-temp: Arcane

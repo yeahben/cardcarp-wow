@@ -19,12 +19,21 @@ combat: Holy
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Priest
+
+limit:
+  - name: Velen
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the end of your turn, Velen deals 5 unpreventable holy damage to target opposing or Monster hero or ally. If that character is dealt fatal damage this way, draw a card.
+    text: At the end of your turn, Velen deals 5 unpreventable holy damage to target opposing {horde} or Monster hero or ally. If that character is dealt fatal damage this way, draw a card.
 
 regulation:
 
 errata: []
-
-temp: Draenei Priest

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Spirit
+
 trait:
 
 cost: '9'
@@ -19,12 +22,22 @@ combat: Nature
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Untargetable → Search your deck for a card and put it into hand.
+    text: Untargetable
+  - type: Ability
+    text: '{activate} → Search your deck for a card and put it into hand.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid Spirit

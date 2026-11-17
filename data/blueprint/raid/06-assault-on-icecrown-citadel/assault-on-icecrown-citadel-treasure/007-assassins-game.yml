@@ -1,4 +1,4 @@
-name: Assassins Game
+name: Assassin's Game
 
 origin: assault-on-icecrown-citadel-treasure-007
 
@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Rogue
 
+talent:
+  - Combat
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Your hero has Assault 1 for each opposing exhausted hero, ally, and equipment.'
+    text: 'Ongoing: Your hero has Assault 1 for each opposing exhausted hero, ally, and equipment.'
 
 regulation:
 
 errata: []
-
-temp: Combat

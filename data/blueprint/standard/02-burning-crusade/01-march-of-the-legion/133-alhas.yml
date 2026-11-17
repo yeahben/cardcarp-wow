@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, Alhas heals 2 damage from target hero or ally.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Draenai Priest

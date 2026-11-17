@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Remove an ally card in your graveyard from the game → Edward is a Protector this turn.
+    text: Remove an ally card in your graveyard from the game → Edward is a protector this turn.
 
 regulation:
 
 errata: []
-
-temp: Undead Warrior

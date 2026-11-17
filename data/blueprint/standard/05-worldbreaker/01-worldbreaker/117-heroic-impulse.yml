@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Warrior
 
-instant: 'Attach to target hero or ally you control. Ongoing : Attached character has Protector .'
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target hero or ally you control.
+  - type: Ability
+    text: 'Ongoing: Attached character has Protector. (It may exhaust to become the defender when an opposing hero or ally attacks.)'
 
 regulation:
 
 errata: []
-
-temp: Protection

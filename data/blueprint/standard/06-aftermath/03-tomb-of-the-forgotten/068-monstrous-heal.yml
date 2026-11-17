@@ -11,12 +11,12 @@ trait:
 
 cost: '1'
 
-instant: Your hero heals 3 damage from each Monster hero and ally you control.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Your hero heals 3 damage from each Monster hero and ally you control.
 
 regulation:
 
 errata: []
-
-temp: ''

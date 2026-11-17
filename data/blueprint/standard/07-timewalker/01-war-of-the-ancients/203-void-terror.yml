@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Void Terror
+  - Demon
+
 trait:
 
 cost: '5'
@@ -15,7 +19,9 @@ damage: 5
 
 health: 5
 
-combat: Melee
+combat: Shadow
+
+instant: false
 
 type: Monster
 
@@ -24,5 +30,3 @@ rule: []
 regulation:
 
 errata: []
-
-temp: Void Terror Demon

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Hunter
 
+talent:
+  - Marksmanship
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Marksmanship Hero Required You may choose a different one for each different name among Stings you control: Destroy target ally; destroy target equipment; or destroy target resource.'
+    text: Marksmanship Hero Required
+  - type: Ability
+    text: 'You may choose a different one for each different name among Stings you control: Destroy target ally; destroy target equipment; or destroy target resource.'
 
 regulation:
 
 errata: []
-
-temp: Marksmanship Talent

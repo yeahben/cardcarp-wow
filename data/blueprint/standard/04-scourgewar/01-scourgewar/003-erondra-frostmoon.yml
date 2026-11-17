@@ -13,13 +13,23 @@ health: 29
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Death Knight
+
+talent:
+  - Unholy
+
+profession:
+  - Blacksmithing
+  - Inscription
+
 rule:
   - type: Ability
     position: Front
-    text: 'If you control another Death Knight: Flip Erondra → Target ally has -2 this turn.'
+    text: 'If you control another Death Knight: Flip Erondra → Target ally has -2 {health} this turn.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Death Knight

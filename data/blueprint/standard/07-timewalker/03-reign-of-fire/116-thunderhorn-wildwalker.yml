@@ -5,10 +5,30 @@ origin: reign-of-fire-116
 layout: Standard
 
 category:
+  - Ally
 
 trait:
 
-rule: []
+cost: '6'
+
+damage: 2
+
+health: 7
+
+combat: Ranged
+
+faction: Horde
+
+race: Tauren
+
+class:
+  - Hunter
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Long-Range (Defenders deal no combat damage to this character.)
 
 regulation:
 

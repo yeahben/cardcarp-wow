@@ -17,12 +17,21 @@ health: 3
 
 combat: Melee
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Scryer Reputation Stealth Zian has -1 ATK / -1 health for each Protector in play.
+    text: Scryer Reputation (Can't put Aldor cards in your deck.)
+  - type: Ability
+    text: Stealth (Can't protect against this character.)
+  - type: Ability
+    text: Zian has -1 ATK / -1 health for each protector in play.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

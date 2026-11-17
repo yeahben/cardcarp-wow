@@ -19,6 +19,13 @@ combat: Nature
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
     text: When Joja'bee enters play, you may ready one of your resources.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Shaman

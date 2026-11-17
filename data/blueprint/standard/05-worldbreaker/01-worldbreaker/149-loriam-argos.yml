@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aberration Stealth
+    text: Aberration (Prevent all non-combat damage that would be dealt to this ally.)
+  - type: Ability
+    text: Stealth (This ally can't be protected against.)
 
 regulation:
 
 errata: []
-
-temp: Worgen Rogue

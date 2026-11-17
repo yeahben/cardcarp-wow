@@ -13,10 +13,12 @@ faction: Alliance
 
 rule:
   - type: Ability
-    text: "Night Elf Hero Required During your turn, pay 3 to complete this quest. Reward : Ready all allies in your party that haven't attacked this turn."
+    text: Night Elf Hero Required
+  - type: Ability
+    text: During your turn, pay {3} to complete this quest.
+  - type: Ability
+    text: "Reward: Ready all allies in your party that haven't attacked this turn."
 
 regulation:
 
 errata: []
-
-temp: ''

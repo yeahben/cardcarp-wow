@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, draw a card.
+    text: When Bizzazz enters play, draw a card.
 
 regulation:
 
 errata: []
-
-temp: Gnome Rogue

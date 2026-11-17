@@ -14,6 +14,11 @@ cost: '1'
 class:
   - Rogue
 
+talent:
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
     text: Look at target opponent's hand and choose an ability or equipment card. That opponent discards that card.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Subtlety

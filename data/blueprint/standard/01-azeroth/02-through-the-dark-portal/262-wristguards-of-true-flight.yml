@@ -5,10 +5,32 @@ origin: through-the-dark-portal-262
 layout: Standard
 
 category:
+  - Equipment
+
+subtype:
+  - Armor
+  - Mail
 
 trait:
 
-rule: []
+cost: '4'
+
+defense: 1
+
+class:
+  - Hunter
+  - Shaman
+  - Warrior
+
+limit:
+  - name: Wrist
+    count: 1
+
+instant: false
+
+rule:
+  - type: Ability
+    text: When you strike with a weapon, your hero has long-range this combat. (Defenders deal no combat damage to it.)
 
 regulation:
 

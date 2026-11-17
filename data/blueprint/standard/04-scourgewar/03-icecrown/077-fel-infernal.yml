@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Infernal
+  - Demon
+
 trait:
 
 cost: '4'
@@ -20,12 +24,16 @@ combat: Fire
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you discard a card, you may pay 1 . If you do, this ally deals 1 fire damage to each opposing hero and ally.
+    text: When you discard a card, you may pay {1}. If you do, this ally deals 1 fire damage to each opposing hero and ally.
 
 regulation:
 
 errata: []
-
-temp: Infernal Demon

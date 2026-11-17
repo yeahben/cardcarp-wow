@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When this ally enters play, he may deal 2 melee damage to target damaged hero or ally.
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
+  - type: Ability
+    text: When this ally enters play, he may deal 2 melee damage to target damaged hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Goblin Warrior

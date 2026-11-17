@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
@@ -14,12 +17,18 @@ cost: '2'
 class:
   - Paladin
 
+limit:
+  - name: Relic
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , → Your hero deals 1 unpreventable holy damage to target hero or ally. When you play a armor, ready this item.
+    text: '{1}, {activate} → Your hero deals 1 unpreventable holy damage to target hero or ally.'
+  - type: Ability
+    text: When you play a {paladin} armor, ready this item.
 
 regulation:
 
 errata: []
-
-temp: Item Ranged

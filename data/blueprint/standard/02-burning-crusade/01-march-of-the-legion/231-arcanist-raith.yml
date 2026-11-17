@@ -17,12 +17,19 @@ health: 4
 
 combat: Fire
 
+race: Blood Elf
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Scryer Reputation Opponents play with the top card of their decks revealed.
+    text: Scryer Reputation (Can't put Aldor cards in your deck.)
+  - type: Ability
+    text: Opponents play with the top card of their decks revealed.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

@@ -19,12 +19,19 @@ combat: Arcane
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When an opponent's hero readies, you may pay 1 . If you do, destroy target ability or equipment that opponent controls.
+    text: Protector
+  - type: Ability
+    text: When an opponent's hero readies, you may pay {1}. If you do, destroy target ability or equipment that opponent controls.
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

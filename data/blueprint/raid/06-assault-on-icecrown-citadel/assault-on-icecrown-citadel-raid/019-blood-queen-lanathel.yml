@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - San'layn
+  - Blood-Queen
+
 trait:
 
 cost: '6'
@@ -17,14 +21,14 @@ health: 8
 
 combat: Melee
 
-type: Raid
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: "Vampiric Bite : When Blood-Queen Lana'thel enters play, each opponent chooses an ally he controls. Gain control of those allies."
+    text: "Vampiric Bite: When Blood-Queen Lana'thel enters play, each opponent chooses an ally he controls. Gain control of those allies."
 
 regulation:
 
 errata: []
-
-temp: San'layn Blood-Queen

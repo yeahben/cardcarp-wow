@@ -14,12 +14,19 @@ cost: '1'
 class:
   - Priest
 
-instant: "Attach to target friendly ally. Ongoing : At the start of your turn, your hero heals 3 damage from attached ally. When attached ally is destroyed, put Prayer of Mending from its owner's graveyard into play attached to target friendly ally."
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target friendly ally.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero heals 3 damage from attached ally.'
+  - type: Ability
+    text: When attached ally is destroyed, put Prayer of Mending from its owner's graveyard into play attached to target friendly ally.
 
 regulation:
 
 errata: []
-
-temp: Holy

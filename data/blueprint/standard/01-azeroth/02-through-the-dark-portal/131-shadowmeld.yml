@@ -13,12 +13,16 @@ cost: '3'
 
 faction: Alliance
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Night Elf Hero Required Ongoing : Your hero is Elusive and Untargetable . At the start of your turn, destroy Shadowmeld.'
+    text: Night Elf Hero Required
+  - type: Ability
+    text: 'Ongoing: Your hero is elusive and untargetable.'
+  - type: Ability
+    text: At the start of your turn, destroy Shadowmeld.
 
 regulation:
 
 errata: []
-
-temp: ''

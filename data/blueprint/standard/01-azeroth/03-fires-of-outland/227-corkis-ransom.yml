@@ -1,4 +1,4 @@
-name: Corkis Ransom
+name: Corki's Ransom
 
 origin: fires-of-outland-227
 
@@ -13,10 +13,10 @@ faction: Alliance
 
 rule:
   - type: Ability
-    text: "Put Corki's Ransom from play into its owner's hand and pay 2 to complete this quest. Reward : Draw a card."
+    text: Put Corki's Ransom into its owner's hand and pay {2} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

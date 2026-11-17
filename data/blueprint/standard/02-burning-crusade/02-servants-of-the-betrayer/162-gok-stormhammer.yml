@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Long-Range When Gok enters play, he deals 3 nature damage divided as you choose to any number of target heroes and/or allies.
+    text: Long-Range
+  - type: Ability
+    text: When Gok enters play, he deals 3 nature damage divided as you choose to any number of target heroes and/or allies.
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

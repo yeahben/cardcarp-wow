@@ -7,21 +7,40 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Sword
+
 trait:
 
 cost: '4'
 
+damage: 2
+
+strike: 1
+
+combat: Melee
+
 class:
-  - Warrior
   - Death Knight
   - Rogue
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Dual Wield When your hero deals combat damage with this weapon to a hero, put a 3 / 3 Demon Monster ally token into play named Flame of Azzinoth. At the start of your turn, if you control two or more allies named Flame of Azzinoth, this weapon has +10 ATK this turn.
+    text: Dual Wield
+  - type: Ability
+    text: When your hero deals combat damage with this weapon to a hero, put a 3 {fire} / 3 {health} Demon Monster ally token into play named Flame of Azzinoth.
+  - type: Ability
+    text: At the start of your turn, if you control two or more allies named Flame of Azzinoth, this weapon has +10 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

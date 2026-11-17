@@ -9,14 +9,16 @@ category:
 
 trait:
 
-type: Boss
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
-    text: Put two Corrupted Blood ally tokens into play. Allies Deathwing controls have +1 ATK this turn.
+    text: Put two Corrupted Blood ally tokens into play.
+  - type: Ability
+    text: Allies Deathwing controls have +1 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: ''

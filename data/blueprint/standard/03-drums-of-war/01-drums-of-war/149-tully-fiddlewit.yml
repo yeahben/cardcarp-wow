@@ -19,6 +19,13 @@ combat: Arcane
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
     text: When Tully defends against an ally, discard a card.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Gnome Mage

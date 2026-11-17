@@ -14,12 +14,19 @@ cost: '5'
 class:
   - Warrior
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'As an additional cost to play Bloodrage, put 2 damage on your hero. Draw two cards. Ongoing : At the start of your turn, put 1 damage on your hero and draw a card.'
+    text: As an additional cost to play Bloodrage, put 2 damage on your hero.
+  - type: Ability
+    text: Draw two cards.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, put 1 damage on your hero and draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Protection

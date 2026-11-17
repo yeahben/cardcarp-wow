@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Shaman
 
-instant: Your hero heals all damage from target friendly ally, then deals that much nature damage to target opposing ally.
+talent:
+  - Elemental
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero heals all damage from target friendly ally, then deals that much nature damage to target opposing ally.
 
 regulation:
 
 errata: []
-
-temp: Elemental

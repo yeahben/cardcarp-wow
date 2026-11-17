@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,21 @@ cost: '3'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Affliction Hero Required Attach to target hero or ally. Ongoing : At the start of your turn, your hero deals 2 shadow damage to attached character. When Unstable Affliction is destroyed, your hero deals 4 shadow damage to attached character.'
+    text: Affliction Hero Required
+  - type: Ability
+    text: Attach to target hero or ally.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero deals 2 shadow damage to attached character.'
+  - type: Ability
+    text: When Unstable Affliction is destroyed, your hero deals 4 shadow damage to attached character.
 
 regulation:
 
 errata: []
-
-temp: Affliction Talent

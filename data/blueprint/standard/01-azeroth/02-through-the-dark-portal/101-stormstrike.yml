@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '1'
@@ -14,12 +17,19 @@ cost: '1'
 class:
   - Shaman
 
-instant: Enhancement Hero Required Ready your hero and one of your Melee weapons. The next time your hero would deal nature damage this turn, it deals that much damage +2 instead.
+talent:
+  - Enhancement
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Enhancement Hero Required
+  - type: Ability
+    text: Ready your hero and one of your Melee weapons.
+  - type: Ability
+    text: The next time your hero would deal nature damage this turn, it deals that much damage +2 instead.
 
 regulation:
 
 errata: []
-
-temp: Enhancement Talent

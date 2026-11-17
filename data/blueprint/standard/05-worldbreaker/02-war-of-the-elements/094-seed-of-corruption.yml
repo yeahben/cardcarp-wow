@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Warlock
 
-instant: 'Attach to target opposing ally. Ongoing : At the start of your turn, your hero deals 2 shadow damage to attached ally. When attached ally is destroyed, your hero deals 2 shadow damage to target hero or ally.'
+talent:
+  - Affliction
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target opposing ally.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero deals 2 shadow damage to attached ally.'
+  - type: Ability
+    text: When attached ally is destroyed, your hero deals 2 shadow damage to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Affliction

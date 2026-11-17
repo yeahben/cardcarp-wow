@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Friendly armor have +1 for each friendly weapon. Friendly weapons have +1 for each friendly armor.'
+    text: 'Ongoing: Friendly armor have +1 {def} for each friendly weapon.'
+  - type: Ability
+    text: Friendly weapons have +1 {strike} for each friendly armor.
 
 regulation:
 
 errata: []
-
-temp: Arms

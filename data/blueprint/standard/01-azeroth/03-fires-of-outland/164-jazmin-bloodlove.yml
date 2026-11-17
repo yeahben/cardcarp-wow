@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity Protector
+    text: Ferocity (Can attack immediately.)
+  - type: Ability
+    text: Protector
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

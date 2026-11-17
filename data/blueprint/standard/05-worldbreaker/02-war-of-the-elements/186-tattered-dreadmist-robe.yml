@@ -7,21 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '4'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'If your hero would deal damage with an ability, it deals that much damage +1, and plus an additional 1 for each heirloom counter on this armor, instead. Stash : Add an heirloom counter to target equipment you control.'
+    text: If your hero would deal damage with an ability, it deals that much damage +1, and plus an additional 1 for each heirloom counter on this armor, instead.
+  - type: Ability
+    text: 'Stash: Add an heirloom counter to target equipment you control.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

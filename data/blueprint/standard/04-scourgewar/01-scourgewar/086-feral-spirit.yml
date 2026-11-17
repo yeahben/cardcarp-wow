@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '4'
@@ -14,12 +17,17 @@ cost: '4'
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
-    text: Enhancement Hero Required Put two 4 / 4 Spirit Wolf ally tokens into play with Protector .
+    text: Enhancement Hero Required
+  - type: Ability
+    text: Put two 4 {melee} / 4 {health} Spirit Wolf ally tokens into play with Protector.
 
 regulation:
 
 errata: []
-
-temp: Enhancement Talent

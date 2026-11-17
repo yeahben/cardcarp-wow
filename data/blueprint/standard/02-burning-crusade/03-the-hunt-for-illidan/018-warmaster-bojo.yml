@@ -13,13 +13,23 @@ health: 30
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Warrior
+
+talent:
+  - Arms
+
+profession:
+  - Alchemy
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Bo'jo → Bo'jo has +2 ATK while attacking this turn.
+    text: "{2}, Flip Bo'jo → Bo'jo has +2 ATK while attacking this turn."
 
 regulation:
 
 errata: []
-
-temp: Troll Warrior

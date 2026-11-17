@@ -1,4 +1,4 @@
-name: Ruthless Gladiators Decapitator
+name: Ruthless Gladiator's Decapitator
 
 origin: tomb-of-the-forgotten-192
 
@@ -7,21 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Axe
+
 trait:
 
 cost: '7'
 
+damage: 0
+
+strike: 1
+
+combat: Melee
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When you strike with this weapon, you may remove target ally in a graveyard from the game. If you do, this weapon has +ATK this turn equal to the ATK of the removed ally.
+    text: When you strike with this weapon, you may remove target ally in a graveyard from the game. If you do, this weapon has +ATK this turn equal to the ATK of that removed ally.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Axe

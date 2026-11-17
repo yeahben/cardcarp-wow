@@ -13,10 +13,10 @@ faction: Horde
 
 rule:
   - type: Ability
-    text: 'Pay 1 to complete this quest. Reward : Horde allies in your party have +1 ATK while attacking this turn.'
+    text: Pay {1} to complete this quest.
+  - type: Ability
+    text: 'Reward: Horde allies in your party have +1 ATK while attacking this turn.'
 
 regulation:
 
 errata: []
-
-temp: ''

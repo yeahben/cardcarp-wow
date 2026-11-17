@@ -17,14 +17,19 @@ health: 5
 
 combat: Melee
 
+race: Goblin
+
+limit:
+  - name: Unique
+
+instant: false
+
 type: Arena
 
 rule:
   - type: Ability
-    text: → Reveal the top three cards of your deck. Put a revealed Arena card into hand and the rest on the bottom of your deck.
+    text: '{activate} → Reveal the top three cards of your deck. Put a revealed Arena card into hand and the rest on the bottom of your deck.'
 
 regulation:
 
 errata: []
-
-temp: Goblin

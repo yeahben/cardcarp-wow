@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Green
+  - Dragonkin
+
 trait:
 
 cost: '4'
@@ -17,6 +21,12 @@ health: 4
 
 combat: Nature
 
+limit:
+  - name: Merithra
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: When a resource you control is turned face down, this ally deals nature damage to target hero or ally equal to the number of Green Dragonkin you control.
@@ -24,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Green Dragonkin

@@ -7,14 +7,19 @@ layout: Standard
 category:
   - Location
 
+subtype:
+  - Objective
+
 trait:
+
+capture: 2
 
 rule:
   - type: Ability
-    text: 'When an opposing ally is destroyed, add a capture counter. On your turn: 2 , , Remove two capture counters → Put an ally card with cost 2 or less from your graveyard into play.'
+    text: When an opposing ally is destroyed, add a capture counter.
+  - type: Ability
+    text: 'On your turn: {2}, {activate}, Remove two capture counters → Put an ally card with cost 2 or less from your graveyard into play.'
 
 regulation:
 
 errata: []
-
-temp: Objective

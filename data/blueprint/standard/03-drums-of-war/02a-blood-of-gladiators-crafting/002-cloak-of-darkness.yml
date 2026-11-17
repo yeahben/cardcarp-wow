@@ -7,24 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '2'
 
+defense: 0
+
 class:
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
+  - Hunter
   - Paladin
+  - Rogue
   - Shaman
+  - Warrior
+
+limit:
+  - name: Back
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: → Put a +1 DEF counter on Cloak of Darkness. , Remove all +1 DEF counters → Your hero deals 1 shadow damage to target hero or ally for each counter removed this way.
+    text: '{activate} → Put a +1 DEF counter on Cloak of Darkness.'
+  - type: Ability
+    text: '{activate}, Remove all +1 DEF counters → Your hero deals 1 shadow damage to target hero or ally for each counter removed this way.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

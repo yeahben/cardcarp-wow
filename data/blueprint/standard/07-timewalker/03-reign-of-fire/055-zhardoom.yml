@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Felhunter
+  - Demon
+
 trait:
 
 cost: '3'
@@ -20,14 +24,18 @@ combat: Shadow
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 1 , Remove three ability cards in your graveyard from the game → This ally deals 3 shadow damage to target hero and heals 3 damage from your hero.
+    text: '{1}, Remove three ability cards in your graveyard from the game → This ally deals 3 shadow damage to target hero or ally and heals 3 damage from your hero.'
 
 regulation:
 
 errata: []
-
-temp: Felhunter Demon

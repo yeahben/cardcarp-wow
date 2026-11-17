@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Mechanical
+
 trait:
 
 cost: '4'
@@ -17,14 +20,16 @@ health: 4
 
 combat: Arcane
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Monster Hero Required Protector
+    text: Monster Hero Required
+  - type: Ability
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
 
 regulation:
 
 errata: []
-
-temp: Mechanical

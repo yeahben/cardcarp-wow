@@ -17,12 +17,17 @@ health: 6
 
 combat: Ranged
 
+race: Tauren
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'While you control two or more allies that share a or race: 2 → This ally has Assault 2 this turn.'
+    text: 'While you control two or more allies that share a {horde} or {alliance} race: {2} → This ally has Assault 2 this turn.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Hunter

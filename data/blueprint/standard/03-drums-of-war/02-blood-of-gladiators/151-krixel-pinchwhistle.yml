@@ -17,14 +17,19 @@ health: 7
 
 combat: Melee
 
+race: Goblin
+
+limit:
+  - name: Unique
+
+instant: false
+
 type: Arena
 
 rule:
   - type: Ability
-    text: → Ready all of your other Arena cards.
+    text: '{activate} → Ready all of your other Arena cards.'
 
 regulation:
 
 errata: []
-
-temp: Goblin

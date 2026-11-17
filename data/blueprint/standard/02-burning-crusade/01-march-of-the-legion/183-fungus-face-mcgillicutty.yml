@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: When Fungus Face is destroyed, you may destroy target ability.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Priest

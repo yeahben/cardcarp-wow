@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
-instant: Protector
+race: Human
 
-rule: []
+class:
+  - Warrior
+
+instant: true
+
+rule:
+  - type: Ability
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
 
 regulation:
 
 errata: []
-
-temp: Human Warrior

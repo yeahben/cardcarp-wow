@@ -14,12 +14,15 @@ cost: '0'
 class:
   - Mage
 
-instant: Monster allies in your hand are instant this turn until you play a Monster ally.
+talent:
+  - Arcane
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Monster allies in your hand are instant this turn until you play a Monster ally.
 
 regulation:
 
 errata: []
-
-temp: Arcane

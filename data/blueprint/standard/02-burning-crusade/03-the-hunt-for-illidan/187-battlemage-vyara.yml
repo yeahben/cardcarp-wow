@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Battlemage
+
 trait:
 
 cost: '7'
@@ -17,12 +20,19 @@ health: 6
 
 combat: Melee
 
+race: Blood Elf
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Scryer Reputation You may exhaust Vyara rather than pay the cost of an ability with cost 7 or less, or a weapon's strike cost of 7 or less.
+    text: Scryer Reputation
+  - type: Ability
+    text: You may exhaust Vyara rather than pay the cost of an ability with cost 7 or less, or a weapon's strike cost of 7 or less.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Battlemage

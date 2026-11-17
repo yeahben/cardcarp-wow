@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When an opposing hero or ally deals damage to Lyss, ready up to that many of your resources.
+    text: Protector
+  - type: Ability
+    text: When an opposing hero or ally deals damage to Lyss, ready up to that many of your resources.
 
 regulation:
 
 errata: []
-
-temp: Human Warrior

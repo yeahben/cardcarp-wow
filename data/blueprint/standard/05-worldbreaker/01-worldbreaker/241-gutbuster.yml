@@ -7,15 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Mace
+
 trait:
 
 cost: '4'
 
+damage: 1
+
+strike: 2
+
+combat: Melee
+
 class:
-  - Warrior
   - Death Knight
-  - Shaman
   - Rogue
+  - Shaman
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -24,5 +41,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

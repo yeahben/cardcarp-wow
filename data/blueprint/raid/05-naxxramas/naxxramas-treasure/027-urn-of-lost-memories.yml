@@ -7,24 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
   - Druid
-  - Paladin
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'On your turn: , Destroy an ability or equipment you control with cost X → Put target ally with cost X or less from your graveyard into play.'
+    text: 'On your turn: {activate}, Destroy an ability or equipment you control with cost X → Put target ally with cost X or less from your graveyard into play.'
 
 regulation:
 
 errata: []
-
-temp: Item Off-Hand

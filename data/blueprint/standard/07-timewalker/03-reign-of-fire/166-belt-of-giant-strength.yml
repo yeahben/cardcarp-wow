@@ -7,21 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '4'
 
+defense: 2
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Waist
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this armor enters play, choose "Demon", a race, or an race. Allies you control of the chosen race have +2 . Your hero can protect allies you control of the chosen race.
+    text: When this armor enters play, choose "Demon," a {horde} race, or an {alliance} race.
+  - type: Ability
+    text: Allies you control of the chosen race have +2 {health}.
+  - type: Ability
+    text: Your hero can protect allies you control of the chosen race.
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

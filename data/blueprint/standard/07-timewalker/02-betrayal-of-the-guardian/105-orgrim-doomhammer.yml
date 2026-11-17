@@ -19,6 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+limit:
+  - name: Orgrim
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: When Orgrim deals combat damage to a hero, that hero's controller chooses and destroys a card he controls for each damage dealt.
@@ -26,5 +37,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Orc Warrior

@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, target player discards a card.
+    text: When Mias enters play, target player discards a card.
 
 regulation:
 
 errata: []
-
-temp: Undead Warlock

@@ -15,12 +15,18 @@ class:
   - Hunter
   - Shaman
 
+talent:
+  - Survival
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally or weapon. Ongoing : Attached card has -X ATK, where X is the highest cost among Hunter and Shaman allies you control.'
+    text: Attach to target ally or weapon.
+  - type: Ability
+    text: 'Ongoing: Attached card has -X ATK, where X is the highest cost among Hunter and Shaman allies you control.'
 
 regulation:
 
 errata: []
-
-temp: Survival Restoration

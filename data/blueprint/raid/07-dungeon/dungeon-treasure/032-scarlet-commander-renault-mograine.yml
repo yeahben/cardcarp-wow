@@ -17,12 +17,23 @@ health: 5
 
 combat: Holy
 
+race: Human
+
+class:
+  - Paladin
+
+limit:
+  - name: Renault
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector If Renault would be dealt damage while defending, you may have any amount of it dealt to your hero instead.
+    text: Protector
+  - type: Ability
+    text: If Renault would be dealt damage while defending, you may have any amount of it dealt to your hero instead.
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

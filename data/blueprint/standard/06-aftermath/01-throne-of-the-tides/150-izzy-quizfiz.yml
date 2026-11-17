@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: 2 → Ready this ally.
+    text: '{2} → Ready this ally.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Shaman

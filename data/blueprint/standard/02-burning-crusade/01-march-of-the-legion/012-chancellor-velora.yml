@@ -13,13 +13,23 @@ health: 26
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Priest
+
+talent:
+  - Holy
+
+profession:
+  - Enchanting
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Velora → Velora deals 1 unpreventable holy damage to target hero or ally. Use only on your turn.
+    text: '{2}, Flip Velora → Velora deals 1 unpreventable holy damage to target hero or ally. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Undead Priest

@@ -9,12 +9,18 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Players skip flipping Arena cards. The Arena deck is a Raid Boss hero with 1 ATK / X health, where X is the number of cards in the Arena graveyard. Heroes and allies can attack only the Raid Boss, and cards and effects must target the Raid Boss if able. When the Raid Boss is dealt fatal damage, put this card into the Arena graveyard, and the turn player flips a new Arena card.'
+    text: 'Ongoing: Players skip flipping Arena cards.'
+  - type: Ability
+    text: The Arena deck is a Raid Boss hero with 1 {melee} ATK / X health, where X is the number of cards in the Arena graveyard.
+  - type: Ability
+    text: Heroes and allies can attack only the Raid Boss, and cards and effects must target the Raid Boss if able.
+  - type: Ability
+    text: When the Raid Boss is dealt fatal damage, put this card into the Arena graveyard, and the turn player flips a new Arena card.
 
 regulation:
 
 errata: []
-
-temp: ''

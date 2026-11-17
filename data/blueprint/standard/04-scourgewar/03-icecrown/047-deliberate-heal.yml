@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : At the start of your turn, destroy this ability. If you do, your hero heals 5 damage from target hero or ally, and draw a card.'
+    text: 'Ongoing: At the start of your turn, destroy this ability. If you do, your hero heals 5 damage from target hero or ally, and draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Holy

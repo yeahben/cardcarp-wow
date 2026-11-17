@@ -1,4 +1,4 @@
-name: The Tidehunters Gift
+name: The Tidehunter's Gift
 
 origin: war-of-the-elements-106
 
@@ -11,12 +11,14 @@ trait:
 
 cost: '3'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When this ability enters play, put a 2 / 1 Water Elemental ally token into play. 1 , Destroy this ability → Target ally has Elusive this turn.'
+    text: 'Ongoing: When this ability enters play, put a 2 {frost} / 1 {health} Water Elemental ally token into play.'
+  - type: Ability
+    text: '{1}, Destroy this ability → Target ally has Elusive this turn.'
 
 regulation:
 
 errata: []
-
-temp: ''

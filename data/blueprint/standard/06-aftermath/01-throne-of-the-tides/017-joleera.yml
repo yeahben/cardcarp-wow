@@ -13,13 +13,16 @@ health: 27
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Rogue
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 2 , Flip Joleera → Joleera has +2 ATK this turn.'
+    text: 'On your turn: {2}, Flip Joleera → Joleera has +2 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

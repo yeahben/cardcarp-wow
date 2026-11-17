@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Elemental
+  - Minion
+
 trait:
 
 damage: 2
@@ -15,6 +19,8 @@ health: 2
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
     text: When Firelord enters play, put a Lava Spawn into play.
@@ -22,5 +28,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Elemental Minion

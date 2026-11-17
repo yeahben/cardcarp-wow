@@ -14,12 +14,15 @@ cost: '6'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Your hero and allies you control have +5 .'
+    text: 'Ongoing: Heroes and allies in your party have +5 health.'
 
 regulation:
 
 errata: []
-
-temp: Discipline

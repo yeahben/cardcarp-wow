@@ -1,25 +1,22 @@
-name: Counterattack
+name: Counterattack!
 
 origin: heroes-of-azeroth-343
 
 layout: Standard
 
 category:
-  - Ability
+  - Quest
 
 trait:
 
-cost: '1'
-
-class:
-  - Hunter
+faction: Horde
 
 rule:
   - type: Ability
-    text: Survival Talent Play this ability only if your hero has 5 or less remaining health. Take an additional turn after this one.
+    text: While there are more allies in an opponent's party than in yours, pay {3} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw two cards.'
 
 regulation:
 
 errata: []
-
-temp: Survival

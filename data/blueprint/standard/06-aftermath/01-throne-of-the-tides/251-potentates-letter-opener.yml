@@ -1,4 +1,4 @@
-name: Potentates Letter Opener
+name: Potentate's Letter Opener
 
 origin: throne-of-the-tides-251
 
@@ -7,23 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Dagger
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 4
+
+combat: Fire
+
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'On your turn: 2 , , Exhaust your hero → Your hero deals 2 fire damage to target hero or ally.'
+    text: 'On your turn: {3}, {activate}, Exhaust your hero → Your hero deals 2 fire damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

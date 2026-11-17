@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Shaman
 
-instant: 'Choose one or both: Interrupt target ability; or exhaust target hero or ally.'
+talent:
+  - Elemental
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Choose one or both: Interrupt target ability; or exhaust target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Elemental

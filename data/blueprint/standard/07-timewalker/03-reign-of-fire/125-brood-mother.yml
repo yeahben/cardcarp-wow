@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Spider
+  - Beast
+
 trait:
 
 cost: '5'
@@ -17,14 +21,14 @@ health: 6
 
 combat: Nature
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: When this or another Beast ally you control deals fatal combat damage while attacking, put two 1 / 1 Spider Beast Monster ally tokens into play.
+    text: When this or another Beast ally you control deals fatal combat damage while attacking, put two 1 {nature} / 1 {health} Spider Beast Monster ally tokens into play.
 
 regulation:
 
 errata: []
-
-temp: Spider Beast

@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Assault 1
+    text: Assault 1 (+1 ATK on your turn)
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

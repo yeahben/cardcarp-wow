@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: true
+
 rule:
   - type: Ability
-    text: 'Attach to target ally. Ongoing : Attached ally has +3 ATK / +3 health. At the start of your turn, put 2 damage on attached ally.'
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +3 ATK / +3 health.'
+  - type: Ability
+    text: At the start of your turn, put 2 damage on attached ally.
 
 regulation:
 
 errata: []
-
-temp: Fury

@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Paladin
 
-instant: Destroy target attacking ally. If you do, your hero heals damage from itself equal to that ally's ATK.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Destroy target attacking ally. If you do, your hero heals damage from itself equal to that ally's ATK.
 
 regulation:
 
 errata: []
-
-temp: Protection

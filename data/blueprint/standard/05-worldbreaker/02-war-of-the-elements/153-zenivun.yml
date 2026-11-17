@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: 2 , Discard a card → This ally deals 1 arcane damage to each opposing hero and ally.
+    text: '{2}, Discard a card → This ally deals 1 arcane damage to each opposing hero and ally.'
 
 regulation:
 
 errata: []
-
-temp: Troll Mage

@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Tribe : When this or another Tauren ally enters play under your control, you may remove the top card of target player's deck from the game."
+    text: "Tribe: When this or another Tauren ally enters play under your control, you may remove the top card of target player's deck from the game."
 
 regulation:
 
 errata: []
-
-temp: Tauren Priest

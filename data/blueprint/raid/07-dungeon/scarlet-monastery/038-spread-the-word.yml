@@ -1,0 +1,24 @@
+name: Spread the Word
+
+origin: scarlet-monastery-038
+
+layout: Standard
+
+category:
+  - Ability
+
+trait:
+
+instant: false
+
+type: Dungeon
+
+rule:
+  - type: Ability
+    text: Attach to target Raiding hero.
+  - type: Ability
+    text: 'Ongoing: When Mograine deals damage to attached hero, he also deals that much melee damage to each other Raiding hero.'
+
+regulation:
+
+errata: []

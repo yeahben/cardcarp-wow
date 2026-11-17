@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Tentacle
+
 trait:
 
 damage: 0
@@ -15,14 +18,18 @@ health: 10
 
 combat: Melee
 
-type: Boss
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
-    text: This ally can't leave play except by fatal damage. At the start of Deathwing's turn, he deals 2 shadow damage to the MARKED hero for each card in that hero's controller's graveyard. When this ally is destroyed, the Raiders choose a Raider, and he puts a card from his graveyard into his hand.
+    text: This ally can't leave play except by fatal damage.
+  - type: Ability
+    text: At the start of Deathwing's turn, he deals 2 shadow damage to the MARKED hero for each card in that hero's controller's graveyard.
+  - type: Ability
+    text: When this ally is destroyed, the Raiders choose a Raider, and he puts a card from his graveyard into his hand.
 
 regulation:
 
 errata: []
-
-temp: Tentacle

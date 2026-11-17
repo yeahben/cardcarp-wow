@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '3'
+
+defense: 1
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Shoulder
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'On your turn: → Target ally has Smash this turn.'
+    text: "On your turn: {activate} → Target ally has Smash this turn. (If it would deal more than fatal combat damage to a defending ally, it deals the rest to that ally's controller's hero.)"
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

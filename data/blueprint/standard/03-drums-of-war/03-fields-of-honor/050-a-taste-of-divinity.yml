@@ -14,6 +14,11 @@ cost: '1'
 class:
   - Priest
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero deals 2 unpreventable holy damage to target ally. If that ally doesn't have fatal damage, put A Taste of Divinity into its owner's hand.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Holy

@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Warrior
 
-instant: Target ally has Protector this turn. It also has +4 ATK while defending this turn.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target ally has Protector and +4 ATK while defending this turn. (It may exhaust to become the defender when an opposing hero or ally attacks.)
 
 regulation:
 
 errata: []
-
-temp: Protection

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Eredar
+  - Demon
+
 trait:
 
 cost: '2'
@@ -17,14 +21,17 @@ health: 2
 
 combat: Shadow
 
+class:
+  - Warlock
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 'Once per turn: Destroy another ally you control → Demon allies you control have +2 ATK this turn.'
+    text: 'Once per turn: {basic} Destroy another ally you control → Demon allies you control have +2 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Eredar Demon Warlock

@@ -14,12 +14,15 @@ cost: '6'
 class:
   - Rogue
 
+talent:
+  - Combat
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Prevent all combat damage that would be dealt to your hero.'
+    text: 'Ongoing: Prevent all combat damage that would be dealt to your hero.'
 
 regulation:
 
 errata: []
-
-temp: Combat

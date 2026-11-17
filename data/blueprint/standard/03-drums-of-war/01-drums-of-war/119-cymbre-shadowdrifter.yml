@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Shadowmeld
+    text: Shadowmeld (Elusive and untargetable while ready.)
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

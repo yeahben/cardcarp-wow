@@ -17,12 +17,19 @@ health: 1
 
 combat: Holy
 
+race: Draenei
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aldor Reputation Cards in play with reputation other than Aldor lose and can't have powers.
+    text: Aldor Reputation
+  - type: Ability
+    text: Cards in play with reputation other than Aldor lose and can't have powers.
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

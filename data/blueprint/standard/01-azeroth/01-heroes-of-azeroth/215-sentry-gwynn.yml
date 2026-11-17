@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero has Elusive .
+    text: Your hero has elusive.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Warrior

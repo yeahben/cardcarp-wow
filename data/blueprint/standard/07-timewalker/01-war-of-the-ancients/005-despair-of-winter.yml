@@ -14,6 +14,11 @@ cost: '5'
 class:
   - Death Knight
 
+talent:
+  - Frost
+
+instant: false
+
 rule:
   - type: Ability
     text: Destroy all allies.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Frost

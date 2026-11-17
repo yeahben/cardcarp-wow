@@ -7,20 +7,33 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Satyr
+  - Demon
+
 trait:
+
+health: 28
+
+class:
+  - Warlock
 
 type: Monster
 
 rule:
   - type: Ability
     position: Front
-    text: 8 → Flip Tyrus face down. You pay 8 less to flip Tyrus if an opposing hero has 15 or more damage.
+    text: '{8} → Flip Tyrus face down.'
+  - type: Ability
+    position: Front
+    text: You pay {8} less to flip Tyrus if an opposing hero has 15 or more damage.
   - type: Ability
     position: Reverse
-    text: "When an attacking Demon hero or ally you control deals combat damage to a hero, that hero's controller chooses and discards a card. Deckbuilding: You can't put or cards in your deck."
+    text: When an attacking Demon hero or ally you control deals combat damage to a hero, that hero's controller chooses and discards a card.
+  - type: Ability
+    position: Reverse
+    text: "Deckbuilding: You can't put {horde} or {alliance} cards in your deck."
 
 regulation:
 
 errata: []
-
-temp: Satyr Demon Warlock 28

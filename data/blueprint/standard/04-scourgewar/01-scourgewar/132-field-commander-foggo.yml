@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Discard a card → This turn, friendly heroes and allies can protect this ally.
+    text: '{1}, Discard a card → This turn, friendly heroes and allies can protect this ally.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

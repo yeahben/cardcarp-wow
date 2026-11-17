@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Crypt Fiend
+
 trait:
 
 damage: 4
@@ -15,7 +19,7 @@ health: 4
 
 combat: Melee
 
-type: Ally
+instant: false
 
 rule:
   - type: Ability
@@ -24,5 +28,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Crypt Fiend

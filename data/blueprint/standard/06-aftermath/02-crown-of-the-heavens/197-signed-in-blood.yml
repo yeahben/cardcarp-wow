@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'Pay 1 to complete this quest. Reward : Turn target resource face down.'
+    text: Pay {1} to complete this quest.
+  - type: Ability
+    text: 'Reward: Turn target resource face down.'
 
 regulation:
 
 errata: []
-
-temp: ''

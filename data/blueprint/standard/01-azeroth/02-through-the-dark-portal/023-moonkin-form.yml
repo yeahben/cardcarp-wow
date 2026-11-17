@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,25 @@ cost: '2'
 class:
   - Druid
 
-instant: 'Balance Hero Required Ongoing : Each of your armor has +1 DEF. If your hero would deal damage with a Balance ability, it deals that much damage +1 instead. When you play a non-Balance ability, destroy Moonkin Form.'
+talent:
+  - Balance
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: Balance Hero Required
+  - type: Ability
+    text: 'Ongoing: Each of your armor has +1 DEF.'
+  - type: Ability
+    text: If your hero would deal damage with a Balance ability, it deals that much damage +1 instead.
+  - type: Ability
+    text: When you play a non-Balance ability, destroy Moonkin Form.
 
 regulation:
 
 errata: []
-
-temp: Balance Talent

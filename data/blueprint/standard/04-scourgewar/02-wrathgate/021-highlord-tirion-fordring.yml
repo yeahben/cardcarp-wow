@@ -5,7 +5,7 @@ origin: wrathgate-021
 layout: Standard
 
 category:
-  - Hero
+  - Master Hero
 
 trait:
 
@@ -17,21 +17,27 @@ health: 37
 
 combat: Holy
 
-class:
-  - Druid
-  - Paladin
-  - Priest
-  - Shaman
+race: Human
 
-type: Master
+class:
+  - Paladin
+
+instant: false
 
 rule:
   - type: Ability
     position: Front
-    text: ", , , or Hero Required Argent Crusade Reputation Unique allies you own everywhere can't be targeted by opponents. On your turn: → Put target Unique ally from your graveyard into play."
+    text: '{druid}, {paladin}, {priest}, or {shaman} Hero Required'
+  - type: Ability
+    position: Front
+    text: Argent Crusade Reputation
+  - type: Ability
+    position: Front
+    text: Unique allies you own everywhere can't be targeted by opponents.
+  - type: Ability
+    position: Front
+    text: 'On your turn: {activate} → Put target Unique ally from your graveyard into play.'
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

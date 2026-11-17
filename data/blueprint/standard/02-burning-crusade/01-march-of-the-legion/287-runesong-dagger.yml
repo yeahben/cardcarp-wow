@@ -7,23 +7,39 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Dagger
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 2
+
+combat: Melee
+
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When you draw a card, put a verse counter on Runesong Dagger. 1 , Remove three verse counters → Your hero deals 3 arcane damage to target ally.
+    text: When you draw a card, put a verse counter on Runesong Dagger.
+  - type: Ability
+    text: '{1}, Remove three verse counters → Your hero deals 3 arcane damage to target ally.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

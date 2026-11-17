@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+talent:
+  - Feral
+
+profession:
+  - Skinning
+  - Leatherworking
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Stormclaw, destroy a Form you control → Destroy target ally. Use only on your turn.
+    text: '{2}, Flip Stormclaw, destroy a Form you control → Destroy target ally. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

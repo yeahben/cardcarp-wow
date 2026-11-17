@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : Unsleeved cards in play are Elusive and Untargetable . Cards can't be unsleeved after Dress Code is flipped."
+    text: "Ongoing: Unsleeved cards in play are elusive and untargetable. Cards can't be unsleeved after Dress Code is flipped."
 
 regulation:
 
 errata: []
-
-temp: ''

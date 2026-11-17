@@ -19,12 +19,19 @@ combat: Ranged
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Long-Range Shadowmeld
+    text: Long-Range (Defenders deal no combat damage to this character.)
+  - type: Ability
+    text: Shadowmeld (Elusive and untargetable while ready.)
 
 regulation:
 
 errata: []
-
-temp: Night Elf Hunter

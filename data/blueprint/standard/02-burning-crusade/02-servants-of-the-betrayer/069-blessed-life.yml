@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Holy Hero Required Ongoing : If your hero would be dealt damage, you may put Blessed Life from play into its owner's hand. If you do, prevent that damage."
+    text: Holy Hero Required
+  - type: Ability
+    text: "Ongoing: If your hero would be dealt damage, you may put Blessed Life from play into its owner's hand. If you do, prevent that damage."
 
 regulation:
 
 errata: []
-
-temp: Holy Talent

@@ -17,6 +17,16 @@ health: 3
 
 combat: Melee
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+limit:
+  - name: Unique
+
+instant: false
+
 type: Arena
 
 rule:
@@ -26,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

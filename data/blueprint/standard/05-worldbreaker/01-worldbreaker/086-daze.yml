@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Rogue
 
+talent:
+  - Combat
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Look at target player's hand and choose a card. He discards that card. Stash : Look at target player's hand."
+    text: Look at target player's hand and choose a card. He discards that card.
+  - type: Ability
+    text: "Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Look at target player's hand."
 
 regulation:
 
 errata: []
-
-temp: Combat

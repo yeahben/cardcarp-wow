@@ -8,6 +8,7 @@ category:
   - Ally
 
 trait:
+  - Channeler 2
 
 damage: 0
 
@@ -15,12 +16,17 @@ health: 4
 
 combat: Shadow
 
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Summoner Channeler can attack only heroes and has +X ATK while attacking, where X is 1 plus the number of Warlocks that have left your party. 3 , → Put an Abyssal ally token with 6 ATK / 6 health into play. Use only on your turn.
+    text: Summoner Channeler can attack only heroes and has +X ATK while attacking, where X is 1 plus the number of Warlocks that have left your party.
+  - type: Ability
+    text: '{3}, {activate} → Put an Abyssal ally token with 6 ATK / 6 health into play. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Warlock

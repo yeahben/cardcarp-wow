@@ -5,7 +5,10 @@ origin: icecrown-016
 layout: Standard
 
 category:
-  - Hero
+  - Master Hero
+
+subtype:
+  - Lich King
 
 trait:
 
@@ -17,18 +20,21 @@ health: 40
 
 combat: Frost
 
-class:
-  - Death Knight
+instant: false
 
-type: Master
+type: Scourge
 
 rule:
   - type: Ability
     position: Front
-    text: "Scourge or Hero Required At the start of each player's turn, put target ally from that player's graveyard into play under your control. Allies you control are also Scourge allies."
+    text: Scourge or {death knight} Hero Required
+  - type: Ability
+    position: Front
+    text: At the start of each player's turn, put target ally from that player's graveyard into play under your control.
+  - type: Ability
+    position: Front
+    text: Allies you control are also Scourge allies.
 
 regulation:
 
 errata: []
-
-temp: Lich King

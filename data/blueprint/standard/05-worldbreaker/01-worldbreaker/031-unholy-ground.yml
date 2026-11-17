@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When a non-token ally you control is destroyed, put a 3 / 3 Ghoul ally token into play.'
+    text: 'Ongoing: When a non-token ally you control is destroyed, put a 3 {melee} / 3 {health} Ghoul ally token into play.'
 
 regulation:
 
 errata: []
-
-temp: Unholy

@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '1'
+
+defense: 1
 
 class:
   - Paladin
   - Warrior
 
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero has Protector while you have five or more equipment.
+    text: Your hero has protector while you have five or more equipment.
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

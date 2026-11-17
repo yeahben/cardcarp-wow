@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '4'
+
+defense: 2
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Feet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Ready another target card in play.
+    text: '{activate} → Ready another target card in play.'
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

@@ -11,12 +11,14 @@ trait:
 
 cost: '3'
 
-instant: Play On Your Feet only on an opponent's turn. Ready target ally in your party. It has Protector this turn.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Play On Your Feet only on an opponent's turn.
+  - type: Ability
+    text: Ready target ally in your party. It has protector this turn.
 
 regulation:
 
 errata: []
-
-temp: ''

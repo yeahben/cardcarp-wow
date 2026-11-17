@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: As an additional cost to play this ability, destroy an ability, ally, or equipment you control. Your hero deals 3 shadow damage to target ally. Then, its controller discards a card.
+    text: As an additional cost to play this ability, destroy an ability, ally, or equipment you control.
+  - type: Ability
+    text: Your hero deals 3 shadow damage to target ally. Then, its controller discards a card.
 
 regulation:
 
 errata: []
-
-temp: Shadow

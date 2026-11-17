@@ -1,4 +1,4 @@
-name: Netherwing Protectors Shield
+name: Netherwing Protector's Shield
 
 origin: the-hunt-for-illidan-215
 
@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Shield
+
 trait:
 
 cost: '2'
 
+defense: 1
+
 class:
   - Paladin
-  - Warrior
   - Shaman
+  - Warrior
+
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Your hero has Dual Shield .
+    text: Your hero has dual shield. (Can have a second Shield instead of a Melee weapon.)
 
 regulation:
 
 errata: []
-
-temp: Armor Shield

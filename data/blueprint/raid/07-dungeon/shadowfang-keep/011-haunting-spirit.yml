@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Spirit
+
 trait:
 
 damage: 6
@@ -15,14 +18,16 @@ health: 6
 
 combat: Shadow
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: "Elusive Level 3+ : When this ally enters play, each Raider chooses two allies he controls and puts them into their owners' hand."
+    text: Elusive
+  - type: Ability
+    text: "Level 3+: When this ally enters play, each Raider chooses two allies he controls and puts them into their owners' hands."
 
 regulation:
 
 errata: []
-
-temp: Spirit

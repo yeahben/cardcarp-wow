@@ -14,12 +14,17 @@ cost: '5'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: You can't play other cards this turn. If you've played no other cards this turn, when your hero attacks this turn, you may pay 1 . If you do, ready your hero and all of your Melee weapons.
+    text: You can't play other cards this turn.
+  - type: Ability
+    text: If you've played no other cards this turn, when your hero attacks this turn, you may pay {1}. If you do, ready your hero and all of your Melee weapons.
 
 regulation:
 
 errata: []
-
-temp: Arms

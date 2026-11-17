@@ -14,12 +14,17 @@ cost: '7'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Rift Ongoing : Allies you control have Ferocity .'
+    text: Rift (Choose a {horde} or {alliance} race. You pay {1} less to play this ability for each ally you control of the chosen race.)
+  - type: Ability
+    text: 'Ongoing: Allies you control have Ferocity.'
 
 regulation:
 
 errata: []
-
-temp: Fury

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Spirit
+
 trait:
 
 cost: '7'
@@ -17,14 +20,20 @@ health: 5
 
 combat: Nature
 
+limit:
+  - name: Aessina
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Elusive Other friendly Monster heroes and allies have +10 .
+    text: Elusive
+  - type: Ability
+    text: Other friendly Monster heroes and allies have +10 {health}.
 
 regulation:
 
 errata: []
-
-temp: Spirit

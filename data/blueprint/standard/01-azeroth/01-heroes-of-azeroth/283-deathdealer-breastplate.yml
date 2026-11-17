@@ -7,15 +7,27 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '5'
 
+defense: 1
+
 class:
-  - Paladin
-  - Warrior
   - Hunter
+  - Paladin
   - Shaman
+  - Warrior
+
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -24,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Armor Mail

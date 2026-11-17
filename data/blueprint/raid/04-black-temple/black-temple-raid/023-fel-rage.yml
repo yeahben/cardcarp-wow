@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Black Temple
+
 trait:
 
 cost: '2'
 
-instant: 'Choose one: Draw three cards; or discard your hand and draw five cards.'
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: 'Choose one: Draw three cards; or discard your hand and draw five cards.'
 
 regulation:
 
 errata: []
-
-temp: Black Temple

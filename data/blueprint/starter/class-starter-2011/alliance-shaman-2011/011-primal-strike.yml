@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Shaman
 
-instant: Target ally or weapon has +3 ATK this turn.
+talent:
+  - Enhancement
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target ally or weapon has +3 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Enhancement

@@ -17,12 +17,20 @@ health: 5
 
 combat: Melee
 
+race: Human
+
+class:
+  - Warrior
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Put 1 damage on a Warrior you control → It has +1 ATK this turn.
+    text: '{1}, Put 1 damage on a Warrior you control → It has +1 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Human Warrior

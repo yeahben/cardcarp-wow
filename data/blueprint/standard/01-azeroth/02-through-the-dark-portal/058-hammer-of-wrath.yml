@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Paladin
 
-instant: Your hero deals 3 holy damage to target hero or ally with damage on it. That damage can't be prevented.
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 3 holy damage to target hero or ally with damage on it. That damage can't be prevented.
 
 regulation:
 
 errata: []
-
-temp: Holy

@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Heartwing is Untargetable while ready.
+    text: Heartwing is untargetable while ready.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Priest

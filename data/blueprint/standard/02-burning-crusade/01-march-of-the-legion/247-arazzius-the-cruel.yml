@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Demon
+
 trait:
 
 cost: '4'
@@ -17,6 +20,11 @@ health: 4
 
 combat: Melee
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: When Arazzius attacks, each player destroys an ally in his party.
@@ -24,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Demon

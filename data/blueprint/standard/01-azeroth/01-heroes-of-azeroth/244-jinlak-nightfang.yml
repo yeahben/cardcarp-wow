@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: 3 → Target hero or ally can't protect this turn.
+    text: "{3} → Target hero or ally can't protect this turn."
 
 regulation:
 
 errata: []
-
-temp: Troll Rogue

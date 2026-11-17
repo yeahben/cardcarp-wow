@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Blessing
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Paladin
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target Monster ally you control. Ongoing : Attached ally has +2 / +2 for this and each other ability attached to it.'
+    text: Attach to target Monster ally you control.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +2 / +2 for this and each other ability attached to it.'
 
 regulation:
 
 errata: []
-
-temp: Protection Blessing

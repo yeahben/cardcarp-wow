@@ -19,12 +19,19 @@ combat: Arcane
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Time is Money → Draw a card, then discard a card.
+    text: Time is Money (This ally can use {activate} powers immediately.)
+  - type: Ability
+    text: '{activate} → Draw a card, then discard a card.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Mage

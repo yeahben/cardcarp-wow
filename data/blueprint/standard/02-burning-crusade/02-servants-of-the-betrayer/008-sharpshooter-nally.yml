@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
+talent:
+  - Marksmanship
+
+profession:
+  - Herbalism
+  - Skinning
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Nally → Target hero or ally has Long-Range this turn.
+    text: '{3}, Flip Nally → Target hero or ally has long-range this turn.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

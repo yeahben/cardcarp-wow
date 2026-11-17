@@ -7,12 +7,17 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Sublety
+
 trait:
 
 cost: '1'
 
 class:
   - Rogue
+
+instant: false
 
 rule:
   - type: Ability
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Subtlety

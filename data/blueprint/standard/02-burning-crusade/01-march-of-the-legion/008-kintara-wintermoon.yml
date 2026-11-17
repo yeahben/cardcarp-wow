@@ -13,13 +13,23 @@ health: 26
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Priest
+
+talent:
+  - Shadow
+
+profession:
+  - Alchemy
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: "On your turn: 3 , Flip Kintara → Target player puts an ally he controls into its owner's hand."
+    text: "{3}, Flip Kintara → Target player puts an ally from his party into its owner's hand. Use only on your turn."
 
 regulation:
 
 errata: []
-
-temp: Night Elf Priest

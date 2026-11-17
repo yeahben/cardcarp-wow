@@ -9,14 +9,14 @@ category:
 
 trait:
 
-cost: '15'
+cost: '1'
 
-instant: Prevent the next 1 damage that would be dealt to target hero or ally this turn.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Prevent the next 1 damage that would be dealt to target hero or ally this turn.
 
 regulation:
 
 errata: []
-
-temp: ''

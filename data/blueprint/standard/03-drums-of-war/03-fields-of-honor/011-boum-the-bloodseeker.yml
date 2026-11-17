@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Hunter
+
+talent:
+  - Beast Mastery
+
+profession:
+  - Engineering
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Boum → Target ally has Ferocity this turn.
+    text: '{3}, Flip Boum → Target ally has ferocity this turn.'
 
 regulation:
 
 errata: []
-
-temp: Orc Hunter

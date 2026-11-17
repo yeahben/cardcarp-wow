@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Hunter
+
+talent:
+  - Survival
+
+profession:
+  - Engineering
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 5 , Flip The Longeye → Destroy target opposing ally if it has or shares the highest cost among opposing allies.'
+    text: 'On your turn: {5}, Flip The Longeye → Destroy target opposing ally if it has or shares the highest cost among opposing allies.'
 
 regulation:
 
 errata: []
-
-temp: Troll Hunter

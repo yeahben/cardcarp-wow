@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Rogue
 
+talent:
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
-    text: Exhaust all allies controlled by target player. They can't ready during his next ready step.
+    text: Exhaust all allies in target player's party. Each of those allies can't ready during its controller's next ready step.
 
 regulation:
 
 errata: []
-
-temp: Subtlety

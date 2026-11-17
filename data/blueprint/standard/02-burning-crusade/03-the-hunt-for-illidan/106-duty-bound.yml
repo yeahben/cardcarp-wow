@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Warrior
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Your hero is a Protector . When your hero protects, ready it.'
+    text: 'Ongoing: Your hero is a protector.'
+  - type: Ability
+    text: When your hero protects, ready it.
 
 regulation:
 
 errata: []
-
-temp: Protection

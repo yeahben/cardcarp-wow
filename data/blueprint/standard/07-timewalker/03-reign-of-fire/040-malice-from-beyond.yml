@@ -5,10 +5,25 @@ origin: reign-of-fire-040
 layout: Standard
 
 category:
+  - Ability
 
 trait:
 
-rule: []
+cost: '3'
+
+class:
+  - Rogue
+
+talent:
+  - Subtlety
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Warp (As this ability is revealed from your deck, you may remove it from the game. If you do, you may play it immediately without paying its cost.)
+  - type: Ability
+    text: Your hero has +3 ATK and Stealth this turn.
 
 regulation:
 

@@ -1,4 +1,4 @@
-name: Girdle of the Queens Champion
+name: Girdle of the Queen's Champion
 
 origin: war-of-the-ancients-208
 
@@ -7,14 +7,26 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '1'
 
+defense: 2
+
 class:
-  - Priest
   - Death Knight
+  - Paladin
   - Warrior
+
+limit:
+  - name: Waist
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -23,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Armor Plate

@@ -7,19 +7,30 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Traitor
+
 trait:
+  - Burning Blade
 
 health: 27
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Rogue
+
+profession:
+  - Engineering
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Jonas → When target friendly ally deals combat damage to an ally this turn, destroy both. Burning Blade
+    text: '{2}, Flip Jonas → When target friendly ally deals combat damage to an ally this turn, destroy both.'
 
 regulation:
 
 errata: []
-
-temp: Undead Rogue

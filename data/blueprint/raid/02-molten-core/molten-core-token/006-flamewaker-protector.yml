@@ -7,7 +7,12 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Flamewaker
+
 trait:
+  - 'Lucifron: 2'
 
 damage: 0
 
@@ -15,14 +20,12 @@ health: 1
 
 combat: Melee
 
-type: Ally
+instant: false
 
 rule:
   - type: Ability
-    text: → Exhaust target ready ally. That ally deals melee damage equal to its ATK to its controller's hero. Use only on your turn.
+    text: "{activate} → Exhaust target ready ally. That ally deals melee damage equal to its ATK to its controller's hero. Use only on your turn."
 
 regulation:
 
 errata: []
-
-temp: Flamewaker

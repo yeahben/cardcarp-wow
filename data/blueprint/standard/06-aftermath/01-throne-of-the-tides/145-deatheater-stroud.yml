@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
     text: When damage is healed from an opposing ally, this ally deals that much shadow damage to that ally's controller's hero.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Death Knight

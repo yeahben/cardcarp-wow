@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Location
 
+subtype:
+  - City
+
 trait:
 
 faction: Alliance
 
 rule:
   - type: Ability
-    text: Dwarf Hero Required → Put target armor or weapon card from your graveyard into hand if its cost is less than the number of Dwarves in your party.
+    text: Dwarf Hero Required
+  - type: Ability
+    text: '{activate} → Put target armor or weapon card from your graveyard into hand if its cost is less than the number of Dwarves in your party.'
 
 regulation:
 
 errata: []
-
-temp: City

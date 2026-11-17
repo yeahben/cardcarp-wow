@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Attachment
+
 trait:
 
 cost: '4'
@@ -14,12 +17,17 @@ cost: '4'
 class:
   - Druid
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target hero. Ongoing : Attached hero has Mend 3 .'
+    text: Attach to target hero.
+  - type: Ability
+    text: 'Ongoing: Attached hero has Mend 3.'
 
 regulation:
 
 errata: []
-
-temp: Restoration Attachment

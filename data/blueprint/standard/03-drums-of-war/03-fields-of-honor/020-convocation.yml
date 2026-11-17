@@ -14,12 +14,15 @@ cost: '6'
 class:
   - Druid
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : When you play an ally, your hero either deals nature damage to or heals damage from target hero equal to that ally's cost."
+    text: "Ongoing: When you play an ally, your hero either deals nature damage to or heals damage from target hero equal to that ally's cost."
 
 regulation:
 
 errata: []
-
-temp: Restoration

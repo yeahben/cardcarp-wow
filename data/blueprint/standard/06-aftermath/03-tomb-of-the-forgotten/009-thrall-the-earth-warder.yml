@@ -5,7 +5,7 @@ origin: tomb-of-the-forgotten-009
 layout: Standard
 
 category:
-  - Hero
+  - Master Hero
 
 trait:
 
@@ -17,15 +17,21 @@ health: 40
 
 combat: Nature
 
-type: Master
+race: Orc
+
+class:
+  - Shaman
+
+instant: false
 
 rule:
   - type: Ability
     position: Front
-    text: Assault 5 , Mend 5 When Thrall deals damage to an opposing hero, put a 5 / 5 Earth Elemental ally token into play with Protector .
+    text: Assault 5, Mend 5
+  - type: Ability
+    position: Front
+    text: When Thrall deals damage to an opposing hero, put a 5 {melee} / 5 {health} Earth Elemental ally token into play with Protector.
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

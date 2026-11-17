@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Mend 5 This ally can't heal heroes.
+    text: Mend 5
+  - type: Ability
+    text: This ally can't heal heroes.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

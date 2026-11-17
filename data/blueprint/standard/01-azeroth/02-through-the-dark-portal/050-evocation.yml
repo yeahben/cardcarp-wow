@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : 2 → Draw a card. When a card leaves your hand, destroy Evocation.'
+    text: 'Ongoing: {2} → Draw a card.'
+  - type: Ability
+    text: When a card leaves your hand, destroy Evocation.
 
 regulation:
 
 errata: []
-
-temp: Arcane

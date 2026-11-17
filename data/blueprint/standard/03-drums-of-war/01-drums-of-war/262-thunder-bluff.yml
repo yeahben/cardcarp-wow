@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Location
 
+subtype:
+  - City
+
 trait:
 
 faction: Horde
 
 rule:
   - type: Ability
-    text: Tauren Hero Required Tauren in your party have +1 health.
+    text: Tauren Hero Required
+  - type: Ability
+    text: Tauren in your party have +1 health.
 
 regulation:
 
 errata: []
-
-temp: City

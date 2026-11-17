@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ethereal
+
 trait:
 
 cost: '5'
@@ -15,7 +18,9 @@ damage: 4
 
 health: 4
 
-combat: Ranged
+combat: Arcane
+
+instant: false
 
 rule:
   - type: Ability
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Ethereal

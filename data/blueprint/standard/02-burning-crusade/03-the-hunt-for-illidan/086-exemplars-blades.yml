@@ -1,4 +1,4 @@
-name: Exemplars Blades
+name: Exemplar's Blades
 
 origin: the-hunt-for-illidan-086
 
@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Shaman
 
-instant: 'Attach to target ally. Ongoing : Attached ally has +X ATK, where X is the highest ATK among your Melee weapons.'
+talent:
+  - Enhancement
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +X ATK, where X is the highest ATK among your Melee weapons.'
 
 regulation:
 
 errata: []
-
-temp: Enhancement

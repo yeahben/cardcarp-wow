@@ -7,16 +7,21 @@ layout: Standard
 category:
   - Event
 
+subtype:
+  - Mal'Ganis
+
 trait:
 
-type: Boss
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
-    text: Exhaust all Raiding heroes and allies. If Mal'Ganis is the Caverns hero, double his ATK this turn.
+    text: Exhaust all Raiding heroes and allies.
+  - type: Ability
+    text: If Mal'Ganis is the Caverns hero, double his ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Mal'Ganis

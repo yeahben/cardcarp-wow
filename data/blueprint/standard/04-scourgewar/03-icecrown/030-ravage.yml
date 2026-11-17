@@ -7,12 +7,20 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '1'
 
 class:
   - Druid
+
+talent:
+  - Feral
+
+instant: false
 
 rule:
   - type: Ability
@@ -21,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Feral Combo

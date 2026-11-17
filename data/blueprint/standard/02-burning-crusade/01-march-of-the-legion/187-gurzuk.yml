@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity
+    text: Ferocity (Can attack immediately.)
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

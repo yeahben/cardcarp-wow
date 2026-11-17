@@ -1,4 +1,4 @@
-name: Malfurions Gift
+name: Malfurion's Gift
 
 origin: crown-of-the-heavens-012
 
@@ -14,12 +14,21 @@ cost: '5'
 class:
   - Druid
 
-instant: 'Restoration Talent Put target ally with cost less than or equal to the number of resources you control from your graveyard into play and attach this ability to it. Ongoing : Attached ally has +2 / +2. When this ability leaves play, destroy attached ally.'
+talent:
+  - Restoration
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Restoration Talent (You can't put Balance Talents or Feral Talents in your deck.)
+  - type: Ability
+    text: Put target ally with cost less than or equal to the number of resources you control from your graveyard into play and attach this ability to it.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +2 / +2.'
+  - type: Ability
+    text: When this ability leaves play, destroy attached ally.
 
 regulation:
 
 errata: []
-
-temp: Restoration

@@ -13,13 +13,23 @@ health: 26
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Priest
+
+talent:
+  - Discipline
+
+profession:
+  - Enchanting
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: x , Flip Anchorite Kalinna → Destroy target ability with cost X.
+    text: '{x}, Flip Anchorite Kalinna → Destroy target ability with cost X.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Priest

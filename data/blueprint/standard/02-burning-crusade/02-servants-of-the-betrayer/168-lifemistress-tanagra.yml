@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: allies in your party have +1 ATK for each other ally in your party.
+    text: '{nature} allies in your party have +1 ATK for each other {nature} ally in your party.'
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

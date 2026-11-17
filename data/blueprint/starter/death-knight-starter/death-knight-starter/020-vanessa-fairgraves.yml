@@ -19,12 +19,17 @@ combat: Frost
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: When Vanessa is destroyed, put a Ghoul ally token into play with 3 ATK / 3 health.
+    text: When Vanessa is destroyed, put a Ghoul ally token into play with 3 {melee} ATK / 3 health.
 
 regulation:
 
 errata: []
-
-temp: Undead Death Knight

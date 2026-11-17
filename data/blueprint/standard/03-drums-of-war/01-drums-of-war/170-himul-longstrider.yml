@@ -19,12 +19,17 @@ combat: Frost
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: War Stomp
+    text: War Stomp (When this ally attacks or defends, you may exhaust target opposing hero or ally.)
 
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

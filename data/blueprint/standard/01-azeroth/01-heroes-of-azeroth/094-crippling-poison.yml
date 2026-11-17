@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Poison
+
 trait:
 
 cost: '1'
@@ -14,12 +17,14 @@ cost: '1'
 class:
   - Rogue
 
-instant: 'Attach to target hero or ally that was dealt combat damage by your hero this turn. Ongoing : At the start of each turn, exhaust attached character unless its controller pays 3 .'
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Attach to target hero or ally that was dealt combat damage by your hero this turn.
+  - type: Ability
+    text: 'Ongoing: At the start of each turn, exhaust attached character unless its controller pays {3}.'
 
 regulation:
 
 errata: []
-
-temp: Poison

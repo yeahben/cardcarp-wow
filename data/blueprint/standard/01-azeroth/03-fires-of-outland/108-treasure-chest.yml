@@ -11,6 +11,8 @@ trait:
 
 cost: '2'
 
+instant: false
+
 rule:
   - type: Ability
     text: Look at the top three cards of your deck. Put one into your hand and the rest on top of your deck in any order.
@@ -18,5 +20,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

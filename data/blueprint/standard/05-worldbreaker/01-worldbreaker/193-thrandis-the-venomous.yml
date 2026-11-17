@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Horde
 
-instant: When your hero defends, you may put two 1 / 1 Snake ally tokens into play.
+race: Blood Elf
 
-rule: []
+class:
+  - Hunter
+
+instant: true
+
+rule:
+  - type: Ability
+    text: When your hero defends, you may put two 1 {nature} / 1 {health} Snake ally tokens into play.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Hunter

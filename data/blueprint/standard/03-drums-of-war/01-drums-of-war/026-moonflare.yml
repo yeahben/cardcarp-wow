@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When a resource enters play under your control, your hero may deal 1 arcane damage to target ally.'
+    text: 'Ongoing: When a resource enters play under your control, your hero may deal 1 arcane damage to target ally.'
 
 regulation:
 
 errata: []
-
-temp: Balance

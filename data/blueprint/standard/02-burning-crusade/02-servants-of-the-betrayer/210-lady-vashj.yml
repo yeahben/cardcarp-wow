@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Naga
+  - Traitor
+
 trait:
 
 cost: '9'
@@ -17,12 +21,17 @@ health: 9
 
 combat: Melee
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required At the end of each turn, roll a die. Put that many Naga ally tokens with 1 ATK / 1 health into play.
+    text: Traitor Hero Required
+  - type: Ability
+    text: At the end of each turn, roll a die. Put that many Naga ally tokens with 1 {melee} ATK / 1 health into play.
 
 regulation:
 
 errata: []
-
-temp: Naga Traitor

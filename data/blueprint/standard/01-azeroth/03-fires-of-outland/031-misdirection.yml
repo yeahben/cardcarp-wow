@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Hunter
 
+talent:
+  - Survival
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : At the start of each opponent's turn, choose an ally in your party. Opposing allies can attack only that ally this turn if able."
+    text: "Ongoing: At the start of each opponent's turn, choose an ally in your party. Opposing allies can attack only that ally this turn if able."
 
 regulation:
 
 errata: []
-
-temp: Survival

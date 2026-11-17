@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Mage
 
-instant: Play only on an opponent's turn. His abilities, allies, equipment, and hero can't attack or exhaust this turn.
+talent:
+  - Frost
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Play only on an opponent's turn.
+  - type: Ability
+    text: His abilities, allies, equipment, and hero can't attack or exhaust this turn.
 
 regulation:
 
 errata: []
-
-temp: Frost

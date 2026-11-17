@@ -2,13 +2,13 @@ blueprint: krunkle-deadspark-wrathgate-006
 
 index: '006'
 
-rarity:
+rarity: Uncommon
 
-artist:
+artist: Kevin Chen
 
 variation:
   - Flip
 
-flavor:
+flavor: '"Some would deem my current state to be a curse, but I find this new experience quite fascinating."'
 
 set: Wrathgate

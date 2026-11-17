@@ -12,10 +12,12 @@ trait:
 cost: '2'
 
 class:
-  - Warlock
   - Hunter
-  - Rogue
   - Mage
+  - Rogue
+  - Warlock
+
+instant: false
 
 rule:
   - type: Ability
@@ -24,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

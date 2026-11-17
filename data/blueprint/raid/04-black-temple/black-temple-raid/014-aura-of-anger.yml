@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Traitor
+
 trait:
 
 cost: '1'
@@ -14,12 +17,18 @@ cost: '1'
 class:
   - Paladin
 
+limit:
+  - name: Aura
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Traitor Hero Required Ongoing : Heroes and allies in your party have +1 ATK when attacking damaged heroes and allies.'
+    text: Traitor Hero Required
+  - type: Ability
+    text: 'Ongoing: Heroes and allies in your party have +1 ATK while attacking damaged heroes and allies.'
 
 regulation:
 
 errata: []
-
-temp: Traitor

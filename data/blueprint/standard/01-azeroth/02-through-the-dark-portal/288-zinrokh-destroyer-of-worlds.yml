@@ -7,21 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Sword
+
 trait:
 
 cost: '7'
 
+damage: 5
+
+strike: 8
+
+combat: Melee
+
 class:
+  - Hunter
   - Paladin
   - Warrior
-  - Hunter
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When your hero deals combat damage with Zin'rohk, destroy all other abilities, allies, equipment, and resources.
+    text: When your hero deals combat damage with Zin'rokh, destroy all other abilities, allies, equipment, and resources.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Sword

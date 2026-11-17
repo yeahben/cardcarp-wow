@@ -7,22 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Dagger
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 1
+
+combat: Melee
+
 class:
-  - Warrior
-  - Shaman
   - Hunter
   - Rogue
+  - Shaman
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: This weapon has +2 ATK while your hero is attacking a hero or ally that was dealt damage this turn.
+    text: Heartseeker has +2 ATK while your hero is attacking a hero or ally that was dealt damage this turn.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

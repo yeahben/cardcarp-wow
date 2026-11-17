@@ -19,12 +19,23 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Warrior
+
+limit:
+  - name: Muradin
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Protector Once per game: 5 , Say "For Khaz Modan!" → Muradin has +4 / +4, Smash , and Spellshield , until he leaves play.'
+    text: Protector
+  - type: Ability
+    text: 'Once per game: {basic} {5}, Say "For Khaz Modan!" → Muradin has +4 / +4, Smash, and Spellshield, until he leaves play.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Warrior

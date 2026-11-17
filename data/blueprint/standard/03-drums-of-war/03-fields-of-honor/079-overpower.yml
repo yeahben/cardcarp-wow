@@ -14,12 +14,15 @@ cost: '6'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : Opposing cards can't be exhausted on your turn."
+    text: "Ongoing: Opposing cards can't be exhausted on your turn."
 
 regulation:
 
 errata: []
-
-temp: Arms

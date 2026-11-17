@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Priest
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero deals 2 unpreventable holy damage to target hero or ally.
+    text: Your hero deals 2 holy damage to target hero or ally. That damage can't be prevented.
 
 regulation:
 
 errata: []
-
-temp: Holy

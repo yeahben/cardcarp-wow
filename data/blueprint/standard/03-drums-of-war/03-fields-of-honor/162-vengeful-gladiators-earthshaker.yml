@@ -1,4 +1,4 @@
-name: Vengeful Gladiators Earthshaker
+name: Vengeful Gladiator's Earthshaker
 
 origin: fields-of-honor-162
 
@@ -7,19 +7,41 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor Set
+  - Mail
+
 trait:
 
 cost: '7'
 
+defense: 7
+
 class:
   - Shaman
 
+limit:
+  - name: Chest
+    count: 1
+  - name: Hands
+    count: 1
+  - name: Head
+    count: 1
+  - name: Legs
+    count: 1
+  - name: Shoulder
+    count: 1
+
+instant: false
+
+type: Arena
+
 rule:
   - type: Ability
-    text: When combat damage is dealt with one or more of your weapons, ready all of your weapons. → Your hero deals 2 frost damage to target hero or ally. A character dealt damage this way can't attack or protect this turn.
+    text: When combat damage is dealt with one or more of your weapons, ready all of your weapons.
+  - type: Ability
+    text: "{activate} → Your hero deals 2 frost damage to target hero or ally. A character dealt damage this way can't attack or protect this turn."
 
 regulation:
 
 errata: []
-
-temp: Arena Armor Set Mail

@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: Opponents can't target this ally.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Goblin Priest

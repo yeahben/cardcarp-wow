@@ -7,22 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
 
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
 
-instant: Your hero has Mend 1 for each face-up resource you control.
+limit:
+  - name: Neck
+    count: 1
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero has Mend 1 for each face-up resource you control.
 
 regulation:
 
 errata: []
-
-temp: Item Neck

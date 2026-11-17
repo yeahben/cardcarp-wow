@@ -15,12 +15,18 @@ class:
   - Priest
   - Warlock
 
+talent:
+  - Shadow
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target hero or ally. Ongoing : At the start of your turn, your hero deals 2 shadow damage to attached character.'
+    text: Attach to target hero or ally.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero deals 2 shadow damage to attached character.'
 
 regulation:
 
 errata: []
-
-temp: Shadow Affliction

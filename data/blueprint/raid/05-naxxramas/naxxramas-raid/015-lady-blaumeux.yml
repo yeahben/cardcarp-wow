@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Horseman
+
 trait:
 
 damage: 3
@@ -15,18 +19,27 @@ health: 10
 
 combat: Shadow
 
-type: Ally
+race: Human
+
+class:
+  - Death Knight
+
+instant: false
 
 rule:
   - type: Ability
     position: Front
-    text: Long-Range At the end of your turn, the raid leader chooses a raiding ability or equipment. Remove it from the game.
+    text: Long-Range
+  - type: Ability
+    position: Front
+    text: At the end of your turn, the raid leader chooses a raiding ability or equipment. Remove it from the game.
   - type: Ability
     position: Reverse
-    text: Long-Range At the end of your turn, remove all raiding abilities and equipment from the game.
+    text: Long-Range
+  - type: Ability
+    position: Reverse
+    text: At the end of your turn, remove all raiding abilities and equipment from the game.
 
 regulation:
 
 errata: []
-
-temp: Human Death Knight Horseman

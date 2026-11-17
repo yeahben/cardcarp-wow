@@ -13,12 +13,12 @@ cost: '1'
 
 faction: Horde
 
+instant: false
+
 rule:
   - type: Ability
-    text: Target ally in your party has Ferocity this turn.
+    text: Target ally in your party has ferocity this turn. (It can attack immediately.)
 
 regulation:
 
 errata: []
-
-temp: ''

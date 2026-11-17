@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - King
+
 trait:
 
 cost: '5'
@@ -19,12 +22,25 @@ combat: Melee
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Warrior
+
+limit:
+  - name: Genn
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aberration This ally has +2 / +2 for each other Worgen you control. While this ally is ready, opposing heroes and allies can't attack other Worgen you control.
+    text: Aberration
+  - type: Ability
+    text: This ally has +2 / +2 for each other Worgen you control.
+  - type: Ability
+    text: While this ally is ready, opponents can't attack other Worgen you control.
 
 regulation:
 
 errata: []
-
-temp: Worgen Warrior King

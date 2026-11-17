@@ -13,13 +13,23 @@ health: 29
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Paladin
+
+talent:
+  - Holy
+
+profession:
+  - Blacksmithing
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 5 , Flip Bronson → The next time target ally would be dealt damage this turn, prevent it, and your hero heals 1 damage from that ally for each damage prevented this way.
+    text: '{5}, Flip Bronson → The next time target ally would be dealt damage this turn, prevent it, and your hero heals 1 damage from that ally for each damage prevented this way.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Paladin

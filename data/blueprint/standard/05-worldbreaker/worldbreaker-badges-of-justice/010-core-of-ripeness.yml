@@ -7,22 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this item enters play, reveal the top two cards of your deck, then place them into your resource row exhausted as additional resources. When this item leaves play, destroy three resources you control.
+    text: When this item enters play, reveal the top two cards of your deck, then place them into your resource row exhausted as additional resources.
+  - type: Ability
+    text: When this item leaves play, destroy three resources you control.
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

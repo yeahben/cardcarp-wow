@@ -13,13 +13,23 @@ health: 31
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Warrior
+
+talent:
+  - Arms
+
+profession:
+  - Enchanting
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Kaniya → Heroes and allies in your party are Protectors this turn.
+    text: '{3}, Flip Kaniya → Heroes and allies in your party are protectors this turn.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Warrior

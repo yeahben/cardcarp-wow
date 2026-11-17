@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Hunter
 
+talent:
+  - Survival
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target hero or ally you control, then Delve . Ongoing : When attached character deals damage to an opposing hero, Delve .'
+    text: Attach to target hero or ally you control, then Delve.
+  - type: Ability
+    text: 'Ongoing: When attached character deals damage to an opposing hero, Delve. (Look at the top two cards of your deck. Put any number of them on top of your deck in any order, and the rest on the bottom.)'
 
 regulation:
 
 errata: []
-
-temp: Survival

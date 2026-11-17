@@ -9,6 +9,8 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
     text: Each player destroys allies in his party until he controls the same number as the player with the fewest allies. Repeat this process for abilities, equipment, and resources.
@@ -16,5 +18,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

@@ -19,12 +19,22 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Hunter
+
+limit:
+  - name: Unlimited
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive This ally has Assault 1 for each other Night Elf ally you control.
+    text: Elusive (This ally can't be attacked.)
+  - type: Ability
+    text: This ally has Assault 1 for each other Night Elf ally you control. (She has +1 ATK on your turn for each.)
 
 regulation:
 
 errata: []
-
-temp: Night Elf Hunter

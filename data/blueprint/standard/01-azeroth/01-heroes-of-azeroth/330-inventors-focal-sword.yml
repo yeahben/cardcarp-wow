@@ -1,4 +1,4 @@
-name: Inventors Focal Sword
+name: Inventor's Focal Sword
 
 origin: heroes-of-azeroth-330
 
@@ -7,21 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Sword
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 2
+
+combat: Melee
+
 class:
+  - Mage
   - Paladin
   - Warlock
-  - Mage
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 2 , → If target ability is attached to a hero or ally, attach it to another hero or ally.
+    text: '{2}, {activate} → If target ability is attached to a hero or ally, attach it to another hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

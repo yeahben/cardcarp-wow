@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Time is Money → Destroy all opposing damaged allies.
+    text: Time is Money (This ally may use {activate} powers immediately.)
+  - type: Ability
+    text: '{activate} → Destroy all opposing damaged allies.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Warrior

@@ -8,6 +8,7 @@ category:
   - Ally
 
 trait:
+  - 2 XP
 
 damage: 6
 
@@ -15,14 +16,21 @@ health: 6
 
 combat: Melee
 
+race: Human
+
+class:
+  - Hunter
+
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: 'Boss Bloodlust : When Loksey attacks, ready Mograine. The next time Mograine attacks this turn, he attacks a random non-MARKED hero.'
+    text: Boss (The Dungeon hero can't be attacked.)
+  - type: Ability
+    text: 'Bloodlust: When Loksey attacks, ready Mograine. The next time Mograine attacks this turn, he attacks a random non-MARKED hero.'
 
 regulation:
 
 errata: []
-
-temp: Human Hunter

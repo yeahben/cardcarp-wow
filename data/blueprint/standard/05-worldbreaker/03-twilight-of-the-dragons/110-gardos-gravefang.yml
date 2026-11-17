@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When this ally is destroyed, you may put target card in a graveyard on the bottom of its owner's deck.
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
+  - type: Ability
+    text: When this ally is destroyed, you may put target card in a graveyard on the bottom of its owner's deck.
 
 regulation:
 
 errata: []
-
-temp: Worgen Death Knight

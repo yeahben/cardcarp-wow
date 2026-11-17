@@ -13,13 +13,16 @@ health: 26
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Priest
+
 rule:
   - type: Ability
     position: Front
-    text: "On your turn: 5 , Flip Cassie → Target opponent chooses an ability, ally, and equipment he controls. Put each of them into it's owner's hand."
+    text: "On your turn: {5}, Flip Cassie → Target opponent chooses an ability, ally, and equipment he controls. Put each of them into its owner's hand."
 
 regulation:
 
 errata: []
-
-temp: Gnome Priest

@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Druid
 
-instant: 'Attach to target ally. Ongoing : Attached ally has +2 / +2.'
+talent:
+  - Restoration
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +2 ATK and +2 health.'
 
 regulation:
 
 errata: []
-
-temp: Restoration

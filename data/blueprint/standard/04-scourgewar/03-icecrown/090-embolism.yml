@@ -15,6 +15,12 @@ class:
   - Priest
   - Rogue
 
+talent:
+  - Shadow
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
     text: Target player discards X cards, where X is the cost of a non-hero Priest or Rogue you control.
@@ -22,5 +28,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Shadow Subtlety

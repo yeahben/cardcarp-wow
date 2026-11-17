@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Pygmy
+
 trait:
 
 cost: '4'
@@ -17,14 +20,18 @@ health: 3
 
 combat: Melee
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Monster Hero Required Elusive , Mend 2 , Protector When this ally is destroyed, put three 1 / 1 Pygmy Monster ally tokens into play, the first with Elusive , the second with Mend 2 , and the third with Protector .
+    text: Monster Hero Required
+  - type: Ability
+    text: Elusive, Mend 2, Protector
+  - type: Ability
+    text: When this ally is destroyed, put three 1 {melee} / 1 {health} Pygmy Monster ally tokens into play, the first with Elusive, the second with Mend 2, and the third with Protector.
 
 regulation:
 
 errata: []
-
-temp: Pygmy

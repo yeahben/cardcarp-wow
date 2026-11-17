@@ -5,8 +5,11 @@ origin: arena-grand-melee-blank-006
 layout: Standard
 
 category:
+  - Misc
 
 trait:
+
+instant: false
 
 rule: []
 

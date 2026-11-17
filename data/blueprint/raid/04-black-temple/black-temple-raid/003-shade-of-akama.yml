@@ -7,7 +7,14 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Broken
+  - Traitor
+
 trait:
+  - 2 Events
+
+cost: '6'
 
 type: Boss
 
@@ -16,13 +23,20 @@ stage: 3
 rule:
   - type: Ability
     position: Front
-    text: Immune At the start of your turn, Shade of Akama deals 1 melee damage to target opposing hero or ally for each Ashtongue Channeler in your party. When the last Ashtongue Channeler leaves your party, flip Shade of Akama.
+    text: Immune (Can't be attacked, damaged, or targeted.)
+  - type: Ability
+    position: Front
+    text: At the start of your turn, Shade of Akama deals 1 melee damage to target opposing hero or ally for each Ashtongue Channeler in your party.
+  - type: Ability
+    position: Front
+    text: When the last Ashtongue Channeler leaves your party, flip Shade of Akama.
   - type: Ability
     position: Reverse
-    text: '(Printed: 7 ) Shade of Akama has +3 ATK while attacking. At the start of your turn, choose an opposing hero. Shade of Akama has an additional +3 ATK while attacking that hero this turn. When that hero is destroyed this turn, destroy all opposing heroes.'
+    text: Shade of Akama has +3 ATK while attacking.
+  - type: Ability
+    position: Reverse
+    text: At the start of your turn, choose an opposing hero. Shade of Akama has an additional +3 ATK while attacking that hero this turn. When that hero is destroyed this turn, destroy all opposing heroes.
 
 regulation:
 
 errata: []
-
-temp: Broken Traitor

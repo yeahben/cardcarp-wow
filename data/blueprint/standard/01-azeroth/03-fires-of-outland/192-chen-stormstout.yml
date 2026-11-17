@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Pandaren
+  - Brewmaster
+
 trait:
 
 cost: '7'
@@ -17,12 +21,17 @@ health: 6
 
 combat: Melee
 
-instant: When Chen Stormstout enters play, say "I bring PANDA-MONIUM!" and opposing allies can't attack this turn. 3 , Say "Another round?" → Target ally can't attack this turn.
+limit:
+  - name: Unique
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: When Chen Stormstout enters play, say "I bring PANDA-MONIUM!" and opposing allies can't attack this turn.
+  - type: Ability
+    text: "{3}, Say \"Another round?\" → Target ally can't attack this turn."
 
 regulation:
 
 errata: []
-
-temp: Pandaren Brewmaster

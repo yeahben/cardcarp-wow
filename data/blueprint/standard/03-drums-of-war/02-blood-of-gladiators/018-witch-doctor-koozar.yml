@@ -13,13 +13,23 @@ health: 26
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Priest
+
+talent:
+  - Discipline
+
+profession:
+  - Mining
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Koo'zar → Ready up to three target resources.
+    text: "{1}, Flip Koo'zar → Ready up to three target resources."
 
 regulation:
 
 errata: []
-
-temp: Troll Priest

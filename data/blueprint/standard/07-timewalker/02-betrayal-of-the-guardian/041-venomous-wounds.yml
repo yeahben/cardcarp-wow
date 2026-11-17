@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Assassination Talent Ongoing : At the end of your turn, if your hero dealt combat damage to a hero this turn, trigger each Poison you control.'
+    text: Assassination Talent (You can't put Combat Talents or Subtlety Talents in your deck.)
+  - type: Ability
+    text: 'Ongoing: At the end of your turn, if your hero dealt combat damage to a hero this turn, trigger each Poison you control.'
 
 regulation:
 
 errata: []
-
-temp: Assassination

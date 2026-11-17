@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Blue
+  - Dragonkin
+
 trait:
 
 cost: '2'
@@ -17,6 +21,8 @@ health: 4
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
     text: When you play an ability, this ally heals 2 damage from target hero or ally.
@@ -24,5 +30,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Blue Dragonkin

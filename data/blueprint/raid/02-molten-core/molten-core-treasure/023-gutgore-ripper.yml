@@ -7,14 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Dagger
+
 trait:
 
 cost: '3'
 
+damage: 2
+
+strike: 2
+
+combat: Melee
+
 class:
-  - Warrior
-  - Shaman
   - Rogue
+  - Shaman
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -23,5 +39,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

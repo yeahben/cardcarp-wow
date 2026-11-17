@@ -7,14 +7,19 @@ layout: Standard
 category:
   - Location
 
+subtype:
+  - Objective
+
 trait:
+
+capture: 3
 
 rule:
   - type: Ability
-    text: When an opposing ally is destroyed, add a capture counter. , Remove three capture counters → Draw a card.
+    text: When an opposing ally is destroyed, add a capture counter.
+  - type: Ability
+    text: '{activate}, Remove three capture counters → Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Objective

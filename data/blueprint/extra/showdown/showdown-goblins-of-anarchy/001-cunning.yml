@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Biker
+
 trait:
 
 cost: '2'
@@ -17,12 +20,23 @@ health: 2
 
 combat: Nature
 
+race: Goblin
+
+class:
+  - Hunter
+
+limit:
+  - name: Cunning
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Time is Money On your turn: → This ally deals 1 nature damage to each opposing hero and ally for each Biker you control.'
+    text: Time is Money
+  - type: Ability
+    text: 'On your turn: {activate} → This ally deals 1 nature damage to each opposing hero and ally for each Biker you control.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Hunter Biker

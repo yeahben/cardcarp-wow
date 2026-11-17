@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Biker
+
 trait:
 
 cost: '2'
@@ -17,12 +20,23 @@ health: 2
 
 combat: Melee
 
+race: Goblin
+
+class:
+  - Rogue
+
+limit:
+  - name: Money
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Time is Money On your turn: → Draw a card for each Biker you control.'
+    text: Time is Money
+  - type: Ability
+    text: 'On your turn: {activate} → Draw a card for each Biker you control.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Rogue Biker

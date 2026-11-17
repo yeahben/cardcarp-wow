@@ -17,12 +17,21 @@ health: 5
 
 combat: Shadow
 
+race: Undead
+
+class:
+  - Priest
+
+limit:
+  - name: Ashbury
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When Ashbury enters play, he deals shadow damage to each opposing ally equal to that ally's remaining -1.
+    text: When Ashbury enters play, he deals shadow damage to each opposing ally equal to that ally's remaining {health} -1.
 
 regulation:
 
 errata: []
-
-temp: Undead Priest

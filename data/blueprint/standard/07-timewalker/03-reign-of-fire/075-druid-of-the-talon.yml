@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive → If target hero or ally would be dealt damage this turn, it's dealt that much +1 instead.
+    text: Elusive
+  - type: Ability
+    text: "{basic} {activate} → If target hero or ally would be dealt damage this turn, it's dealt that much +1 instead."
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

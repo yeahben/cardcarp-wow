@@ -17,14 +17,19 @@ health: 3
 
 combat: Nature
 
+race: Goblin
+
+class:
+  - Rogue
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: → Put target equipment you control into its owner's hand.
+    text: "{activate} → Put target equipment you control into its owner's hand."
 
 regulation:
 
 errata: []
-
-temp: Goblin Rogue

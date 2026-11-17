@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+talent:
+  - Balance
+
+profession:
+  - Skinning
+  - Enchanting
+
 rule:
   - type: Ability
     position: Front
-    text: '4 , Flip Taheo → Choose one: Taheo deals 3 nature damage to target hero or ally; or Taheo heals 6 damage from target hero or ally. Use only on your turn.'
+    text: '{4}, Flip Taheo → Choose one: Taheo deals 3 nature damage to target hero or ally; or Taheo heals 6 damage from target hero or ally. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

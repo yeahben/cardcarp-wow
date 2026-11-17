@@ -7,19 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Dagger
+
 trait:
 
 cost: '3'
 
+damage: 3
+
+strike: 3
+
+combat: Melee
+
 class:
   - Rogue
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of your turn, if this weapon has two or fewer Demonic Counters on it, add a Demonic counter. This weapon has +1 ATK and costs 1 less to strike with for each Demonic counter on it.
+    text: At the start of your turn, if this weapon has two or fewer Demonic counters on it, add a Demonic counter.
+  - type: Ability
+    text: This weapon has +1 ATK and costs {1} less to strike with for each Demonic counter on it.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

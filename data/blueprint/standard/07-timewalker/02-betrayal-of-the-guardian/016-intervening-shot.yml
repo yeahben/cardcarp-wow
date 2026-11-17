@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Hunter
 
-instant: Put target defending ally you control into its owner's hand. Your hero deals 5 ranged damage to target attacker.
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Put target defending ally you control into its owner's hand. Your hero deals 5 ranged damage to target attacker.
 
 regulation:
 
 errata: []
-
-temp: Survival

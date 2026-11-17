@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Shaman
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Restoration Talent Your hero heals 5 damage from target hero or ally. Then, this ability enters play with a tide counter for each damage healed this way. Ongoing : , Remove a tide counter from this ability → Target hero or ally has Assault 1 this turn. If no tide counters remain, destroy this ability.'
+    text: Restoration Talent (You can't put Elemental Talents or Enhancement Talents in your deck.)
+  - type: Ability
+    text: Your hero heals 5 damage from target hero or ally. Then, this ability enters play with a tide counter for each damage healed this way.
+  - type: Ability
+    text: 'Ongoing: {activate}, Remove a tide counter from this ability → Target hero or ally has Assault 1 this turn. If no tide counters remain, destroy this ability.'
 
 regulation:
 
 errata: []
-
-temp: Restoration

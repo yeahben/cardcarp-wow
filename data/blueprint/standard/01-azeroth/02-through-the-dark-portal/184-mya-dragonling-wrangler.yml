@@ -19,6 +19,13 @@ combat: Frost
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
     text: When Mya enters play, put a Mechanical Dragonling ally token with 1 ATK and 1 health into play.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Gnome Mage

@@ -11,12 +11,12 @@ trait:
 
 cost: '1'
 
+instant: false
+
 rule:
   - type: Ability
-    text: Murloc allies you control have +1 ATK and Ferocity this turn.
+    text: Murloc allies you control have +1 ATK and Ferocity this turn. (They can attack immediately.)
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: When Vorden enters play, destroy any number of allies in your party, then destroy an opposing ally for each ally destroyed this way.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Orc Warlock

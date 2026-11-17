@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Curse
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target hero or ally. Ongoing : At the start of attached character's controller's turn, exhaust it unless he pays 4 ."
+    text: Attach to target hero or ally.
+  - type: Ability
+    text: "Ongoing: At the start of attached character's controller's turn, exhaust it unless he pays {4}."
 
 regulation:
 
 errata: []
-
-temp: Affliction Curse

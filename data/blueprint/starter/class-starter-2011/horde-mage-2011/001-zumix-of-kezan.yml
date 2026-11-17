@@ -13,13 +13,16 @@ health: 25
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Mage
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 4 , Flip Zumix → Draw two cards.'
+    text: 'On your turn: {4}, Flip Zumix → Draw two cards.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Mage

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Demonology Hero Required Ongoing : , Destroy a Demon in your party → Draw two cards.'
+    text: Demonology Hero Required
+  - type: Ability
+    text: 'Ongoing: {activate}, Destroy a Demon in your party → Draw two cards.'
 
 regulation:
 
 errata: []
-
-temp: Demonology Talent

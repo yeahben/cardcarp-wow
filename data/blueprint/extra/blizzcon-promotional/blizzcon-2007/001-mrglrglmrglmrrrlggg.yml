@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Murloc
+
 trait:
 
 cost: '5'
@@ -17,12 +20,12 @@ health: 2
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: When Mrglrglmrglmrrrlggg attacks, say "Mrglrglmrglmrrrlggg!" Then, put two Murloc ally tokens with +1 ATK, 1 health, and Ferocity into play.
+    text: When Mrglrglmrglmrrrlggg attacks, say "Mrglrglmrglmrrrlggg!" Then, put two Murloc ally tokens with 1 ATK, 1 health, and ferocity into play.
 
 regulation:
 
 errata: []
-
-temp: Murloc

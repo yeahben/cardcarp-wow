@@ -7,21 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Wand
+
 trait:
 
 cost: '1'
 
+damage: 1
+
+strike: 1
+
+combat: Holy
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Wand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Damage that would be dealt with this weapon is unpreventable.
+    text: Damage that would be dealt with Wand of Eternal Light is unpreventable.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Wand

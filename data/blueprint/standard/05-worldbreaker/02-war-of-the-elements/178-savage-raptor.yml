@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Raptor
+
 trait:
 
 cost: '9'
@@ -17,12 +20,14 @@ health: 15
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity This ally has +1 ATK for each damage on it.
+    text: Ferocity
+  - type: Ability
+    text: This ally has +1 ATK for each damage on it.
 
 regulation:
 
 errata: []
-
-temp: Raptor

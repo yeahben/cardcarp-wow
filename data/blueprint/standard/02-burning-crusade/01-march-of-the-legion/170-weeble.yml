@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When Weeble enters play, draw a card.
+    text: Protector
+  - type: Ability
+    text: When Weeble enters play, draw two cards.
 
 regulation:
 
 errata: []
-
-temp: Gnome Warrior

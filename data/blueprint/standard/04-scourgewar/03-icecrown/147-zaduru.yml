@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: This ally has Assault 1 for each ready opposing resource.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Priest

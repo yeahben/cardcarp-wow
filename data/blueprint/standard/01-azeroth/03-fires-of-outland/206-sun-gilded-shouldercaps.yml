@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '2'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
-instant: When Sun-Gilded Shouldercaps enters play, you may exhaust target ally.
+limit:
+  - name: Shoulder
+    count: 1
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: When Sun-Gilded Shouldercaps enters play, you may exhaust target ally.
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

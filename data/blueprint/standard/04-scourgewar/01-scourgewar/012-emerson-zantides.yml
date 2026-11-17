@@ -13,6 +13,18 @@ health: 26
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Priest
+
+talent:
+  - Shadow
+
+profession:
+  - Tailoring
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
@@ -21,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Priest

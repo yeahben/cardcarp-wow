@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target equipment. Ongoing : Attached equipment loses and can't have powers and can't be exhausted."
+    text: Attach to target equipment.
+  - type: Ability
+    text: "Ongoing: Attached equipment loses and can't have powers and can't be exhausted."
 
 regulation:
 
 errata: []
-
-temp: Arcane

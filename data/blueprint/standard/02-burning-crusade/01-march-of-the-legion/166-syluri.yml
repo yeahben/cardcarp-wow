@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector , Destroy Syluri → Destroy target equipment.
+    text: Protector
+  - type: Ability
+    text: '{activate}, Destroy Syluri → Destroy target equipment.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Warrior

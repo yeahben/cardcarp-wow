@@ -7,28 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Hearthstone
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'On your turn: 1 , → Remove target ally you control from the game. On your turn: 1 , → Put an ally removed by a card named Portal Stone into play under your control.'
+    text: 'On your turn: {1}, {activate} → Remove target ally you control from the game.'
+  - type: Ability
+    text: 'On your turn: {1}, {activate} → Put an ally removed by a card named Portal Stone into play under your control.'
 
 regulation:
 
 errata: []
-
-temp: Item

@@ -1,4 +1,4 @@
-name: Alchemists Stone
+name: Alchemist's Stone
 
 origin: azeroth-crafting-011
 
@@ -7,27 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
-  - Paladin
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: Alchemy Hero Required → Reveal the top card of your deck. You may discard a card with a different type. If you do, put that revealed card into hand.
+    text: Alchemy Hero Required
+  - type: Ability
+    text: '{activate} → Reveal the top card of your deck. You may discard a card with a different type. If you do, put that revealed card into hand.'
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

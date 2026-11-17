@@ -5,7 +5,10 @@ origin: crown-of-the-heavens-005
 layout: Standard
 
 category:
-  - Hero
+  - Master Hero
+
+subtype:
+  - Demigod
 
 trait:
 
@@ -17,15 +20,21 @@ health: 35
 
 combat: Nature
 
-type: Master
+class:
+  - Druid
+
+instant: false
+
+type: Monster
 
 rule:
   - type: Ability
     position: Front
-    text: You pay 4 less to play Cenarius if you control at least two allies each with cost 4 or more. When your hero becomes Cenarius, reveal the top ten cards of your deck. Put all revealed allies into play and the rest on the bottom of your deck.
+    text: You pay {4} less to play Cenarius if you control at least two allies each with cost 4 or more.
+  - type: Ability
+    position: Front
+    text: When your hero becomes Cenarius, reveal the top ten cards of your deck. Put all revealed allies into play and the rest on the bottom of your deck.
 
 regulation:
 
 errata: []
-
-temp: Druid Demigod

@@ -13,10 +13,10 @@ faction: Alliance
 
 rule:
   - type: Ability
-    text: 'Pay 3 to complete this quest. Reward : Draw a card. You may choose a counter on target card in play and add another of those counters to it.'
+    text: Pay {3} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card. You may choose a counter on target card in play and add another of those counters to it.'
 
 regulation:
 
 errata: []
-
-temp: ''

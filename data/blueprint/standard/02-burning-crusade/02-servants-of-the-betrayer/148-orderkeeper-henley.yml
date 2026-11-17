@@ -19,12 +19,17 @@ combat: Frost
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Opponents play 2 more to play abilities.
+    text: Opponents pay {2} more to play abilities.
 
 regulation:
 
 errata: []
-
-temp: Human Mage

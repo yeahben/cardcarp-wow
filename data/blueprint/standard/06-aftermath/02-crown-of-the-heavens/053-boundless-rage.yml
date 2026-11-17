@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: Eternal Target ally has +1 ATK this turn for each resource you control.
+    text: Eternal (When this enters your graveyard from anywhere, you may shuffle it into your deck.)
+  - type: Ability
+    text: Target ally has +1 ATK this turn for each resource you control.
 
 regulation:
 
 errata: []
-
-temp: Fury

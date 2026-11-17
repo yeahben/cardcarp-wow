@@ -5,10 +5,33 @@ origin: war-of-the-ancients-token-002
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
 
 trait:
 
-rule: []
+damage: 2
+
+health: 2
+
+combat: Melee
+
+faction: Horde
+
+race: Orc
+
+class:
+  - Warrior
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Ferocity
+  - type: Ability
+    text: This ally can attack only heroes.
 
 regulation:
 

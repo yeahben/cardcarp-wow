@@ -1,4 +1,4 @@
-name: Kel'Thuzads Guardians
+name: Kel'Thuzad's Guardians
 
 origin: naxxramas-raid-064
 
@@ -9,16 +9,18 @@ category:
 
 trait:
 
-type: Raid
+instant: false
+
+type: Kel'Thuzad
 
 stage: 4
 
+sequence: 4
+
 rule:
   - type: Ability
-    text: 'Ongoing : At the end of your turn, put a Guardian of Icecrown into play.'
+    text: 'Ongoing: At the end of your turn, put a Guardian of Icecrown into play.'
 
 regulation:
 
 errata: []
-
-temp: ''

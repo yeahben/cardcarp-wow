@@ -19,12 +19,21 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Hardiness 2 , Destroy another ally in your party → Destroy target weapon.
+    text: Protector
+  - type: Ability
+    text: Hardiness (If this ally would be dealt damage, prevent 1 of it.)
+  - type: Ability
+    text: '{2}, Destroy another ally in your party → Destroy target weapon.'
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

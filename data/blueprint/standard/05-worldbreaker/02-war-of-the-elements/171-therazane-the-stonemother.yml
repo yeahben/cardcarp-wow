@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Earth
+  - Elemental
+  - Lord
+
 trait:
 
 cost: '7'
@@ -17,12 +22,20 @@ health: 9
 
 combat: Melee
 
+limit:
+  - name: Therazane
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Earth Elementals you control have Protector . At the start of your turn, put a 2 / 1 Earth Elemental ally token into play. Destroy an Earth Elemental you control → Ready target hero or ally you control.
+    text: Earth Elementals you control have Protector.
+  - type: Ability
+    text: At the start of your turn, put a 2 {melee} / 1 {health} Earth Elemental ally token into play.
+  - type: Ability
+    text: Destroy an Earth Elemental you control → Ready target hero or ally you control.
 
 regulation:
 
 errata: []
-
-temp: Earth Elemental Lord

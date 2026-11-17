@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Yeti
+
 trait:
 
 cost: '5'
@@ -17,14 +20,20 @@ health: 5
 
 combat: Melee
 
+limit:
+  - name: Greench
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Smash When the Greench enters play and when he attacks, search target opponent's deck for a card and remove it from the game.
+    text: Smash
+  - type: Ability
+    text: When the Greench enters play and when he attacks, search target opponent's deck for a card and remove it from the game.
 
 regulation:
 
 errata: []
-
-temp: Yeti

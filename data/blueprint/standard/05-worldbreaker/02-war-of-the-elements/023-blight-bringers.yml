@@ -14,6 +14,11 @@ cost: '1'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
     text: Up to three target allies have -3 ATK this turn.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Unholy

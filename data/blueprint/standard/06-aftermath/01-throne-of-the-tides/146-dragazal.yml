@@ -19,10 +19,15 @@ combat: Frost
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Mage
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Orc Mage

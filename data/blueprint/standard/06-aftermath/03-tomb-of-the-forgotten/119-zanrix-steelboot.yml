@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: 3 , Exhaust an equipment you control → Exhaust target ally.
+    text: '{3}, Exhaust an equipment you control → Exhaust target ally.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Warrior

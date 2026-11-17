@@ -7,21 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '6'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Back
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this armor enters play, choose "Demon", a race, or an race. When you play a non-Ongoing ability, if you control two or more allies of the chosen race, you may copy that ability. (You may choose new targets for the copy.)
+    text: When this armor enters play, choose "Demon," a {horde} race, or an {alliance} race.
+  - type: Ability
+    text: When you play a non-Ongoing ability, if you control two or more allies of the chosen race, you may copy that ability. (You may choose new targets for the copy.)
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

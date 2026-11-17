@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Paladin
 
-instant: Prevent all damage that target hero or ally would deal this turn.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Prevent all damage that target hero or ally would deal this turn.
 
 regulation:
 
 errata: []
-
-temp: Protection

@@ -7,14 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Dagger
+
 trait:
 
 cost: '4'
 
+damage: 2
+
+strike: 0
+
+combat: Melee
+
 class:
-  - Shaman
   - Hunter
   - Rogue
+  - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -23,5 +40,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

@@ -19,12 +19,19 @@ combat: Ranged
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Arcane Resistance Nature Resistance
+    text: Arcane Resistance (Prevent all arcane or {arcane} damage that this ally would be dealt.)
+  - type: Ability
+    text: Nature Resistance (Prevent all nature or {nature} damage that this ally would be dealt.)
 
 regulation:
 
 errata: []
-
-temp: Draenei Hunter

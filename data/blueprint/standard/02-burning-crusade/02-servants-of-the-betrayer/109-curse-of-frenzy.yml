@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Curse
+
 trait:
 
 cost: '1'
@@ -14,12 +17,17 @@ cost: '1'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally. Ongoing : Attached ally must attack if able and can attack only allies if able.'
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally must attack if able and can attack only allies if able.'
 
 regulation:
 
 errata: []
-
-temp: Affliction Curse

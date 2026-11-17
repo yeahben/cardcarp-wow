@@ -2,13 +2,13 @@ blueprint: dalronn-the-controller-icecrown-005
 
 index: '005'
 
-rarity:
+rarity: Uncommon
 
-artist:
+artist: Dan Scott
 
 variation:
   - Flip
 
-flavor:
+flavor: '"Give yourself to the Scourge, and I promise you a painless and hasty transition into the unending service of the Lich King."'
 
 set: Icecrown

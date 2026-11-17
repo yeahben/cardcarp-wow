@@ -9,14 +9,20 @@ category:
 
 trait:
 
+instant: false
+
+type: Betrayer
+
 stage: 2
+
+sequence: 2
 
 rule:
   - type: Ability
-    text: 'Each opponent destroys an ally in his party. Ongoing : Opposing heroes have -5 health.'
+    text: Each opponent destroys an ally in his party.
+  - type: Ability
+    text: 'Ongoing: Opposing heroes have -5 health.'
 
 regulation:
 
 errata: []
-
-temp: ''

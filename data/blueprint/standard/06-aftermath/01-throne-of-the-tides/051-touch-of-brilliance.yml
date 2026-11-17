@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally you control. Ongoing : When attached ally deals combat damage to an opposing hero, draw a card.'
+    text: Attach to target ally you control.
+  - type: Ability
+    text: 'Ongoing: When attached ally deals combat damage to an opposing hero, draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Arcane

@@ -7,21 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Bow
+
 trait:
 
 cost: '4'
 
+damage: 4
+
+strike: 4
+
+combat: Ranged
+
 class:
-  - Warrior
   - Hunter
   - Rogue
+  - Warrior
+
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'When you strike with Black Bow of the Betrayer, your hero has Long-Range this combat. : When an ally is dealt combat damage with Black Bow of the Betrayer, ready up to four of your resources.'
+    text: When you strike with Black Bow of the Betrayer, your hero has long-range this combat.
+  - type: Ability
+    text: '{hunter}: When an ally is dealt combat damage with Black Bow of the Betrayer, ready up to four of your resources.'
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Bow

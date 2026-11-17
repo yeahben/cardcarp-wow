@@ -5,10 +5,30 @@ origin: through-the-dark-portal-tokens-003
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
+  - Bear
 
 trait:
 
-rule: []
+damage: 3
+
+health: 3
+
+combat: Melee
+
+faction: Horde
+
+limit:
+  - name: Unique
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Ferocity
 
 regulation:
 

@@ -19,12 +19,19 @@ combat: Frost
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive This ally has Assault X , where X is the highest cost among other allies you control.
+    text: Elusive (This ally can't be attacked.)
+  - type: Ability
+    text: This ally has Assault X, where X is the highest cost among other allies you control.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Death Knight

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
@@ -14,23 +17,27 @@ cost: '4'
 faction: Horde
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Tabard
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 3 , → Your hero deals 4 melee damage to target opposing hero. You pay 1 less to use this power for each Orc ally you control.
+    text: '{basic} {3}, {activate} → Your hero deals 4 melee damage to target opposing hero. You pay {1} less to use this power for each Orc ally you control.'
 
 regulation:
 
 errata: []
-
-temp: Item Tabard

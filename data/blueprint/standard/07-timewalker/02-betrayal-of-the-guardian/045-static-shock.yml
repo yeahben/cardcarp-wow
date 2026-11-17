@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Attachment
+
 trait:
 
 cost: '1'
@@ -14,12 +17,23 @@ cost: '1'
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Enhancement Talent Attach to target ally or weapon you control. Ongoing : When attached card exhausts, add a static counter to this ability. Attached card has +1 ATK for each static counter on this ability. When attached card is destroyed, your hero deals 1 nature damage to target opposing hero for each static counter on this ability.'
+    text: Enhancement Talent (You can't put Elemental Talents or Restoration Talents in your deck.)
+  - type: Ability
+    text: Attach to target ally or weapon you control.
+  - type: Ability
+    text: 'Ongoing: When attached card exhausts, add a static counter to this ability.'
+  - type: Ability
+    text: Attached card has +1 ATK for each static counter on this ability.
+  - type: Ability
+    text: When attached card is destroyed, your hero deals 1 nature damage to target opposing hero for each static counter on this ability.
 
 regulation:
 
 errata: []
-
-temp: Enhancement Attachment

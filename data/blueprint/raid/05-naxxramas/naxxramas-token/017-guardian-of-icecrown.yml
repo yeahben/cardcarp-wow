@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Crypt Lord
+
 trait:
 
 damage: 0
@@ -15,14 +19,14 @@ health: 0
 
 combat: Melee
 
-type: Ally
+instant: false
 
 rule:
   - type: Ability
-    text: Protector This ally has +1 / +1 for each face-up Event in play.
+    text: Protector
+  - type: Ability
+    text: This ally has +1 / +1 for each face-up Event in play.
 
 regulation:
 
 errata: []
-
-temp: Crypt Lord

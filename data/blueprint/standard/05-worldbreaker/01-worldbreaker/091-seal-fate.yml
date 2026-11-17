@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '1'
@@ -14,12 +17,19 @@ cost: '1'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
-    text: Assassination Hero Required As an additional cost to play this ability, put the top five cards of your deck into your graveyard. Your hero deals melee damage to target hero or ally equal to the number of abilities put into your graveyard this way.
+    text: Assassination Hero Required
+  - type: Ability
+    text: As an additional cost to play this ability, put the top five cards of your deck into your graveyard.
+  - type: Ability
+    text: Your hero deals melee damage to target hero or ally equal to the number of {rogue} abilities put into your graveyard this way.
 
 regulation:
 
 errata: []
-
-temp: Assassination Talent

@@ -19,12 +19,17 @@ combat: Frost
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Tribe : When this or another Tauren ally enters play under your control, target opposing ally has -1 ATK this turn.'
+    text: 'Tribe: When this or another Tauren ally enters play under your control, target opposing ally has -1 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Death Knight

@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+talent:
+  - Feral
+
+profession:
+  - Alchemy
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Maleo → This turn, Maleo is in Cat Form and has Form (1) until you strike with a weapon or play a non-Feral ability.
+    text: '{2}, Flip Maleo → This turn, Maleo is in cat form and has Form (1) until you strike with a weapon or play a non-Feral ability. (+1 ATK while attacking in cat form.)'
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

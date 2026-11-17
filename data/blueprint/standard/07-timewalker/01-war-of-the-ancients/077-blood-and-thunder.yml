@@ -13,12 +13,12 @@ cost: '4'
 
 faction: Horde
 
+instant: false
+
 rule:
   - type: Ability
-    text: Put two 2 / 2 Orc Warrior ally tokens into play with Ferocity and "This ally can attack only heroes."
+    text: Put two 2 {melee} / 2 {health} {horde} Orc Warrior ally tokens into play with Ferocity and "This ally can attack only heroes."
 
 regulation:
 
 errata: []
-
-temp: ''

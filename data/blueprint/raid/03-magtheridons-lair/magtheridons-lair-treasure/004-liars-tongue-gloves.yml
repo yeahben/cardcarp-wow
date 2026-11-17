@@ -1,4 +1,4 @@
-name: Liars Tongue Gloves
+name: Liar's Tongue Gloves
 
 origin: magtheridons-lair-treasure-004
 
@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '4'
+
+defense: 2
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Hands
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , → Name a card type and remove a card in your hand from the game face down. Target opponent guesses whether that card has that type, then reveals it. If he's right, put it into your graveyard. Otherwise, put it into your hand and draw two cards.
+    text: "{1}, {activate} → Name a card type and remove a card in your hand from the game face down. Target opponent guesses whether that card has that type, then reveals it. If he's right, put it into your graveyard. Otherwise, put it into your hand and draw two cards."
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

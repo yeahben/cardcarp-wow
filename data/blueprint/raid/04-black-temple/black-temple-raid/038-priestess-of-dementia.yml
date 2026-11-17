@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Shivan
+  - Demon
+  - Traitor
+
 trait:
 
 cost: '4'
@@ -17,12 +22,14 @@ health: 2
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required 2 , Destroy an ally in your party → Each opponent destroy an ability or equipment he controls.
+    text: Traitor Hero Required
+  - type: Ability
+    text: '{2}, Destroy an ally in your party → Each opponent destroys an ability or equipment he controls.'
 
 regulation:
 
 errata: []
-
-temp: Shivan Demon Traitor

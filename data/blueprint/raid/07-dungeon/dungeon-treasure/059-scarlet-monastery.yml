@@ -11,10 +11,8 @@ trait:
 
 rule:
   - type: Ability
-    text: 1 → Target hero or ally that was healed this turn has Assault 2 this turn.
+    text: '{1}, {activate} → Target hero or ally that was healed this turn has Assault 2 this turn.'
 
 regulation:
 
 errata: []
-
-temp: ''

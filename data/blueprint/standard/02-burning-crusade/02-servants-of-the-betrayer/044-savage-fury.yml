@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Druid
 
+talent:
+  - Feral
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Feral Hero Required Ongoing : When you play a Feral ability, if you control a Form, your hero may deal 2 melee damage to target ally.'
+    text: Feral Hero Required
+  - type: Ability
+    text: 'Ongoing: When you play a Feral ability, if you control a Form, your hero may deal 2 melee damage to target ally.'
 
 regulation:
 
 errata: []
-
-temp: Feral Talent

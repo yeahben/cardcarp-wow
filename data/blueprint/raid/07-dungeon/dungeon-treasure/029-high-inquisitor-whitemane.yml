@@ -17,12 +17,21 @@ health: 8
 
 combat: Holy
 
+race: Human
+
+class:
+  - Priest
+
+limit:
+  - name: Whitemane
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When Whitemane attacks, you may put target ally from your graveyard on top of your deck. If you do, she heals damage from your hero equal to the cost of that ally.
+    text: When Whitemane attacks, you may put target ally from your graveyard on top of your deck. She heals damage from your hero equal to the cost of that ally.
 
 regulation:
 
 errata: []
-
-temp: Human Priest

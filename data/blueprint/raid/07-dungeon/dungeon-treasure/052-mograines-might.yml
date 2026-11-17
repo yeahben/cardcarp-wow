@@ -1,4 +1,4 @@
-name: Mograines Might
+name: Mograine's Might
 
 origin: dungeon-treasure-052
 
@@ -7,14 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Mace
+
 trait:
+
+cost: '3'
+
+damage: 1
+
+strike: 1
+
+combat: Holy
+
+class:
+  - Death Knight
+  - Paladin
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Mograine strikes with this weapon the first time he attacks each turn. This weapon has ATK equal to double Mograine's level.
+    text: When a {holy} ally enters play under your control, this weapon has +X ATK this turn, where X is that ally's ATK.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Mace

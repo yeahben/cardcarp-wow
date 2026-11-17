@@ -1,4 +1,4 @@
-name: Natures Fury
+name: Nature's Fury
 
 origin: worldbreaker-038
 
@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Druid
 
-instant: Your hero deals X nature damage to target hero or ally, where X is the highest ATK among cards you control.
+talent:
+  - Balance
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals X nature damage to target hero or ally, where X is the highest ATK among {nature} cards you control.
 
 regulation:
 
 errata: []
-
-temp: Balance

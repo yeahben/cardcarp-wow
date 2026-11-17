@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive
+    text: Elusive (Can't be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Gnome Mage

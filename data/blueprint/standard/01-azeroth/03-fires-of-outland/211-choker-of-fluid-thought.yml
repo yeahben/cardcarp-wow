@@ -7,23 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
-  - Priest
   - Druid
   - Paladin
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Neck
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: → Reveal the top card of target player's deck. You may remove that card from the game.
+    text: "{activate} → Reveal the top card of target player's deck. You may remove that card from the game."
 
 regulation:
 
 errata: []
-
-temp: Item Neck

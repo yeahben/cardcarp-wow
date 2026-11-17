@@ -9,14 +9,16 @@ category:
 
 trait:
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: 'The Raiders choose three Raiding heroes and/or allies. Godfrey deals 10 shadow damage to each of them. Level 3+ : The Raiders choose six Raiding heroes and/or allies instead.'
+    text: The Raiders choose three Raiding heroes and/or allies. Godfrey deals 10 shadow damage to each of them.
+  - type: Ability
+    text: 'Level 3+: The Raiders choose six Raiding heroes and/or allies instead.'
 
 regulation:
 
 errata: []
-
-temp: ''

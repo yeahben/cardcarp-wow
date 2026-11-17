@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Apothecary
+
 trait:
 
 cost: '3'
@@ -17,6 +20,14 @@ health: 1
 
 combat: Nature
 
+race: Undead
+
+limit:
+  - name: Hummel
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: Hummel has Resistance to each opposing ally's damage type.
@@ -24,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Apothecary

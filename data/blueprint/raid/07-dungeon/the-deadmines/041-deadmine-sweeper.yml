@@ -9,12 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
     text: Defeat The Deadmines without losing a player OR defeat The Deadmines despite losing two players.
+  - type: Ability
+    text: 'Reward: 2 XP'
 
 regulation:
 
 errata: []
-
-temp: ''

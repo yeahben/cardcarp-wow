@@ -7,22 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '6'
 
 class:
   - Druid
-  - Shaman
   - Hunter
   - Rogue
+  - Shaman
+
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: x , , Destroy this item → Destroy all abilities, allies, and equipment with cost X.
+    text: '{basic} {x}, {activate}, Destroy this item → Destroy all abilities, allies, and equipment with cost X.'
 
 regulation:
 
 errata: []
-
-temp: Item Ring

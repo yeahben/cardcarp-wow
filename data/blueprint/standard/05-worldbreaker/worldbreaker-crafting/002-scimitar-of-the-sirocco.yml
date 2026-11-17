@@ -7,21 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Sword
+
 trait:
 
 cost: '4'
 
+damage: 3
+
+strike: 1
+
+combat: Melee
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Artifact When you strike with this weapon, allies you control have Ferocity this turn.
+    text: Artifact (You may play this card from your graveyard.)
+  - type: Ability
+    text: When you strike with this weapon, allies you control have Ferocity this turn.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

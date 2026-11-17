@@ -19,12 +19,20 @@ combat: Holy
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Pay 2 or remove an honor counter from a card you control → Prevent the next 1 damage that Yula would be dealt this turn.
+    text: Pay {2} or remove an honor counter from a card you control → Prevent the next 1 damage that Yula would be dealt this turn.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

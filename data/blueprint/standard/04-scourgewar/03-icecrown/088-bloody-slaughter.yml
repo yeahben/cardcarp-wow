@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '1'
@@ -15,6 +18,12 @@ class:
   - Druid
   - Rogue
 
+talent:
+  - Feral
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero deals X melee damage to target exhausted hero or ally, where X is the cost of a non-hero Druid or Rogue you control.
@@ -22,5 +31,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Feral Assassination Combo

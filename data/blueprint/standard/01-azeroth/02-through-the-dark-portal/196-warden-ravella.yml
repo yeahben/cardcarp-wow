@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector , Untargetable
+    text: Protector, Untargetable
 
 regulation:
 
 errata: []
-
-temp: Night Elf Warrior

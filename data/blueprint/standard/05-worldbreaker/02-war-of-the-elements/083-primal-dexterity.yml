@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Your hero has Dual Wield . When you play or strike with a weapon, you may pay 1 . If you do, your hero deals 2 nature damage to target hero or ally.'
+    text: 'Ongoing: Your hero has Dual Wield.'
+  - type: Ability
+    text: When you play or strike with a weapon, you may pay {1}. If you do, your hero deals 2 nature damage to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Enhancement

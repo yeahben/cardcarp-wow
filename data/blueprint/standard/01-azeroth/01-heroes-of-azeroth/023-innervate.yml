@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Druid
 
-instant: Target player draws three cards.
+talent:
+  - Restoration
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target player draws three cards.
 
 regulation:
 
 errata: []
-
-temp: Restoration

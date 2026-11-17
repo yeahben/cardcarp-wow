@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Druid
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target hero or ally. Ongoing : At the start of your turn, your hero heals 1 damage from attached character. 1 , Destroy Lifebloom → Your hero heals 4 damage from attached character.'
+    text: Attach to target hero or ally.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero heals 1 damage from attached character.'
+  - type: Ability
+    text: '{1}, Destroy Lifebloom → Your hero heals 4 damage from attached character.'
 
 regulation:
 
 errata: []
-
-temp: Restoration

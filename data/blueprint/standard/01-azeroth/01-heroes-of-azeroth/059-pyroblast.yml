@@ -7,19 +7,29 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '8'
 
 class:
-  - Paladin
+  - Mage
+
+talent:
+  - Fire
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Fire Hero Required Attach to target hero or ally, and your hero deals 6 fire damage to it. Ongoing : At the start of your turn, your hero deals 2 fire damage to attached character.'
+    text: Fire Hero Required
+  - type: Ability
+    text: Attach to target hero or ally, and your hero deals 6 fire damage to it.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero deals 2 fire damage to attached character.'
 
 regulation:
 
 errata: []
-
-temp: Fire Talent

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Naga
+
 trait:
 
 cost: '2'
@@ -17,14 +20,17 @@ health: 1
 
 combat: Melee
 
+class:
+  - Hunter
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: When this ally enters play, Delve .
+    text: When this ally enters play, Delve. (Look at the top two cards of your deck. Put any number of them on top of your deck in any order, and the rest on the bottom.)
 
 regulation:
 
 errata: []
-
-temp: Naga Hunter

@@ -7,22 +7,39 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Mace
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 2
+
+combat: Melee
+
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'If your hero would heal damage, it heals double that much instead. While your hero is undamaged: 4 , → Put a 4 / 4 Guardian Spirit ally token into play with Protector .'
+    text: If your hero would heal damage, it heals double that much instead.
+  - type: Ability
+    text: 'While your hero is undamaged: {4}, {activate} → Put a 4 {holy} / 4 {health} Guardian Spirit ally token into play with Protector.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

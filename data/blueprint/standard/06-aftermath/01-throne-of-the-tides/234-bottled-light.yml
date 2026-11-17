@@ -7,28 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+  - Potion
+
 trait:
 
 cost: '3'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'When this item enters play, put target ally with cost 2 or less from your graveyard into play. On your turn: Exhaust a Paladin hero or ally you control and destroy this item → Put target ally with cost 2 or less from your graveyard into play.'
+    text: When this item enters play, put target ally with cost 2 or less from your graveyard into play.
+  - type: Ability
+    text: 'On your turn: Exhaust a Paladin hero or ally you control and destroy this item → Put target ally with cost 2 or less from your graveyard into play.'
 
 regulation:
 
 errata: []
-
-temp: Item Potion

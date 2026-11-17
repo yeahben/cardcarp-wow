@@ -7,21 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '3'
 
+defense: 1
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'On your turn: 4 , → Put a 2 / 2 Void Seeker ally token into play. Token allies you control have Assault 1 .'
+    text: 'On your turn: {4}, {activate} → Put a 2 {shadow} / 2 {health} Void Seeker ally token into play.'
+  - type: Ability
+    text: Token allies you control have Assault 1. (They have +1 ATK on your turn.)
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

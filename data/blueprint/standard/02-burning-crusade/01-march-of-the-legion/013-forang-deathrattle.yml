@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warlock
+
+talent:
+  - Affliction
+
+profession:
+  - Herbalism
+  - Enchanting
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 3 , Flip Forang → Forang deals 2 shadow damage to target hero or ally and heals 1 damage from itself for each damage dealt this way.'
+    text: '{3}, Flip Forang → Forang deals 2 shadow damage to target hero or ally and heals 1 damage from himself for each damage dealt this way. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Orc Warlock

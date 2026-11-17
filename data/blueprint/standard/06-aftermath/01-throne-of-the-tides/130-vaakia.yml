@@ -19,6 +19,13 @@ combat: Fire
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally attacks, she deals 1 fire damage to target hero.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

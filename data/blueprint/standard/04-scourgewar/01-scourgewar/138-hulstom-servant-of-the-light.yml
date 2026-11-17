@@ -19,12 +19,19 @@ combat: Holy
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Shadow Resistance Mend 1
+    text: Shadow Resistance (Prevent all shadow ({shadow}) damage that this ally would be dealt.)
+  - type: Ability
+    text: Mend 1 (At the start of your turn, this ally may heal 1 damage from target hero or ally.)
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Attachment
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Death Knight
 
-instant: 'Attach to target weapon you control. Remove target ally in a graveyard from the game. Ongoing : Attached weapon has +ATK equal to the ATK of that removed ally.'
+talent:
+  - Blood
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target weapon you control. Remove target ally in a graveyard from the game.
+  - type: Ability
+    text: 'Ongoing: Attached weapon has +ATK equal to the ATK of that removed ally.'
 
 regulation:
 
 errata: []
-
-temp: Blood Attachment

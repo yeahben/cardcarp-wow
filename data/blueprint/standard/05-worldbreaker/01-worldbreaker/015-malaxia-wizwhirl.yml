@@ -13,16 +13,22 @@ health: 28
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Shaman
+
+talent:
+  - Elemental
+
 rule:
   - type: Ability
     position: Front
-    text: 2 → Flip Malaxia
+    text: '{2} → Flip Malaxia'
   - type: Ability
     position: Reverse
-    text: When an opposing ally is dealt nature ( ) damage, Malaxia may deal 1 nature damage to target hero.
+    text: When an opposing ally is dealt nature ({nature}) damage, Malaxia may deal 1 nature damage to target hero.
 
 regulation:
 
 errata: []
-
-temp: Goblin Shaman

@@ -7,20 +7,29 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Murloc
+
 trait:
+
+health: 28
+
+class:
+  - Shaman
 
 type: Monster
 
 rule:
   - type: Ability
     position: Front
-    text: 4 → Flip Murkdeep face down.
+    text: '{4} → Flip Murkdeep'
   - type: Ability
     position: Reverse
-    text: "RwlRwlRwl! : When a Murloc ally enters play under your control, Murkdeep deals 1 nature damage to target opposing hero and heals 1 damage from itself. Deckbuilding: You can't put or cards in your deck."
+    text: 'RwlRwlRwl!: When a Murloc ally enters play under your control, Murkdeep deals 1 nature damage to target opposing hero and heals 1 damage from himself.'
+  - type: Ability
+    position: Reverse
+    text: "Deckbuilding: You can't put {horde} or {alliance} cards in your deck."
 
 regulation:
 
 errata: []
-
-temp: Murloc Shaman 28

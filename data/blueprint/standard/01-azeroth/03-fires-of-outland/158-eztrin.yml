@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
     text: When Ez'trin enters play, you may exhaust target weapon.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Warrior

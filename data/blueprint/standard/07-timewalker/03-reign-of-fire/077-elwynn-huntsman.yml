@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Unity : While you control three or more Human allies, this ally has Assault 2 and Sentinel .'
+    text: 'Unity: While you control three or more Human allies, this ally has Assault 2 and Sentinel. (When it exhausts for the first time each turn, ready it.)'
 
 regulation:
 
 errata: []
-
-temp: Human Hunter

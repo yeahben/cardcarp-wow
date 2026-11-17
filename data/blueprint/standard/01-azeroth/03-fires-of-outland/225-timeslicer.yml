@@ -7,22 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Dagger
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 0
+
+combat: Melee
+
 class:
-  - Warrior
-  - Shaman
   - Hunter
   - Rogue
+  - Shaman
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Your hero has Dual Wield .
+    text: Your hero has dual wield. (Can have a second one-handed Melee weapon instead of an Off-Hand equipment. Can strike with a second Melee weapon during the same combat.)
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

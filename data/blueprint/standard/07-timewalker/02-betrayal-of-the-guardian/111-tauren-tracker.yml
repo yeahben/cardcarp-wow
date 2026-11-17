@@ -19,6 +19,13 @@ combat: Ranged
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally attacks, he deals 1 ranged damage to target opposing hero.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Hunter

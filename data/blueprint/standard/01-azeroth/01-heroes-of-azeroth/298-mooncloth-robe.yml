@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '4'
 
+defense: 0
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 2 , , Exhaust your hero → Draw a card.
+    text: '{2}, {activate}, Exhaust your hero → Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

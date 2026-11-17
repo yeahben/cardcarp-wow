@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warrior
 
-instant: Draw a card for each damaged opposing hero and ally.
+talent:
+  - Fury
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Draw a card for each damaged opposing hero and ally.
 
 regulation:
 
 errata: []
-
-temp: Fury

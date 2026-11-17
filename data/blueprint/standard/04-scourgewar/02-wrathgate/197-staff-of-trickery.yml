@@ -7,20 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Staff
+
 trait:
 
 cost: '3'
+
+damage: 1
+
+strike: 3
+
+combat: Melee
 
 class:
   - Druid
   - Hunter
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Exhaust your hero, discard a card → Ready or exhaust target card if it shares a card type with the card you discarded.
+    text: Exhaust your hero, discard a card → Ready or exhaust target card if it shares a type with the card you discarded.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Staff

@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: This ally has Ferocity while you control another card.
+    text: This ally has Ferocity while you control another {nature} card.
 
 regulation:
 
 errata: []
-
-temp: Worgen Druid

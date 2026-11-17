@@ -7,14 +7,26 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '3'
+
+defense: 1
 
 class:
   - Druid
   - Hunter
   - Rogue
+
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -23,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Armor Leather

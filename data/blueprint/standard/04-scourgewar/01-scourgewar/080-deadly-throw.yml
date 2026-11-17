@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
-    text: Finishing Move Your daggers have Thrown and +X ATK this turn.
+    text: Finishing Move (To play, remove X Combo cards in your graveyard from the game, where X is 5 or less.)
+  - type: Ability
+    text: Your Daggers have Thrown and +X ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Assassination

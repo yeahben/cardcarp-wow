@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Paladin
 
-instant: Destroy target Demon ally or Undead ally.
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Destroy target Demon ally or Undead ally.
 
 regulation:
 
 errata: []
-
-temp: Holy

@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Mend 1 When 1 or more damage is healed from a hero or ally you control, this ally deals 1 nature damage to target opposing hero.
+    text: Mend 1 (At the start of your turn, this ally may heal 1 damage from target hero or ally.)
+  - type: Ability
+    text: When 1 or more damage is healed from a hero or ally you control, this ally deals 1 nature damage to target opposing hero.
 
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

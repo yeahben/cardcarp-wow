@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Air
+  - Elemental
+  - Lord
+
 trait:
 
 cost: '7'
@@ -17,12 +22,20 @@ health: 5
 
 combat: Nature
 
+limit:
+  - name: Al'Akir
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Air Elementals you control have Untargetable . At the start of your turn, put a 2 / 1 Air Elemental ally token into play. Exhaust an Air Elemental you control → Exhaust target ally.
+    text: Air Elementals you control have Untargetable.
+  - type: Ability
+    text: At the start of your turn, put a 2 {nature} / 1 {health} Air Elemental ally token into play.
+  - type: Ability
+    text: Exhaust an Air Elemental you control → Exhaust target ally.
 
 regulation:
 
 errata: []
-
-temp: Air Elemental Lord

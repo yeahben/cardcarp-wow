@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Hunter
 
-instant: Look at the top four cards of your deck. Put one into your hand and the rest on the bottom of your deck.
+talent:
+  - Beast Mastery
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Look at the top four cards of your deck. Put one into your hand and the rest on the bottom of your deck.
 
 regulation:
 
 errata: []
-
-temp: Beast Mastery

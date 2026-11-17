@@ -7,15 +7,32 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Black
+  - Dragonkin
+  - Aspect
+
 trait:
+
+damage: 0
+
+health: 50
+
+combat: Fire
+
+stage: 1
 
 rule:
   - type: Ability
     position: Front
-    text: Flip 4 Assault 20 , Long-Range
+    text: "Advance: 10 (At the start of Deathwing's turn, before flipping any cards or triggering any other powers, flip Deathwing if a Raiding hero has 10 or more damage on it.)"
+  - type: Ability
+    position: Front
+    text: Flip 1 (At the start of Deathwing's turn, flip a Deathwing card.)
+  - type: Ability
+    position: Front
+    text: Assault 3, Long-Range
 
 regulation:
 
 errata: []
-
-temp: Black Dragonkin Aspect Stage 4

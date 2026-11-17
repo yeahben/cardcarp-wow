@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Rogue
 
+talent:
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target friendly ally. Ongoing : When attached ally deals combat damage to a defending hero, that hero's controller discards a card."
+    text: Attach to target friendly ally.
+  - type: Ability
+    text: "Ongoing: When attached ally deals combat damage to a defending hero, that hero's controller discards a card."
 
 regulation:
 
 errata: []
-
-temp: Subtlety

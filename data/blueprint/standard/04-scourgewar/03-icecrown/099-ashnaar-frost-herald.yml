@@ -19,12 +19,17 @@ combat: Frost
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero has Assault X , where X is this ally's ATK.
+    text: Your hero has Assault X, where X is this ally's ATK.
 
 regulation:
 
 errata: []
-
-temp: Draenei Mage

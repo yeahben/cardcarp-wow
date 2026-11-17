@@ -11,12 +11,12 @@ trait:
 
 cost: '1'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : You can have up to ten Rings.'
+    text: 'Ongoing: You can have up to ten Rings.'
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -17,12 +17,25 @@ health: 4
 
 combat: Shadow
 
+race: Human
+
+class:
+  - Mage
+
+limit:
+  - name: Arugal
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive When Arugal enters play, gain control of target opposing ally while Arugal remains under your control. While you control that ally, it has +4 / +4.
+    text: Elusive
+  - type: Ability
+    text: When Arugal enters play, gain control of target opposing ally while Arugal remains under your control.
+  - type: Ability
+    text: While you control that ally, it has +4 / +4.
 
 regulation:
 
 errata: []
-
-temp: Human Mage

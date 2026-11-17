@@ -7,28 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: → Remove target card in your graveyard from the game. If you do, add a revive counter to this item. , Remove five revive counters from this item → Put target card that was removed from the game this way in your hand.
+    text: '{activate} → Remove target card in your graveyard from the game. If you do, add a revive counter to this item.'
+  - type: Ability
+    text: '{activate}, Remove five revive counters from this item → Put target card that was removed from the game this way into your hand.'
 
 regulation:
 
 errata: []
-
-temp: Item

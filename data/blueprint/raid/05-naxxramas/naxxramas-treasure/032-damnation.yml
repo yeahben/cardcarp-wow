@@ -7,21 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Staff
+
 trait:
 
 cost: '4'
 
+damage: 1
+
+strike: 4
+
+combat: Melee
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Opposing cards everywhere have " Death Rattle : Your hero deals 1 shadow damage to itself."'
+    text: 'Opposing cards everywhere have "Death Rattle: Your hero deals 1 shadow damage to itself."'
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Staff

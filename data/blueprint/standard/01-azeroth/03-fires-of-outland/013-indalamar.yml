@@ -13,13 +13,23 @@ health: 30
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Warrior
+
+talent:
+  - Protection
+
+profession:
+  - Mining
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Indalamar → Heroes and allies in your party have Protector this turn.
+    text: '{3}, Flip Indalamar → Heroes and allies in your party have protector this turn.'
 
 regulation:
 
 errata: []
-
-temp: Troll Warrior

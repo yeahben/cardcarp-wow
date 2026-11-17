@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Traitor
+
 trait:
 
 cost: '1'
@@ -14,12 +17,14 @@ cost: '1'
 class:
   - Druid
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Traitor Hero Required Ongoing : When an opponent completes a quest, your hero deals 3 nature damage to target hero in his party.'
+    text: Traitor Hero Required
+  - type: Ability
+    text: 'Ongoing: When an opponent completes a quest, your hero deals 3 nature damage to target hero in his party.'
 
 regulation:
 
 errata: []
-
-temp: Traitor

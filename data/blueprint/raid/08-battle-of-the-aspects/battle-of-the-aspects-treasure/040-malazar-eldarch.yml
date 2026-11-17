@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: You pay 3 less to play this ally if you control a pet.
+    text: You pay {3} less to play this ally if you control a Pet.
 
 regulation:
 
 errata: []
-
-temp: Undead Hunter

@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Warrior
 
-instant: "Attach to target ally in combat with your hero. Ongoing : Attached ally can't ready during its controller's ready step."
+talent:
+  - Arms
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target ally in combat with your hero.
+  - type: Ability
+    text: "Ongoing: Attached ally can't ready during its controller's ready step."
 
 regulation:
 
 errata: []
-
-temp: Arms

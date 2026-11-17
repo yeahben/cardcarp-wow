@@ -7,20 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '1'
 
 class:
-  - Warlock
   - Hunter
+  - Warlock
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Hero : Your hero has Pet (1). Hero : Your hero is also a Demon.'
+    text: '{hunter} Hero: Your hero has Pet (1).'
+  - type: Ability
+    text: '{warlock} Hero: Your hero is also a Demon.'
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

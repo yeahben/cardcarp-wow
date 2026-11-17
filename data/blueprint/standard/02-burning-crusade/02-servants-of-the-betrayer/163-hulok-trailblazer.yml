@@ -19,6 +19,13 @@ combat: Arcane
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
     text: When you place a quest, Hulok deals 1 arcane damage to target hero or ally.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Druid

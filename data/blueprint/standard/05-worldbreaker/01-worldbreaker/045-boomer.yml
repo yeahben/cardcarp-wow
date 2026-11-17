@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Bat
+
 trait:
 
 cost: '2'
@@ -20,6 +23,12 @@ combat: Nature
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: 'Once on each of your turns: Emit a sonic blast → Exhaust target hero or ally. This ally deals 1 nature damage to it.'
@@ -27,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Bat

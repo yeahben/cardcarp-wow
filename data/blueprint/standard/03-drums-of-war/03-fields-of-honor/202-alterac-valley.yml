@@ -7,14 +7,19 @@ layout: Standard
 category:
   - Location
 
+subtype:
+  - Battleground
+
 trait:
+
+capture: 8
 
 rule:
   - type: Ability
-    text: 'When you play a card, add an honor counter. On your turn: , Remove eight honor counters → Put target ally card from your graveyard into play if its cost is less than or equal to the number of resources you control.'
+    text: When you play a card, add an honor counter.
+  - type: Ability
+    text: 'On your turn: {activate}, Remove eight honor counters → Put target ally card from your graveyard into play if its cost is less than or equal to the number of resources you control.'
 
 regulation:
 
 errata: []
-
-temp: Battleground

@@ -7,23 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Neck
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'As this item enters play, choose arcane, fire, frost, or nature. On your turn: 2 → Your hero deals 1 damage of the chosen type to target hero or ally.'
+    text: As this item enters play, choose arcane, fire, frost, or nature.
+  - type: Ability
+    text: 'On your turn: {2} → Your hero deals 1 damage of the chosen type to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Item Neck

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Naga
+
 trait:
 
 cost: '4'
@@ -17,14 +20,17 @@ health: 2
 
 combat: Melee
 
+class:
+  - Hunter
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 'Empower Hunter : When this ally enters play, if you control another Hunter hero or ally, this ally deals 2 ranged damage to each of up to two target heroes and/or allies.'
+    text: 'Empower Hunter: When this ally enters play, if you control another Hunter hero or ally, this ally deals 2 ranged damage to each of up to two target heroes and/or allies.'
 
 regulation:
 
 errata: []
-
-temp: Naga Hunter

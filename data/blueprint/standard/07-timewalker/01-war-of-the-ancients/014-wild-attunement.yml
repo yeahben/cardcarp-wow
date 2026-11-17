@@ -14,12 +14,15 @@ cost: '5'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : If one or more token allies with the same type would be put into play under your control, put that many +1 into play instead.'
+    text: 'Ongoing: If one or more token allies with the same type would be put into play under your control, put that many +1 into play instead.'
 
 regulation:
 
 errata: []
-
-temp: Balance

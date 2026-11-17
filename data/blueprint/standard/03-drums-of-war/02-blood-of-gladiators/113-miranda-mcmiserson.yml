@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive → Name a card, then reveal the top card of your deck. If it has that name, draw it. Otherwise, put it on the bottom of your deck.
+    text: Elusive
+  - type: Ability
+    text: '{activate} → Name a card, then reveal the top card of your deck. If it has that name, draw it. Otherwise, put it on the bottom of your deck.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Rogue

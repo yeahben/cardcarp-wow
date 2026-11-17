@@ -19,12 +19,21 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Dwarf Hero Required Find Treasure Maddocks has +1 ATK / +1 health for each card in your graveyard.
+    text: Dwarf Hero Required
+  - type: Ability
+    text: Find Treasure
+  - type: Ability
+    text: Maddocks has +1 ATK / +1 health for each card in your graveyard.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Rogue

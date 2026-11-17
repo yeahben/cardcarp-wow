@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Unity : While you control three or more Human allies, damage that would be dealt by heroes and allies you control is unpreventable.'
+    text: 'Unity: While you control three or more Human allies, damage that would be dealt by heroes and allies you control is unpreventable.'
 
 regulation:
 
 errata: []
-
-temp: Human Priest

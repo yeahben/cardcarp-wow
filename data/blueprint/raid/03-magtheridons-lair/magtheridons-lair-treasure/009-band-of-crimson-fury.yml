@@ -7,22 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
+  - Mage
   - Priest
   - Shaman
   - Warlock
-  - Mage
+
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: 3 , Discard a card → The next time damage would be dealt with an ability you control this turn, that much +3 is dealt instead.
+    text: '{3}, Discard a card → The next time damage would be dealt with an ability you control this turn, that much +3 is dealt instead.'
 
 regulation:
 
 errata: []
-
-temp: Item Ring

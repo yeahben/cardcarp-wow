@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Remove target ability or equipment from the game.
+    text: '{activate} → Remove target ability or equipment from the game.'
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

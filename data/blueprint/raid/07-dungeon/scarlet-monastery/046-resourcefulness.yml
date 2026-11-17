@@ -1,0 +1,22 @@
+name: Resourcefulness
+
+origin: scarlet-monastery-046
+
+layout: Standard
+
+category:
+  - Achievement
+
+trait:
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Raiders control twenty or more total resources.
+  - type: Ability
+    text: 'Reward: 3 XP'
+
+regulation:
+
+errata: []

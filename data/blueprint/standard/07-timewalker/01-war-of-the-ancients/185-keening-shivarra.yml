@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Shivarra
+  - Demon
+
 trait:
 
 cost: '5'
@@ -17,14 +21,19 @@ health: 4
 
 combat: Shadow
 
+class:
+  - Warlock
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: As an additional cost to play, discard a card. When this ally enters play, you may put target Monster ally with cost 2 or less from your graveyard into play.
+    text: As an additional cost to play, discard a card.
+  - type: Ability
+    text: When this ally enters play, you may put target Monster ally with cost 2 or less from your graveyard into play.
 
 regulation:
 
 errata: []
-
-temp: Shivarra Demon Warlock

@@ -7,22 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
+
+limit:
+  - name: Campfire
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When an opposing ally is destroyed, add a fuel counter to this equipment. At the end of your turn, your hero may heal 1 damage from each friendly hero and ally for each fuel counter.
+    text: When an opposing ally is destroyed, add a fuel counter to this equipment.
+  - type: Ability
+    text: At the end of your turn, your hero may heal 1 damage from each friendly hero and ally for each fuel counter.
 
 regulation:
 
 errata: []
-
-temp: Item

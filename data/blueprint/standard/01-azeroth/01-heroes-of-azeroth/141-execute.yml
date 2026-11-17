@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Warrior
 
-instant: Destroy target damaged ally.
+talent:
+  - Fury
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Destroy target ally with damage on it.
 
 regulation:
 
 errata: []
-
-temp: Fury

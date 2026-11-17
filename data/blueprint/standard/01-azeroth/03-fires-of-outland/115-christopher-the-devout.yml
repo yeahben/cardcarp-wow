@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
-instant: Protector 1 , Destroy Christopher → Target hero or ally has Protector this turn.
+race: Human
 
-rule: []
+class:
+  - Warrior
+
+instant: true
+
+rule:
+  - type: Ability
+    text: Protector
+  - type: Ability
+    text: '{1}, Destroy Christopher → Target hero or ally has protector this turn.'
 
 regulation:
 
 errata: []
-
-temp: Human Warrior

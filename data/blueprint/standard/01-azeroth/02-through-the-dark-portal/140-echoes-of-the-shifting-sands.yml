@@ -11,6 +11,8 @@ trait:
 
 cost: '15'
 
+instant: false
+
 rule:
   - type: Ability
     text: Each player reveals his deck, puts all revealed ally cards into play, and then shuffles his deck.
@@ -18,5 +20,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

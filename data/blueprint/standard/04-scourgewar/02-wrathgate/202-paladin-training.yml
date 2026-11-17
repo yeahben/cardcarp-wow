@@ -1,0 +1,23 @@
+name: Paladin Training
+
+origin: wrathgate-202
+
+layout: Standard
+
+category:
+  - Quest
+
+trait:
+
+class:
+  - Paladin
+
+rule:
+  - type: Ability
+    text: Pay {2} to complete this quest.
+  - type: Ability
+    text: 'Reward: Target hero or ally you control has Protector this turn. Prevent all damage that it would be dealt while protecting this turn.'
+
+regulation:
+
+errata: []

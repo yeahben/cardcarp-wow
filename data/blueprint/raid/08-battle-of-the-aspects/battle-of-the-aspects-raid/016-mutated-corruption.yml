@@ -9,14 +9,20 @@ category:
 
 trait:
 
-type: Boss
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
-    text: "Attach to the MARKED hero. Its controller chooses and exhausts two resources he controls. Ongoing : The chosen resources can't ready. At the start of Deathwing's turn, he deals 3 melee damage to attached hero. If Deathwing is dealt 8 or more damage in one turn, destroy this ability."
+    text: Attach to the MARKED hero. Its controller chooses and exhausts two resources he controls.
+  - type: Ability
+    text: "Ongoing: The chosen resources can't ready."
+  - type: Ability
+    text: At the start of Deathwing's turn, he deals 3 melee damage to attached hero.
+  - type: Ability
+    text: If Deathwing is dealt 8 or more damage in one turn, destroy this ability.
 
 regulation:
 
 errata: []
-
-temp: ''

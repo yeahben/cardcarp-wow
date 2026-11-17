@@ -13,13 +13,16 @@ health: 27
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Druid
+
 rule:
   - type: Ability
     position: Front
-    text: "On your turn: 5 , Flip Fama'sin → Put three 1 / 1 Treant ally tokens into play."
+    text: "On your turn: {5}, Flip Fama'sin → Put three 1 {melee} / 1 {health} Treant ally tokens into play."
 
 regulation:
 
 errata: []
-
-temp: Troll Druid

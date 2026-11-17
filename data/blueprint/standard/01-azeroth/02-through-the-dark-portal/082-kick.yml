@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Rogue
 
-instant: Your hero deals 2 melee damage to target hero or ally. If you targeted a hero, you may interrupt an ability card played by its controller.
+talent:
+  - Combat
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 2 melee damage to target hero or ally. If you targeted a hero, you may interrupt an ability card played by its controller.
 
 regulation:
 
 errata: []
-
-temp: Combat

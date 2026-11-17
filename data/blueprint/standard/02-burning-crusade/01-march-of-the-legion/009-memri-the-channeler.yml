@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+talent:
+  - Elemental
+
+profession:
+  - Skinning
+  - Leatherworking
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Memri → Memri deals 1 nature damage to target hero or ally for each Totem you have.
+    text: '{2}, Flip Memri → Memri deals 1 nature damage to target hero or ally for each Totem you have.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

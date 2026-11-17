@@ -11,10 +11,12 @@ trait:
 
 rule:
   - type: Ability
-    text: '→ Add a life counter to this location. On your turn: , Remove a life counter from this location → Your hero heals 2 damage from target hero or ally. On your turn: , Remove three life counters from this location → Reveal the top card of your deck. You may place it exhausted as an additional resource this turn.'
+    text: '{activate} → Add a life counter to this location.'
+  - type: Ability
+    text: 'On your turn: {activate}, Remove a life counter from this location → Your hero heals 2 damage from target hero or ally.'
+  - type: Ability
+    text: 'On your turn: {activate}, Remove three life counters from this location → Reveal the top card of your deck. You may place it exhausted as an additional resource this turn.'
 
 regulation:
 
 errata: []
-
-temp: ''

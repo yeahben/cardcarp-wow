@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Fossil
+  - Raptor
+
 trait:
 
 cost: '4'
@@ -17,14 +21,20 @@ health: 4
 
 combat: Melee
 
+limit:
+  - name: Mount
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: You pay 1 less to complete quests for each ally in your graveyard. (Mounts can't attack or be attacked.)
+    text: You pay {1} less to complete quests for each ally in your graveyard.
+  - type: Ability
+    text: (Mounts can't attack or be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Fossil Raptor

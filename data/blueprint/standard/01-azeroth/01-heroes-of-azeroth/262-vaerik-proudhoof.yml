@@ -19,10 +19,15 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Warrior
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Tauren Warrior

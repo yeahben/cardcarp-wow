@@ -1,4 +1,4 @@
-name: Necklace of Black Dragons Teeth
+name: Necklace of Black Dragon's Teeth
 
 origin: timewalkers-badges-of-justice-010
 
@@ -7,21 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '5'
 
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Neck
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: All allies have Smash and "This ally can attack only allies if able." At the end of each turn, each player may choose an ally that was put into his graveyard from play this turn. Put those allies into play under their owners' control.
+    text: All allies have Smash and "This ally can attack only allies if able."
+  - type: Ability
+    text: At the end of each turn, each player may choose an ally that was put into his graveyard from play this turn. Put those allies into play under their owners' control.
 
 regulation:
 
 errata: []
-
-temp: Item Neck

@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Priest
 
-instant: Remove target ability, ally, or equipment you own from the game. Then, put it into play under your control. (It enters play ready and undamaged.)
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Remove target ability, ally, or equipment you own from the game. Then, put it into play under your control. (It enters play ready and undamaged.)
 
 regulation:
 
 errata: []
-
-temp: Holy

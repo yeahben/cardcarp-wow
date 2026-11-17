@@ -7,9 +7,20 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Polearm
+
 trait:
 
 cost: '7'
+
+damage: 5
+
+strike: 1
+
+combat: Melee
 
 faction: Alliance
 
@@ -17,12 +28,16 @@ class:
   - Paladin
   - Warrior
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: You pay 1 less to play Hellforged Halberd if an ally with diplomacy is in your party. This is also true for Escape Artist , Inspiring Presence , Shadowmeld , and Find Treasure .
+    text: You pay {1} less to play Hellforged Halberd if an ally with diplomacy is in your party. This is also true for escape artist, inspiring presence, shadowmeld, and find treasure.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Polearm

@@ -7,23 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Mace
+
 trait:
 
 cost: '3'
 
+damage: 3
+
+strike: 6
+
+combat: Melee
+
 class:
-  - Warrior
-  - Rogue
-  - Paladin
   - Death Knight
+  - Paladin
+  - Rogue
   - Shaman
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: You pay 6 less to strike with this weapon while you control an ally with 6 or more ATK.
+    text: You pay {6} less to strike with this weapon while you control an ally with 6 or more ATK.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

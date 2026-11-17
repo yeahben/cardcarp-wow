@@ -7,20 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Axe
+
 trait:
 
 cost: '2'
 
+damage: 3
+
+strike: 0
+
+combat: Nature
+
 class:
-  - Shaman
   - Rogue
+  - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: You pay 1 more to strike with this weapon for each card in your hand.
+    text: You pay {1} more to strike with this weapon for each card in your hand.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Axe

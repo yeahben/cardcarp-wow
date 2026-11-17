@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ogre
+
 trait:
 
 cost: '3'
@@ -17,14 +20,17 @@ health: 6
 
 combat: Melee
 
+class:
+  - Warrior
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 'On your turn: 2 → Target Ogre ally has +3 ATK this turn.'
+    text: 'On your turn: {2} → Target Ogre ally has +3 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Ogre Warrior

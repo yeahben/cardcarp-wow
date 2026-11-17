@@ -13,12 +13,14 @@ cost: '3'
 
 faction: Horde
 
-instant: Blood Elf Hero Required Interrupt all other ability cards. Opponents can't play abilities this turn.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Blood Elf Hero Required
+  - type: Ability
+    text: Interrupt all other ability cards. Opponents can't play abilities this turn.
 
 regulation:
 
 errata: []
-
-temp: ''

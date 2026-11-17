@@ -7,21 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Wand
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 1
+
+combat: Shadow
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When your hero deals shadow ( ) damage to a hero, allies in its party have -1 this turn.
+    text: When your hero deals shadow ({shadow}) damage to a hero, allies in its party have -1 {health} this turn.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Wand

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Felhunter
+  - Demon
+
 trait:
 
 cost: '2'
@@ -20,6 +24,12 @@ combat: Melee
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, Kreedom deals 1 shadow damage to each opposing hero and ally for each ability you control attached to that character.
@@ -27,5 +37,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Felhunter Demon

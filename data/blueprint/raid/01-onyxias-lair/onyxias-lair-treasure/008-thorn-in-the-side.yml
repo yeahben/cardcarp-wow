@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Warrior
 
-instant: 'Attach to target hero. Ongoing : While attached hero can attack your hero, it can attack only your hero.'
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target hero.
+  - type: Ability
+    text: 'Ongoing: While attached hero can attack your hero, it can attack only your hero.'
 
 regulation:
 
 errata: []
-
-temp: Protection

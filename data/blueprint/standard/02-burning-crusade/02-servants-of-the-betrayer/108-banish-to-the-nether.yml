@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Warlock
 
+talent:
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Remove target ability, ally, or equipment from the game. Ongoing : When Banish to the Nether leaves play, the owner of that removed card puts that card into play.'
+    text: Remove target ability, ally, or equipment from the game.
+  - type: Ability
+    text: 'Ongoing: When Banish to the Nether leaves play, the owner of that removed card puts that card into play.'
 
 regulation:
 
 errata: []
-
-temp: Destruction

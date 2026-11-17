@@ -13,13 +13,23 @@ health: 29
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Death Knight
+
+talent:
+  - Blood
+
+profession:
+  - Herbalism
+  - Inscription
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Saeryn → Put target weapon card from your graveyard into hand.
+    text: '{3}, Flip Saeryn → Put target weapon card from your graveyard into hand.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Death Knight

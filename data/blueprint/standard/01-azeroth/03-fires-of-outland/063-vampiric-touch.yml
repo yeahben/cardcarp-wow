@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,21 @@ cost: '3'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Shadow Hero Required Attach to target hero or ally. Ongoing : At the start of your turn, your hero deals 1 shadow damage to attached character. When you play a Shadow ability, ready one of your resources.'
+    text: Shadow Hero Required
+  - type: Ability
+    text: Attach to target hero or ally.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero deals 1 shadow damage to attached character.'
+  - type: Ability
+    text: When you play a Shadow ability, ready one of your resources.
 
 regulation:
 
 errata: []
-
-temp: Shadow Talent

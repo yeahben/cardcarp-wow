@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'This ally can attack only heroes. Bloodrush : While an opposing hero has more damage on it than your hero, this ally has Ferocity .'
+    text: This ally can attack only heroes.
+  - type: Ability
+    text: 'Bloodrush: While an opposing hero has more damage on it than your hero, this ally has Ferocity.'
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

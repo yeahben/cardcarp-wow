@@ -1,4 +1,4 @@
-name: Illidan The Betrayer
+name: Illidan the Betrayer
 
 origin: timewalkers-023
 
@@ -7,9 +7,33 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Demon
+
 trait:
 
-rule: []
+health: 27
+
+race: Night Elf
+
+class:
+  - Rogue
+
+type: Monster
+
+rule:
+  - type: Ability
+    position: Front
+    text: Illidan's Shear
+  - type: Ability
+    position: Front
+    text: '{basic} {2}, Flip Illidan → Illidan deals 2 melee damage to target exhausted ally.'
+  - type: Ability
+    position: Reverse
+    text: Vengeance of Illidan
+  - type: Ability
+    position: Reverse
+    text: "Once per game: {basic} {6} → Exhaust up to two target opposing heroes and/or allies. They can't ready during their controller's next ready step."
 
 regulation:
 

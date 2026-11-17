@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '3'
@@ -14,12 +17,19 @@ cost: '3'
 class:
   - Rogue
 
+talent:
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When Slash and Dash enters play, you may destroy target exhausted ally. Your hero has Stealth . When your hero deals damage, destroy Slash and Dash.'
+    text: 'Ongoing: When Slash and Dash enters play, you may destroy target exhausted ally.'
+  - type: Ability
+    text: Your hero has stealth. (Can't protect against it.)
+  - type: Ability
+    text: When your hero deals damage, destroy Slash and Dash.
 
 regulation:
 
 errata: []
-
-temp: Subtlety Combo

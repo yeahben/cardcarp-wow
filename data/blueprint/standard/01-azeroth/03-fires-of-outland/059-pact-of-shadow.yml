@@ -14,12 +14,15 @@ cost: '7'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When an opponent discards a card, your hero deals 3 shadow damage to target hero or ally.'
+    text: 'Ongoing: When an opponent discards a card, your hero deals 3 shadow damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Shadow

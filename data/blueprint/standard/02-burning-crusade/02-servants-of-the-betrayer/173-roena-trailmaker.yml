@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Roena has +1 health for each quest you have.
+    text: Protector
+  - type: Ability
+    text: Roena has +1 health for each quest you have.
 
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

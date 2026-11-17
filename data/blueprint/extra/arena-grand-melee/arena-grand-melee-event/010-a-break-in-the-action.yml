@@ -1,0 +1,22 @@
+name: A Break in the Action
+
+origin: arena-grand-melee-event-010
+
+layout: Standard
+
+category:
+  - Event
+
+trait:
+
+instant: false
+
+rule:
+  - type: Ability
+    text: The Arena heals 5 damage from each hero.
+  - type: Ability
+    text: Each player may take a break. If he doesn't return within 5 minutes, he loses the game.
+
+regulation:
+
+errata: []

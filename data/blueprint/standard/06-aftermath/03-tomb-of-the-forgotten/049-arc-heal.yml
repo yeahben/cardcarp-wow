@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Shaman
 
-instant: Your hero heals 4 damage divided as you choose from any number of target friendly heroes and/or allies.
+talent:
+  - Restoration
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero heals 4 damage divided as you choose from any number of target friendly heroes and/or allies.
 
 regulation:
 
 errata: []
-
-temp: Restoration

@@ -17,12 +17,22 @@ health: 5
 
 combat: Melee
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Scryer Reputation , Sabotage: Deck When Talodien sabotages a deck, reveal cards from the top until you reveal a non-quest card. Remove that card from the game and put the rest on the bottom. You may play that card without paying its play cost this turn. (If it has X in its play cost, X is 0.)'
+    text: 'Scryer Reputation, Sabotage: Deck'
+  - type: Ability
+    text: When Thalodien sabotages a deck, reveal cards from the top until you reveal a non-quest card. Remove that card from the game and put the rest on the bottom. You may play that card without paying its play cost this turn. (If it has X in its play cost, X is 0.)
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

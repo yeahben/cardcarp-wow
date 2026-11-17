@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Crocolisk
+  - Beast
+
 trait:
 
 cost: '4'
@@ -17,6 +21,8 @@ health: 4
 
 combat: Melee
 
+instant: false
+
 type: Monster
 
 rule: []
@@ -24,5 +30,3 @@ rule: []
 regulation:
 
 errata: []
-
-temp: Crocolisk Beast

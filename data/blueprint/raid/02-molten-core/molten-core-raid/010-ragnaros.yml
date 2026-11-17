@@ -7,20 +7,31 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Elemental
+
 trait:
+  - Submerged
 
 health: 50
 
 rule:
   - type: Ability
     position: Front
-    text: Untargetable Ragnaros can't be dealt damage. You can't play or discard cards. At the start of your turn, flip Ragnaros.
+    text: Untargetable
+  - type: Ability
+    position: Front
+    text: Ragnaros can't be dealt damage. You can't play or discard cards.
+  - type: Ability
+    position: Front
+    text: At the start of your turn, flip Ragnaros.
   - type: Ability
     position: Reverse
-    text: Ragnaros has +10 ATK while attacking and can attack only heroes. Ragnaros can't be dealt fire ( ) damage. At the end of your turn, flip if you have exactly three resources, put eight Sons of Flame into play and flip Ragnaros.
+    text: Ragnaros has +10 ATK while attacking and can attack only heroes.
+  - type: Ability
+    position: Reverse
+    text: Ragnaros can't be dealt fire ({fire}) damage. At the end of your turn, if you have exactly three resources, put eight Sons of Flame into play and flip Ragnaros.
 
 regulation:
 
 errata: []
-
-temp: Elemental

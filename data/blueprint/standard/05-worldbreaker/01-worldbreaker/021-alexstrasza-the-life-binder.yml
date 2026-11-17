@@ -5,7 +5,12 @@ origin: worldbreaker-021
 layout: Standard
 
 category:
-  - Hero
+  - Master Hero
+
+subtype:
+  - Red
+  - Dragonkin
+  - Aspect
 
 trait:
 
@@ -17,15 +22,19 @@ health: 40
 
 combat: Fire
 
-type: Master
+instant: false
 
 rule:
   - type: Ability
     position: Front
-    text: "You pay X less to play Alexstrasza, where X is the combined ATK of allies you control. Assault 5 Allies you control can't be destroyed."
+    text: You pay {x} less to play Alexstrasza, where X is the combined ATK of allies you control.
+  - type: Ability
+    position: Front
+    text: Assault 5
+  - type: Ability
+    position: Front
+    text: Allies you control can't be destroyed.
 
 regulation:
 
 errata: []
-
-temp: Red Dragonkin Aspect

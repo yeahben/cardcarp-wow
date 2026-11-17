@@ -1,0 +1,22 @@
+name: You Are Not Prepared!
+
+origin: black-temple-raid-064
+
+layout: Standard
+
+category:
+  - Event
+
+trait:
+
+instant: false
+
+sequence: 1
+
+rule:
+  - type: Ability
+    text: 'Choose one: Destroy all opposing abilities, allies, and equipment with cost 2 or less; or destroy all opposing abilities, allies, and equipment with cost 6 or more.'
+
+regulation:
+
+errata: []

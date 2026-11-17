@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Unity : While you control three or more Human allies, prevent all damage that would be dealt to this ally.'
+    text: 'Unity: While you control three or more Human allies, prevent all damage that would be dealt to this ally.'
 
 regulation:
 
 errata: []
-
-temp: Human Priest

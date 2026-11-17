@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Scourge
+  - Abomination
+
 trait:
 
 cost: '4'
@@ -17,14 +21,16 @@ health: 5
 
 combat: Melee
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Protector At the start of your turn, you may remove target card in a graveyard from the game. If you do, this ally heals 2 damage from itself.
+    text: Protector
+  - type: Ability
+    text: At the start of your turn, you may remove target card in a graveyard from the game. If you do, this ally heals 2 damage from itself.
 
 regulation:
 
 errata: []
-
-temp: Scourge Abomination

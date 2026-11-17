@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: Destroy an ally in your party → Destroy target ability.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Priest

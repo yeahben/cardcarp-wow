@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Freya Lightsworn heals 3 damage from target hero or ally.
+    text: '{activate} → Freya Lightsworn heals 3 damage from target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Priest

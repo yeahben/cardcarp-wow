@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: 5 , Destroy Nesmend Darkbreaker → Target ally is Elusive and Untargetable this turn.
+    text: '{5}, Destroy Nesmend Darkbreaker → Target ally is elusive and untargetable this turn.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Paladin

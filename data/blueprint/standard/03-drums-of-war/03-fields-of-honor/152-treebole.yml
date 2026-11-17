@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Elemental
+  - Ancient
+
 trait:
 
 cost: '5'
@@ -17,6 +21,11 @@ health: 5
 
 combat: Melee
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, each player chooses an ally in his party. Destroy all other allies.
@@ -24,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Elemental Ancient

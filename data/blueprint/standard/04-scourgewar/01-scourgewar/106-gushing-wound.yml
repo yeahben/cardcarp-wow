@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target hero. Ongoing : At the start of your turn, your hero deals 3 melee damage to attached hero. Attached hero's controller may draw a card."
+    text: Attach to target hero.
+  - type: Ability
+    text: "Ongoing: At the start of your turn, your hero deals 3 melee damage to attached hero. Attached hero's controller may draw a card."
 
 regulation:
 
 errata: []
-
-temp: Arms

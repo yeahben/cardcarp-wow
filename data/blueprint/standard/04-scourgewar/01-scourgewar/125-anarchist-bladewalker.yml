@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Finishing Move When this ally enters play, she may deal X melee damage to target hero or ally.
+    text: Finishing Move (To play, remove X Combo cards in your graveyard from the game, where X is 5 or less.)
+  - type: Ability
+    text: When this ally enters play, she may deal X melee damage to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Human Rogue

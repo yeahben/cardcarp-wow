@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Imp
+  - Demon
+
 trait:
 
 cost: '0'
@@ -20,12 +24,18 @@ combat: Fire
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive Untargetable
+    text: Elusive (Can't be attacked.)
+  - type: Ability
+    text: Untargetable
 
 regulation:
 
 errata: []
-
-temp: Imp Demon

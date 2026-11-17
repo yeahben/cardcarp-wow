@@ -7,14 +7,19 @@ layout: Standard
 category:
   - Location
 
+subtype:
+  - Objective
+
 trait:
+
+capture: 4
 
 rule:
   - type: Ability
-    text: When an opposing ally is destroyed, add a capture counter. , Remove four capture counters → Each opposing hero deals 4 nature damage to itself.
+    text: When an opposing ally is destroyed, add a capture counter.
+  - type: Ability
+    text: '{activate}, Remove four capture counters → Each opposing hero deals 4 nature damage to itself.'
 
 regulation:
 
 errata: []
-
-temp: Objective

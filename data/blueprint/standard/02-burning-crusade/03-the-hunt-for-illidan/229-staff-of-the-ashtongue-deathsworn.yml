@@ -7,21 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Staff
+
 trait:
 
 cost: '4'
+
+damage: 1
+
+strike: 4
+
+combat: Melee
 
 class:
   - Druid
   - Priest
   - Shaman
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Loyal Hero Required Text that refers to the start of a turn refers to the end of that turn instead.
+    text: Loyal Hero Required
+  - type: Ability
+    text: Text that refers to the start of a turn refers to the end of that turn instead.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Staff

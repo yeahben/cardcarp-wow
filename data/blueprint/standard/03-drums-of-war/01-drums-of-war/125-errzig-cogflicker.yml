@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Arcane Resistance
+    text: Arcane Resistance (Prevent all arcane or {arcane} damage that this ally would be dealt.)
 
 regulation:
 
 errata: []
-
-temp: Gnome Mage

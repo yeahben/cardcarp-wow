@@ -14,6 +14,11 @@ cost: X
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
     text: Target opponent reveals his hand and chooses an ally card in it with cost X or less. Put that card into your party.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Shadow

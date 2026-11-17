@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Tol'vir
+
 trait:
 
 cost: '3'
@@ -17,14 +20,22 @@ health: 1
 
 combat: Holy
 
+class:
+  - Paladin
+  - Priest
+
+limit:
+  - name: Barim
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Other allies you control have +ATK equal to Barim's ATK and + equal to Barim's .
+    text: Other allies you control have +ATK equal to Barim's ATK and +{health} equal to Barim's {health}.
 
 regulation:
 
 errata: []
-
-temp: Tol'vir Paladin Priest

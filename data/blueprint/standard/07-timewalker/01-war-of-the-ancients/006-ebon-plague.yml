@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Disease
+  - Attachment
+
 trait:
 
 cost: '4'
@@ -14,12 +18,19 @@ cost: '4'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Unholy Talent Attach to target hero. Ongoing : At the start of your turn, put the top card of attached hero's controller's deck into his graveyard. If it's an ability, ally, or equipment, put a number of additional cards into his graveyard equal to that card's cost."
+    text: Unholy Talent (You can't put Blood Talents or Frost Talents in your deck.)
+  - type: Ability
+    text: Attach to target hero.
+  - type: Ability
+    text: "Ongoing: At the start of your turn, put the top card of attached hero's controller's deck into his graveyard. If it's an ability, ally, or equipment, put a number of additional cards from the top of his deck into his graveyard equal to that card's cost."
 
 regulation:
 
 errata: []
-
-temp: Unholy Disease Attachment

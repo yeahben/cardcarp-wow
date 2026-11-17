@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Attachment
+
 trait:
 
 cost: '2'
@@ -14,12 +17,21 @@ cost: '2'
 class:
   - Warlock
 
+talent:
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Destruction Talent Attach to target ally. Ongoing : When attached ally is dealt damage, your hero deals that much fire damage to that ally's controller's hero. When attached ally is destroyed, you may put this ability from its owner's graveyard into his hand."
+    text: Destruction Talent (You can't put Affliction Talents or Demonology Talents in your deck.)
+  - type: Ability
+    text: Attach to target ally.
+  - type: Ability
+    text: "Ongoing: When attached ally is dealt damage, your hero deals that much fire damage to that ally's controller's hero."
+  - type: Ability
+    text: When attached ally is destroyed, you may put this ability from its owner's graveyard into his hand.
 
 regulation:
 
 errata: []
-
-temp: Destruction Attachment

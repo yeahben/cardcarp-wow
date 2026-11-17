@@ -7,20 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Warglaive Sword
+
 trait:
 
-cost: '5'
+cost: '4'
+
+damage: 3
+
+strike: 1
+
+combat: Melee
 
 class:
-  - Warrior
   - Rogue
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+  - name: Unique
+
+instant: false
 
 rule:
   - type: Ability
-    text: When you strike with Warglaive of Azzinoth, ready another one of your Warglaives. When Warglaive of Azzinoth leaves play, put a Demon ally token named Flame of Azzinoth into play with 3 ATK / 3 health and Protector .
+    text: When you strike with Warglaive of Azzinoth, ready another one of your Warglaives.
+  - type: Ability
+    text: When Warglaive of Azzinoth leaves play, put a Demon ally token named Flame of Azzinoth into play with 3 {fire} ATK / 3 health and protector.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Warglaive Sword

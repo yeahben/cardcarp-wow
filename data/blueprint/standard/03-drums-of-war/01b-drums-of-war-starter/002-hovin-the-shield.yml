@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector 3 → Ready Hovin.
+    text: Protector
+  - type: Ability
+    text: '{3} → Ready Hovin.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Warrior

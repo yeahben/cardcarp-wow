@@ -7,28 +7,40 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '5'
 
+defense: 1
+
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this armor enters play, put a 4 / 4 Coyote Spirit Monster ally token into play. This armor can prevent damage that would be dealt to Coyote allies you control.
+    text: When this armor enters play, put a 4 {melee} / 4 {health} Coyote Spirit Monster ally token into play.
+  - type: Ability
+    text: This armor can prevent damage that would be dealt to Coyote allies you control.
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

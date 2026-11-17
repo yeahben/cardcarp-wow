@@ -14,6 +14,11 @@ cost: '4'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
     text: Destroy the card with the lowest cost among abilities, allies, and equipment in play. If two or more are tied, destroy all with that cost.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Assassination

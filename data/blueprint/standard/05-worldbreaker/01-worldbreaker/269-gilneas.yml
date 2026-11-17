@@ -13,10 +13,8 @@ faction: Alliance
 
 rule:
   - type: Ability
-    text: 4 → Worgen you control have Assault 2 this turn.
+    text: '{4} → Worgen you control have Assault 2 this turn.'
 
 regulation:
 
 errata: []
-
-temp: ''

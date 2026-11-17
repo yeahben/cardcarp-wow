@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Shaman
 
+talent:
+  - Elemental
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elemental Hero Required Your hero deals nature damage to target hero or ally equal to 3 plus an additional 3 for each equipment in that character's party.
+    text: Elemental Hero Required
+  - type: Ability
+    text: Your hero deals nature damage to target hero or ally equal to 3 plus an additional 3 for each equipment in that character's party.
 
 regulation:
 
 errata: []
-
-temp: Elemental Talent

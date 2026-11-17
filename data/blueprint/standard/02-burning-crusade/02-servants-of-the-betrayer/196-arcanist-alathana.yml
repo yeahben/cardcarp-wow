@@ -17,12 +17,23 @@ health: 1
 
 combat: Fire
 
+race: Blood Elf
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Scryer Reputation Sabotage: Ability When Alathana sabotages an ability, put a depletion counter on it. Abilities with depletion counters lose and can't have powers."
+    text: Scryer Reputation
+  - type: Ability
+    text: 'Sabotage: Ability'
+  - type: Ability
+    text: When Alathana sabotages an ability, put a depletion counter on it.
+  - type: Ability
+    text: Abilities with depletion counters lose and can't have powers.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

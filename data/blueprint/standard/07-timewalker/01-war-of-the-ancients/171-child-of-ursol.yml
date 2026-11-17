@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Bear
+  - Beast
+
 trait:
 
 cost: '3'
@@ -17,14 +21,14 @@ health: 3
 
 combat: Nature
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Mend 1
+    text: Mend 1 (At the start of your turn, this ally may heal 1 damage from target hero or ally.)
 
 regulation:
 
 errata: []
-
-temp: Bear Beast

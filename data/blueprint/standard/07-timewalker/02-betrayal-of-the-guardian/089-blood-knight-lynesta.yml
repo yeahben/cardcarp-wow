@@ -19,12 +19,19 @@ combat: Holy
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Absorb This ally has +3 / +4 while an opponent controls an or Monster hero.
+    text: Absorb (When this ally deals combat damage to a hero, she heals that much damage from your hero.)
+  - type: Ability
+    text: This ally has +3 / +4 while an opponent controls an {alliance} or Monster hero.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

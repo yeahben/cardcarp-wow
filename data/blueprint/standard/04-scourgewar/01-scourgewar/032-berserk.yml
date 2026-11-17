@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,19 @@ cost: '2'
 class:
   - Druid
 
-instant: "Feral Hero Required Ongoing : While your hero has Bear Form , when it's dealt combat damage, you may draw a card. While your hero has Cat Form , when it deals combat damage to a hero, it's controller discards a card."
+talent:
+  - Feral
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Feral Hero Required
+  - type: Ability
+    text: "Ongoing: While your hero has Bear Form, when it's dealt combat damage, you may draw a card."
+  - type: Ability
+    text: While your hero has Cat Form, when it deals combat damage to a hero, its controller discards a card.
 
 regulation:
 
 errata: []
-
-temp: Feral Talent

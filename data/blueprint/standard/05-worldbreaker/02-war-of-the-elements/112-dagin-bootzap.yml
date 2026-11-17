@@ -19,6 +19,13 @@ combat: Arcane
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, he deals 1 arcane damage to target hero or ally.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

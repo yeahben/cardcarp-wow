@@ -13,13 +13,16 @@ health: 30
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Paladin
+
 rule:
   - type: Ability
     position: Front
-    text: 7 , Flip Haku → Haku deals unpreventable holy damage to target hero or ally equal to the cost of an ally you control.
+    text: '{basic} {7}, Flip Haku → Haku deals unpreventable holy damage to target hero or ally equal to the cost of an ally you control.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Paladin

@@ -19,12 +19,21 @@ combat: Holy
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector As Addisyn enters play, choose arcane, fire, frost, nature, or shadow. Addisyn has the chosen resistance .
+    text: Protector
+  - type: Ability
+    text: As Addisyn enters play, choose arcane, fire, frost, nature, or shadow.
+  - type: Ability
+    text: Addisyn has the chosen resistance.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

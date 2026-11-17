@@ -15,12 +15,16 @@ class:
   - Death Knight
   - Mage
 
-instant: Prevent all non-melee (non- ) damage that would be dealt to target hero or ally this turn.
+talent:
+  - Unholy
+  - Arcane
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Prevent all non-melee (non-{melee}) damage that would be dealt to target hero or ally this turn.
 
 regulation:
 
 errata: []
-
-temp: Unholy Arcane

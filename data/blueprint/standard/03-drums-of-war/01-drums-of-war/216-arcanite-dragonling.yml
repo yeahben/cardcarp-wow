@@ -7,27 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '1'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
-  - Paladin
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: 1 → Arcanite Dragonling is also an ally with 2 ATK / 2 health and Protector this turn.
+    text: '{1} → Arcanite Dragonling is also an ally with 2 {melee} ATK / 2 health and protector this turn.'
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

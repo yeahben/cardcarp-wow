@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Torturer
+
 trait:
 
 damage: 4
@@ -15,14 +18,18 @@ health: 2
 
 combat: Melee
 
+race: Human
+
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: Stealth When this ally enters play, he deals 2 melee damage to each exhausted Raiding ally.
+    text: Stealth
+  - type: Ability
+    text: When this ally enters play, he deals 2 melee damage to each exhausted Raiding ally.
 
 regulation:
 
 errata: []
-
-temp: Human Torturer

@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
     text: Allies you control have +1 ATK while attacking heroes.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

@@ -2,12 +2,12 @@ blueprint: lady-jaina-proudmoore-heroes-of-azeroth-195
 
 index: '195'
 
-rarity: Rare
+rarity: Epic
 
-artist: Jesper Ejsing
+artist: Carl Frank
 
 variation: []
 
-flavor: "\"You won't deny me this, Arthas! I must know ... I must find out ...\""
+flavor:
 
 set: Heroes of Azeroth

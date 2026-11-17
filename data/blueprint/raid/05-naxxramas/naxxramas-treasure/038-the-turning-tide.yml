@@ -7,21 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Sword
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 3
+
+combat: Melee
+
 class:
+  - Mage
   - Paladin
   - Warlock
-  - Mage
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: You pay 2 less to play allies while you control fewer allies than an opponent.
+    text: You pay {2} less to play allies while you control fewer allies than an opponent.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

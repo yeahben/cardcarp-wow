@@ -14,12 +14,17 @@ cost: X
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: Affliction Talent Your hero deals X shadow damage to target opposing hero or ally and heals X damage from itself.
+    text: Affliction Talent (You can't put Demonology Talents or Destruction Talents in your deck.)
+  - type: Ability
+    text: Your hero deals X shadow damage to target opposing hero or ally and heals X damage from itself.
 
 regulation:
 
 errata: []
-
-temp: Affliction

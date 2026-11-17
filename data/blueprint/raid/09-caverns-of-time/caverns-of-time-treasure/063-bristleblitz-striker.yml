@@ -7,19 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Bow
+
 trait:
 
 cost: '4'
 
+damage: 1
+
+strike: 1
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Long-Range When you play an ability, this weapon has +1 ATK this turn.
+    text: Long-Range
+  - type: Ability
+    text: When you play an ability, this weapon has +1 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Bow

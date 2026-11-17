@@ -1,0 +1,29 @@
+name: Earth Elemental
+
+origin: war-of-the-elements-token-002
+
+layout: Standard
+
+category:
+  - Token
+
+subtype:
+  - Ally
+  - Earth
+  - Elemental
+
+trait:
+
+damage: 2
+
+health: 1
+
+combat: Melee
+
+instant: false
+
+rule: []
+
+regulation:
+
+errata: []

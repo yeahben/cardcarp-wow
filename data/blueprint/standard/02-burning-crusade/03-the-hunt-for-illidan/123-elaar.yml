@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: 2 , → Gain control of target ally.
+    text: '{2}, {activate} → Gain control of target ally.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Priest

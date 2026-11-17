@@ -1,14 +1,36 @@
-name: Dragonstalkers Helm
+name: Dragonstalker's Helm
 
 origin: onyxias-lair-treasure-011
 
 layout: Standard
 
 category:
+  - Equipment
+
+subtype:
+  - Armor
+  - Mail
 
 trait:
 
-rule: []
+cost: '2'
+
+defense: 1
+
+class:
+  - Hunter
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
+
+rule:
+  - type: Ability
+    text: '{activate} → Target Pet has +1 ATK this turn.'
+  - type: Ability
+    text: When you play a {hunter} ability, ready Dragonstalker's Helm.
 
 regulation:
 

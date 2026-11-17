@@ -12,15 +12,19 @@ trait:
 cost: '3'
 
 class:
-  - Warrior
   - Hunter
+  - Warrior
+
+talent:
+  - Beast Mastery
+  - Fury
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Ongoing : Your hero has Assault 1 for each Hunter and Warrior you control.'
+    text: 'Ongoing: Your hero has Assault 1 for each Hunter and Warrior you control.'
 
 regulation:
 
 errata: []
-
-temp: Beast Mastery Fury

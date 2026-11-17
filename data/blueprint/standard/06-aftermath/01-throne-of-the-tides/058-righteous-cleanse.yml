@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Paladin
 
-instant: Destroy target ability. Delve
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Destroy target ability.
+  - type: Ability
+    text: Delve (Look at the top two cards of your deck. Put any number of them on top of your deck in any order, and the rest on the bottom.)
 
 regulation:
 
 errata: []
-
-temp: Holy

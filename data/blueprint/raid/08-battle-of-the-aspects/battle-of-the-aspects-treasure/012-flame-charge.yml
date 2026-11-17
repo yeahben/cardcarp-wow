@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Mage
 
-instant: As an additional cost to play, reveal another ability from your hand. Your hero deals fire damage to target ally equal to the cost of that revealed ability.
+talent:
+  - Fire
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: As an additional cost to play, reveal another ability from your hand.
+  - type: Ability
+    text: Your hero deals fire damage to target ally equal to the cost of that revealed ability.
 
 regulation:
 
 errata: []
-
-temp: Fire

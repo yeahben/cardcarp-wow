@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Pit Lord
+  - Demon
+
 trait:
 
 cost: '7'
@@ -17,14 +21,20 @@ health: 5
 
 combat: Melee
 
+limit:
+  - name: Azgalor
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Smash When this ally enters play, you may choose and destroy any number of other allies you control. If you do, search your deck for a card and put it into your hand for each ally destroyed this way.
+    text: Smash
+  - type: Ability
+    text: When this ally enters play, you may choose and destroy any number of other allies you control. If you do, search your deck for a card and put it into your hand for each ally destroyed this way.
 
 regulation:
 
 errata: []
-
-temp: Pit Lord Demon

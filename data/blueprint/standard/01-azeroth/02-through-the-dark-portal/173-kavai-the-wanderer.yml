@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Destroy Kavai → Destroy target ability or equipment.
+    text: '{1}, Destroy Kavai → Destroy target ability or equipment.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Warrior

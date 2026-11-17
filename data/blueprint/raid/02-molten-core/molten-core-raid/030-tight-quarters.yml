@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Molten Core
+
 trait:
 
 cost: '1'
 
-instant: Destroy target equipment.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Destroy target equipment.
 
 regulation:
 
 errata: []
-
-temp: Molten Core

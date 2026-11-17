@@ -19,12 +19,23 @@ combat: Melee
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warrior
+
+limit:
+  - name: Mekkatorque
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of your turn, you may put target equipment from any graveyard into play under your control. Mekkatorque has +2 / +2 for each equipment you control.
+    text: At the start of your turn, you may put target equipment from any graveyard into play under your control.
+  - type: Ability
+    text: Mekkatorque has +2 / +2 for each equipment you control.
 
 regulation:
 
 errata: []
-
-temp: Gnome Warrior

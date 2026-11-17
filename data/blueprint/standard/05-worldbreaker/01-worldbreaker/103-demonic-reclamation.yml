@@ -14,12 +14,19 @@ cost: '1'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'As an additional cost to play this ability, destroy an ally you control. Draw two cards. Stash : Shuffle target ally in your graveyard into your deck.'
+    text: As an additional cost to play this ability, destroy an ally you control.
+  - type: Ability
+    text: Draw two cards.
+  - type: Ability
+    text: 'Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Shuffle target ally in your graveyard into your deck.'
 
 regulation:
 
 errata: []
-
-temp: Demonology

@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : → Ready a resource you control for each ally you control.'
+    text: 'Ongoing: {activate} → Ready a resource you control for each ally you control.'
 
 regulation:
 
 errata: []
-
-temp: Discipline

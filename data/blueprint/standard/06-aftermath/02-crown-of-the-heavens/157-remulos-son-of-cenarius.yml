@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Keeper of the Grove
+
 trait:
 
 cost: '4'
@@ -17,14 +20,23 @@ health: 4
 
 combat: Nature
 
+class:
+  - Druid
+
+limit:
+  - name: Remulos
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Harmonize When Remulos or another ally with cost 4 or more enters play under your control, you may put a 1 / 1 Treant ally token into play.
+    text: Harmonize
+  - type: Ability
+    text: When Remulos or another ally with cost 4 or more enters play under your control, you may put a 1 {melee} / 1 {health} Treant ally token into play.
 
 regulation:
 
 errata: []
-
-temp: Keeper of the Grove Druid

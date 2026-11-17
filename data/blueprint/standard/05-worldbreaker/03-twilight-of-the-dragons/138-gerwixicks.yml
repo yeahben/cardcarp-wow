@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: When an ally you control deals fire ( ) damage, your hero has Assault 1 this turn.
+    text: When an ally you control deals fire ({fire}) damage, your hero has Assault 1 this turn.
 
 regulation:
 
 errata: []
-
-temp: Goblin Shaman

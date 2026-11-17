@@ -19,12 +19,23 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+limit:
+  - name: Hamuul
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Assault 5 , Ferocity , Protector At the end of your turn, ready Hamuul.
+    text: Assault 5, Ferocity, Protector
+  - type: Ability
+    text: At the end of your turn, ready Hamuul.
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

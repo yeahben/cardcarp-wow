@@ -17,12 +17,21 @@ health: 2
 
 combat: Holy
 
+race: Draenei
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Aldor Reputation When Kilandra enters play, name a card in play you control. Inspire: Card with that name'
+    text: Aldor Reputation
+  - type: Ability
+    text: When Kilandra enters play, name a card in play you control.
+  - type: Ability
+    text: "Inspire: Card with that name (You may ready a card you control with that name during each other player's ready step.)"
 
 regulation:
 
 errata: []
-
-temp: Draenei Priest

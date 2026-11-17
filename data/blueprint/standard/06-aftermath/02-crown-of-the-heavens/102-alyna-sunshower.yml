@@ -19,12 +19,19 @@ combat: Holy
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive Mend 1
+    text: Elusive (This ally can't be attacked.)
+  - type: Ability
+    text: Mend 1 (At the start of your turn, this ally may heal 1 damage from target hero or ally.)
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Priest

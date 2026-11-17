@@ -6,6 +6,7 @@ layout: Standard
 
 category:
   - Ability
+  - Ally
 
 trait:
 
@@ -20,14 +21,21 @@ combat: Fire
 class:
   - Shaman
 
-instant: "Ongoing : At the start of your turn, your hero deals 1 fire damage to target opposing hero for each ally you control. (Totems can't attack.)"
+talent:
+  - Elemental
 
-type: Ally
+limit:
+  - name: Fire Totem
+    count: 1
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero deals 1 fire damage to target opposing hero for each ally you control.'
+  - type: Ability
+    text: (Totems can't attack.)
 
 regulation:
 
 errata: []
-
-temp: Elemental

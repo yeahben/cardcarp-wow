@@ -14,12 +14,17 @@ cost: '7'
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to one of your Melee weapons. Ongoing : Attached weapon has +7 ATK.'
+    text: Attach to one of your Melee weapons.
+  - type: Ability
+    text: 'Ongoing: Attached weapon has +7 ATK.'
 
 regulation:
 
 errata: []
-
-temp: Enhancement

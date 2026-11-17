@@ -1,4 +1,4 @@
-name: Mithrios, Bronzebeards Legacy
+name: Mithrios, Bronzebeard's Legacy
 
 origin: assault-on-icecrown-citadel-treasure-020
 
@@ -7,21 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Mace
+
 trait:
 
 cost: '7'
 
+damage: 4
+
+strike: 1
+
+combat: Melee
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Dwarves you control have Protector . At the end of each turn, put a 1 / 1 Dwarf Warrior ally token into play.
+    text: Dwarves you control have Protector.
+  - type: Ability
+    text: At the end of each turn, put a 1 {melee} / 1 {health} Dwarf Warrior ally token into play.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector , Mend 1
+    text: Protector, Mend 1
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

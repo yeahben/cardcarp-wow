@@ -7,22 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '2'
 
+defense: 1
+
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
+
+limit:
+  - name: Back
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: At the start of your turn, add a breeze counter to this armor. 2 , , Remove any number of breeze counters from this armor → Your hero heals 1 damage from itself for each counter removed this way.
+    text: At the start of your turn, add a breeze counter to this armor.
+  - type: Ability
+    text: '{2}, {activate}, Remove any number of breeze counters from this armor → Your hero heals 1 damage from itself for each counter removed this way.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

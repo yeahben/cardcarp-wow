@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - King
+
 trait:
 
 cost: '6'
@@ -19,12 +22,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Other friendly Humans can protect Anduin. On your turn: → Search your deck for a Human ally card and put it into play.'
+    text: Other friendly Humans can protect Anduin.
+  - type: Ability
+    text: 'On your turn: {activate} → Search your deck for a Human ally card and put it into play.'
 
 regulation:
 
 errata: []
-
-temp: Human King

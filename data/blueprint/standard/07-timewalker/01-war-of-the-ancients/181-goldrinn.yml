@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Wolf
+  - Beast
+  - Demigod
+
 trait:
 
 cost: '6'
@@ -17,14 +22,20 @@ health: 5
 
 combat: Melee
 
+limit:
+  - name: Goldrinn
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 'Ferocity , Stealth Once per turn: Howl or Growl → If an opposing hero was dealt 10 or more damage this turn, put five 1 / 1 Wolf Beast Monster ally tokens into play.'
+    text: Ferocity, Stealth
+  - type: Ability
+    text: 'Once per turn: Howl or Growl → If an opposing hero was dealt 10 or more damage this turn, put five 1 {melee} / 1 {health} Wolf Beast Monster ally tokens into play.'
 
 regulation:
 
 errata: []
-
-temp: Wolf Beast Demigod

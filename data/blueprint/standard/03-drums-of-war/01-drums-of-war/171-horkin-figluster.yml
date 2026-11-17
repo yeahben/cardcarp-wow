@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: War Stomp When Horkin enters play, exhaust all opposing heroes and allies.
+    text: War Stomp (When this ally attacks or defends, you may exhaust target opposing hero or ally.)
+  - type: Ability
+    text: When Horkin enters play, exhaust all opposing heroes and allies.
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

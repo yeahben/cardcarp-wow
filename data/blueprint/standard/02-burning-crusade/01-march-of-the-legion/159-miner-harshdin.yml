@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, target player puts the top card of his deck into his graveyard.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Rogue

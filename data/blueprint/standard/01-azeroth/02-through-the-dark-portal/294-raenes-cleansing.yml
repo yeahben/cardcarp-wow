@@ -1,4 +1,4 @@
-name: Raenes Cleansing
+name: Raene's Cleansing
 
 origin: through-the-dark-portal-294
 
@@ -13,10 +13,10 @@ faction: Alliance
 
 rule:
   - type: Ability
-    text: "If you've completed a quest this turn, pay 2 to complete this quest. Reward : Draw a card."
+    text: If you've completed a quest this turn, pay {2} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

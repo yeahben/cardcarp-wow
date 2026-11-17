@@ -5,10 +5,32 @@ origin: the-hunt-for-illidan-160
 layout: Standard
 
 category:
+  - Ally
 
 trait:
 
-rule: []
+cost: '6'
+
+damage: 6
+
+health: 5
+
+combat: Melee
+
+faction: Horde
+
+race: Troll
+
+class:
+  - Warrior
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Protector
+  - type: Ability
+    text: When Lu'ka is dealt damage, you may exhaust target hero or ally.
 
 regulation:
 

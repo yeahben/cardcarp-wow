@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: This ally has Assault 1 for each Scarlet Renegade you and other friendly players control (including himself) .
+    text: This ally has Assault 1 for each Scarlet Renegade you and other friendly players control (including himself).
 
 regulation:
 
 errata: []
-
-temp: Human Warrior

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Finishing Move
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
-    text: As an additional cost to play Expose Armor, remove up to five Combo cards in your graveyard from the game. Destroy X target armor, where X is the number of Combo cards removed.
+    text: As an additional cost to play Expose Armor, remove up to five Combo cards in your graveyard from the game.
+  - type: Ability
+    text: Destroy X target armor, where X is the number of Combo cards removed.
 
 regulation:
 
 errata: []
-
-temp: Assassination Finishing Move

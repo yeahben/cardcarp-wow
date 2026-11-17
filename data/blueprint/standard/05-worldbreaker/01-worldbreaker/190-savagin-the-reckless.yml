@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'This ally attacks opposing heroes and allies at random. Stash : Your hero deals 2 nature damage to target random opposing hero or ally.'
+    text: This ally attacks opposing heroes and allies at random.
+  - type: Ability
+    text: 'Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Your hero deals 2 nature damage to target random opposing hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Troll Druid

@@ -19,15 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Blood Elf
+
 class:
-  - Warlock
+  - Rogue
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this ally attacks, you may destroy target non-hero Warlock or equipment.
+    text: When this ally attacks, you may destroy target non-hero Warlock or {warlock} equipment.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

@@ -14,12 +14,19 @@ cost: '4'
 class:
   - Paladin
 
+talent:
+  - Retribution
+
+limit:
+  - name: Aura
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : If a hero or ally in your party would deal damage, it deals that much +1 instead.'
+    text: 'Ongoing: If a hero or ally in your party would deal damage, it deals that much +1 instead.'
 
 regulation:
 
 errata: []
-
-temp: Retribution

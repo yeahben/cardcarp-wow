@@ -6,6 +6,7 @@ layout: Standard
 
 category:
   - Ability
+  - Ally
 
 trait:
 
@@ -20,14 +21,21 @@ combat: Nature
 class:
   - Shaman
 
-instant: 'When this card enters play, you may interrupt target ability. Ongoing : At the start of your turn, this card deals 1 nature damage to target hero or ally.'
+talent:
+  - Elemental
 
-type: Ally
+limit:
+  - name: Air Totem
+    count: 1
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: When this card enters play, you may interrupt target ability.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, this card deals 1 nature damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Elemental

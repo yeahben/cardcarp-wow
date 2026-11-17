@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Paladin
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Protection Talent Ongoing : Allies you control with cost 2 or less have +2 / +2.'
+    text: Protection Talent (You can't put Holy Talents or Retribution Talents in your deck.)
+  - type: Ability
+    text: 'Ongoing: Allies you control with cost 2 or less have +2 / +2.'
 
 regulation:
 
 errata: []
-
-temp: Protection

@@ -19,6 +19,13 @@ combat: Frost
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
     text: When another ally in your party is destroyed, you may destroy target ability.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Shaman

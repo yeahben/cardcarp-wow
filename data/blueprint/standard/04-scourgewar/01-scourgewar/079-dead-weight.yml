@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally or equipment. Ongoing : When attached card exhausts, destroy it.'
+    text: Attach to target ally or equipment.
+  - type: Ability
+    text: 'Ongoing: When attached card exhausts, destroy it.'
 
 regulation:
 
 errata: []
-
-temp: Assassination Combo

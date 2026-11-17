@@ -11,12 +11,12 @@ trait:
 
 cost: '3'
 
-instant: Draw cards until you reach your maximum hand size.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Draw cards until you reach your maximum hand size.
 
 regulation:
 
 errata: []
-
-temp: ''

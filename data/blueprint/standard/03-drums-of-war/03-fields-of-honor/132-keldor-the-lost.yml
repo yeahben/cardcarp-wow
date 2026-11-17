@@ -19,12 +19,20 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warlock
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Pay 2 or remove an honor counter from a card you control → Interrupt target ally card. If you do, remove it from the game, and its owner puts it into his party at the start of his next turn.
+    text: Pay {2} or remove an honor counter from a card you control → Interrupt target ally card. If you do, remove it from the game, and its owner puts it into his party at the start of his next turn.
 
 regulation:
 
 errata: []
-
-temp: Undead Warlock

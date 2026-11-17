@@ -19,6 +19,16 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warlock
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: When Hildagard deals combat damage to a hero, destroy that hero.
@@ -26,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Warlock

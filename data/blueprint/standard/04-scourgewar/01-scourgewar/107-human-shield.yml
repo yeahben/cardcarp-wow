@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warrior
 
-instant: If damage would be dealt to an ally you control this turn, it's dealt to your hero instead.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: If damage would be dealt to an ally you control this turn, it's dealt to your hero instead.
 
 regulation:
 
 errata: []
-
-temp: Protection

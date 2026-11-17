@@ -19,15 +19,17 @@ combat: Frost
 
 faction: Horde
 
+race: Undead
+
 class:
   - Mage
 
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Discard a card with cost X → This ally deals X frost damage to target ally.
+    text: '{1}, Discard a {mage} card with cost X → This ally deals X frost damage to target ally.'
 
 regulation:
 
 errata: []
-
-temp: Undead Mage

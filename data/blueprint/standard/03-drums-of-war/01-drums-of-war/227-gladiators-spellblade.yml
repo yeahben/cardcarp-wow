@@ -1,4 +1,4 @@
-name: Gladiators Spellblade
+name: Gladiator's Spellblade
 
 origin: drums-of-war-227
 
@@ -7,21 +7,39 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Dagger
+
 trait:
 
 cost: '5'
 
+damage: 0
+
+strike: 5
+
+combat: Melee
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
+type: Arena
 
 rule:
   - type: Ability
-    text: At the start of your turn, put a spell counter on Gladiator's Spellblade. If your hero would deal damage, it deals that much +1 for each spell counter instead.
+    text: At the start of your turn, put a spell counter on Gladiator's Spellblade.
+  - type: Ability
+    text: If your hero would deal damage, it deals that much +1 for each spell counter instead.
 
 regulation:
 
 errata: []
-
-temp: 1H Arena Weapon Dagger

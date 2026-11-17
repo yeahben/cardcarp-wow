@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , → Target hero or ally has Long-Range this turn.
+    text: '{1}, {activate} → Target hero or ally has long-range this turn. (Defenders deal no combat damage to it.)'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Hunter

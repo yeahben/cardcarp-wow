@@ -15,12 +15,23 @@ damage: 3
 
 health: 2
 
+combat: Ranged
+
+race: Draenei
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aldor Reputation Long-Range When an opposing ally is dealt non-ranged damage, Eowan deals 1 ranged ( ) damage to it.
+    text: Aldor Reputation
+  - type: Ability
+    text: Long-Range
+  - type: Ability
+    text: When an opposing ally is dealt non-ranged damage, Eowan deals 1 ranged ({ranged}) damage to it.
 
 regulation:
 
 errata: []
-
-temp: Draenei Hunter

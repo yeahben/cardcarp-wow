@@ -17,12 +17,22 @@ health: 3
 
 combat: Holy
 
+race: Human
+
+class:
+  - Priest
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Argent Crusade Reputation This ally has Mend 1 for each Unique ally you control.
+    text: Argent Crusade Reputation
+  - type: Ability
+    text: This ally has Mend 1 for each Unique ally you control.
 
 regulation:
 
 errata: []
-
-temp: Human Priest

@@ -7,20 +7,38 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Necromancer
+
 trait:
+  - 'Unrelenting Death Knight: 4'
+
+health: 6
+
+race: Human
 
 type: Boss
 
 rule:
   - type: Ability
     position: Front
-    text: 'Immune When Gothik enters play, see Gothik rules. Once per game: At the start of your turn, put two Unrelenting Riders into play. When the last Spectral ally leaves your control, flip Gothik.'
+    text: Immune
+  - type: Ability
+    position: Front
+    text: When Gothik enters play, see Gothik rules.
+  - type: Ability
+    position: Front
+    text: 'Once per game: At the start of your turn, put two Unrelenting Riders into play.'
+  - type: Ability
+    position: Front
+    text: When the last Spectral ally leaves your control, flip Gothik.
   - type: Ability
     position: Reverse
-    text: 'On your turn: → Gothik deals 4 shadow damage to target ally. When Gothik is destroyed, he deals 4 shadow damage to each raiding hero.'
+    text: 'On your turn: {activate} → Gothik deals 4 shadow damage to target ally.'
+  - type: Ability
+    position: Reverse
+    text: When Gothik is destroyed, he deals 4 shadow damage to each raiding hero.
 
 regulation:
 
 errata: []
-
-temp: Human Necromancer 6

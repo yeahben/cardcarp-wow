@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Curse
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Shaman
 
+talent:
+  - Elemental
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target ally. Ongoing : Attached ally becomes 1 / 1, can't gain or lose ATK or , and is also a Frog."
+    text: Attach to target ally.
+  - type: Ability
+    text: "Ongoing: Attached ally becomes 1 / 1, can't gain or lose ATK or {health}, and is also a Frog."
 
 regulation:
 
 errata: []
-
-temp: Elemental Curse

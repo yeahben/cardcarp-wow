@@ -13,16 +13,19 @@ health: 28
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Hunter
+
 rule:
   - type: Ability
     position: Front
-    text: 5 → Flip Gorwal
+    text: '{5} → Flip Gorwal'
   - type: Ability
     position: Reverse
-    text: Pets you control have Ferocity .
+    text: Pets you control have Ferocity. (They can attack immediately.)
 
 regulation:
 
 errata: []
-
-temp: Worgen Hunter

@@ -5,10 +5,26 @@ origin: fires-of-outland-tokens-005
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
+  - Fire
+  - Elemental
 
 trait:
 
-rule: []
+damage: 2
+
+health: 1
+
+combat: Fire
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Ferocity
 
 regulation:
 

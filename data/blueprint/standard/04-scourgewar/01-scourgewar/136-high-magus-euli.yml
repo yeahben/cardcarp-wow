@@ -19,12 +19,19 @@ combat: Fire
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Shadow Resistance At the start of your turn, this ally may deal 1 fire damage to target hero or ally. A character dealt damage this way loses and can't have powers this turn.
+    text: Shadow Resistance (Prevent all shadow ({shadow}) damage that this ally would be dealt.)
+  - type: Ability
+    text: At the start of your turn, this ally may deal 1 fire damage to target hero or ally. A character dealt damage this way loses and can't have powers this turn.
 
 regulation:
 
 errata: []
-
-temp: Draenei Mage

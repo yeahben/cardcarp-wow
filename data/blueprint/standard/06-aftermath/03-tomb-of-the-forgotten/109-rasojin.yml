@@ -19,12 +19,21 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When this ally enters play, put two 1 / 1 Treant ally tokens into play. This ally has +1 ATK for each token ally you control.
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
+  - type: Ability
+    text: When this ally enters play, put two 1 {melee} / 1 {health} Treant ally tokens into play.
+  - type: Ability
+    text: This ally has +1 ATK for each token ally you control.
 
 regulation:
 
 errata: []
-
-temp: Troll Druid

@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: 2 → Deacon Johanna heals 2 damage from target hero or ally. Use only once per turn.
+    text: '{2} → Deacon Johanna heals 2 damage from target hero or ally. Use only once per turn.'
 
 regulation:
 
 errata: []
-
-temp: Undead Priest

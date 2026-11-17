@@ -14,12 +14,17 @@ cost: '5'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: Shadow Talent Your hero deals 3 shadow damage to target hero or ally. That character's controller discards a card for each damage dealt this way.
+    text: Shadow Talent (You can't put Discipline Talents or Holy Talents in your deck.)
+  - type: Ability
+    text: Your hero deals 3 shadow damage to target hero or ally. That character's controller discards a card for each damage dealt this way.
 
 regulation:
 
 errata: []
-
-temp: Shadow

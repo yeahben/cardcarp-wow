@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Dryad
+
 trait:
+
+health: 27
+
+class:
+  - Druid
 
 type: Monster
 
 rule:
   - type: Ability
     position: Front
-    text: 8 → Flip Arisella face down You pay 8 less to flip Arisella if allies you control have 10 or more combined health remaining.
+    text: '{8} → Flip Arisella face down.'
+  - type: Ability
+    position: Front
+    text: You pay {8} less to flip Arisella if allies you control have 10 or more combined remaining health.
   - type: Ability
     position: Reverse
-    text: "Harmonize Deckbuilding: You can't put or cards in your deck."
+    text: Harmonize (You pay {1} less to play allies with printed cost 4 or more.)
+  - type: Ability
+    position: Reverse
+    text: "Deckbuilding: You can't put {horde} or {alliance} cards in your deck."
 
 regulation:
 
 errata: []
-
-temp: Dryad Druid 27

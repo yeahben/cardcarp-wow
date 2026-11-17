@@ -1,0 +1,22 @@
+name: Coordinated Attack
+
+origin: scarlet-monastery-023
+
+layout: Standard
+
+category:
+  - Ability
+
+trait:
+
+instant: false
+
+type: Dungeon
+
+rule:
+  - type: Ability
+    text: This turn, Mograine and Dungeon allies attack only the Raiding ally with the highest printed {health}, if able. If two or more Raiding allies are tied, the Raiders choose. If unable to attack allies, they attack the MARKED hero.
+
+regulation:
+
+errata: []

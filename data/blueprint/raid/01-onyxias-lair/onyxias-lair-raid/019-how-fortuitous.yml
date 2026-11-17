@@ -11,12 +11,12 @@ trait:
 
 cost: '2'
 
-instant: Draw a card for each opposing hero.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Draw a card for each opposing hero.
 
 regulation:
 
 errata: []
-
-temp: ''

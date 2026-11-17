@@ -9,14 +9,18 @@ category:
 
 trait:
 
-type: Boss
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
-    text: "The Caverns hero deals 4 shadow damage to each Raiding hero, and 2 shadow damage to each Raiding ally. Ongoing : Raiding heroes and allies can't be healed. When a Caverns hero is defeated, destroy this ability."
+    text: The Caverns hero deals 4 shadow damage to each Raiding hero, and 2 shadow damage to each Raiding ally.
+  - type: Ability
+    text: "Ongoing: Raiding heroes and allies can't be healed."
+  - type: Ability
+    text: When a Caverns hero is defeated, destroy this ability.
 
 regulation:
 
 errata: []
-
-temp: ''

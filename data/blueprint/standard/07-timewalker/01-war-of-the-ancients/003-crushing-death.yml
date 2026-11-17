@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Death Knight
 
+talent:
+  - Blood
+
+instant: false
+
 rule:
   - type: Ability
-    text: Destroy target equipment with cost less than or equal to the number of cards in it's controller's graveyard.
+    text: Destroy target equipment with cost less than or equal to the number of cards in its controller's graveyard.
 
 regulation:
 
 errata: []
-
-temp: Blood

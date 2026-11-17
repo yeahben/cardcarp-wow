@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '1'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Head
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'On your turn, if this armor has three or more heirloom counters: → Your hero deals 3 nature damage to target hero or ally. Stash : Add an heirloom counter to target equipment you control.'
+    text: 'On your turn, if this armor has three or more heirloom counters: {activate} → Your hero deals 3 nature damage to target hero or ally.'
+  - type: Ability
+    text: 'Stash: Add an heirloom counter to target equipment you control.'
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

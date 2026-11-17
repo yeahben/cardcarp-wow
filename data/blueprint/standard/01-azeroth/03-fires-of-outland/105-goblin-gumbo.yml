@@ -11,12 +11,16 @@ trait:
 
 cost: '2'
 
-instant: "Attach to target ally. Ongoing : Attached ally has -2 ATK. When Goblin Gumbo enters a graveyard from play, put it from that graveyard on top of its owner's deck."
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has -2 ATK.'
+  - type: Ability
+    text: When Goblin Gumbo enters a graveyard from play, put it from that graveyard on top of its owner's deck.
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Flight
+  - Master
+
 trait:
 
 cost: '1'
@@ -19,12 +23,19 @@ combat: Melee
 
 faction: Horde
 
+race: Undead
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: When Michael enters play, reveal the top four cards of your deck. Put a revealed location card into hand and the rest on the bottom of your deck. Michael has +1 ATK / +1 health while you have a location.
+    text: When Michael enters play, reveal the top four cards of your deck. Put a revealed location card into hand and the rest on the bottom of your deck.
+  - type: Ability
+    text: Michael has +1 ATK / +1 health while you have a location.
 
 regulation:
 
 errata: []
-
-temp: Undead Flight Master

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Wisp
+
 trait:
 
 cost: '1'
@@ -19,12 +22,12 @@ combat: Nature
 
 faction: Alliance
 
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of your turn, if Wisp is in your graveyard, you may pay 1 . If you do, put Wisp into your hand.
+    text: At the start of your turn, if Wisp is in your graveyard, you may pay {1}. If you do, put Wisp into your hand.
 
 regulation:
 
 errata: []
-
-temp: Wisp

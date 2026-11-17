@@ -14,12 +14,15 @@ cost: '5'
 class:
   - Shaman
 
-instant: Ready each ally you control.
+talent:
+  - Enhancement
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Ready each ally you control.
 
 regulation:
 
 errata: []
-
-temp: Enhancement

@@ -7,20 +7,36 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Frost Wyrm
+
 trait:
+
+damage: 5
+
+health: 20
+
+combat: Melee
 
 type: Boss
 
 rule:
   - type: Ability
     position: Front
-    text: When Sapphiron exhausts, he deals 5 melee damage to target raiding hero. At the end of your turn, Sapphiron deals 5 shadow damage to a random raiding hero and heals 1 damage from himself for each damage dealt this way. Flip Sapphiron.
+    text: When Sapphiron exhausts, he deals 5 melee damage to target raiding hero.
+  - type: Ability
+    position: Front
+    text: At the end of your turn, Sapphiron deals 5 shadow damage to a random raiding hero and heals 1 damage from himself for each damage dealt this way. Flip Sapphiron.
   - type: Ability
     position: Reverse
-    text: "cards can't attack or exhaust. At the start of your turn, Sapphiron deals 5 frost damage to a random raiding hero, and then attach Icebolt to it. Any raider: Discard a card → Put a shelter counter on your hero or each ally you control."
+    text: "{frost} cards can't attack or exhaust."
+  - type: Ability
+    position: Reverse
+    text: At the start of your turn, Sapphiron deals 5 frost damage to a random raiding hero, and then attach Icebolt to it.
+  - type: Ability
+    position: Reverse
+    text: 'Any raider: Discard a card → Put a shelter counter on your hero or each ally you control.'
 
 regulation:
 
 errata: []
-
-temp: Frost Wyrm 20

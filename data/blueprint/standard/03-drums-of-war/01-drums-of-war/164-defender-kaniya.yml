@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Nature Resistance
+    text: Protector
+  - type: Ability
+    text: Nature Resistance (Prevent all nature or {nature} damage that this ally would be dealt.)
 
 regulation:
 
 errata: []
-
-temp: Tauren Warrior

@@ -11,12 +11,12 @@ trait:
 
 cost: '4'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : 1 , , Exhaust two allies in your party → Draw a card.'
+    text: 'Ongoing: {1}, {activate}, Exhaust two allies in your party → Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

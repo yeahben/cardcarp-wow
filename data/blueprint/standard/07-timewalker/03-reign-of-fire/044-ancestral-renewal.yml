@@ -14,12 +14,21 @@ cost: '9'
 class:
   - Shaman
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: Destroy all opposing cards attached to cards you own. Shuffle your graveyard into your deck. Draw cards until you reach your maximum hand size. Your hero heals all damage from itself.
+    text: Destroy all opposing cards attached to cards you own.
+  - type: Ability
+    text: Shuffle your graveyard into your deck.
+  - type: Ability
+    text: Draw cards until you reach your maximum hand size.
+  - type: Ability
+    text: Your hero heals all damage from itself.
 
 regulation:
 
 errata: []
-
-temp: Restoration

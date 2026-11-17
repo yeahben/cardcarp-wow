@@ -19,12 +19,22 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity When Or'barokh enters play, you may destroy target damaged ally.
+    text: Ferocity
+  - type: Ability
+    text: When Or'barokh enters play, you may destroy target damaged ally.
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

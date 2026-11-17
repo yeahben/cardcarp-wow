@@ -7,28 +7,40 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '4'
 
+defense: 1
+
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this armor enters play, draw a card. Your hero has Assault 1 .
+    text: When this armor enters play, draw a card.
+  - type: Ability
+    text: Your hero has Assault 1. (It has +1 ATK on your turn.)
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

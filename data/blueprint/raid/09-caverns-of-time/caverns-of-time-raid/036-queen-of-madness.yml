@@ -7,16 +7,21 @@ layout: Standard
 category:
   - Event
 
+subtype:
+  - Azshara
+
 trait:
 
-type: Boss
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
-    text: Flip an additional Caverns card for each Caverns hero that has been defeated. If Azshara is the Caverns hero, put four guard counters on her.
+    text: Flip an additional Caverns card for each Caverns hero that has been defeated.
+  - type: Ability
+    text: If Azshara is the Caverns hero, put four guard counters on her.
 
 regulation:
 
 errata: []
-
-temp: Azshara

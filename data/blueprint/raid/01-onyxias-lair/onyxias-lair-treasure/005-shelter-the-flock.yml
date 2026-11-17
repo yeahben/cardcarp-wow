@@ -14,6 +14,11 @@ cost: '4'
 class:
   - Priest
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero heals 11 damage from each friendly hero.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Holy

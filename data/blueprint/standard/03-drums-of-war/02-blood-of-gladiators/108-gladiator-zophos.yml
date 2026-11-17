@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Paladin
+
+instant: false
+
 type: Arena
 
 rule:
@@ -28,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

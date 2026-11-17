@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Chicken
+
 trait:
 
 cost: '2'
@@ -17,12 +20,12 @@ health: 2
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: When El Pollo Grande deals combat damage, you may put a Chicken ally token into play with 0 ATK / 1 health.
+    text: When El Pollo Grande deals combat damage, you may put a Chicken ally token into play with 0 {melee} ATK / 1 health.
 
 regulation:
 
 errata: []
-
-temp: Chicken

@@ -13,16 +13,19 @@ health: 27
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Rogue
+
 rule:
   - type: Ability
     position: Front
-    text: 2 → Flip Zimzi
+    text: '{2} → Flip Zimzi'
   - type: Ability
     position: Reverse
-    text: Zimzi and allies you control with Stealth also have Assault 1 .
+    text: Zimzi and allies you control with Stealth also have Assault 1.
 
 regulation:
 
 errata: []
-
-temp: Goblin Rogue

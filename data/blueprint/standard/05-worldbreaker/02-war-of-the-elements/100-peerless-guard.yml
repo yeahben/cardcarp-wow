@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Warrior
 
-instant: The next time combat damage would be dealt to target defending ally you control this turn, it's dealt to your hero instead. Draw a card.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: The next time combat damage would be dealt to target defending ally you control this turn, it's dealt to your hero instead. Draw a card.
 
 regulation:
 
 errata: []
-
-temp: Protection

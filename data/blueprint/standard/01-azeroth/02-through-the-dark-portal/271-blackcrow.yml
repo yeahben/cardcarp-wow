@@ -7,19 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Crossbow
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 1
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you strike with this weapon, your hero has Long-Range this combat.
+    text: When you strike with Blackcrow, your hero has long-range this combat. (Defenders deal no combat damage to it.)
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Crossbow

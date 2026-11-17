@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Blessing
+
 trait:
 
 cost: '4'
@@ -14,12 +17,17 @@ cost: '4'
 class:
   - Paladin
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target ally. If that ally's cost is 2 or less, draw a card. Ongoing : Attached ally has +3 / +3."
+    text: Attach to target ally. If that ally's cost is 2 or less, draw a card.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +3 / +3.'
 
 regulation:
 
 errata: []
-
-temp: Protection Blessing

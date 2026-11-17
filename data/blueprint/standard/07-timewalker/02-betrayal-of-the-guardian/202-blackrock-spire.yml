@@ -13,10 +13,8 @@ faction: Horde
 
 rule:
   - type: Ability
-    text: 'Bloodrush : While an opposing hero has more damage on it than your hero: 2 , → Put a 2 / 2 Orc Warrior ally token into play with Ferocity and "This ally can attack only heroes."'
+    text: 'Bloodrush: While an opposing hero has more damage on it than your hero: {basic} {2}, {activate} → Put a 2 {melee} / 2 {health} {horde} Orc Warrior ally token into play with Ferocity and "This ally can attack only heroes."'
 
 regulation:
 
 errata: []
-
-temp: ''

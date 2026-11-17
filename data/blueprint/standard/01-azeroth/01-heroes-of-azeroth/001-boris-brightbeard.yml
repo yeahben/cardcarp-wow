@@ -13,13 +13,23 @@ health: 26
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Priest
+
+talent:
+  - Holy
+
+profession:
+  - Enchanting
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: x , Flip Boris Brightbeard → Boris heals X damage from target hero or ally. Use only on your turn.
+    text: '{x}, Flip Boris Brightbeard → Boris heals X damage from target hero or ally. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Priest

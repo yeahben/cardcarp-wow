@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Felhunter
+  - Demon
+
 trait:
 
 cost: '3'
@@ -20,6 +24,12 @@ combat: Shadow
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, he deals 3 shadow damage to target hero and heals 3 damage from your hero.
@@ -27,5 +37,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Felhunter Demon

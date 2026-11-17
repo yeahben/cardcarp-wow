@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: Portal , Portal
+    text: Portal, Portal
 
 regulation:
 
 errata: []
-
-temp: Demonology

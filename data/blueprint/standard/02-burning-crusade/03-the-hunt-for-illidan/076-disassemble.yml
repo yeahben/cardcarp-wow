@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '1'
@@ -14,12 +17,15 @@ cost: '1'
 class:
   - Rogue
 
-instant: Destroy target exhausted equipment.
+talent:
+  - Combat
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Destroy target exhausted equipment.
 
 regulation:
 
 errata: []
-
-temp: Combat Combo

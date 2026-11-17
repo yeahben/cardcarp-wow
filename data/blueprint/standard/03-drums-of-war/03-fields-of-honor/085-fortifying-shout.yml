@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Shout
+
 trait:
 
 cost: '5'
@@ -15,12 +18,16 @@ class:
   - Priest
   - Warrior
 
+talent:
+  - Discipline
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Heroes and allies in your party have +2 health.'
+    text: 'Ongoing: Heroes and allies in your party have +2 health.'
 
 regulation:
 
 errata: []
-
-temp: Discipline Fury Shout

@@ -7,13 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Axe
+
 trait:
 
 cost: '5'
 
+damage: 8
+
+strike: 3
+
+combat: Melee
+
 class:
-  - Warrior
   - Death Knight
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -22,5 +38,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: 1H Weapon Axe

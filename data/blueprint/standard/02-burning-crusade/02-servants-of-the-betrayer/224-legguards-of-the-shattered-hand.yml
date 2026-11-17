@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '6'
+
+defense: 5
 
 class:
   - Paladin
   - Warrior
 
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Destroy target ally with damage.
+    text: '{activate} → Destroy target ally with damage.'
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

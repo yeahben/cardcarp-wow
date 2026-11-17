@@ -13,13 +13,16 @@ health: 29
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Death Knight
+
 rule:
   - type: Ability
     position: Front
-    text: "On your turn: 1 , Flip Davron → Target hero or ally can't protect this turn."
+    text: "On your turn: {1}, Flip Davron → Target hero or ally can't protect this turn."
 
 regulation:
 
 errata: []
-
-temp: Human Death Knight

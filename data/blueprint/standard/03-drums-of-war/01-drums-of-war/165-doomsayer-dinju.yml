@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: When Din'ju enters play, turn all opposing resources face down.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Priest

@@ -19,12 +19,19 @@ combat: Ranged
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Inspiring Presence At the start of each opponent's turn, target ally is a Protector this turn.
+    text: Inspiring Presence (If a hero or ally in your party would deal non-combat damage, it deals that much +1 instead.)
+  - type: Ability
+    text: At the start of each opponent's turn, target ally is a protector this turn.
 
 regulation:
 
 errata: []
-
-temp: Draenei Hunter

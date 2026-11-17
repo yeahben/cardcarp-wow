@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'On your turn, if a hero or ally you controlled dealt melee ( ) damage this turn: 2 , → Put a 2 / 1 Earth Elemental ally token into play. When an Earth Elemental enters play under your control, target ally has Assault 1 this turn.'
+    text: 'On your turn, if a hero or ally you controlled dealt melee ({melee}) damage this turn: {2}, {activate} → Put a 2 {melee} / 1 {health} Earth Elemental ally token into play.'
+  - type: Ability
+    text: When an Earth Elemental enters play under your control, target ally has Assault 1 this turn.
 
 regulation:
 
 errata: []
-
-temp: ''

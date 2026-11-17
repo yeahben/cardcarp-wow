@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Target ally you control has Assault 3 this turn.
+    text: '{activate} → Target ally you control has Assault 3 this turn.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

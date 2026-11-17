@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Shaman
 
-instant: Target up to three abilities. Destroy the first. Destroy the second if it costs less than the first. Destroy the third if it costs less than the second.
+talent:
+  - Elemental
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target up to three abilities. Destroy the first. Destroy the second if it costs less than the first. Destroy the third if it costs less than the second.
 
 regulation:
 
 errata: []
-
-temp: Elemental

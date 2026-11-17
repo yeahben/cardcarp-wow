@@ -17,12 +17,19 @@ health: 3
 
 combat: Arcane
 
+race: Blood Elf
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Scryer Reputation When Dianas enters play, look at the top card of your deck. Either draw it or put it on the bottom. If you draw it, put Dianas from play into her owner's hand.
+    text: Scryer Reputation (Can't put Aldor cards in your deck.)
+  - type: Ability
+    text: When Dianas enters play, look at the top card of your deck. Either draw it or put it on the bottom. If you draw it, put Dianas from play into her owner's hand.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

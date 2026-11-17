@@ -19,12 +19,19 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Will of the Forsaken When Charkov enters play, each player puts an ally from his party into its owner's hand.
+    text: Will of the Forsaken (This ally can't leave play unless it has fatal damage or 0 health.)
+  - type: Ability
+    text: When Charkov enters play, each player puts an ally from his party into its owner's hand.
 
 regulation:
 
 errata: []
-
-temp: Undead Priest

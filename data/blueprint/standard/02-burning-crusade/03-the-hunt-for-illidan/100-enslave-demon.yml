@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target Demon ally. Ongoing : You control attached ally.'
+    text: Attach to target Demon ally.
+  - type: Ability
+    text: 'Ongoing: You control attached ally.'
 
 regulation:
 
 errata: []
-
-temp: Demonology

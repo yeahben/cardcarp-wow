@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Red
+  - Dragonkin
+
 trait:
 
 cost: '5'
@@ -17,12 +21,12 @@ health: 4
 
 combat: Fire
 
+instant: false
+
 rule:
   - type: Ability
-    text: Allies you control have Untargetable .
+    text: Allies you control have Untargetable.
 
 regulation:
 
 errata: []
-
-temp: Red Dragonkin

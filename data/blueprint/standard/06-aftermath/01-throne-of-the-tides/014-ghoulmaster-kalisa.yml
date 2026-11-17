@@ -13,13 +13,16 @@ health: 29
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Death Knight
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 2 , Discard an ally, flip Kalisa → Put a 3 / 3 Ghoul ally token into play.'
+    text: 'On your turn: {2}, Discard an ally, flip Kalisa → Put a 3 {melee} / 3 {health} Ghoul ally token into play.'
 
 regulation:
 
 errata: []
-
-temp: Undead Death Knight

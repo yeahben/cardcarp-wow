@@ -13,13 +13,23 @@ health: 25
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Mage
+
+talent:
+  - Fire
+
+profession:
+  - Mining
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 3 , Flip Nicholas → Nicholas deals 2 fire damage to each opposing ally.'
+    text: 'On your turn: {3}, Flip Nicholas → Nicholas deals 2 fire damage to each opposing ally.'
 
 regulation:
 
 errata: []
-
-temp: Human Mage

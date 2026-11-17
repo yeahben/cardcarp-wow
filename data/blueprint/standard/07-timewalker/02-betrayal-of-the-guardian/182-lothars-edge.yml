@@ -1,4 +1,4 @@
-name: Lothars Edge
+name: Lothar's Edge
 
 origin: betrayal-of-the-guardian-182
 
@@ -7,23 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Axe
+
 trait:
 
 cost: '4'
 
+damage: 3
+
+strike: 3
+
+combat: Melee
+
 faction: Alliance
 
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this weapon enters play, if an opponent controls a hero, you pay 3 less to strike with this weapon this turn.
+    text: When this weapon enters play, if an opponent controls a {horde} hero, you pay {3} less to strike with this weapon this turn.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Axe

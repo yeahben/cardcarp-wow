@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Boar
+
 trait:
 
 cost: '3'
@@ -20,12 +23,16 @@ combat: Melee
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally attacks, you may exhaust target hero or ally.
+    text: When Chops attacks, you may exhaust target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Boar

@@ -17,6 +17,13 @@ health: 2
 
 combat: Melee
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, draw a card for each other player unless that player chooses and discards a card.
@@ -24,5 +31,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

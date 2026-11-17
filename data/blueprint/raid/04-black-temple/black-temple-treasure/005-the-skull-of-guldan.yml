@@ -7,24 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
   - Druid
-  - Paladin
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: → You pay 2 less the next time you pay a cost with x in it this turn.
+    text: '{activate} → You pay {2} less the next time you pay a cost with {x} in it this turn.'
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

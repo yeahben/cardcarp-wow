@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Polar
+  - Bear
+
 trait:
 
 cost: '4'
@@ -20,12 +24,18 @@ combat: Frost
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Frost Resistance Your hero has Frost Resistance .
+    text: Frost Resistance (Prevent all frost ({frost}) damage that would be dealt to this ally.)
+  - type: Ability
+    text: Your hero has Frost Resistance.
 
 regulation:
 
 errata: []
-
-temp: Polar Bear

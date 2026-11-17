@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Mage
 
-instant: Remove target defending ally from combat. It has Elusive this turn.
+talent:
+  - Arcane
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Remove target defending ally from combat. It has Elusive this turn. (It can't be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Arcane

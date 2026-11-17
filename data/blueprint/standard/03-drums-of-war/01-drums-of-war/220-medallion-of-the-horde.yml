@@ -7,18 +7,40 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
-cost: '1'
+cost: '2'
+
+defense: 1
 
 faction: Horde
 
+class:
+  - Druid
+  - Hunter
+  - Mage
+  - Paladin
+  - Priest
+  - Rogue
+  - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Put Medallion of the Horde on the bottom of your deck → Interrupt target ability card that's targeting your hero if it was played by an player. (This item can prevent damage like an armor.)
+    text: "{1}, Put Medallion of the Horde on the bottom of your deck → Interrupt target ability card that's targeting your hero if it was played by an {alliance} player."
+  - type: Ability
+    text: (This item can prevent damage like an armor.)
 
 regulation:
 
 errata: []
-
-temp: Item

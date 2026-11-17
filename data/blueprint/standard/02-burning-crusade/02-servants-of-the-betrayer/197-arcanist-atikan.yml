@@ -17,12 +17,21 @@ health: 2
 
 combat: Fire
 
+race: Blood Elf
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Scryer Reputation Sabotage: Side Deck When Atikan sabotages a side deck, cards in it can't leave that side deck this match."
+    text: Scryer Reputation
+  - type: Ability
+    text: 'Sabotage: Side Deck'
+  - type: Ability
+    text: When Atikan sabotages a side deck, cards in it can't leave that side deck this match.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

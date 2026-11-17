@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Shaman
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: Eternal Your hero heals 1 damage from itself and each ally you control for each resource you control.
+    text: Eternal (When this enters your graveyard from anywhere, you may shuffle it into your deck.)
+  - type: Ability
+    text: Your hero heals 1 damage from itself and each ally you control for each resource you control.
 
 regulation:
 
 errata: []
-
-temp: Restoration

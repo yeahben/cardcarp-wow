@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '2'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Feet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , → Your hero has Stealth this turn.
+    text: '{1}, {activate} → Your hero has stealth this turn.'
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

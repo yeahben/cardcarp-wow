@@ -17,12 +17,19 @@ health: 3
 
 combat: Melee
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Scryer Reputation When Athan is destroyed, target player discards his hand, then draws that many cards.
+    text: Scryer Reputation
+  - type: Ability
+    text: When Athan is destroyed, target player discards his hand, then draws that many cards.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

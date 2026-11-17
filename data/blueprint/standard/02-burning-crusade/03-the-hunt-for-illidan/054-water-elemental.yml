@@ -5,7 +5,11 @@ origin: the-hunt-for-illidan-054
 layout: Standard
 
 category:
-  - Token
+  - Ally
+
+subtype:
+  - Talent
+  - Elemental
 
 trait:
 
@@ -20,12 +24,21 @@ combat: Frost
 class:
   - Mage
 
+talent:
+  - Frost
+
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Frost Hero Required → Water Elemental deals 1 frost damage to each opposing hero and ally. A character dealt damage this way can't attack this turn.
+    text: Frost Hero Required
+  - type: Ability
+    text: "{activate} → Water Elemental deals 1 frost damage to each opposing hero and ally. A character dealt damage this way can't attack this turn."
 
 regulation:
 
 errata: []
-
-temp: Elemental

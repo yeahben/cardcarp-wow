@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Druid
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : Each turn, you can place an additional resource if you've placed a quest that turn. Death Rattle : Reveal the top three cards of your deck. Put a revealed quest in your hand and the rest of the bottom of your deck."
+    text: "Ongoing: Each turn, you can place an additional resource if you've placed a quest that turn."
+  - type: Ability
+    text: 'Death Rattle (When this ability enters your graveyard from anywhere): Reveal the top three cards of your deck. Put a revealed quest into your hand and the rest on the bottom of your deck.'
 
 regulation:
 
 errata: []
-
-temp: Restoration

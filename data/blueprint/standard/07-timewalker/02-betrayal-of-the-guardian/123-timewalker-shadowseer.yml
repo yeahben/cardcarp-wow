@@ -17,12 +17,17 @@ health: 4
 
 combat: Shadow
 
+race: Human
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, if you control two or more allies that share a or race, allies you control have Absorb this turn.
+    text: When this ally enters play, if you control two or more allies that share a {horde} or {alliance} race, allies you control have Absorb this turn. (When they deal combat damage to a hero, they heal that much damage from your hero.)
 
 regulation:
 
 errata: []
-
-temp: Human Priest

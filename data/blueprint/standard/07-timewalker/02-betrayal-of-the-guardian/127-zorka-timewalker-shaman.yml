@@ -17,12 +17,17 @@ health: 3
 
 combat: Nature
 
+race: Orc
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'While you control two or more allies that share a or race: → This ally deals 2 nature damage divided as you choose to any number of target heroes and/or allies.'
+    text: 'While you control two or more allies that share a {horde} or {alliance} race: {basic} {activate} → This ally deals 2 nature damage divided as you choose to any number of target heroes and/or allies.'
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

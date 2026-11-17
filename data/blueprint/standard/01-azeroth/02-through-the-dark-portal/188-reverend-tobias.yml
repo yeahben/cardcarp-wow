@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , → Exhaust target ready ally, and Reverend Tobias heals all damage from it.
+    text: '{1}, {activate} → Exhaust target ready ally, and Reverend Tobias heals all damage from it.'
 
 regulation:
 
 errata: []
-
-temp: Human Priest

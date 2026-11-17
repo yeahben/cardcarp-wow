@@ -5,10 +5,38 @@ origin: drums-of-war-230
 layout: Standard
 
 category:
+  - Equipment
+
+subtype:
+  - Weapon
+  - Bow
 
 trait:
 
-rule: []
+cost: '6'
+
+damage: 3
+
+strike: 3
+
+combat: Ranged
+
+class:
+  - Hunter
+  - Rogue
+  - Warrior
+
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
+rule:
+  - type: Ability
+    text: When you strike with Lohn'goron, your hero has long-range this combat.
+  - type: Ability
+    text: Exhaust an ally in your party → It deals 1 ranged damage to target hero.
 
 regulation:
 

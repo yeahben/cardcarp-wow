@@ -15,6 +15,12 @@ class:
   - Hunter
   - Mage
 
+talent:
+  - Marksmanship
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero deals X arcane damage to target ally.
@@ -22,5 +28,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Marksmanship Arcane

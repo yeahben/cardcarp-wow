@@ -19,12 +19,22 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When an ally enters combat with High Overlord Saurfang, destroy that ally.
+    text: Protector
+  - type: Ability
+    text: When an ally enters combat with High Overlord Saurfang, destroy that ally.
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

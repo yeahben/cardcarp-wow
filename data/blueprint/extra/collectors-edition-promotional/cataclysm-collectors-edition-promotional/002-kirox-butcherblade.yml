@@ -13,13 +13,23 @@ health: 27
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Rogue
+
+talent:
+  - Assassination
+
+profession:
+  - Alchemy
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 4 , Flip Kirox → Kirox deals 4 melee damage to target exhausted ally.'
+    text: 'On your turn: {4}, Flip Kirox → Kirox deals 4 melee damage to target exhausted ally.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Rogue

@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target hero or ally. Ongoing : At the start of your turn, your hero deals 1 fire damage to attached character. 3 → Your hero deals 1 fire damage to attached character.'
+    text: Attach to target hero or ally.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero deals 1 fire damage to attached character.'
+  - type: Ability
+    text: '{3} → Your hero deals 1 fire damage to attached character.'
 
 regulation:
 
 errata: []
-
-temp: Affliction

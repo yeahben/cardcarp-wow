@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Opponents pay 2 more to play allies.
+    text: Opponents pay {2} more to play allies.
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

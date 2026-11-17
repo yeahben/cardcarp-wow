@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Black
+  - Dragonkin
+
 trait:
 
 cost: '6'
@@ -17,6 +21,12 @@ health: 4
 
 combat: Shadow
 
+limit:
+  - name: Wrathion
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of each player's turn, that player chooses and destroys a card he controls.
@@ -24,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Black Dragonkin

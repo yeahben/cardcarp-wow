@@ -17,12 +17,22 @@ health: 1
 
 combat: Holy
 
+race: Blood Elf
+
+class:
+  - Priest
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Argent Crusade Reputation When this or another Unique ally enters play under your control, it may deal 2 unpreventable holy damage to target ally.
+    text: Argent Crusade Reputation
+  - type: Ability
+    text: When this or another Unique ally enters play under your control, it may deal 2 unpreventable holy damage to target ally.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Priest

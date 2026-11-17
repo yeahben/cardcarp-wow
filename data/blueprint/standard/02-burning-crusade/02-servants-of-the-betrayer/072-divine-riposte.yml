@@ -14,12 +14,15 @@ cost: '6'
 class:
   - Paladin
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When damage that would be dealt to a hero or ally in your party is prevented, your hero deals that much unpreventable holy damage to its source.'
+    text: 'Ongoing: When damage that would be dealt to a hero or ally in your party is prevented, your hero deals that much unpreventable holy damage to its source.'
 
 regulation:
 
 errata: []
-
-temp: Protection

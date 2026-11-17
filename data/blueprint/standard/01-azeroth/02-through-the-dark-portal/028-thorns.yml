@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Druid
 
-instant: 'Attach to target hero or ally. Ongoing : When attached character is dealt combat damage, it deals 1 nature damage to the source of that combat damage.'
+talent:
+  - Balance
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target hero or ally.
+  - type: Ability
+    text: 'Ongoing: When attached character is dealt combat damage, it deals 1 nature damage to the source of that combat damage.'
 
 regulation:
 
 errata: []
-
-temp: Balance

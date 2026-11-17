@@ -7,20 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
   - Death Knight
+  - Priest
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Your hero has +1 for each soul counter. Hero : Opposing allies everywhere have " Death Rattle : Add a soul counter to this item." Hero : Opposing abilities everywhere have " Death Rattle : Add a soul counter to this item."'
+    text: Your hero has +1 {health} for each soul counter.
+  - type: Ability
+    text: '{death knight} Hero: Opposing allies everywhere have "Death Rattle: Add a soul counter to this item."'
+  - type: Ability
+    text: '{priest} Hero: Opposing abilities everywhere have "Death Rattle: Add a soul counter to this item."'
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

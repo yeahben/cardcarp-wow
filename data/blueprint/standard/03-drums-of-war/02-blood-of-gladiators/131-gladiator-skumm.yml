@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Rogue
+
+instant: false
+
 type: Arena
 
 rule:
@@ -28,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Rogue

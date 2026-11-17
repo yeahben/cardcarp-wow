@@ -7,28 +7,40 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '3'
 
+defense: 1
+
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Back
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'As this armor enters play, choose a class. On your turn: 2 , → Put a 1 / 1 ally token of the chosen class into play.'
+    text: As this armor enters play, choose a class.
+  - type: Ability
+    text: 'On your turn: {2}, {activate} → Put a 1 {melee} / 1 {health} ally token of the chosen class into play.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

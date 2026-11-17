@@ -1,14 +1,41 @@
-name: Shrine Of Lost Souls
+name: Shrine of Lost Souls
 
 origin: black-temple-raid-006
 
 layout: Standard
 
 category:
+  - Hero
+
+subtype:
+  - Shrine
+  - Traitor
 
 trait:
+  - 3 Events
 
-rule: []
+cost: '9'
+
+type: Boss
+
+stage: 6
+
+rule:
+  - type: Ability
+    position: Front
+    text: Immune (Can't be attacked, damaged, or targeted.)
+  - type: Ability
+    position: Front
+    text: When the last Soul Fragment leaves your party, flip Shrine of Lost Souls.
+  - type: Ability
+    position: Reverse
+    text: Essence of Suffering has +15 ATK while attacking.
+  - type: Ability
+    position: Reverse
+    text: Opposing heroes and allies are protectors.
+  - type: Ability
+    position: Reverse
+    text: If Essence of Suffering would be destroyed, swap it with Essence of Desire instead. (This is not a new hero.)
 
 regulation:
 

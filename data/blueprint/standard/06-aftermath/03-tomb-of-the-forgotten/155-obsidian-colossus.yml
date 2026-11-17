@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Colossus
+
 trait:
 
 cost: '6'
@@ -17,14 +20,20 @@ health: 4
 
 combat: Melee
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Protector If this ally would be destroyed, remove all damage from it, exhaust it, and add three stone counters to it instead. At the start of your turn, remove a stone counter from this ally. If none remain, ready this ally. While this ally has a stone counter on it, it can't ready and has Invincible .
+    text: Protector
+  - type: Ability
+    text: If this ally would be destroyed, remove all damage from it, exhaust it, and add three stone counters to it instead.
+  - type: Ability
+    text: At the start of your turn, remove a stone counter from this ally. If none remain, ready this ally.
+  - type: Ability
+    text: While this ally has a stone counter on it, it can't ready and has Invincible. (It can't leave play, be targeted, or be dealt damage.)
 
 regulation:
 
 errata: []
-
-temp: Colossus

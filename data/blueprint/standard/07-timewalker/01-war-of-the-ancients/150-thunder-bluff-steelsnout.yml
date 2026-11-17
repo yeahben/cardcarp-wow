@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Tribe : When this or another Tauren ally enters play under your control, you may exhaust target hero or ally.'
+    text: 'Tribe: When this or another Tauren ally enters play under your control, you may exhaust target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Warrior

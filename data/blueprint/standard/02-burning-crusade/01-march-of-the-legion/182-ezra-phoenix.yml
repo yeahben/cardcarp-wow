@@ -19,12 +19,19 @@ combat: Ranged
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity When Ezra readies, he deals 2 ranged damage to target hero or ally.
+    text: Ferocity (Can attack immediately.)
+  - type: Ability
+    text: When Ezra readies, he deals 2 ranged damage to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Tauren Hunter

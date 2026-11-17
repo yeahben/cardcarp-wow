@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Destroy an ally in your party → Your hero deals 1 shadow damage to target hero or ally.'
+    text: 'Ongoing: Destroy an ally in your party → Your hero deals 1 shadow damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Demonology

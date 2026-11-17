@@ -7,19 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Dagger
+
 trait:
 
 cost: '4'
 
+damage: 2
+
+strike: 1
+
+combat: Melee
+
 class:
   - Rogue
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero has Dual Wield . This weapon has Assault X while your hero is attacking, where X is the ATK of a defender.
+    text: Your hero has Dual Wield.
+  - type: Ability
+    text: This weapon has Assault X while your hero is attacking, where X is the ATK of a defender.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

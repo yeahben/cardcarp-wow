@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '1'
@@ -14,12 +17,17 @@ cost: '1'
 class:
   - Shaman
 
-instant: 'Restoration Hero Required Ongoing : Your Totems have +3 health.'
+talent:
+  - Restoration
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Restoration Hero Required
+  - type: Ability
+    text: 'Ongoing: Your Totems have +3 health.'
 
 regulation:
 
 errata: []
-
-temp: Restoration Talent

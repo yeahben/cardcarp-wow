@@ -13,13 +13,16 @@ health: 27
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 3 , Flip Leisha → Leisha has Assault 3 this turn.'
+    text: 'On your turn: {3}, Flip Leisha → Leisha has Assault 3 this turn. (She has +3 ATK on your turn.)'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

@@ -19,12 +19,27 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Warrior
+
+limit:
+  - name: Cairne
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Cairne enters play with an ankh counter. If Cairne would be destroyed, you may remove an ankh counter from him. If you do, remove all damage from Cairne instead. Each ally you control has +X ATK, where X is its .
+    text: Protector
+  - type: Ability
+    text: Cairne enters play with an ankh counter.
+  - type: Ability
+    text: If Cairne would be destroyed, you may remove an ankh counter from him. If you do, remove all damage from Cairne instead.
+  - type: Ability
+    text: Each ally you control has +X ATK, where X is its {health}.
 
 regulation:
 
 errata: []
-
-temp: Tauren Warrior

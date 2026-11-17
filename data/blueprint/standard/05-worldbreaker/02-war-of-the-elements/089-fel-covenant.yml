@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Warlock
 
-instant: Remove target ally from the game. If you do, your hero deals fire damage to itself equal to that ally's cost.
+talent:
+  - Destruction
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Remove target ally from the game. If you do, your hero deals fire damage to itself equal to that ally's cost.
 
 regulation:
 
 errata: []
-
-temp: Destruction

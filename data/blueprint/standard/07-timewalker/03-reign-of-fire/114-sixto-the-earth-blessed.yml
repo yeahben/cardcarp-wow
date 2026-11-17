@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Tribe : When this or another Tauren ally enters play under your control, you may complete target quest you control without paying its cost.'
+    text: 'Tribe: When this or another Tauren ally enters play under your control, you may complete target quest you control without paying its cost.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

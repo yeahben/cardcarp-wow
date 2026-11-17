@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Hunter
 
+talent:
+  - Survival
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Survival Hero Required Ongoing : Prevent the first 4 damage that would be dealt to your hero each turn.'
+    text: Survival Hero Required
+  - type: Ability
+    text: 'Ongoing: Prevent the first 4 damage that would be dealt to your hero each turn.'
 
 regulation:
 
 errata: []
-
-temp: Survival Talent

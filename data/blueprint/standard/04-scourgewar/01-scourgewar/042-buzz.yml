@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Wasp
+
 trait:
 
 cost: '5'
@@ -20,12 +23,18 @@ combat: Melee
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'When this ally enters play, you may destroy target equipment. Death Rattle : You may destroy target weapon.'
+    text: When this ally enters play, you may destroy target equipment.
+  - type: Ability
+    text: 'Death Rattle (When this ally enters your graveyard from anywhere): You may destroy target weapon.'
 
 regulation:
 
 errata: []
-
-temp: Wasp

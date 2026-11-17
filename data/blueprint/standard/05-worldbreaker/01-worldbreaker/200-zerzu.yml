@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, she heals all damage from allies you control.
+    text: When this ally enters play, she heals all damage from {nature} allies you control.
 
 regulation:
 
 errata: []
-
-temp: Troll Druid

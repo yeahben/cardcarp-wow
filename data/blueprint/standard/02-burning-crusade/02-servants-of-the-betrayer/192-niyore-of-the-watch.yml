@@ -17,12 +17,21 @@ health: 6
 
 combat: Melee
 
+race: Draenei
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aldor Reputation If damage would be dealt to your hero, it's dealt to Niyore instead. When Niyore is dealt damage, he deals 2 melee damage to its source.
+    text: Aldor Reputation
+  - type: Ability
+    text: If damage would be dealt to your hero, it's dealt to Niyore instead.
+  - type: Ability
+    text: When Niyore is dealt damage, he deals 2 melee damage to its source.
 
 regulation:
 
 errata: []
-
-temp: Draenei Warrior

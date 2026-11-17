@@ -7,18 +7,28 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '3'
 
+defense: 3
+
 class:
   - Paladin
   - Warrior
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

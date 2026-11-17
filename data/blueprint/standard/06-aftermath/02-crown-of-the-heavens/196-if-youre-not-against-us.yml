@@ -1,14 +1,19 @@
-name: If You're Not Against Us...
+name: If You're Not Against Us . . .
 
 origin: crown-of-the-heavens-196
 
 layout: Standard
 
 category:
+  - Quest
 
 trait:
 
-rule: []
+rule:
+  - type: Ability
+    text: Pay {1} to complete this quest.
+  - type: Ability
+    text: 'Reward: An opponent chooses one: You draw a card; or your hero deals 3 shadow damage to his hero.'
 
 regulation:
 

@@ -19,12 +19,19 @@ combat: Frost
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When Rakasa deals damage, target opposing hero or ally can't attack or protect this turn.
+    text: Protector
+  - type: Ability
+    text: When Rakasa deals damage, target opposing hero or ally can't attack or protect this turn.
 
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

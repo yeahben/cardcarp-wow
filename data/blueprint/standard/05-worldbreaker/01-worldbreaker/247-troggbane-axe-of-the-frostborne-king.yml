@@ -7,21 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Axe
+
 trait:
 
 cost: '3'
 
+damage: 0
+
+strike: 0
+
+combat: Frost
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: x → This equipment has +X ATK this turn.
+    text: '{x} → This equipment has +X ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Axe

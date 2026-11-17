@@ -11,12 +11,12 @@ trait:
 
 cost: '3'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Onyxia has +5 ATK while attacking.'
+    text: 'Ongoing: Onyxia has +5 ATK while attacking.'
 
 regulation:
 
 errata: []
-
-temp: ''

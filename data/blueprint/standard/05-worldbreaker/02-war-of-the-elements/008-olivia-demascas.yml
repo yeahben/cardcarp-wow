@@ -13,16 +13,19 @@ health: 26
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Priest
+
 rule:
   - type: Ability
     position: Front
-    text: 4 → Flip Olivia
+    text: '{4} → Flip Olivia'
   - type: Ability
     position: Reverse
-    text: When a hero or ally you control deals shadow ( ) damage to an opposing hero, you may put the top two cards of that hero's controller's deck into his graveyard.
+    text: When a hero or ally you control deals shadow ({shadow}) damage to an opposing hero, you may put the top two cards of that hero's controller's deck into his graveyard.
 
 regulation:
 
 errata: []
-
-temp: Worgen Priest

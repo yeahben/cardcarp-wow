@@ -19,12 +19,23 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+limit:
+  - name: Durotan
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When Durotan enters play, discard your hand. Durotan can protect Draka and Thrall allies you control.
+    text: When Durotan enters play, discard your hand.
+  - type: Ability
+    text: Durotan can protect Draka and Thrall allies you control.
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

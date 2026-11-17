@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Voidwalker
+  - Demon
+
 trait:
 
 cost: '1'
@@ -17,14 +21,14 @@ health: 2
 
 combat: Shadow
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Protector
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
 
 regulation:
 
 errata: []
-
-temp: Voidwalker Demon

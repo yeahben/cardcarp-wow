@@ -14,12 +14,19 @@ cost: '1'
 class:
   - Hunter
 
+talent:
+  - Beast Mastery
+
+limit:
+  - name: Aspect
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Discard a card → Opposing allies have -2 ATK while in combat with your hero this turn. Use only once per turn.'
+    text: 'Ongoing: Discard a card → Opposing allies have -2 ATK while in combat with your hero this turn. Use only once per turn.'
 
 regulation:
 
 errata: []
-
-temp: Beast Mastery

@@ -6,6 +6,7 @@ layout: Standard
 
 category:
   - Ability
+  - Ally
 
 trait:
 
@@ -20,14 +21,23 @@ combat: Frost
 class:
   - Shaman
 
-type: Ally
+talent:
+  - Elemental
+
+limit:
+  - name: Water Totem
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: "Ongoing : When this Totem enters play, it deals 1 frost damage to each opposing hero and ally. At the start of your turn, this totem deals 2 frost damage to target opposing hero. (Totems can't attack.)"
+    text: 'Ongoing: When this Totem enters play, it deals 1 frost damage to each opposing hero and ally.'
+  - type: Ability
+    text: At the start of your turn, this Totem deals 2 frost damage to target opposing hero.
+  - type: Ability
+    text: (Totems can't attack.)
 
 regulation:
 
 errata: []
-
-temp: Elemental

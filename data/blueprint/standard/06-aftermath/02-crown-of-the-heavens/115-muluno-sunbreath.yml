@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, this ally heals damage from target hero or ally equal to this ally's ATK.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Paladin

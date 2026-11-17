@@ -1,4 +1,4 @@
-name: 'Magraff sparroweye: Ironhammer'
+name: Magraff "Sparroweye" Ironhammer
 
 origin: fires-of-outland-128
 
@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 → Magraff "Sparroweye" Ironhammer has Long-Range this turn.
+    text: '{1} → Magraff "Sparroweye" Ironhammer has long-range this turn. (Defenders deal no combat damage to him.)'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

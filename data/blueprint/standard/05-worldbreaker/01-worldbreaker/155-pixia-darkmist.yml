@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Your hero has Protector .
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
+  - type: Ability
+    text: Your hero has Protector.
 
 regulation:
 
 errata: []
-
-temp: Gnome Death Knight

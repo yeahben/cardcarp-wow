@@ -13,10 +13,15 @@ health: 28
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Shaman
+
 rule:
   - type: Ability
     position: Front
-    text: 4 → Flip Nazka face down.
+    text: '{4} → Flip Nakza'
   - type: Ability
     position: Reverse
     text: At the start of your turn, Nakza may heal all damage from target ally you control.
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Goblin Shaman

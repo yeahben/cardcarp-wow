@@ -14,12 +14,17 @@ cost: '7'
 class:
   - Warrior
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Opposing heroes and allies must attack each turn if able. When an opponent proposes combat, you may change the proposed defender. (It must be a legal choice for the attacker.)'
+    text: 'Ongoing: Opposing heroes and allies must attack each turn if able.'
+  - type: Ability
+    text: When an opponent proposes a combat, you may change the proposed defender. (It must be a legal choice for the attacker.)
 
 regulation:
 
 errata: []
-
-temp: Protection

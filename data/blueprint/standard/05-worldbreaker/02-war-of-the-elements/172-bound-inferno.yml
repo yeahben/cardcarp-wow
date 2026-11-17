@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Fire
+  - Elemental
+
 trait:
 
 cost: '5'
@@ -17,12 +21,17 @@ health: 2
 
 combat: Fire
 
+limit:
+  - name: Unlimited
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity When this ally is destroyed, put a 2 / 1 Fire Elemental ally token into play.
+    text: Ferocity
+  - type: Ability
+    text: When this ally is destroyed, put a 2 {fire} / 1 {health} Fire Elemental ally token into play.
 
 regulation:
 
 errata: []
-
-temp: Fire Elemental

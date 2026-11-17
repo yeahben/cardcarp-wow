@@ -7,23 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: 1 , , Discard an ability card → Your hero deals 2 fire damage to target hero or ally.
+    text: '{1}, {activate}, Discard an ability card → Your hero deals 2 fire damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Item Ring

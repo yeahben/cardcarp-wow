@@ -9,14 +9,14 @@ category:
 
 trait:
 
-type: Raid
+instant: false
 
 rule:
   - type: Ability
-    text: Put the top card of the event deck into your resource row face down. Each opponent puts the top card of his deck into his resource row face down.
+    text: Put the top card of the event deck into your resource row face down.
+  - type: Ability
+    text: Each opponent puts the top card of his deck into his resource row face down.
 
 regulation:
 
 errata: []
-
-temp: ''

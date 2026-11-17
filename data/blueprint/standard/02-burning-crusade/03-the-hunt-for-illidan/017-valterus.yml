@@ -13,13 +13,23 @@ health: 29
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+talent:
+  - Protection
+
+profession:
+  - Skinning
+  - Alchemy
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Valterus → Target friendly hero or ally is Untargetable this turn.
+    text: '{3}, Flip Valterus → Target friendly hero or ally is untargetable this turn.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

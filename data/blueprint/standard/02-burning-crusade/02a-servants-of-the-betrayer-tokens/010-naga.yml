@@ -5,8 +5,21 @@ origin: servants-of-the-betrayer-tokens-010
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
+  - Naga
 
 trait:
+
+damage: 1
+
+health: 1
+
+combat: Melee
+
+instant: false
 
 rule: []
 

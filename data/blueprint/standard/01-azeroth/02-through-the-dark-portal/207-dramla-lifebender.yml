@@ -19,12 +19,21 @@ combat: Fire
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Undead Hero Required You can play ally cards from your graveyard. If an ally would be put into your graveyard from play, remove it from the game instead.
+    text: Undead Hero Required
+  - type: Ability
+    text: You can play ally cards from your graveyard.
+  - type: Ability
+    text: If an ally would be put into your graveyard from play, remove it from the game instead.
 
 regulation:
 
 errata: []
-
-temp: Undead Warlock

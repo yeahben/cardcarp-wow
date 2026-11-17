@@ -11,12 +11,14 @@ trait:
 
 cost: '2'
 
-instant: Interrupt target ability, ally, or equipment card. If Magtheridon is Unleashed, gain a Blood.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Interrupt target ability, ally, or equipment card.
+  - type: Ability
+    text: If Magtheridon is Unleashed, gain a Blood.
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Druid
 
-instant: Exhaust target hero or ally. If you control a Form, your hero deals 3 melee damage to that character.
+talent:
+  - Feral
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Exhaust target hero or ally. If you control a Form, your hero deals 3 melee damage to that character.
 
 regulation:
 
 errata: []
-
-temp: Feral

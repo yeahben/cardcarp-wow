@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Infernal
+  - Demon
+
 trait:
 
 cost: '4'
@@ -17,6 +21,8 @@ health: 2
 
 combat: Fire
 
+instant: false
+
 type: Monster
 
 rule:
@@ -26,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Infernal Demon

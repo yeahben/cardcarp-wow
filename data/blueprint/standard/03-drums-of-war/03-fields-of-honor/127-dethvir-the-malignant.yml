@@ -19,12 +19,21 @@ combat: Fire
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Undead Hero Required Will of the Forsaken If another hero or ally in your party would be dealt damage, you may have it be dealt to Dethvir instead.
+    text: Undead Hero Required
+  - type: Ability
+    text: Will of the Forsaken
+  - type: Ability
+    text: If another hero or ally in your party would be dealt damage, you may have it be dealt to Dethvir instead.
 
 regulation:
 
 errata: []
-
-temp: Undead Warlock

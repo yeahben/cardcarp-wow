@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: Play only if an opposing hero has 15 or more damage on it. Put a 5 / 5 Void Terror Demon Monster ally token into play for each Demon and/or Monster hero and ally you control.
+    text: Play only if an opposing hero has 15 or more damage on it.
+  - type: Ability
+    text: Put a 5 {shadow} / 5 {health} Void Terror Demon Monster ally token into play for each Demon and/or Monster hero and ally you control.
 
 regulation:
 
 errata: []
-
-temp: Demonology

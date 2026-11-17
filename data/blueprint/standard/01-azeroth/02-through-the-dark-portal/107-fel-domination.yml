@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,19 @@ cost: '2'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Demonology Hero Required Ongoing : At the start of your turn, put a dominate counter on Fel Domination. Destroy Fel Domination → You may put a Pet card from your hand into play if its cost is less than or equal to the number of dominate counters on Fel Domination.'
+    text: Demonology Hero Required
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, put a dominate counter on Fel Domination.'
+  - type: Ability
+    text: Destroy Fel Domination → You may put a Pet card from your hand into play if its cost is less than or equal to the number of dominate counters on Fel Domination.
 
 regulation:
 
 errata: []
-
-temp: Demonology Talent

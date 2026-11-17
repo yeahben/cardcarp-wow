@@ -1,0 +1,44 @@
+name: Frostmourne
+
+origin: reign-of-fire-184
+
+layout: Standard
+
+category:
+  - Equipment
+
+subtype:
+  - Weapon
+  - Two-Handed
+  - Sword
+
+trait:
+
+cost: '5'
+
+damage: 4
+
+strike: 2
+
+combat: Frost
+
+class:
+  - Death Knight
+  - Paladin
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
+rule:
+  - type: Ability
+    text: When an ally you control is destroyed, add a +1 ATK counter to this weapon and your hero heals 3 damage from itself.
+  - type: Ability
+    text: When your hero deals combat damage to an opposing hero while undamaged, you may put target ally from your graveyard into play.
+
+regulation:
+
+errata: []

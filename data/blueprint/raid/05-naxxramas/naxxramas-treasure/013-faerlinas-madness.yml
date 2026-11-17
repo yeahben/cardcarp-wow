@@ -1,4 +1,4 @@
-name: Faerlinas Madness
+name: Faerlina's Madness
 
 origin: naxxramas-treasure-013
 
@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '1'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'On your turn: , Turn a resource you control face down → Turn target opposing resource face down.'
+    text: 'On your turn: {activate}, Turn a resource you control face down → Turn target opposing resource face down.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

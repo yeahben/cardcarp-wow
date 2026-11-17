@@ -14,12 +14,17 @@ cost: '9'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: Fury Talent Your hero deals 15 melee damage to target opposing hero.
+    text: Fury Talent (You can't put Arms Talents or Protection Talents in your deck.)
+  - type: Ability
+    text: Your hero deals 15 melee damage to target opposing hero.
 
 regulation:
 
 errata: []
-
-temp: Fury

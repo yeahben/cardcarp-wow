@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Harmonize When this ally enters play, put a 0 / 3 Earth Totem token into play with " Ongoing : Harmonize ".'
+    text: Harmonize
+  - type: Ability
+    text: 'When this ally enters play, put a 0 {nature} / 3 {health} Totem ability ally token into play with Earth Totem (1) and "Ongoing: Harmonize."'
 
 regulation:
 
 errata: []
-
-temp: Troll Shaman

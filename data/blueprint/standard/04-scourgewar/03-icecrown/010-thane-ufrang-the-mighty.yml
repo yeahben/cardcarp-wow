@@ -5,10 +5,30 @@ origin: icecrown-010
 layout: Standard
 
 category:
+  - Hero
+
+subtype:
+  - Vrykul
 
 trait:
 
-rule: []
+health: 30
+
+class:
+  - Warrior
+
+talent:
+  - Protection
+
+type: Scourge
+
+rule:
+  - type: Ability
+    position: Front
+    text: Flip Ufrang, remove a Warrior in your graveyard from the game → Target hero or ally has Protector this turn.
+  - type: Ability
+    position: Reverse
+    text: "Deckbuilding: You can only include either {alliance} or {horde} cards, {warrior} cards, {warrior} Protection Talents, neutral cards, and Scourge cards. You can't include cards with reputations or other text restrictions."
 
 regulation:
 

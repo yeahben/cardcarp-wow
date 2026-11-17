@@ -14,6 +14,11 @@ cost: '7'
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
     text: Put any number of target equipment cards from your graveyard into play if their combined cost is less than or equal to the number of resources you have.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Enhancement

@@ -7,28 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '7'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: Players play with the top card of their decks revealed. At the start of each player's turn, if the top card of his deck is a master hero, ability, ally, or equipment, he may play it without paying its cost. → Shuffle target player's deck.
+    text: Players play with the top card of their decks revealed.
+  - type: Ability
+    text: At the start of each player's turn, if the top card of his deck is a master hero, ability, ally, or equipment, he may play it without paying its cost.
+  - type: Ability
+    text: "{activate} → Shuffle target player's deck."
 
 regulation:
 
 errata: []
-
-temp: Item

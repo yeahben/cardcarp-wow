@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Blue
+  - Dragonkin
+
 trait:
 
 cost: '5'
@@ -17,12 +21,12 @@ health: 6
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: When you play an ability, target hero or ally has Protector this turn.
+    text: When you play an ability, target hero or ally has Protector this turn. (It may exhaust to become the defender when an opposing hero or ally attacks.)
 
 regulation:
 
 errata: []
-
-temp: Blue Dragonkin

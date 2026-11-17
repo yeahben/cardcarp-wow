@@ -17,12 +17,20 @@ health: 3
 
 combat: Frost
 
+race: Human
+
+class:
+  - Mage
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: 2 , Discard a Mage with cost X → Interrupt target card with cost X.
+    text: '{2}, Discard a Mage with cost X → Interrupt target card with cost X.'
 
 regulation:
 
 errata: []
-
-temp: Human Mage

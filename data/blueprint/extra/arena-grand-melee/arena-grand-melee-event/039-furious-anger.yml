@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : Each ally's name becomes Julius. It loses and can't have keywords, and it has +1 ATK for each keyword it loses this way."
+    text: "Ongoing: Each ally's name becomes Julius. It loses and can't have keywords, and it has +1 ATK for each keyword it loses this way."
 
 regulation:
 
 errata: []
-
-temp: ''

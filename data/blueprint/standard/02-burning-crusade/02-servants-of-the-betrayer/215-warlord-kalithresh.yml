@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Naga
+  - Traitor
+
 trait:
 
 cost: '6'
@@ -17,12 +21,19 @@ health: 7
 
 combat: Melee
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required At the end of your turn, put a Naga Distiller ally token with 0 ATK / 1 health into play. At the start of your turn, destroy a Naga Distiller in your party. If you do, Kalithresh has +5 ATK this turn.
+    text: Traitor Hero Required
+  - type: Ability
+    text: At the end of your turn, put a Naga Distiller ally token with 0 {melee} ATK / 1 health into play.
+  - type: Ability
+    text: At the start of your turn, destroy a Naga Distiller in your party. If you do, Kalithresh has +5 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Naga Traitor

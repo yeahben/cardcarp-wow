@@ -12,15 +12,19 @@ trait:
 cost: '2'
 
 class:
-  - Warrior
   - Mage
+  - Warrior
 
-instant: You may change the target of an ability card with a single target.
+talent:
+  - Arcane
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: You may change the target of an ability card with a single target.
 
 regulation:
 
 errata: []
-
-temp: Arcane Protection

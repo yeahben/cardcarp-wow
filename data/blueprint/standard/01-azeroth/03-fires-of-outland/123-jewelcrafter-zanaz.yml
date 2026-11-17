@@ -19,10 +19,15 @@ combat: Holy
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Priest
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Draenei Priest

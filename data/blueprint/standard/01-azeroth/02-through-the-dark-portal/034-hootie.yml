@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Owl
+
 trait:
 
 cost: '2'
@@ -20,6 +23,12 @@ combat: Melee
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: Opposing heroes and allies have -1 ATK.
@@ -27,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Owl

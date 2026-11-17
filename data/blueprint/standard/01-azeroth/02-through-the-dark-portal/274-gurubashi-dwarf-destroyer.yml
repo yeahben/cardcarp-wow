@@ -7,21 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Gun
+
 trait:
 
 cost: '4'
 
+damage: 2
+
+strike: 2
+
+combat: Ranged
+
 class:
-  - Warrior
   - Hunter
   - Rogue
+  - Warrior
+
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When you strike with Gurubashi Dwarf Destroyer, your hero has Long-Range this combat. 2 , Destroy Gurubashi Dwarf Destroyer → Destroy target Dwarf ally.
+    text: When you strike with Gurubashi Dwarf Destroyer, your hero has long-range this combat.
+  - type: Ability
+    text: '{2}, Destroy Gurubashi Dwarf Destroyer → Destroy target Dwarf ally.'
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Gun

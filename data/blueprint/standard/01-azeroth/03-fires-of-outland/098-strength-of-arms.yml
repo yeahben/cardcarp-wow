@@ -14,12 +14,17 @@ cost: '7'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Each of your weapons has +2 ATK. Each of your armor has +2 DEF.'
+    text: 'Ongoing: Each of your weapons has +2 ATK.'
+  - type: Ability
+    text: Each of your armor has +2 DEF.
 
 regulation:
 
 errata: []
-
-temp: Arms

@@ -11,6 +11,8 @@ trait:
 
 cost: '4'
 
+instant: false
+
 rule:
   - type: Ability
     text: Choose a number. Destroy all opposing abilities, allies, and equipment with cost equal to that number.
@@ -18,5 +20,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

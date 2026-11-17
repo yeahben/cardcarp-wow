@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Gargoyle
+
 trait:
 
 cost: '2'
@@ -17,14 +20,19 @@ health: 2
 
 combat: Melee
 
-type: Raid
+limit:
+  - name: Unlimited
+
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: Scourge Hero Required While this ally is ready prevent all damage that would be dealt to it.
+    text: Scourge Hero Required
+  - type: Ability
+    text: While this ally is ready, prevent all damage that would be dealt to it.
 
 regulation:
 
 errata: []
-
-temp: Gargoyle

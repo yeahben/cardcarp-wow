@@ -5,16 +5,18 @@ origin: fires-of-outland-101
 layout: Standard
 
 category:
-  - Event
+  - Ability
 
 trait:
 
+cost: '3'
+
+instant: false
+
 rule:
   - type: Ability
-    text: The Arena heals 5 damage from each hero. Each player may take a break. If he doesn't return within 5 minutes, he loses the game.
+    text: Exhaust any number of ready heroes and allies in your party. Each of those characters heals 2 damage from itself.
 
 regulation:
 
 errata: []
-
-temp: ''

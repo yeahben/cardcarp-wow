@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Warlock
 
+talent:
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Destruction Hero Required Ongoing : 1 , Destroy an ability you control → Your hero deals 2 shadow or fire damage to target hero or ally.'
+    text: Destruction Hero Required
+  - type: Ability
+    text: 'Ongoing: {1}, Destroy an ability you control → Your hero deals 2 shadow or fire damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Destruction Talent

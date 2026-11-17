@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Your hero has Protector and Mend 1 .'
+    text: 'Ongoing: Your hero has Protector and Mend 1.'
 
 regulation:
 
 errata: []
-
-temp: Holy

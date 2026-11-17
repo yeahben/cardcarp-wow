@@ -1,0 +1,22 @@
+name: You Are Not Prepared!
+
+origin: black-temple-raid-062
+
+layout: Standard
+
+category:
+  - Event
+
+trait:
+
+instant: false
+
+sequence: 15
+
+rule:
+  - type: Ability
+    text: Remove all cards in opposing graveyards from the game.
+
+regulation:
+
+errata: []

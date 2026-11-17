@@ -7,16 +7,27 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Black Temple
+
 trait:
 
 cost: '1'
 
+limit:
+  - name: Aura
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : , Discard a card → Your hero deals 2 shadow damage to target ally. , Discard two cards → Destroy target ability or equipment. , Discard five cards → Destroy all opposing abilities, allies, and equipment.'
+    text: 'Ongoing: {activate}, Discard a card → Your hero deals 2 shadow damage to target ally.'
+  - type: Ability
+    text: '{activate}, Discard two cards → Destroy target ability or equipment.'
+  - type: Ability
+    text: '{activate}, Discard five cards → Destroy all opposing abilities, allies, and equipment.'
 
 regulation:
 
 errata: []
-
-temp: Black Temple

@@ -1,4 +1,4 @@
-name: Lord Godfrey - Level 1
+name: Lord Godfrey — Level 1
 
 origin: shadowfang-keep-001
 
@@ -7,7 +7,11 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Lord
+
 trait:
+  - 5 XP
 
 damage: 0
 
@@ -15,15 +19,21 @@ health: 50
 
 combat: Shadow
 
+race: Undead
+
 type: Dungeon
 
 rule:
   - type: Ability
     position: Front
-    text: 'Level Up: 10 Flip 1 Assault 5 , Long-Range'
+    text: 'Level Up: 10 (At the start of the Dungeon turn, before flipping any cards, Level Up Godfrey if any Raiding hero has 10 or more damage.)'
+  - type: Ability
+    position: Front
+    text: Flip 1 (At the start of the Dungeon turn, flip one Dungeon card.)
+  - type: Ability
+    position: Front
+    text: Assault 5, Long-Range
 
 regulation:
 
 errata: []
-
-temp: Undead Lord

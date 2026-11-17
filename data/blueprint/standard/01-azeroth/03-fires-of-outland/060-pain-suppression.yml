@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '4'
@@ -14,12 +17,17 @@ cost: '4'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Discipline Hero Required Ongoing : If your hero would be dealt damage, prevent 1 of that damage.'
+    text: Discipline Hero Required
+  - type: Ability
+    text: 'Ongoing: If your hero would be dealt damage, prevent 1 of that damage.'
 
 regulation:
 
 errata: []
-
-temp: Discipline Talent

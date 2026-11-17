@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'Pay 1 to complete this quest. Reward : Target player puts the top three cards of his deck into his graveyard.'
+    text: Pay {1} to complete this quest.
+  - type: Ability
+    text: 'Reward: Target player puts the top three cards of his deck into his graveyard.'
 
 regulation:
 
 errata: []
-
-temp: ''

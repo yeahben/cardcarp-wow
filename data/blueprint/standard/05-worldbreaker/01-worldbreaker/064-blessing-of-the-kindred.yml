@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Blessing
+
 trait:
 
 cost: '1'
@@ -14,12 +17,17 @@ cost: '1'
 class:
   - Paladin
 
-instant: 'Ongoing : As this ability enters play, name a class. Friendly allies of that class have +1 / +1.'
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: When this ability enters play, name a class.
+  - type: Ability
+    text: 'Ongoing: Friendly allies of that class have +1 / +1.'
 
 regulation:
 
 errata: []
-
-temp: Protection Blessing

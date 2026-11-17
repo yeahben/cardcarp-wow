@@ -14,6 +14,11 @@ cost: '4'
 class:
   - Mage
 
+talent:
+  - Fire
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero deals 5 fire damage to target hero or ally.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Fire

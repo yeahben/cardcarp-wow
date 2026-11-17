@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Warrior
 
-instant: Exhaust target hero or ally, and your hero deals 1 melee damage to it.
+talent:
+  - Fury
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Exhaust target hero or ally, and your hero deals 1 melee damage to it.
 
 regulation:
 
 errata: []
-
-temp: Fury

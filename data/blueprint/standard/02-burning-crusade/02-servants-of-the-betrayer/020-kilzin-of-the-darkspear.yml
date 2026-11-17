@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Shaman
+
+talent:
+  - Elemental
+
+profession:
+  - Leatherworking
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Kil'zin → Target opponent chooses an ally in his party, and Kil'zin deals 3 nature damage to it. Use only on your turn.
+    text: "{2}, Flip Kil'zin → Target opponent chooses an ally in his party, and Kil'zin deals 3 nature damage to it. Use only on your turn."
 
 regulation:
 
 errata: []
-
-temp: Troll Shaman

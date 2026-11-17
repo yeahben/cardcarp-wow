@@ -1,14 +1,22 @@
-name: Call To Arms Arathi Basin
+name: 'Call to Arms: Arathi Basin'
 
 origin: fields-of-honor-188
 
 layout: Standard
 
 category:
+  - Quest
+
+subtype:
+  - Battleground
 
 trait:
 
-rule: []
+rule:
+  - type: Ability
+    text: Pay {5} to complete this quest.
+  - type: Ability
+    text: 'Reward: Reveal the top three cards of your deck. Put all revealed ability, ally, and equipment cards into hand and the rest on the bottom of your deck. You may add an honor counter to a Battleground card you control.'
 
 regulation:
 

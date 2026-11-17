@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : When a player plays an equipment, his hero may deal melee damage to target hero or ally equal to that equipment's cost."
+    text: "Ongoing: When a player plays an equipment, his hero may deal melee damage to target hero or ally equal to that equipment's cost."
 
 regulation:
 
 errata: []
-
-temp: ''

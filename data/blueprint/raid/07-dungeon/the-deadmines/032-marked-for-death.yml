@@ -1,0 +1,22 @@
+name: Marked for Death
+
+origin: the-deadmines-032
+
+layout: Standard
+
+category:
+  - Ability
+
+trait:
+
+instant: false
+
+type: Dungeon
+
+rule:
+  - type: Ability
+    text: Dungeon allies have +2 ATK and Long-Range this turn. (Defenders deal no combat damage to them.)
+
+regulation:
+
+errata: []

@@ -1,0 +1,22 @@
+name: You Are Not Prepared!
+
+origin: black-temple-raid-053
+
+layout: Standard
+
+category:
+  - Event
+
+trait:
+
+instant: false
+
+sequence: 4
+
+rule:
+  - type: Ability
+    text: Each opponent turns one of his face-up resources face down.
+
+regulation:
+
+errata: []

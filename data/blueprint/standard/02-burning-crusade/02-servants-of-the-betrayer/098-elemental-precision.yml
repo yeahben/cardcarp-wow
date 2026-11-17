@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '7'
@@ -14,12 +17,17 @@ cost: '7'
 class:
   - Shaman
 
+talent:
+  - Elemental
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Elemental Talent Ongoing : If a hero or ally you control would deal nature ( ) damage, it deals double that much instead.'
+    text: Elemental Hero Required
+  - type: Ability
+    text: 'Ongoing: If a hero or ally in your party would deal nature ({nature}) damage, it deals double that much instead.'
 
 regulation:
 
 errata: []
-
-temp: Elemental

@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Shadow Resistance
+    text: Shadow Resistance (Prevent all shadow [{shadow}] damage that this ally would be dealt.)
 
 regulation:
 
 errata: []
-
-temp: Undead Mage

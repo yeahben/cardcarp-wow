@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Blood
+
 trait:
 
 damage: 1
@@ -15,7 +19,9 @@ health: 1
 
 combat: Melee
 
-type: Boss
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
@@ -24,5 +30,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Blood

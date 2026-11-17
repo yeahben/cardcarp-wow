@@ -17,12 +17,23 @@ health: 8
 
 combat: Nature
 
+race: Draenei
+
+class:
+  - Shaman
+
+limit:
+  - name: Nobundo
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: You may look at the top card of any opponent's deck at any time. At the start of your turn, guess whether the top card of your deck has a higher or lower cost than the top card of target opponent's deck. Then, both players reveal the top card of their deck. If you guessed correctly, draw a card.
+    text: You may look at the top card of any opponent's deck at any time.
+  - type: Ability
+    text: At the start of your turn, guess whether the top card of your deck has a higher or lower cost than the top card of target opponent's deck. Then, both players reveal the top card of their deck. If you guessed correctly, draw a card.
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

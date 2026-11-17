@@ -1,4 +1,4 @@
-name: Merciless Gladiators Gavel
+name: Merciless Gladiator's Gavel
 
 origin: fields-of-honor-178
 
@@ -7,14 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Mace
+
 trait:
 
 cost: '5'
+
+damage: 1
+
+strike: 4
+
+combat: Melee
 
 class:
   - Druid
   - Priest
   - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
+type: Arena
 
 rule:
   - type: Ability
@@ -23,5 +41,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: 1H Arena Weapon Mace

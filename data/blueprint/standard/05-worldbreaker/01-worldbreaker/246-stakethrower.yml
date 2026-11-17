@@ -7,19 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Gun
+
 trait:
 
 cost: '4'
 
+damage: 2
+
+strike: 2
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: This weapon enters play with a stake counter. Long-Range Remove a stake counter → This weapon has +3 ATK this combat.
+    text: This equipment enters play with a stake counter.
+  - type: Ability
+    text: Long-Range (When you strike with this weapon on your turn, defenders deal no combat damage to the attacker.)
+  - type: Ability
+    text: Remove a stake counter → This weapon has +3 ATK this combat.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Gun

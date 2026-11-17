@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Infinite
+  - Dragonkin
+
 trait:
 
 damage: 1
@@ -15,7 +19,9 @@ health: 5
 
 combat: Arcane
 
-type: Boss
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
@@ -24,5 +30,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Infinite Dragonkin

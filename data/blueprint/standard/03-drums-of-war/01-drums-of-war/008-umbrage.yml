@@ -13,13 +13,23 @@ health: 27
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Rogue
+
+talent:
+  - Combat
+
+profession:
+  - Alchemy
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Umbrage → Remove target attacker from combat.
+    text: '{1}, Flip Umbrage → Remove target attacker from combat.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Rogue

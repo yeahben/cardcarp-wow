@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Nagalaas has +2 ATK during each opponent's turn.
+    text: Protector
+  - type: Ability
+    text: Nagalaas has +2 ATK during each opponent's turn.
 
 regulation:
 
 errata: []
-
-temp: Draenei Warrior

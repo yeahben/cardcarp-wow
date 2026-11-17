@@ -11,15 +11,26 @@ trait:
 
 cost: '3'
 
+health: 1
+
 class:
   - Shaman
 
+talent:
+  - Elemental
+
+limit:
+  - name: Fire Totem
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : At the start of your turn, this ability deals 3 fire damage to target hero or ally. Death Rattle : Your hero deals 3 fire damage to target hero or ally.'
+    text: 'Ongoing: At the start of your turn, this ability deals 3 fire damage to target hero or ally.'
+  - type: Ability
+    text: 'Death Rattle (When this ability enters your graveyard from anywhere): Your hero deals 3 fire damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Elemental 1

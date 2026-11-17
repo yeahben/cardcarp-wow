@@ -7,12 +7,24 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '3'
 
+defense: 1
+
 class:
   - Priest
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -21,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Armor Cloth

@@ -19,12 +19,19 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Will of the Forsaken When Sivandra enters play, draw a card, then destroy an ally in your party.
+    text: Will of the Forsaken (This ally can't leave play unless it has fatal damage or 0 health.)
+  - type: Ability
+    text: When Sivandra enters play, draw a card, then destroy an ally in your party.
 
 regulation:
 
 errata: []
-
-temp: Undead Warlock

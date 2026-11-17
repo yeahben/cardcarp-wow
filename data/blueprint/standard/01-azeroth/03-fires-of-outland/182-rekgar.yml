@@ -19,12 +19,19 @@ combat: Frost
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When one of your Totems is destroyed, Rek'gar deals 1 frost damage to target hero or ally.
+    text: Protector
+  - type: Ability
+    text: When one of your Totems is destroyed, Rek'gar deals 1 frost damage to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Troll Shaman

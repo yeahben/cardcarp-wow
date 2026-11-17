@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Rogue
 
-instant: Destroy target ally with cost less than or equal to the number of allies you control.
+talent:
+  - Assassination
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Destroy target ally with cost less than or equal to the number of allies you control.
 
 regulation:
 
 errata: []
-
-temp: Assassination

@@ -17,12 +17,25 @@ health: 8
 
 combat: Shadow
 
+race: Human
+
+class:
+  - Priest
+
+limit:
+  - name: Benedictus
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of each player's turn, put a 0 / 1 Cultist ally token into play. Exhaust a Cultist you control → That ally heals 2 damage from Benedictus. Exhaust five Cultists you control → Benedictus deals 20 shadow damage to target opposing hero.
+    text: At the start of each player's turn, put a 0 {shadow} / 1 {health} Cultist ally token into play.
+  - type: Ability
+    text: Exhaust a Cultist you control → That ally heals 2 damage from Benedictus.
+  - type: Ability
+    text: Exhaust five Cultists you control → Benedictus deals 20 shadow damage to target opposing hero.
 
 regulation:
 
 errata: []
-
-temp: Human Priest

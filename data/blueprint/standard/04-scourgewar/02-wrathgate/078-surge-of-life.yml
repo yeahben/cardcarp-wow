@@ -1,0 +1,28 @@
+name: Surge of Life
+
+origin: wrathgate-078
+
+layout: Standard
+
+category:
+  - Ability
+
+trait:
+
+cost: '3'
+
+class:
+  - Shaman
+
+talent:
+  - Restoration
+
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero heals 3 damage from target ally. You may ready that ally.
+
+regulation:
+
+errata: []

@@ -14,6 +14,11 @@ cost: '2'
 class:
   - Shaman
 
+talent:
+  - Elemental
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero deals 3 nature damage divided as you choose to any number of target heroes and/or allies.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Elemental

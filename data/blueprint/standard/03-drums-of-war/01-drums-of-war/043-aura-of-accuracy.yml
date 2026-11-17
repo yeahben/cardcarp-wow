@@ -14,12 +14,19 @@ cost: '3'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+limit:
+  - name: Aura
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : You pay 1 less to play cards and effects with one or more targets, to a minimum of 1 .'
+    text: 'Ongoing: You pay {1} less to play cards and effects with one or more targets, to a minimum of {1}.'
 
 regulation:
 
 errata: []
-
-temp: Holy

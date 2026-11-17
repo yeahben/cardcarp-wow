@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Frost Wyrm
+
 trait:
 
 cost: '7'
@@ -17,14 +20,14 @@ health: 20
 
 combat: Frost
 
-type: Raid
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: 'Icy Grip : If an opposing hero or ally attacks, it must attack Sindragosa if able.'
+    text: 'Icy Grip: If an opposing hero or ally attacks, it must attack Sindragosa if able.'
 
 regulation:
 
 errata: []
-
-temp: Frost Wyrm

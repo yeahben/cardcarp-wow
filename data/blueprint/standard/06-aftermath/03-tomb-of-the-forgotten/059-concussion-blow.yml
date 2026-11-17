@@ -14,12 +14,19 @@ cost: '4'
 class:
   - Warrior
 
-instant: "Protection Talent Exhaust target hero or ally. Ongoing : 1 , → The next time target exhausted hero or ally would be dealt damage this turn, it's dealt double that much instead."
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Protection Talent (You can't put Arms Talents or Fury Talents in your deck.)
+  - type: Ability
+    text: Exhaust target hero or ally.
+  - type: Ability
+    text: "Ongoing: {1}, {activate} → The next time target exhausted hero or ally would be dealt damage this turn, it's dealt double that much instead."
 
 regulation:
 
 errata: []
-
-temp: Protection

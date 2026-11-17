@@ -9,12 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Each non-ongoing ability card becomes ongoing, and it is also an armor with DEF equal to its cost. When Clothed in Arcana leaves play, destroy all armor.'
+    text: 'Ongoing: Each non-ongoing ability card becomes ongoing, and it is also an armor with DEF equal to its cost.'
+  - type: Ability
+    text: When Clothed in Arcana leaves play, destroy all armor.
 
 regulation:
 
 errata: []
-
-temp: ''

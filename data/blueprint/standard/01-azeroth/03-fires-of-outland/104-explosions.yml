@@ -11,6 +11,8 @@ trait:
 
 cost: '4'
 
+instant: false
+
 rule:
   - type: Ability
     text: Your hero deals 2 fire damage divided as you choose to any number of target allies.
@@ -18,5 +20,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

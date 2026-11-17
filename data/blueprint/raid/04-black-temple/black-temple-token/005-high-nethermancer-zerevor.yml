@@ -7,7 +7,11 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+
 trait:
+  - 'Illidari Council Member: 4'
 
 damage: 4
 
@@ -15,7 +19,12 @@ health: 4
 
 combat: Arcane
 
-type: Ally
+race: Blood Elf
+
+class:
+  - Mage
+
+instant: false
 
 rule:
   - type: Ability
@@ -24,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Necromancer
+
 trait:
 
 cost: '2'
@@ -17,14 +20,19 @@ health: 1
 
 combat: Shadow
 
-type: Raid
+limit:
+  - name: Unlimited
+
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: Scourge Hero Required When this ally enters play, you may put target ally in your graveyard on top of your deck.
+    text: Scourge Hero Required
+  - type: Ability
+    text: When this ally enters play, you may put target ally in your graveyard on top of your deck.
 
 regulation:
 
 errata: []
-
-temp: Necromancer

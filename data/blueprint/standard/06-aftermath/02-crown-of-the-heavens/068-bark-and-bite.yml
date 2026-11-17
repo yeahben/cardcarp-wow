@@ -11,12 +11,14 @@ trait:
 
 cost: '3'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Empower Death Knight : If you control a Death Knight hero or ally, put a 3 / 3 Ghoul ally token into play. Empower Druid : If you control a Druid hero or ally, put a 1 / 1 Treant ally token into play.'
+    text: 'Empower Death Knight: If you control a Death Knight hero or ally, put a 3 {melee} / 3 {health} Ghoul ally token into play.'
+  - type: Ability
+    text: 'Empower Druid: If you control a Druid hero or ally, put three 1 {melee} / 1 {health} Treant ally tokens into play.'
 
 regulation:
 
 errata: []
-
-temp: ''

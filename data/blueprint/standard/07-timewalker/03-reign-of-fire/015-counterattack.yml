@@ -1,0 +1,32 @@
+name: Counterattack
+
+origin: reign-of-fire-015
+
+layout: Standard
+
+category:
+  - Ability
+
+trait:
+
+cost: '1'
+
+class:
+  - Hunter
+
+talent:
+  - Survival
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Survival Talent (You can't put Beast Mastery Talents or Marksmanship Talents in your deck.)
+  - type: Ability
+    text: Play this ability only if your hero has 5 or less remaining health.
+  - type: Ability
+    text: Take an additional turn after this one.
+
+regulation:
+
+errata: []

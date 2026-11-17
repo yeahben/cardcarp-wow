@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 → Other allies in your party have +1 ATK this turn.
+    text: '{1} → Other {fire} allies in your party have +1 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

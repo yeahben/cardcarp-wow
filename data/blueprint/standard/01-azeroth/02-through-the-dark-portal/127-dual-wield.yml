@@ -12,16 +12,16 @@ trait:
 cost: '1'
 
 class:
-  - Warrior
   - Hunter
   - Rogue
+  - Warrior
 
-instant: 'Ongoing : Your hero has Dual Wield .'
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: 'Ongoing: Your hero has dual wield. (Can have a second one-handed Melee weapon instead of an Off-Hand equipment. Can strike with a second Melee weapon during the same combat.)'
 
 regulation:
 
 errata: []
-
-temp: ''

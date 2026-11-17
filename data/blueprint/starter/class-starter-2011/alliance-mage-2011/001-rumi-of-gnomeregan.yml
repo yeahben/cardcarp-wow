@@ -13,13 +13,16 @@ health: 25
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Mage
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 4 , Flip Rumi → Rumi deals 2 fire damage to target hero and 2 fire damage to up to one target ally.'
+    text: 'On your turn: {4}, Flip Rumi → Rumi deals 2 fire damage to target hero and 2 fire damage to up to one target ally.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Mage

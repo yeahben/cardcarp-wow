@@ -7,28 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Dragon Soul
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: '→ Add an aspect counter to this item. On your turn: , Remove three aspect counters from this item → Destroy target non-hero card.'
+    text: '{activate} → Add an aspect counter to this item.'
+  - type: Ability
+    text: 'On your turn: {activate}, Remove three aspect counters from this item → Destroy target non-hero card.'
 
 regulation:
 
 errata: []
-
-temp: Item

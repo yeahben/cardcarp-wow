@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Tribe : When this or another Tauren ally enters play under your control, this ally heals 2 damage from target hero or ally.'
+    text: 'Tribe: When this or another Tauren ally enters play under your control, this ally heals 2 damage from target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

@@ -7,27 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+  - Bandage
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
-  - Paladin
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: 1 , Put Heavy Netherweave Bandage on the bottom of its owner's deck → Your hero heals 6 damage from target hero or ally. Use only on your turn.
+    text: "{1}, Put Heavy Netherweave Bandage on the bottom of its owner's deck → Your hero heals 6 damage from target hero or ally. Use only on your turn."
 
 regulation:
 
 errata: []
-
-temp: Item Bandage

@@ -11,12 +11,12 @@ trait:
 
 cost: '3'
 
-instant: Prevent all combat damage that would be dealt by target ally this turn.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Prevent all combat damage that would be dealt by target ally this turn.
 
 regulation:
 
 errata: []
-
-temp: ''

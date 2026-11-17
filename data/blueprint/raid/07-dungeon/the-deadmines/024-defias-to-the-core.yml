@@ -9,14 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: Dungeon allies have +2 ATK and Ferocity this turn.
+    text: Dungeon allies have +2 ATK and Ferocity this turn. (They can attack immediately.)
 
 regulation:
 
 errata: []
-
-temp: ''

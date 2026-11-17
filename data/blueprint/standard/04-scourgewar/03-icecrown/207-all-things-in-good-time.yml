@@ -11,10 +11,12 @@ trait:
 
 rule:
   - type: Ability
-    text: 'Nerubian Reputation Pay 8 or discard an ability, ally, and equipment to complete this quest. Reward : Draw three cards.'
+    text: Nerubian Reputation (You can't put cards with other reputations in your deck.)
+  - type: Ability
+    text: Pay {8} or discard an ability, ally, and equipment to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw three cards.'
 
 regulation:
 
 errata: []
-
-temp: ''

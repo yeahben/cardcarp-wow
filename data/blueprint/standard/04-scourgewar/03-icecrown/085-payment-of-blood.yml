@@ -14,6 +14,11 @@ cost: '4'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
     text: Destroy target equipment. If you do, put X damage on your hero and draw X cards, where X is that equipment's cost.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Fury

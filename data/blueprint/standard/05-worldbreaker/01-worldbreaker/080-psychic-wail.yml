@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Target player puts an ally he controls into its owner's hand. Stash : Exhaust target resource."
+    text: Target player puts an ally he controls into its owner's hand.
+  - type: Ability
+    text: 'Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Exhaust target resource.'
 
 regulation:
 
 errata: []
-
-temp: Shadow

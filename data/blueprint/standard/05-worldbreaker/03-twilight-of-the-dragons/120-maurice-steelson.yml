@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When this ally enters play, your hero and allies you control have Assault 1 this turn.
+    text: Protector
+  - type: Ability
+    text: When this ally enters play, your hero and allies you control have Assault 1 this turn.
 
 regulation:
 
 errata: []
-
-temp: Worgen Warrior

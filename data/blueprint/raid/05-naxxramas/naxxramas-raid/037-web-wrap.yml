@@ -7,16 +7,27 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Naxxramas
+
 trait:
 
 cost: '2'
 
+health: 3
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target raiding hero or ally. Ongoing : At the start of your turn, the Boss deals 3 nature damage to attached character. Attached character can't attack or exhaust, and loses and can't have powers. This ability can be attacked or targeted like an ally."
+    text: Attach to target raiding hero or ally.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, the Boss deals 3 nature damage to attached character.'
+  - type: Ability
+    text: Attached character can't attack or exhaust, and loses and can't have powers.
+  - type: Ability
+    text: This ability can be attacked or targeted like an ally.
 
 regulation:
 
 errata: []
-
-temp: Naxxramas 3

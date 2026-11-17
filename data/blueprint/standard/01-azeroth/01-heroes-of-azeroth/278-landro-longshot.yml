@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Gambler
+
 trait:
 
 cost: '2'
@@ -17,12 +20,17 @@ health: 3
 
 combat: Melee
 
+race: Goblin
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , , Discard a card → Flip a coin. If you win the flip, draw two cards. If you lose the flip, you may pay 2 to reflip.
+    text: '{1}, {activate}, Discard a card → Flip a coin. If you win the flip, draw two cards. If you lose the flip, you may pay {2} to reflip.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Gambler

@@ -7,14 +7,22 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Flamewaker
+
 trait:
 
 health: 10
 
+stage: 7
+
 rule:
   - type: Ability
     position: Front
-    text: Sulfuron Harbinger has +4 ATK while attacking and can attack only heroes. → Flip Sulfuron Harbinger. Use only on your turn.
+    text: Sulfuron Harbinger has +4 ATK while attacking and can attack only heroes.
+  - type: Ability
+    position: Front
+    text: '{activate} → Flip Sulfuron Harbinger. Use only on your turn.'
   - type: Ability
     position: Reverse
     text: Sulfuron Harbinger has +8 ATK while attacking and can attack only heroes.
@@ -22,5 +30,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Flamewaker

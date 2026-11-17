@@ -12,15 +12,19 @@ trait:
 cost: '3'
 
 class:
-  - Shaman
   - Rogue
+  - Shaman
+
+talent:
+  - Combat
+  - Enhancement
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Ongoing : → If your hero is defending against an ally, remove your hero from combat.'
+    text: 'Ongoing: {activate} → If your hero is defending against an ally, remove your hero from combat.'
 
 regulation:
 
 errata: []
-
-temp: Combat Enhancement

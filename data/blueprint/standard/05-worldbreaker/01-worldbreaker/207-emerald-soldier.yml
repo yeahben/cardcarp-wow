@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Green
+  - Dragonkin
+
 trait:
 
 cost: '2'
@@ -17,6 +21,8 @@ health: 3
 
 combat: Nature
 
+instant: false
+
 rule:
   - type: Ability
     text: When a resource you control is turned face down, this ally heals 2 damage from target hero or ally.
@@ -24,5 +30,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Green Dragonkin

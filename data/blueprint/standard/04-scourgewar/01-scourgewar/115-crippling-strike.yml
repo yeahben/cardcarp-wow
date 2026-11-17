@@ -15,12 +15,16 @@ class:
   - Death Knight
   - Hunter
 
+talent:
+  - Unholy
+  - Survival
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : → Target ally has -3 ATK while in combat with your hero this turn.'
+    text: 'Ongoing: {activate} → Target ally has -3 ATK while in combat with your hero this turn.'
 
 regulation:
 
 errata: []
-
-temp: Unholy Survival

@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '4'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Head
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: While you have no cards in your hand, your hero has Assault 2 .
+    text: While you have no cards in your hand, your hero has Assault 2.
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

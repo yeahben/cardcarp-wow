@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Rogue
 
-instant: Exhaust each opposing ally with cost 4 or less.
+talent:
+  - Combat
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Exhaust each opposing ally with cost 4 or less.
 
 regulation:
 
 errata: []
-
-temp: Combat

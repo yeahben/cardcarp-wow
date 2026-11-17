@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Priest
 
-instant: Each player puts an ally from his party into its owner's hand.
+talent:
+  - Discipline
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Each player puts an ally from his party into its owner's hand.
 
 regulation:
 
 errata: []
-
-temp: Discipline

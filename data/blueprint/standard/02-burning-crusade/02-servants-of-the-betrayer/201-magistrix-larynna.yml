@@ -17,12 +17,24 @@ health: 8
 
 combat: Fire
 
+race: Blood Elf
+
+class:
+  - Mage
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Scryer Reputation Sabotage: Graveyard When Layrnna sabotages a graveyard, she deals 1 fire damage to target hero or ally for each card in it.'
+    text: Scryer Reputation
+  - type: Ability
+    text: 'Sabotage: Graveyard'
+  - type: Ability
+    text: When Larynna sabotages a graveyard, she deals 1 fire damage to target hero or ally for each card in it.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

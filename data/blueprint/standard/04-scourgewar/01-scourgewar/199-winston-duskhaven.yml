@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Shadow Resistance 2 , Discard a card → Target hero or ally has Shadow Resistance this turn.
+    text: Shadow Resistance (Prevent all shadow ({shadow}) damage that this ally would be dealt.)
+  - type: Ability
+    text: '{2}, Discard a card → Target hero or ally has Shadow Resistance this turn.'
 
 regulation:
 
 errata: []
-
-temp: Undead Rogue

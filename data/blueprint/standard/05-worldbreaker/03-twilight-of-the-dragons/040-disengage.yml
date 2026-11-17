@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Hunter
 
-instant: Remove target attacker from combat, and your hero deals 1 ranged damage to it.
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Remove target attacker from combat, and your hero deals 1 ranged damage to it.
 
 regulation:
 
 errata: []
-
-temp: Survival

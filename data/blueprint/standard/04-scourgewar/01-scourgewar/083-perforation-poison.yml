@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Poison
+
 trait:
 
 cost: '1'
@@ -14,12 +17,14 @@ cost: '1'
 class:
   - Rogue
 
-instant: 'Attach to target hero that was dealt combat damage by your hero this turn. Ongoing : At the start of your turn, your hero deals nature damage to attached hero equal to 1 plus the number of weapons you control.'
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Attach to target hero that was dealt combat damage by your hero this turn.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero deals nature damage to attached hero equal to 1 plus the number of weapons you control.'
 
 regulation:
 
 errata: []
-
-temp: Poison

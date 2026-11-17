@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Hunter
+
+talent:
+  - Marksmanship
+
+profession:
+  - Alchemy
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Feera → You pay 2 less the next time you strike with a Ranged weapon this turn.
+    text: '{1}, Flip Feera → You pay {2} less the next time you strike with a Ranged weapon this turn.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Hunter

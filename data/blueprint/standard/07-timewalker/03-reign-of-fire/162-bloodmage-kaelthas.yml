@@ -17,12 +17,21 @@ health: 8
 
 combat: Fire
 
+race: Blood Elf
+
+class:
+  - Mage
+
+limit:
+  - name: Kael'thas
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 → You can play cards from your resource row this turn. (Pay costs as normal.)
+    text: '{1} → You can play cards from your resource row this turn. (Pay costs as normal.)'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

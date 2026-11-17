@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Assault 2
+    text: Assault 2 (This ally has +2 ATK on your turn.)
 
 regulation:
 
 errata: []
-
-temp: Night Elf Hunter

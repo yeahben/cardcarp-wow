@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '3'
+
+defense: 2
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Opposing heroes and allies enter play exhausted. At the end of each opponent's turn, exhaust all heroes and allies he controls.
+    text: Opposing heroes and allies enter play exhausted.
+  - type: Ability
+    text: At the end of each opponent's turn, exhaust all heroes and allies he controls.
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

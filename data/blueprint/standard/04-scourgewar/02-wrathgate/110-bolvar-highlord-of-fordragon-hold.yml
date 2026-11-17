@@ -19,12 +19,24 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Untargetable When this ally enters play, you may search your deck for a card named Fordragon Hold and put it into your resource row face up and exhausted. Death Rattle : Put each location you control into its owner's hand."
+    text: Untargetable
+  - type: Ability
+    text: When this ally enters play, you may search your deck for a card named Fordragon Hold and put it into your resource row face up and exhausted.
+  - type: Ability
+    text: "Death Rattle: Put each location you control into its owner's hand."
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

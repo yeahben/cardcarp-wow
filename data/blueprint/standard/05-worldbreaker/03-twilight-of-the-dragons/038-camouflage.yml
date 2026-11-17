@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Hunter
 
+talent:
+  - Survival
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : On your turn: 2 , → Remove target ally you control from the game. If you do, put it into play under your control at the end of the next opponent's turn."
+    text: "Ongoing: On your turn: {2}, {activate} → Remove target ally you control from the game. If you do, put it into play under your control at the end of the next opponent's turn."
 
 regulation:
 
 errata: []
-
-temp: Survival

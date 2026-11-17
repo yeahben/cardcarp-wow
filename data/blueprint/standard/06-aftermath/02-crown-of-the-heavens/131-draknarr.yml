@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ogre
+
 trait:
 
 cost: '6'
@@ -17,14 +20,17 @@ health: 5
 
 combat: Nature
 
+class:
+  - Shaman
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Smash
+    text: Smash (If this ally would deal more than fatal combat damage to a defending ally, it deals the rest to that ally's controller's hero.)
 
 regulation:
 
 errata: []
-
-temp: Ogre Shaman

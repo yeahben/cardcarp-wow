@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Curse
+
 trait:
 
 cost: '1'
@@ -14,12 +17,19 @@ cost: '1'
 class:
   - Warlock
 
-instant: 'Attach to target hero or ally. Ongoing : At the start of your turn, put a fatigue counter on Curse of Fatigue. Attached character has -1 health for each fatigue counter.'
+talent:
+  - Affliction
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target hero or ally.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, put a fatigue counter on Curse of Fatigue.'
+  - type: Ability
+    text: Attached character has -1 health for each fatigue counter.
 
 regulation:
 
 errata: []
-
-temp: Affliction Curse

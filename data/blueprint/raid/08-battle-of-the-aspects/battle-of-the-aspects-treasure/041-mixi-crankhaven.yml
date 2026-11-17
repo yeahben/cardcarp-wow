@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: When you play an ability, ally, or equipment, this ally deals 1 unpreventable holy damage to target opposing hero.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Goblin Priest

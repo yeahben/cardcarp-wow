@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '2'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: While you control four or more allies, allies you control have Assault 1 and Stealth .
+    text: While you control four or more allies, allies you control have Assault 1 and Stealth.
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

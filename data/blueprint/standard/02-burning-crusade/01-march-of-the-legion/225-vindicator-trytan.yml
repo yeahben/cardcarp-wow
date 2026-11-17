@@ -17,12 +17,21 @@ health: 2
 
 combat: Melee
 
+race: Draenei
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Aldor Reputation Protector Inspire: Armor'
+    text: Aldor Reputation (Can't put Scryer cards in your deck.)
+  - type: Ability
+    text: Protector
+  - type: Ability
+    text: "Inspire: Armor (Ready one of your armor during each other player's ready step.)"
 
 regulation:
 
 errata: []
-
-temp: Draenei Warrior

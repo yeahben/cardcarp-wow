@@ -8,6 +8,7 @@ category:
   - Ally
 
 trait:
+  - 2 XP
 
 damage: 4
 
@@ -15,14 +16,21 @@ health: 7
 
 combat: Fire
 
+race: Human
+
+class:
+  - Mage
+
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: "Boss Detonation : When Doan attacks, he deals 1 fire damage to the MARKED hero for each resource its controller controls, then the MARKED hero's controller destroys a resource he controls."
+    text: Boss (The Dungeon hero can't be attacked.)
+  - type: Ability
+    text: "Detonation: When Doan attacks, he deals 1 fire damage to the MARKED hero for each resource its controller controls, then the MARKED hero's controller destroys a resource he controls."
 
 regulation:
 
 errata: []
-
-temp: Human Mage

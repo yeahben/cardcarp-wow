@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Rogue
 
-instant: Play only if your hero has stealth. Your hero deals X melee damage to target exhausted hero or ally, where X is 5 plus the ATK of one of your daggers.
+talent:
+  - Assassination
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Play only if your hero has stealth.
+  - type: Ability
+    text: Your hero deals X melee damage to target exhausted hero or ally, where X is 5 plus the ATK of one of your Daggers.
 
 regulation:
 
 errata: []
-
-temp: Assassination Combo

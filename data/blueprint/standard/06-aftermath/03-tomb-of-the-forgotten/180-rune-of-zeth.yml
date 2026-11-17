@@ -1,0 +1,36 @@
+name: Rune of Zeth
+
+origin: tomb-of-the-forgotten-180
+
+layout: Standard
+
+category:
+  - Equipment
+
+subtype:
+  - Item
+
+trait:
+
+cost: '2'
+
+class:
+  - Mage
+  - Priest
+  - Warlock
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
+
+rule:
+  - type: Ability
+    text: When this item enters play, Delve. (Look at the top two cards of your deck. Put any number of them on top of your deck in any order, and the rest on the bottom.)
+  - type: Ability
+    text: '{4}, {activate}, Destroy this item → Draw two cards.'
+
+regulation:
+
+errata: []

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '1'
@@ -15,12 +18,16 @@ class:
   - Hunter
   - Rogue
 
-instant: Target player can't play allies this turn.
+talent:
+  - Marksmanship
+  - Subtlety
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target player can't play allies this turn.
 
 regulation:
 
 errata: []
-
-temp: Marksmanship Subtlety Combo

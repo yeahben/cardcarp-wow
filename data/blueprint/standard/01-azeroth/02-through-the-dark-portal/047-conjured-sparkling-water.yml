@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : 4 , Destroy Conjured Sparkling Water → Ready all of your resources. 1 → Target player gains control of Conjured Sparkling Water. Use only on your turn.'
+    text: 'Ongoing: {4}, Destroy Conjured Sparkling Water → Ready all of your resources.'
+  - type: Ability
+    text: '{1} → Target player gains control of Conjured Sparkling Water. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Arcane

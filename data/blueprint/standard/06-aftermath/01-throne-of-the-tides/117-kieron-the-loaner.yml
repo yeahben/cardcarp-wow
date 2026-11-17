@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, each opponent draws three cards. At the end of each turn, if an opponent has no cards in his hand, destroy his hero.
+    text: When this ally enters play, each opponent draws three cards.
+  - type: Ability
+    text: At the end of each turn, if an opponent has no cards in his hand, destroy his hero.
 
 regulation:
 
 errata: []
-
-temp: Gnome Rogue

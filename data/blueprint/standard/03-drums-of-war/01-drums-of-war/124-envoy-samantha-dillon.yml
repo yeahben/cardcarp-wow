@@ -19,12 +19,19 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Diplomacy: Night Elves → Ready another target ally in your party. It can't attack this turn."
+    text: 'Diplomacy: Night Elves (You pay {1} less to play Night Elf allies, to a minimum of {1}.)'
+  - type: Ability
+    text: "{activate} → Ready another target ally in your party. It can't attack this turn."
 
 regulation:
 
 errata: []
-
-temp: Human Priest

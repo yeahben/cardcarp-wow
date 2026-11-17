@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target friendly Monster ally. Ongoing : Attached ally has +1 / +1. When attached ally deals combat damage to a hero, remove the top three cards of that hero's controller's deck from the game."
+    text: Attach to target friendly Monster ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +1 / +1.'
+  - type: Ability
+    text: When attached ally deals combat damage to a hero, remove the top three cards of that hero's controller's deck from the game.
 
 regulation:
 
 errata: []
-
-temp: Shadow

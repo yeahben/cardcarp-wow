@@ -7,27 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
-  - Paladin
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Bag
+    count: 5
+
+instant: false
 
 rule:
   - type: Ability
-    text: ', Discard an equipment card → Draw a card.'
+    text: '{activate}, Discard an equipment card → Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Item Bag

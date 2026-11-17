@@ -1,4 +1,4 @@
-name: Bandits Insignia
+name: Bandit's Insignia
 
 origin: naxxramas-treasure-022
 
@@ -6,6 +6,9 @@ layout: Standard
 
 category:
   - Equipment
+
+subtype:
+  - Item
 
 trait:
 
@@ -15,12 +18,16 @@ class:
   - Druid
   - Rogue
 
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'On your turn: → Target opponent puts a card from his hand into his resource row face down and exhausted.'
+    text: 'On your turn: {activate} → Target opponent puts a card from his hand into his resource row face down and exhausted.'
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Shaman
 
-instant: 'Attach to one of your Melee weapons. Ongoing : Attached weapon has +2 ATK. Your hero has protector.'
+talent:
+  - Enhancement
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to one of your Melee weapons.
+  - type: Ability
+    text: 'Ongoing: Attached weapon has +2 ATK.'
+  - type: Ability
+    text: Your hero has protector.
 
 regulation:
 
 errata: []
-
-temp: Enhancement

@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Water
+  - Elemental
+  - Lord
+
 trait:
 
 cost: '7'
@@ -17,12 +22,20 @@ health: 5
 
 combat: Frost
 
+limit:
+  - name: Neptulon
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Water Elementals you control have Elusive . At the start of your turn, put a 2 / 1 Water Elemental ally token into play. Exhaust a Water Elemental you control → Your hero heals 2 damage from target hero or ally.
+    text: Water Elementals you control have Elusive.
+  - type: Ability
+    text: At the start of your turn, put a 2 {frost} / 1 {health} Water Elemental ally token into play.
+  - type: Ability
+    text: Exhaust a Water Elemental you control → Your hero heals 2 damage from target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Water Elemental Lord

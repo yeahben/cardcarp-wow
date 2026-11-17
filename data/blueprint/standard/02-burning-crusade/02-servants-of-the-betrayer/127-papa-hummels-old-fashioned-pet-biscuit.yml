@@ -1,4 +1,4 @@
-name: Papa Hummels Old-Fashioned Pet Biscuit
+name: Papa Hummel's Old-Fashioned Pet Biscuit
 
 origin: servants-of-the-betrayer-127
 
@@ -11,12 +11,14 @@ trait:
 
 cost: X
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target Pet ally in your party and put X growth counters on Papa Hummel's Old-Fashioned Pet Biscuit. Ongoing : Attached ally has +1 ATK / +1 health for each growth counter."
+    text: Attach to target Pet ally in your party and put X growth counters on Papa Hummel's Old-Fashioned Pet Biscuit.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +1 ATK / +1 health for each growth counter.'
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -7,28 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '1'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: At the start of your turn, you may add a starfish counter to this item. 2 , Remove a starfish counter from this item → Your hero deals 1 melee damage to target hero or ally.
+    text: At the start of your turn, you may add a starfish counter to this item.
+  - type: Ability
+    text: '{2}, Remove a starfish counter from this item → Your hero deals 1 melee damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Item

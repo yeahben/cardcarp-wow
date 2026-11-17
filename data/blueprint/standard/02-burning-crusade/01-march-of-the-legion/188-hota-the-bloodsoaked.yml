@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Hota has Protector while an opponent has more allies than you.
+    text: Hota has protector while an opponent has more allies than you.
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

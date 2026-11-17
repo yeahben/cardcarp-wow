@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: Target player discards a card for each ally in your party.
+    text: Target player discards a card for each {shadow} ally in your party.
 
 regulation:
 
 errata: []
-
-temp: Shadow

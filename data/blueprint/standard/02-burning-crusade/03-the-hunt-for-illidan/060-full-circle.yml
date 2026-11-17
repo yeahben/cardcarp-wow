@@ -14,12 +14,15 @@ cost: '7'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: You may discard an ally card. If you do, put a second target ally card from your graveyard into play, then put a third ally from your party into its owner's hand.
+    text: You may discard an ally card. If you do, put a second target ally card from your graveyard into play, then put a third target ally from your party into its owner's hand.
 
 regulation:
 
 errata: []
-
-temp: Holy

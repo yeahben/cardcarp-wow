@@ -7,22 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '6'
 
 class:
-  - Warrior
-  - Shaman
   - Hunter
   - Rogue
+  - Shaman
+  - Warrior
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: When your hero deals combat damage, put that many Fanatic ally tokens into play with 1 ATK / 1 health.
+    text: When your hero deals combat damage, put that many Fanatic ally tokens into play with 1 {melee} ATK / 1 health.
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

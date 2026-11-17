@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: This ally has Arcane Resistance while you control an ability.
+    text: This ally has Arcane Resistance while you control an ability. (Prevent all arcane ({arcane}) damage that would be dealt to this ally.)
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

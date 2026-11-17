@@ -5,7 +5,12 @@ origin: war-of-the-ancients-001
 layout: Standard
 
 category:
-  - Hero
+  - Master Hero
+
+subtype:
+  - Stag
+  - Beast
+  - Demigod
 
 trait:
 
@@ -17,15 +22,21 @@ health: 38
 
 combat: Nature
 
-type: Master
+instant: false
+
+type: Monster
 
 rule:
   - type: Ability
     position: Front
-    text: 1 → Put a 1 / 1 Treant ally token into play. 2 , Exhaust two allies you control → Reveal the top card of your deck, then place it into your resource row exhausted as an additional resource. 20 → Shuffle your graveyard into your deck, then search your deck for any number of cards and play them without paying their costs.
+    text: '{basic} {1} → Put a 1 {melee} / 1 {health} Treant ally token into play.'
+  - type: Ability
+    position: Front
+    text: '{basic} {2}, Exhaust two allies you control → Reveal the top card of your deck, then place it into your resource row exhausted as an additional resource.'
+  - type: Ability
+    position: Front
+    text: '{basic} {20} → Shuffle your graveyard into your deck, then search your deck for any number of cards and play them without paying their costs.'
 
 regulation:
 
 errata: []
-
-temp: Stag Beast Demigod

@@ -13,13 +13,16 @@ health: 28
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Mahona → Reveal the top four cards of your deck. Put a revealed attachment into your hand and the rest on the bottom of your deck.
+    text: '{basic} {2}, Flip Mahona → Reveal the top four cards of your deck. Put a revealed attachment into your hand and the rest on the bottom of your deck.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

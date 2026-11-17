@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ogre
+
 trait:
 
 cost: '6'
@@ -17,14 +20,19 @@ health: 7
 
 combat: Melee
 
+limit:
+  - name: Unique
+
+instant: false
+
 type: Arena
 
 rule:
   - type: Ability
-    text: Protector Prevent all damage that Arena allies would deal to Skarr.
+    text: Protector
+  - type: Ability
+    text: Prevent all damage that Arena allies would deal to Skarr.
 
 regulation:
 
 errata: []
-
-temp: Ogre

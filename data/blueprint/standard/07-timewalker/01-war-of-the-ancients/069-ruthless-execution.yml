@@ -14,6 +14,11 @@ cost: '2'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
     text: Destroy target damaged ally. Draw a card.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Fury

@@ -13,13 +13,23 @@ health: 27
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Rogue
+
+talent:
+  - Subtlety
+
+profession:
+  - Blacksmithing
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Savitir → If Savitir has Stealth , destroy target exhausted equipment.
+    text: '{1}, Flip Savitir → If Savitir has stealth, destroy target exhausted equipment.'
 
 regulation:
 
 errata: []
-
-temp: Orc Rogue

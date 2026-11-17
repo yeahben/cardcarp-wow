@@ -14,12 +14,17 @@ cost: '6'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target Demon ally. Ongoing : Attached ally can't be destroyed."
+    text: Attach to target Demon ally.
+  - type: Ability
+    text: "Ongoing: Attached ally can't be destroyed."
 
 regulation:
 
 errata: []
-
-temp: Demonology

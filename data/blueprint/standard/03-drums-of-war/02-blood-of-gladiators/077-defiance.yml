@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Warrior
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Protection Hero Required Ongoing : Only one character can attack on each opponent's turn."
+    text: Protection Hero Required
+  - type: Ability
+    text: "Ongoing: Only one character can attack on each opponent's turn."
 
 regulation:
 
 errata: []
-
-temp: Protection Talent

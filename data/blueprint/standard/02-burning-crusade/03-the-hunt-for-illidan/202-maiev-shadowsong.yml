@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Warden
+
 trait:
 
 cost: '8'
@@ -17,12 +20,19 @@ health: 1
 
 combat: Ranged
 
+race: Night Elf
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Loyal Hero Required Elusive , Ferocity , Long-Range , Protector , Stealth , Untargetable
+    text: Loyal Hero Required
+  - type: Ability
+    text: Elusive, Ferocity, Long-Range, Protector, Stealth, Untargetable
 
 regulation:
 
 errata: []
-
-temp: Night Elf Warden

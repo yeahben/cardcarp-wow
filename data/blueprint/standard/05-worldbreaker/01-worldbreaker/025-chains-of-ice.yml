@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Death Knight
 
+talent:
+  - Frost
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target opposing ally. Search your deck for a Disease, reveal it, and put it into your hand. Ongoing : Attached ally can't attack."
+    text: Attach to target opposing ally. Search your deck for a Disease, reveal it, and put it into your hand.
+  - type: Ability
+    text: "Ongoing: Attached ally can't attack."
 
 regulation:
 
 errata: []
-
-temp: Frost

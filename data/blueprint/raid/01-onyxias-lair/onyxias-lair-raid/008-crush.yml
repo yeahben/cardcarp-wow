@@ -11,12 +11,12 @@ trait:
 
 cost: '1'
 
-instant: Destroy target ally.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Destroy target ally.
 
 regulation:
 
 errata: []
-
-temp: ''

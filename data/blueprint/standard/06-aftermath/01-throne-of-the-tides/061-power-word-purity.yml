@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Priest
 
-instant: 'Attach to target ally, and your hero heals all damage from it. Ongoing : Attached ally has +2 and Mend 2 .'
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target ally, and your hero heals all damage from it.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +2 {health} and Mend 2. (At the start of your turn, it may heal 2 damage from target hero or ally.)'
 
 regulation:
 
 errata: []
-
-temp: Holy

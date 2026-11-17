@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Rogue
 
+talent:
+  - Combat
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Combat Hero Required Ongoing : When your hero deals combat damage to an ally, destroy it, and its controller discards a card.'
+    text: Combat Hero Required
+  - type: Ability
+    text: 'Ongoing: When your hero deals combat damage to an ally, destroy it, and its controller discards a card.'
 
 regulation:
 
 errata: []
-
-temp: Combat Talent

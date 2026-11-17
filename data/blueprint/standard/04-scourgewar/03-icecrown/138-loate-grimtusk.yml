@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Long-Range When this ally attacks, put him into his owner's hand at the end of this turn.
+    text: Long-Range (While this ally is attacking, the defender can't deal combat damage to it.)
+  - type: Ability
+    text: When this ally attacks, put him into his owner's hand at the end of this turn.
 
 regulation:
 
 errata: []
-
-temp: Troll Rogue

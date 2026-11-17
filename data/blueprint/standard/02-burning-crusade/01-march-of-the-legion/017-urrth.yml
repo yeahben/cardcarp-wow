@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+talent:
+  - Restoration
+
+profession:
+  - Herbalism
+  - Alchemy
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Urrth → Draw a card for each Totem you have.
+    text: '{3}, Flip Urrth → Draw a card for each Totem you have.'
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

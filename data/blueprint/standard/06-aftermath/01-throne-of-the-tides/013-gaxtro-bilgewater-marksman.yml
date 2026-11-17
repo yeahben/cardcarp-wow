@@ -13,13 +13,16 @@ health: 28
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Hunter
+
 rule:
   - type: Ability
     position: Front
-    text: 'If Gaxtro is defending: 2 , Flip Gaxtro → Remove target attacker from combat, and Gaxtro deals 1 ranged damage to it.'
+    text: 'If Gaxtro is defending: {2}, Flip Gaxtro → Remove target attacker from combat, and Gaxtro deals 1 ranged damage to it.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Hunter

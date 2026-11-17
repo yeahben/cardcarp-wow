@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+talent:
+  - Balance
+
+profession:
+  - Skinning
+  - Leatherworking
+
 rule:
   - type: Ability
     position: Front
-    text: 10 , Flip Morova → Morova deals 7 nature damage to target hero or ally.
+    text: '{10}, Flip Morova → Morova deals 7 nature damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

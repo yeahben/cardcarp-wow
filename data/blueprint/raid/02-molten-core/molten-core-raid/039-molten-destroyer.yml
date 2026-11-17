@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Giant
+  - Minion
+
 trait:
 
 damage: 3
@@ -15,6 +19,8 @@ health: 3
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
     text: Molten Destroyer has +1 ATK and +1 health for each rune you have.
@@ -22,5 +28,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Giant Minion

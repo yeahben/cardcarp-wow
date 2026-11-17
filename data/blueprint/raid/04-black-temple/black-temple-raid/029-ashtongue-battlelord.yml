@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Broken
+
 trait:
 
 cost: '6'
@@ -17,12 +20,17 @@ health: 2
 
 combat: Melee
 
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Traitor Hero : When Ashtongue Battlelord enters play, destroy target undamaged opposing ally. Loyal Hero : When Ashtongue Battlelord enters play, destroy all damaged opposing allies.'
+    text: 'Traitor Hero: When Ashtongue Battlelord enters play, destroy target undamaged opposing ally.'
+  - type: Ability
+    text: 'Loyal Hero: When Ashtongue Battlelord enters play, destroy all damaged opposing allies.'
 
 regulation:
 
 errata: []
-
-temp: Broken Warrior

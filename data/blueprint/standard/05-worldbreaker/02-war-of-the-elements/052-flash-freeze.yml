@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Mage
 
-instant: "Attach to target ally. Ongoing : Attached ally can't attack or exhaust."
+talent:
+  - Frost
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target ally.
+  - type: Ability
+    text: "Ongoing: Attached ally can't attack or exhaust."
 
 regulation:
 
 errata: []
-
-temp: Frost

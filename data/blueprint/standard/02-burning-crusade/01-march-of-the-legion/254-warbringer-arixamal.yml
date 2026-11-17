@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Demon
+
 trait:
 
 cost: '3'
@@ -17,6 +20,11 @@ health: 2
 
 combat: Melee
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: Other Demons have +2 ATK.
@@ -24,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Demon

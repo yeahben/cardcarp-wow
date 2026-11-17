@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: → This ally deals 1 melee damage to target damaged hero or ally.
+    text: '{activate} → Jonas deals 1 melee damage to target damaged hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Human Warrior

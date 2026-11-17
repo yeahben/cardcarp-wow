@@ -13,10 +13,10 @@ faction: Alliance
 
 rule:
   - type: Ability
-    text: 'Pay 1 to complete this quest. Reward : Target opponent chooses an ally in his party. When that ally is destroyed this turn, draw a card.'
+    text: Pay {1} to complete this quest.
+  - type: Ability
+    text: 'Reward: Target opponent chooses an ally in his party. When that ally is destroyed this turn, draw a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

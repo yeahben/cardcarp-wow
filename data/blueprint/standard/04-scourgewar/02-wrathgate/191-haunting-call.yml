@@ -7,23 +7,39 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Dagger
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 3
+
+combat: Melee
+
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 2 , Exhaust your hero → Remove three target cards in one opposing graveyard from the game. Add a spirit counter for each ally removed this way. At the start of your turn, your hero deals 1 shadow damage to each opposing hero for each spirit counter.
+    text: '{2}, Exhaust your hero → Remove three target cards in one opposing graveyard from the game. Add a spirit counter for each ally removed this way.'
+  - type: Ability
+    text: At the start of your turn, your hero deals 1 shadow damage to each opposing hero for each spirit counter.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

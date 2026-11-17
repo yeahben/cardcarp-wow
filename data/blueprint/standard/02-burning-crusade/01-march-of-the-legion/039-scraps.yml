@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Carrion Bird
+
 trait:
 
 cost: '2'
@@ -20,6 +23,12 @@ combat: Melee
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, destroy Scraps unless you remove an ally card in any graveyard from the game.
@@ -27,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Carrion Bird

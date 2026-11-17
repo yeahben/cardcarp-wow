@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity When Seamus attacks, you may remove target card in a graveyard from the game.
+    text: Ferocity
+  - type: Ability
+    text: When Seamus attacks, you may remove target card in a graveyard from the game.
 
 regulation:
 
 errata: []
-
-temp: Undead Rogue

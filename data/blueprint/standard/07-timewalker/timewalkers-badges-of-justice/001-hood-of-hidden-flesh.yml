@@ -7,21 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '1'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'When this armor enters play, look at the top three cards of your deck. Remove one from the game face down and put the rest on the bottom of your deck. If you control seven or more resources: → Put the card you removed this way into your hand.'
+    text: When this armor enters play, look at the top three cards of your deck. Remove one from the game face down and put the rest on the bottom of your deck.
+  - type: Ability
+    text: 'If you control seven or more resources: {activate} → Put the card you removed this way into your hand.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

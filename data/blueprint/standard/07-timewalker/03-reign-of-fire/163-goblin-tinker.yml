@@ -17,12 +17,22 @@ health: 6
 
 combat: Fire
 
+race: Goblin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Time is Money 1 , → This ally deals 1 fire damage to target hero or ally. 1 , → Draw a card, then choose and discard a card. 1 , → Ready another target card. 1 → Ready this ally.
+    text: Time is Money (This ally may use {activate} powers immediately.)
+  - type: Ability
+    text: '{basic} {1}, {activate} → This ally deals 1 fire damage to target hero or ally.'
+  - type: Ability
+    text: '{basic} {1}, {activate} → Draw a card, then choose and discard a card.'
+  - type: Ability
+    text: '{basic} {1}, {activate} → Ready another target card.'
+  - type: Ability
+    text: '{basic} {1} → Ready this ally.'
 
 regulation:
 
 errata: []
-
-temp: Goblin

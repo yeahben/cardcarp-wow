@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Kobold
+  - Miner
+
 trait:
 
 damage: 2
@@ -14,6 +18,8 @@ damage: 2
 health: 2
 
 combat: Melee
+
+instant: false
 
 type: Dungeon
 
@@ -24,5 +30,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Kobold Miner

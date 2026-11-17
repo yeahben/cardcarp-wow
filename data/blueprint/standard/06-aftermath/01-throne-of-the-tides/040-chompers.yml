@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Shark
+
 trait:
 
 cost: '5'
@@ -20,6 +23,12 @@ combat: Melee
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
@@ -29,5 +38,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Shark

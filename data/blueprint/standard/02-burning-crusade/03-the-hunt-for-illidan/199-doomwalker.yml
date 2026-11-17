@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Mechanical
+
 trait:
 
 cost: '11'
@@ -17,6 +20,11 @@ health: 11
 
 combat: Melee
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: When an opposing ability, ally, or equipment becomes exhausted, destroy it.
@@ -24,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Mechanical

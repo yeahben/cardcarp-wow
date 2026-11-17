@@ -9,14 +9,18 @@ category:
 
 trait:
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: 'Put ten 1 / 1 Scarlet Trainee ally tokens into play with Ferocity . Ongoing : Raiding cards have " → Destroy target Scarlet Trainee." When a Scarlet Trainee is destroyed, if none remain, destroy this ability.'
+    text: Put ten 1 {melee} / 1 {health} Scarlet Trainee ally tokens into play with Ferocity.
+  - type: Ability
+    text: 'Ongoing: Raiding cards have "{activate} → Destroy target Scarlet Trainee."'
+  - type: Ability
+    text: When a Scarlet Trainee is destroyed, if none remain, destroy this ability.
 
 regulation:
 
 errata: []
-
-temp: ''

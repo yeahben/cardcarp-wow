@@ -14,6 +14,11 @@ cost: '2'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
     text: Target player puts the top two cards of his deck into his graveyard. If they're both abilities, both allies, or both equipment, that player discards two cards.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Shadow

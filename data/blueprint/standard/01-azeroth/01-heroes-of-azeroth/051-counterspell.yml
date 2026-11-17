@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Mage
 
-instant: Interrupt target ability.
+talent:
+  - Arcane
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Interrupt target ability card.
 
 regulation:
 
 errata: []
-
-temp: Arcane

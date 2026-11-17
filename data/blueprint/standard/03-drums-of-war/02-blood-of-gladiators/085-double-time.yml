@@ -12,15 +12,19 @@ trait:
 cost: '2'
 
 class:
-  - Warrior
   - Shaman
+  - Warrior
 
-instant: Ready target equipment.
+talent:
+  - Enhancement
+  - Arms
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Ready target equipment.
 
 regulation:
 
 errata: []
-
-temp: Enhancement Arms

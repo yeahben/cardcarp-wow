@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Hunter
 
-instant: Target Monster ally has +3 ATK this turn. Target non-Monster ally has -3 ATK this turn.
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target Monster ally has +3 ATK this turn. Target non-Monster ally has -3 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Survival

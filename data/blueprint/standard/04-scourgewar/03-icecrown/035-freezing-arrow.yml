@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Hunter
 
-instant: Trap Remove target opposing attacker from combat. It can't ready during it's controller's next ready step.
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Trap (You may exhaust your defending hero rather than pay this card's cost.)
+  - type: Ability
+    text: Remove target opposing attacker from combat. It can't ready during its controller's next ready step.
 
 regulation:
 
 errata: []
-
-temp: Survival

@@ -5,10 +5,29 @@ origin: wrathgate-006
 layout: Standard
 
 category:
+  - Hero
 
 trait:
 
-rule: []
+health: 29
+
+faction: Alliance
+
+race: Gnome
+
+class:
+  - Death Knight
+
+talent:
+  - Blood
+
+profession:
+  - Alchemy
+  - Enchanting
+
+rule:
+  - type: Ability
+    text: 'On your turn: Flip Krunkle, discard a Death Knight → Krunkle heals 2 damage from himself and has Assault 2 this turn.'
 
 regulation:
 

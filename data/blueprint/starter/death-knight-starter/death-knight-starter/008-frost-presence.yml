@@ -14,12 +14,21 @@ cost: '5'
 class:
   - Death Knight
 
+talent:
+  - Frost
+
+limit:
+  - name: Presence
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Opposing cards and effects must target your hero if able. Your hero has +10 health and is a Protector .'
+    text: 'Ongoing: Opposing cards and effects must target your hero if able.'
+  - type: Ability
+    text: Your hero has +10 health and is a protector.
 
 regulation:
 
 errata: []
-
-temp: Frost

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '2'
@@ -14,12 +17,15 @@ cost: '2'
 class:
   - Rogue
 
-instant: Exhaust target ally. If your hero is stealthed, it deals damage to that ally equal to that ally's health.
+talent:
+  - Assassination
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Exhaust target ally. If your hero is stealthed, it deals damage to that ally equal to that ally's health.
 
 regulation:
 
 errata: []
-
-temp: Assassination Combo

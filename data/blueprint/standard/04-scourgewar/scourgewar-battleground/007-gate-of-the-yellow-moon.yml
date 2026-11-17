@@ -6,9 +6,18 @@ layout: Standard
 
 category:
 
+subtype:
+  - Strand Gate
+
 trait:
 
-rule: []
+capture: 10
+
+instant: false
+
+rule:
+  - type: Ability
+    text: When this Gate is destroyed, end the round. The aggressor scores a victory point for each time counter remaining.
 
 regulation:
 

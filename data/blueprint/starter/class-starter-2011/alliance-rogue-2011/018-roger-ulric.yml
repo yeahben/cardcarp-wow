@@ -19,10 +19,15 @@ combat: Ranged
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Hunter
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Worgen Hunter

@@ -19,12 +19,21 @@ combat: Arcane
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Blood Elf Hero Required Arcane Torrent 1 → Target opposing card in play loses and can't have powers this turn.
+    text: Blood Elf Hero Required
+  - type: Ability
+    text: Arcane Torrent
+  - type: Ability
+    text: "{1} → Target opposing card in play loses and can't have powers this turn."
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

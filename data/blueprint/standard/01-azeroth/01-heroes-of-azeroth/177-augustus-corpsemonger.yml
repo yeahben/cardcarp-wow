@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: ', Remove three ally cards in your graveyard from the game → Destroy target ally.'
+    text: '{activate}, Remove three ally cards in your graveyard from the game → Destroy target ally.'
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

@@ -19,12 +19,19 @@ combat: Shadow
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive , Put X damage on your hero → Narmak Doomratchet deals X shadow damage to target ally.
+    text: Elusive
+  - type: Ability
+    text: '{activate}, Put X damage on your hero → Narmak Doomratchet deals X shadow damage to target ally.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

@@ -19,6 +19,13 @@ combat: Fire
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, this ally deals fire damage equal to his ATK to each opposing hero.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Mage

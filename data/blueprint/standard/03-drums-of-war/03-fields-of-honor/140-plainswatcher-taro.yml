@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector While you control four or more cards in play with the same name, you may play this ally without paying his cost.
+    text: Protector
+  - type: Ability
+    text: While you control four or more cards in play with the same name, you may play Taro without paying his cost.
 
 regulation:
 
 errata: []
-
-temp: Tauren Warrior

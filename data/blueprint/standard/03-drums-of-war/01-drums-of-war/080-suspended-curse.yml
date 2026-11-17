@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Curse
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ability, ally, or equipment. Ongoing : At the start of your turn, remove attached card from the game.'
+    text: Attach to target ability, ally, or equipment.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, remove attached card from the game.'
 
 regulation:
 
 errata: []
-
-temp: Affliction Curse

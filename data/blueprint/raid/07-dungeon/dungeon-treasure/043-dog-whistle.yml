@@ -7,28 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'When this item enters play, put a 2 / 2 Hound ally token into play with Protector . On your turn: 4 , → Put a 2 / 2 Hound ally token into play with Protector .'
+    text: When this item enters play, put a 2 {melee} / 2 {health} Hound ally token into play with Protector.
+  - type: Ability
+    text: 'On your turn: {4}, {activate} → Put a 2 {melee} / 2 {health} Hound ally token into play with Protector.'
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

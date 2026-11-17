@@ -13,10 +13,18 @@ health: 27
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Druid
+
+talent:
+  - Balance
+
 rule:
   - type: Ability
     position: Front
-    text: 3 → Flip Arturius
+    text: '{3} → Flip Arturius'
   - type: Ability
     position: Reverse
     text: When Arturius heals damage for the first time each turn, he may deal 1 nature damage to target hero or ally.
@@ -24,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Worgen Druid

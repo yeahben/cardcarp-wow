@@ -1,4 +1,4 @@
-name: Esad
+name: E'sad
 
 origin: fires-of-outland-157
 
@@ -19,6 +19,13 @@ combat: Ranged
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
     text: When E'sad enters play, target opponent puts the top card of his deck into his resource row face down.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Hunter

@@ -1,14 +1,21 @@
-name: Paint it Red
+name: Paint It Red
 
 origin: scarlet-monastery-045
 
 layout: Standard
 
 category:
+  - Achievement
 
 trait:
 
-rule: []
+instant: false
+
+rule:
+  - type: Ability
+    text: There are ten or more Dungeon allies in the Dungeon graveyard.
+  - type: Ability
+    text: 'Reward: 3 XP'
 
 regulation:
 

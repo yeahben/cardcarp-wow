@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Hunter
 
-instant: If your hero is defending, it deals 3 ranged damage to target attacker.
+talent:
+  - Marksmanship
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: If your hero is defending, it deals 3 ranged damage to target attacker.
 
 regulation:
 
 errata: []
-
-temp: Marksmanship

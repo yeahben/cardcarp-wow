@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Earth
+  - Elemental
+  - Ascendant
+
 trait:
 
 cost: '6'
@@ -17,12 +22,18 @@ health: 9
 
 combat: Melee
 
+limit:
+  - name: Terrastra
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'When this or another card you control is destroyed, your hero has +1 ATK this turn. allies you own everywhere have "Stash: Put a 2 / 1 Earth Elemental ally token into play."'
+    text: When this or another {melee} card you control is destroyed, your hero has +1 ATK this turn.
+  - type: Ability
+    text: '{melee} allies you own everywhere have "Stash: Put a 2 {melee} / 1 {health} Earth Elemental ally token into play."'
 
 regulation:
 
 errata: []
-
-temp: Earth Elemental Ascendant

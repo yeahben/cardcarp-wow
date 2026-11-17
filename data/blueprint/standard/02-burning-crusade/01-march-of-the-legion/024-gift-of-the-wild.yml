@@ -14,12 +14,15 @@ cost: '6'
 class:
   - Druid
 
-instant: 'Ongoing : Allies you control have +2 / +2.'
+talent:
+  - Restoration
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Allies in your party have +2 ATK / +2 health.'
 
 regulation:
 
 errata: []
-
-temp: Restoration

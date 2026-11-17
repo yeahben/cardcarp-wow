@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Berserking When Sepirion attacks for the first time each turn, you may pay 1 . If you do, ready him.
+    text: Berserking (+1 ATK for each damage.)
+  - type: Ability
+    text: When Sepirion attacks for the first time each turn, you may pay {1}. If you do, ready him.
 
 regulation:
 
 errata: []
-
-temp: Troll Shaman

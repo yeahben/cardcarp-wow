@@ -19,12 +19,17 @@ combat: Frost
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Remove Fianna Spellbinder from the game → Players can't draw cards this turn.
+    text: "{1}, Remove Fianna Spellbinder from the game → Players can't draw cards this turn."
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

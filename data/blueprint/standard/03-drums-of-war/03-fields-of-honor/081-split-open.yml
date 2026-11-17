@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Warrior
 
-instant: 'Attach to target hero or ally. Ongoing : Attached character has -2 health.'
+talent:
+  - Fury
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target hero or ally.
+  - type: Ability
+    text: 'Ongoing: Attached character has -2 health.'
 
 regulation:
 
 errata: []
-
-temp: Fury

@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Friendly heroes and allies have +2 .'
+    text: 'Ongoing: Friendly heroes and allies have +2 {health}.'
 
 regulation:
 
 errata: []
-
-temp: Discipline

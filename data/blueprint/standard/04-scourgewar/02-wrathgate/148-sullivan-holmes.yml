@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: This ally has Mend 3 while an ally is in your graveyard.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Priest

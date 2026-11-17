@@ -14,12 +14,17 @@ cost: X
 class:
   - Mage
 
+talent:
+  - Fire
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Set Ablaze enters play with X burn counters. At the start of your turn, destroy each opposing ally and weapon with cost equal to the number of burn counters, then remove a burn counter. If none remain, destroy Set Ablaze.'
+    text: 'Ongoing: Set Ablaze enters play with X burn counters.'
+  - type: Ability
+    text: At the start of your turn, destroy each opposing ally and weapon with cost equal to the number of burn counters, then remove a burn counter. If none remain, destroy Set Ablaze.
 
 regulation:
 
 errata: []
-
-temp: Fire

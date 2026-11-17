@@ -11,12 +11,12 @@ trait:
 
 cost: '3'
 
-instant: Interrupt target ability, ally, or equipment card. Magtheridon deals 1 melee damage to its controller's hero for each Blood in play.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Interrupt target ability, ally, or equipment card. Magtheridon deals 1 melee damage to its controller's hero for each Blood in play.
 
 regulation:
 
 errata: []
-
-temp: ''

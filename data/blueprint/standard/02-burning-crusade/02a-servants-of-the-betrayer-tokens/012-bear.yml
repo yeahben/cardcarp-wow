@@ -5,8 +5,24 @@ origin: servants-of-the-betrayer-tokens-012
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
+  - Bear
 
 trait:
+
+damage: 1
+
+health: 1
+
+combat: Melee
+
+limit:
+  - name: Unique
+
+instant: false
 
 rule: []
 

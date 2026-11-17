@@ -7,23 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Staff
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 3
+
+combat: Melee
+
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: → You pay 1 less to play your next ability this turn for each card in your graveyard with the same name as that ability.
+    text: '{activate} → You pay {1} less to play your next ability this turn for each card in your graveyard with the same name as that ability.'
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Staff

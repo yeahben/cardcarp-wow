@@ -19,6 +19,13 @@ combat: Fire
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: At the end of each player's turn, if no damage was dealt this turn, Thysta Spiritlasher deals 3 fire damage to that player's hero.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Orc Warlock

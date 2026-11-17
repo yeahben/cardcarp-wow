@@ -13,13 +13,23 @@ health: 25
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Mage
+
+talent:
+  - Frost
+
+profession:
+  - Engineering
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Black Ice → Black Ice deals 1 frost damage to target hero or ally. A character dealt damage this way can't attack this turn.
+    text: "{1}, Flip Black Ice → Black Ice deals 1 frost damage to target hero or ally. A character dealt damage this way can't attack this turn."
 
 regulation:
 
 errata: []
-
-temp: Gnome Mage

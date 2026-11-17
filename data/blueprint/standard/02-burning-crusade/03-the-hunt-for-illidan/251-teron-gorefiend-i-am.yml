@@ -1,14 +1,21 @@
-name: Teron Gorefiend, I Am
+name: Teron Gorefiend, I Am . . .
 
 origin: the-hunt-for-illidan-251
 
 layout: Standard
 
 category:
+  - Quest
 
 trait:
 
-rule: []
+rule:
+  - type: Ability
+    text: Untargetable
+  - type: Ability
+    text: Pay {3} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card.'
 
 regulation:
 

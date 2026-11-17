@@ -19,12 +19,19 @@ combat: Ranged
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, put two 1 / 1 Human Warrior tokens into play with Protector . This ally has +1 / +1 for each other Human ally you control.
+    text: When this ally enters play, put two 1 {melee} / 1 {health} {alliance} Human Warrior ally tokens into play with Protector.
+  - type: Ability
+    text: This ally has +1 / +1 for each other Human ally you control.
 
 regulation:
 
 errata: []
-
-temp: Human Hunter

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Val'kyr
+
 trait:
 
 cost: '3'
@@ -17,14 +20,14 @@ health: 5
 
 combat: Melee
 
-type: Raid
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: 'Grab and Drop : When this ally enters play, you may destroy target ally.'
+    text: 'Grab and Drop: When this ally enters play, you may destroy target ally.'
 
 regulation:
 
 errata: []
-
-temp: Val'kyr

@@ -9,18 +9,28 @@ category:
 
 trait:
 
-type: Raid
+instant: false
 
 rule:
   - type: Ability
     position: Front
-    text: 'Raiding allies have -1 / -1. On your turn: → Put a Decrepit Fever from your graveyard into your hand. When a Boss is destroyed, destroy all Naxxramas tokens. When Loatheb is destroyed, flip this card. Noth the Plaguebringer Heigan the Unclean Loatheb'
+    text: Raiding allies have -1 / -1.
+  - type: Ability
+    position: Front
+    text: 'On your turn: {activate} → Put a Decrepit Fever from your graveyard into your hand.'
+  - type: Ability
+    position: Front
+    text: When a Boss is destroyed, destroy all Naxxramas tokens.
+  - type: Ability
+    position: Front
+    text: When Loatheb is destroyed, flip this card.
   - type: Ability
     position: Reverse
-    text: When this card flips to this side, say "You have no idea what horrors lie ahead. You have seen nothing! The frozen heart of Naxxramas awaits you!" Raiding allies have +1 / +1.
+    text: When this card flips to this side, say "You have no idea what horrors lie ahead. You have seen nothing! The frozen heart of Naxxramas awaits you!"
+  - type: Ability
+    position: Reverse
+    text: Raiding allies have +1 / +1.
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -1,4 +1,4 @@
-name: Papa Hummels Old-Fashioned Worlds Longest Card Name
+name: Papa Hummel's Old-Fashioned World's Longest Card Name
 
 origin: arena-grand-melee-event-068
 
@@ -9,6 +9,8 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
     text: Destroy all opposing non-hero cards that have or share the longest name among cards in play.
@@ -16,5 +18,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

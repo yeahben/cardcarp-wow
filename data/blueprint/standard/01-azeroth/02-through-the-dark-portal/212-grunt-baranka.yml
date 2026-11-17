@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When Grunt Baranka defends against an ally, destroy her. If you do, destroy all attacking allies.
+    text: Protector
+  - type: Ability
+    text: When Grunt Baranka defends against an ally, destroy her. If you do, destroy all attacking allies.
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

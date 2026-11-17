@@ -1,0 +1,22 @@
+name: You Are Not Prepared!
+
+origin: black-temple-raid-049
+
+layout: Standard
+
+category:
+  - Event
+
+trait:
+
+instant: false
+
+sequence: 12
+
+rule:
+  - type: Ability
+    text: Each opponent discards his hand, then draws a card for each card discarded this way.
+
+regulation:
+
+errata: []

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Dreadlord
+  - Demon
+
 trait:
 
 health: 28
@@ -16,13 +20,11 @@ faction: Horde
 rule:
   - type: Ability
     position: Front
-    text: 3 , Destroy three allies in your party → Flip Famish face down.
+    text: '{3}, Destroy three {horde} allies in your party → Flip Famish face down.'
   - type: Ability
     position: Reverse
-    text: allies in your party have Ferocity .
+    text: '{horde} allies in your party have ferocity.'
 
 regulation:
 
 errata: []
-
-temp: Dreadlord Demon

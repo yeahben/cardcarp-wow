@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Naga
+  - Traitor
+
 trait:
 
 cost: '3'
@@ -17,12 +21,14 @@ health: 2
 
 combat: Nature
 
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required 2 , Destroy an ally in your party → Each opponent destroys an ally in his party.
+    text: Traitor Hero Required
+  - type: Ability
+    text: '{2}, Destroy an ally in your party → Each opponent destroys an ally in his party.'
 
 regulation:
 
 errata: []
-
-temp: Naga Traitor

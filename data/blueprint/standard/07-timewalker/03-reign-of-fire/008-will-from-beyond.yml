@@ -14,12 +14,17 @@ cost: '5'
 class:
   - Death Knight
 
+talent:
+  - Blood
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Warp Ongoing : Your hero has +10 and Protector .'
+    text: Warp (As this ability is revealed from your deck, you may remove it from the game. If you do, you may play it immediately without paying its cost.)
+  - type: Ability
+    text: 'Ongoing: Your hero has +10 {health} and Protector.'
 
 regulation:
 
 errata: []
-
-temp: Blood

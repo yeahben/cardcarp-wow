@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Paladin
 
+talent:
+  - Retribution
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When an ally you control is destroyed, you may pay 1 . If you do, your hero deals 2 unpreventable holy damage to target hero.'
+    text: 'Ongoing: When an ally you control is destroyed, you may pay {1}. If you do, your hero deals 2 unpreventable holy damage to target hero.'
 
 regulation:
 
 errata: []
-
-temp: Retribution

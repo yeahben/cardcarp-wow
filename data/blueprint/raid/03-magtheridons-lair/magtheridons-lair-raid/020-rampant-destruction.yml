@@ -11,12 +11,14 @@ trait:
 
 cost: '3'
 
+instant: false
+
 rule:
   - type: Ability
-    text: Destroy an opposing ability or equipment for each Blood in play. When an opposing card or effect causes you to discard Rampant Destruction, you may put it from your graveyard into your hand.
+    text: Destroy an opposing ability or equipment for each Blood in play.
+  - type: Ability
+    text: When an opposing card or effect causes you to discard Rampant Destruction, you may put it from your graveyard into your hand.
 
 regulation:
 
 errata: []
-
-temp: ''

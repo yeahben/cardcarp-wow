@@ -7,19 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Sword
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 1
+
+combat: Melee
+
 class:
   - Rogue
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Dual Wield While you control another weapon, this weapon has +1 ATK, and you pay 1 less to strike with it.
+    text: Dual Wield (You can control a second one-handed Melee weapon instead of an Off-Hand equipment. You can strike with a second Melee weapon during the same combat.)
+  - type: Ability
+    text: While you control another weapon, this weapon has +1 ATK, and you pay {1} less to strike with it.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

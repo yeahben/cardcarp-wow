@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Sea Giant
+
 trait:
 
 cost: '6'
@@ -17,6 +20,15 @@ health: 6
 
 combat: Frost
 
+class:
+  - Warrior
+
+limit:
+  - name: Gnash
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
@@ -26,5 +38,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Sea Giant Warrior

@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero deals 1 shadow damage to target hero or ally. Its controller discards a card for each damage dealt this way.
+    text: Your hero deals 1 shadow damage to target hero or ally. Its controller discards a card for each damage dealt.
 
 regulation:
 
 errata: []
-
-temp: Shadow

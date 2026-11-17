@@ -7,28 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '5'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: At the start of your turn, put a 1 / 1 Crashin' Thrashin' Racer ally token into play with Ferocity . When a Racer ally you control deals combat damage to an opposing hero, put a credit counter on this item. , Remove ten credit counters from this item → Destroy target hero.
+    text: At the start of your turn, put a 1 {melee} / 1 {health} Crashin' Thrashin' Racer ally token into play with Ferocity.
+  - type: Ability
+    text: When a Racer ally you control deals combat damage to an opposing hero, put a credit counter on this item.
+  - type: Ability
+    text: '{activate}, Remove ten credit counters from this item → Destroy target hero.'
 
 regulation:
 
 errata: []
-
-temp: Item

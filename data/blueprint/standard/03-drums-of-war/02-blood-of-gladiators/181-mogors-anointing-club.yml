@@ -1,4 +1,4 @@
-name: Mogors Anointing Club
+name: Mogor's Anointing Club
 
 origin: blood-of-gladiators-181
 
@@ -7,22 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Mace
+
 trait:
 
 cost: '4'
 
+damage: 1
+
+strike: 3
+
+combat: Melee
+
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
+type: Arena
 
 rule:
   - type: Ability
-    text: 'On your turn: , Destroy an ally in your party → Put an ally card with lower cost than that ally from your graveyard into play.'
+    text: 'On your turn: {activate}, Destroy an ally in your party → Put an ally card with lower cost than that ally from your graveyard into play.'
 
 regulation:
 
 errata: []
-
-temp: 1H Arena Weapon Mace

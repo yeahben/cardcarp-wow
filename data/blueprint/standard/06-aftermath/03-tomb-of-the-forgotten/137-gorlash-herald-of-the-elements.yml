@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ogre
+
 trait:
 
 cost: '6'
@@ -17,14 +20,17 @@ health: 5
 
 combat: Nature
 
+class:
+  - Shaman
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 'Empower Shaman : When this ally enters play, if you control another Shaman hero or ally, this ally deals 4 nature damage divided as you choose to any number of target heroes and/or allies.'
+    text: 'Empower Shaman: When this ally enters play, if you control another Shaman hero or ally, this ally deals 4 nature damage divided as you choose to any number of target heroes and/or allies.'
 
 regulation:
 
 errata: []
-
-temp: Ogre Shaman

@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
     text: Exhaust your hero → Target ally has +3 ATK this turn.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Hunter

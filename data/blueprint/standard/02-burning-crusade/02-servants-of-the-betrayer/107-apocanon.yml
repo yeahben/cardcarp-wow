@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Abyssal
+  - Demon
+  - Traitor
+
 trait:
 
 cost: '3'
@@ -20,12 +25,18 @@ combat: Fire
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required Ally cards in all zones are also Demon cards.
+    text: Traitor Hero Required
+  - type: Ability
+    text: Ally cards in all zones are also Demon cards.
 
 regulation:
 
 errata: []
-
-temp: Abyssal Demon Traitor

@@ -14,12 +14,19 @@ cost: '1'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Choose an opponent. Ongoing : That opponent plays with his hand revealed. When you play a card, destroy Mind Vision. If you do, draw a card.'
+    text: Choose an opponent.
+  - type: Ability
+    text: 'Ongoing: That opponent plays with his hand revealed.'
+  - type: Ability
+    text: When you play a card, destroy Mind Vision. If you do, draw a card.
 
 regulation:
 
 errata: []
-
-temp: Shadow

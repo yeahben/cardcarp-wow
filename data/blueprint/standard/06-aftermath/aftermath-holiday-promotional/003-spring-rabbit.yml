@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Rabbit
+
 trait:
 
 cost: '1'
@@ -17,12 +20,12 @@ health: 1
 
 combat: Nature
 
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Exhaust this and another Rabbit ally you control → Put a 1 / 1 Bunny Egg ally token into play.
+    text: '{1}, Exhaust this and another Rabbit ally you control → Put a 1 {melee} / 1 {health} Bunny Egg ally token into play.'
 
 regulation:
 
 errata: []
-
-temp: Rabbit

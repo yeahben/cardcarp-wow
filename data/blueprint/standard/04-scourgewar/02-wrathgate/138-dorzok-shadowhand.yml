@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally deals combat damage, it you have no cards in your hand, draw a card.
+    text: When this ally deals combat damage, if you have no cards in your hand, draw a card.
 
 regulation:
 
 errata: []
-
-temp: Orc Rogue

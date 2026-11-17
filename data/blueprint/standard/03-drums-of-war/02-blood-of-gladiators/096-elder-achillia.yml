@@ -19,12 +19,17 @@ combat: Frost
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Inspiring Presence
+    text: Inspiring Presence (If a hero or ally in your party would deal non-combat damage, it deals that much +1 instead.)
 
 regulation:
 
 errata: []
-
-temp: Draenei Mage

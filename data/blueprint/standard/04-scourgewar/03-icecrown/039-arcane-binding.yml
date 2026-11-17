@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target hero. Ongoing : As this ability enters play, choose \"ability,\" \"ally,\" or \"equipment.\" Attached hero's controller can't play more than one card of the chosen kind per turn."
+    text: Attach to target hero.
+  - type: Ability
+    text: 'Ongoing: As this ability enters play, choose "ability," "ally," or "equipment."'
+  - type: Ability
+    text: Attached hero's controller can't play more than one card of the chosen kind per turn.
 
 regulation:
 
 errata: []
-
-temp: Arcane

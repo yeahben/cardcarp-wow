@@ -13,13 +13,23 @@ health: 29
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Shaman
+
+talent:
+  - Elemental
+
+profession:
+  - Skinning
+  - Herbalism
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 5 , Flip Grennan → Grennan deals 3 nature damage to target hero or ally and heals 3 damage from a second target hero or ally.'
+    text: '{5}, Flip Grennan Stormspeaker → Grennan deals 3 nature damage to target hero or ally and heals 3 damage from target hero or ally. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

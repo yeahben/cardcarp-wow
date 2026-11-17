@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : When your hero defends against an ally, that ally's controller exhausts all allies in his party."
+    text: "Ongoing: When your hero defends against an ally, that ally's controller exhausts all allies in his party."
 
 regulation:
 
 errata: []
-
-temp: Demonology

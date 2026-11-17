@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,19 @@ cost: '2'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: Affliction Hero Required As an additional cost to play Dark Pact, destroy one of your Pets. Draw X cards, where X is the cost of the Pet you destroyed.
+    text: Affliction Hero Required
+  - type: Ability
+    text: As an additional cost to play Dark Pact, destroy one of your Pets.
+  - type: Ability
+    text: Draw X cards, where X is the cost of the Pet you destroyed.
 
 regulation:
 
 errata: []
-
-temp: Affliction Talent

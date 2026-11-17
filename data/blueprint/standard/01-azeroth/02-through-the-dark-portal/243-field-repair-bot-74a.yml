@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Repair
+  - Bot
+
 trait:
 
 cost: '1'
@@ -17,12 +21,15 @@ health: 2
 
 combat: Melee
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Friendly heroes have " 1 , → Put an equipment card from your graveyard into your hand."
+    text: Friendly heroes have "{1}, {activate} → Put an equipment card from your graveyard into your hand."
 
 regulation:
 
 errata: []
-
-temp: Repair Bot

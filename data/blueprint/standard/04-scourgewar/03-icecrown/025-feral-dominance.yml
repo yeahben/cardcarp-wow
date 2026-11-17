@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Druid
 
+talent:
+  - Feral
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : 1 , → Target Druid you control has Assault 1 or Protector this turn.'
+    text: 'Ongoing: {1}, {activate} → Target Druid you control has Assault 1 or Protector this turn.'
 
 regulation:
 
 errata: []
-
-temp: Feral

@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you play a non-Ongoing ability, you may pay 2 . If you do, copy that ability. (You may choose new targets for the copy.)
+    text: When you play a non-Ongoing ability, you may pay {2}. If you do, copy that ability. (You may choose new targets for the copy.)
 
 regulation:
 
 errata: []
-
-temp: Goblin Shaman

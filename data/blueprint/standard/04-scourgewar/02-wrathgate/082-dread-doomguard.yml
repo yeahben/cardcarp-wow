@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Doomguard
+  - Demon
+
 trait:
 
 cost: '5'
@@ -20,12 +24,18 @@ combat: Shadow
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of your turn, randomly choose "ability," "equipment," or "resource." When this ally deals damage while attacking, you may destroy target card of the kind chosen this turn.
+    text: At the start of your turn, choose at random "ability," "equipment," or "resource."
+  - type: Ability
+    text: When this ally deals damage while attacking, you may destroy target card of the kind chosen this turn.
 
 regulation:
 
 errata: []
-
-temp: Doomguard Demon

@@ -5,8 +5,21 @@ origin: servants-of-the-betrayer-tokens-011
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
+  - Snake
 
 trait:
+
+damage: 1
+
+health: 1
+
+combat: Nature
+
+instant: false
 
 rule: []
 

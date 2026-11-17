@@ -13,16 +13,19 @@ health: 30
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Warrior
+
 rule:
   - type: Ability
     position: Front
-    text: 5 → Flip Fraznak
+    text: '{5} → Flip Fraznak'
   - type: Ability
     position: Reverse
-    text: Allies you control have Assault 1 .
+    text: Allies you control have Assault 1. (They have +1 ATK on your turn.)
 
 regulation:
 
 errata: []
-
-temp: Goblin Warrior

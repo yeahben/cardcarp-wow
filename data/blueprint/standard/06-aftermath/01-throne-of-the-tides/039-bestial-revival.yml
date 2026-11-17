@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Hunter
 
+talent:
+  - Beast Mastery
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When this ability enters play, put target Pet from your graveyard into play if its cost is less than or equal to the number of resources you control. You can control an additional Pet.'
+    text: 'Ongoing: When this ability enters play, put target Pet from your graveyard into play if its cost is less than or equal to the number of resources you control.'
+  - type: Ability
+    text: You can control an additional Pet.
 
 regulation:
 
 errata: []
-
-temp: Beast Mastery

@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '1'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Head
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you play an ability, target hero or ally has Stealth this turn.
+    text: When you play an ability, target hero or ally has stealth this turn.
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

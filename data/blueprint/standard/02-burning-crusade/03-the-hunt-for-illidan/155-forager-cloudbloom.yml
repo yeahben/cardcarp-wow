@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally readies, draw a card.
+    text: When Cloudbloom readies, draw a card.
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

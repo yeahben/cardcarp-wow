@@ -14,12 +14,23 @@ cost: '3'
 class:
   - Paladin
 
+talent:
+  - Retribution
+
+limit:
+  - name: Seal
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Your hero has -1 ATK. When your hero deals combat damage for the first time each turn, you may ready it and one of your melee weapons. 1 , Destroy Seal of the Crusader → Your hero has +2 ATK while attacking this turn.'
+    text: 'Ongoing: Your hero has -1 ATK.'
+  - type: Ability
+    text: When your hero deals combat damage for the first time each turn, you may ready it and one of your Melee weapons.
+  - type: Ability
+    text: '{1}, Destroy Seal of the Crusader → Your hero has +2 ATK while attacking this turn.'
 
 regulation:
 
 errata: []
-
-temp: Retribution

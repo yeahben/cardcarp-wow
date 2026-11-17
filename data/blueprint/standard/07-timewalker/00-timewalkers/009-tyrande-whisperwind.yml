@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 26
+
+faction: Alliance
+
+race: Night Elf
+
+class:
+  - Priest
+
+rule:
+  - type: Ability
+    position: Front
+    text: Tyrande's Light
+  - type: Ability
+    position: Front
+    text: '{basic} {3}, Flip Tyrande → Tyrande heals all damage from target ally you control.'
+  - type: Ability
+    position: Reverse
+    text: Tyrande's Pet
+  - type: Ability
+    position: Reverse
+    text: "Once per game: {basic} {7} → Put a 4 {melee} / 4 {health} Frostsaber Beast ally token named Ash'alah into play with Ferocity."
 
 regulation:
 

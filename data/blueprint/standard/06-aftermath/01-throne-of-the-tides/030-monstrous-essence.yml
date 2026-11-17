@@ -14,12 +14,15 @@ cost: '5'
 class:
   - Death Knight
 
+talent:
+  - Blood
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : When a Monster ally you control is destroyed, your hero deals shadow damage to target hero equal to that ally's ATK and deals damage from itself equal to that ally's ."
+    text: "Ongoing: When a Monster ally you control is destroyed, your hero deals shadow damage to target hero equal to that ally's ATK and heals damage from itself equal to that ally's {health}."
 
 regulation:
 
 errata: []
-
-temp: Blood

@@ -5,16 +5,29 @@ origin: drums-of-war-030
 layout: Standard
 
 category:
-  - Achievement
+  - Ability
+
+subtype:
+  - Talent
 
 trait:
 
+cost: '4'
+
+class:
+  - Hunter
+
+talent:
+  - Survival
+
+instant: false
+
 rule:
   - type: Ability
-    text: Raiders control twenty or more total resources.
+    text: Survival Hero Required
+  - type: Ability
+    text: 'Ongoing: Heroes and non-token allies in your party can be exhausted to pay costs as though they were resources.'
 
 regulation:
 
 errata: []
-
-temp: ''

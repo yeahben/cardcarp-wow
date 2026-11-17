@@ -7,16 +7,21 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Molten Core
+
 trait:
 
 cost: '4'
 
-instant: You may flip your hero. If your hero is Sulfuron Harbinger, you may ready him.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: You may flip your hero.
+  - type: Ability
+    text: If your hero is Sulfuron Harbinger, you may ready him.
 
 regulation:
 
 errata: []
-
-temp: Molten Core

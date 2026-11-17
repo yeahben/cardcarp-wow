@@ -1,4 +1,4 @@
-name: Kaz'rogals Hardened Heart
+name: Kaz'rogal's Hardened Heart
 
 origin: caverns-of-time-treasure-057
 
@@ -7,14 +7,26 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Shield
+
 trait:
 
 cost: '3'
 
+defense: 3
+
 class:
   - Paladin
-  - Warrior
   - Shaman
+  - Warrior
+
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -23,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Armor Shield

@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 28
+
+faction: Horde
+
+race: Orc
+
+class:
+  - Shaman
+
+rule:
+  - type: Ability
+    position: Front
+    text: Thrall's Blessing
+  - type: Ability
+    position: Front
+    text: '{basic} {4}, Flip Thrall → Target up to three heroes and/or allies. Thrall heals 3, 2, and 1 damage from them, respectively.'
+  - type: Ability
+    position: Reverse
+    text: Thrall's Lightning
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {8} → Target up to three heroes and/or allies. Thrall deals 3, 2, and 1 nature damage to them, respectively.'
 
 regulation:
 

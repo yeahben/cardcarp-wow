@@ -7,27 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
-  - Paladin
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: You and another friendly player each exhaust their heroes → You and that player each draw a card.
+    text: You and another friendly player each exhaust your heroes → You and that player each draw a card.
 
 regulation:
 
 errata: []
-
-temp: Item

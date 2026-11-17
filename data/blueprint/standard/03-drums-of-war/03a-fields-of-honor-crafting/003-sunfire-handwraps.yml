@@ -7,21 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '4'
 
+defense: 0
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Hands
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Sunfire Handwraps enters play with a +1 DEF counter for each friendly hero and ally. , Remove a +1 DEF counter → Draw a card.
+    text: Sunfire Handwraps enters play with a +1 DEF counter for each friendly hero and ally.
+  - type: Ability
+    text: '{activate}, Remove a +1 DEF counter → Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

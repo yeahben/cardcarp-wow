@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '1'
@@ -14,12 +17,17 @@ cost: '1'
 class:
   - Rogue
 
+talent:
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ability, ally, or equipment you control. Ongoing : Opposing cards and effects must target attached card if able.'
+    text: Attach to target ability, ally, or equipment you control.
+  - type: Ability
+    text: 'Ongoing: Opposing cards and effects must target attached card if able.'
 
 regulation:
 
 errata: []
-
-temp: Subtlety Combo

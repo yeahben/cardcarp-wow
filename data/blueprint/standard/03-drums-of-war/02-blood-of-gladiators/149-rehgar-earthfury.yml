@@ -17,14 +17,26 @@ health: 5
 
 combat: Frost
 
+race: Orc
+
+class:
+  - Shaman
+
+limit:
+  - name: Unique
+
+instant: false
+
 type: Arena
 
 rule:
   - type: Ability
-    text: allies in your party have +1 health. allies in your party have +1 ATK. When Rehgar attacks, gain control of target ally.
+    text: '{alliance} allies in your party have +1 health.'
+  - type: Ability
+    text: '{horde} allies in your party have +1 ATK.'
+  - type: Ability
+    text: When Rehgar attacks, gain control of target ally.
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

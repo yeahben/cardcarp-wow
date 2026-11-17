@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Phoenix
+  - Elemental
+
 trait:
 
 cost: '4'
@@ -20,14 +24,20 @@ combat: Fire
 class:
   - Mage
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: When this ally enters play, it deals 1 fire damage to each opposing hero and ally. When your hero deals fire ( ) damage while this ally is in your graveyard, you may put this ally from your graveyard into your hand.
+    text: When this ally enters play, it deals 1 fire damage to each opposing hero and ally.
+  - type: Ability
+    text: When your hero deals fire ({fire}) damage while this ally is in your graveyard, you may put this ally from your graveyard into your hand.
 
 regulation:
 
 errata: []
-
-temp: Phoenix Elemental

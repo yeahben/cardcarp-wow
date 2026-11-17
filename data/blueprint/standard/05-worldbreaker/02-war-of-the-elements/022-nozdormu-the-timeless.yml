@@ -5,7 +5,12 @@ origin: war-of-the-elements-022
 layout: Standard
 
 category:
-  - Hero
+  - Master Hero
+
+subtype:
+  - Bronze
+  - Dragonkin
+  - Aspect
 
 trait:
 
@@ -17,15 +22,16 @@ health: 35
 
 combat: Melee
 
-type: Master
+instant: false
 
 rule:
   - type: Ability
     position: Front
-    text: You may pay up to x less to play Nozdormu, where X is the combined cost of cards you control. When your hero becomes Nozdormu, if you control no ready resources, target player skips his next turn.
+    text: You may pay up to {x} less to play Nozdormu, where X is the combined cost of cards you control.
+  - type: Ability
+    position: Front
+    text: When your hero becomes Nozdormu, if you control no ready resources, target player skips his next turn.
 
 regulation:
 
 errata: []
-
-temp: Bronze Dragonkin Aspect

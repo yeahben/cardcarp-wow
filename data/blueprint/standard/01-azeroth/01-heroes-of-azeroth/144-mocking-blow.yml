@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Warrior
 
-instant: Your hero deals 1 melee damage to target hero or ally. This turn, that character must attack if able and can attack only your hero.
+talent:
+  - Arms
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 1 melee damage to target hero or ally. This turn, that character must attack if able and can attack only your hero.
 
 regulation:
 
 errata: []
-
-temp: Arms

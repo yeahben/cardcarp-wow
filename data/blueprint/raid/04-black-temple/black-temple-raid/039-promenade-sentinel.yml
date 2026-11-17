@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Mechanical
+  - Traitor
+
 trait:
 
 cost: '7'
@@ -17,12 +21,14 @@ health: 3
 
 combat: Arcane
 
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required When Promenade Sentinel enters play, it deals 2 arcane damage to each of up to three target heroes and/or allies.
+    text: Traitor Hero Required
+  - type: Ability
+    text: When Promenade Sentinel enters play, it deals 2 arcane damage to each of up to three target heroes and/or allies.
 
 regulation:
 
 errata: []
-
-temp: Mechanical Traitor

@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Mage
 
-instant: 'Ongoing : x , → Prevent the next X combat damage that would be dealt to your hero by allies this turn.'
+talent:
+  - Arcane
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: {x}, {activate} → Prevent the next X combat damage that would be dealt to your hero by allies this turn.'
 
 regulation:
 
 errata: []
-
-temp: Arcane

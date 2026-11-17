@@ -11,12 +11,12 @@ trait:
 
 cost: '7'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : 3 , → You may put an ally card from your hand into play. If you do, destroy it at the start of the next turn.'
+    text: 'Ongoing: {3}, {activate} → You may put an ally card from your hand into play. If you do, destroy it at the start of the next turn.'
 
 regulation:
 
 errata: []
-
-temp: ''

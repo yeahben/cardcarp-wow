@@ -17,12 +17,21 @@ health: 3
 
 combat: Holy
 
+race: Draenei
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aldor Reputation Protector If Xanata would be dealt combat damage while defending, prevent 2 of it.
+    text: Aldor Reputation (Can't put Scryer cards in your deck.)
+  - type: Ability
+    text: Protector
+  - type: Ability
+    text: If Xanata would be dealt combat damage while defending, prevent 2 of it.
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

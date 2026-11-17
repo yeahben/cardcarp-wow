@@ -13,13 +13,23 @@ health: 26
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Priest
+
+talent:
+  - Shadow
+
+profession:
+  - Engineering
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 3 , Flip Sunshroud → Target player destroys an ally in his party.'
+    text: 'On your turn: {3}, Flip Sunshroud → Target player destroys an ally in his party.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Priest

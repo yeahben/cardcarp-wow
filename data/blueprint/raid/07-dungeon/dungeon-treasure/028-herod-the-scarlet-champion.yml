@@ -17,6 +17,17 @@ health: 4
 
 combat: Melee
 
+race: Human
+
+class:
+  - Warrior
+
+limit:
+  - name: Herod
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: 'At the start of your turn, choose one: This turn, Herod has +3 ATK and attacks opposing heroes and allies at random; or Herod attacks normally this turn.'
@@ -24,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Human Warrior

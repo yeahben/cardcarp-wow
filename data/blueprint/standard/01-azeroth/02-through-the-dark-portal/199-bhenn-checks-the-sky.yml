@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Horde
 
-instant: When this ally enters play, you may exhaust target ally.
+race: Tauren
 
-rule: []
+class:
+  - Druid
+
+instant: true
+
+rule:
+  - type: Ability
+    text: When Bhenn Checks-the-Sky enters play, you may exhaust target ally.
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

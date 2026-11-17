@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Disease
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target hero. Ongoing : When attached hero's controller draws a card, your hero deals 1 shadow damage to attached hero."
+    text: Attach to target hero.
+  - type: Ability
+    text: "Ongoing: When attached hero's controller draws a card, your hero deals 1 shadow damage to attached hero."
 
 regulation:
 
 errata: []
-
-temp: Unholy Disease

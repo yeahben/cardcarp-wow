@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: Target player destroys an ally he controls.
+    text: Target player destroys an ally in his party.
 
 regulation:
 
 errata: []
-
-temp: Shadow

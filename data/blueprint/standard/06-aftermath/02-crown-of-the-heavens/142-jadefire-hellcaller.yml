@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Satyr
+  - Demon
+
 trait:
 
 cost: '3'
@@ -17,6 +21,11 @@ health: 2
 
 combat: Shadow
 
+class:
+  - Warlock
+
+instant: false
+
 type: Monster
 
 rule:
@@ -26,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Satyr Demon Warlock

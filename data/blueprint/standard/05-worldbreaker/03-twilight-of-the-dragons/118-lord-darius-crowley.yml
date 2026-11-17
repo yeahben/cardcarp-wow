@@ -19,12 +19,23 @@ combat: Melee
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Warrior
+
+limit:
+  - name: Darius
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aberration When this ally enters play, you may howl. If you do, put three 1 / 1 Worgen ally tokens into play with Ferocity .
+    text: Aberration
+  - type: Ability
+    text: When this ally enters play, you may howl. If you do, put three 1 {melee} / 1 {health} Worgen ally tokens into play with Ferocity.
 
 regulation:
 
 errata: []
-
-temp: Worgen Warrior

@@ -7,27 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '1'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
-  - Paladin
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Neck
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Aldor Reputation Heroes and allies in your party with inspire are also Protector s.
+    text: Aldor Reputation
+  - type: Ability
+    text: Heroes and allies in your party with inspire are also protectors.
 
 regulation:
 
 errata: []
-
-temp: Item Neck

@@ -7,21 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Polearm
+
 trait:
 
 cost: '3'
 
+damage: 3
+
+strike: 3
+
+combat: Melee
+
 class:
+  - Hunter
   - Paladin
   - Warrior
-  - Hunter
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 1 , Destroy Shadowstrike → If your hero has Enchanting, draw two cards.
+    text: '{1}, Destroy Shadowstrike → If your hero has Enchanting, draw two cards.'
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Polearm

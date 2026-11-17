@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Blue
+  - Dragonkin
+
 trait:
 
 cost: '4'
@@ -17,12 +21,16 @@ health: 7
 
 combat: Arcane
 
+limit:
+  - name: Arygos
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: You pay 1 less to play abilities for each Blue Dragonkin you control, to a minimum of 1 .
+    text: You pay {1} less to play abilities for each Blue Dragonkin you control, to a minimum of {1}.
 
 regulation:
 
 errata: []
-
-temp: Blue Dragonkin

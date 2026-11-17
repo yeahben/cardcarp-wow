@@ -17,12 +17,19 @@ health: 4
 
 combat: Holy
 
+race: Draenei
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Aldor Reputation Inspire: Ability, ally, equipment, hero, or resource'
+    text: Aldor Reputation
+  - type: Ability
+    text: 'Inspire: Ability, ally, equipment, hero, or resource'
 
 regulation:
 
 errata: []
-
-temp: Draenai Priest

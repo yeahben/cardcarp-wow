@@ -11,12 +11,14 @@ trait:
 
 cost: '2'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Onyxia has +2 ATK while attacking. When Onyxia attacks, you may exhaust target ally.'
+    text: 'Ongoing: Onyxia has +2 ATK while attacking.'
+  - type: Ability
+    text: When Onyxia attacks, you may exhaust target ally.
 
 regulation:
 
 errata: []
-
-temp: ''

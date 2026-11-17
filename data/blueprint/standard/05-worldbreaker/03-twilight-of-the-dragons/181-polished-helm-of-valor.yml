@@ -7,21 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '2'
 
+defense: 2
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'If this armor has three or more heirloom counters: → Allies you control have Assault 3 this turn. Stash : Add an heirloom counter to target equipment you control.'
+    text: 'If this armor has three or more heirloom counters: {activate} → Allies you control have Assault 3 this turn.'
+  - type: Ability
+    text: 'Stash: Add an heirloom counter to target equipment you control.'
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

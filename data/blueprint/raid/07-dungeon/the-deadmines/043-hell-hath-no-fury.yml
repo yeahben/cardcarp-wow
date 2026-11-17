@@ -1,0 +1,22 @@
+name: Hell Hath No Fury
+
+origin: the-deadmines-043
+
+layout: Standard
+
+category:
+  - Achievement
+
+trait:
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Survive two of Vanessa's turns.
+  - type: Ability
+    text: 'Reward: 3 XP'
+
+regulation:
+
+errata: []

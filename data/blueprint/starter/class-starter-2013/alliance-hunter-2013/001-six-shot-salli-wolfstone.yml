@@ -1,4 +1,4 @@
-name: 'six-Shot: Salli Wolfstone'
+name: '"Six-Shot" Salli Wolfstone'
 
 origin: alliance-hunter-2013-001
 
@@ -13,13 +13,16 @@ health: 28
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Salli → Pets you control have +2 ATK this turn.
+    text: '{basic} {2}, Flip Salli → Pets you control have +2 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

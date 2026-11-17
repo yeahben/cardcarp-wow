@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Keeper of the Grove
+
 trait:
 
 cost: '4'
@@ -17,6 +20,11 @@ health: 4
 
 combat: Nature
 
+class:
+  - Druid
+
+instant: false
+
 type: Monster
 
 rule:
@@ -26,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Keeper of the Grove Druid

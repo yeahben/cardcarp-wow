@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Paladin
 
-instant: Armor you control have +3 this turn.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Armor you control have +3 {def} this turn.
 
 regulation:
 
 errata: []
-
-temp: Protection

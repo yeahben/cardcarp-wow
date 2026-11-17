@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Warhorse
+
 trait:
 
 cost: '2'
@@ -19,12 +22,20 @@ combat: Melee
 
 faction: Horde
 
+limit:
+  - name: Mount
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Undead Hero Required You pay 1 less to complete quests. When you place a resource face up, you may remove target card in a graveyard from the game. (Mounts can't attack or be attacked.)
+    text: Undead Hero Required
+  - type: Ability
+    text: You pay {1} less to complete quests.
+  - type: Ability
+    text: When you place a resource face up, you may remove target card in a graveyard from the game. (Mounts can't attack or be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Warhorse

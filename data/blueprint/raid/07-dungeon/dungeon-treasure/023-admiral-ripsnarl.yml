@@ -1,0 +1,39 @@
+name: Admiral Ripsnarl
+
+origin: dungeon-treasure-023
+
+layout: Standard
+
+category:
+  - Ally
+
+trait:
+
+cost: '3'
+
+damage: 2
+
+health: 3
+
+combat: Melee
+
+race: Worgen
+
+class:
+  - Rogue
+
+limit:
+  - name: Ripsnarl
+    count: 1
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Ferocity, Stealth
+  - type: Ability
+    text: At the end of each turn, if Ripsnarl is damaged, you may put him into his owner's hand.
+
+regulation:
+
+errata: []

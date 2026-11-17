@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Warrior
 
-instant: Target hero or ally in your party has +3 ATK / +3 health this turn. At the start of the next turn, destroy it.
+talent:
+  - Fury
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target hero or ally in your party has +3 ATK / +3 health this turn. At the start of the next turn, destroy it.
 
 regulation:
 
 errata: []
-
-temp: Fury

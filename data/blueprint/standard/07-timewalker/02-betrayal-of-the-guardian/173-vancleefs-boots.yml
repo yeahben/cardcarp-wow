@@ -1,4 +1,4 @@
-name: VanCleefs Boots
+name: VanCleef's Boots
 
 origin: betrayal-of-the-guardian-173
 
@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '4'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Feet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this armor enters play, choose "Demon," a race, or an race. → Reveal the top three cards of your deck. Put a revealed ally of the chosen race into your hand and the rest on the bottom of your deck.
+    text: When this armor enters play, choose "Demon," a {horde} race, or an {alliance} race.
+  - type: Ability
+    text: '{activate} → Reveal the top three cards of your deck. Put a revealed ally of the chosen race into your hand and the rest on the bottom of your deck.'
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

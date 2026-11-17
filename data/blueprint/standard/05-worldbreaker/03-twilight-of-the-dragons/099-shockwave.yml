@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Warrior
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protection Talent Put target ally on top of its owner's deck. Your hero deals melee damage equal to that ally's cost to its controller's hero.
+    text: Protection Talent (You can't put Arms Talents or Fury Talents in your deck.)
+  - type: Ability
+    text: Put target ally on top of its owner's deck. Your hero deals melee damage equal to that ally's cost to its controller's hero.
 
 regulation:
 
 errata: []
-
-temp: Protection

@@ -7,20 +7,35 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Widow
+
 trait:
+  - 'Naxxramas Worshipper: 2'
+
+health: 9
+
+race: Human
 
 type: Boss
 
 rule:
   - type: Ability
     position: Front
-    text: 'Assault 5 At the start of your turn, Faerlina deals 3 fire damage to each raiding hero. On your turn: 6 → Flip Faerlina face down.'
+    text: Assault 5
+  - type: Ability
+    position: Front
+    text: At the start of your turn, Faerlina deals 3 fire damage to each raiding hero.
+  - type: Ability
+    position: Front
+    text: 'On your turn: {6} → Flip Faerlina face down.'
   - type: Ability
     position: Reverse
-    text: Assault 8 2 → Ready Faerlina.
+    text: Assault 8
+  - type: Ability
+    position: Reverse
+    text: '{2} → Ready Faerlina.'
 
 regulation:
 
 errata: []
-
-temp: Human Widow 9

@@ -11,20 +11,27 @@ trait:
 
 cost: '3'
 
-damage: 3
+damage: 4
 
-health: 4
+health: 3
 
 combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'When this ally is dealt damage, target opponent reveals his hand. Death Rattle : You may choose "ability," "ally," or "equipment." If you do, target opponent reveals his hand, and this ally deals 1 melee damage to his hero for each revealed card of that kind.'
+    text: When this ally is dealt damage, target opponent reveals his hand.
+  - type: Ability
+    text: 'Death Rattle: You may choose "ability," "ally," or "equipment." If you do, target opponent reveals his hand, and this ally deals 1 melee damage to his hero for each revealed card of that kind.'
 
 regulation:
 
 errata: []
-
-temp: Troll Rogue

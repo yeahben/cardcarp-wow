@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Hunter
+
+talent:
+  - Marksmanship
+
+profession:
+  - Herbalism
+  - Alchemy
+
 rule:
   - type: Ability
     position: Front
-    text: "On your turn: 2 , Flip Yan'ja → Yan'ja deals ranged damage to target ally equal to 1 plus the combined ATK of your Ranged weapons."
+    text: "On your turn: {2}, Flip Yan'ja → Yan'ja deals ranged damage to target ally equal to 1 plus the combined ATK of your Ranged weapons."
 
 regulation:
 
 errata: []
-
-temp: Troll Hunter

@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Shaman
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally or weapon you control. Ongoing : When attached card exhausts, you may draw a card.'
+    text: Attach to target ally or weapon you control.
+  - type: Ability
+    text: 'Ongoing: When attached card exhausts, you may draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Restoration

@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Priest
 
-instant: Your hero deals 3 shadow damage to target hero or ally. Then, if that character doesn't have fatal damage, put 3 damage on your hero.
+talent:
+  - Shadow
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 3 shadow damage to target hero or ally. If that character doesn't have fatal damage on it, put 3 damage on your hero.
 
 regulation:
 
 errata: []
-
-temp: Shadow

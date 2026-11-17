@@ -9,14 +9,18 @@ category:
 
 trait:
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: 'Each Raider destroys an ally he controls. Ongoing : 7 → Destroy this ability. Any Raider may use this power. When this ability is destroyed, each Raider may put an ally from his graveyard into play under his control.'
+    text: Each Raider destroys an ally he controls.
+  - type: Ability
+    text: 'Ongoing: {7} → Destroy this ability. Any Raider may use this power.'
+  - type: Ability
+    text: When this ability is destroyed, each Raider may put an ally from his graveyard into play under his control.
 
 regulation:
 
 errata: []
-
-temp: ''

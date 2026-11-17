@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Exhaust your hero → If your hero is defending, remove all attacking allies from combat.'
+    text: 'Ongoing: Exhaust your hero → If your hero is defending, remove all attacking allies from combat.'
 
 regulation:
 
 errata: []
-
-temp: Enhancement

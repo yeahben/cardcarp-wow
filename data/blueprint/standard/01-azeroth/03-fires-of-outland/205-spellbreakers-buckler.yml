@@ -1,4 +1,4 @@
-name: Spellbreakers Buckler
+name: Spellbreaker's Buckler
 
 origin: fires-of-outland-205
 
@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Shield
+
 trait:
 
 cost: '3'
+
+defense: 2
 
 class:
   - Paladin
   - Shaman
 
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , , Discard an equipment card → Interrupt target ability card.
+    text: '{1}, {activate}, Discard an equipment card → Interrupt target ability card.'
 
 regulation:
 
 errata: []
-
-temp: Armor Shield

@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Rogue
 
+talent:
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : Your hero is stealthed. (Can't protect against it. Destroy this card when your hero deals damage.) When Stealth is destroyed, you may pay 2 . If you do, put it into your hand at end of turn."
+    text: "Ongoing: Your hero is stealthed. (Can't protect against it. Destroy this card when your hero deals damage.)"
+  - type: Ability
+    text: When Stealth is destroyed, you may pay {2}. If you do, put it into your hand at end of turn.
 
 regulation:
 
 errata: []
-
-temp: Subtlety

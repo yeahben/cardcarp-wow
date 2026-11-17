@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Location
 
+subtype:
+  - City
+
 trait:
 
 faction: Alliance
 
 rule:
   - type: Ability
-    text: "Night Elf Hero Required On your turn: 1 , → Ready target Night Elf in your party. It can't attack this turn."
+    text: Night Elf Hero Required
+  - type: Ability
+    text: "On your turn: {1}, {activate} → Ready target Night Elf in your party. It can't attack this turn."
 
 regulation:
 
 errata: []
-
-temp: City

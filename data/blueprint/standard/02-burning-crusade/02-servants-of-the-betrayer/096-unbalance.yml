@@ -7,12 +7,20 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+
 trait:
 
 cost: '2'
 
 class:
   - Rogue
+
+talent:
+  - Combat
+
+instant: false
 
 rule:
   - type: Ability
@@ -21,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Combat Combo

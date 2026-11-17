@@ -1,4 +1,4 @@
-name: Crul'korak, the Lightnings Arc
+name: Crul'korak, the Lightning's Arc
 
 origin: alliance-shaman-2011-028
 
@@ -7,20 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Axe
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 0
+
+combat: Nature
+
 class:
-  - Shaman
   - Rogue
+  - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: allies you control have Assault X , where X is the ATK of this weapon.
+    text: '{nature} allies you control have Assault X, where X is the ATK of this weapon.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Axe

@@ -5,10 +5,19 @@ origin: naxxramas-raid-047
 layout: Standard
 
 category:
+  - Event
 
 trait:
 
-rule: []
+instant: false
+
+type: Naxxramas
+
+sequence: 7
+
+rule:
+  - type: Ability
+    text: 'The raid leader chooses one: He draws three cards; or each raider draws a card.'
 
 regulation:
 

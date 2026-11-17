@@ -7,28 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this item enters play, draw a card. , Name a class and destroy this item → Target ally you control has that class and loses all other classes this turn.
+    text: When this item enters play, draw a card.
+  - type: Ability
+    text: '{activate}, Name a class and destroy this item → Target ally you control has that class and loses all other classes this turn.'
 
 regulation:
 
 errata: []
-
-temp: Item

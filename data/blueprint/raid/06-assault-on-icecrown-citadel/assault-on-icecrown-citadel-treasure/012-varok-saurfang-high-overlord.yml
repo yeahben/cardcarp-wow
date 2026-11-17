@@ -19,12 +19,23 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+limit:
+  - name: Varok
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity When this ally would be dealt damage, prevent 1 of it for each damage on him.
+    text: Ferocity
+  - type: Ability
+    text: When this ally would be dealt damage, prevent 1 of it for each damage on him.
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

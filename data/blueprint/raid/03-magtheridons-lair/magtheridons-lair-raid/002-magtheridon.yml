@@ -7,14 +7,21 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Pit Lord
+
 trait:
+  - Unleashed
 
 health: 100
 
 rule:
   - type: Ability
     position: Front
-    text: Magtheridon has +1 ATK while attacking for each Blood in play. When the tenth Blood enters play, flip Magtheridon.
+    text: Magtheridon has +1 ATK while attacking for each Blood in play.
+  - type: Ability
+    position: Front
+    text: When the tenth Blood enters play, flip Magtheridon.
   - type: Ability
     position: Reverse
     text: Magtheridon has +2 ATK while attacking for each Blood in play.
@@ -22,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Pit Lord

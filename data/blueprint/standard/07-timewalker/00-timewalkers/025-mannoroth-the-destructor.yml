@@ -7,9 +7,32 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Pit Lord
+  - Demon
+
 trait:
 
-rule: []
+health: 30
+
+class:
+  - Warrior
+
+type: Monster
+
+rule:
+  - type: Ability
+    position: Front
+    text: Mannoroth's Command
+  - type: Ability
+    position: Front
+    text: '{basic} {5}, Flip Mannoroth → Reveal the top five cards of your deck. Put a revealed ally or equipment into your hand and the rest on the bottom of your deck.'
+  - type: Ability
+    position: Reverse
+    text: Mannoroth's Rampage
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {6} → Double the ATK of target ally or weapon this turn.'
 
 regulation:
 

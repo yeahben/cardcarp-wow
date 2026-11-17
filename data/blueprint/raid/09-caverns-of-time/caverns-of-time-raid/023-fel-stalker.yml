@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Felhunter
+  - Demon
+
 trait:
 
 damage: 3
@@ -15,7 +19,9 @@ health: 2
 
 combat: Shadow
 
-type: Boss
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
@@ -24,5 +30,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Felhunter Demon

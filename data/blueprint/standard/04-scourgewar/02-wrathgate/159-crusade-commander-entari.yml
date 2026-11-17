@@ -17,12 +17,22 @@ health: 4
 
 combat: Holy
 
+race: Human
+
+class:
+  - Paladin
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Argent Crusade Reputation At the end of your turn, this ally deals 1 unpreventable holy damage to each opposing hero and ally for each Unique ally you control.
+    text: Argent Crusade Reputation
+  - type: Ability
+    text: At the end of your turn, this ally deals 1 unpreventable holy damage to each opposing hero and ally for each Unique ally you control.
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '5'
+
+defense: 3
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Head
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: ': When you place a quest, ready your hero and all of your Ranged weapons. : When you place a quest, ready your hero and all of your Melee weapons.'
+    text: '{hunter}: When you place a quest, ready your hero and all of your Ranged weapons.'
+  - type: Ability
+    text: '{shaman}: When you place a quest, ready your hero and all of your Melee weapons.'
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

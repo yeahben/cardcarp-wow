@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
     text: When Eyeball deals combat damage to a hero or ally, exhaust that character, and it can't ready during its controller's next ready step.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Rogue

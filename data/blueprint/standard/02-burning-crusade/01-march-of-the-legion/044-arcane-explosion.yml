@@ -14,12 +14,15 @@ cost: '6'
 class:
   - Mage
 
-instant: Your hero deals 1 arcane damage to each opposing hero and ally. Draw a card for each character dealt damage this way.
+talent:
+  - Arcane
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 1 arcane damage to each opposing hero and ally. Draw a card for each character dealt damage this way.
 
 regulation:
 
 errata: []
-
-temp: Arcane

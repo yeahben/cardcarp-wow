@@ -13,13 +13,23 @@ health: 27
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Rogue
+
+talent:
+  - Assassination
+
+profession:
+  - Alchemy
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Durga, remove up to five Combo cards in your graveyard from the game → Destroy target ally if its cost is less than or equal to the number of cards removed this way.
+    text: '{1}, Flip Durga, remove up to five Combo cards in your graveyard from the game → Destroy target ally if its cost is less than or equal to the number of cards removed this way.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Rogue

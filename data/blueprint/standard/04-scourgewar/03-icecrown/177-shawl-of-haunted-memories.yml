@@ -7,21 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '2'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Back
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: "1 , , Destroy this armor → Destroy target ability, ally, or equipment that shares a name with a card in its controller's graveyard. Death Rattle : Target opponent puts the top three cards of his deck into his graveyard."
+    text: "{1}, {activate}, Destroy this armor → Destroy target ability, ally, or equipment that shares a name with a card in its controller's graveyard."
+  - type: Ability
+    text: 'Death Rattle: Target opponent puts the top three cards of his deck into his graveyard.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

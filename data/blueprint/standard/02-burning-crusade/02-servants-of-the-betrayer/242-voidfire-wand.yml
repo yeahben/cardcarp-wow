@@ -7,21 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Wand
+
 trait:
 
 cost: '4'
 
+damage: 1
+
+strike: 1
+
+combat: Frost
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Wand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When combat damage is dealt by with Voidfire Wand to a hero, the next time that hero's controller would draw a card, he skips drawing it instead.
+    text: When combat damage is dealt with Voidfire Wand to a hero, the next time that hero's controller would draw a card, he skips drawing it instead.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Wand

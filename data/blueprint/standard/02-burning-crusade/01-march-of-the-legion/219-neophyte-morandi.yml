@@ -17,12 +17,19 @@ health: 3
 
 combat: Holy
 
+race: Draenei
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aldor Reputation If an ally in your party other than Morandi would be dealt damage, it's dealt to Morandi instead.
+    text: Aldor Reputation (Can't put Scryer cards in your deck.)
+  - type: Ability
+    text: If an ally in your party other than Morandi would be dealt damage, it's dealt to Morandi instead.
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

@@ -19,6 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Warrior
+
+limit:
+  - name: Muradin
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: At the end of your turn, this ally deals 4 melee damage to each damaged opposing hero and ally.
@@ -26,5 +37,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Warrior

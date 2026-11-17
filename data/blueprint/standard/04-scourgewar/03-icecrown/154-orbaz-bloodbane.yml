@@ -17,14 +17,26 @@ health: 7
 
 combat: Melee
 
-type: Raid
+race: Human
+
+class:
+  - Death Knight
+
+limit:
+  - name: Unique
+
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: 'Scourge Hero Required Put 3 damage on this ally, destroy a quest or location you control → Target player destroys a card of that type he controls. Death Rattle : Your hero has Assault 1 this turn.'
+    text: Scourge Hero Required
+  - type: Ability
+    text: Put 3 damage on this ally, destroy a quest or location you control → Target player destroys a card of that type he controls.
+  - type: Ability
+    text: 'Death Rattle: Your hero has Assault 1 this turn.'
 
 regulation:
 
 errata: []
-
-temp: Human Death Knight

@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: When Baelgond enters play, reveal the top three cards of your deck. Put a revealed ability card into hand and the rest on the bottom of your deck.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Priest

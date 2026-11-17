@@ -7,22 +7,39 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Mace
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 3
+
+combat: Melee
+
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: '→ You pay 1 less to play your next ally this turn and an additional 1 less for each heirloom counter on this equipment. Stash : Add an heirloom counter to target equipment you control.'
+    text: '{activate} → You pay {1} less to play your next ally this turn and an additional {1} less for each heirloom counter on this equipment.'
+  - type: Ability
+    text: 'Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Add an heirloom counter to target equipment you control.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

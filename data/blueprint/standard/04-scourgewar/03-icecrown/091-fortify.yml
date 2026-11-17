@@ -15,12 +15,17 @@ class:
   - Paladin
   - Warrior
 
-instant: Your hero has Protector this turn. Your hero has +X ATK while protecting this turn, where X is the cost of target non-hero Paladin or Warrior you control.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero has Protector this turn.
+  - type: Ability
+    text: Your hero has +X ATK while protecting this turn, where X is the cost of target non-hero Paladin or Warrior you control.
 
 regulation:
 
 errata: []
-
-temp: Protection

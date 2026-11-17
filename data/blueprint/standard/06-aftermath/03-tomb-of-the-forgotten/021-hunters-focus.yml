@@ -1,4 +1,4 @@
-name: Hunters Focus
+name: Hunter's Focus
 
 origin: tomb-of-the-forgotten-021
 
@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Hunter
 
+talent:
+  - Marksmanship
+
+instant: false
+
 rule:
   - type: Ability
-    text: Target ally has +2 ATK and Long-Range this turn.
+    text: Target ally has +2 ATK and Long-Range this turn. (Defenders deal no combat damage to it.)
 
 regulation:
 
 errata: []
-
-temp: Marksmanship

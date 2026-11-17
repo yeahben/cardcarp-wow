@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: 3 , , Destroy Lilnas → Destroy all abilities.
+    text: '{3}, {activate}, Destroy Lilnas → Destroy all abilities.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Priest

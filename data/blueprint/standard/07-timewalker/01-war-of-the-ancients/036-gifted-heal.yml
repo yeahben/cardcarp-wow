@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Priest
 
-instant: Your hero heals 4 damage from itself. Then, if your hero is undamaged, draw a card.
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero heals 4 damage from itself. Then, if your hero is undamaged, draw a card.
 
 regulation:
 
 errata: []
-
-temp: Holy

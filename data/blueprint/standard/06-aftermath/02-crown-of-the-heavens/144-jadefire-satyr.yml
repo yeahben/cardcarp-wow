@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Satyr
+  - Demon
+
 trait:
 
 cost: '2'
@@ -17,14 +21,17 @@ health: 3
 
 combat: Shadow
 
+class:
+  - Warrior
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: While an opposing hero has 15 or more damage on it, this ally has Assault 2 .
+    text: While an opposing hero has 15 or more damage on it, this ally has Assault 2.
 
 regulation:
 
 errata: []
-
-temp: Satyr Demon Warrior

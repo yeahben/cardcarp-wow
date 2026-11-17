@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Tallstrider
+
 trait:
 
 cost: '5'
@@ -17,14 +20,16 @@ health: 4
 
 combat: Melee
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Ferocity When this ally attacks, you may reveal the top card of your deck. If you revealed a quest or location this way, this and other allies you control have +2 ATK and Ferocity this turn.
+    text: Ferocity
+  - type: Ability
+    text: When this ally attacks, you may reveal the top card of your deck. If you revealed a quest or location this way, this and other allies you control have +2 ATK and Ferocity this turn.
 
 regulation:
 
 errata: []
-
-temp: Tallstrider

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Lord
+
 trait:
 
 cost: '6'
@@ -17,12 +20,20 @@ health: 6
 
 combat: Shadow
 
+race: Undead
+
+limit:
+  - name: Godfrey
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of your turn, put two 3 / 3 Ghoul ally tokens into play. At the end of your turn, Godfrey deals 1 shadow damage to target opposing hero or ally for each Ghoul you control.
+    text: At the start of your turn, put two 3 {melee} / 3 {health} Ghoul ally tokens into play.
+  - type: Ability
+    text: At the end of your turn, Godfrey deals 1 shadow damage to target opposing hero or ally for each Ghoul you control.
 
 regulation:
 
 errata: []
-
-temp: Undead Lord

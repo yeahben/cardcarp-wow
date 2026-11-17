@@ -19,12 +19,19 @@ combat: Fire
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive When a Dragonkin enters play under your control, this ally has +2 ATK this turn.
+    text: Elusive (This ally can't be attacked.)
+  - type: Ability
+    text: When a Dragonkin enters play under your control, this ally has +2 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Goblin Warlock

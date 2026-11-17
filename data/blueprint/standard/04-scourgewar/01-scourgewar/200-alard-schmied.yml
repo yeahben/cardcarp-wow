@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Blacksmithing
+  - Master
+
 trait:
 
 cost: '4'
@@ -17,12 +21,17 @@ health: 3
 
 combat: Fire
 
+race: Human
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: This ally has +X , where X is the combined of Plate armor you control.
+    text: This ally has +X {health}, where X is the combined {def} of Plate armor you control.
 
 regulation:
 
 errata: []
-
-temp: Human Blacksmithing Master

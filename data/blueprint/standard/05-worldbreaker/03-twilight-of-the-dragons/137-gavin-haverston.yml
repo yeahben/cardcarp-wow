@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: This ally has Ferocity and Long-Range while an opponent controls more allies than you.
+    text: This ally has Ferocity and Long-Range while an opponent controls more allies than you. (This ally can attack immediately, and when he attacks, defenders deal no combat damage to him.)
 
 regulation:
 
 errata: []
-
-temp: Undead Hunter

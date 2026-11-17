@@ -7,22 +7,39 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Axe
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 1
+
+combat: Melee
+
 faction: Horde
 
 class:
-  - Shaman
   - Rogue
+  - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Dual Wield When this weapon enters play, if an opponent controls an hero, add a +1 ATK counter to this and each other weapon you control.
+    text: Dual Wield
+  - type: Ability
+    text: When this weapon enters play, if an opponent controls an {alliance} hero, add a +1 ATK counter to this and each other weapon you control.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Axe

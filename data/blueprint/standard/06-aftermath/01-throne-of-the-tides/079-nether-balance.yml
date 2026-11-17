@@ -14,12 +14,17 @@ cost: '5'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When this ability enters play, your hero deals 5 shadow damage to target ally. When an opposing ally is destroyed, you may pay 2 . If you do, put a 2 / 2 Demon Skull Monster token into play.'
+    text: 'Ongoing: When this ability enters play, your hero deals 5 shadow damage to target ally.'
+  - type: Ability
+    text: When an opposing ally is destroyed, you may pay {2}. If you do, put a 2 {shadow} / 2 {health} Demon Skull Monster ally token into play.
 
 regulation:
 
 errata: []
-
-temp: Demonology

@@ -19,6 +19,13 @@ combat: Nature
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, target hero or ally you control has Long-Range this turn.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Human Hunter

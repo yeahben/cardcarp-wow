@@ -13,13 +13,23 @@ health: 29
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Paladin
+
+talent:
+  - Retribution
+
+profession:
+  - Mining
+  - Blacksmithing
+
 rule:
   - type: Ability
     position: Front
-    text: 6 , Flip Savin Lightguard → Destroy all allies that dealt combat damage to Savin this turn.
+    text: '{6}, Flip Savin Lightguard → Destroy all allies that dealt combat damage to Savin this turn.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Paladin

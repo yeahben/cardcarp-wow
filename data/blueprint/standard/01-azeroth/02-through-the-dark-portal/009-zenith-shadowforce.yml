@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+talent:
+  - Demonology
+
+profession:
+  - Herbalism
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Zenith Shadowforce → Turn target opposing hero face down.
+    text: '{2}, Flip Zenith Shadowforce → Turn target opposing hero face down.'
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

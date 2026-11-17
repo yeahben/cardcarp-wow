@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Hunter
 
-instant: "Ongoing : Trap cards in your hand also have \"You may exhaust a defending ally in your party rather than pay this card's cost.\""
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: "Ongoing: Trap cards in your hand also have \"You may exhaust a defending ally in your party rather than pay this card's cost.\""
 
 regulation:
 
 errata: []
-
-temp: Survival

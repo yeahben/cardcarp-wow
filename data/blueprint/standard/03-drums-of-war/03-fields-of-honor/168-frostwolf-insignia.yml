@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+  - Battleground
+
 trait:
 
 cost: '2'
@@ -14,23 +18,29 @@ cost: '2'
 faction: Horde
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: When you play a card, add an honor counter. If there are six or more on Frostwolf Insignia, destroy it. When Frostwolf Insignia is destroyed this way, your hero heals 10 damage from target hero or ally.
+    text: When you play a card, add an honor counter. If there are six or more on Frostwolf Insignia, destroy it.
+  - type: Ability
+    text: When Frostwolf Insignia is destroyed this way, your hero heals 10 damage from target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Item Battleground

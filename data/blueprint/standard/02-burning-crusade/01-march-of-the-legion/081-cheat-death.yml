@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Rogue
 
-instant: Subtlety Hero Required Remove your hero from the game. As your next turn starts, put it into play flipped the same way and with the same damage. (You can't play cards while your hero is removed.)
+talent:
+  - Subtlety
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Subtlety Hero Required
+  - type: Ability
+    text: Remove your hero from the game. As your next turn starts, put it into play flipped the same way and with the same damage. (You can't play cards while your hero is removed.)
 
 regulation:
 
 errata: []
-
-temp: Subtlety Talent

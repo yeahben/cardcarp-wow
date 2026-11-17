@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+talent:
+  - Demonology
+
+profession:
+  - Alchemy
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Bildros → Pet cards in your hand are instant this turn.
+    text: '{2}, Flip Bildros → Pet cards in your hand are instant this turn.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

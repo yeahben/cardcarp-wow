@@ -1,14 +1,25 @@
-name: Our Vigilance Is Eternal...
+name: '"Our Vigilance Is Eternal . . ."'
 
 origin: shadowfang-keep-028
 
 layout: Standard
 
 category:
+  - Ability
 
 trait:
 
-rule: []
+instant: false
+
+type: Dungeon
+
+rule:
+  - type: Ability
+    text: Put the top five cards of the Dungeon deck into the graveyard, then put a random ally from the Dungeon graveyard into play with this ability attached to it.
+  - type: Ability
+    text: 'Ongoing: If attached ally would deal damage, it deals double that much instead.'
+  - type: Ability
+    text: When this ability leaves play, destroy attached ally.
 
 regulation:
 

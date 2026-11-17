@@ -9,14 +9,16 @@ category:
 
 trait:
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: 'Attach this to the Dungeon ally with the highest printed . Ongoing : Attached ally has +10 / +10.'
+    text: Attach this to the Dungeon ally with the highest printed {health}.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +10 / +10.'
 
 regulation:
 
 errata: []
-
-temp: ''

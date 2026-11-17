@@ -14,12 +14,21 @@ cost: '3'
 class:
   - Druid
 
-instant: 'Ongoing : Your hero is Untargetable . When you play an ability or your hero attacks, destroy Flight Form.'
+talent:
+  - Feral
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Your hero is untargetable.'
+  - type: Ability
+    text: When you play an ability or your hero attacks, destroy Flight Form.
 
 regulation:
 
 errata: []
-
-temp: Feral

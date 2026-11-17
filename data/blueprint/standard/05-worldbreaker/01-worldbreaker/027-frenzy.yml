@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Death Knight
 
+talent:
+  - Blood
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : → Target ally you control has Assault 1 this turn.'
+    text: 'Ongoing: {activate} → Target ally you control has Assault 1 this turn. (It has +1 ATK on your turn.)'
 
 regulation:
 
 errata: []
-
-temp: Blood

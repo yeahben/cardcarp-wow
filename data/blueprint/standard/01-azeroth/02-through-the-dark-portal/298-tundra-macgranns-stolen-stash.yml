@@ -13,10 +13,12 @@ faction: Alliance
 
 rule:
   - type: Ability
-    text: 'Dwarf Hero Required Pay 3 to complete this quest. Reward : If your hero dealt combat damage to an opposing hero this turn, draw two cards.'
+    text: Dwarf Hero Required
+  - type: Ability
+    text: Pay {3} to complete this quest.
+  - type: Ability
+    text: 'Reward: If your hero dealt combat damage to an opposing hero this turn, draw two cards.'
 
 regulation:
 
 errata: []
-
-temp: ''

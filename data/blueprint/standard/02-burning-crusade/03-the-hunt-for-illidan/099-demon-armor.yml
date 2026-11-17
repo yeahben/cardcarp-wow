@@ -14,12 +14,15 @@ cost: '5'
 class:
   - Warlock
 
+talent:
+  - Demonology
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : 1 , Remove an ability card in your graveyard from the game → Your hero heals 2 damage from itself.'
+    text: 'Ongoing: {1}, Remove an ability card in your graveyard from the game → Your hero heals 2 damage from itself.'
 
 regulation:
 
 errata: []
-
-temp: Demonology

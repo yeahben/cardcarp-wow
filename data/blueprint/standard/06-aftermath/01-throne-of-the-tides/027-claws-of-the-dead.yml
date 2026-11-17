@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
-    text: Opposing allies have -3 ATK this turn. Delve
+    text: Opposing allies have -3 ATK this turn.
+  - type: Ability
+    text: Delve (Look at the top two cards of your deck. Put any number of them on top of your deck in any order, and the rest on the bottom.)
 
 regulation:
 
 errata: []
-
-temp: Unholy

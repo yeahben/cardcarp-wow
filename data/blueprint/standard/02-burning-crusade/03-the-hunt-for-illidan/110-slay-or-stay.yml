@@ -14,12 +14,18 @@ cost: '1'
 class:
   - Warrior
 
+talent:
+  - Fury
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Choose one: Destroy target damaged ally; or attach to target ally. Ongoing : Attached ally is a Protector .'
+    text: 'Choose one: Destroy target damaged ally; or attach to target ally.'
+  - type: Ability
+    text: 'Ongoing: Attached ally is a protector.'
 
 regulation:
 
 errata: []
-
-temp: Fury Protection

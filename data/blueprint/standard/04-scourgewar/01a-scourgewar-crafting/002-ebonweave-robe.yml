@@ -7,21 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+
 trait:
 
 cost: '4'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Allies you control have Shadow Resistance . If an opposing ally would deal any type of damage, it deals shadow damage instead.
+    text: Allies you control have Shadow Resistance.
+  - type: Ability
+    text: If an opposing ally would deal any type of damage, it deals shadow damage instead.
 
 regulation:
 
 errata: []
-
-temp: Armor

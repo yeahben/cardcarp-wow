@@ -19,12 +19,19 @@ combat: Shadow
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Time is Money → This ally deals 2 shadow damage to target ally and 2 shadow damage to itself.
+    text: Time is Money
+  - type: Ability
+    text: '{activate} → This ally deals 2 shadow damage to target ally and 2 shadow damage to itself.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Priest

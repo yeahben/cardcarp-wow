@@ -1,4 +1,4 @@
-name: Aessinas Boon
+name: Aessina's Boon
 
 origin: caverns-of-time-treasure-005
 
@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Attachment
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Druid
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally, then put two 1 / 1 Treant ally tokens into play. Ongoing : Attached ally has +1 / +1 for each ally you control.'
+    text: Attach to target ally, then put two 1 {melee} / 1 {health} Treant ally tokens into play.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +1 / +1 for each ally you control.'
 
 regulation:
 
 errata: []
-
-temp: Restoration Attachment

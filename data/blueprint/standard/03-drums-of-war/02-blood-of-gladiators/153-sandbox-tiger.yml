@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Tiger
+
 trait:
 
 cost: '2'
@@ -17,6 +20,8 @@ health: 1
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
     text: Sandbox Tiger has +1 ATK / +1 health for each Loot card in play you control.
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tiger

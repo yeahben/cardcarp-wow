@@ -17,12 +17,22 @@ health: 1
 
 combat: Melee
 
+race: Draenei
+
+class:
+  - Warrior
+
+limit:
+  - name: Unlimited
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Allies not named Shattrath City Peacekeeper have -1 ATK.
+    text: Protector
+  - type: Ability
+    text: Allies not named Shattrath City Peacekeeper have -1 ATK.
 
 regulation:
 
 errata: []
-
-temp: Draenei Warrior

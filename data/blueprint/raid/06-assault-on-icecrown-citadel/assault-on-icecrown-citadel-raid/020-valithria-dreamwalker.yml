@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Green
+  - Dragonkin
+
 trait:
 
 cost: '2'
@@ -17,12 +21,16 @@ health: 10
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Valithria Dreamwalker enters play with 3 damage. Emerald Vigor : At the start of your turn, draw a card if Valithria Dreamwalker is damaged. Valithria Dreamwalker can't attack or be attacked."
+    text: Valithria Dreamwalker enters play with 3 damage.
+  - type: Ability
+    text: 'Emerald Vigor: At the start of your turn, draw a card if Valithria Dreamwalker is damaged.'
+  - type: Ability
+    text: Valithria Dreamwalker can't attack or be attacked.
 
 regulation:
 
 errata: []
-
-temp: Green Dragonkin

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Infernal
+  - Demon
+
 trait:
 
 cost: '7'
@@ -20,12 +24,18 @@ combat: Fire
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: As an additional cost to play this ally, destroy an ability, ally, or equipment you control. Ferocity
+    text: As an additional cost to play this ally, destroy an ability, ally, or equipment you control.
+  - type: Ability
+    text: Ferocity (This ally can attack immediately.)
 
 regulation:
 
 errata: []
-
-temp: Infernal Demon

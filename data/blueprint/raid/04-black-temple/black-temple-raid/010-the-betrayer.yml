@@ -7,7 +7,17 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Demon
+  - Demonhunter
+  - Traitor
+
 trait:
+  - 5 Events
+
+health: 50
+
+race: Night Elf
 
 type: Boss
 
@@ -16,13 +26,23 @@ stage: 9
 rule:
   - type: Ability
     position: Front
-    text: The Betrayer has +10 ATK while attacking. → The Betrayer heals 15 damage from itself. At the end of your turn, flip The Betrayer.
+    text: The Betrayer has +10 ATK while attacking.
+  - type: Ability
+    position: Front
+    text: '{activate} → The Betrayer heals 15 damage from himself.'
+  - type: Ability
+    position: Front
+    text: At the end of your turn, flip The Betrayer.
   - type: Ability
     position: Reverse
-    text: The Betrayer has +10 ATK while attacking. → The Betrayer deals 3 shadow damage to each opposing hero and ally. At the end of your turn, flip The Betrayer.
+    text: The Betrayer has +10 ATK while attacking.
+  - type: Ability
+    position: Reverse
+    text: '{activate} → The Betrayer deals 3 shadow damage to each opposing hero and ally.'
+  - type: Ability
+    position: Reverse
+    text: At the end of your turn, flip The Betrayer.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Demon Demonhunter Traitor 50

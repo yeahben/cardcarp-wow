@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+talent:
+  - Demonology
+
+profession:
+  - Engineering
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: "On your turn: 4 , Flip Pidge → Look at target player's hand and remove a card in it from the game."
+    text: "On your turn: {4}, Flip Pidge → Look at target player's hand and remove a card in it from the game."
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

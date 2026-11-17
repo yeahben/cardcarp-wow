@@ -14,12 +14,17 @@ cost: '6'
 class:
   - Paladin
 
-instant: 'Ongoing : Your hero has Protector . Prevent all combat damage that would be dealt to your hero while protecting.'
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Your hero has protector.'
+  - type: Ability
+    text: Prevent all combat damage that would be dealt to your hero while protecting.
 
 regulation:
 
 errata: []
-
-temp: Protection

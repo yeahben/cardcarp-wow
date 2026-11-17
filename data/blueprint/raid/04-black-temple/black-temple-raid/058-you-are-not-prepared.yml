@@ -1,0 +1,22 @@
+name: You Are Not Prepared!
+
+origin: black-temple-raid-058
+
+layout: Standard
+
+category:
+  - Event
+
+trait:
+
+instant: false
+
+sequence: 11
+
+rule:
+  - type: Ability
+    text: Target up to two opposing abilities. Roll a die. If it's even, destroy the first of them. If it's odd, destroy both of them.
+
+regulation:
+
+errata: []

@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When an opposing hero or ally attacks, ready Donna Calister.
+    text: Protector
+  - type: Ability
+    text: When an opposing hero or ally attacks, ready Donna Calister.
 
 regulation:
 
 errata: []
-
-temp: Human Warrior

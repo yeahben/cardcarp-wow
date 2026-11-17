@@ -1,0 +1,38 @@
+name: High Inquisitor Whitemane
+
+origin: scarlet-monastery-009
+
+layout: Standard
+
+category:
+  - Ally
+
+trait:
+  - 2 XP
+
+damage: 1
+
+health: 12
+
+combat: Holy
+
+race: Human
+
+class:
+  - Priest
+
+instant: false
+
+type: Dungeon
+
+rule:
+  - type: Ability
+    text: Boss (The Dungeon hero can't be attacked.)
+  - type: Ability
+    text: 'Heal: When Whitemane enters play, she heals 10 damage from the Dungeon hero.'
+  - type: Ability
+    text: 'Holy Smite: When Whitemane attacks, she deals 1 unpreventable holy damage to the MARKED hero for each exhausted card its controller controls.'
+
+regulation:
+
+errata: []

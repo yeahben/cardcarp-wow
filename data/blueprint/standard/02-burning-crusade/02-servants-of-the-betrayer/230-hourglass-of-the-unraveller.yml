@@ -7,22 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
-  - Paladin
-  - Warrior
   - Hunter
+  - Paladin
   - Rogue
+  - Warrior
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: You pay 1 less to play equipment, to a minimum of 1 .
+    text: You pay {1} less to play equipment, to a minimum of {1}.
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

@@ -1,0 +1,27 @@
+name: Doom
+
+origin: caverns-of-time-raid-011
+
+layout: Standard
+
+category:
+  - Ability
+
+subtype:
+  - Attachment
+
+trait:
+
+instant: false
+
+type: Caverns
+
+rule:
+  - type: Ability
+    text: Attach to the MARKED hero.
+  - type: Ability
+    text: "Ongoing: At the start of the Caverns hero's turn, put the top card of attached hero's controller's deck into his graveyard. If an ally was put into a graveyard this way, put a 5 {shadow} / 5 {health} Doomguard Demon Monster ally token into play."
+
+regulation:
+
+errata: []

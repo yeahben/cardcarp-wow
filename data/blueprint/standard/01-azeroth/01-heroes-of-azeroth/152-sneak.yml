@@ -13,12 +13,12 @@ cost: '1'
 
 faction: Alliance
 
-instant: Target ally has Elusive this turn.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Target ally has elusive this turn. (It can't be attacked.)
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -13,13 +13,23 @@ health: 29
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Death Knight
+
+talent:
+  - Frost
+
+profession:
+  - Mining
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Randolphe → Each opposing hero and ally has -1 ATK this turn for each damage on it.
+    text: '{3}, Flip Randolphe → Each opposing hero and ally has -1 ATK this turn for each damage on it.'
 
 regulation:
 
 errata: []
-
-temp: Human Death Knight

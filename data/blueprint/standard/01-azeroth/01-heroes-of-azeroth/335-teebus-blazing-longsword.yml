@@ -1,4 +1,4 @@
-name: Teebus Blazing Longsword
+name: Teebu's Blazing Longsword
 
 origin: heroes-of-azeroth-335
 
@@ -7,22 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Sword
+
 trait:
 
 cost: '1'
 
+damage: 0
+
+strike: 0
+
+combat: Melee
+
 class:
-  - Paladin
-  - Warrior
   - Hunter
+  - Paladin
   - Rogue
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 2 → Teebu's Blazing Longsword has +1 ATK this turn.
+    text: "{2} → Teebu's Blazing Longsword has +1 ATK this turn."
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

@@ -19,12 +19,22 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Druids in your party have +1 ATK while attacking. Druids in your party have Protector .
+    text: Druids in your party have +1 ATK while attacking.
+  - type: Ability
+    text: Druids in your party have protector.
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

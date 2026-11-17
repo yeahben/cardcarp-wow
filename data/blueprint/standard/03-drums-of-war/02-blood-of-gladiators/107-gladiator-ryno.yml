@@ -19,14 +19,19 @@ combat: Shadow
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+instant: false
+
 type: Arena
 
 rule:
   - type: Ability
-    text: When Ryno or another Arena ally enters your party, put a Felhunter Demon ally token into play with 1 ATK / 1 health.
+    text: When Ryno or another Arena ally enters your party, put a Felhunter Demon ally token into play with 1 {melee} ATK / 1 health.
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

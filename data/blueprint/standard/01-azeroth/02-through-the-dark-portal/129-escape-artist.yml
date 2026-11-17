@@ -13,12 +13,14 @@ cost: '1'
 
 faction: Alliance
 
-instant: "Gnome Hero Required Choose one: Interrupt target ability card that's targeting your hero; or if your hero is defending, remove all attackers from combat."
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Gnome Hero Required
+  - type: Ability
+    text: "Choose one: Interrupt target ability card that's targeting your hero; or if your hero is defending, remove all attackers from combat."
 
 regulation:
 
 errata: []
-
-temp: ''

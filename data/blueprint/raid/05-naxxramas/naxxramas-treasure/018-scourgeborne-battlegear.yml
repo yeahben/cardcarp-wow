@@ -7,19 +7,39 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor Set
+  - Plate
+
 trait:
 
 cost: '7'
 
+defense: 7
+
 class:
   - Death Knight
 
+limit:
+  - name: Chest
+    count: 1
+  - name: Hands
+    count: 1
+  - name: Head
+    count: 1
+  - name: Legs
+    count: 1
+  - name: Shoulder
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the end of your turn, you may remove target ally in a graveyard from the game. If you do, put a 3 / 3 Ghoul ally token into play. → Your hero deals 3 shadow damage to target hero or ally. Ready a Ghoul you control.
+    text: At the end of your turn, you may remove target ally in a graveyard from the game. If you do, put a 3 {melee} / 3 {health} Ghoul ally token into play.
+  - type: Ability
+    text: '{activate} → Your hero deals 3 shadow damage to target hero or ally. Ready a Ghoul you control.'
 
 regulation:
 
 errata: []
-
-temp: Armor Set Plate

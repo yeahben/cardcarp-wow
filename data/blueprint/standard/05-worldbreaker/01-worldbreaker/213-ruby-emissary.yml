@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Red
+  - Dragonkin
+
 trait:
 
 cost: '4'
@@ -17,12 +21,12 @@ health: 4
 
 combat: Fire
 
+instant: false
+
 rule:
   - type: Ability
-    text: You pay 2 less to play Priests and Paladins, to a minimum of 1 .
+    text: You pay {2} less to play Priests and Paladins, to a minimum of {1}.
 
 regulation:
 
 errata: []
-
-temp: Red Dragonkin

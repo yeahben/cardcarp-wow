@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Murloc
+
 trait:
+
+health: 30
+
+class:
+  - Warrior
 
 type: Monster
 
 rule:
   - type: Ability
     position: Front
-    text: 8 → Flip Rawrbrgle face down. You pay 8 less to flip Rawrbrgle if you control five or more Murloc allies.
+    text: '{8} → Flip Rawrbrgle'
+  - type: Ability
+    position: Front
+    text: You pay {8} less to flip Rawrbrgle if you control five or more Murloc allies.
   - type: Ability
     position: Reverse
-    text: "Monster allies you control have +1 / +1. Deckbuilding: You can't put or cards in your deck."
+    text: Monster allies you control have +1 / +1.
+  - type: Ability
+    position: Reverse
+    text: "Deckbuilding: You can't put {horde} or {alliance} cards in your deck."
 
 regulation:
 
 errata: []
-
-temp: Murloc Warrior 30

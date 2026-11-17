@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
-instant: Arcane Torrent
+race: Blood Elf
 
-rule: []
+class:
+  - Rogue
+
+instant: true
+
+rule:
+  - type: Ability
+    text: Arcane Torrent (When this ally enters play, target opposing card in play loses and can't have powers this turn.)
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

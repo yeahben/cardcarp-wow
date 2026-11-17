@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Protector At the start of your turn, an opponent chooses one: One-Thousand-Battles can't attack this turn; or One-Thousand-Battles must attack this turn if able."
+    text: Protector
+  - type: Ability
+    text: "At the start of your turn, an opponent chooses one: One-Thousand-Battles can't attack this turn; or One-Thousand-Battles must attack this turn if able."
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

@@ -19,12 +19,19 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Mend 1 When this ally heals damage from a hero or ally, that character has Assault 1 this turn.
+    text: Mend 1
+  - type: Ability
+    text: When this ally heals damage from a hero or ally, that character has Assault 1 this turn.
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

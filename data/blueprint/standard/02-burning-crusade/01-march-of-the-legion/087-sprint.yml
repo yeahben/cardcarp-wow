@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Rogue
 
-instant: 'Ongoing : → Choose one: Ready your hero; or if your hero is defending, remove all attacking allies from combat.'
+talent:
+  - Combat
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: {activate} → Choose one: Ready your hero; or if your hero is defending, remove all attacking allies from combat.'
 
 regulation:
 
 errata: []
-
-temp: Combat

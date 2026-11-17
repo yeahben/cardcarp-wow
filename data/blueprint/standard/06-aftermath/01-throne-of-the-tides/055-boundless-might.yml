@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Paladin
 
-instant: 'Eternal Choose one: Target weapon has +1 ATK this turn for each resource you control; or target armor has +1 this turn for each defense you control.'
+talent:
+  - Retribution
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Eternal (When this enters your graveyard from anywhere, you may shuffle it into your deck.)
+  - type: Ability
+    text: 'Choose one: Target weapon has +1 ATK this turn for each resource you control; or target armor has +1 {def} this turn for each resource you control.'
 
 regulation:
 
 errata: []
-
-temp: Retribution

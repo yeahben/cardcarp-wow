@@ -7,19 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '2'
 
+defense: 1
+
 class:
   - Druid
 
+limit:
+  - name: Head
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , → Draw a card, then discard a card. When you play a ability, ready Stormrage Cover.
+    text: '{1}, {activate} → Draw a card, then discard a card.'
+  - type: Ability
+    text: When you play a {druid} ability, ready Stormrage Cover.
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

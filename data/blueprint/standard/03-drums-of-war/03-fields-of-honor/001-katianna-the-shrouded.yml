@@ -13,13 +13,23 @@ health: 26
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Priest
+
+talent:
+  - Holy
+
+profession:
+  - Alchemy
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Katianna → Heroes and allies in your party are Elusive this turn.
+    text: '{1}, Flip Katianna → Heroes and allies in your party are elusive this turn.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Priest

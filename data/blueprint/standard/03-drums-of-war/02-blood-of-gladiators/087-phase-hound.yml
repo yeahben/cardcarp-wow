@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Beast
+  - Demon
+
 trait:
 
 cost: '4'
@@ -18,15 +22,19 @@ health: 5
 combat: Melee
 
 class:
-  - Warlock
   - Hunter
+  - Warlock
+
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Stealth
+    text: Stealth (Can't protect against this character.)
 
 regulation:
 
 errata: []
-
-temp: Beast Demon

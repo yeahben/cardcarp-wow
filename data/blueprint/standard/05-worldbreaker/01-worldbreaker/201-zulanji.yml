@@ -19,10 +19,15 @@ combat: Holy
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Priest
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Troll Priest

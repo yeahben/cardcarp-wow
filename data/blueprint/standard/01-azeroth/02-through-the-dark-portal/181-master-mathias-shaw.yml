@@ -19,12 +19,22 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Rogue
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Stealth When an ally in your party deals combat damage to a defending hero, draw a card.
+    text: Stealth (Can't protect against this character.)
+  - type: Ability
+    text: When an ally in your party deals combat damage to a defending hero, draw a card.
 
 regulation:
 
 errata: []
-
-temp: Human Rogue

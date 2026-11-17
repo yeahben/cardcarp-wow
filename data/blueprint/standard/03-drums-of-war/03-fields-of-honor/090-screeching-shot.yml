@@ -7,20 +7,27 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Shout
+
 trait:
 
 cost: '3'
 
 class:
-  - Warrior
   - Hunter
+  - Warrior
+
+talent:
+  - Survival
+  - Fury
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Ongoing : Opposing heroes and allies have -1 ATK while attacking.'
+    text: 'Ongoing: Opposing heroes and allies have -1 ATK while attacking.'
 
 regulation:
 
 errata: []
-
-temp: Survival Fury Shout

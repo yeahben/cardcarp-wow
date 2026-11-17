@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Boar
+  - Beast
+  - Demon
+
 trait:
 
 cost: '3'
@@ -17,14 +22,14 @@ health: 1
 
 combat: Melee
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: When this ally enters play, target ally you control has Smash this turn.
+    text: When this ally enters play, target ally you control has Smash this turn. (If it would deal more than fatal combat damage to a defending ally, it deals the rest to that ally's controller's hero.)
 
 regulation:
 
 errata: []
-
-temp: Boar Beast Demon

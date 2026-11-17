@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Mutated
+  - Abomination
+
 trait:
 
 cost: '4'
@@ -17,14 +21,16 @@ health: 10
 
 combat: Melee
 
-type: Raid
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: 'Protector Vile Gas : When Festergut enters play, he deals 5 shadow damage to each opposing hero.'
+    text: Protector
+  - type: Ability
+    text: 'Vile Gas: When Festergut enters play, he deals 5 shadow damage to each opposing hero.'
 
 regulation:
 
 errata: []
-
-temp: Mutated Abomination

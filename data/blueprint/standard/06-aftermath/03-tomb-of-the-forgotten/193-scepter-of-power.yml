@@ -7,22 +7,39 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Mace
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 2
+
+combat: Melee
+
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Exhaust an ally you control → Add a tone counter to this weapon. While this weapon has four or more tone counters on it, it has Harmonize .
+    text: Exhaust an ally you control → Add a tone counter to this weapon.
+  - type: Ability
+    text: While this weapon has four or more tone counters on it, it has Harmonize. (You pay {1} less to play allies with cost {4} or more.)
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

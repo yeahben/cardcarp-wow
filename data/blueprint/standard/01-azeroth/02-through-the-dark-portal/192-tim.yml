@@ -19,12 +19,19 @@ combat: Arcane
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive → Tim deals 1 arcane damage to target hero or ally.
+    text: Elusive
+  - type: Ability
+    text: '{activate} → Tim deals 1 arcane damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Human Mage

@@ -7,18 +7,28 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '2'
 
+defense: 2
+
 class:
   - Hunter
   - Shaman
+
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
 
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

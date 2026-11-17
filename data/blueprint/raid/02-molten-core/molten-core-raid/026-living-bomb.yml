@@ -7,16 +7,21 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Molten Core
+
 trait:
 
 cost: '1'
 
-instant: 'Attach to target opposing ally. Ongoing : At the start of your turn, destroy attached ally. If your hero is Baron Geddon, that ally deals fire damage equal to its cost to each other hero and ally in its party.'
+instant: false
 
-rule: []
+rule:
+  - type: Ability
+    text: Attach to target opposing ally.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, destroy attached ally. If your hero is Baron Geddon, that ally deals fire damage equal to its cost to each other hero and ally in its party.'
 
 regulation:
 
 errata: []
-
-temp: Molten Core

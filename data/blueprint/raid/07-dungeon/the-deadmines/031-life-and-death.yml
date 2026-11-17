@@ -1,0 +1,22 @@
+name: Life . . . and Death
+
+origin: the-deadmines-031
+
+layout: Standard
+
+category:
+  - Ability
+
+trait:
+
+instant: false
+
+type: Dungeon
+
+rule:
+  - type: Ability
+    text: The Dungeon hero heals 10 damage from itself and each Dungeon ally.
+
+regulation:
+
+errata: []

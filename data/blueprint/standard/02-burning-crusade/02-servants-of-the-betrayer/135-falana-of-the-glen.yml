@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: When Falana is destroyed, if an opponent has more resources than you, you may put Falana from the graveyard into hero owner's resource row face down and exhausted.
+    text: When Falana is destroyed, if an opponent has more resources than you, you may put Falana from the graveyard into her owner's resource row face down and exhausted.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

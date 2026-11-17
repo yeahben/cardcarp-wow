@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Cat
+  - Form
+
 trait:
 
 cost: '4'
@@ -14,12 +18,23 @@ cost: '4'
 class:
   - Druid
 
-instant: 'Feral Combat Talent Ongoing : When this ability enters play, your hero deals 1 melee damage to each of up to three target opposing heroes and/or allies. Your hero has Assault 2 for each damaged opposing character.'
+talent:
+  - Feral
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: Feral Talent (You can't put Balance Talents or Restoration Talents in your deck.)
+  - type: Ability
+    text: When this ability enters play, your hero deals 1 melee damage to each of up to three target opposing heroes and/or allies.
+  - type: Ability
+    text: 'Ongoing: Your hero has Assault 2 for each damaged opposing character.'
 
 regulation:
 
 errata: []
-
-temp: Feral Cat Form

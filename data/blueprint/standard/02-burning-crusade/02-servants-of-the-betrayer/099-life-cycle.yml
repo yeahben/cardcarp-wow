@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Shaman
 
-instant: Your hero heals 2 damage from each hero and ally in your party, then deals 1 nature damage to target hero or ally for each damage healed this way.
+talent:
+  - Restoration
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero heals 2 damage from each hero and ally in your party, then deals 1 nature damage to target hero or ally for each damage healed this way.
 
 regulation:
 
 errata: []
-
-temp: Restoration

@@ -1,4 +1,4 @@
-name: Zoids Firelit Greatsword
+name: Zoid's Firelit Greatsword
 
 origin: tomb-of-the-forgotten-195
 
@@ -7,21 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Sword
+
 trait:
 
 cost: '1'
 
+damage: 0
+
+strike: 3
+
+combat: Fire
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Exhaust an ally you control → Add a charge counter to this weapon. While this weapon has six or more charge counters on it, it has +6 ATK.
+    text: Exhaust an ally you control → Add a charge counter to this weapon.
+  - type: Ability
+    text: While this weapon has six or more charge counters on it, it has +6 ATK.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Sword

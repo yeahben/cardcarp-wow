@@ -15,14 +15,23 @@ health: 12
 
 combat: Nature
 
-type: Boss
+race: Orc
+
+class:
+  - Shaman
+
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
-    text: 'Boss When Hagara enters play, she deals 6 frost damage to the Raiding ally with the highest remaining health. Lightning Storm (Deathwing Stages 2+) : When Hagara deals combat damage to a defending Raiding hero, she deals 10 nature damage to the Raiding heroes divided as the Raiders choose.'
+    text: Boss (Deathwing can't be attacked. When Hagara is dealt fatal damage, each Raider draws a card.)
+  - type: Ability
+    text: When Hagara enters play, she deals 6 frost damage to the Raiding ally with the highest remaining health.
+  - type: Ability
+    text: 'Lightning Storm (Deathwing Stages 2+): When Hagara deals combat damage to a defending Raiding hero, she deals 10 nature damage to the Raiding heroes divided as the Raiders choose.'
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

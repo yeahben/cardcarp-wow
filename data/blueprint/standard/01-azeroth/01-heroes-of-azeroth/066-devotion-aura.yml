@@ -14,12 +14,19 @@ cost: '5'
 class:
   - Paladin
 
+talent:
+  - Protection
+
+limit:
+  - name: Aura
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : If a hero or ally in your party would be dealt damage, prevent 1 of that damage.'
+    text: 'Ongoing: If a hero or ally in your party would be dealt damage, prevent 1 of that damage.'
 
 regulation:
 
 errata: []
-
-temp: Protection

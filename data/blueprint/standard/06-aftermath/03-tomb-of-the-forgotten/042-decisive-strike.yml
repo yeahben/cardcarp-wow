@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Rogue
 
-instant: Exhaust target hero or ally, and your hero deals 2 melee damage to it.
+talent:
+  - Combat
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Exhaust target hero or ally, and your hero deals 2 melee damage to it.
 
 regulation:
 
 errata: []
-
-temp: Combat

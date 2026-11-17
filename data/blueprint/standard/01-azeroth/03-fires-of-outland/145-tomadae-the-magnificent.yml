@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: If your hero would deal damage with an ability, it deals that much +1 instead.
+    text: If your hero would deal damage with an ability, it deals that much damage +1 instead.
 
 regulation:
 
 errata: []
-
-temp: Draenei Mage

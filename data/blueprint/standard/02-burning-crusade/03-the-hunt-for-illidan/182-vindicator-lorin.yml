@@ -15,14 +15,21 @@ damage: 4
 
 health: 4
 
-combat: Melee
+combat: Holy
+
+race: Draenei
+
+class:
+  - Paladin
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'Aldor Reputation Inspire: Armor and item'
+    text: Aldor Reputation
+  - type: Ability
+    text: 'Inspire: Armor and item'
 
 regulation:
 
 errata: []
-
-temp: Draenai Priest

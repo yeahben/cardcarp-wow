@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive
+    text: Elusive (This ally can't be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Goblin Mage

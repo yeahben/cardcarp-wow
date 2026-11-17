@@ -13,12 +13,14 @@ cost: '2'
 
 faction: Horde
 
+instant: false
+
 rule:
   - type: Ability
-    text: Undead Hero Required Remove any number of ally cards in graveyards from the game. Your hero heals 2 damage from itself for each card removed.
+    text: Undead Hero Required
+  - type: Ability
+    text: Remove any number of ally cards in graveyards from the game. Your hero heals 2 damage from itself for each card removed.
 
 regulation:
 
 errata: []
-
-temp: ''

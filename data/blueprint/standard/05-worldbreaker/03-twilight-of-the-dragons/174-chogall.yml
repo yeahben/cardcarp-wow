@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ogre
+  - Magi
+
 trait:
 
 cost: '9'
@@ -17,12 +21,21 @@ health: 8
 
 combat: Shadow
 
+class:
+  - Warlock
+
+limit:
+  - name: Cho'gall
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of your turn, destroy an ability, ally, or equipment you control. At the end of your turn, destroy target opposing ability, ally, or equipment.
+    text: At the start of your turn, destroy an ability, ally, or equipment you control.
+  - type: Ability
+    text: At the end of your turn, destroy target opposing ability, ally, or equipment.
 
 regulation:
 
 errata: []
-
-temp: Ogre Magi Warlock

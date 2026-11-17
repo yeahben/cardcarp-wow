@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Mage
 
-instant: Your hero deals 1 frost damage to each opposing hero and ally. A character dealt damage this way can't attack this turn.
+talent:
+  - Frost
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 1 frost damage to each opposing hero and ally. A character dealt damage this way can't attack this turn.
 
 regulation:
 
 errata: []
-
-temp: Frost

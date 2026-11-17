@@ -1,4 +1,4 @@
-name: Heros Surrender
+name: Hero's Surrender
 
 origin: icecrown-173
 
@@ -7,21 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Shield
+
 trait:
 
 cost: '4'
 
+defense: 4
+
 class:
   - Paladin
-  - Warrior
   - Shaman
+  - Warrior
+
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Opposing heroes lose and can't have powers. Your hero can protect against opposing heroes.
+    text: Opposing heroes lose and can't have powers.
+  - type: Ability
+    text: Your hero can protect against opposing heroes.
 
 regulation:
 
 errata: []
-
-temp: Armor Shield

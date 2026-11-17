@@ -5,7 +5,7 @@ origin: betrayal-of-the-guardian-001
 layout: Standard
 
 category:
-  - Hero
+  - Master Hero
 
 trait:
 
@@ -17,15 +17,27 @@ health: 32
 
 combat: Arcane
 
-type: Master
+race: Human
+
+class:
+  - Mage
+
+instant: false
 
 rule:
   - type: Ability
     position: Front
-    text: 'When your hero becomes Aegwynn, add three tirisfal counters to her. , Remove a tirisfal counter → Target ally has Elusive this turn. , Remove a tirisfal counter → Draw a card, then discard a card. While Aegwynn has no tirisfal counters on her: → Put a token copy of each ally you control into play.'
+    text: When your hero becomes Aegwynn, add three tirisfal counters to her.
+  - type: Ability
+    position: Front
+    text: '{activate}, Remove a tirisfal counter → Target ally has Elusive this turn.'
+  - type: Ability
+    position: Front
+    text: '{activate}, Remove a tirisfal counter → Draw a card, then discard a card.'
+  - type: Ability
+    position: Front
+    text: 'While Aegwynn has no tirisfal counters on her: {activate} → Put a token copy of each ally you control into play.'
 
 regulation:
 
 errata: []
-
-temp: Human Mage

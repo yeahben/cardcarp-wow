@@ -7,28 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: x , , Destroy this item → Put an X / X Spirit ally token into play with Mend X and Protector .
+    text: '{basic} {x}, {activate}, Destroy this item → Put an X {nature} / X {health} Spirit ally token into play with Mend X and Protector.'
 
 regulation:
 
 errata: []
-
-temp: Item

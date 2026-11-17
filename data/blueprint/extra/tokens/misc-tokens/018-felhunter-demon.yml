@@ -5,8 +5,22 @@ origin: misc-tokens-018
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
+  - Felhunter
+  - Demon
 
 trait:
+
+damage: 1
+
+health: 1
+
+combat: Melee
+
+instant: false
 
 rule: []
 

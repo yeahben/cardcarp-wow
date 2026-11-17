@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: Discard a card → Remove this ally from the game. At end of turn, its owner puts it into play. (It enters play ready and undamaged.)
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Priest

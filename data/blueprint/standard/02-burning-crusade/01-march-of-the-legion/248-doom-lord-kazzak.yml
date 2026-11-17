@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Demon
+
 trait:
 
 cost: '13'
@@ -17,6 +20,11 @@ health: 13
 
 combat: Melee
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: At the end of your turn, destroy all non-Demon allies.
@@ -24,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Demon

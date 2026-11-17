@@ -14,6 +14,11 @@ cost: '1'
 class:
   - Mage
 
+talent:
+  - Fire
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero deals 3 fire damage to target hero.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Fire

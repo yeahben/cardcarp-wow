@@ -13,10 +13,15 @@ health: 30
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Warrior
+
 rule:
   - type: Ability
     position: Front
-    text: 4 → Flip Vad face down.
+    text: '{4} → Flip Vad'
   - type: Ability
     position: Reverse
     text: At the end of your turn, you may ready Vad.
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Worgen Warrior

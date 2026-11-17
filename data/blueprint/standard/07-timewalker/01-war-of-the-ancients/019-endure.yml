@@ -14,12 +14,19 @@ cost: '0'
 class:
   - Hunter
 
-instant: "Play this ability only if your hero has 5 or less remaining health. Ongoing : → Remove your hero from combat. → Interrupt target ability that's targeting your hero."
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Play this ability only if your hero has 5 or less remaining health.
+  - type: Ability
+    text: 'Ongoing: {activate} → Remove your hero from combat.'
+  - type: Ability
+    text: "{activate} → Interrupt target ability that's targeting your hero."
 
 regulation:
 
 errata: []
-
-temp: Survival

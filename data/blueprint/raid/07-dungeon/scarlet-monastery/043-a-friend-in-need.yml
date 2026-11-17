@@ -1,0 +1,22 @@
+name: A Friend in Need
+
+origin: scarlet-monastery-043
+
+layout: Standard
+
+category:
+  - Achievement
+
+trait:
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Dark Ranger Velonara or Joseph the Insane deals fatal damage to a Dungeon Boss ally.
+  - type: Ability
+    text: 'Reward: 3 XP'
+
+regulation:
+
+errata: []

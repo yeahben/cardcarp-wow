@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'During your turn, pay 3 to complete this quest. Reward : Turn all resources face down.'
+    text: During your turn, pay {3} to complete this quest.
+  - type: Ability
+    text: 'Reward: Turn all resources face down.'
 
 regulation:
 
 errata: []
-
-temp: ''

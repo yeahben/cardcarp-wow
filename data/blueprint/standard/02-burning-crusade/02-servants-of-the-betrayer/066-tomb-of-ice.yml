@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Traitor
+
 trait:
 
 cost: '2'
@@ -14,12 +17,14 @@ cost: '2'
 class:
   - Mage
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Traitor Hero Required Ongoing : At the end of each opponent's turn, destroy each ally in his party that neither attacked nor entered play this turn."
+    text: Traitor Hero Required
+  - type: Ability
+    text: "Ongoing: At the end of each opponent's turn, destroy each ally in his party that neither attacked nor entered play this turn."
 
 regulation:
 
 errata: []
-
-temp: Traitor

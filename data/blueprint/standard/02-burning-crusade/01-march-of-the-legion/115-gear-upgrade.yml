@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Warrior
 
-instant: As an additional cost to play Gear Upgrade, destroy one of your equipment. Search your deck for an equipment card, reveal it, and put it into your hand.
+talent:
+  - Arms
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: As an additional cost to play Gear Upgrade, destroy one of your equipment.
+  - type: Ability
+    text: Search your deck for an equipment card, reveal it, and put it into your hand.
 
 regulation:
 
 errata: []
-
-temp: Arms

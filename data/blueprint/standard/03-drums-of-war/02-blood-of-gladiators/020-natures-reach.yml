@@ -1,4 +1,4 @@
-name: Natures Reach
+name: Nature's Reach
 
 origin: blood-of-gladiators-020
 
@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '4'
@@ -14,12 +17,19 @@ cost: '4'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Balance Hero Required Ongoing : Ally tokens in your party have +1 ATK / +1 health. 3 , → Put a Treant ally token into play with 1 ATK / 1 health.'
+    text: Balance Hero Required
+  - type: Ability
+    text: 'Ongoing: Ally tokens in your party have +1 ATK / +1 health.'
+  - type: Ability
+    text: '{3}, {activate} → Put a Treant ally token into play with 1 {melee} ATK / 1 health.'
 
 regulation:
 
 errata: []
-
-temp: Balance Talent

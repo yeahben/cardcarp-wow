@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Satyr
+  - Demon
+
 trait:
 
 cost: '5'
@@ -17,12 +21,15 @@ health: 5
 
 combat: Melee
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Jerrikar has Ferocity if an opponent went first this game.
+    text: Jerrikar has ferocity if an opponent went first this game.
 
 regulation:
 
 errata: []
-
-temp: Satyr Demon

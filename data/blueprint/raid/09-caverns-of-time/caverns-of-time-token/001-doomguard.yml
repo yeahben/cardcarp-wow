@@ -1,0 +1,31 @@
+name: Doomguard
+
+origin: caverns-of-time-token-001
+
+layout: Standard
+
+category:
+  - Token
+
+subtype:
+  - Ally
+  - Doomguard
+  - Demon
+
+trait:
+
+damage: 5
+
+health: 5
+
+combat: Shadow
+
+instant: false
+
+type: Monster
+
+rule: []
+
+regulation:
+
+errata: []

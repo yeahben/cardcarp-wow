@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Researcher
+
 trait:
 
 cost: '6'
@@ -19,6 +22,13 @@ combat: Melee
 
 faction: Horde
 
+race: Blood Elf
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: When you complete your first quest each turn, you may turn it face up if it's in play.
@@ -26,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Blood Elf Researcher

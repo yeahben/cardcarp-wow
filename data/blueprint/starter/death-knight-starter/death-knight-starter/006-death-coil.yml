@@ -1,0 +1,30 @@
+name: Death Coil
+
+origin: death-knight-starter-006
+
+layout: Standard
+
+category:
+  - Ability
+
+trait:
+
+cost: '3'
+
+class:
+  - Death Knight
+
+talent:
+  - Unholy
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Your hero deals 3 shadow damage to target hero or ally.
+  - type: Ability
+    text: Ready a Ghoul in your party.
+
+regulation:
+
+errata: []

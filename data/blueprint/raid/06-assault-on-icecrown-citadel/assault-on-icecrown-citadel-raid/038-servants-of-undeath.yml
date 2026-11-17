@@ -9,14 +9,16 @@ category:
 
 trait:
 
-type: Boss
+instant: false
+
+type: Lich King
 
 rule:
   - type: Ability
-    text: 'On your turn: Pay 1 to initiate this event. Event : Put up to two target cards from your graveyard into your hand.'
+    text: 'On your turn: Pay {1} to initiate this event.'
+  - type: Ability
+    text: 'Event: Put up to two target cards from your graveyard into your hand.'
 
 regulation:
 
 errata: []
-
-temp: ''

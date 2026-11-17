@@ -7,21 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Wand
+
 trait:
 
 cost: '1'
 
+damage: 1
+
+strike: 1
+
+combat: Shadow
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Wand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When combat damage is dealt with this weapon to a hero, that hero's controller puts that many cards from the top of his deck into his graveyard.
+    text: When combat damage is dealt with Wand of the Forgotten Star to a hero, that hero's controller puts that many cards from the top of his deck into his graveyard.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Wand

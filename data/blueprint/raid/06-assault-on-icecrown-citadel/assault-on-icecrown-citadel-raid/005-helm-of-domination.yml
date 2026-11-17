@@ -7,16 +7,28 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '1'
 
+defense: 5
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Leader of the Scourge : Once per turn: 1 → Target ally has Ferocity this turn. Death Rattle : Put this armor into its owner's hand."
+    text: 'Leader of the Scourge: Once per turn: {1} → Target ally has Ferocity this turn.'
+  - type: Ability
+    text: "Death Rattle (When this enters your graveyard from anywhere): Put this armor into its owner's hand."
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

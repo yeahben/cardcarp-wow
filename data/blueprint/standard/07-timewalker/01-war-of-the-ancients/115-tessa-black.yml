@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: This ally's ATK and are equal to the remaining health of your hero.
+    text: This ally's ATK and {health} are equal to the remaining health of your hero.
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

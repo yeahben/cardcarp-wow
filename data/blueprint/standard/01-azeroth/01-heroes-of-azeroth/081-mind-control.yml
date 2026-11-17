@@ -14,12 +14,19 @@ cost: 2+X
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally with cost X. Ongoing : You control attached ally. When you play a card, destroy Mind Control.'
+    text: Attach to target ally with cost X.
+  - type: Ability
+    text: 'Ongoing: You control attached ally.'
+  - type: Ability
+    text: When you play a card, destroy Mind Control.
 
 regulation:
 
 errata: []
-
-temp: Shadow

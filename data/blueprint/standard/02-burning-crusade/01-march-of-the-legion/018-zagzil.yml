@@ -13,13 +13,23 @@ health: 27
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Rogue
+
+talent:
+  - Combat
+
+profession:
+  - Blacksmithing
+  - Leatherworking
+
 rule:
   - type: Ability
     position: Front
-    text: x , Flip Zag'zil → Destroy target weapon with cost X. Use only on your turn.
+    text: "{x}, Flip Zag'zil → Destroy target weapon with cost X. Use only on your turn."
 
 regulation:
 
 errata: []
-
-temp: Troll Rogue

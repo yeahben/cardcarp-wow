@@ -11,10 +11,12 @@ trait:
 
 rule:
   - type: Ability
-    text: 'Nerubian Reputation On your turn: Declare an opposing hero or ally the Traitor King this turn and pay 3 to complete this quest. Reward : Draw a card. Heroes and allies you control have Assault 1 while attacking the Traitor King this turn.'
+    text: Nerubian Reputation
+  - type: Ability
+    text: 'On your turn: Declare an opposing hero or ally the Traitor King this turn and pay {3} to complete this quest.'
+  - type: Ability
+    text: 'Reward: Draw a card. Heroes and allies you control have Assault 1 while attacking the Traitor King this turn.'
 
 regulation:
 
 errata: []
-
-temp: ''

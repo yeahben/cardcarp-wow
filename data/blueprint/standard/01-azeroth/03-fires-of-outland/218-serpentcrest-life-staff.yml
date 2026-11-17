@@ -7,21 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Staff
+
 trait:
 
 cost: '2'
+
+damage: 1
+
+strike: 4
+
+combat: Melee
 
 class:
   - Druid
   - Priest
   - Shaman
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Discard a card → Your hero heals 2 damage from target hero or ally.
+    text: '{1}, Discard a card → Your hero heals 2 damage from target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Staff

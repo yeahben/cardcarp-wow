@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Earthen
+
 trait:
 
 cost: '8'
@@ -17,12 +20,25 @@ health: 7
 
 combat: Melee
 
+class:
+  - Warrior
+
+limit:
+  - name: Dungard
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector 1 → This ally has +2 ATK this turn. 1 → Prevent the next 2 damage that would be dealt to this ally this turn. At the end of your turn, ready this ally.
+    text: Protector
+  - type: Ability
+    text: '{1} → This ally has +2 ATK this turn.'
+  - type: Ability
+    text: '{1} → Prevent the next 2 damage that would be dealt to this ally this turn.'
+  - type: Ability
+    text: At the end of your turn, ready this ally.
 
 regulation:
 
 errata: []
-
-temp: Earthen Warrior

@@ -17,6 +17,16 @@ health: 5
 
 combat: Frost
 
+race: Gnome
+
+class:
+  - Mage
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, turn all resources you control face down and discard your hand.
@@ -24,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Gnome Mage

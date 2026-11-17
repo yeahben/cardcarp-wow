@@ -1,4 +1,4 @@
-name: Myrmidons Signet
+name: Myrmidon's Signet
 
 origin: heroes-of-azeroth-308
 
@@ -7,16 +7,25 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
-  - Warrior
-  - Rogue
   - Druid
   - Paladin
+  - Rogue
   - Shaman
+  - Warrior
+
+limit:
+  - name: Ring
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
@@ -25,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Item Ring

@@ -7,19 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Axe
+
 trait:
 
 cost: '3'
 
+damage: 5
+
+strike: 5
+
+combat: Melee
+
 class:
   - Shaman
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you strike with this weapon, add a surge counter to it. Allies you control have +2 ATK for each surge counter on this weapon.
+    text: When you strike with this weapon, add a surge counter to it.
+  - type: Ability
+    text: Allies you control have +2 ATK for each surge counter on this weapon.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Axe

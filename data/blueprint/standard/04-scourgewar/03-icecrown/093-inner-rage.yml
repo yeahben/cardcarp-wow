@@ -15,6 +15,12 @@ class:
   - Druid
   - Warrior
 
+talent:
+  - Feral
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero has Assault X this turn, where X is the cost of target non-hero Druid or Warrior you control.
@@ -22,5 +28,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Feral Fury

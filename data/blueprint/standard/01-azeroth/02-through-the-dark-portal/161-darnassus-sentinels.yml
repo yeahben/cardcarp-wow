@@ -19,12 +19,20 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Warrior
+
+limit:
+  - name: Unlimited
+
+instant: false
+
 rule:
   - type: Ability
-    text: When Darnassus Sentinels enters play, you may pay 1 . If you do, put a card named Darnassus Sentinels from your graveyard into your hand.
+    text: When Darnassus Sentinels enters play, you may pay {1}. If you do, put a card named Darnassus Sentinels from your graveyard into your hand.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Warrior

@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Rogue
 
+talent:
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ready and gain control of target opposing ally until end of turn. It has Ferocity and Stealth this turn, and can attack only heroes this turn.
+    text: Ready and gain control of target opposing ally until end of turn.
+  - type: Ability
+    text: It has Ferocity and Stealth this turn, and can attack only heroes this turn.
 
 regulation:
 
 errata: []
-
-temp: Subtlety

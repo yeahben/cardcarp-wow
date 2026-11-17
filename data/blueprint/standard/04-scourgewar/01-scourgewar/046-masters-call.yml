@@ -1,4 +1,4 @@
-name: Masters Call
+name: Master's Call
 
 origin: scourgewar-046
 
@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Hunter
 
-instant: If you control a Pet, destroy any number of abilities attached to your hero. While you control a Pet this turn, your hero has Untargetable , and Pets you control can protect your hero.
+talent:
+  - Beast Mastery
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: If you control a Pet, destroy any number of abilities attached to your hero.
+  - type: Ability
+    text: While you control a Pet this turn, your hero has Untargetable, and Pets you control can protect your hero.
 
 regulation:
 
 errata: []
-
-temp: Beast Mastery

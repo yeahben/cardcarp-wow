@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ogre
+  - Lord
+
 trait:
 
 cost: '8'
@@ -17,14 +21,19 @@ health: 13
 
 combat: Melee
 
+class:
+  - Warrior
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 'Conspicuous Empower Monster : When this ally enters play, if you control another Monster hero or ally, you may shout "ME BIGGEST!" while pounding your fists on the table. If you do, this ally and target opposing ally deal melee damage to each other equal to their respective ATK.'
+    text: Conspicuous
+  - type: Ability
+    text: 'Empower Monster: When this ally enters play, if you control another Monster hero or ally, you may shout "ME BIGGEST!" while pounding your fists on the table. If you do, this ally and target opposing ally deal melee damage to each other equal to their respective ATK.'
 
 regulation:
 
 errata: []
-
-temp: Ogre Lord Warrior

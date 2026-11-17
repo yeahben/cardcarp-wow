@@ -5,7 +5,10 @@ origin: reign-of-fire-001
 layout: Standard
 
 category:
-  - Hero
+  - Master Hero
+
+subtype:
+  - Prophet
 
 trait:
 
@@ -15,15 +18,17 @@ damage: 1
 
 health: 30
 
-type: Master
+combat: Arcane
+
+race: Human
+
+instant: false
 
 rule:
   - type: Ability
     position: Front
-    text: 8 → Search your deck and/or hand for a master hero that does not have the same name as a card you control. Put that hero into play as an ally. (It is no longer a hero.)
+    text: '{basic} {8} → Search your deck and/or hand for a master hero that does not have the same name as a card you control. Put that hero into play as an ally. (It is no longer a hero.)'
 
 regulation:
 
 errata: []
-
-temp: Human Prophet

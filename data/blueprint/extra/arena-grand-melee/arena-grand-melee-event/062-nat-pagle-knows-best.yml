@@ -9,6 +9,8 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
     text: Reveal a card from your hand, and then each other player reveals his hand. If any other revealed cards have the same cost as your card, remove those cards and your card from the game. Otherwise, draw a card.
@@ -16,5 +18,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

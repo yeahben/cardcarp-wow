@@ -17,12 +17,19 @@ health: 5
 
 combat: Melee
 
+race: Draenei
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aldor Reputation When an ally in your party is inspired, draw a card.
+    text: Aldor Reputation (Can't put Scryer cards in your deck.)
+  - type: Ability
+    text: When an ally in your party is inspired, draw a card.
 
 regulation:
 
 errata: []
-
-temp: Draenei Priest

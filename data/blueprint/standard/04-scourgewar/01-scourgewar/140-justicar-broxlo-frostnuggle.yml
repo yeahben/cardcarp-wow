@@ -5,10 +5,30 @@ origin: scourgewar-140
 layout: Standard
 
 category:
+  - Ally
 
 trait:
 
-rule: []
+cost: '1'
+
+damage: 1
+
+health: 3
+
+combat: Frost
+
+faction: Alliance
+
+race: Gnome
+
+class:
+  - Mage
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Opposing Warriors can't attack or exhaust.
 
 regulation:
 

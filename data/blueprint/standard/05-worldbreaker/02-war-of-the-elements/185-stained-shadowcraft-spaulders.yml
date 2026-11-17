@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '4'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Shoulder
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'At the start of your turn, your hero may deal 1 nature damage to target hero or ally, plus an additional 1 for each heirloom counter on this armor. Stash : Add an heirloom counter to target equipment you control.'
+    text: At the start of your turn, your hero may deal 1 nature damage to target hero or ally, plus an additional 1 for each heirloom counter on this armor.
+  - type: Ability
+    text: 'Stash: Add an heirloom counter to target equipment you control.'
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Priest
 
-instant: If your hero has 15 or more damage, it deals 5 unpreventable holy damage to target ally.
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: If your hero has 15 or more damage, it deals 5 unpreventable holy damage to target ally.
 
 regulation:
 
 errata: []
-
-temp: Holy

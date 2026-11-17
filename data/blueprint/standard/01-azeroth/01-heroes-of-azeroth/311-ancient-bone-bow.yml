@@ -7,19 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Bow
+
 trait:
 
 cost: '3'
 
+damage: 2
+
+strike: 2
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you strike with this weapon, your hero has Long-Range this combat.
+    text: When you strike with Ancient Bone Bow, your hero has long-range this combat. (Defenders deal no combat damage to it.)
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Bow

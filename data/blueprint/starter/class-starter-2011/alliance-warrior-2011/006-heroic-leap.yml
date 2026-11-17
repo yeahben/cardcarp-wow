@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warrior
 
-instant: Exhaust up to two target heroes and/or allies. Your hero deals 1 melee damage to each character exhausted this way.
+talent:
+  - Fury
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Exhaust up to two target heroes and/or allies. Your hero deals 1 melee damage to each character exhausted this way.
 
 regulation:
 
 errata: []
-
-temp: Fury

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Trogg
+
 trait:
 
 cost: '5'
@@ -17,6 +20,11 @@ health: 4
 
 combat: Melee
 
+class:
+  - Shaman
+
+instant: false
+
 type: Monster
 
 rule:
@@ -26,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Trogg Shaman

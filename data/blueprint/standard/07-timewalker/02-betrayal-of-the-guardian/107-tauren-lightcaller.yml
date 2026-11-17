@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Absorb
+    text: Absorb (When this ally deals combat damage to a hero, he heals that much damage from your hero.)
 
 regulation:
 
 errata: []
-
-temp: Tauren Paladin

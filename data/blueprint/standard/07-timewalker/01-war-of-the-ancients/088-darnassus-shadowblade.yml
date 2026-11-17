@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Night Elf allies you control have Stealth .
+    text: Night Elf allies you control have Stealth. (They can't be protected against.)
 
 regulation:
 
 errata: []
-
-temp: Night Elf Rogue

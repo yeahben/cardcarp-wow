@@ -7,19 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Dagger
+
 trait:
 
 cost: '2'
 
+damage: 1
+
+strike: 1
+
+combat: Melee
+
 class:
   - Rogue
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Finishing Move: Rogue When this weapon enters play, your hero deals X melee damage to target hero or ally and heals X damage from himself.'
+    text: 'Finishing Move: Rogue (To play, remove X Rogues in your graveyard from the game, where X is 5 or less.)'
+  - type: Ability
+    text: When this weapon enters play, your hero deals X damage to target hero or ally and heals X damage from itself.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

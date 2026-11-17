@@ -7,19 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Dagger
+
 trait:
 
 cost: '2'
 
+damage: 2
+
+strike: 1
+
+combat: Melee
+
 class:
   - Rogue
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Destroy Heartrazor → Target hero can't deal damage this turn.
+    text: "{1}, Destroy Heartrazor → Target hero can't deal damage this turn."
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

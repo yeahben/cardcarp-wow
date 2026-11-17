@@ -13,13 +13,23 @@ health: 25
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Mage
+
+talent:
+  - Frost
+
+profession:
+  - Alchemy
+  - Herbalism
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Litori Frostburn → Target hero or ally can't attack this turn.
+    text: "{2}, Flip Litori Frostburn → Target hero or ally can't attack this turn."
 
 regulation:
 
 errata: []
-
-temp: Human Mage

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Demolitionist
+
 trait:
 
 cost: '3'
@@ -19,6 +22,10 @@ combat: Fire
 
 faction: Horde
 
+race: Goblin
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally deals combat damage to a defending hero, you may destroy this ally. If you do, destroy target resource.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Goblin Demolitionist

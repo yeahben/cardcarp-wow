@@ -1,4 +1,4 @@
-name: Ramsteins Lightning Bolts
+name: Ramstein's Lightning Bolts
 
 origin: through-the-dark-portal-267
 
@@ -7,27 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
-  - Paladin
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: 2 , Destroy Ramstein's Lightning Bolts → Your hero deals 1 nature damage to each hero and ally.
+    text: "{2}, Destroy Ramstein's Lightning Bolts → Your hero deals 1 nature damage to each hero and ally."
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

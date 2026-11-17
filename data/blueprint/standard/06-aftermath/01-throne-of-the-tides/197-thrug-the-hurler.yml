@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ogre
+
 trait:
 
 cost: '6'
@@ -17,14 +20,17 @@ health: 4
 
 combat: Melee
 
+class:
+  - Warrior
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 'Empower Monster : When this ally enters play, if you control another Monster hero or ally, this ally deals 4 melee damage to target hero or ally.'
+    text: 'Empower Monster: When this ally enters play, if you control another Monster hero or ally, this ally deals 4 melee damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Ogre Warrior

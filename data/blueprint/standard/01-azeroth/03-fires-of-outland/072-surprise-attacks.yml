@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '1'
@@ -14,12 +17,19 @@ cost: '1'
 class:
   - Rogue
 
+talent:
+  - Combat
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Combat Hero Required Ongoing : Your Melee weapons have +1 ATK. Combat damage dealt by your hero can't be prevented."
+    text: Combat Hero Required
+  - type: Ability
+    text: 'Ongoing: Your Melee weapons have +1 ATK.'
+  - type: Ability
+    text: Combat damage dealt by your hero can't be prevented.
 
 regulation:
 
 errata: []
-
-temp: Combat Talent

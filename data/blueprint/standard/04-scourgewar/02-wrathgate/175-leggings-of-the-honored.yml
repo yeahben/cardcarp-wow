@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '2'
+
+defense: 1
 
 class:
   - Druid
   - Rogue
 
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: This armor has +4 if an ally entered a graveyard this turn.
+    text: This armor has +4 {def} if an ally entered a graveyard this turn.
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

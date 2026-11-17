@@ -1,13 +1,13 @@
-blueprint: baron-ashbury-dungeon-treasure-026
+blueprint: baron-ashbury-shadowfang-keep-005
 
 index: '005'
 
-rarity: Rare
+rarity: Common
 
 artist: Steve Prescott
 
 variation: []
 
-flavor: "\"Ha! Let's at least keep it interesting.\""
+flavor:
 
 set: Shadowfang Keep

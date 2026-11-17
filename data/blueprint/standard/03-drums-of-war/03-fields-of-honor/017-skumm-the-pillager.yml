@@ -13,13 +13,23 @@ health: 27
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Rogue
+
+talent:
+  - Assassination
+
+profession:
+  - Mining
+  - Alchemy
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 3 , Flip Skumm → Turn target resource face down.'
+    text: 'On your turn: {3}, Flip Skumm → Turn target resource face down.'
 
 regulation:
 
 errata: []
-
-temp: Troll Rogue

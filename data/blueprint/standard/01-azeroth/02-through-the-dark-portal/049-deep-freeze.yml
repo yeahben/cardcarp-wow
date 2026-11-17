@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Mage
 
+talent:
+  - Frost
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target ally, and your hero deals 2 frost damage to it. Ongoing : Attached ally can't attack."
+    text: Attach to target ally, and your hero deals 2 frost damage to it.
+  - type: Ability
+    text: "Ongoing: Attached ally can't attack."
 
 regulation:
 
 errata: []
-
-temp: Frost

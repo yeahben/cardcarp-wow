@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Stealth When Leeza deals combat damage, you may remove target card in a graveyard from the game.
+    text: Stealth (Can't protect against this character.)
+  - type: Ability
+    text: When Leeza deals combat damage, you may remove target card in a graveyard from the game.
 
 regulation:
 
 errata: []
-
-temp: Undead Rogue

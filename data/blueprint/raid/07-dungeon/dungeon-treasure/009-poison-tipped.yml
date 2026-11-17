@@ -11,15 +11,12 @@ trait:
 
 cost: '2'
 
-class:
-  - Rogue
+instant: false
 
 rule:
   - type: Ability
-    text: "Ongoing : When a Rogue ally enters play under your control or a friendly player's control, your hero deals 2 nature damage to each opposing hero."
+    text: "Ongoing: When a Rogue ally enters play under your control or a friendly player's control, your hero deals 2 nature damage to each opposing hero."
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -11,15 +11,26 @@ trait:
 
 cost: '4'
 
+health: 1
+
 class:
   - Shaman
 
-instant: 'Totem Ongoing : When each hero or ally in your party attacks for the first time each turn, you may pay 1 . If you do, ready that character.'
+talent:
+  - Enhancement
 
-rule: []
+limit:
+  - name: Air Totem
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: Totem (Can be attacked or targeted like an ally.)
+  - type: Ability
+    text: 'Ongoing: When each hero or ally in your party attacks for the first time each turn, you may pay {1}. If you do, ready that character.'
 
 regulation:
 
 errata: []
-
-temp: Enhancement

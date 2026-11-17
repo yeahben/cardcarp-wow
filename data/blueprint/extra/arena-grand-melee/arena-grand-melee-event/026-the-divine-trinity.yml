@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : When an attacker enters combat with a defender, their controllers play Rock-Paper-Scissors. The loser's character deals no damage this combat."
+    text: "Ongoing: When an attacker enters combat with a defender, their controllers play Rock-Paper-Scissors. The loser's character deals no damage this combat."
 
 regulation:
 
 errata: []
-
-temp: ''

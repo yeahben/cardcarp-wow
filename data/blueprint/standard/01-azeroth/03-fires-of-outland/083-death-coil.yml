@@ -9,17 +9,20 @@ category:
 
 trait:
 
-cost: '3'
+cost: '1'
 
 class:
-  - Death Knight
+  - Warlock
+
+talent:
+  - Affliction
+
+instant: false
 
 rule:
   - type: Ability
-    text: Your hero deals 3 shadow damage to target hero or ally. Ready a Ghoul in your party.
+    text: Remove target ally in an opponent's party from the game. At the start of your next turn, that opponent puts that ally into play under his control, and your hero deals 2 shadow damage to it.
 
 regulation:
 
 errata: []
-
-temp: Unholy

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Spore
+
 trait:
 
 damage: 0
@@ -15,14 +19,16 @@ health: 4
 
 combat: Melee
 
-type: Ally
+instant: false
 
 rule:
   - type: Ability
-    text: This ally can't attack. Raiding heroes and allies can't be healed. When this ally is dealt fatal damage by a hero or ally, attach Fungal Creep to that character's controller's hero.
+    text: This ally can't attack.
+  - type: Ability
+    text: Raiding heroes and allies can't be healed.
+  - type: Ability
+    text: When this ally is dealt fatal damage by a hero or ally, attach Fungal Creep to that character's controller's hero.
 
 regulation:
 
 errata: []
-
-temp: Spore

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Elekk
+
 trait:
 
 cost: '2'
@@ -19,12 +22,22 @@ combat: Melee
 
 faction: Alliance
 
+limit:
+  - name: Mount
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Draenei Hero Required You pay 1 less to complete quests. When you place a resource face up, this turn, if your hero would deal damage, it deals that much +2 instead. (Mounts can't attack or be attacked.)
+    text: Draenei Hero Required
+  - type: Ability
+    text: You pay {1} less to complete quests.
+  - type: Ability
+    text: When you place a resource face up, this turn, if your hero would deal damage, it deals that much +2 instead.
+  - type: Ability
+    text: (Mounts can't attack or be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Elekk

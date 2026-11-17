@@ -1,4 +1,4 @@
-name: Lord Godfrey - Level 4
+name: Lord Godfrey — Level 4
 
 origin: shadowfang-keep-004
 
@@ -7,7 +7,11 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Lord
+
 trait:
+  - 5 XP
 
 damage: 0
 
@@ -15,15 +19,18 @@ health: 50
 
 combat: Shadow
 
+race: Undead
+
 type: Dungeon
 
 rule:
   - type: Ability
     position: Front
-    text: Flip 3 Assault 10 , Long-Range
+    text: Flip 3 (At the start of the Dungeon turn, flip three Dungeon cards.)
+  - type: Ability
+    position: Front
+    text: Assault 10, Long-Range
 
 regulation:
 
 errata: []
-
-temp: Undead Lord

@@ -14,12 +14,18 @@ cost: '2'
 class:
   - Shaman
 
-instant: 'Choose one: Your hero heals 5 damage from target ally; or attach to one of your Melee weapons. Ongoing : Attached weapon has +2 ATK.'
+talent:
+  - Restoration
+  - Enhancement
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Choose one: Your hero heals 5 damage from target ally; or attach to one of your Melee weapons.'
+  - type: Ability
+    text: 'Ongoing: Attached weapon has +2 ATK.'
 
 regulation:
 
 errata: []
-
-temp: Restoration Enhancement

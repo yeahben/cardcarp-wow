@@ -19,12 +19,19 @@ combat: Fire
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity This ally can attack only heroes.
+    text: Ferocity (This ally can attack immediately.)
+  - type: Ability
+    text: This ally can attack only heroes.
 
 regulation:
 
 errata: []
-
-temp: Orc Warlock

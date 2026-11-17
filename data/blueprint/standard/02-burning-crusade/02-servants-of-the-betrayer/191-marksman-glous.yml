@@ -17,12 +17,21 @@ health: 2
 
 combat: Ranged
 
+race: Draenei
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Aldor Reputation Inspire: Quest When a quest is inspired this way, you pay 1 less to complete it this turn.'
+    text: Aldor Reputation
+  - type: Ability
+    text: 'Inspire: Quest'
+  - type: Ability
+    text: When a quest is inspired this way, you pay {1} less to complete it this turn.
 
 regulation:
 
 errata: []
-
-temp: Draenei Hunter

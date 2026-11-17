@@ -5,8 +5,22 @@ origin: champion-token-005
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
 
 trait:
+
+damage: 1
+
+health: 1
+
+combat: Melee
+
+race: Undead
+
+instant: false
 
 rule: []
 

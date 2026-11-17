@@ -12,8 +12,14 @@ trait:
 cost: '1'
 
 class:
-  - Priest
   - Death Knight
+  - Priest
+
+talent:
+  - Unholy
+  - Shadow
+
+instant: false
 
 rule:
   - type: Ability
@@ -22,5 +28,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Unholy Shadow

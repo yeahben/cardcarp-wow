@@ -17,6 +17,13 @@ health: 2
 
 combat: Melee
 
+race: Goblin
+
+limit:
+  - name: Unique
+
+instant: false
+
 type: Arena
 
 rule:
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Goblin

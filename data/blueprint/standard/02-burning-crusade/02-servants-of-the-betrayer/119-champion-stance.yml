@@ -14,12 +14,21 @@ cost: '5'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+limit:
+  - name: Stance
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : If your hero would deal damage, it deals that much +1 instead. If your hero would be dealt damage, prevent 1 of it.'
+    text: 'Ongoing: If your hero would deal damage, it deals that much +1 instead.'
+  - type: Ability
+    text: If your hero would be dealt damage, prevent 1 of it.
 
 regulation:
 
 errata: []
-
-temp: Arms

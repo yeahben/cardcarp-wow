@@ -7,23 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Mace
+
 trait:
 
 cost: '4'
 
+damage: 2
+
+strike: 4
+
+combat: Melee
+
 class:
-  - Priest
-  - Warrior
   - Druid
   - Paladin
+  - Priest
   - Shaman
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Allies you control with restriction tags have +3 / +3. (Examples of restriction tags on allies include Pet (1), Thrall (1), Totem (1) and Unique.)
+    text: Allies you control with restriction tags have +3 / +3. (Examples of restriction tags on allies include Pet (1), Thrall (1), Totem (1), and Unique.)
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

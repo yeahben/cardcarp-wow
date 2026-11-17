@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Naga
+  - Traitor
+
 trait:
 
 cost: '3'
@@ -17,12 +21,17 @@ health: 2
 
 combat: Melee
 
+limit:
+  - name: Unlimited
+
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required When Coilfang Myrmidon is destroyed, reveal the top card of your deck. If it's named Coilfang Myrmidon, draw it.
+    text: Traitor Hero Required
+  - type: Ability
+    text: When Coilfang Myrmidon is destroyed, reveal the top card of your deck. If it's named Coilfang Myrmidon, draw it.
 
 regulation:
 
 errata: []
-
-temp: Naga Traitor

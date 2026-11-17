@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Worgen
+
 trait:
 
 cost: '6'
@@ -19,12 +22,23 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+limit:
+  - name: Alpha Prime
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When Alpha Prime enters play, put a 2 / 2 Worgen ally token into play for this and each other Night Elf ally you control. This and other Worgen allies you control have Aberration .
+    text: When Alpha Prime enters play, put a 2 {melee} / 2 {health} {alliance} Worgen ally token into play for this and each other Night Elf ally you control.
+  - type: Ability
+    text: This and other Worgen allies you control have Aberration.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Worgen Druid

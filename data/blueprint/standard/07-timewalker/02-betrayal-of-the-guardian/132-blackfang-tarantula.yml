@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Spider
+  - Beast
+
 trait:
 
 cost: '1'
@@ -17,14 +21,18 @@ health: 1
 
 combat: Nature
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Monster Hero Required Elusive Stealth
+    text: Monster Hero Required
+  - type: Ability
+    text: Elusive (This ally can't be attacked.)
+  - type: Ability
+    text: Stealth (This ally can't be protected against.)
 
 regulation:
 
 errata: []
-
-temp: Spider Beast

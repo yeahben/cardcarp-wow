@@ -1,0 +1,31 @@
+name: Dark Lady Sylvanas Windrunner
+
+origin: sylvanas-001
+
+layout: Standard
+
+category:
+  - Hero
+
+trait:
+
+health: 28
+
+faction: Horde
+
+race: Undead
+
+class:
+  - Hunter
+
+rule:
+  - type: Ability
+    position: Front
+    text: '{5} → Flip Sylvanas'
+  - type: Ability
+    position: Reverse
+    text: 'Song of Sylvanas: Sylvanas and allies you control have Assault 1. (They have +1 ATK on your turn.)'
+
+regulation:
+
+errata: []

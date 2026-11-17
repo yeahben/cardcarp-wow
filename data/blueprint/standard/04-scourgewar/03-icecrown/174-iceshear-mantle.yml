@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '2'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Shoulder
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: → Target card has Assault 2 this turn.
+    text: '{activate} → Target {frost} card has Assault 2 this turn. (It has +2 ATK on yout turn.)'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

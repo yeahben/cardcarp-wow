@@ -15,16 +15,23 @@ damage: 2
 
 health: 1
 
-combat: Ranged
+combat: Arcane
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: If you would draw a card, you may skip drawing it instead. When you skip drawing a card this way, Cracklehands deals 2 arcane damage to target ally.
+    text: If you would draw a card, you may skip drawing it instead.
+  - type: Ability
+    text: When you skip drawing a card this way, Cracklehands deals 2 arcane damage to target ally.
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

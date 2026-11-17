@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'On your turn, if a , , , or ally entered play under your control this turn: Pay 3 to complete this quest. Reward : Draw a card.'
+    text: 'On your turn, if a {fire}, {frost}, {melee}, or {nature} ally entered play under your control this turn: Pay {3} to complete this quest.'
+  - type: Ability
+    text: 'Reward: Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -11,12 +11,12 @@ trait:
 
 cost: '1'
 
-instant: 'Ongoing : Destroy Roasted Flesh → Onyxia deals 3 fire damage to target opposing hero or ally.'
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: 'Ongoing: Destroy Roasted Flesh → Onyxia deals 3 fire damage to target opposing hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: ''

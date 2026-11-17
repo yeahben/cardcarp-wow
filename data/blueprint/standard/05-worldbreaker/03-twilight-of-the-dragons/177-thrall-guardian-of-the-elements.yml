@@ -17,12 +17,23 @@ health: 6
 
 combat: Nature
 
+race: Orc
+
+class:
+  - Shaman
+
+limit:
+  - name: Thrall
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: "You pay 8 less to play this ally if you control each of the following: card, card, card, and card. Other abilities, allies and equipment you control can't be destroyed."
+    text: 'You pay {8} less to play this ally if you control each of the following: {fire} card, {frost} card, {melee} card, and {nature} card.'
+  - type: Ability
+    text: Other abilities, allies, and equipment you control can't be destroyed.
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

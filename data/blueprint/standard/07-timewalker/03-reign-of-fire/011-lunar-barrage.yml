@@ -14,12 +14,17 @@ cost: '5'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you play this ability, you may exhaust any number of Ongoing abilities you control. Copy this ability for each ability you exhausted this way. (You may choose new targets for the copies.) Your hero deals 2 arcane damage to target hero or ally.
+    text: When you play this ability, you may exhaust any number of Ongoing abilities you control. Copy this ability for each ability you exhausted this way. (You may choose new targets for the copies.)
+  - type: Ability
+    text: Your hero deals 2 arcane damage to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Balance

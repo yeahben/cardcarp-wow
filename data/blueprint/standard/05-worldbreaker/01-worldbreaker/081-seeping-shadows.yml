@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target hero. Ongoing : At the start of your turn, your hero deals 2 shadow damage to attached hero. Its controller puts a card from the top of his deck into his graveyard for each damage dealt this way.'
+    text: Attach to target hero.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero deals 2 shadow damage to attached hero. Its controller puts a card from the top of his deck into his graveyard for each damage dealt this way.'
 
 regulation:
 
 errata: []
-
-temp: Shadow

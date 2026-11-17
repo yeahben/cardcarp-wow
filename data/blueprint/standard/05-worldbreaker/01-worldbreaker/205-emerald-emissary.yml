@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Green
+  - Dragonkin
+
 trait:
 
 cost: '4'
@@ -17,12 +21,12 @@ health: 4
 
 combat: Nature
 
+instant: false
+
 rule:
   - type: Ability
-    text: You pay 1 less to complete quests for each Druid and Hunter you control.
+    text: You pay {1} less to complete quests for each Druid and Hunter you control.
 
 regulation:
 
 errata: []
-
-temp: Green Dragonkin

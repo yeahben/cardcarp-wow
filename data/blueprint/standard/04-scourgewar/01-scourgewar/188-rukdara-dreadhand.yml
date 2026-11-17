@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Discard a card → This turn, opposing allies have "This ally has -1 ATK for each damage on it."
+    text: '{1}, Discard a card → This turn, opposing allies have "This ally has -1 ATK for each damage on it."'
 
 regulation:
 
 errata: []
-
-temp: Orc Death Knight

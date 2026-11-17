@@ -7,19 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Bow
+
 trait:
 
 cost: '5'
 
+damage: 3
+
+strike: 3
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: You pay 3 less to strike with this weapon while your hero is in combat with an ally with cost 4 or more. When you strike with this weapon, your hero has Long-Range this combat.
+    text: You pay {3} less to strike with this weapon while your hero is in combat with an ally with cost 4 or more.
+  - type: Ability
+    text: When you strike with this weapon, your hero has Long-Range this combat.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Bow

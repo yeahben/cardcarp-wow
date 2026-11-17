@@ -7,28 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+  - Potion
+
 trait:
 
 cost: '3'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'When this item enters play, target ally has -2 this turn. On your turn: Exhaust a Death Knight hero or ally you control and destroy this item → Target ally has -2 this turn.'
+    text: When this item enters play, target ally has -2 {health} this turn.
+  - type: Ability
+    text: 'On your turn: Exhaust a Death Knight hero or ally you control and destroy this item → Target ally has -2 {health} this turn.'
 
 regulation:
 
 errata: []
-
-temp: Item Potion

@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '5'
 
+defense: 4
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Heroes and allies you control have Assault 2 and Conspicuous .
+    text: Heroes and allies you control have Assault 2 and Conspicuous.
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

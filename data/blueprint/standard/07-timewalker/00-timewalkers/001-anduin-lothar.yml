@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 30
+
+faction: Alliance
+
+race: Human
+
+class:
+  - Warrior
+
+rule:
+  - type: Ability
+    position: Front
+    text: Lothar's Battle Cry
+  - type: Ability
+    position: Front
+    text: '{basic} {3}, Flip Lothar → Allies you control have +1 ATK this turn.'
+  - type: Ability
+    position: Reverse
+    text: Lothar's Strength
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {3} → Lothar has +3 ATK this turn.'
 
 regulation:
 

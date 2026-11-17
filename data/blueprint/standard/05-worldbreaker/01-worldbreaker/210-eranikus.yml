@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Green
+  - Dragonkin
+  - Consort
+
 trait:
 
 cost: '5'
@@ -17,6 +22,12 @@ health: 6
 
 combat: Nature
 
+limit:
+  - name: Eranikus
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, reveal the top card of your deck, then place it into your resource row ready as an additional resource.
@@ -24,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Green Dragonkin Consort

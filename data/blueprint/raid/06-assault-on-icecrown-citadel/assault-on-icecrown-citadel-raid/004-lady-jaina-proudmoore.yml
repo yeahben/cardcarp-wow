@@ -13,16 +13,25 @@ health: 35
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Mage
+
 rule:
   - type: Ability
     position: Front
-    text: 'Brilliance Aura : If Jaina would deal damage with an ability, she deals that much +1 instead. On your turn: 8 → Flip Jaina.'
+    text: 'Brilliance Aura: If Jaina would deal damage with an ability, she deals that much +1 instead.'
+  - type: Ability
+    position: Front
+    text: 'On your turn: {8} → Flip Jaina.'
   - type: Ability
     position: Reverse
-    text: 'Teleport : When Jaina flips to this side, you may search your deck for up to two allies and put them into play. Empowered Brilliance Aura : If Jaina would deal damage with an ability, she deals that much +2 instead.'
+    text: 'Teleport: When Jaina flips to this side, you may search your deck for up to two allies and put them into play.'
+  - type: Ability
+    position: Reverse
+    text: 'Empowered Brilliance Aura: If Jaina would deal damage with an ability, she deals that much +2 instead.'
 
 regulation:
 
 errata: []
-
-temp: Human Mage

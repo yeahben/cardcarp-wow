@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '2'
 
+defense: 2
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 1 , , Destroy this armor → Target ally and all other opposing allies with the same name as that ally have - equal to this armor's this turn.
+    text: "{1}, {activate}, Destroy this armor → Target ally and all other opposing allies with the same name as that ally have -{health} equal to this armor's {def} this turn."
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

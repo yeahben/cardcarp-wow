@@ -8,6 +8,7 @@ category:
   - Ally
 
 trait:
+  - 2 XP
 
 damage: 6
 
@@ -15,14 +16,21 @@ health: 6
 
 combat: Fire
 
+race: Goblin
+
+class:
+  - Rogue
+
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: Boss Helix has Elusive , Ferocity , and Untargetable while Lumbering Oaf is in play.
+    text: Boss (The Dungeon hero can't be attacked.)
+  - type: Ability
+    text: Helix has Elusive, Ferocity, and Untargetable while Lumbering Oaf is in play.
 
 regulation:
 
 errata: []
-
-temp: Goblin Rogue

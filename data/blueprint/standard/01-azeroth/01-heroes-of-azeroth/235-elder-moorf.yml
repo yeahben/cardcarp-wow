@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 → Target ally has +2 ATK this turn. Use only once per turn.
+    text: '{1} → Target ally has +2 ATK this turn. Use only once per turn.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

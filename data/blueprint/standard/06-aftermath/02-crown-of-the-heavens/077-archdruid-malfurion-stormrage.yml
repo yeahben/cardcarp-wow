@@ -19,12 +19,23 @@ combat: Nature
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+limit:
+  - name: Malfurion
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of your turn, you may draw a card. You can place an additional resource on each of your turns.
+    text: At the start of your turn, you may draw a card.
+  - type: Ability
+    text: You can place an additional resource on each of your turns.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

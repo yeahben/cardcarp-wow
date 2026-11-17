@@ -7,28 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: 4 , , Destroy this item → Destroy target ally, and its controller puts a 0 / 1 Adorable Rabbit ally token into play. 4 , , Destroy this item → Destroy target ally, and its controller puts a 5 / 5 Savage Rabbit ally token into play.
+    text: '{basic} {4}, {activate}, Destroy this item → Destroy target ally, and its controller puts a 0 {nature} / 1 {health} Adorable Rabbit ally token into play.'
+  - type: Ability
+    text: '{basic} {4}, {activate}, Destroy this item → Destroy target ally, and its controller puts a 5 {nature} / 5 {health} Savage Rabbit ally token into play.'
 
 regulation:
 
 errata: []
-
-temp: Item

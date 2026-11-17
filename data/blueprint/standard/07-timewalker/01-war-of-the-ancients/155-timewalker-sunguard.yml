@@ -19,12 +19,22 @@ combat: Holy
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Paladin
+
+limit:
+  - name: Unlimited
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector This ally has +1 for each other Tauren ally you control.
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
+  - type: Ability
+    text: This ally has +1 {health} for each other Tauren ally you control.
 
 regulation:
 
 errata: []
-
-temp: Tauren Paladin

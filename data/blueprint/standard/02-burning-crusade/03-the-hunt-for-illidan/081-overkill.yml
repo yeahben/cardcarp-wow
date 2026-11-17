@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Finishing Move
+
 trait:
 
 cost: '5'
@@ -14,12 +17,17 @@ cost: '5'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
-    text: As an additional cost to play, remove up to five Finishing Move cards in your graveyard from the game. Each opponent destroys that many of his equipment and discards that many cards, and your hero deals that much melee damage to each opposing hero and ally.
+    text: As an additional cost to play, remove up to five Finishing Move cards in your graveyard from the game.
+  - type: Ability
+    text: Each opponent destroys that many of his equipment and discards that many cards, and your hero deals that much melee damage to each opposing hero and ally.
 
 regulation:
 
 errata: []
-
-temp: Assassination Finishing Move

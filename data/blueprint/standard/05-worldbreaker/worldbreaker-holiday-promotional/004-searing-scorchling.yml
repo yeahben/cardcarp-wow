@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Fire
+  - Elemental
+
 trait:
 
 cost: '3'
@@ -17,12 +21,14 @@ health: 1
 
 combat: Fire
 
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity When this ally is destroyed, it may deal 2 fire damage to target hero.
+    text: Ferocity
+  - type: Ability
+    text: When this ally is destroyed, it may deal 2 fire damage to target hero.
 
 regulation:
 
 errata: []
-
-temp: Fire Elemental

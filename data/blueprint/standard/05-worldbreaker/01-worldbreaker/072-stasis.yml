@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Paladin
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target equipment and exhaust it. Ongoing : Attached equipment can't ready during its controller's ready step."
+    text: Attach to target equipment and exhaust it.
+  - type: Ability
+    text: "Ongoing: Attached equipment can't ready during its controller's ready step."
 
 regulation:
 
 errata: []
-
-temp: Protection

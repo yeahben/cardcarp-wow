@@ -1,0 +1,28 @@
+name: Treant
+
+origin: throne-of-the-tides-token-002
+
+layout: Standard
+
+category:
+  - Token
+
+subtype:
+  - Ally
+  - Treant
+
+trait:
+
+damage: 1
+
+health: 1
+
+combat: Melee
+
+instant: false
+
+rule: []
+
+regulation:
+
+errata: []

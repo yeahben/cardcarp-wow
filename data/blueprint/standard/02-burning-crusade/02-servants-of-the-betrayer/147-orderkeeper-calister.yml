@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Opponents pay 2 more to play equipment.
+    text: Protector
+  - type: Ability
+    text: Opponents pay {2} more to play equipment.
 
 regulation:
 
 errata: []
-
-temp: Human Warrior

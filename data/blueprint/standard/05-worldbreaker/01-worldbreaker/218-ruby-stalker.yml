@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Red
+  - Dragonkin
+
 trait:
 
 cost: '1'
@@ -17,12 +21,12 @@ health: 2
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: Allies you control have Stealth .
+    text: Allies you control have Stealth. (They can't be protected against.)
 
 regulation:
 
 errata: []
-
-temp: Red Dragonkin

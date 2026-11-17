@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '2'
 
+defense: 1
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Waist
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: ', Destroy a Dragonkin you control → Draw two cards.'
+    text: '{activate}, Destroy a Dragonkin you control → Draw two cards.'
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

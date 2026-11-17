@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Warrior
 
-instant: 'Ongoing : You pay 10 less to strike with Melee weapons while your hero is defending.'
+talent:
+  - Arms
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: You pay {10} less to strike with Melee weapons while your hero is defending.'
 
 regulation:
 
 errata: []
-
-temp: Arms

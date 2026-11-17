@@ -19,12 +19,19 @@ combat: Arcane
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Time is Money → The next time target hero or ally you control would deal arcane damage this turn, it deals that much +2 instead.
+    text: Time is Money
+  - type: Ability
+    text: '{activate} → The next time target hero or ally you control would deal arcane damage this turn, it deals that much +2 instead.'
 
 regulation:
 
 errata: []
-
-temp: Goblin Mage

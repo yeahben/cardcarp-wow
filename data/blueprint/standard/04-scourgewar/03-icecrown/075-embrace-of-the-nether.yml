@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Warlock
 
+talent:
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
-    text: As an additional cost to play, choose "ability," "ally," or "equipment" and discard a card of that kind. Remove target card from the game if it shares that kind.
+    text: As an additional cost to play, choose "ability," "ally," or "equipment" and discard a card of that kind.
+  - type: Ability
+    text: Remove target card from the game if it shares that kind.
 
 regulation:
 
 errata: []
-
-temp: Destruction

@@ -14,12 +14,19 @@ cost: '5'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally you control. Ongoing : Prevent all damage that would be dealt to attached ally. Death Rattle : Prevent all damage that would be dealt to target ally you control this turn.'
+    text: Attach to target ally you control.
+  - type: Ability
+    text: 'Ongoing: Prevent all damage that would be dealt to attached ally.'
+  - type: Ability
+    text: 'Death Rattle (When this ability enters your graveyard from anywhere): Prevent all damage that would be dealt to target ally you control this turn.'
 
 regulation:
 
 errata: []
-
-temp: Discipline

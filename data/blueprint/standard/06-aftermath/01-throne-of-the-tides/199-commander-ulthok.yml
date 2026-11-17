@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Faceless One
+
 trait:
 
 cost: '5'
@@ -17,14 +20,23 @@ health: 4
 
 combat: Shadow
 
+class:
+  - Warlock
+
+limit:
+  - name: Ulthok
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Monster Hero Required When Ulthok enters play, name an ability, ally, or equipment. Then, search target opponent's deck, graveyard, and hand for all cards with that name and remove them from the game.
+    text: Monster Hero Required
+  - type: Ability
+    text: When Ulthok enters play, name an ability, ally, or equipment. Then, search target opponent's deck, graveyard, and hand for all cards with that name and remove them from the game.
 
 regulation:
 
 errata: []
-
-temp: Faceless One Warlock

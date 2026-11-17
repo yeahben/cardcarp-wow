@@ -7,22 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Axe
+
 trait:
 
 cost: '2'
 
+damage: 3
+
+strike: 2
+
+combat: Melee
+
 class:
-  - Paladin
-  - Warrior
   - Hunter
+  - Paladin
   - Shaman
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Combat damage that your hero would deal with this weapon is unpreventable.
+    text: Combat damage dealt by your hero with Annihilator can't be prevented.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Axe

@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: Exhaust target hero or ally. Draw a card.
+    text: Exhaust target hero or ally.
+  - type: Ability
+    text: Draw a card.
 
 regulation:
 
 errata: []
-
-temp: Arms

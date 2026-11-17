@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Paladin
 
-instant: Exhaust target hero. Its controller can't play cards this turn.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Exhaust target hero. Its controller can't play cards this turn.
 
 regulation:
 
 errata: []
-
-temp: Protection

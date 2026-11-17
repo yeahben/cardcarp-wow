@@ -7,13 +7,25 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '4'
 
+defense: 0
+
 class:
   - Priest
   - Warlock
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -22,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Armor Cloth

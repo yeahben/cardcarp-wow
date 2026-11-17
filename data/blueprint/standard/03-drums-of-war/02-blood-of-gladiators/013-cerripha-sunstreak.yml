@@ -13,13 +13,23 @@ health: 25
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Mage
+
+talent:
+  - Fire
+
+profession:
+  - Alchemy
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Cerripha → Cerripha deals 3 fire damage to target hero.
+    text: '{1}, Flip Cerripha → Cerripha deals 3 fire damage to target hero.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

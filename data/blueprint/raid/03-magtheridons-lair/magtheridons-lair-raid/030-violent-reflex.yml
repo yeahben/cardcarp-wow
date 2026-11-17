@@ -11,12 +11,12 @@ trait:
 
 cost: '1'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When Magtheridon is dealt damage, he deals 1 melee damage to the source of that damage.'
+    text: 'Ongoing: When Magtheridon is dealt damage, he deals 1 melee damage to the source of that damage.'
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -7,21 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Sword
+
 trait:
 
 cost: '4'
 
+damage: 1
+
+strike: 3
+
+combat: Fire
+
 class:
+  - Mage
   - Paladin
   - Warlock
-  - Mage
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: ", Exhaust your hero → Reveal the top card of your deck. If it's a ally or equipment, your allies have Assault X this turn, where X is the cost of the revealed card."
+    text: "{activate}, Exhaust your hero → Reveal the top card of your deck. If it's a {fire} ally or equipment, your allies have Assault X this turn, where X is the cost of the revealed card."
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

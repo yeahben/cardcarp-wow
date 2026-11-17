@@ -19,12 +19,19 @@ combat: Holy
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Put 2 damage on your hero → Prevent all combat damage that would be dealt to Antikron this combat. Use only if he's defending.
+    text: Protector
+  - type: Ability
+    text: Put 2 damage on your hero → Prevent all combat damage that would be dealt to Antikron this combat. Use only if he's defending.
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

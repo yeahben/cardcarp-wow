@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When your hero deals combat damage with a weapon while attacking, it heals 3 damage from itself.'
+    text: 'Ongoing: When your hero deals combat damage with a weapon while attacking, it heals 3 damage from itself.'
 
 regulation:
 
 errata: []
-
-temp: Fury

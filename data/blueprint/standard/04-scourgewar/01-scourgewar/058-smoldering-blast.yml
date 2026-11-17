@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Mage
 
+talent:
+  - Fire
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Destroy this ability → Your hero deals 3 fire damage to target ally.'
+    text: 'Ongoing: Destroy this ability → Your hero deals 3 fire damage to target ally.'
 
 regulation:
 
 errata: []
-
-temp: Fire

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ravager
+
 trait:
 
 cost: '3'
@@ -20,14 +23,18 @@ combat: Melee
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 type: Arena
 
 rule:
   - type: Ability
-    text: Preparation
+    text: Preparation (On your first turn, you may play this card without paying its cost.)
 
 regulation:
 
 errata: []
-
-temp: Ravager

@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warrior
 
-instant: Your hero deals 2 melee damage to target ally for each equipment you control.
+talent:
+  - Arms
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 2 melee damage to target ally for each equipment you control.
 
 regulation:
 
 errata: []
-
-temp: Arms

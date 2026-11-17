@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Attachment
+
 trait:
 
 cost: '4'
@@ -14,12 +17,17 @@ cost: '4'
 class:
   - Priest
 
+talent:
+  - Shadow
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target hero, and put three coercion counters on this ability. Ongoing : At the start of your turn, attached hero's controller may discard a card. If he does, remove a coercion counter from this ability. Otherwise, your hero deals 1 shadow damage to attached hero for each coercion counter on this ability."
+    text: Attach to target hero, and put three coercion counters on this ability.
+  - type: Ability
+    text: "Ongoing: At the start of your turn, attached hero's controller may discard a card. If he does, remove a coercion counter from this ability. Otherwise, your hero deals 1 shadow damage to attached hero for each coercion counter on this ability."
 
 regulation:
 
 errata: []
-
-temp: Shadow Attachment

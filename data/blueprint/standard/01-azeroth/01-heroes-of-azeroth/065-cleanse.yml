@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Paladin
 
-instant: Destroy any number of abilities attached to target friendly hero or ally.
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Destroy any number of abilities attached to target friendly hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Holy

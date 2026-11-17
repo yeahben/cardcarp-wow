@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity Gora has -2 ATK during each opponent's turn.
+    text: Ferocity
+  - type: Ability
+    text: Gora has -2 ATK during each opponent's turn.
 
 regulation:
 
 errata: []
-
-temp: Orc Shaman

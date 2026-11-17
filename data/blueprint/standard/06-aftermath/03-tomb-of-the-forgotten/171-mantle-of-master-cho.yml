@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '3'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Shoulder
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: ', Name a standard class → Target ally you control has that class and loses all other classes this turn.'
+    text: '{activate}, Name a standard class → Target ally you control has that class and loses all other classes this turn.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

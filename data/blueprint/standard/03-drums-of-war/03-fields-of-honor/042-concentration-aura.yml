@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Paladin
 
-instant: "Ongoing : Your ability cards are instant and can't be interrupted."
+talent:
+  - Holy
 
-rule: []
+limit:
+  - name: Aura
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: "Ongoing: Your ability cards are instant and can't be interrupted."
 
 regulation:
 
 errata: []
-
-temp: Holy

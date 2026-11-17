@@ -7,19 +7,30 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Traitor
+
 trait:
+  - Crimson Hand
 
 health: 29
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+profession:
+  - Mining
+  - Blacksmithing
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Lelora → If combat damage would be dealt to or dealt by target opposing ally this turn, double it instead. Crimson Hand
+    text: '{1}, Flip Lelora → If combat damage would be dealt to or dealt by target opposing ally this turn, double it instead.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

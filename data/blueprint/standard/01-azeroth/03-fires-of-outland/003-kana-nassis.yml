@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Hunter
+
+talent:
+  - Survival
+
+profession:
+  - Skinning
+  - Leatherworking
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Kana Nassis → If Kana is defending, remove her from combat.
+    text: '{2}, Flip Kana Nassis → If Kana is defending, remove her from combat.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Hunter

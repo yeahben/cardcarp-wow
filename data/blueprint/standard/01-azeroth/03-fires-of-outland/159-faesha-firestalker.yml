@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Destroy one of your resources → Faesha Firestalker has Long-Range this turn.
+    text: Destroy one of your resources → Faesha Firestalker has long-range this turn. (Defenders deal no combat damage to her.)
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Hunter

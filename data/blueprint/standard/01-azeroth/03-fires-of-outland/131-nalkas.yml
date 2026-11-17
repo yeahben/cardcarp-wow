@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Nalkas heals 2 damage from each hero and ally in target player's party.
+    text: "{activate} → Nalkas heals 2 damage from each hero and ally in target player's party."
 
 regulation:
 
 errata: []
-
-temp: Night Elf Priest

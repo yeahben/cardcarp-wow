@@ -14,12 +14,17 @@ cost: '1'
 class:
   - Priest
 
-instant: 'Attach to target hero or ally. Ongoing : Prevent all damage that would be dealt to attached character. When damage is prevented this way, destroy Power Word: Shield.'
+talent:
+  - Discipline
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target hero or ally.
+  - type: Ability
+    text: 'Ongoing: Prevent all damage that would be dealt to attached character. When damage is prevented this way, destroy Power Word: Shield.'
 
 regulation:
 
 errata: []
-
-temp: Discipline

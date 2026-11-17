@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Mage
 
+talent:
+  - Frost
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : Each opponent can't draw cards unless he pays 1 for each card."
+    text: "Ongoing: Each opponent can't draw cards unless he pays {1} for each card."
 
 regulation:
 
 errata: []
-
-temp: Frost

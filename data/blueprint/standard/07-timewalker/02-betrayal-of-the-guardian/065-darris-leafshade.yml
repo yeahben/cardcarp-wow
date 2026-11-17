@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Haste 2 Once per turn: 2 → Allies you control have +2 ATK this turn.'
+    text: Haste 2 (You pay {2} less to play this ally if an ally you control dealt damage to an opposing hero this turn.)
+  - type: Ability
+    text: 'Once per turn: {basic} {2} → Allies you control have +2 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Death Knight

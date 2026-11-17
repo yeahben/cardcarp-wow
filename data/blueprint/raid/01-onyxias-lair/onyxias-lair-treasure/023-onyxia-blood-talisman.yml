@@ -7,14 +7,23 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '6'
 
 class:
   - Paladin
-  - Warrior
   - Shaman
+  - Warrior
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
@@ -23,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Item Trinket

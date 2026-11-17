@@ -15,12 +15,16 @@ class:
   - Druid
   - Hunter
 
+talent:
+  - Feral
+  - Beast Mastery
+
+instant: false
+
 rule:
   - type: Ability
-    text: Put five Bear ally tokens into play with 1 ATK / 1 health and Protector .
+    text: Put five Bear ally tokens into play with 1 {melee} ATK / 1 health and protector.
 
 regulation:
 
 errata: []
-
-temp: Feral Beast Mastery

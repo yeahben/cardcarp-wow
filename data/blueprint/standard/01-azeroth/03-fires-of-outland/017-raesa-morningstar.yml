@@ -13,13 +13,23 @@ health: 26
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Priest
+
+talent:
+  - Discipline
+
+profession:
+  - Enchanting
+  - Alchemy
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Raesa Morningstar → Put target ability into its owner's hand. Use only on your turn.
+    text: "{2}, Flip Raesa Morningstar → Put target ability into its owner's hand. Use only on your turn."
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Priest

@@ -1,0 +1,22 @@
+name: You Are Not Prepared!
+
+origin: black-temple-raid-060
+
+layout: Standard
+
+category:
+  - Event
+
+trait:
+
+instant: false
+
+sequence: 16
+
+rule:
+  - type: Ability
+    text: Roll two dice. If you roll 6 or less, your hero deals that much melee damage to an opposing hero. If you roll 8 or more, your hero deals that much melee damage to an opposing ally.
+
+regulation:
+
+errata: []

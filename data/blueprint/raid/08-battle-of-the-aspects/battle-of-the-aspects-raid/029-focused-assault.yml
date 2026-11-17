@@ -9,14 +9,16 @@ category:
 
 trait:
 
-type: Boss
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
-    text: Deathwing and allies he controls attack the Raiding ally with the lowest remaining health if able this turn. Flip an additional Deathwing card.
+    text: Deathwing and allies he controls attack the Raiding ally with the lowest remaining health if able this turn.
+  - type: Ability
+    text: Flip an additional Deathwing card.
 
 regulation:
 
 errata: []
-
-temp: ''

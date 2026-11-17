@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally attacks, he deals 2 fire damage to target opposing hero.
+    text: When Garell Strout attacks, he deals 2 fire damage to target opposing hero.
 
 regulation:
 
 errata: []
-
-temp: Undead Warlock

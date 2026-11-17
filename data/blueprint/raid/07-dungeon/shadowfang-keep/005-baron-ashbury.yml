@@ -1,0 +1,36 @@
+name: Baron Ashbury
+
+origin: shadowfang-keep-005
+
+layout: Standard
+
+category:
+  - Ally
+
+trait:
+  - 2 XP
+
+damage: 2
+
+health: 15
+
+combat: Melee
+
+race: Undead
+
+class:
+  - Priest
+
+instant: false
+
+type: Dungeon
+
+rule:
+  - type: Ability
+    text: Boss (The Dungeon hero can't be attacked.)
+  - type: Ability
+    text: 'Mend Rotten Flesh: When Ashbury attacks, he heals 5 damage from Godfrey.'
+
+regulation:
+
+errata: []

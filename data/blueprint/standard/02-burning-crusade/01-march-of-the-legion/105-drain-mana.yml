@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : At the start of your turn, destroy Drain Mana unless you pay 4 . At the end of your turn, target opponent discards a card and you draw a card.'
+    text: 'Ongoing: At the start of your turn, destroy Drain Mana unless you pay {4}.'
+  - type: Ability
+    text: At the end of your turn, target opponent discards a card and you draw a card.
 
 regulation:
 
 errata: []
-
-temp: Affliction

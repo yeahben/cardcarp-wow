@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Warlock
+
+talent:
+  - Destruction
+
+profession:
+  - Herbalism
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Kileana → Kileana deals 2 fire damage to each ally in your party and 1 fire damage to each other ally.
+    text: '{2}, Flip Kileana → Kileana deals 2 fire damage to each ally in your party and 1 fire damage to each other ally.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Warlock

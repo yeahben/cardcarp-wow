@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Rogue
 
+talent:
+  - Assassination
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Choose one: Target player discards a card for each Poison attached to his hero; or search your deck for a poison, reveal it, and put it into your hand.'
+    text: 'Choose one: Target player discards a card for each Poison attached to his hero; or search your deck for a Poison, reveal it, and put it into your hand.'
 
 regulation:
 
 errata: []
-
-temp: Assassination

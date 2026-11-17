@@ -19,10 +19,15 @@ combat: Nature
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

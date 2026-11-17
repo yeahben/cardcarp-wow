@@ -19,12 +19,19 @@ combat: Arcane
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive allies in your party have " → Draw a card."
+    text: Elusive
+  - type: Ability
+    text: '{arcane} allies in your party have "{activate} → Draw a card."'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

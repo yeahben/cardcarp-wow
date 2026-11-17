@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Death Knight
 
-instant: Interrupt target ally with cost X played by an opponent. If you do, your hero deals X shadow damage to his hero.
+talent:
+  - Unholy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Interrupt target ally with cost X played by an opponent. If you do, your hero deals X shadow damage to his hero.
 
 regulation:
 
 errata: []
-
-temp: Unholy

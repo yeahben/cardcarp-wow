@@ -1,4 +1,4 @@
-name: Veterans Tactics
+name: Veteran's Tactics
 
 origin: caverns-of-time-treasure-038
 
@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Attachment
+
 trait:
 
 cost: '2'
@@ -14,12 +17,21 @@ cost: '2'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target armor or weapon. Ongoing : Attached card has +3 ATK if it's a weapon. Attached card has +3 DEF if it's an armor. 2 → Reattach this ability to another target armor or weapon."
+    text: Attach to target armor or weapon.
+  - type: Ability
+    text: "Ongoing: Attached card has +3 ATK if it's a weapon."
+  - type: Ability
+    text: Attached card has +3 DEF if it's an armor.
+  - type: Ability
+    text: '{basic} {2} → Reattach this ability to another target armor or weapon.'
 
 regulation:
 
 errata: []
-
-temp: Arms Attachment

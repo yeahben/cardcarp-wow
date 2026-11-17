@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, he deals 8 damage from each hero.
+    text: When this ally enters play, he heals 8 damage from each hero.
 
 regulation:
 
 errata: []
-
-temp: Gnome Priest

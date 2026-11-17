@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Cupid
+
 trait:
 
 cost: '4'
@@ -17,12 +20,16 @@ health: 4
 
 combat: Ranged
 
+race: Goblin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Long-Range When this ally deals combat damage to an ally while attacking, gain control of that ally while this ally remains under your control.
+    text: Long-Range
+  - type: Ability
+    text: When this ally deals combat damage to an ally while attacking, gain control of that ally while this ally remains under your control.
 
 regulation:
 
 errata: []
-
-temp: Goblin Cupid

@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Naxxramas
+
 trait:
 
 cost: '2'
 
-instant: Interrupt target card. If you do, remove it from the game.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Interrupt target card. If you do, remove it from the game.
 
 regulation:
 
 errata: []
-
-temp: Naxxramas

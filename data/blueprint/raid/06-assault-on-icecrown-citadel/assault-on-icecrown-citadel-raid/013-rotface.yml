@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Mutated
+  - Abomination
+
 trait:
 
 cost: '4'
@@ -17,14 +21,16 @@ health: 10
 
 combat: Melee
 
-type: Raid
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: "Protector Slime Spray : At the start of each opponent's turn, Rotface deals 1 nature damage to each hero and ally that player controls."
+    text: Protector
+  - type: Ability
+    text: "Slime Spray: At the start of each opponent's turn, Rotface deals 1 nature damage to each hero and ally that player controls."
 
 regulation:
 
 errata: []
-
-temp: Mutated Abomination

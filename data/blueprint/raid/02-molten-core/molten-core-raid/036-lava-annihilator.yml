@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Elemental
+  - Minion
+
 trait:
 
 damage: 1
@@ -15,6 +19,8 @@ health: 3
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
     text: When Lava Annihilator enters play, you may destroy target ally.
@@ -22,5 +28,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Elemental Minion

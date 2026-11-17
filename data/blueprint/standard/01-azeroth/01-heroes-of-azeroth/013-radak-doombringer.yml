@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warlock
+
+talent:
+  - Demonology
+
+profession:
+  - Engineering
+  - Mining
+
 rule:
   - type: Ability
     position: Front
-    text: x , Flip Radak Doombringer, destroy one of your Pets with cost X → Radak deals X shadow damage to target hero or ally. Use only on your turn.
+    text: '{x}, Flip Radak Doombringer, destroy one of your Pets with cost X → Radak deals X shadow damage to target hero or ally. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Orc Warlock

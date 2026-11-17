@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Paladin
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ability or weapon. Ongoing : Prevent all damage that would be dealt with attached card.'
+    text: Attach to target ability or weapon.
+  - type: Ability
+    text: 'Ongoing: Prevent all damage that would be dealt with attached card.'
 
 regulation:
 
 errata: []
-
-temp: Protection

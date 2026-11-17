@@ -19,14 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Warrior
+
+instant: false
+
 type: Arena
 
 rule:
   - type: Ability
-    text: Arena allies in your party are Protector s.
+    text: Arena allies in your party are protectors.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Warrior

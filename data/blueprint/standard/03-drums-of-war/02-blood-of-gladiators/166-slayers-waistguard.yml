@@ -1,4 +1,4 @@
-name: Slayers Waistguard
+name: Slayer's Waistguard
 
 origin: blood-of-gladiators-166
 
@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '3'
+
+defense: 3
 
 class:
   - Paladin
   - Warrior
 
+limit:
+  - name: Waist
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: You pay 3 less to strike with weapons while your hero is defending.
+    text: You pay {3} less to strike with weapons while your hero is defending.
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

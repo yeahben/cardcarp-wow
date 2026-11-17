@@ -11,6 +11,8 @@ trait:
 
 cost: '1'
 
+instant: false
+
 rule:
   - type: Ability
     text: Put Paper Airplane on top of target player's deck. (He owns it for the rest of the game.)
@@ -18,5 +20,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

@@ -11,6 +11,8 @@ trait:
 
 cost: '1'
 
+instant: false
+
 rule:
   - type: Ability
     text: Your hero deals 1 melee damage to target hero or ally.
@@ -18,5 +20,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Tol'vir
+
 trait:
 
 cost: '3'
@@ -17,6 +20,12 @@ health: 4
 
 combat: Melee
 
+class:
+  - Rogue
+  - Warrior
+
+instant: false
+
 type: Monster
 
 rule:
@@ -26,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tol'vir Rogue Warrior

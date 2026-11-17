@@ -11,12 +11,14 @@ trait:
 
 cost: '2'
 
+instant: false
+
 rule:
   - type: Ability
-    text: As an additional cost to play Head Slam, put up to 5 damage on Onyxia. Onyxia deals that amount of melee damage to each opposing ally.
+    text: As an additional cost to play Head Slam, put up to 5 damage on Onyxia.
+  - type: Ability
+    text: Onyxia deals that amount of melee damage to each opposing ally.
 
 regulation:
 
 errata: []
-
-temp: ''

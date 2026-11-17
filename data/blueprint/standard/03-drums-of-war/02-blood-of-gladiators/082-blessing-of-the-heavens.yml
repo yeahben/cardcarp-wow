@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Blessing
+
 trait:
 
 cost: '3'
@@ -15,12 +18,20 @@ class:
   - Druid
   - Paladin
 
-instant: "Attach to target ally. Ongoing : Attached ally has +2 ATK / +2 health. When attached ally is destroyed, you may put Blessing of the Heavens from its owner's graveyard into his hand."
+talent:
+  - Restoration
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +2 ATK / +2 health.'
+  - type: Ability
+    text: When attached ally is destroyed, you may put Blessing of the Heavens from its owner's graveyard into his hand.
 
 regulation:
 
 errata: []
-
-temp: Restoration Protection Blessing

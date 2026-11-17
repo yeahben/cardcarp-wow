@@ -19,12 +19,17 @@ combat: Frost
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , → Dudefella deals 1 frost damage to target hero or ally. A character dealt damage this way can't attack this turn.
+    text: "{1}, {activate} → Dudefella deals 1 frost damage to target hero or ally. A character dealt damage this way can't attack this turn."
 
 regulation:
 
 errata: []
-
-temp: Human Mage

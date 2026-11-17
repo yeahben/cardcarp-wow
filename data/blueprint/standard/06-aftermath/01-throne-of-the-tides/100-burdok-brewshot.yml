@@ -19,10 +19,15 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

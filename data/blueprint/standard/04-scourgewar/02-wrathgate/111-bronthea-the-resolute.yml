@@ -19,15 +19,19 @@ combat: Holy
 
 faction: Alliance
 
+race: Dwarf
+
 class:
   - Paladin
 
+instant: false
+
 rule:
   - type: Ability
-    text: You can strike with weapons while this ally is in combat. armor can prevent damage that would be dealt to this ally.
+    text: You can strike with {paladin} weapons you control while this ally is in combat.
+  - type: Ability
+    text: '{paladin} armor you control can prevent damage that would be dealt to this ally.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Paladin

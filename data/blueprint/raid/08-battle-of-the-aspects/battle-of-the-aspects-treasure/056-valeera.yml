@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Green
+  - Dragonkin
+
 trait:
 
 cost: '4'
@@ -17,6 +21,12 @@ health: 4
 
 combat: Nature
 
+limit:
+  - name: Valeera
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: When Valeera enters play, reveal the top three cards of your deck. Place all revealed quests and locations into your resource row exhausted as additional resources, and put the rest on the bottom of your deck.
@@ -24,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Green Dragonkin

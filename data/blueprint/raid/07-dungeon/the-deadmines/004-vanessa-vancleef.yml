@@ -5,24 +5,30 @@ origin: the-deadmines-004
 layout: Standard
 
 category:
-  - Ally
+  - Hero
 
 trait:
+  - 5 XP
 
-cost: '5'
+damage: 10
 
-damage: 4
+health: 50
 
-health: 5
+combat: Melee
 
-combat: Nature
+race: Human
+
+class:
+  - Rogue
+
+type: Dungeon
 
 rule:
   - type: Ability
-    text: Stealth , Untargetable When Vanessa enters play, she may deal 4 nature damage to target exhausted hero or ally.
+    text: Flip 4 (At the start of the Dungeon turn, flip four Dungeon cards.)
+  - type: Ability
+    text: Long-Range, Stealth
 
 regulation:
 
 errata: []
-
-temp: Human Rogue

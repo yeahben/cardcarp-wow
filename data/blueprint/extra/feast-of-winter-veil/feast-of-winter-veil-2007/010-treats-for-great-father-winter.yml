@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'Pay 3 to complete this quest. Reward : Draw a card. Then, you may discard a Gingerbread Cookie card. If you do, search your hand for a card, reveal it, and put it into your hand.'
+    text: Pay {3} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card. Then, you may discard a Gingerbread Cookie card. If you do, search your deck for a {winter veil} card, reveal it, and put it into your hand.'
 
 regulation:
 
 errata: []
-
-temp: ''

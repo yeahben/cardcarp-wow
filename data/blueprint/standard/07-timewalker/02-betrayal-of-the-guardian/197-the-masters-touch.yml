@@ -1,4 +1,4 @@
-name: The Masters Touch
+name: The Master's Touch
 
 origin: betrayal-of-the-guardian-197
 
@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'Pay 4 to complete this quest. Reward : Reveal the top two cards of your deck. Put one into your hand and the other into your graveyard.'
+    text: '{basic} Pay {4} to complete this quest.'
+  - type: Ability
+    text: 'Reward: Reveal the top two cards of your deck. Put one into your hand and the other into your graveyard.'
 
 regulation:
 
 errata: []
-
-temp: ''

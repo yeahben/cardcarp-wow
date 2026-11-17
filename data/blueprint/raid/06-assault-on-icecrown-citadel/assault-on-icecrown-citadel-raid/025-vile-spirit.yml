@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Spirit
+
 trait:
 
 cost: '2'
@@ -17,14 +20,14 @@ health: 1
 
 combat: Shadow
 
-type: Raid
+instant: false
+
+type: Scourge
 
 rule:
   - type: Ability
-    text: Spirit Burst :When this ally is destroyed, it deals 5 shadow damage to target hero or ally.
+    text: 'Spirit Burst: When this ally is destroyed, it deals 5 shadow damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Spirit

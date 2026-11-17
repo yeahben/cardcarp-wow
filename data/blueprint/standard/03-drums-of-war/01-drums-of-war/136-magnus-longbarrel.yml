@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Destroy Marcus → Turn target resource face down.
+    text: '{1}, Destroy Magnus → Turn target resource face down.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

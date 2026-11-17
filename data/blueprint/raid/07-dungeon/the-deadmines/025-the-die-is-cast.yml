@@ -9,14 +9,16 @@ category:
 
 trait:
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: "Ongoing : As this ability enters play, the MARKED hero's controller gains control of it. 1 , Destroy this ability → Interrupt target Dungeon ability."
+    text: "Ongoing: As this ability enters play, the MARKED hero's controller gains control of it."
+  - type: Ability
+    text: '{1}, Destroy this ability → Interrupt target Dungeon ability.'
 
 regulation:
 
 errata: []
-
-temp: ''

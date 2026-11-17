@@ -11,12 +11,12 @@ trait:
 
 cost: '4'
 
-instant: Target player destroys one of his equipment.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Target player destroys one of his equipment.
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -7,28 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Neck
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: → Your hero deals 1 fire damage to target hero for each ally you control. → Your hero heals 1 damage from itself for each ally you control.
+    text: '{activate} → Your hero deals 1 fire damage to target hero for each {fire} ally you control.'
+  - type: Ability
+    text: '{activate} → Your hero heals 1 damage from itself for each {shadow} ally you control.'
 
 regulation:
 
 errata: []
-
-temp: Item Neck

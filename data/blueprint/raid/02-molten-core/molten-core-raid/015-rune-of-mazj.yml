@@ -7,9 +7,15 @@ layout: Standard
 category:
   - Misc
 
+subtype:
+  - Rune
+  - Shazzrah
+
 trait:
 
-type: Raid
+instant: false
+
+stage: 6
 
 rule:
   - type: Ability
@@ -18,5 +24,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Shazzrah Boss 6

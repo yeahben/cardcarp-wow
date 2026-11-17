@@ -19,6 +19,13 @@ combat: Nature
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
     text: When an opposing ability, ally, equipment, or resource is destroyed, remove it from the game.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Rogue

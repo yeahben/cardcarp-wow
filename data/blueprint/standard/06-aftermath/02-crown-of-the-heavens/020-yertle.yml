@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Turtle
+
 trait:
 
 cost: '4'
@@ -20,14 +23,22 @@ combat: Melee
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Protector , Eternal This ally has +1 for each resource you control. When this ally is destroyed, put a Shell armor token into play with equal to the number of resources you controlled as this ally way destroyed.
+    text: Protector, Eternal (When this enters your graveyard from anywhere, you may shuffle it into your deck.)
+  - type: Ability
+    text: This ally has +1 {health} for each resource you control.
+  - type: Ability
+    text: When this ally is destroyed, put a Shell armor token into play with {def} equal to the number of resources you controlled as this ally was destroyed.
 
 regulation:
 
 errata: []
-
-temp: Turtle

@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Mage
 
-instant: Interrupt target ability card with cost 3 or less.
+talent:
+  - Arcane
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Interrupt target ability card with cost 3 or less.
 
 regulation:
 
 errata: []
-
-temp: Arcane

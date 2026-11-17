@@ -14,12 +14,17 @@ cost: '7'
 class:
   - Priest
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: Rift Put target ally from your graveyard into play.
+    text: Rift (Choose a {horde} or {alliance} race. You pay {1} less to play this ability for each ally you control of the chosen race.)
+  - type: Ability
+    text: Put target ally from your graveyard into play.
 
 regulation:
 
 errata: []
-
-temp: Holy

@@ -19,12 +19,23 @@ combat: Melee
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Warrior
+
+limit:
+  - name: Molotov
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Time is Money , Destroy another ally you control → This ally deals fire damage to target hero or ally equal to that destroyed ally's cost.
+    text: Time is Money
+  - type: Ability
+    text: "{activate}, Destroy another ally you control → This ally deals fire damage to target hero or ally equal to that destroyed ally's cost."
 
 regulation:
 
 errata: []
-
-temp: Goblin Warrior

@@ -7,15 +7,27 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '5'
 
+defense: 1
+
 class:
   - Druid
-  - Shaman
   - Hunter
   - Rogue
+  - Shaman
+
+limit:
+  - name: Back
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -24,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Armor Cloth

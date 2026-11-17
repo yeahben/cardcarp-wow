@@ -5,10 +5,41 @@ origin: black-temple-raid-007
 layout: Standard
 
 category:
+  - Hero
+
+subtype:
+  - Essence
+  - Traitor
 
 trait:
 
-rule: []
+cost: '9'
+
+health: 10
+
+type: Boss
+
+stage: 6
+
+rule:
+  - type: Ability
+    position: Front
+    text: Essence of Desire has +5 ATK while attacking.
+  - type: Ability
+    position: Front
+    text: When Essence of Desire is dealt damage, it deals that much melee damage to its source.
+  - type: Ability
+    position: Front
+    text: If Essence of Desire would be destroyed, remove all damage from it and flip it instead.
+  - type: Ability
+    position: Reverse
+    text: At the start of your turn, put five anger counters on Essence of Anger.
+  - type: Ability
+    position: Reverse
+    text: Essence of Anger has +X ATK while attacking, where X is 5 plus the number of anger counters.
+  - type: Ability
+    position: Reverse
+    text: Remove an anger counter → Essence of Anger deals 1 melee damage to target ally.
 
 regulation:
 

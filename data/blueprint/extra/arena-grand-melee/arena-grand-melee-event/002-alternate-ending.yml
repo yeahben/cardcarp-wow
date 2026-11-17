@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : If a player would draw a card from completing a quest, he may put a card from his graveyard into his hand instead.'
+    text: 'Ongoing: If a player would draw a card from completing a quest, he may put a card from his graveyard into hand instead.'
 
 regulation:
 
 errata: []
-
-temp: ''

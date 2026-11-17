@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '4'
+
+defense: 2
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 2 , Destroy Emerald-Scale Greaves → Ready target friendly ally.
+    text: '{2}, Destroy Emerald-Scale Greaves → Ready target friendly ally.'
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

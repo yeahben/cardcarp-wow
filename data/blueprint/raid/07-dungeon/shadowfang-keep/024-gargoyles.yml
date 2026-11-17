@@ -9,14 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: For each Raider who controls no ready resources, put a 5 / 5 Gargoyle ally token into play with Ferocity .
+    text: For each Raider who controls no ready resources, put a 5 {melee} / 5 {health} Garygoyle ally token into play with Ferocity.
 
 regulation:
 
 errata: []
-
-temp: ''

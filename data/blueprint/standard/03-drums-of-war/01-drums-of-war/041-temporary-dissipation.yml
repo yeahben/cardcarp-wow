@@ -14,6 +14,11 @@ cost: '2'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
     text: Remove all allies in your party from the game. At the end of the next turn, put all cards removed this way into your party.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Arcane

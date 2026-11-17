@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Skeleton
+
 trait:
 
 damage: 1
@@ -15,7 +19,7 @@ health: 1
 
 combat: Shadow
 
-type: Ally
+instant: false
 
 rule:
   - type: Ability
@@ -24,5 +28,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Skeleton

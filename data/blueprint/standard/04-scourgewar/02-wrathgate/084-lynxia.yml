@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Succubus
+  - Demon
+
 trait:
 
 cost: '2'
@@ -20,6 +24,12 @@ combat: Shadow
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of each turn, you may exhaust target ally.
@@ -27,5 +37,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Succubus Demon

@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Put 1 damage on Wormwood → Put target ally into its owner's hand.
+    text: "{1}, Put 1 damage on Wormwood → Put target ally into its owner's hand."
 
 regulation:
 
 errata: []
-
-temp: Undead Warlock

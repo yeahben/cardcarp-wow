@@ -14,12 +14,21 @@ cost: '4'
 class:
   - Shaman
 
+talent:
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : While you control an Air Totem, your hero has Spellshield . While you control an Earth Totem, your hero has Mend 4 . While you control a Fire Totem, your hero has Assault 4 . While you control a Water Totem, your hero has Elusive .'
+    text: 'Ongoing: While you control an Air Totem, your hero has Spellshield.'
+  - type: Ability
+    text: While you control an Earth Totem, your hero has Mend 4.
+  - type: Ability
+    text: While you control a Fire Totem, your hero has Assault 4.
+  - type: Ability
+    text: While you control a Water Totem, your hero has Elusive.
 
 regulation:
 
 errata: []
-
-temp: Restoration

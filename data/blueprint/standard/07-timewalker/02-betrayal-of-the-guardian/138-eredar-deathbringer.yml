@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Eredar
+  - Demon
+
 trait:
 
 cost: '6'
@@ -17,6 +21,11 @@ health: 6
 
 combat: Shadow
 
+class:
+  - Warlock
+
+instant: false
+
 type: Monster
 
 rule:
@@ -26,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Eredar Demon Warlock

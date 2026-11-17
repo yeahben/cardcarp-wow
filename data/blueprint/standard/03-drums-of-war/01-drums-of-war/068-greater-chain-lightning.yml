@@ -14,12 +14,17 @@ cost: '7'
 class:
   - Shaman
 
+talent:
+  - Elemental
+
+instant: false
+
 rule:
   - type: Ability
-    text: Target up to five heroes and/or allies. Your hero deals 5, 4, 3, 2, and 1 nature damage to them, respectively.
+    text: Target up to five heroes and/or allies.
+  - type: Ability
+    text: Your hero deals 5, 4, 3, 2, and 1 nature damage to them, respectively.
 
 regulation:
 
 errata: []
-
-temp: Elemental

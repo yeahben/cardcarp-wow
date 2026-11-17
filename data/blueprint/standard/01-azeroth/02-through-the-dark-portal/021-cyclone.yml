@@ -14,12 +14,19 @@ cost: '1'
 class:
   - Druid
 
-instant: "Attach to target hero or ally, and put three wind counters on Cyclone. Ongoing : Attached character can't attack or protect. At the start of your turn, remove a wind counter from Cyclone. If you removed the last one, destroy Cyclone."
+talent:
+  - Balance
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target hero or ally, and put three wind counters on Cyclone.
+  - type: Ability
+    text: "Ongoing: Attached character can't attack or protect."
+  - type: Ability
+    text: At the start of your turn, remove a wind counter from Cyclone. If you removed the last one, destroy Cyclone.
 
 regulation:
 
 errata: []
-
-temp: Balance

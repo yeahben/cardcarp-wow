@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally deals combat damage to an opposing hero, you pay 1 less to play your next card this turn for each damage dealt.
+    text: When this ally deals combat damage to an opposing hero, you pay {1} less to play your next card this turn for each damage dealt.
 
 regulation:
 
 errata: []
-
-temp: Draenei Hunter

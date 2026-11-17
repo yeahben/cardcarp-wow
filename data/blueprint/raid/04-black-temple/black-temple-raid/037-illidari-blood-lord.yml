@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Traitor
+
 trait:
 
 cost: '2'
@@ -17,12 +20,19 @@ health: 1
 
 combat: Melee
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required When Illidari Blood Lord enters play, each player turns one of his face-up resources face down.
+    text: Traitor Hero Required
+  - type: Ability
+    text: When Illidari Blood Lord enters play, each player turns one of his face-up resources face down.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin Traitor

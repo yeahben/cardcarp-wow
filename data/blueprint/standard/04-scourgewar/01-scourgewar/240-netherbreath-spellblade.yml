@@ -7,22 +7,38 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Dagger
+
 trait:
 
 cost: '5'
 
+damage: 1
+
+strike: 5
+
+combat: Melee
+
 class:
   - Druid
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: If you would draw a card, you may skip drawing it instead. When you first skip drawing a card this way on each of your turns, put target ability from your graveyard into your hand.
+    text: If you would draw a card, you may skip drawing it instead.
+  - type: Ability
+    text: When you first skip drawing a card this way on each of your turns, put target ability from your graveyard into your hand.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

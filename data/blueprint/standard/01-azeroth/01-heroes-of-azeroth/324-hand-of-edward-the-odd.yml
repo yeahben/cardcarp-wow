@@ -7,15 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Mace
+
 trait:
 
 cost: '6'
 
+damage: 1
+
+strike: 3
+
+combat: Melee
+
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -24,5 +40,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

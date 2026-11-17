@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Death Knight
 
+talent:
+  - Blood
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Blood Talent Ongoing : 1 , , Remove an ally in an opposing graveyard from the game → Add a bone counter to this ability. Weapons you control have +1 ATK and armor you control have +1 for each bone counter on this ability.'
+    text: Blood Talent (You can't put Frost Talents or Unholy Talents in your deck.)
+  - type: Ability
+    text: 'Ongoing: {1}, {activate}, Remove an ally in an opposing graveyard from the game → Add a bone counter to this ability.'
+  - type: Ability
+    text: Weapons you control have +1 ATK and armor you control have +1 {def} for each bone counter on this ability.
 
 regulation:
 
 errata: []
-
-temp: Blood

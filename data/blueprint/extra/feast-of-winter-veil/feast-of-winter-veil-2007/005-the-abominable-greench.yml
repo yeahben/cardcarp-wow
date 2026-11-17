@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Yeti
+
 trait:
 
 cost: '9'
@@ -17,6 +20,11 @@ health: 5
 
 combat: Melee
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: If an opponent would draw a card, you draw one instead.
@@ -24,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Yeti

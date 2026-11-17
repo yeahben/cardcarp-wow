@@ -7,21 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Wand
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 1
+
+combat: Fire
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Wand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this weapon enters play, your hero may deal 2 fire damage to target hero or ally.
+    text: When Crimson Shocker enters play, your hero may deal 2 fire damage to target hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Wand

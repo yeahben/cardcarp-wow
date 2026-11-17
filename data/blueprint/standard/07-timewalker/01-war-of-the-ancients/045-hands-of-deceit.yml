@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Rogue
 
+talent:
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
-    text: Target opponent chooses a number. Then you choose "higher", "equal", or "lower. That opponent reveals his hand and discards all cards with cost higher than, equal to, or lower than the choosen cost, accordingly.
+    text: Target opponent chooses a number. Then you choose "higher," "equal," or "lower."
+  - type: Ability
+    text: That opponent reveals his hand and discards all cards with cost higher than, equal to, or lower than the chosen cost, accordingly.
 
 regulation:
 
 errata: []
-
-temp: Subtlety

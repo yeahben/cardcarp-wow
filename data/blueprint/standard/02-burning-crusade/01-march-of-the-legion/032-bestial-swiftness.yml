@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Hunter
 
+talent:
+  - Beast Mastery
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Beast Mastery Hero Required Ongoing : → Target Pet has Ferocity this turn.'
+    text: Beast Mastery Hero Required
+  - type: Ability
+    text: 'Ongoing: {activate} → Target Pet has ferocity this turn.'
 
 regulation:
 
 errata: []
-
-temp: Beast Mastery Talent

@@ -1,0 +1,22 @@
+name: You Are Not Prepared!
+
+origin: black-temple-raid-047
+
+layout: Standard
+
+category:
+  - Event
+
+trait:
+
+instant: false
+
+sequence: 3
+
+rule:
+  - type: Ability
+    text: Put the top two cards of the Minion deck into play face up.
+
+regulation:
+
+errata: []

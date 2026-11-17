@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Keeper of the Grove
+
 trait:
 
 cost: '1'
@@ -17,14 +20,19 @@ health: 2
 
 combat: Nature
 
+class:
+  - Druid
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Elusive While you control another Monster hero or ally, this ally has Harmonize .
+    text: Elusive
+  - type: Ability
+    text: While you control another Monster hero or ally, this ally has Harmonize.
 
 regulation:
 
 errata: []
-
-temp: Keeper of the Grove Druid

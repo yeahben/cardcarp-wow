@@ -13,6 +13,18 @@ health: 29
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
+talent:
+  - Holy
+
+profession:
+  - Skinning
+  - Tailoring
+
 rule:
   - type: Ability
     position: Front
@@ -21,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Human Paladin

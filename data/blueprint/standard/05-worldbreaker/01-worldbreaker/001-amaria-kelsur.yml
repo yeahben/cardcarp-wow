@@ -13,10 +13,18 @@ health: 28
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Hunter
+
+talent:
+  - Survival
+
 rule:
   - type: Ability
     position: Front
-    text: 4 → Flip Amaria
+    text: '{4} → Flip Amaria'
   - type: Ability
     position: Reverse
     text: Opposing allies have -1 ATK while in combat with Amaria.
@@ -24,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Human Hunter

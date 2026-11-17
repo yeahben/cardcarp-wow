@@ -7,7 +7,12 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Flamewaker
+
 trait:
+  - 'Majordomo Executus: 4'
 
 damage: 3
 
@@ -15,7 +20,7 @@ health: 3
 
 combat: Melee
 
-type: Ally
+instant: false
 
 rule:
   - type: Ability
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Flamewaker

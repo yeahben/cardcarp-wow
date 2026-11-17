@@ -14,12 +14,21 @@ cost: '4'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: Arcane Talent This ability can't be interrupted. Your hero deals 4 arcane damage to target hero or ally. You may play this ability from your graveyard. If you do, the next time it would enter a graveyard from anywhere, remove it from the game instead.
+    text: Arcane Talent (You can't put Fire Talents or Frost Talents in your deck.)
+  - type: Ability
+    text: This ability can't be interrupted.
+  - type: Ability
+    text: Your hero deals 4 arcane damage to target hero or ally.
+  - type: Ability
+    text: You may play this ability from your graveyard. If you do, the next time it would enter a graveyard from anywhere, remove it from the game instead.
 
 regulation:
 
 errata: []
-
-temp: Arcane

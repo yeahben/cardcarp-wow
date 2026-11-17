@@ -1,4 +1,4 @@
-name: Historians Sash
+name: Historian's Sash
 
 origin: war-of-the-ancients-210
 
@@ -7,21 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '1'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Waist
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: At the start of your turn, add a history counter to this armor. Remove three history counters from this armor → You pay 1 less to complete target quest this turn.
+    text: At the start of your turn, add a history counter to this armor.
+  - type: Ability
+    text: Remove three history counters from this armor → You pay {1} less to complete target quest this turn.
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

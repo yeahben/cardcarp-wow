@@ -19,12 +19,19 @@ combat: Shadow
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When this ally defends, you may ready target weapon.
+    text: Protector
+  - type: Ability
+    text: When this ally defends, you may ready target weapon.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Death Knight

@@ -7,9 +7,32 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Satyr
+  - Demon
+
 trait:
 
-rule: []
+health: 27
+
+class:
+  - Druid
+
+type: Monster
+
+rule:
+  - type: Ability
+    position: Front
+    text: Xavius's Power
+  - type: Ability
+    position: Front
+    text: '{basic} {4}, Flip Xavius → You may place an additional resource this turn.'
+  - type: Ability
+    position: Reverse
+    text: Xavius's Corruption
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {8} → Put a 1 {melee} / 1 {health} Satyr Demon Monster ally token into play for each two resources you control.'
 
 regulation:
 

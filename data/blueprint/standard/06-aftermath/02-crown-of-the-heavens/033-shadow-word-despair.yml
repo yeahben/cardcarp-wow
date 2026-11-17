@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Priest
 
-instant: Your hero deals 2 shadow damage to target ally. Remove the top two cards of that ally's controller's deck from the game.
+talent:
+  - Shadow
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 2 shadow damage to target ally. Remove the top two cards of that ally's controller's deck from the game.
 
 regulation:
 
 errata: []
-
-temp: Shadow

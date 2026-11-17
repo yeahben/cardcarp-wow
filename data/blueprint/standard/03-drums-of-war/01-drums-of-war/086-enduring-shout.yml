@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Shout
+
 trait:
 
 cost: '3'
@@ -14,12 +17,15 @@ cost: '3'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : While exactly one ally is in your party, it has +2 ATK / +2 health and is a Protector .'
+    text: 'Ongoing: While exactly one ally is in your party, it has +2 ATK / +2 health and is a protector.'
 
 regulation:
 
 errata: []
-
-temp: Fury Shout

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Black
+  - Dragonkin
+
 trait:
 
 cost: '8'
@@ -17,12 +21,16 @@ health: 8
 
 combat: Shadow
 
+limit:
+  - name: Nefarian
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, put an 8 / 8 Black Dragonkin ally token named Onyxia into play with Onyxia (1).
+    text: When this ally enters play, put an 8 {fire} / 8 {health} Black Dragonkin ally token named Onyxia into play with Onyxia (1).
 
 regulation:
 
 errata: []
-
-temp: Black Dragonkin

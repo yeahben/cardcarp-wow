@@ -13,10 +13,15 @@ health: 27
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Rogue
+
 rule:
   - type: Ability
     position: Front
-    text: 5 → Flip Alyssa face down.
+    text: '{5} → Flip Alyssa'
   - type: Ability
     position: Reverse
     text: When Alyssa deals combat damage to an ally, she also deals that much melee damage to target hero in that ally's party.
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Worgen Rogue

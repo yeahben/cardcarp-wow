@@ -14,12 +14,19 @@ cost: '2'
 class:
   - Paladin
 
-instant: 'Ongoing : Friendly allies have Frost Resistance while ready.'
+talent:
+  - Protection
 
-rule: []
+limit:
+  - name: Aura
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Friendly allies have Frost Resistance while ready. (Prevent all frost ({frost}) damage that would be dealt to them.)'
 
 regulation:
 
 errata: []
-
-temp: Protection

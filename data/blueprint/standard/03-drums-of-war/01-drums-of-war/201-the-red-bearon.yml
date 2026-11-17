@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Bear
+
 trait:
 
 cost: '6'
@@ -17,6 +20,8 @@ health: 0
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
     text: The Red Bearon has +X ATK / +X health, where X is the combined DEF of your armor.
@@ -24,5 +29,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Bear

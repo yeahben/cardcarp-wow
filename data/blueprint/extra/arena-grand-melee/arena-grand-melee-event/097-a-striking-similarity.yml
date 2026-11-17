@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : You pay 1 less to play cards from the same set as your hero.'
+    text: 'Ongoing: You pay {1} less to play cards from the same set as your hero.'
 
 regulation:
 
 errata: []
-
-temp: ''

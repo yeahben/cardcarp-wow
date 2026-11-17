@@ -19,12 +19,19 @@ combat: Frost
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive allies you control have " → Target ally can't attack this turn."
+    text: Elusive
+  - type: Ability
+    text: "{frost} allies in your party have \"{activate} → Target ally can't attack this turn.\""
 
 regulation:
 
 errata: []
-
-temp: Gnome Mage

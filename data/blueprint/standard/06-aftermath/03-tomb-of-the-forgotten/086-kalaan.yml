@@ -19,10 +19,15 @@ combat: Nature
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Hunter
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Draenei Hunter

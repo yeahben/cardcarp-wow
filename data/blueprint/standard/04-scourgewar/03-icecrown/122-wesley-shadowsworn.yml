@@ -19,10 +19,15 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

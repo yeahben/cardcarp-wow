@@ -1,4 +1,4 @@
-name: King Dreds Helm
+name: King Dred's Helm
 
 origin: scourgewar-222
 
@@ -7,20 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '4'
+
+defense: 3
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Head
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'When your hero turns face down, target up to three heroes and/or allies. Hero : Your hero deals 2 ranged damage to each of them. Hero : Your hero deals 3, 2, and 1 nature damage to them, respectively.'
+    text: When your hero turns face down, target up to three heroes and/or allies.
+  - type: Ability
+    text: '{hunter} Hero: Your hero deals 2 ranged damage to each of them.'
+  - type: Ability
+    text: '{shaman} Hero: Your hero deals 3, 2, and 1 nature damage to them, respectively.'
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

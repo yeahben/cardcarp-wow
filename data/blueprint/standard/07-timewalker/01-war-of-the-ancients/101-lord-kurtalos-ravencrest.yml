@@ -19,12 +19,23 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Warrior
+
+limit:
+  - name: Kur'talos
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Spellshield Kur'talos has +ATK equal to the combined cost of other allies you control.
+    text: Spellshield
+  - type: Ability
+    text: Kur'talos has +ATK equal to the combined cost of other allies you control.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Warrior

@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Bear
+  - Beast
+  - Demigod
+
 trait:
 
 cost: '5'
@@ -17,14 +22,20 @@ health: 7
 
 combat: Nature
 
+limit:
+  - name: Ursol
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Ursol can protect allies you control named Ursoc the Mighty. At the end of your turn, if you control Ursol the Wise and Ursoc the Mighty, Ursol heals all damage from both of them.
+    text: Ursol can protect allies you control named Ursoc the Mighty.
+  - type: Ability
+    text: At the end of your turn, if you control Ursol the Wise and Ursoc the Mighty, Ursol heals all damage from both of them.
 
 regulation:
 
 errata: []
-
-temp: Bear Beast Demigod

@@ -19,6 +19,13 @@ combat: Fire
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: At the end of your turn, you may destroy another ally you control. If you do, this ally deals 5 fire damage to target opposing hero.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Blood Elf Warlock

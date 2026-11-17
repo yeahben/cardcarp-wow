@@ -19,15 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Gnome
+
 class:
-  - Druid
+  - Warlock
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this ally leaves play, you may remove target Druid ally, ability, or equipment from the game.
+    text: When this ally leaves play, you may remove target Druid ally, {druid} ability, or {druid} equipment from the game.
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

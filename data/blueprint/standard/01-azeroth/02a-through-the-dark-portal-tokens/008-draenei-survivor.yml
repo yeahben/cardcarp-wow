@@ -5,10 +5,27 @@ origin: through-the-dark-portal-tokens-008
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
+  - Survivor
 
 trait:
 
-rule: []
+damage: 0
+
+health: 1
+
+combat: Melee
+
+race: Draenei
+
+instant: false
+
+rule:
+  - type: Ability
+    text: Exhaust your hero, remove this ally from the game → Draw a card.
 
 regulation:
 

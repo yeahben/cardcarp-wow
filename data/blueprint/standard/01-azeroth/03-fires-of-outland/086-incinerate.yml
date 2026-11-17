@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warlock
 
+talent:
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero deals 2 fire damage to target hero or ally, or 4 if your hero dealt fire damage with an ability to that character this turn.
+    text: Your hero deals 2 fire damage to target hero or ally, or 4 damage if your hero has dealt fire damage with an ability to that character this turn.
 
 regulation:
 
 errata: []
-
-temp: Destruction

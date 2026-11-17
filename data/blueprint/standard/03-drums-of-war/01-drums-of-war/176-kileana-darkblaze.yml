@@ -19,6 +19,13 @@ combat: Fire
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: When Kileana enters play, she deals 2 fire damage to your hero and each other ally in your party.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Blood Elf Warlock

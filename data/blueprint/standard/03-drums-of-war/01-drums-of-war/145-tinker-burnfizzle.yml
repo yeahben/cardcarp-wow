@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'If Burnfizzle is undamaged: → Burnfizzle deals 3 fire damage to each opposing hero and ally.'
+    text: 'If Burnfizzle is undamaged: {activate} → Burnfizzle deals 3 fire damage to each opposing hero and ally.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

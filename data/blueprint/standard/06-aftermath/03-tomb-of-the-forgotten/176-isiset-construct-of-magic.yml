@@ -7,28 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '3'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: If your hero would deal non-combat damage, it deals that much +1 instead. At the start of your turn and when you play an ability, add a power counter to the item. At the end of your turn, if this item has five or more power counters on it, destroy it. If you do, put three 1 / 1 Construct ally tokens into play with "If your hero would deal non-combat damage, it deals that much +1 instead."
+    text: If your hero would deal non-combat damage, it deals that much +1 instead.
+  - type: Ability
+    text: At the start of your turn and when you play an ability, add a power counter to this item.
+  - type: Ability
+    text: At the end of your turn, if this item has five or more power counters on it, destroy it. If you do, put three 1 {arcane} / 1 {health} Construct ally tokens into play with "If your hero would deal non-combat damage, it deals that much +1 instead."
 
 regulation:
 
 errata: []
-
-temp: Item

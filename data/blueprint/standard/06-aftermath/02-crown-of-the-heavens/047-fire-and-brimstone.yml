@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Warlock
 
+talent:
+  - Destruction
+
+instant: false
+
 rule:
   - type: Ability
-    text: Destruction Talent Destroy target ability, ally, or equipment.
+    text: Destruction Talent (You can't put Affliction Talents or Demonology Talents in your deck.)
+  - type: Ability
+    text: Destroy target ability, ally, or equipment.
 
 regulation:
 
 errata: []
-
-temp: Destruction

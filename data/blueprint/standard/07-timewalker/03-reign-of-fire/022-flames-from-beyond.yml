@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Mage
 
-instant: Warp Your hero deals 5 fire damage to target hero.
+talent:
+  - Fire
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Warp (As this ability is revealed from your deck, you may remove it from the game. If you do, you may play it immediately without paying its cost.)
+  - type: Ability
+    text: Your hero deals 5 fire damage to target hero.
 
 regulation:
 
 errata: []
-
-temp: Fire

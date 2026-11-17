@@ -1,4 +1,4 @@
-name: Barador Wildhammer Timewalker
+name: Barador, Wildhammer Timewalker
 
 origin: timewalkers-003
 
@@ -9,7 +9,28 @@ category:
 
 trait:
 
-rule: []
+health: 28
+
+faction: Alliance
+
+race: Dwarf
+
+class:
+  - Shaman
+
+rule:
+  - type: Ability
+    position: Front
+    text: Barador's Bolt
+  - type: Ability
+    position: Front
+    text: '{basic} {2}, Flip Barador → Barador deals 2 nature damage to target hero.'
+  - type: Ability
+    position: Reverse
+    text: Barador's Storm
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {6} → Barador deals 4 nature damage to target hero and 4 nature damage to target ally.'
 
 regulation:
 

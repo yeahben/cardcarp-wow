@@ -1,4 +1,4 @@
-name: Titans Grip
+name: Titan's Grip
 
 origin: servants-of-the-betrayer-124
 
@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Warrior
 
-instant: 'Ongoing : Your hero has Two-Handed Dual Wield .'
+talent:
+  - Arms
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Your hero has Two-Handed dual wield. (Your hero has dual wield. One or both of your weapons can be Two-Handed. You can have a Two-Handed weapon and an Off-Hand equipment.)'
 
 regulation:
 
 errata: []
-
-temp: Arms

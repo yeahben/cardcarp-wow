@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Archaeologist
+
 trait:
 
 cost: '5'
@@ -17,12 +20,18 @@ health: 9
 
 combat: Melee
 
+race: Human
+
+limit:
+  - name: Harrison Jones
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the start of your turn, target an ability or equipment you control. Then target an opposing card that shares a type with that targeted card. You and that opposing card's controller exchange control of those cards.
+    text: At the start of your turn, target an ability or equipment you control and a card of the same type that an opponent controls. You and that opponent exchange control of those cards.
 
 regulation:
 
 errata: []
-
-temp: Human Archeologist

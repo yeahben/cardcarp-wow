@@ -7,28 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+  - Potion
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'When this item enters play, target hero or ally has +2 ATK and Stealth this turn. On your turn: Exhaust a Rogue hero or ally you control and destroy this item → Target hero or ally has +2 ATK and Stealth this turn.'
+    text: When this item enters play, target hero or ally has +2 ATK and Stealth this turn. (It can't be protected against.)
+  - type: Ability
+    text: 'On your turn: Exhaust a Rogue hero or ally you control and destroy this item → Target hero or ally has +2 ATK and Stealth this turn.'
 
 regulation:
 
 errata: []
-
-temp: Item Potion

@@ -13,13 +13,23 @@ health: 29
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Paladin
+
+talent:
+  - Holy
+
+profession:
+  - Alchemy
+  - Enchanting
+
 rule:
   - type: Ability
     position: Front
-    text: 7 , Flip Vakeron → Vakeron deals 2 unpreventable holy damage to each opposing hero and ally.
+    text: '{7}, Flip Vakeron → Vakeron deals 2 unpreventable holy damage to each opposing hero and ally.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

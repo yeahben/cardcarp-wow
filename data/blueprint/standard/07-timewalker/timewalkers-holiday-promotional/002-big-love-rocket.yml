@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Rocket
+
 trait:
 
 cost: '4'
@@ -17,12 +20,18 @@ health: 8
 
 combat: Melee
 
+limit:
+  - name: Mount
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , , Reveal the top card of your deck → If it's a location or quest, ready another target ally you control, and that ally has +2 ATK this turn. (Mounts can't attack or be attacked.)
+    text: "{basic} {1}, {activate}, Reveal the top card of your deck → If it's a location or quest, ready another target ally you control, and that ally has +2 ATK this turn."
+  - type: Ability
+    text: (Mounts can't attack or be attacked.)
 
 regulation:
 
 errata: []
-
-temp: Rocket

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Bronze
+  - Dragonkin
+
 trait:
 
 cost: '3'
@@ -17,12 +21,16 @@ health: 1
 
 combat: Melee
 
+limit:
+  - name: Chromie
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When Chromie deals combat damage to a defending hero, you may shuffle her into her owner's deck. If you do, take an extra turn after this one.
+    text: When Chromie deals combat damage to a defending hero, you may shuffle her into your deck. If you do, take an extra turn after this one.
 
 regulation:
 
 errata: []
-
-temp: Bronze Dragonkin

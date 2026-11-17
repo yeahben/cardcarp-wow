@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Paladin
 
-instant: Destroy target attacking ally.
+talent:
+  - Retribution
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Destroy target attacking ally.
 
 regulation:
 
 errata: []
-
-temp: Retribution

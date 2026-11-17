@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally attacks, you may reveal the top card of your deck. If it's an Orc ally, put a 2 / 2 Orc Warrior ally token into play with Ferocity and "This ally can attack only heroes."
+    text: When this ally attacks, you may reveal the top card of your deck. If it's an Orc ally, put a 2 {melee} / 2 {health} {horde} Orc Warrior ally token into play with Ferocity and "This ally can attack only heroes."
 
 regulation:
 
 errata: []
-
-temp: Orc Hunter

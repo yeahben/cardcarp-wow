@@ -13,13 +13,23 @@ health: 28
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+talent:
+  - Destruction
+
+profession:
+  - Engineering
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Mazar, remove a Pet card in your graveyard from the game → Destroy target ally. Use only on your turn.
+    text: '{3}, Flip Mazar, remove a Pet card in your graveyard from the game → Destroy target ally. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

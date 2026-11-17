@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Nerubian
+
 trait:
 
 cost: '2'
@@ -17,12 +20,14 @@ health: 2
 
 combat: Nature
 
+instant: false
+
 rule:
   - type: Ability
-    text: Nerubian Reputation This ally has +1 / +1 while an equipment is in your graveyard.
+    text: Nerubian Reputation (You can't put cards with other reputations in your deck.)
+  - type: Ability
+    text: This ally has +1 / +1 while an equipment is in your graveyard.
 
 regulation:
 
 errata: []
-
-temp: Nerubian

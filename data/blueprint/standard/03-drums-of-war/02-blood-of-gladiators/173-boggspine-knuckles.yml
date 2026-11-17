@@ -7,21 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Fist
+
 trait:
 
 cost: '6'
 
+damage: 3
+
+strike: 1
+
+combat: Melee
+
 class:
-  - Warrior
-  - Shaman
   - Rogue
+  - Shaman
+  - Warrior
 
-instant: Your hero has Dual Wield . Boggspine Knuckles has +3 ATK while your hero has more damage than an opposing hero.
+limit:
+  - name: Melee
+    count: 1
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero has dual wield.
+  - type: Ability
+    text: Boggspine Knuckles has +3 ATK while your hero has more damage than an opposing hero.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Fist

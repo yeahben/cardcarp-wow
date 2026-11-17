@@ -15,6 +15,12 @@ class:
   - Paladin
   - Shaman
 
+talent:
+  - Holy
+  - Restoration
+
+instant: false
+
 rule:
   - type: Ability
     text: Put target ally or weapon card from your graveyard into play if its cost is less than or equal to the number of resources you control.
@@ -22,5 +28,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Holy Restoration

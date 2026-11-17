@@ -5,8 +5,21 @@ origin: onyxias-lair-token-001
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
+  - Dragonkin
 
 trait:
+
+damage: 1
+
+health: 1
+
+combat: Fire
+
+instant: false
 
 rule: []
 

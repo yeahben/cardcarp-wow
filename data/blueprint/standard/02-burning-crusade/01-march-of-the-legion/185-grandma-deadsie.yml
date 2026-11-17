@@ -19,12 +19,17 @@ combat: Holy
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Prevent all damage that would be dealt to this ally.
+    text: Prevent all damage that would be dealt to Grandma Deadsie.
 
 regulation:
 
 errata: []
-
-temp: Undead Priest

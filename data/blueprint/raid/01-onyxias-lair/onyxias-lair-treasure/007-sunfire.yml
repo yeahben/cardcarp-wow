@@ -14,12 +14,17 @@ cost: '7'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero deals X arcane damage to target hero or ally, where X is the number of friendly heroes and allies. Draw a card.
+    text: Your hero deals X arcane damage to target hero or ally, where X is the number of friendly heroes and allies.
+  - type: Ability
+    text: Draw a card.
 
 regulation:
 
 errata: []
-
-temp: Balance

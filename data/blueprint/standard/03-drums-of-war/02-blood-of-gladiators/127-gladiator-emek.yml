@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Priest
+
+instant: false
+
 type: Arena
 
 rule:
@@ -28,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Priest

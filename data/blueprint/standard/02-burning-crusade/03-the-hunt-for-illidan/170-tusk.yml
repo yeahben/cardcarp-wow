@@ -19,12 +19,19 @@ combat: Ranged
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity When Tusk deals combat damage to a hero or ally, other heroes and allies in your party have Long-Range while attacking that character this turn.
+    text: Ferocity
+  - type: Ability
+    text: When Tusk deals combat damage to a hero or ally, other heroes and allies in your party have long-range while attacking that character this turn.
 
 regulation:
 
 errata: []
-
-temp: Troll Hunter

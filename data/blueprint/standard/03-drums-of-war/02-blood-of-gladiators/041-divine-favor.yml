@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '5'
@@ -14,12 +17,17 @@ cost: '5'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Holy Hero Required Ongoing : , Remove the top X cards of your deck from the game → Your hero heals X damage from target hero or ally.'
+    text: Holy Hero Required
+  - type: Ability
+    text: 'Ongoing: {activate}, Remove the top X cards of your deck from the game → Your hero heals X damage from target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Holy Talent

@@ -7,19 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Bow
+
 trait:
 
 cost: '3'
 
+damage: 3
+
+strike: 3
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you strike with this weapon, your hero has Long-Range this combat. When you draw a card, add a verse counter. Remove three verse counters → You pay 3 less the next time you strike with this weapon this turn.
+    text: When you strike with this weapon, your hero has Long-Range this combat.
+  - type: Ability
+    text: When you draw a card, add a verse counter.
+  - type: Ability
+    text: Remove three verse counters → You pay {3} less the next time you strike with this weapon this turn.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Bow

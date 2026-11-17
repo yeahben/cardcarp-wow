@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Ogre
+
 trait:
+
+health: 31
+
+class:
+  - Shaman
 
 type: Monster
 
 rule:
   - type: Ability
     position: Front
-    text: 8 → Flip Grok'thol face fown. You pay 8 less to flip Grok'thol if you control at least two allies each with 6 or more ATK.
+    text: "{8} → Flip Grok'thol face down."
+  - type: Ability
+    position: Front
+    text: You pay {8} less to flip Grok'thol if you control at least two allies each with 6 or more ATK.
   - type: Ability
     position: Reverse
-    text: "Assault 3 , Smash Deckbuilding: You can't put or cards in your deck."
+    text: Assault 3, Smash (If Grok'thol would deal more than fatal combat damage to a defending ally, he deals the rest to that ally's controller's hero.)
+  - type: Ability
+    position: Reverse
+    text: "Deckbuilding: You can't put {horde} or {alliance} cards in your deck."
 
 regulation:
 
 errata: []
-
-temp: Ogre Shaman 31

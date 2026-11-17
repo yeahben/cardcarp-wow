@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Murloc
+
 trait:
 
 cost: '1'
@@ -17,6 +20,14 @@ health: 1
 
 combat: Frost
 
+class:
+  - Rogue
+
+limit:
+  - name: Unlimited
+
+instant: false
+
 type: Monster
 
 rule: []
@@ -24,5 +35,3 @@ rule: []
 regulation:
 
 errata: []
-
-temp: Murloc Rogue

@@ -7,15 +7,35 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Black
+  - Dragonkin
+  - Aspect
+
 trait:
+
+health: 40
+
+class:
+  - Death Knight
+  - Shaman
+
+type: Monster
 
 rule:
   - type: Ability
     position: Front
-    text: Flip 4 Assault 20 , Long-Range
+    text: (Allies you control can protect this hero.)
+  - type: Ability
+    position: Front
+    text: '{8}, Flip Deathwing face down → Destroy up to one target ability, ally, or equipment each opponent controls.'
+  - type: Ability
+    position: Reverse
+    text: When an opposing card is destroyed, Deathwing deals 3 fire damage to that card's owner's hero.
+  - type: Ability
+    position: Reverse
+    text: "Deckbuilding: You can include either {alliance} cards or {horde} cards, and {death knight}, {shaman}, and Neutral cards. You can't include more than one of each card."
 
 regulation:
 
 errata: []
-
-temp: Black Dragonkin Aspect Stage 4

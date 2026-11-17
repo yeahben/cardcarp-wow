@@ -7,20 +7,43 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Horsemen
+
 trait:
+  - 'Horseman: 4'
 
 type: Boss
 
 rule:
   - type: Ability
     position: Front
-    text: Immune At the start of your turn, the raid leader flips a Horseman face down. Each Horseman can't leave play until all four have fatal damage. When a Horseman is dealt fatal damage, flip this card face down.
+    text: Immune
+  - type: Ability
+    position: Front
+    text: At the start of your turn, the raid leader flips a Horseman face down.
+  - type: Ability
+    position: Front
+    text: Each Horseman can't leave play unless all four have fatal damage.
+  - type: Ability
+    position: Front
+    text: When a Horseman is dealt fatal damage, flip this card face down.
   - type: Ability
     position: Reverse
-    text: Immune At the start of your turn, the raid leader flips a Horseman face down. Each Horseman can't leave play until all four have fatal damage. Each Horseman has 0 ATK and can't gain ATK while it has fatal damage. When all four Horsemen leave play, destroy this card.
+    text: Immune
+  - type: Ability
+    position: Reverse
+    text: At the start of your turn, the raid leader flips a Horseman face down.
+  - type: Ability
+    position: Reverse
+    text: Each Horseman can't leave play unless all four have fatal damage.
+  - type: Ability
+    position: Reverse
+    text: Each Horseman has 0 ATK and can't gain ATK while it has fatal damage.
+  - type: Ability
+    position: Reverse
+    text: When all four Horsemen leave play, destroy this card.
 
 regulation:
 
 errata: []
-
-temp: Horsemen

@@ -9,14 +9,16 @@ category:
 
 trait:
 
-type: Boss
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
-    text: Each Raiding ally deals fire damage to itself equal to its ATK. If no allies were dealt fatal damage this way, flip another Deathwing card.
+    text: Each Raiding ally deals fire damage to itself equal to its ATK.
+  - type: Ability
+    text: If no allies were dealt fatal damage this way, flip another Deathwing card.
 
 regulation:
 
 errata: []
-
-temp: ''

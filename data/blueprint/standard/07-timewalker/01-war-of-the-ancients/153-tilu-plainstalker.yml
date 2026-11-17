@@ -19,6 +19,13 @@ combat: Ranged
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
     text: When an opposing ally with cost 4 or more attacks, this ally deals 1 ranged damage to it.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Hunter

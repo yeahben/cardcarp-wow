@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Priest
 
-instant: If your hero has 15 or more damage, it heals 10 damage from itself.
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: If your hero has 15 or more damage, it heals 10 damage from itself.
 
 regulation:
 
 errata: []
-
-temp: Holy

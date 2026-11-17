@@ -11,6 +11,8 @@ trait:
 
 cost: '2'
 
+instant: false
+
 rule:
   - type: Ability
     text: Onyxia deals X fire damage to each opposing hero and ally, where X is the current stage.
@@ -18,5 +20,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

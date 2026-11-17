@@ -9,7 +9,9 @@ category:
 
 trait:
 
-type: Boss
+instant: false
+
+type: Deathwing
 
 rule:
   - type: Ability
@@ -18,5 +20,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

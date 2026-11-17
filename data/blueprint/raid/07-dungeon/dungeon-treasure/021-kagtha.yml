@@ -19,12 +19,21 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Rogue
+
+limit:
+  - name: Kagtha
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Opposing heroes and allies lose and can't have Elusive and Untargetable .
+    text: Opposing heroes and allies lose and can't have Elusive and Untargetable.
 
 regulation:
 
 errata: []
-
-temp: Orc Rogue

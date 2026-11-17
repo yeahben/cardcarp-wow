@@ -13,13 +13,23 @@ health: 29
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+talent:
+  - Protection
+
+profession:
+  - Engineering
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Addisyn → Choose arcane, fire, frost, nature, or shadow. Addisyn has the chosen resistance this turn.
+    text: '{3}, Flip Addisyn → Choose arcane, fire, frost, nature, or shadow. Addisyn has the chosen resistance this turn.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

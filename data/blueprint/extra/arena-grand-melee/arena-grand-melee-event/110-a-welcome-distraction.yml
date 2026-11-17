@@ -9,12 +9,16 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Players skip flipping Arena cards. All heroes have " Sabotage : A Welcome Distraction." When this card is sabotaged, put it into the Arena graveyard, and the turn player flips a new Arena card.'
+    text: 'Ongoing: Players skip flipping Arena cards.'
+  - type: Ability
+    text: 'All heroes have "Sabotage: A Welcome Distraction."'
+  - type: Ability
+    text: When this card is sabotaged, put it into the Arena graveyard, and the turn player flips a new Arena card.
 
 regulation:
 
 errata: []
-
-temp: ''

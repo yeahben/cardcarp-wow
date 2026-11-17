@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Paladin
 
-instant: Exhaust target ally. Draw a card.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Exhaust target ally. Draw a card.
 
 regulation:
 
 errata: []
-
-temp: Protection

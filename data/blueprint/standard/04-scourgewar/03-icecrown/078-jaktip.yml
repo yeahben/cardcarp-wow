@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Imp
+  - Demon
+
 trait:
 
 cost: '4'
@@ -20,12 +24,20 @@ combat: Fire
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Elusive → This ally deals 1 fire damage to target hero or ally. 1 , Exhaust a Warlock you control → Ready this ally.
+    text: Elusive (This ally can't be attacked.)
+  - type: Ability
+    text: '{activate} → This ally deals 1 fire damage to target hero or ally.'
+  - type: Ability
+    text: '{1}, Exhaust a Warlock you control → Ready this ally.'
 
 regulation:
 
 errata: []
-
-temp: Imp Demon

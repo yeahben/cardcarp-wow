@@ -9,12 +9,14 @@ category:
 
 trait:
 
+capture: 3
+
 rule:
   - type: Ability
-    text: 'When a card enters an opposing graveyard from anywhere, add a rattle counter. On your turn: 2 , , Remove three rattle counters → Put a 3 / 3 Scourge ally token into play.'
+    text: When a card enters an opposing graveyard from anywhere, add a rattle counter.
+  - type: Ability
+    text: 'On your turn: {2}, {activate}, Remove three rattle counters → Put a 3 {melee} / 3 {health} Scourge ally token into play.'
 
 regulation:
 
 errata: []
-
-temp: ''

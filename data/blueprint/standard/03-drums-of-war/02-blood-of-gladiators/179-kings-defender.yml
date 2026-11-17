@@ -1,4 +1,4 @@
-name: Kings Defender
+name: King's Defender
 
 origin: blood-of-gladiators-179
 
@@ -7,20 +7,34 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Sword
+
 trait:
 
 cost: '5'
+
+damage: 4
+
+strike: 2
+
+combat: Melee
 
 class:
   - Paladin
   - Warrior
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Your hero is a Protector .
+    text: Your hero is a protector.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Sword

@@ -19,6 +19,13 @@ combat: Arcane
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally attacks, you may discard an ability. If you do, he deals arcane damage to target ally equal to the cost of that ability.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Worgen Mage

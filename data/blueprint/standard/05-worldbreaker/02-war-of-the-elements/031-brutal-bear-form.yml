@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Bear
+  - Form
+
 trait:
 
 cost: '4'
@@ -14,12 +18,21 @@ cost: '4'
 class:
   - Druid
 
-instant: 'Ongoing : Your hero has Protector . Allies you control have Assault 1 .'
+talent:
+  - Feral
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Your hero has Protector. (It may exhaust to become the defender when an opposing hero or ally attacks.)'
+  - type: Ability
+    text: Allies you control have Assault 1. (They have +1 ATK on your turn.)
 
 regulation:
 
 errata: []
-
-temp: Feral Bear Form

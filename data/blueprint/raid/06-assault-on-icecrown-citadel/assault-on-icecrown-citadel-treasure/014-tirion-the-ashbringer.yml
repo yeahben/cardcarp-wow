@@ -17,12 +17,25 @@ health: 6
 
 combat: Holy
 
+race: Human
+
+class:
+  - Paladin
+
+limit:
+  - name: Tirion
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Other allies you control have +X / +X, where X is their cost. Prevent all damage that would be dealt to this ally by Scourge heroes and allies.
+    text: Protector
+  - type: Ability
+    text: Other {holy} allies you control have +X / +X, where X is their cost.
+  - type: Ability
+    text: Prevent all damage that would be dealt to this ally by Scourge heroes and allies.
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

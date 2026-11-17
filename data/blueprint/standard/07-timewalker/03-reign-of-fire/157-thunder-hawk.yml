@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Hawk
+  - Beast
+
 trait:
 
 cost: '4'
@@ -17,14 +21,14 @@ health: 3
 
 combat: Melee
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Stealth
+    text: Stealth (This ally can't be protected against.)
 
 regulation:
 
 errata: []
-
-temp: Hawk Beast

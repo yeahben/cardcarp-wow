@@ -19,12 +19,21 @@ combat: Holy
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Find Treasure When Modric defends, he may heal all damage from target ally.
+    text: Protector
+  - type: Ability
+    text: Find Treasure (When this ally enters play, you may draw a card. If you do, discard a card.)
+  - type: Ability
+    text: When Modric defends, he may heal all damage from target ally.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Paladin

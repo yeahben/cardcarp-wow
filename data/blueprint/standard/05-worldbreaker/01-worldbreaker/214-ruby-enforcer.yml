@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Red
+  - Dragonkin
+
 trait:
 
 cost: '3'
@@ -17,12 +21,12 @@ health: 1
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: Allies you control have Ferocity .
+    text: Allies you control have Ferocity.
 
 regulation:
 
 errata: []
-
-temp: Red Dragonkin

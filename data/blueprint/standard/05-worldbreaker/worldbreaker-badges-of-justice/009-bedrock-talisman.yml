@@ -7,22 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '6'
 
 class:
-  - Druid
-  - Warrior
   - Death Knight
+  - Druid
   - Paladin
+  - Warrior
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: You pay 1 less to play this item for each 5 damage on your hero. Allies you control have Protector .
+    text: You pay {1} less to play this item for each 5 damage on your hero.
+  - type: Ability
+    text: Allies you control have Protector.
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

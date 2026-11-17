@@ -14,12 +14,15 @@ cost: '0'
 class:
   - Hunter
 
-instant: Opposing heroes and allies lose and can't have Elusive , Stealth , and Untargetable this turn.
+talent:
+  - Marksmanship
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Opposing heroes and allies lose and can't have Elusive, Stealth, and Untargetable this turn.
 
 regulation:
 
 errata: []
-
-temp: Marksmanship

@@ -19,12 +19,19 @@ combat: Fire
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Untargetable Madison has +1 ATK / +1 health for each hero in play.
+    text: Untargetable
+  - type: Ability
+    text: Madison has +1 ATK / +1 health for each hero in play.
 
 regulation:
 
 errata: []
-
-temp: Human Mage

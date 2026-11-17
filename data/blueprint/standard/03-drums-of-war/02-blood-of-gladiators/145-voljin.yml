@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Shadow
+  - Hunter
+
 trait:
 
 cost: '7'
@@ -19,6 +23,13 @@ combat: Ranged
 
 faction: Horde
 
+race: Troll
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: Vol'jin has +X ATK, where X is the combined damage on Trolls in your party.
@@ -26,5 +37,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Shadow Hunter

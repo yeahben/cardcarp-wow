@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Demon
+
 trait:
 
 cost: '5'
@@ -17,6 +20,11 @@ health: 3
 
 combat: Melee
 
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: At the start of your turn, the player with the most resources destroys one of them. If two or more players are tied, you choose which one destroys a resource.
@@ -24,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Demon

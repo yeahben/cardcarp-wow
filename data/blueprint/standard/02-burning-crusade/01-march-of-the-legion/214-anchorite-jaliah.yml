@@ -17,12 +17,19 @@ health: 7
 
 combat: Holy
 
+race: Draenei
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Aldor Reputation When an ally in your party is destroyed, Jaliah heals 2 damage from each hero and ally in your party.
+    text: Aldor Reputation (Can't put Scryer cards in your deck.)
+  - type: Ability
+    text: When an ally in your party is destroyed, Jaliah heals 2 damage from each hero and ally in your party.
 
 regulation:
 
 errata: []
-
-temp: Draenai Priest

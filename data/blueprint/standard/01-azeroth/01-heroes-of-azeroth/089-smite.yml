@@ -14,6 +14,11 @@ cost: '5'
 class:
   - Priest
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
     text: Your hero deals 4 holy damage to target hero or ally. That damage can't be prevented.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Holy

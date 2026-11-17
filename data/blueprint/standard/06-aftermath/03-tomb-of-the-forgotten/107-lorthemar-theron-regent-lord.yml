@@ -19,12 +19,23 @@ combat: Ranged
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Hunter
+
+limit:
+  - name: Lor'themar
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Each player plays with the top card of his deck revealed. On your turn, you may play any cards revealed this way. (Pay costs as normal.)
+    text: Each player plays with the top card of his deck revealed.
+  - type: Ability
+    text: On your turn, you may play any cards revealed this way. (Pay costs as normal.)
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Hunter

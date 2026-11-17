@@ -7,9 +7,33 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Draenei
+
 trait:
 
-rule: []
+health: 27
+
+faction: Horde
+
+race: Orc
+
+class:
+  - Rogue
+
+rule:
+  - type: Ability
+    position: Front
+    text: Garona's Trickery
+  - type: Ability
+    position: Front
+    text: '{basic} {1}, Flip Garona → Target ally you control has Stealth this turn.'
+  - type: Ability
+    position: Reverse
+    text: Garona's Treachery
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {2} → When an ally you control deals damage to an opposing hero this turn, Garona has +1 ATK this turn.'
 
 regulation:
 

@@ -9,12 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: Players can't concede this turn. If a player would lose the game this turn, he wins instead.
+    text: Players can't concede this turn.
+  - type: Ability
+    text: If a player would lose the game this turn, he wins instead.
 
 regulation:
 
 errata: []
-
-temp: ''

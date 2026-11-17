@@ -15,12 +15,17 @@ class:
   - Paladin
   - Priest
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Put target ally from your graveyard into play. If you do, attach this ability to it. Ongoing : At the start of each turn, your hero heals all damage from attached ally.'
+    text: Put target ally from your graveyard into play. If you do, attach this ability to it.
+  - type: Ability
+    text: 'Ongoing: At the start of each turn, your hero heals all damage from attached ally.'
 
 regulation:
 
 errata: []
-
-temp: Holy

@@ -7,7 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Spirit
+
 trait:
+  - 2 XP
 
 damage: 2
 
@@ -15,14 +19,19 @@ health: 14
 
 combat: Shadow
 
+class:
+  - Paladin
+
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: "Boss Desecration : When Springvale attacks, if the MARKED hero's controller controls no ready resources, Springvale deals 10 shadow damage to the MARKED hero."
+    text: Boss (The Dungeon hero can't be attacked.)
+  - type: Ability
+    text: "Desecration: When Springvale attacks, if the MARKED hero's controller controls no ready resources, Springvale deals 10 shadow damage to the MARKED hero."
 
 regulation:
 
 errata: []
-
-temp: Spirit Paladin

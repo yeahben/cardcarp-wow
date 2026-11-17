@@ -13,13 +13,23 @@ health: 26
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Priest
+
+talent:
+  - Holy
+
+profession:
+  - Herbalism
+  - Enchanting
+
 rule:
   - type: Ability
     position: Front
-    text: 6 , Flip Marta → Put target ally card from your graveyard into play if its cost is less than or equal to the number of resources you have. Use only on your turn.
+    text: '{6}, Flip Marta → Put target ally card from your graveyard into play if its cost is less than or equal to the number of resources you have. Use only on your turn.'
 
 regulation:
 
 errata: []
-
-temp: Human Priest

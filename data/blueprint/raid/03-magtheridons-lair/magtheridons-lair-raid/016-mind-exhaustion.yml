@@ -11,12 +11,14 @@ trait:
 
 cost: '1'
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target hero or ally, and Magtheridon deals 4 fire damage to it. Ongoing : Attached character can't exhaust to attach a Cube."
+    text: Attach to target hero or ally, and Magtheridon deals 4 fire damage to it.
+  - type: Ability
+    text: "Ongoing: Attached character can't exhaust to attach a Cube."
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -11,12 +11,12 @@ trait:
 
 cost: '3'
 
-instant: Put target ally into its owner's hand.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Put target ally into its owner's hand.
 
 regulation:
 
 errata: []
-
-temp: ''

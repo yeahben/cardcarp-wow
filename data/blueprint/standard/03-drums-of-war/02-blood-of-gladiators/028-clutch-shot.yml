@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Hunter
 
-instant: Target ally has +2 ATK this turn. A second target ally has -2 ATK this turn.
+talent:
+  - Marksmanship
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target ally has +2 ATK this turn. A second target ally has -2 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Marksmanship

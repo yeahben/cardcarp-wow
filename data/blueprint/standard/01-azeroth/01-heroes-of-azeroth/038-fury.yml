@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Cat
+
 trait:
 
 cost: '5'
@@ -20,6 +23,12 @@ combat: Melee
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
     text: Ferocity
@@ -27,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Cat

@@ -14,12 +14,17 @@ cost: '0'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally you control. Ongoing : Attached ally has +3 .'
+    text: Attach to target ally you control.
+  - type: Ability
+    text: 'Ongoing: Attached ally has +3 {health}.'
 
 regulation:
 
 errata: []
-
-temp: Discipline

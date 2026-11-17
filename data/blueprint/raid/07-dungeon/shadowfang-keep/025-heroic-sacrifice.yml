@@ -9,14 +9,14 @@ category:
 
 trait:
 
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: 'Raiders choose one: Godfrey deal 4 melee damage to each Raiding hero and ally; or the Raiders choose a Raider, and Godfrey deals 8 melee damage to each hero and ally he controls.'
+    text: 'Raiders choose one: Godfrey deals 4 melee damage to each Raiding hero and ally; or the Raiders choose a Raider, and Godfrey deals 8 melee damage to each hero and ally he controls.'
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -14,6 +14,11 @@ cost: '4'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
     text: Ready all of target opponent's exhausted resources. Your hero deals 1 shadow damage to his hero for each resource readied this way.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Discipline

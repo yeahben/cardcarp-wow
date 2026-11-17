@@ -14,12 +14,15 @@ cost: '6'
 class:
   - Priest
 
-instant: Each opponent puts three allies from his party into their owners' hands.
+talent:
+  - Shadow
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Each opponent puts three allies from his party into their owners' hands.
 
 regulation:
 
 errata: []
-
-temp: Shadow

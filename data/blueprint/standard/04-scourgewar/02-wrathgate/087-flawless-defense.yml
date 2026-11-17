@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Warrior
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Your hero has Protector . Your hero has +1 ATK while defending.'
+    text: 'Ongoing: Your hero has Protector.'
+  - type: Ability
+    text: Your hero has +1 ATK while defending.
 
 regulation:
 
 errata: []
-
-temp: Protection

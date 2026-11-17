@@ -11,7 +11,7 @@ trait:
 
 cost: '5'
 
-damage: 3
+damage: 4
 
 health: 3
 
@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+instant: true
+
 rule:
   - type: Ability
-    text: This ally is instant on each opponent's turn. When this ally enters play, you may exhaust target ready hero or ally. If it's your turn, draw a card. Otherwise, this ally deals 1 melee damage to that character.
+    text: When this ally enters play, you may exhaust target hero or ally. If it's not your turn, this ally deals 1 melee damage to that character. If it's your turn, draw a card.
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

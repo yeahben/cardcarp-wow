@@ -7,22 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Mace
+
 trait:
 
 cost: '7'
 
+damage: 1
+
+strike: 7
+
+combat: Melee
+
 class:
   - Druid
-  - Priest
   - Paladin
+  - Priest
   - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: At the start of your turn, you may choose a or race and destroy this weapon. If you do, destroy all allies not of that race.
+    text: At the start of your turn, you may choose a {horde} or {alliance} race and destroy this weapon. If you do, destroy all allies not of that race.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

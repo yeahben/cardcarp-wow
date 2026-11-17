@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Mechagnome
+
 trait:
 
 cost: '8'
@@ -17,12 +20,14 @@ health: 0
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: Artifact This ally has +ATK and + equal to the hour.
+    text: Artifact (You may play this card from your graveyard.)
+  - type: Ability
+    text: This ally has +ATK and +{health} equal to the hour.
 
 regulation:
 
 errata: []
-
-temp: Mechagnome

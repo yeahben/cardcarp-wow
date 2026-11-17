@@ -7,27 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
   - Druid
-  - Paladin
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+limit:
+  - name: Trinket
+    count: 2
+
+instant: false
 
 rule:
   - type: Ability
-    text: Engineering Hero Required → Remove the top card of your deck from the game. Your hero deals ranged damage equal to that card's cost to target ally.
+    text: Engineering Hero Required
+  - type: Ability
+    text: "{activate} → Remove the top card of your deck from the game. Your hero deals ranged damage equal to that card's cost to target ally."
 
 regulation:
 
 errata: []
-
-temp: Item Trinket

@@ -7,19 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '6'
 
+defense: 2
+
 class:
   - Shaman
 
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you play a ability, you may pay 1 . If you do, your hero deals 2 nature damage divided as you choose to up to two target heroes and/or allies.
+    text: When you play a {shaman} ability, you may pay {1}. If you do, your hero deals 2 nature damage divided as you choose to up to two target heroes and/or allies.
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

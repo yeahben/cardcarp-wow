@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Traitor
+
 trait:
 
 cost: '5'
@@ -14,12 +17,14 @@ cost: '5'
 class:
   - Priest
 
-instant: 'Traitor Hero Required Ongoing : When damage is healed from an opposing hero or ally, your hero deals double that much shadow damage to that character.'
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Traitor Hero Required
+  - type: Ability
+    text: 'Ongoing: When damage is healed from an opposing hero or ally, your hero deals double that much shadow damage to that character.'
 
 regulation:
 
 errata: []
-
-temp: Traitor

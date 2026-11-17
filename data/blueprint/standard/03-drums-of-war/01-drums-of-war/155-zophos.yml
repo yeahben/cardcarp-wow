@@ -19,12 +19,19 @@ combat: Holy
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When Zophos defends, he deals 3 unpreventable holy damage to target attacking ally.
+    text: Protector
+  - type: Ability
+    text: When Zophos defends, he deals 3 unpreventable holy damage to target attacking ally.
 
 regulation:
 
 errata: []
-
-temp: Draenei Paladin

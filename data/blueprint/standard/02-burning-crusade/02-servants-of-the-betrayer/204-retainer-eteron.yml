@@ -17,12 +17,21 @@ health: 4
 
 combat: Melee
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Scryer Reputation Sabotage: Hand When Eteron sabotages an opponent's hand, look at it and choose up to two cards. That opponent puts those cards into his resource row face down and exhausted."
+    text: Scryer Reputation
+  - type: Ability
+    text: 'Sabotage: Hand'
+  - type: Ability
+    text: When Eteron sabotages an opponent's hand, look at it and choose up to two cards. That opponent puts those cards into his resource row face down and exhausted.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'You may destroy any number of abilities attached to your hero. Ongoing : Your hero has +1 ATK while attacking for each 5 damage on it.'
+    text: You may destroy any number of abilities attached to your hero.
+  - type: Ability
+    text: 'Ongoing: Your hero has +1 ATK while attacking for each 5 damage on it.'
 
 regulation:
 
 errata: []
-
-temp: Fury

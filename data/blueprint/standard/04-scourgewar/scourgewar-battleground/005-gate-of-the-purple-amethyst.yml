@@ -6,9 +6,18 @@ layout: Standard
 
 category:
 
+subtype:
+  - Strand Gate
+
 trait:
 
-rule: []
+capture: 8
+
+instant: false
+
+rule:
+  - type: Ability
+    text: When this gate is destroyed, your opponent puts a Demolisher into play. If the Red Gate has been destroyed, put the Yellow Gate and two Cannons into play.
 
 regulation:
 

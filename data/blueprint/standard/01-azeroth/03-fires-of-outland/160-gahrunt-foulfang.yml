@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: Remove three ally cards in your graveyard from the game → Target ally in your party has Ferocity this turn.
+    text: Remove three ally cards in your graveyard from the game → Target ally in your party has ferocity this turn.
 
 regulation:
 
 errata: []
-
-temp: Orc Warlock

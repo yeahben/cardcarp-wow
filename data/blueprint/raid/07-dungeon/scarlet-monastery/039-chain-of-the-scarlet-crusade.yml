@@ -1,0 +1,32 @@
+name: Chain of the Scarlet Crusade
+
+origin: scarlet-monastery-039
+
+layout: Standard
+
+category:
+  - Equipment
+
+subtype:
+  - Armor Set
+  - Mail
+
+trait:
+
+defense: 5
+
+limit:
+  - name: Armor Set
+    count: 1
+
+instant: false
+
+rule:
+  - type: Ability
+    text: This armor exhausts to prevent the first damage Mograine would be dealt each turn.
+  - type: Ability
+    text: Scarlet allies have Untargetable while this armor is ready.
+
+regulation:
+
+errata: []

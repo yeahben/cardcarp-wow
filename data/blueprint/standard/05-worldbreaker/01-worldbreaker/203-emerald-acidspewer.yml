@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Green
+  - Dragonkin
+
 trait:
 
 cost: '5'
@@ -17,6 +21,8 @@ health: 5
 
 combat: Nature
 
+instant: false
+
 rule:
   - type: Ability
     text: When a resource you control is turned face down, you may have target player shuffle his graveyard into his deck.
@@ -24,5 +30,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Green Dragonkin

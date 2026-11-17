@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+talent:
+  - Restoration
+
+profession:
+  - Mining
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Dorn → Dorn heals 2 damage from each friendly hero and ally.
+    text: '{2}, Flip Dorn → Dorn heals 2 damage from each friendly hero and ally.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

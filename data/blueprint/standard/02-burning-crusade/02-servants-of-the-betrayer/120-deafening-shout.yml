@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Shout
+
 trait:
 
 cost: '7'
@@ -14,12 +17,15 @@ cost: '7'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Opposing allies have -3 ATK / -3 health.'
+    text: 'Ongoing: Opposing allies have -3 ATK / -3 health.'
 
 regulation:
 
 errata: []
-
-temp: Fury Shout

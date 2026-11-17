@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Tol'vir
+
 trait:
 
 cost: '4'
@@ -17,14 +20,18 @@ health: 5
 
 combat: Holy
 
+class:
+  - Paladin
+  - Priest
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 'Empower Priest : When this ally enters play, if you control another Priest hero or ally, you may have target player shuffle all allies from his graveyard into his deck.'
+    text: 'Empower Priest: When this ally enters play, if you control another Priest hero or ally, you may have target player shuffle all allies from his graveyard into his deck.'
 
 regulation:
 
 errata: []
-
-temp: Tol'vir Paladin Priest

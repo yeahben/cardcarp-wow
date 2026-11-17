@@ -7,16 +7,23 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Black Temple
+
 trait:
 
 cost: '2'
 
+limit:
+  - name: Aura
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : Opposing heroes and allies can't be healed."
+    text: "Ongoing: Opposing heroes and allies can't be healed."
 
 regulation:
 
 errata: []
-
-temp: Black Temple

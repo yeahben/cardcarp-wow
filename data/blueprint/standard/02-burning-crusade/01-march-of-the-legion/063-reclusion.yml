@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Paladin
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally. Ongoing : Prevent all damage that attached ally would deal.'
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: Prevent all damage that attached ally would deal.'
 
 regulation:
 
 errata: []
-
-temp: Protection

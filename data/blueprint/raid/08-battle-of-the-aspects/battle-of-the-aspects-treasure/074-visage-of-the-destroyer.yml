@@ -7,22 +7,39 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Staff
+
 trait:
 
 cost: '7'
 
+damage: 1
+
+strike: 5
+
+combat: Shadow
+
 class:
   - Druid
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this weapon enters play, you may remove target ally from the game. If you do, your hero heals damage from itself equal to that ally's ATK. When this weapon leaves play, put that removed ally into play under its owner's control.
+    text: When this weapon enters play, you may remove target ally from the game. If you do, your hero heals damage from itself equal to that ally's ATK.
+  - type: Ability
+    text: When this weapon leaves play, put that removed ally into play under its owner's control.
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Staff

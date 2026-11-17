@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Shaman
 
-instant: As an additional cost to play this ability, you may exhaust two allies you control. Your hero deals 2 nature damage to target hero or ally, or 6 if you paid the additional cost.
+talent:
+  - Elemental
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: As an additional cost to play this ability, you may exhaust two allies you control.
+  - type: Ability
+    text: Your hero deals 2 nature damage to target hero or ally, or 6 if you paid the additional cost.
 
 regulation:
 
 errata: []
-
-temp: Elemental

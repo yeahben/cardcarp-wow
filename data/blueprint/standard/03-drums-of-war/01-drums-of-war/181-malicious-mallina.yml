@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: As Mallina enters play, choose arcane, fire, frost, nature, or shadow. Mallina has the chosen resistance .
+    text: As Mallina enters play, choose arcane, fire, frost, nature, or shadow.
+  - type: Ability
+    text: Mallina has the chosen resistance.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

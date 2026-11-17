@@ -11,6 +11,8 @@ trait:
 
 cost: '2'
 
+instant: false
+
 rule:
   - type: Ability
     text: Exhaust all opposing allies. They can't ready during their controllers' next ready step.
@@ -18,5 +20,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

@@ -19,6 +19,13 @@ combat: Fire
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Mage
+
+instant: false
+
 type: Arena
 
 rule:
@@ -28,5 +35,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Mage

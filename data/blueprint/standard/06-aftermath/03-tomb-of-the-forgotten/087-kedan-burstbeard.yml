@@ -19,6 +19,13 @@ combat: Arcane
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, if you control an equipment, this ally may deal 1 arcane damage to each opposing hero and ally.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Mage

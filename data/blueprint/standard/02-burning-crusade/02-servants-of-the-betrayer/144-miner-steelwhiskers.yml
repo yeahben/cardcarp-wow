@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When Steelwhiskers protects, put the top two cards of target opponent's deck into his graveyard.
+    text: Protector
+  - type: Ability
+    text: When Steelwhiskers protects, put the top two cards of target opponent's deck into his graveyard.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Warrior

@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Target hero or ally has -1 health this turn.
+    text: '{activate} → Target hero or ally has -1 health this turn.'
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

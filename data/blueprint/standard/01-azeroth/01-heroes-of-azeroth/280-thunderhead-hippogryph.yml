@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Hippogryph
+
 trait:
 
 cost: '4'
@@ -17,12 +20,14 @@ health: 3
 
 combat: Melee
 
+instant: false
+
 rule:
   - type: Ability
-    text: ': Thunderhead Hippogryph has Elusive . : Thunderhead Hippogryph has Ferocity .'
+    text: '{alliance}: Thunderhead Hippogryph has elusive.'
+  - type: Ability
+    text: '{horde}: Thunderhead Hippogryph has ferocity.'
 
 regulation:
 
 errata: []
-
-temp: Hippogryph

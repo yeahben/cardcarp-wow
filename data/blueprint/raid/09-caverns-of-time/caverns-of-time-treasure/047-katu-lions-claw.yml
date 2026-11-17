@@ -1,4 +1,4 @@
-name: Katu Lions-Claw
+name: Katu Lion's-Claw
 
 origin: caverns-of-time-treasure-047
 
@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Tribe : When this or another Tauren ally enters play under your control, target ally has +2 ATK and Stealth this turn.'
+    text: 'Tribe: When this or another Tauren ally enters play under your control, target ally has +2 ATK and Stealth this turn.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

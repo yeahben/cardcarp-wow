@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Priest
 
-instant: Target a friendly hero and a friendly ally. The next time each of them would be dealt damage this turn, prevent it.
+talent:
+  - Discipline
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Target a friendly hero and a friendly ally. The next time each of them would be dealt damage this turn, prevent it.
 
 regulation:
 
 errata: []
-
-temp: Discipline

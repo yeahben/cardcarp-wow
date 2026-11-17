@@ -1,4 +1,4 @@
-name: Windrunners Heartseeker
+name: Windrunner's Heartseeker
 
 origin: assault-on-icecrown-citadel-treasure-027
 
@@ -7,19 +7,37 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Crossbow
+
 trait:
 
 cost: '5'
 
+damage: 0
+
+strike: 0
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Long-Range When this weapon enters play, put two 1 / 1 Undead ally tokens into play. This weapon has +1 ATK for each Undead you control.
+    text: Long-Range
+  - type: Ability
+    text: When this weapon enters play, put two 1 {melee} / 1 {health} Undead ally tokens into play.
+  - type: Ability
+    text: This weapon has +1 ATK for each Undead you control.
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Crossbow

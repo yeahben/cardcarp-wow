@@ -7,21 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '4'
 
+defense: 0
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: This armor enters play with two +1 counters on it. Remove a +1 counter from this armor → The next time your hero would deal damage with an ability this turn, it deals that much +1 instead.
+    text: This armor enters play with two +1 {def} counters on it.
+  - type: Ability
+    text: '{basic} Remove a +1 {def} counter from this armor → The next time your hero would deal damage with an ability this turn, it deals that much +1 instead.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

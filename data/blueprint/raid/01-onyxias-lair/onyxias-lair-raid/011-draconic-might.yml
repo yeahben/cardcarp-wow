@@ -11,12 +11,12 @@ trait:
 
 cost: '1'
 
-instant: Onyxia has +X ATK while attacking this turn, where X is the number of opposing heroes.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Onyxia has +X ATK while attacking this turn, where X is the number of opposing heroes.
 
 regulation:
 
 errata: []
-
-temp: ''

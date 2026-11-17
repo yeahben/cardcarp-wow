@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Traitor
+
 trait:
 
 cost: '4'
@@ -14,12 +17,20 @@ cost: '4'
 class:
   - Paladin
 
+limit:
+  - name: Seal
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Traitor Hero Required Ongoing : When an ally is destroyed by combat damage dealt by your hero with a weapon, put that ally from its owner's graveyard into play under your control. 2 , Destroy Seal of Betrayal → Gain control of target ally that your hero dealt combat damage to this turn."
+    text: Traitor Hero Required
+  - type: Ability
+    text: "Ongoing: When an ally is destroyed by combat damage dealt by your hero with a weapon, put that ally from its owner's graveyard into play under your control."
+  - type: Ability
+    text: '{2}, Destroy Seal of Betrayal → Gain control of target ally that your hero dealt combat damage to this turn.'
 
 regulation:
 
 errata: []
-
-temp: Traitor

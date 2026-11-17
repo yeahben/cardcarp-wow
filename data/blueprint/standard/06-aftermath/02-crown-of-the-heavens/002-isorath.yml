@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Iso'rath
+
 trait:
+
+health: 21
 
 type: Monster
 
 rule:
   - type: Ability
     position: Front
-    text: Your starting and maximum hand sizes are nine cards. 10 → Flip Iso'rath face down.
+    text: Your starting and maximum hand sizes are nine cards.
+  - type: Ability
+    position: Front
+    text: "{10} → Flip Iso'rath face down."
   - type: Ability
     position: Reverse
-    text: "(Printed: 32 ) → Destroy a non-Hero card of your choice. Deckbuilding: You can't put or cards in your deck."
+    text: Your starting and maximum hand sizes are nine cards.
+  - type: Ability
+    position: Reverse
+    text: '{activate} → Destroy target non-hero card.'
+  - type: Ability
+    position: Reverse
+    text: "Deckbuilding: You can't put {horde}, {alliance}, or class cards in your deck."
 
 regulation:
 
 errata: []
-
-temp: Iso'rath 21

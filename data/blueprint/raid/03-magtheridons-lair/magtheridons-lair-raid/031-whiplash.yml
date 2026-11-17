@@ -11,12 +11,14 @@ trait:
 
 cost: '1'
 
-instant: Exhaust an opposing ally for each card above seven in your hand. If Magtheridon is Unleashed, gain a Blood.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Exhaust an opposing ally for each card above seven in your hand.
+  - type: Ability
+    text: If Magtheridon is Unleashed, gain a Blood.
 
 regulation:
 
 errata: []
-
-temp: ''

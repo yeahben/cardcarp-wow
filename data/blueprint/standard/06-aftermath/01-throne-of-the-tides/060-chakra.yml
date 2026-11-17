@@ -14,12 +14,19 @@ cost: '3'
 class:
   - Priest
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Holy Talent Ongoing : If your hero or an ally you control would deal damage, it deals that much +1 instead. If your hero or an ally you control would heal damage, it heals that much +1 instead.'
+    text: Holy Talent (You can't put Discipline Talents or Shadow Talents in your deck.)
+  - type: Ability
+    text: 'Ongoing: If your hero or an ally you control would deal damage, it deals that much +1 instead.'
+  - type: Ability
+    text: If your hero or an ally you control would heal damage, it heals that much +1 instead.
 
 regulation:
 
 errata: []
-
-temp: Holy

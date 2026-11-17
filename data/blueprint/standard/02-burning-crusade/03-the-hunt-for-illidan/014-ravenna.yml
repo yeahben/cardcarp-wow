@@ -13,13 +13,23 @@ health: 27
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+talent:
+  - Subtlety
+
+profession:
+  - Mining
+  - Alchemy
+
 rule:
   - type: Ability
     position: Front
-    text: Flip Ravenna → Target ally you control has Stealth this turn.
+    text: Flip Ravenna → Target ally in your party has stealth this turn.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

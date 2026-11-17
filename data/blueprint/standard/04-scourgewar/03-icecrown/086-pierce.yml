@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target ally, and your hero deals 2 melee damage to it. Ongoing : Attached ally has -2 .'
+    text: Attach to target ally, and your hero deals 2 melee damage to it.
+  - type: Ability
+    text: 'Ongoing: Attached ally has -2 {health}.'
 
 regulation:
 
 errata: []
-
-temp: Arms

@@ -19,12 +19,20 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Orcs in your party have Ferocity .
+    text: Orcs in your party have ferocity.
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : When this ability enters play, you may put target opposing ability into its owner's hand. Opponents pay 1 more to play abilities."
+    text: "Ongoing: When this ability enters play, you may put target opposing ability into its owner's hand."
+  - type: Ability
+    text: Opponents pay {1} more to play abilities.
 
 regulation:
 
 errata: []
-
-temp: Affliction

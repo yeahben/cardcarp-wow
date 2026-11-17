@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target opposing ally. Ongoing : At the start of your turn, remove attached ally and all other opposing allies from the game.'
+    text: Attach to target opposing ally.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, remove attached ally and all other opposing allies from the game.'
 
 regulation:
 
 errata: []
-
-temp: Affliction

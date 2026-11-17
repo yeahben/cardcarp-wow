@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - King
+
 trait:
 
 cost: '9'
@@ -19,12 +22,22 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warrior
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Opposing heroes and allies have -1 / -1 for each different card type you control.
+    text: Protector
+  - type: Ability
+    text: Opposing heroes and allies have -1 / -1 for each different card type you control.
 
 regulation:
 
 errata: []
-
-temp: Human Warrior King

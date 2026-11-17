@@ -14,12 +14,17 @@ cost: '5'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Put target ally on top of its owner's deck. Ongoing : Opposing allies enter play exhausted."
+    text: Put target ally on top of its owner's deck.
+  - type: Ability
+    text: 'Ongoing: Opposing allies enter play exhausted.'
 
 regulation:
 
 errata: []
-
-temp: Fury

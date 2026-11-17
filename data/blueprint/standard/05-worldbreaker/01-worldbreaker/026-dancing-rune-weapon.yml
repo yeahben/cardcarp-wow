@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '1'
@@ -14,12 +17,17 @@ cost: '1'
 class:
   - Death Knight
 
+talent:
+  - Blood
+
+instant: false
+
 rule:
   - type: Ability
-    text: Blood Hero Required Put a weapon with cost less than or equal to the number of resources you control from your hand into play. At the end of this turn, put that weapon from play into your hand.
+    text: Blood Hero Required
+  - type: Ability
+    text: Put a weapon with cost less than or equal to the number of resources you control from your hand into play. At the end of this turn, put that weapon from play into your hand.
 
 regulation:
 
 errata: []
-
-temp: Blood Talent

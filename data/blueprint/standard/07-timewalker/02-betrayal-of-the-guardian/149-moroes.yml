@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Risen
+
 trait:
 
 cost: '3'
@@ -17,14 +20,29 @@ health: 2
 
 combat: Melee
 
+class:
+  - Rogue
+
+limit:
+  - name: Moroes
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 'Stealth , Spellshield When Moroes deals combat damage to a defending hero, choose one of the following at random and put it into play: 2 / 2 Priest Spirit Monster ally token with Absorb , 2 / 2 Paladin Spirit Monster ally token with Protector , 2 / 2 Warrior Spirit Monster ally token with Ferocity .'
+    text: Stealth, Spellshield
+  - type: Ability
+    text: 'When Moroes deals combat damage to a defending hero, choose one of the following at random and put it into play:'
+  - type: Ability
+    text: 2 {shadow} / 2 {health} Priest Spirit Monster ally token with Absorb.
+  - type: Ability
+    text: 2 {holy} / 2 {health} Paladin Spirit Monster ally token with Protector.
+  - type: Ability
+    text: 2 {melee} / 2 {health} Warrior Spirit Monster ally token with Ferocity.
 
 regulation:
 
 errata: []
-
-temp: Risen Rogue

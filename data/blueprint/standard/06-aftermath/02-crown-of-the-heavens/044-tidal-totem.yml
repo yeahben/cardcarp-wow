@@ -6,6 +6,7 @@ layout: Standard
 
 category:
   - Ability
+  - Ally
 
 trait:
 
@@ -20,14 +21,23 @@ combat: Frost
 class:
   - Shaman
 
-instant: "Ongoing : When this Totem enters play, it heals 3 damage from target hero or ally. Mend 3 (Totems can't attack.)"
+talent:
+  - Restoration
 
-type: Ally
+limit:
+  - name: Water Totem
+    count: 1
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: When this Totem enters play, it heals 3 damage from target hero or ally.'
+  - type: Ability
+    text: Mend 3 (At the start of your turn, this Totem may heal 3 damage from target hero or ally.)
+  - type: Ability
+    text: (Totems can't attack.)
 
 regulation:
 
 errata: []
-
-temp: Restoration

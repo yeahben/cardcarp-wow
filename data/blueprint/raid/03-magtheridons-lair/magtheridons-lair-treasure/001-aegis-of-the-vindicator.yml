@@ -7,13 +7,25 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Shield
+
 trait:
 
 cost: '4'
 
+defense: 2
+
 class:
   - Paladin
   - Shaman
+
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
@@ -22,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Armor Shield

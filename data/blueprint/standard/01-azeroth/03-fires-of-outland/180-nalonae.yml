@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: You may destroy one of your resources rather than pay Nalonae's cost.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Blood Elf Priest

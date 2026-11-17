@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Finishing Move
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Rogue
 
-instant: As an additional cost to play Eviscerate, remove up to five Combo cards in your graveyard from the game. Your hero deals X melee damage to target hero or ally, where X is 2 plus the number of Combo cards removed.
+talent:
+  - Assassination
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: As an additional cost to play Eviscerate, remove up to five Combo cards in your graveyard from the game.
+  - type: Ability
+    text: Your hero deals X melee damage to target hero or ally, where X is 2 plus the number of Combo cards removed.
 
 regulation:
 
 errata: []
-
-temp: Assassination Finishing Move

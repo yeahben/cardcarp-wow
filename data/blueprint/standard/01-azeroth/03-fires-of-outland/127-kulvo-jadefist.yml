@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When Kulvo Jadefist attacks, he has -2 ATK and -2 health this turn.
+    text: Protector
+  - type: Ability
+    text: When Kulvo Jadefist attacks, he has -2 ATK and -2 health this turn.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Warrior

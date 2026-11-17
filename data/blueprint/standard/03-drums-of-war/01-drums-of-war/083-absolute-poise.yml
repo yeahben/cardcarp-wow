@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Warrior
 
-instant: Interrupt target ability or equipment.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Interrupt target ability or equipment card.
 
 regulation:
 
 errata: []
-
-temp: Protection

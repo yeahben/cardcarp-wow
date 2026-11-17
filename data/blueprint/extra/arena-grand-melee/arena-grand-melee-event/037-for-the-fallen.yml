@@ -9,12 +9,12 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When a player strikes with a weapon, he may act it out. If he does, he draws a card.'
+    text: 'Ongoing: When a player strikes with a weapon, he may act it out. If he does, he draws a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

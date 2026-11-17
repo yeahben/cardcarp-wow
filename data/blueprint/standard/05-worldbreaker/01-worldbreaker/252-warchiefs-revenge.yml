@@ -1,4 +1,4 @@
-name: Warchiefs Revenge
+name: Warchief's Revenge
 
 origin: worldbreaker-252
 
@@ -13,10 +13,12 @@ faction: Horde
 
 rule:
   - type: Ability
-    text: 'Goblin Hero Required On your turn: For each ally you control, you may pay 1 to complete this quest. Reward : Your hero deals 1 nature damage to target hero or ally for each 1 paid this way.'
+    text: Goblin Hero Required
+  - type: Ability
+    text: 'On your turn: For each ally you control, you may pay {1} to complete this quest.'
+  - type: Ability
+    text: 'Reward: Your hero deals 1 nature damage to target hero or ally for each {1} paid this way.'
 
 regulation:
 
 errata: []
-
-temp: ''

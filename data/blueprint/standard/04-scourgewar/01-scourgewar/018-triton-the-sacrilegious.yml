@@ -13,6 +13,18 @@ health: 29
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Death Knight
+
+talent:
+  - Unholy
+
+profession:
+  - Blacksmithing
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
@@ -21,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Undead Death Knight

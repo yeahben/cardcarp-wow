@@ -13,10 +13,18 @@ health: 30
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Death Knight
+
+talent:
+  - Blood
+
 rule:
   - type: Ability
     position: Front
-    text: 4 → Flip Ayaka
+    text: '{4} → Flip Ayaka'
   - type: Ability
     position: Reverse
     text: When Ayaka deals 1 or more damage, she heals 1 damage from herself.
@@ -24,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Death Knight

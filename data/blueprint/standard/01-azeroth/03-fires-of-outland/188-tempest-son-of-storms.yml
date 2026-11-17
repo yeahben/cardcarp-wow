@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
-instant: When this ally enters play, ready a hero or ally you control.
+race: Tauren
 
-rule: []
+class:
+  - Shaman
+
+instant: true
+
+rule:
+  - type: Ability
+    text: When Tempest enters play, ready a hero or ally in your party.
 
 regulation:
 
 errata: []
-
-temp: Tauren Shaman

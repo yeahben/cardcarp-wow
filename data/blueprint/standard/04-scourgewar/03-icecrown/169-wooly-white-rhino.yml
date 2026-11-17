@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Rhino
+
 trait:
 
 cost: '2'
@@ -17,12 +20,20 @@ health: 3
 
 combat: Melee
 
+limit:
+  - name: Mount
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Frost Resistance You pay 1 less to complete quests. When you place a resource face up, choose one: Your hero can't be protected against this turn; or the next time your hero would deal damage this turn, it's unpreventable. (Mounts can't attack or be attacked.)"
+    text: Frost Resistance
+  - type: Ability
+    text: You pay {1} less to complete quests.
+  - type: Ability
+    text: "When you place a resource face up, choose one: Your hero can't be protected against this turn; or the next time your hero would deal damage this turn, it's unpreventable. (Mounts can't attack or be attacked.)"
 
 regulation:
 
 errata: []
-
-temp: Rhino

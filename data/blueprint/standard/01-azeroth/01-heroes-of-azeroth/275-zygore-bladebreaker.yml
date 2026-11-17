@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, you may destroy target armor or weapon.
+    text: When Zygore Bladebreaker enters play, you may destroy target armor or weapon.
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

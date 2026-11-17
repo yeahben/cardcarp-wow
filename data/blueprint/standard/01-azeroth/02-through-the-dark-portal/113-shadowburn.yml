@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,19 @@ cost: '2'
 class:
   - Warlock
 
-instant: Destruction Hero Required As an additional cost to play Shadowburn, destroy one of your resources. Your hero deals 4 shadow damage to target hero or ally. When that character is destroyed this turn, put the top card of your deck into your resource row face down and exhausted.
+talent:
+  - Destruction
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Destruction Hero Required
+  - type: Ability
+    text: As an additional cost to play Shadowburn, destroy one of your resources.
+  - type: Ability
+    text: Your hero deals 4 shadow damage to target hero or ally. When that character is destroyed this turn, put the top card of your deck into your resource row face down and exhausted.
 
 regulation:
 
 errata: []
-
-temp: Destruction Talent

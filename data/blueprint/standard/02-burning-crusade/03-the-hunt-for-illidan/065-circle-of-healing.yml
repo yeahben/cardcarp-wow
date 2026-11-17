@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Priest
 
-instant: Holy Talent Your hero heals 10 damage from each friendly hero and ally.
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Holy Hero Required
+  - type: Ability
+    text: Your hero heals 10 damage from each friendly hero and ally.
 
 regulation:
 
 errata: []
-
-temp: Holy

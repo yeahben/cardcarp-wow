@@ -13,13 +13,23 @@ health: 30
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Warrior
+
+talent:
+  - Protection
+
+profession:
+  - Alchemy
+  - Blacksmithing
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Bonewall → Target hero or ally is a Protector this turn.
+    text: '{2}, Flip Bonewall → Target hero or ally is a protector this turn.'
 
 regulation:
 
 errata: []
-
-temp: Undead Warrior

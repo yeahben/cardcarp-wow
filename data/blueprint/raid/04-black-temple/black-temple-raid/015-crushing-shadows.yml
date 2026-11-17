@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Traitor
+
 trait:
 
 cost: '2'
@@ -14,12 +17,14 @@ cost: '2'
 class:
   - Priest
 
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required Each opponent discards a random card, and your hero deals shadow damage to his hero equal to that card's cost.
+    text: Traitor Hero Required
+  - type: Ability
+    text: Each opponent discards a random card, and your hero deals shadow damage to his hero equal to that card's cost.
 
 regulation:
 
 errata: []
-
-temp: Traitor

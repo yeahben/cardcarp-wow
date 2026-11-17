@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Horseman
+
 trait:
 
 damage: 5
@@ -15,7 +19,12 @@ health: 10
 
 combat: Melee
 
-type: Ally
+race: Dwarf
+
+class:
+  - Death Knight
+
+instant: false
 
 rule:
   - type: Ability
@@ -28,5 +37,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Death Knight Horseman

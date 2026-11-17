@@ -1,4 +1,4 @@
-name: Vengeful Gladiators Felshroud
+name: Vengeful Gladiator's Felshroud
 
 origin: blood-of-gladiators-167
 
@@ -7,19 +7,41 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor Set
+  - Cloth
+
 trait:
 
 cost: '7'
 
+defense: 5
+
 class:
   - Warlock
 
+limit:
+  - name: Chest
+    count: 1
+  - name: Hands
+    count: 1
+  - name: Head
+    count: 1
+  - name: Legs
+    count: 1
+  - name: Shoulder
+    count: 1
+
+instant: false
+
+type: Arena
+
 rule:
   - type: Ability
-    text: On your turn, you can play ability cards that are removed from the game. → Put target opposing ally into its owner's hand.
+    text: On your turn, you can play ability cards that are removed from the game.
+  - type: Ability
+    text: "{activate} → Put target opposing ally into its owner's hand."
 
 regulation:
 
 errata: []
-
-temp: Arena Armor Set Cloth

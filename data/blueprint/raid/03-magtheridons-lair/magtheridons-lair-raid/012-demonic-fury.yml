@@ -11,12 +11,14 @@ trait:
 
 cost: '2'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Demonic Fury enters play exhausted. Ongoing : → You pay 2 less to play your next card this turn.'
+    text: Demonic Fury enters play exhausted.
+  - type: Ability
+    text: 'Ongoing: {activate} → You pay {2} less to play your next card this turn.'
 
 regulation:
 
 errata: []
-
-temp: ''

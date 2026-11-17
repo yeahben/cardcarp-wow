@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Paladin
+
+instant: false
+
 rule:
   - type: Ability
     text: When 1 or more damage is healed from a hero or ally you control, this ally has Assault 2 this turn.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Paladin

@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Priest
 
-instant: Your hero heals 3 damage from each friendly hero and ally. For each character healed this way, ready a resource you control.
+talent:
+  - Holy
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero heals 3 damage from each friendly hero and ally. For each character healed this way, ready a resource you control.
 
 regulation:
 
 errata: []
-
-temp: Holy

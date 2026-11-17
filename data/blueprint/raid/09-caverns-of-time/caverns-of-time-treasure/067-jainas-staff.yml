@@ -1,4 +1,4 @@
-name: Jainas Staff
+name: Jaina's Staff
 
 origin: caverns-of-time-treasure-067
 
@@ -7,23 +7,40 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Two-Handed
+  - Staff
+
 trait:
 
 cost: '5'
 
+damage: 1
+
+strike: 5
+
+combat: Arcane
+
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this weapon enters play, remove the top four cards of your deck from the game. → Choose an ability removed this way. You may play that ability this turn. (Pay costs as normal.) When you do, copy each other non-Ongoing ability removed this way. You may play those copies without paying their costs.
+    text: When this weapon enters play, remove the top four cards of your deck from the game.
+  - type: Ability
+    text: '{activate} → Choose an ability removed this way. You may play that ability this turn. (Pay costs as normal.) If you do, copy each other non-Ongoing ability removed this way. You may play those copies without paying their costs.'
 
 regulation:
 
 errata: []
-
-temp: 2H Weapon Staff

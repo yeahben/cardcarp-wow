@@ -14,14 +14,21 @@ cost: '2'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 type: Arena
 
 rule:
   - type: Ability
-    text: 'Preparation Ongoing : When Arcane Intuition enters play, draw a card. Your maximum hand size is increased by one.'
+    text: Preparation (On your first turn, you may play this card without paying its cost.)
+  - type: Ability
+    text: 'Ongoing: When Arcane Intuition enters play, draw a card.'
+  - type: Ability
+    text: Your maximum hand size is increased by one.
 
 regulation:
 
 errata: []
-
-temp: ''

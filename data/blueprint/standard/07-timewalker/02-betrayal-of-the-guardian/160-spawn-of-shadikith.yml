@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Bat
+  - Beast
+
 trait:
 
 cost: '4'
@@ -17,14 +21,14 @@ health: 5
 
 combat: Nature
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 4 → Exhaust all opposing heroes and allies.
+    text: '{basic} {4} → Exhaust all opposing heroes and allies.'
 
 regulation:
 
 errata: []
-
-temp: Bat Beast

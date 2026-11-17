@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '3'
@@ -14,12 +17,17 @@ cost: '3'
 class:
   - Shaman
 
+talent:
+  - Enhancement
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Enhancement Hero Required Ongoing : When your hero deals combat damage with one or more Melee weapons for the first time each turn, ready up to X of your resources, where X is the combined strike cost of those weapons.'
+    text: Enhancement Hero Required
+  - type: Ability
+    text: 'Ongoing: When your hero deals combat damage with one or more Melee weapons for the first time each turn, ready up to X of your resources, where X is the combined strike cost of those weapons.'
 
 regulation:
 
 errata: []
-
-temp: Enhancement Talent

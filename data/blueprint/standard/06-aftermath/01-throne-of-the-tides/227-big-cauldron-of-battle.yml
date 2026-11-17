@@ -7,28 +7,41 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '6'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: 'At the start of your turn, choose one at random: Pain; Mind; Cunning; Power; or Time. Pain: Your hero deals 1 arcane damage to itself. Mind: Draw a card. Cunning: Each opponent discards a card. Power: Your hero deals 3 melee damage to each opposing hero and ally. Time: Repeat this process two more times.'
+    text: 'At the start of your turn, choose one at random: Pain; Mind; Cunning; Power; or Time.'
+  - type: Ability
+    text: 'Pain: Your hero deals 1 arcane damage to itself.'
+  - type: Ability
+    text: 'Mind: Draw a card.'
+  - type: Ability
+    text: 'Cunning: Each opponent discards a card.'
+  - type: Ability
+    text: 'Power: Your hero deals 3 melee damage to each opposing hero and ally.'
+  - type: Ability
+    text: 'Time: Repeat this process two more times.'
 
 regulation:
 
 errata: []
-
-temp: Item

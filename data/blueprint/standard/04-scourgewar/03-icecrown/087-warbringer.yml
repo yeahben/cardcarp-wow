@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '1'
@@ -14,12 +17,17 @@ cost: '1'
 class:
   - Warrior
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Protection Hero Required Ongoing : → abilities and equipment in your hand are instant this turn until you play a card.'
+    text: Protection Hero Required
+  - type: Ability
+    text: 'Ongoing: {activate} → {warrior} abilities and equipment in your hand are instant this turn until you play a card.'
 
 regulation:
 
 errata: []
-
-temp: Protection Talent

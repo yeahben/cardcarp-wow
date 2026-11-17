@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: Pets you control have Long-Range .
+    text: Pets you control have Long-Range. (When they attack, defenders deal no combat damage to them.)
 
 regulation:
 
 errata: []
-
-temp: Human Hunter

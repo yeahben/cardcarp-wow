@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'On your turn: → This ally deals 3 shadow damage to each hero and ally.'
+    text: 'On your turn: {activate} → This ally deals 3 shadow damage to each hero and ally.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Warlock

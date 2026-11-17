@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Naga
+
 trait:
 
 cost: '5'
@@ -17,14 +20,17 @@ health: 5
 
 combat: Frost
 
+class:
+  - Mage
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: 'Empower Mage : When this ally enters play, if you control another Mage hero or ally, you may draw two cards.'
+    text: 'Empower Mage: When this ally enters play, if you control another Mage hero or ally, you may draw two cards.'
 
 regulation:
 
 errata: []
-
-temp: Naga Mage

@@ -13,13 +13,16 @@ health: 26
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Priest
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 4 , Flip Kaave → Kaave heals 3 damage from each hero and ally you control.'
+    text: 'On your turn: {4}, Flip Kaave → Kaave heals 3 damage from each hero and ally you control.'
 
 regulation:
 
 errata: []
-
-temp: Draenai Priest

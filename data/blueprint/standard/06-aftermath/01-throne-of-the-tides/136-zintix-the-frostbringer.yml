@@ -19,12 +19,17 @@ combat: Frost
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally deals damage to an opposing hero, you may search your deck for an attachment that could target that hero. Play it immediately, targeting that hero, without paying its cost.
+    text: When this ally deals damage to an opposing hero, you may search your deck for an attachment and play it immediately targeting that hero, without paying its cost.
 
 regulation:
 
 errata: []
-
-temp: Gnome Death Knight

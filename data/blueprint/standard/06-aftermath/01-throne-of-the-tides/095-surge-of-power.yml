@@ -11,12 +11,12 @@ trait:
 
 cost: '3'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Token allies you control have +1 / +1.'
+    text: 'Ongoing: Token allies you control have +1 / +1.'
 
 regulation:
 
 errata: []
-
-temp: ''

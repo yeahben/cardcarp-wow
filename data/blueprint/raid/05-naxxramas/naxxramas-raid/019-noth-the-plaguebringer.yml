@@ -7,20 +7,34 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Necromancer
+
 trait:
+
+health: 4
+
+race: Human
 
 type: Boss
 
 rule:
   - type: Ability
     position: Front
-    text: Assault 3 At the end of your turn, put a Plagued Warrior into play and flip Noth.
+    text: Assault 3
+  - type: Ability
+    position: Front
+    text: At the end of your turn, put a Plagued Warrior into play and flip Noth.
   - type: Ability
     position: Reverse
-    text: Elusive Noth can't attack. At the end of your turn, put a Plagued Champion into play and flip Noth.
+    text: Elusive
+  - type: Ability
+    position: Reverse
+    text: Noth can't attack.
+  - type: Ability
+    position: Reverse
+    text: At the end of your turn, put a Plagued Champion into play and flip Noth.
 
 regulation:
 
 errata: []
-
-temp: Human Necromancer 4

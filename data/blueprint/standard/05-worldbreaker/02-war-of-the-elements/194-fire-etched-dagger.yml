@@ -7,23 +7,40 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Dagger
+
 trait:
 
 cost: '3'
 
+damage: 1
+
+strike: 4
+
+combat: Fire
+
 class:
-  - Priest
   - Druid
   - Mage
-  - Warlock
+  - Priest
   - Shaman
+  - Warlock
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When this weapon enters play, you may put target Dragonkin ally from your graveyard into your hand. 2 , Exhaust your hero → Your hero deals 1 fire damage to target hero or ally for each Dragonkin you control.
+    text: When this weapon enters play, you may put target Dragonkin ally from your graveyard into your hand.
+  - type: Ability
+    text: '{2}, Exhaust your hero → Your hero deals 1 fire damage to target hero or ally for each Dragonkin you control.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Dagger

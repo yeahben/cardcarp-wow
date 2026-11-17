@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Engineer
+
 trait:
 
 cost: '4'
@@ -17,12 +20,21 @@ health: 3
 
 combat: Melee
 
+race: Gnome
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Argent Crusade Reputation Protector When this or another Unique ally enters play under your control, you may draw a card.
+    text: Argent Crusade Reputation
+  - type: Ability
+    text: Protector
+  - type: Ability
+    text: When this or another Unique ally enters play under your control, you may draw a card.
 
 regulation:
 
 errata: []
-
-temp: Gnome Engineer

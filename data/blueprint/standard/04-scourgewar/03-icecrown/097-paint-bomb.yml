@@ -11,12 +11,14 @@ trait:
 
 cost: '1'
 
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target ally. Ongoing : As this ability enters play, name a class. Allies in attached ally's party have that class and lose all other classes."
+    text: Attach to target ally and name a class.
+  - type: Ability
+    text: "Ongoing: Allies in attached ally's party have that class and lose all other classes."
 
 regulation:
 
 errata: []
-
-temp: ''

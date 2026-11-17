@@ -19,12 +19,22 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Paladin
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Opposing allies must attack if able and can attack only Bolvar if able. Opposing cards and effects must target Bolvar if able.
+    text: Opposing allies must attack if able and can attack only Bolvar if able.
+  - type: Ability
+    text: Opposing cards and effects must target Bolvar if able.
 
 regulation:
 
 errata: []
-
-temp: Human Paladin

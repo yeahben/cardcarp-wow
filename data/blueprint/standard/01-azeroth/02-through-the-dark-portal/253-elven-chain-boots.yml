@@ -7,18 +7,28 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '3'
 
+defense: 2
+
 class:
   - Hunter
   - Shaman
+
+limit:
+  - name: Feet
+    count: 1
+
+instant: true
 
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

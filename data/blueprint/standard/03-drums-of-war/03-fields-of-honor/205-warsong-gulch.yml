@@ -7,14 +7,19 @@ layout: Standard
 category:
   - Location
 
+subtype:
+  - Battleground
+
 trait:
+
+capture: 2
 
 rule:
   - type: Ability
-    text: When you play a card, add an honor counter. , Remove two honor counters → Target ally is a Protector this turn.
+    text: When you play a card, add an honor counter.
+  - type: Ability
+    text: '{activate}, Remove two honor counters → Target ally is a protector this turn.'
 
 regulation:
 
 errata: []
-
-temp: Battleground

@@ -1,14 +1,42 @@
-name: Dathrohans Ceremonial Hammer
+name: Dathrohan's Ceremonial Hammer
 
 origin: caverns-of-time-treasure-065
 
 layout: Standard
 
 category:
+  - Equipment
+
+subtype:
+  - Weapon
+  - One-Handed
+  - Mace
 
 trait:
 
-rule: []
+cost: '4'
+
+damage: 1
+
+strike: 4
+
+combat: Holy
+
+class:
+  - Druid
+  - Paladin
+  - Priest
+  - Shaman
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
+rule:
+  - type: Ability
+    text: "{basic} {2}, {activate} → Remove target friendly ally from the game, then return it to play under its owner's control."
 
 regulation:
 

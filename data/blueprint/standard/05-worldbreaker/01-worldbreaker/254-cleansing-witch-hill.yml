@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'On your turn: Pay 4 to complete this quest. Reward : Turn target resource face down. Draw a card.'
+    text: 'On your turn: Pay {4} to complete this quest.'
+  - type: Ability
+    text: 'Reward: Turn target resource face down. Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

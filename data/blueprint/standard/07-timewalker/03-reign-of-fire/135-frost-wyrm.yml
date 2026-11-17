@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Scourge
+  - Dragonkin
+
 trait:
 
 cost: '6'
@@ -17,6 +21,8 @@ health: 4
 
 combat: Frost
 
+instant: false
+
 type: Monster
 
 rule:
@@ -26,5 +32,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Scourge Dragonkin

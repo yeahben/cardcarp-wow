@@ -9,16 +9,18 @@ category:
 
 trait:
 
-type: Raid
+instant: false
+
+type: Naxxramas
 
 stage: 9
 
+sequence: 9
+
 rule:
   - type: Ability
-    text: You pay 1 less to play cards this turn.
+    text: You pay {1} less to play cards this turn.
 
 regulation:
 
 errata: []
-
-temp: ''

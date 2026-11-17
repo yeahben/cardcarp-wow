@@ -7,28 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '4'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: When a non-token ally in your party is destroyed, put a 0 / 1 Wisp ally token into play. Wisps you control have Harmonize .
+    text: When a non-token ally in your party is destroyed, put a 0 {nature} / 1 {health} Wisp ally token into play.
+  - type: Ability
+    text: Wisps you control have Harmonize.
 
 regulation:
 
 errata: []
-
-temp: Item

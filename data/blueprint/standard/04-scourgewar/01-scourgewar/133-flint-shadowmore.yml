@@ -19,6 +19,16 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Rogue
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: If this ally would deal combat damage, he may deal that much divided as you choose among any number of opposing heroes and/or allies instead.
@@ -26,5 +36,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Human Rogue

@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, he deals 2 shadow damage to target ally you control.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Worgen Warlock

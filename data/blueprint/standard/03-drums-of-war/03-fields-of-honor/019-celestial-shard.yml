@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Your hero deals 3 arcane damage to target hero or ally. Ongoing : At the start of your turn, you may put Celestial Shard into its owner's hand."
+    text: Your hero deals 3 arcane damage to target hero or ally.
+  - type: Ability
+    text: "Ongoing: At the start of your turn, you may put Celestial Shard into its owner's hand."
 
 regulation:
 
 errata: []
-
-temp: Balance

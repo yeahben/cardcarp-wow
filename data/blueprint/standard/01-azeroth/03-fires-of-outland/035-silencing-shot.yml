@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '4'
@@ -14,12 +17,19 @@ cost: '4'
 class:
   - Hunter
 
-instant: Marksmanship Hero Required You may exhaust one of your Ranged weapons rather than pay Silencing Shot's cost. Your hero deals 2 ranged damage to target hero or ally. If you targeted a hero, its controller can't play abilities this turn, and you may interrupt an ability card he played.
+talent:
+  - Marksmanship
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Marksmanship Hero Required
+  - type: Ability
+    text: You may exhaust one of your Ranged weapons rather than pay Silencing Shot's cost.
+  - type: Ability
+    text: Your hero deals 2 ranged damage to target hero or ally. If you targeted a hero, its controller can't play abilities this turn, and you may interrupt an ability card he played.
 
 regulation:
 
 errata: []
-
-temp: Marksmanship Talent

@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Hunter
 
-instant: Your hero deals 2 melee damage to target attacker, and that attacker has -2 ATK this turn.
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 2 melee damage to target attacker, and that attacker has -2 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Survival

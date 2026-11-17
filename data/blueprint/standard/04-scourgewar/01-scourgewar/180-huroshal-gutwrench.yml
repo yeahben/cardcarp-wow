@@ -1,4 +1,4 @@
-name: Huroshal Gutwrench
+name: Huro'shal Gutwrench
 
 origin: scourgewar-180
 
@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally is dealt damage, you may destroy target ability.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Shaman

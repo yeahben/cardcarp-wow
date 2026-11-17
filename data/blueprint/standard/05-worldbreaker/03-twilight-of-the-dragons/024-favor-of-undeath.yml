@@ -14,12 +14,19 @@ cost: '1'
 class:
   - Death Knight
 
+talent:
+  - Blood
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target friendly ally. Ongoing : Attached ally has Assault 2 . When attached ally is destroyed, target opposing ally has -1 this turn.'
+    text: Attach to target friendly ally.
+  - type: Ability
+    text: 'Ongoing: Attached ally has Assault 2.'
+  - type: Ability
+    text: When attached ally is destroyed, target opposing ally has -1 {health} this turn.
 
 regulation:
 
 errata: []
-
-temp: Blood

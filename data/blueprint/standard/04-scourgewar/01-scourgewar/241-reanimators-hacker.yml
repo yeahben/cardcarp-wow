@@ -1,4 +1,4 @@
-name: Reanimators Hacker
+name: Reanimator's Hacker
 
 origin: scourgewar-241
 
@@ -7,22 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Axe
+
 trait:
 
 cost: '4'
 
+damage: 3
+
+strike: 2
+
+combat: Melee
+
 class:
-  - Warrior
   - Death Knight
   - Hunter
   - Shaman
+  - Warrior
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 2 , Destroy this weapon → Put target ally from your graveyard into your hand.
+    text: '{2}, Destroy this weapon → Put target ally from your graveyard into your hand.'
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Axe

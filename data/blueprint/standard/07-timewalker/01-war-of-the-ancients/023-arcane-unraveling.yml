@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Mage
 
-instant: Interrupt target ability and remove it from the game. If a non-Ongoing ability is removed from the game this way, you may play it immediately without paying it's cost.
+talent:
+  - Arcane
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Interrupt target ability and remove it from the game. If a non-Ongoing ability is removed from the game this way, you may play it immediately without paying its cost.
 
 regulation:
 
 errata: []
-
-temp: Arcane

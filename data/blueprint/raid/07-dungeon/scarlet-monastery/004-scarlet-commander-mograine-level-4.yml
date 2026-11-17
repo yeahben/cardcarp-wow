@@ -1,0 +1,38 @@
+name: Scarlet Commander Mograine — Level 4
+
+origin: scarlet-monastery-004
+
+layout: Standard
+
+category:
+  - Hero
+
+trait:
+  - 5 XP
+
+damage: 0
+
+health: 50
+
+combat: Melee
+
+race: Human
+
+class:
+  - Paladin
+
+type: Dungeon
+
+rule:
+  - type: Ability
+    text: Flip 3 (At the start of the Dungeon turn, flip three Dungeon cards.)
+  - type: Ability
+    text: Assault 10
+  - type: Ability
+    text: Dungeon allies have +5 / +5.
+  - type: Ability
+    text: Whenever the third Dungeon ally enters play during a turn, Mograine deals 10 unpreventable holy damage to each Raiding hero.
+
+regulation:
+
+errata: []

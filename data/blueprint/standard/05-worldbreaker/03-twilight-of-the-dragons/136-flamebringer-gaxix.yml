@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: This ally has +2 / +2 while you control another card.
+    text: This ally has +2 / +2 while you control another {fire} card.
 
 regulation:
 
 errata: []
-
-temp: Goblin Mage

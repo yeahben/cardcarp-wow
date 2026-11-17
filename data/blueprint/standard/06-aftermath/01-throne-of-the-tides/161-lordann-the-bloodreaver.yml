@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector This ally has +3 / +3 while your hero has 15 or more damage.
+    text: Protector
+  - type: Ability
+    text: This ally has +3 / +3 while your hero has 15 or more damage.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Warrior

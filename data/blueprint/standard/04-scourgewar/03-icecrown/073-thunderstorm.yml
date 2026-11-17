@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '4'
@@ -14,12 +17,17 @@ cost: '4'
 class:
   - Shaman
 
-instant: Elemental Hero Required Exhaust all opposing heroes and allies. Your hero deals 1 nature damage to each of them. Ready a resource you control for each character dealt damage this way.
+talent:
+  - Elemental
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Elemental Hero Required
+  - type: Ability
+    text: Exhaust all opposing heroes and allies. Your hero deals 1 nature damage to each of them. Ready a resource for each character dealt damage this way.
 
 regulation:
 
 errata: []
-
-temp: Elemental Talent

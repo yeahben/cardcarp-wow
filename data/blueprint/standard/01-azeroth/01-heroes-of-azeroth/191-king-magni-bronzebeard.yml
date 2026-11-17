@@ -19,12 +19,22 @@ combat: Melee
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Warrior
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: At the end of each turn, put an Alliance Dwarf Warrior ally token with 1 ATK and 1 health into play. Dwarves in your party have Protector .
+    text: At the end of each turn, put an Alliance Dwarf Warrior ally token with 1 ATK and 1 health into play.
+  - type: Ability
+    text: Dwarves in your party have protector.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Warrior

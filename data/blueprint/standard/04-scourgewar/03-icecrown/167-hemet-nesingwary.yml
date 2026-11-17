@@ -17,6 +17,16 @@ health: 4
 
 combat: Ranged
 
+race: Dwarf
+
+class:
+  - Hunter
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
     text: Hunters you control can be exhausted to pay costs as though they were resources.
@@ -24,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

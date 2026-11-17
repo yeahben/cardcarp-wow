@@ -19,12 +19,22 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector When another ally enters your party, you may destroy target ally.
+    text: Protector
+  - type: Ability
+    text: When another {horde} ally enters your party, you may destroy target ally.
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

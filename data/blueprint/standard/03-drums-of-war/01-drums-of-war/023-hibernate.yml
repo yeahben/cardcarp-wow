@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Druid
 
-instant: Put target non-token ally into its owner's resource row face down, then exhaust it.
+talent:
+  - Balance
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Put target non-token ally into its owner's resource row face down, then exhaust it.
 
 regulation:
 
 errata: []
-
-temp: Balance

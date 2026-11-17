@@ -19,12 +19,21 @@ combat: Melee
 
 faction: Horde
 
+race: Goblin
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: Ferocity , Stealth This ally can attack only heroes. At the end of your turn, destroy this ally.
+    text: Ferocity, Stealth
+  - type: Ability
+    text: This ally can attack only heroes.
+  - type: Ability
+    text: At the end of your turn, destroy this ally.
 
 regulation:
 
 errata: []
-
-temp: Goblin Rogue

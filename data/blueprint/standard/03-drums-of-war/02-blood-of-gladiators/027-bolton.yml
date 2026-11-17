@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Wind
+  - Serpent
+
 trait:
 
 cost: '1'
@@ -20,12 +24,16 @@ combat: Nature
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Long-Range
+    text: Long-Range (Defenders deal no combat damage to this character.)
 
 regulation:
 
 errata: []
-
-temp: Wind Serpent

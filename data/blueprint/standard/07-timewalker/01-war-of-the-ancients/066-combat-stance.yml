@@ -14,12 +14,21 @@ cost: '4'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+limit:
+  - name: Stance
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Ongoing : You can't play cards other than allies and Stances, and you can't complete quests. Each ally you control has Assault X , where X is its cost."
+    text: "Ongoing: You can't play cards other than allies and Stances, and you can't complete quests."
+  - type: Ability
+    text: Each ally you control has Assault X, where X is its cost.
 
 regulation:
 
 errata: []
-
-temp: Arms

@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Pandaren
+  - Monk
+
 trait:
 
 cost: '6'
@@ -17,12 +21,18 @@ health: 7
 
 combat: Melee
 
+limit:
+  - name: Chen
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When Chen enters play, you may say "Is trouble brewing?" If you do, until the start of your next turn, opposing heroes and allies attack at random and must attack if able. 3 , Say "You seem a little parched." → Another target hero or ally has +3 ATK and attacks opposing heroes and allies at random this turn.
+    text: When Chen enters play, you may say "Is trouble brewing?" If you do, until the start of your next turn, opposing heroes and allies attack at random and must attack if able.
+  - type: Ability
+    text: '{basic} {3}, Say "You seem a little parched." → Another target hero or ally has +3 ATK and attacks opposing heroes and allies at random this turn.'
 
 regulation:
 
 errata: []
-
-temp: Pandaren Monk

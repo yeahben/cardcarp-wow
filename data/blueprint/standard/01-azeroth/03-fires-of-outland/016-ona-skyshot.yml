@@ -13,13 +13,23 @@ health: 29
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Hunter
+
+talent:
+  - Marksmanship
+
+profession:
+  - Engineering
+  - Jewelcrafting
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Ona Skyshot → Ready target Ranged weapon.
+    text: '{2}, Flip Ona Skyshot → Ready target Ranged weapon.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Hunter

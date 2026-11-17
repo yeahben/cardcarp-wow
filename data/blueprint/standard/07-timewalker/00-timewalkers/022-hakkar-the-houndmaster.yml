@@ -1,4 +1,4 @@
-name: Hakkar The Houndmaster
+name: Hakkar the Houndmaster
 
 origin: timewalkers-022
 
@@ -7,9 +7,31 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Demon
+
 trait:
 
-rule: []
+health: 28
+
+class:
+  - Hunter
+
+type: Monster
+
+rule:
+  - type: Ability
+    position: Front
+    text: Hound of Hakkar
+  - type: Ability
+    position: Front
+    text: '{basic} {3}, Flip Hakkar → Put a 2 {shadow} / 2 {health} Felhound Demon Monster ally token into play.'
+  - type: Ability
+    position: Reverse
+    text: Hakkar's Wrath
+  - type: Ability
+    position: Reverse
+    text: 'Once per game: {basic} {4} → Target Demon ally you control has +2 ATK and Long-Range this turn.'
 
 regulation:
 

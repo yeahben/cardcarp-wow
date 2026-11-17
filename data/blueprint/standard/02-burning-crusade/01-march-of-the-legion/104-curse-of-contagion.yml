@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Curse
+
 trait:
 
 cost: '2'
@@ -14,12 +17,19 @@ cost: '2'
 class:
   - Warlock
 
-instant: "Attach to target ally. Ongoing : At the start of your turn, your hero deals 1 shadow damage to attached ally. When attached ally is destroyed, you may put Curse of Contagion from its owner's graveyard into play attached to target ally."
+talent:
+  - Affliction
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Attach to target ally.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero deals 1 shadow damage to attached ally.'
+  - type: Ability
+    text: When attached ally is destroyed, you may put Curse of Contagion from its owner's graveyard into play attached to target ally.
 
 regulation:
 
 errata: []
-
-temp: Affliction Curse

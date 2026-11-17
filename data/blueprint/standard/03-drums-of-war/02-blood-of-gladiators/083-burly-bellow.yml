@@ -15,12 +15,16 @@ class:
   - Druid
   - Warrior
 
-instant: Opposing allies have -5 ATK this turn.
+talent:
+  - Feral
+  - Fury
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Opposing allies have -5 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Feral Fury

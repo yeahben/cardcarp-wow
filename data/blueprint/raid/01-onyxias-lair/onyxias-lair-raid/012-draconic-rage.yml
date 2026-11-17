@@ -11,12 +11,12 @@ trait:
 
 cost: '1'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Onyxia has +X ATK while attacking, where X is the current stage.'
+    text: 'Ongoing: Onyxia has +X ATK while attacking, where X is the current stage.'
 
 regulation:
 
 errata: []
-
-temp: ''

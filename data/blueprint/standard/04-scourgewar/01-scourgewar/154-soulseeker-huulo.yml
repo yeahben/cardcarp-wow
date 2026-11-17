@@ -19,12 +19,17 @@ combat: Shadow
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: This ally has Assault 1 while you control another hero or ally with Assault , and Mend 1 while you control another hero or ally with Mend .
+    text: This ally has Assault 1 while you control another hero or ally with Assault, and Mend 1 while you control another hero or ally with Mend.
 
 regulation:
 
 errata: []
-
-temp: Draenei Priest

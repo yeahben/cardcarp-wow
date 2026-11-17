@@ -1,4 +1,4 @@
-name: The Windlords Gift
+name: The Windlord's Gift
 
 origin: war-of-the-elements-107
 
@@ -11,12 +11,14 @@ trait:
 
 cost: '3'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : When this ability enters play, put a 2 / 1 Air Elemental ally token into play. 1 , Destroy this ability → Target ally has Untargetable this turn.'
+    text: 'Ongoing: When this ability enters play, put a 2 {nature} / 1 {health} Air Elemental ally token into play.'
+  - type: Ability
+    text: '{1}, Destroy this ability → Target ally has Untargetable this turn.'
 
 regulation:
 
 errata: []
-
-temp: ''

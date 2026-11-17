@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Rogue
 
+talent:
+  - Combat
+
+instant: false
+
 rule:
   - type: Ability
-    text: Target ally has +3 ATK this turn. Target ally has -3 ATK this turn.
+    text: Target ally has +3 ATK this turn.
+  - type: Ability
+    text: Target ally has -3 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Combat

@@ -7,7 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Spirit
+
 trait:
+  - 2 XP
 
 damage: 1
 
@@ -15,14 +19,19 @@ health: 16
 
 combat: Melee
 
+class:
+  - Priest
+
+instant: false
+
 type: Dungeon
 
 rule:
   - type: Ability
-    text: 'Boss Summon Worgen Spirit : When Silverlaine attacks, search the Dungeon deck for an ally named Razorclaw the Butcher and put him into play. If Razorclaw is not in the Dungeon deck, search for an ally named Odo the Blindwatcher and put him into play instead.'
+    text: Boss (The Dungeon hero can't be attacked.)
+  - type: Ability
+    text: 'Summon Worgen Spirit: When Silverlaine attacks, search the Dungeon deck for an ally named Razorclaw the Butcher and put him into play. If Razorclaw is not in the Dungeon deck, search for an ally named Odo the Blindwatcher and put him into play instead.'
 
 regulation:
 
 errata: []
-
-temp: Spirit Priest

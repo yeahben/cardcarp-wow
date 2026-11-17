@@ -14,6 +14,11 @@ cost: '2'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
     text: Target player discards a card and you draw a card.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Affliction

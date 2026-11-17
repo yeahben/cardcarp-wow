@@ -14,12 +14,21 @@ cost: '3'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+limit:
+  - name: Stance
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : If your hero would deal damage, it deals that amount of damage plus 1 instead. If your hero would be dealt damage, it is dealt that amount of damage plus 1 instead.'
+    text: 'Ongoing: If your hero would deal damage, it deals that amount of damage plus 1 instead.'
+  - type: Ability
+    text: If your hero would be dealt damage, it is dealt that amount of damage plus 1 instead.
 
 regulation:
 
 errata: []
-
-temp: Fury

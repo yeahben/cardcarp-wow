@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Shaman
 
-instant: Look at the top three cards of your deck. Put one into your hand and the rest into your graveyard.
+talent:
+  - Enhancement
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Look at the top three cards of your deck. Put one into your hand and the rest into your graveyard.
 
 regulation:
 
 errata: []
-
-temp: Enhancement

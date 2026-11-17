@@ -13,18 +13,23 @@ cost: '2'
 
 damage: 2
 
-health: 2
+health: 3
 
 combat: Frost
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: 2 → Token allies you control have +1 ATK this turn.
+    text: '{2} → Token allies you control have +1 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Troll Death Knight

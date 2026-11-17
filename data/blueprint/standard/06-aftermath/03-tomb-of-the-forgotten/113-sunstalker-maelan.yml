@@ -19,10 +19,15 @@ combat: Melee
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Rogue
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Rogue

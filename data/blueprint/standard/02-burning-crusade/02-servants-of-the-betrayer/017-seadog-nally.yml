@@ -7,19 +7,30 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Traitor
+
 trait:
+  - Southsea Freebooters
 
 health: 28
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
+profession:
+  - Herbalism
+  - Skinning
+
 rule:
   - type: Ability
     position: Front
-    text: 2 , Flip Nally, destroy a friendly ally → Nally deals ranged damage to target ally equal to that friendly ally's ATK. Southsea Freebooters
+    text: "{2}, Flip Nally, destroy a friendly ally → Nally deals ranged damage to target ally equal to that friendly ally's ATK."
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

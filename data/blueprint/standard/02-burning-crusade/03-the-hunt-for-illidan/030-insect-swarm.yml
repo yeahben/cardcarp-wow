@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '1'
@@ -14,12 +17,19 @@ cost: '1'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Balance Hero Required Attach to target hero or ally, and your hero deals 2 nature damage to it. Ongoing : Attached character has -2 ATK.'
+    text: Balance Hero Required
+  - type: Ability
+    text: Attach to target hero or ally, and your hero deals 2 nature damage to it.
+  - type: Ability
+    text: 'Ongoing: Attached character has -2 ATK.'
 
 regulation:
 
 errata: []
-
-temp: Balance Talent

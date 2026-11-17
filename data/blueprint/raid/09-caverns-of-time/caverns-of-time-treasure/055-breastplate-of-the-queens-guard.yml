@@ -1,4 +1,4 @@
-name: Breastplate of the Queens Guard
+name: Breastplate of the Queen's Guard
 
 origin: caverns-of-time-treasure-055
 
@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Mail
+
 trait:
 
 cost: '3'
+
+defense: 0
 
 class:
   - Hunter
   - Shaman
 
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: This armor enters play with two +1 counters on it. Remove a +1 counter from this armor → Target ally or weapon has +2 ATK this turn.
+    text: This armor enters play with two +1 {def} counters on it.
+  - type: Ability
+    text: '{basic} Remove a +1 {def} counter from this armor → Target ally or weapon has +2 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Armor Mail

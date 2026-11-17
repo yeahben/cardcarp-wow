@@ -7,19 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Fist
+
 trait:
 
 cost: '6'
 
+damage: 0
+
+strike: 0
+
+combat: Melee
+
 class:
   - Rogue
 
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Dual Wield Assault 6
+    text: Dual Wield
+  - type: Ability
+    text: Assault 6
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Fist

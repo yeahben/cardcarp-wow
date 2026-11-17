@@ -7,7 +7,12 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Banshee
+
 trait:
+  - Kel'Thuzad
 
 damage: 2
 
@@ -15,14 +20,14 @@ health: 2
 
 combat: Shadow
 
-type: Ally
+instant: false
 
 rule:
   - type: Ability
-    text: Melee Resistance When this ally enters play, put target non-hero raiding card into its owner's hand.
+    text: Melee Resistance
+  - type: Ability
+    text: When this ally enters play, put target non-hero raiding card into its owner's hand.
 
 regulation:
 
 errata: []
-
-temp: Banshee

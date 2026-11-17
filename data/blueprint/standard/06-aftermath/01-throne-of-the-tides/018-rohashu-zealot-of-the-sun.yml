@@ -13,13 +13,16 @@ health: 30
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Paladin
+
 rule:
   - type: Ability
     position: Front
-    text: 4 , Flip Rohashu → Rohashu deals 3 unpreventable holy damage to target hero or ally.
+    text: '{4}, Flip Rohashu → Rohashu deals 3 unpreventable holy damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Paladin

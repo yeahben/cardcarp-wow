@@ -11,6 +11,8 @@ trait:
 
 cost: '4'
 
+instant: false
+
 rule:
   - type: Ability
     text: Reveal the top seven cards of your deck. Put all revealed Murloc allies with cost 1 or less into play and the rest on the bottom of your deck.
@@ -18,5 +20,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

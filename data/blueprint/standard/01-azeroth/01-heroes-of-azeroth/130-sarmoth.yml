@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Voidwalker
+  - Demon
+
 trait:
 
 cost: '3'
@@ -20,12 +24,16 @@ combat: Shadow
 class:
   - Warlock
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Opposing heroes and allies can attack only this ally if able.
+    text: Opposing heroes and allies that can attack Sarmoth can attack only Sarmoth.
 
 regulation:
 
 errata: []
-
-temp: Voidwalker Demon

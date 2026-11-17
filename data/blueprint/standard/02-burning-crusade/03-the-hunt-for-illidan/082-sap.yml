@@ -14,12 +14,19 @@ cost: '1'
 class:
   - Rogue
 
+talent:
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target hero or ally and exhaust it. Ongoing : Attached character can't ready during its controller's ready step. When attached character is dealt damage, destroy this ability."
+    text: Attach to target hero or ally and exhaust it.
+  - type: Ability
+    text: "Ongoing: Attached character can't ready during its controller's ready step."
+  - type: Ability
+    text: When attached character is dealt damage, destroy Sap.
 
 regulation:
 
 errata: []
-
-temp: Subtlety

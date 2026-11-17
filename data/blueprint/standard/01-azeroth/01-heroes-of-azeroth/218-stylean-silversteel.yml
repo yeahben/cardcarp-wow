@@ -19,6 +19,13 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: When Stylean Silversteel enters play, she heals 3 damage from each hero and ally in your party.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Human Priest

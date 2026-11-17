@@ -6,6 +6,7 @@ layout: Standard
 
 category:
   - Ability
+  - Ally
 
 trait:
 
@@ -20,14 +21,23 @@ combat: Melee
 class:
   - Shaman
 
-instant: "Ongoing : When this card enters play, it deals 2 nature damage to target hero or ally. Other friendly heroes and allies have Nature Resistance . (Totems can't attack.)"
+talent:
+  - Enhancement
 
-type: Ally
+limit:
+  - name: Earth Totem
+    count: 1
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: When this card enters play, it deals 2 nature damage to target hero or ally.'
+  - type: Ability
+    text: Other friendly heroes and allies have Nature Resistance. (Prevent all nature ({nature}) damage that would be dealt to them.)
+  - type: Ability
+    text: (Totems can't attack.)
 
 regulation:
 
 errata: []
-
-temp: Enhancement

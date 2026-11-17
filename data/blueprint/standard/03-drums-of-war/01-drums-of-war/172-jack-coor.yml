@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Horde
 
+race: Undead
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 , Discard a card → Jack deals 1 fire damage to each ally.
+    text: '{1}, Discard a card → Jack deals 1 fire damage to each ally.'
 
 regulation:
 
 errata: []
-
-temp: Undead Mage

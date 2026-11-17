@@ -1,0 +1,29 @@
+name: Water Elemental
+
+origin: war-of-the-elements-token-004
+
+layout: Standard
+
+category:
+  - Token
+
+subtype:
+  - Ally
+  - Water
+  - Elemental
+
+trait:
+
+damage: 2
+
+health: 1
+
+combat: Frost
+
+instant: false
+
+rule: []
+
+regulation:
+
+errata: []

@@ -5,8 +5,22 @@ origin: through-the-dark-portal-tokens-015
 layout: Standard
 
 category:
+  - Token
+
+subtype:
+  - Ally
+  - Mechanical
+  - Dragonling
 
 trait:
+
+damage: 1
+
+health: 1
+
+combat: Melee
+
+instant: false
 
 rule: []
 

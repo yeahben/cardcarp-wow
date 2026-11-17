@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Spore
+  - Bat
+
 trait:
 
 cost: '1'
@@ -20,12 +24,16 @@ combat: Melee
 class:
   - Hunter
 
+limit:
+  - name: Pet
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, he may deal 1 melee damage to target ally.
+    text: When Bogspike enters play, he may deal 1 melee damage to target ally.
 
 regulation:
 
 errata: []
-
-temp: Spore Bat

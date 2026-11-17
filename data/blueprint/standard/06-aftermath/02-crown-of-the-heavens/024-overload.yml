@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Mage
 
-instant: Interrupt target ally.
+talent:
+  - Arcane
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Interrupt target ally.
 
 regulation:
 
 errata: []
-
-temp: Arcane

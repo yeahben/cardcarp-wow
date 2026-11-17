@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
-    text: 1 → Remove this ally from combat.
+    text: '{1} → Remove this ally from combat.'
 
 regulation:
 
 errata: []
-
-temp: Orc Rogue

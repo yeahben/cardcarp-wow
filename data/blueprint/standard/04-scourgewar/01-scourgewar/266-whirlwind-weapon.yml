@@ -12,14 +12,12 @@ trait:
 class:
   - Warrior
 
-type: Class Restriction
-
 rule:
   - type: Ability
-    text: 'On your turn: Pay 5 to complete this quest. Reward : Your hero deals X melee damage to each opposing ally, where X is the ATK of a Melee weapon you control.'
+    text: 'On your turn: Pay {5} to complete this quest.'
+  - type: Ability
+    text: 'Reward: Your hero deals X melee damage to each opposing ally, where X is the ATK of a Melee weapon you control.'
 
 regulation:
 
 errata: []
-
-temp: ''

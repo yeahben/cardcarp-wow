@@ -1,0 +1,22 @@
+name: You Are Not Prepared!
+
+origin: black-temple-raid-050
+
+layout: Standard
+
+category:
+  - Event
+
+trait:
+
+instant: false
+
+sequence: 20
+
+rule:
+  - type: Ability
+    text: 'Ongoing: When any hero is destroyed, destroy target ability, ally, or equipment.'
+
+regulation:
+
+errata: []

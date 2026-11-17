@@ -7,16 +7,22 @@ layout: Standard
 category:
   - Misc
 
+subtype:
+  - Rune
+  - Baron Geddon
+
 trait:
 
-type: Raid
+instant: false
+
+stage: 5
 
 rule:
   - type: Ability
-    text: At the start of your turn, if a hero is The Bomb, Baron Geddon deals 5 fire damage to that hero and each ally in its party. At the end of your turn, choose an opposing hero to be The Bomb until the end of your next turn.
+    text: At the start of your turn, if a hero is The Bomb, Baron Geddon deals 5 fire damage to that hero and each ally in its party.
+  - type: Ability
+    text: At the end of your turn, choose an opposing hero to be The Bomb until the end of your next turn.
 
 regulation:
 
 errata: []
-
-temp: Baron Geddon Boss 5

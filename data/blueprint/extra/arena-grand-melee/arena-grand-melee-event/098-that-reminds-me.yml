@@ -1,4 +1,4 @@
-name: '"That Reminds Me ..."'
+name: '"That Reminds Me . . ."'
 
 origin: arena-grand-melee-event-098
 
@@ -9,6 +9,8 @@ category:
 
 trait:
 
+instant: false
+
 rule:
   - type: Ability
     text: Search your deck for a card with reminder text, reveal it, and put it into hand. (This is reminder text.)
@@ -16,5 +18,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

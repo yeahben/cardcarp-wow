@@ -7,19 +7,39 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - Gun
+
 trait:
 
 cost: '2'
 
+damage: 0
+
+strike: 0
+
+combat: Ranged
+
 class:
   - Hunter
 
+limit:
+  - name: Ranged
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Long-Range This weapon enters play with two +1 ATK counters. When your hero deals combat damage with this weapon, remove all +1 ATK counters from this weapon. 4 → Add two +1 ATK counters to this weapon.
+    text: Long-Range
+  - type: Ability
+    text: This weapon enters play with two +1 ATK counters.
+  - type: Ability
+    text: When your hero deals combat damage with this weapon, remove all +1 ATK counters from this weapon.
+  - type: Ability
+    text: '{4} → Add two +1 ATK counters to this weapon.'
 
 regulation:
 
 errata: []
-
-temp: Ranged Weapon Gun

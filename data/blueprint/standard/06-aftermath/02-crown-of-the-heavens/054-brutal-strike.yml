@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Warrior
 
+talent:
+  - Fury
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Choose one: Your hero deals 1 melee damage to target ally, or destroy target damaged ally.'
+    text: 'Choose one: Your hero deals 1 melee damage to target ally; or destroy target damaged ally.'
 
 regulation:
 
 errata: []
-
-temp: Fury

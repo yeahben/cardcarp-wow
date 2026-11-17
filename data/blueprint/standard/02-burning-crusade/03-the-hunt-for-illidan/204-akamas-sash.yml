@@ -1,4 +1,4 @@
-name: Akamas Sash
+name: Akama's Sash
 
 origin: the-hunt-for-illidan-204
 
@@ -7,21 +7,35 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '4'
 
+defense: 0
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Waist
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Loyal Hero Required If your hero would deal damage with an ability, it deals that much unpreventable damage +1 instead. When an ally is destroyed by fatal damage dealt with an ability you control, remove that ally from the game.
+    text: Loyal Hero Required
+  - type: Ability
+    text: If your hero would deal damage with an ability, it deals that much unpreventable damage +1 instead.
+  - type: Ability
+    text: When an ally is destroyed by fatal damage dealt with an ability you control, remove that ally from the game.
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

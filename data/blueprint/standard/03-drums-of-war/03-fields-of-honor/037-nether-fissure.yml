@@ -14,12 +14,17 @@ cost: '4'
 class:
   - Mage
 
-instant: Nether Fissure can't be interrupted. Interrupt target card.
+talent:
+  - Arcane
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Nether Fissure can't be interrupted.
+  - type: Ability
+    text: Interrupt target card.
 
 regulation:
 
 errata: []
-
-temp: Arcane

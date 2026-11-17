@@ -1,4 +1,4 @@
-name: Yanna Daishalan
+name: Yanna Dai'shalan
 
 origin: fires-of-outland-009
 
@@ -13,13 +13,23 @@ health: 27
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+talent:
+  - Balance
+
+profession:
+  - Skinning
+  - Leatherworking
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Yanna Dai'shalan → Yanna deals 1 nature damage to target ally for each ally in your party. Use only on your turn.
+    text: "{3}, Flip Yanna Dai'shalan → Yanna deals 1 nature damage to target ally for each ally in your party. Use only on your turn."
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Mage
 
+talent:
+  - Arcane
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : At the start of your turn, add a mana counter to this ability. Then, you may destroy this ability. If you do, draw a card for each mana counter.'
+    text: 'Ongoing: At the start of your turn, add a mana counter to this ability. Then, you may destroy this ability. If you do, draw a card for each mana counter.'
 
 regulation:
 
 errata: []
-
-temp: Arcane

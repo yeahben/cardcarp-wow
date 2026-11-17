@@ -13,13 +13,16 @@ health: 30
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
 rule:
   - type: Ability
     position: Front
-    text: 'On your turn: 2 , Flip Gurzak → Target weapon has +2 ATK this turn.'
+    text: 'On your turn: {2}, Flip Gurzak → Target weapon has +2 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

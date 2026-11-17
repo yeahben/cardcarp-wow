@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '1'
@@ -14,12 +17,17 @@ cost: '1'
 class:
   - Warrior
 
+talent:
+  - Arms
+
+instant: false
+
 rule:
   - type: Ability
-    text: Arms Talent Exhaust all opposing heroes and allies. Your hero has Assault 3 this turn.
+    text: Arms Hero Required
+  - type: Ability
+    text: Exhaust all opposing heroes and allies. Your hero has Assault 3 this turn.
 
 regulation:
 
 errata: []
-
-temp: Arms

@@ -7,20 +7,32 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Tol'vir
+
 trait:
+
+health: 26
+
+class:
+  - Priest
 
 type: Monster
 
 rule:
   - type: Ability
     position: Front
-    text: 8 → Flip Tekahn face down. You pay 8 less to flip Tekahn if you have seven or more allies in your graveyard.
+    text: '{8} → Flip Tekahn face down.'
+  - type: Ability
+    position: Front
+    text: You pay {8} less to flip Tekahn if you have seven or more allies in your graveyard.
   - type: Ability
     position: Reverse
-    text: "At the start of your turn, put two 1 / 1 Tol'vir Ritualist Monster ally tokens into play. Deckbuilding: You can't put or cards in your deck."
+    text: At the start of your turn, put two 1 {shadow} / 1 {health} Tol'vir Ritualist Monster ally tokens into play.
+  - type: Ability
+    position: Reverse
+    text: "Deckbuilding: You can't put {horde} or {alliance} cards in your deck."
 
 regulation:
 
 errata: []
-
-temp: Tol'vir Priest 26

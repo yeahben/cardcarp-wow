@@ -13,16 +13,19 @@ health: 27
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Priest
+
 rule:
   - type: Ability
     position: Front
-    text: 2 → Flip Haruh face down.
+    text: '{2} → Flip Haruh'
   - type: Ability
     position: Reverse
-    text: (Haruh has +5 .)
+    text: (Haruh has +5 {health}.)
 
 regulation:
 
 errata: []
-
-temp: Tauren Priest

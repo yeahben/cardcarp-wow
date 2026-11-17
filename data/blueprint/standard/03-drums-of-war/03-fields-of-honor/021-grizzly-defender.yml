@@ -14,12 +14,21 @@ cost: '3'
 class:
   - Druid
 
-instant: 'Ongoing : Ready heroes and allies in your party have +2 ATK. Your hero is in Bear Form .'
+talent:
+  - Feral
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: Ready heroes and allies in your party have +2 ATK.'
+  - type: Ability
+    text: Your hero is in bear form.
 
 regulation:
 
 errata: []
-
-temp: Feral

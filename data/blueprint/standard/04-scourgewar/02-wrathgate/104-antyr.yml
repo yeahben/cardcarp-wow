@@ -19,6 +19,13 @@ combat: Frost
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, you may destroy target ability that's not attached to a friendly card.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

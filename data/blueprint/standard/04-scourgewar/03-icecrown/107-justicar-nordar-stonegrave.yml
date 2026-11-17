@@ -19,15 +19,17 @@ combat: Frost
 
 faction: Alliance
 
+race: Dwarf
+
 class:
-  - Hunter
+  - Death Knight
+
+instant: false
 
 rule:
   - type: Ability
-    text: Opposing Hunters and Pets have -2 ATK.
+    text: Opposing Hunters and {hunter} Pets have -2 ATK.
 
 regulation:
 
 errata: []
-
-temp: Dwarf Death Knight

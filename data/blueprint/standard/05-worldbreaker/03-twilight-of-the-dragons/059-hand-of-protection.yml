@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Paladin
 
-instant: The next time target ally would be dealt damage this turn, prevent it.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: The next time target ally would be dealt damage this turn, prevent it.
 
 regulation:
 
 errata: []
-
-temp: Protection

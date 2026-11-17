@@ -14,6 +14,11 @@ cost: '3'
 class:
   - Shaman
 
+talent:
+  - Elemental
+
+instant: false
+
 rule:
   - type: Ability
     text: 'Choose one: Your hero deals 5 nature damage to each hero; or your hero heals 5 damage from each hero.'
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Elemental

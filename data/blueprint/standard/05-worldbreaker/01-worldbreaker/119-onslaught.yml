@@ -9,14 +9,20 @@ category:
 
 trait:
 
-type: Dungeon
+cost: '5'
+
+class:
+  - Warrior
+
+talent:
+  - Fury
+
+instant: false
 
 rule:
   - type: Ability
-    text: Dungeon allies have Ferocity this turn. If Mograine would deal damage while attacking this turn, he deals double that much instead.
+    text: Destroy all equipment.
 
 regulation:
 
 errata: []
-
-temp: ''

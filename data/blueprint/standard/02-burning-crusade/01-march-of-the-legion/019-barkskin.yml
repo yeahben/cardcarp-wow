@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Druid
 
-instant: "Ongoing : Your ability, ally, and equipment cards can't be interrupted."
+talent:
+  - Balance
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: "Ongoing: Your ability, ally, and equipment cards can't be interrupted."
 
 regulation:
 
 errata: []
-
-temp: Balance

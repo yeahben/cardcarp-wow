@@ -9,14 +9,14 @@ category:
 
 trait:
 
-type: Gift
+instant: false
 
 rule:
   - type: Ability
-    text: "If the last Raider's hero was destroyed while its controller had no cards in his hand, gain this Gift. Use this Gift: Each Raider draws a card."
+    text: If the last Raider's hero was destroyed while its controller had no cards in his hand, gain this Gift.
+  - type: Ability
+    text: 'Use this Gift: Each Raider draws a card.'
 
 regulation:
 
 errata: []
-
-temp: ''

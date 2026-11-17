@@ -13,13 +13,23 @@ health: 27
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+talent:
+  - Restoration
+
+profession:
+  - Blacksmithing
+  - Inscription
+
 rule:
   - type: Ability
     position: Front
-    text: Flip Lunira, discard a Druid → You pay 1 less to play your next ally this turn.
+    text: Flip Lunira, discard a Druid → You pay {1} less to play your next ally this turn.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

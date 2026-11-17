@@ -11,12 +11,12 @@ trait:
 
 cost: '4'
 
+instant: false
+
 rule:
   - type: Ability
-    text: Target ally has +5 ATK and Smash this turn.
+    text: Target ally has +5 ATK and Smash this turn. (If that ally would deal more than fatal combat damage to a defending ally, it deals the rest to that ally's controller's hero.)
 
 regulation:
 
 errata: []
-
-temp: ''

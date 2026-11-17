@@ -15,12 +15,18 @@ class:
   - Druid
   - Priest
 
+talent:
+  - Restoration
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to your hero. Ongoing : Attached hero has Mend 1 for each Druid and Priest you control.'
+    text: Attach to your hero.
+  - type: Ability
+    text: 'Ongoing: Attached hero has Mend 1 for each Druid and Priest you control.'
 
 regulation:
 
 errata: []
-
-temp: Restoration Holy

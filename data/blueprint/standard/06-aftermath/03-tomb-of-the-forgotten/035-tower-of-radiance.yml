@@ -14,12 +14,21 @@ cost: '4'
 class:
   - Paladin
 
+talent:
+  - Holy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Holy Talent This ability enters play with four radiance counters on it. Ongoing : At the start of your turn, remove a radiance counter from this ability. If none remain, destroy this ability. Your hero has Assault 1 and Mend 1 for each radiance counter on this ability.'
+    text: Holy Talent (You can't include Protection Talents or Retribution Talents in your deck.)
+  - type: Ability
+    text: This ability enters play with four radiance counters on it.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, remove a radiance counter from this ability. If none remain, destroy this ability.'
+  - type: Ability
+    text: Your hero has Assault 1 and Mend 1 for each radiance counter on this ability.
 
 regulation:
 
 errata: []
-
-temp: Holy

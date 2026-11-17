@@ -9,7 +9,7 @@ category:
 
 trait:
 
-type: Raid
+instant: false
 
 rule:
   - type: Ability
@@ -18,5 +18,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

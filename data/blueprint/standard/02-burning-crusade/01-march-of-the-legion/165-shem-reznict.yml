@@ -19,12 +19,17 @@ combat: Nature
 
 faction: Alliance
 
+race: Draenei
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Target up to three heroes and/or allies. Shem deals 3, 2, and 1 nature damage to them, respectively.
+    text: '{activate} → Target up to three heroes and/or allies. Shem deals 3, 2, and 1 nature damage to them, respectively.'
 
 regulation:
 
 errata: []
-
-temp: Draenei Shaman

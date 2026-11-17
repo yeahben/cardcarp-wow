@@ -1,4 +1,4 @@
-name: Natures Vengeance
+name: Nature's Vengeance
 
 origin: wrathgate-034
 
@@ -14,12 +14,17 @@ cost: '5'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: Destroy all resources you control. Put two 1 / 1 Treant ally tokens into play for each resource destroyed this way.
+    text: Destroy all resources you control.
+  - type: Ability
+    text: Put two 1 {melee} / 1 {health} Treant ally tokens into play for each resource destroyed this way.
 
 regulation:
 
 errata: []
-
-temp: Balance

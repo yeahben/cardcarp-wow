@@ -7,21 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Shield
+
 trait:
 
 cost: '2'
 
+defense: 0
+
 class:
   - Paladin
-  - Warrior
   - Shaman
+  - Warrior
+
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: Remove an ally card in your graveyard from the game → Put a bone counter on Wall of the Dead. Wall of the Dead has +1 DEF for each bone counter on it.
+    text: Remove an ally card in your graveyard from the game → Put a bone counter on Wall of the Dead.
+  - type: Ability
+    text: Wall of the Dead has +1 DEF for each bone counter on it.
 
 regulation:
 
 errata: []
-
-temp: Armor Shield

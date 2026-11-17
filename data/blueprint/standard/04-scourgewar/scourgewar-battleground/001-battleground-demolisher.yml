@@ -6,9 +6,18 @@ layout: Standard
 
 category:
 
+subtype:
+  - Strand Demolisher
+
 trait:
 
-rule: []
+capture: 5
+
+instant: false
+
+rule:
+  - type: Ability
+    text: 'On your turn: Exhaust this card and a hero or ally you control → Put two rubble counters on a Cannon or Gate.'
 
 regulation:
 

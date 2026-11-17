@@ -19,6 +19,13 @@ combat: Shadow
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, you may destroy another ability, ally, or equipment you control. If you do, destroy target ability.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Tauren Priest

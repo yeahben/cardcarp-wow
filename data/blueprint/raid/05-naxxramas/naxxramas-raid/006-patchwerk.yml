@@ -7,20 +7,26 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Abomination
+
 trait:
+
+health: 6
 
 type: Boss
 
 rule:
   - type: Ability
     position: Front
-    text: Conspicuous , Assault 10
+    text: Conspicuous, Assault 10
   - type: Ability
     position: Reverse
-    text: Conspicuous , Assault 12 At the start of your turn, you may destroy target ally.
+    text: Conspicuous, Assault 12
+  - type: Ability
+    position: Reverse
+    text: At the start of your turn, you may destroy target ally.
 
 regulation:
 
 errata: []
-
-temp: Abomination 6

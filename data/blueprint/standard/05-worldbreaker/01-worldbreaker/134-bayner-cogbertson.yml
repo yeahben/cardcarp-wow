@@ -19,10 +19,15 @@ combat: Arcane
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Mage
+
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Gnome Mage

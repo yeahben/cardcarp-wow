@@ -13,13 +13,23 @@ health: 29
 
 faction: Horde
 
+race: Blood Elf
+
+class:
+  - Paladin
+
+talent:
+  - Protection
+
+profession:
+  - Mining
+  - Blacksmithing
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Nathadan → If target ally in your party is defending, remove it from combat.
+    text: '{3}, Flip Nathadan → If target ally in your party is defending, remove it from combat.'
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Paladin

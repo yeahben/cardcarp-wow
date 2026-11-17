@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Elemental
+  - Minion
+
 trait:
 
 damage: 2
@@ -15,10 +19,10 @@ health: 1
 
 combat: Melee
 
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: Elemental Minion

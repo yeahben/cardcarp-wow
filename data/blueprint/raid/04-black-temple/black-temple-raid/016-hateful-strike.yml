@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Combo
+  - Traitor
+
 trait:
 
 cost: '2'
@@ -14,12 +18,14 @@ cost: '2'
 class:
   - Rogue
 
-instant: Traitor Hero Required If target player has exactly one ally in his party, destroy it.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Traitor Hero Required
+  - type: Ability
+    text: If target player has exactly one ally in his party, destroy it.
 
 regulation:
 
 errata: []
-
-temp: Combo Traitor

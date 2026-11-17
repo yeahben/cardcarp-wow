@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '2'
@@ -14,12 +17,17 @@ cost: '2'
 class:
   - Paladin
 
-instant: Protection Hero Required Prevent the next 5 damage that would be dealt to your hero by target hero or ally this turn. When damage is prevented this way, your hero deals that amount of holy damage to that character.
+talent:
+  - Protection
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Protection Hero Required
+  - type: Ability
+    text: Prevent the next 5 damage that would be dealt to your hero by target hero or ally this turn. When damage is prevented this way, your hero deals that amount of holy damage to that character.
 
 regulation:
 
 errata: []
-
-temp: Protection Talent

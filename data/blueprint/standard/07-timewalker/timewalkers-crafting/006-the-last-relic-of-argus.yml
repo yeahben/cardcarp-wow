@@ -7,28 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Item
+
 trait:
 
 cost: '2'
 
 class:
-  - Priest
-  - Warrior
-  - Hunter
-  - Rogue
-  - Druid
-  - Paladin
   - Death Knight
+  - Druid
+  - Hunter
   - Mage
-  - Warlock
+  - Paladin
+  - Priest
+  - Rogue
   - Shaman
+  - Warlock
+  - Warrior
+
+instant: false
 
 rule:
   - type: Ability
-    text: You pay 1 less to complete quests. When you complete a quest, your hero heals 3 damage from itself.
+    text: You pay {1} less to complete quests.
+  - type: Ability
+    text: When you complete a quest, your hero heals 3 damage from itself.
 
 regulation:
 
 errata: []
-
-temp: Item

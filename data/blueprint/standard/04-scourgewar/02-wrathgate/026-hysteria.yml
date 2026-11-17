@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Talent
+
 trait:
 
 cost: '4'
@@ -14,12 +17,17 @@ cost: '4'
 class:
   - Death Knight
 
+talent:
+  - Blood
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Blood Hero Required Ongoing : , Put 1 damage on a hero or ally you control → It has Assault 4 this turn.'
+    text: Blood Hero Required
+  - type: Ability
+    text: 'Ongoing: {activate}, Put 1 damage on a hero or ally you control → It has Assault 4 this turn.'
 
 regulation:
 
 errata: []
-
-temp: Blood Talent

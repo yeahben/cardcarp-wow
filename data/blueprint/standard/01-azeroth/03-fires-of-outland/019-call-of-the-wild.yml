@@ -14,12 +14,21 @@ cost: '3'
 class:
   - Druid
 
-instant: 'Ongoing : When your hero attacks, it deals 1 melee damage to target opposing hero. Your hero is in Cat Form .'
+talent:
+  - Feral
 
-rule: []
+limit:
+  - name: Form
+    count: 1
+
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Ongoing: When your hero attacks, it deals 1 melee damage to target opposing hero.'
+  - type: Ability
+    text: Your hero is in cat form. (+1 ATK while attacking. Destroy this card when you strike with a weapon or play a non-Feral ability.)
 
 regulation:
 
 errata: []
-
-temp: Feral

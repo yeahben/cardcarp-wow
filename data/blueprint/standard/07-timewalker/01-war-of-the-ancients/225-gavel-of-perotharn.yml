@@ -7,21 +7,36 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Weapon
+  - One-Handed
+  - Mace
+
 trait:
 
 cost: '3'
 
+damage: 4
+
+strike: 3
+
+combat: Melee
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Melee
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: When you play an ally with cost equal to the number of resources you control, you pay 3 less to strike with this weapon this turn.
+    text: When you play an ally with cost equal to the number of resources you control, you pay {3} less to strike with this weapon this turn.
 
 regulation:
 
 errata: []
-
-temp: 1H Weapon Mace

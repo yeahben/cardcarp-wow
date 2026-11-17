@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Gnoll
+
 trait:
 
 cost: '1'
@@ -17,6 +20,11 @@ health: 1
 
 combat: Melee
 
+class:
+  - Warrior
+
+instant: false
+
 type: Monster
 
 rule:
@@ -26,5 +34,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Gnoll Warrior

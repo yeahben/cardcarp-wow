@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Disease
+  - Attachment
+
 trait:
 
 cost: '2'
@@ -14,12 +18,19 @@ cost: '2'
 class:
   - Death Knight
 
+talent:
+  - Unholy
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target opposing hero. Ongoing : At the start of your turn, your hero deals 1 shadow damage to attached hero. When an opposing ally is destroyed, your hero heals 1 damage from itself.'
+    text: Attach to target opposing hero.
+  - type: Ability
+    text: 'Ongoing: At the start of your turn, your hero deals 1 shadow damage to attached hero.'
+  - type: Ability
+    text: When an opposing ally is destroyed, your hero heals 1 damage from itself.
 
 regulation:
 
 errata: []
-
-temp: Unholy Disease Attachment

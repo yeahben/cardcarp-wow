@@ -7,21 +7,33 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Plate
+
 trait:
 
 cost: '3'
 
+defense: 3
+
 class:
+  - Death Knight
   - Paladin
   - Warrior
-  - Death Knight
+
+limit:
+  - name: Chest
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: '3 → Add a +1 counter to target armor you control. Stash : Add a +1 ATK counter to target weapon you control.'
+    text: '{3} → Add a +1 {def} counter to target armor you control.'
+  - type: Ability
+    text: 'Stash (As this enters your resource row, you may have it enter face up. Immediately turn it face down.): Add a +1 ATK counter to target weapon you control.'
 
 regulation:
 
 errata: []
-
-temp: Armor Plate

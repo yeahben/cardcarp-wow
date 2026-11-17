@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Tol'vir
+
 trait:
 
 cost: '3'
@@ -17,14 +20,16 @@ health: 5
 
 combat: Holy
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Protector This ally has all standard classes in all zones.
+    text: Protector
+  - type: Ability
+    text: This ally has all standard classes in all zones.
 
 regulation:
 
 errata: []
-
-temp: Tol'vir

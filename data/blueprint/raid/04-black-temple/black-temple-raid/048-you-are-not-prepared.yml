@@ -1,0 +1,24 @@
+name: You Are Not Prepared!
+
+origin: black-temple-raid-048
+
+layout: Standard
+
+category:
+  - Event
+
+trait:
+
+instant: false
+
+sequence: 18
+
+rule:
+  - type: Ability
+    text: You may destroy target ability, ally, or equipment.
+  - type: Ability
+    text: 'Ongoing: When an opponent plays an ability, ally, or equipment, interrupt it and destroy this event.'
+
+regulation:
+
+errata: []

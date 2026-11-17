@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Mage
 
-instant: Echo Draw a card.
+talent:
+  - Arcane
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Echo (When you play this ability, if you control two or more allies that share a {horde} or {alliance} race, copy this ability.)
+  - type: Ability
+    text: Draw a card.
 
 regulation:
 
 errata: []
-
-temp: Arcane

@@ -7,6 +7,11 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Black
+  - Dragonkin
+  - Aspect
+
 trait:
 
 cost: '1'
@@ -17,14 +22,20 @@ health: 8
 
 combat: Fire
 
+limit:
+  - name: Neltharion
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Smash As Neltharion enters play, you may destroy five non-hero cards you control. If you do, he enters play. Otherwise, put him into his owner's graveyard. (He doesn't enter play.)
+    text: Smash
+  - type: Ability
+    text: As Neltharion enters play, you may destroy five non-hero cards you control. If you do, he enters play. Otherwise, put him into his owner's graveyard. (He doesn't enter play.)
 
 regulation:
 
 errata: []
-
-temp: Black Dragonkin Aspect

@@ -1,0 +1,39 @@
+name: Peroth'arn
+
+origin: caverns-of-time-raid-020
+
+layout: Standard
+
+category:
+  - Ally
+
+subtype:
+  - Satyr
+  - Demon
+
+trait:
+
+damage: 1
+
+health: 11
+
+combat: Shadow
+
+class:
+  - Warlock
+
+instant: false
+
+type: Caverns
+
+rule:
+  - type: Ability
+    text: Boss (The Raid hero can't be attacked, and when this ally is dealt fatal damage, each Raider may draw a card.)
+  - type: Ability
+    text: When a Raiding hero would be dealt damage, it's dealt that much +1 instead.
+  - type: Ability
+    text: 'Caverns Hero 2+: Flip 1.'
+
+regulation:
+
+errata: []

@@ -14,6 +14,11 @@ cost: '2'
 class:
   - Warrior
 
+talent:
+  - Protection
+
+instant: false
+
 rule:
   - type: Ability
     text: Search your deck for an equipment card, reveal it, and put it into hand.
@@ -21,5 +26,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Protection

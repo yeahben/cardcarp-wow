@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Echo
+
 trait:
 
 damage: 3
@@ -15,7 +18,11 @@ health: 2
 
 combat: Ranged
 
-type: Boss
+race: Night Elf
+
+instant: false
+
+type: Caverns
 
 rule:
   - type: Ability
@@ -24,5 +31,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Night Elf Echo

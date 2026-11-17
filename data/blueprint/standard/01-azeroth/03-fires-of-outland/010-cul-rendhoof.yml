@@ -13,13 +13,23 @@ health: 28
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Druid
+
+talent:
+  - Restoration
+
+profession:
+  - Herbalism
+  - Alchemy
+
 rule:
   - type: Ability
     position: Front
-    text: 3 , Flip Cul Rendhoof → When target ally in your party is destroyed this turn, its owner puts it from his graveyard into his resource row face down and exhausted.
+    text: '{3}, Flip Cul Rendhoof → When target ally in your party is destroyed this turn, its owner puts it from his graveyard into his resource row face down and exhausted.'
 
 regulation:
 
 errata: []
-
-temp: Tauren Druid

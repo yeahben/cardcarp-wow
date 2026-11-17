@@ -6,6 +6,7 @@ layout: Standard
 
 category:
   - Ability
+  - Ally
 
 trait:
 
@@ -20,14 +21,21 @@ combat: Nature
 class:
   - Shaman
 
-type: Ally
+talent:
+  - Elemental
+
+limit:
+  - name: Air Totem
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: "Ongoing : At the start of each opponent's turn, you may ready all allies you control. (Totems can't attack.)"
+    text: "Ongoing: At the start of each opponent's turn, you may ready all allies you control."
+  - type: Ability
+    text: (Totems can't attack.)
 
 regulation:
 
 errata: []
-
-temp: Elemental

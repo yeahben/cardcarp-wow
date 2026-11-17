@@ -19,12 +19,19 @@ combat: Melee
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Death Knight
+
+instant: false
+
 rule:
   - type: Ability
-    text: While you control another ally with Elusive , this ally has Elusive . While you control another ally with Spellshield , this ally has Spellshield .
+    text: While you control another ally with Elusive, this ally has Elusive.
+  - type: Ability
+    text: While you control another ally with Spellshield, this ally has Spellshield.
 
 regulation:
 
 errata: []
-
-temp: Night Elf Death Knight

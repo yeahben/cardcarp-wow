@@ -9,14 +9,12 @@ category:
 
 trait:
 
-type: Raid
+instant: false
 
 rule:
   - type: Ability
-    text: Put a Whelp into play for each opposing hero. Those whelps have Ferocity this turn.
+    text: Put a Whelp into play for each opposing hero. Those Whelps have ferocity this turn.
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'Pay 1 to complete this quest. Reward : Name a standard race, then reveal the top four cards of your deck. Put a revealed ally card of that race into hand and the rest on the bottom of your deck.'
+    text: Pay {1} to complete this quest.
+  - type: Ability
+    text: 'Reward: Name a standard race, then reveal the top four cards of your deck. Put a revealed ally card of that race into hand and the rest on the bottom of your deck.'
 
 regulation:
 
 errata: []
-
-temp: ''

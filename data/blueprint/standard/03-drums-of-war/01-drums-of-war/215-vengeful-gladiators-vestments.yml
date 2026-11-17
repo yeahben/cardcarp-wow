@@ -1,4 +1,4 @@
-name: Vengeful Gladiators Vestments
+name: Vengeful Gladiator's Vestments
 
 origin: drums-of-war-215
 
@@ -7,19 +7,41 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor Set
+  - Leather
+
 trait:
 
 cost: '7'
 
+defense: 6
+
 class:
   - Rogue
 
+limit:
+  - name: Chest
+    count: 1
+  - name: Hands
+    count: 1
+  - name: Head
+    count: 1
+  - name: Legs
+    count: 1
+  - name: Shoulder
+    count: 1
+
+instant: false
+
+type: Arena
+
 rule:
   - type: Ability
-    text: When you play a finishing move , you may interrupt target card. → Put the top card of your deck into your resource row face down and ready.
+    text: When you play a finishing move, you may interrupt target card.
+  - type: Ability
+    text: '{activate} → Put the top card of your deck into your resource row face down and ready.'
 
 regulation:
 
 errata: []
-
-temp: Arena Armor Set Leather

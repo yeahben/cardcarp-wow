@@ -19,6 +19,13 @@ combat: Frost
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
     text: No'jin has +3 ATK while you have fewer resources than an opponent.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Troll Mage

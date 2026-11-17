@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Token
 
+subtype:
+  - Ally
+  - Horseman
+
 trait:
 
 damage: 3
@@ -15,18 +19,27 @@ health: 10
 
 combat: Holy
 
-type: Ally
+race: Human
+
+class:
+  - Death Knight
+
+instant: false
 
 rule:
   - type: Ability
     position: Front
-    text: Long-Range At the end of your turn, the raid leader chooses a raiding hero. This ally deals 5 unpreventable holy damage to it.
+    text: Long-Range
+  - type: Ability
+    position: Front
+    text: At the end of your turn, the raid leader chooses a raiding hero. This ally deals 5 unpreventable holy damage to it.
   - type: Ability
     position: Reverse
-    text: Long-Range At the end of your turn, this ally deals 5 unpreventable holy damage to each raiding hero.
+    text: Long-Range
+  - type: Ability
+    position: Reverse
+    text: At the end of your turn, this ally deals 5 unpreventable holy damage to each raiding hero.
 
 regulation:
 
 errata: []
-
-temp: Human Death Knight Horseman

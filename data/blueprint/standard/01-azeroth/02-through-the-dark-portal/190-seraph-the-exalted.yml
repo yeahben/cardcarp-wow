@@ -19,12 +19,19 @@ combat: Holy
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Priest
+
+instant: false
+
 rule:
   - type: Ability
-    text: Human Hero Required → Put an ally card from your hand into play if its cost is less than or equal to the number of resources you have.
+    text: Human Hero Required
+  - type: Ability
+    text: '{activate} → Put an ally card from your hand into play if its cost is less than or equal to the number of resources you have.'
 
 regulation:
 
 errata: []
-
-temp: Human Priest

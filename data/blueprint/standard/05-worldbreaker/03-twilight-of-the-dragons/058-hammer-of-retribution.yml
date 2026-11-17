@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Paladin
 
-instant: Exhaust up to three target heroes and/or allies.
+talent:
+  - Retribution
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Exhaust up to three target heroes and/or allies.
 
 regulation:
 
 errata: []
-
-temp: Retribution

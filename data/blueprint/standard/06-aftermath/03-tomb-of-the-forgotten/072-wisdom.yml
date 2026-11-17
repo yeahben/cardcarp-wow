@@ -11,6 +11,8 @@ trait:
 
 cost: '4'
 
+instant: false
+
 rule:
   - type: Ability
     text: Draw two cards.
@@ -18,5 +20,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: ''

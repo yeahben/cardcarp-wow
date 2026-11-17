@@ -19,12 +19,17 @@ combat: Fire
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, it deals 3 fire damage to each opposing hero and ally that was dealt damage this turn.
+    text: When this ally enters play, he deals 3 fire damage to each opposing hero and ally that was dealt damage this turn.
 
 regulation:
 
 errata: []
-
-temp: Troll Mage

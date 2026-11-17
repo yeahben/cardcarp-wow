@@ -13,13 +13,23 @@ health: 27
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Rogue
+
+talent:
+  - Subtlety
+
+profession:
+  - Skinning
+  - Leatherworking
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Nathressa Darkstrider → Nathressa has Stealth this turn.
+    text: "{1}, Flip Nathressa Darkstrider → Nathressa has stealth this turn. (Can't protect against her.)"
 
 regulation:
 
 errata: []
-
-temp: Night Elf Rogue

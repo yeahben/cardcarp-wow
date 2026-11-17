@@ -1,4 +1,4 @@
-name: Zinsul
+name: Zin'sul
 
 origin: war-of-the-elements-020
 
@@ -13,16 +13,19 @@ health: 29
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Death Knight
+
 rule:
   - type: Ability
     position: Front
-    text: 2 → Flip Zin'sul
+    text: "{2} → Flip Zin'sul"
   - type: Ability
     position: Reverse
-    text: You pay 1 less to strike with weapons.
+    text: You pay {1} less to strike with weapons.
 
 regulation:
 
 errata: []
-
-temp: Troll Death Knight

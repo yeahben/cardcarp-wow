@@ -9,14 +9,14 @@ category:
 
 trait:
 
-type: Gift
+instant: false
 
 rule:
   - type: Ability
-    text: 'If Deathwing controlled eight or more allies, gain this Gift. Use this Gift: Destroy all Corrupted Blood allies.'
+    text: If Deathwing controlled eight or more allies, gain this Gift.
+  - type: Ability
+    text: 'Use this Gift: Destroy all Corrupted Blood allies.'
 
 regulation:
 
 errata: []
-
-temp: ''

@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '5'
 
+defense: 1
+
 class:
+  - Mage
   - Priest
   - Warlock
-  - Mage
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 2 , → When you next play a non-ongoing ability this turn, copy it. (You may choose new targets for the copy.)
+    text: '{2}, {activate} → When you next play a non-ongoing ability this turn, copy it. (You may choose new targets for the copy.)'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

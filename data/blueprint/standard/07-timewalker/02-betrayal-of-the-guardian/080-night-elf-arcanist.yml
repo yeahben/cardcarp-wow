@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Haste 3
+    text: Haste 3 (You pay {3} less to play this ally if an ally you control dealt damage to an opposing hero this turn.)
 
 regulation:
 
 errata: []
-
-temp: Night Elf Mage

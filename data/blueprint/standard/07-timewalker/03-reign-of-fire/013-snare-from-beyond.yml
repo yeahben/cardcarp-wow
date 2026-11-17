@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Attachment
+
 trait:
 
 cost: '4'
@@ -14,12 +17,19 @@ cost: '4'
 class:
   - Druid
 
+talent:
+  - Balance
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Warp Attach to target ability, ally, or equipment and exhaust it. Ongoing : Attached card can't ready during it's controller's ready step."
+    text: Warp (As this ability is revealed from your deck, you may remove it from the game. If you do, you may play it immediately without paying its cost.)
+  - type: Ability
+    text: Attach to target ability, ally, or equipment and exhaust it.
+  - type: Ability
+    text: "Ongoing: Attached card can't ready during its controller's ready step."
 
 regulation:
 
 errata: []
-
-temp: Balance Attachment

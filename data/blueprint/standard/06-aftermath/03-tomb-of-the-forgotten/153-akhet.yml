@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Lion
+
 trait:
 
 cost: '6'
@@ -17,14 +20,20 @@ health: 5
 
 combat: Melee
 
+limit:
+  - name: Akhet
+    count: 1
+
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Protector While Akhet is the only ally in play, double his ATK and and he has Sentinel .
+    text: Protector
+  - type: Ability
+    text: While Akhet is the only ally in play, double his ATK and {health}, and he has Sentinel.
 
 regulation:
 
 errata: []
-
-temp: Lion

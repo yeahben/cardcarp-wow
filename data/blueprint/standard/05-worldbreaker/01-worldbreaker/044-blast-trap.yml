@@ -14,12 +14,17 @@ cost: '2'
 class:
   - Hunter
 
-instant: Trap Destroy target attacking ally with cost 4 or more.
+talent:
+  - Survival
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Trap (You may exhaust your defending hero rather than pay this card's cost.)
+  - type: Ability
+    text: Destroy target attacking ally with cost 4 or more.
 
 regulation:
 
 errata: []
-
-temp: Survival

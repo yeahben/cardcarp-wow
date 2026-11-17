@@ -7,14 +7,25 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Elemental
+
 trait:
 
 health: 15
 
+stage: 5
+
 rule:
   - type: Ability
     position: Front
-    text: When Baron Geddon enters play, each opponent destroys all but five of his resources. At the end of your turn, Baron Geddon deals 1 fire damage to each opposing hero and ally for each resource you have. → Flip Baron Geddon
+    text: When Baron Geddon enters play, each opponent destroys all but five of his resources.
+  - type: Ability
+    position: Front
+    text: At the end of your turn, Baron Geddon deals 1 fire damage to each opposing hero and ally for each resource you have.
+  - type: Ability
+    position: Front
+    text: '{activate} → Flip Baron Geddon.'
   - type: Ability
     position: Reverse
     text: Destroy Baron Geddon → Baron Geddon deals 12 fire damage to each opposing hero and ally. Use only if Baron Geddon has 12 or more damage.
@@ -22,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Elemental

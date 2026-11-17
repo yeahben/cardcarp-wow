@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Traitor
+
 trait:
 
 cost: '1'
@@ -14,12 +17,14 @@ cost: '1'
 class:
   - Mage
 
+instant: false
+
 rule:
   - type: Ability
-    text: Traitor Hero Required Your hero deals 3 frost damage to target opposing ally and each other opposing ally with the same cost as that ally.
+    text: Traitor Hero Required
+  - type: Ability
+    text: Your hero deals 3 frost damage to target opposing ally and each other opposing ally with the same cost as that ally.
 
 regulation:
 
 errata: []
-
-temp: Traitor

@@ -14,12 +14,15 @@ cost: '5'
 class:
   - Druid
 
-instant: Put target ally card from your graveyard into play if its cost is less than or equal to the number of resources you control.
+talent:
+  - Restoration
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Put target ally card from your graveyard into play if its cost is less than or equal to the number of resources you have.
 
 regulation:
 
 errata: []
-
-temp: Restoration

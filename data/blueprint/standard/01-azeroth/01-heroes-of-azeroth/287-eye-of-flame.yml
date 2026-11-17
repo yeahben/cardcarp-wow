@@ -7,20 +7,30 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '2'
 
+defense: 0
+
 class:
-  - Warlock
   - Mage
+  - Warlock
+
+limit:
+  - name: Head
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: 1 , Exhaust your hero → If your hero has dealt fire damage this turn, it deals 1 fire damage to target hero or ally.
+    text: '{1}, Exhaust your hero → If your hero has dealt fire damage this turn, it deals 1 fire damage to target hero or ally.'
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

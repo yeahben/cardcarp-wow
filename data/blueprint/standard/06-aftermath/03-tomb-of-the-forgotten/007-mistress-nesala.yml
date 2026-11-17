@@ -7,17 +7,25 @@ layout: Standard
 category:
   - Hero
 
+subtype:
+  - Succubus
+  - Demon
+
 trait:
+
+health: 25
+
+class:
+  - Rogue
+  - Warlock
 
 type: Monster
 
 rule:
   - type: Ability
     position: Front
-    text: "Deckbuilding: You can't put , , or Talent cards in your deck."
+    text: "Deckbuilding: You can't put {horde}, {alliance}, or Talent cards in your deck."
 
 regulation:
 
 errata: []
-
-temp: Succubus Demon Rogue Warlock 25

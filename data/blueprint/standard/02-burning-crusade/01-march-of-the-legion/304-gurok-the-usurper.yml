@@ -11,10 +11,8 @@ trait:
 
 rule:
   - type: Ability
-    text: → Choose one of your quests. Gurok the Usurper has that quest's powers this turn.
+    text: "{activate} → Choose one of your quests. Gurok the Usurper has that quest's powers this turn."
 
 regulation:
 
 errata: []
-
-temp: ''

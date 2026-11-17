@@ -13,13 +13,23 @@ health: 27
 
 faction: Alliance
 
+race: Night Elf
+
+class:
+  - Druid
+
+talent:
+  - Feral
+
+profession:
+  - Alchemy
+  - Engineering
+
 rule:
   - type: Ability
     position: Front
-    text: 1 , Flip Oakenclaw → This turn, Oakenclaw has Bear Form and Form (1) until you strike with a weapon or play a non-feral ability.
+    text: '{1}, Flip Oakenclaw → This turn, Oakenclaw is in bear form and has Form (1) until you strike with a weapon or play a non-Feral ability. (Is a protector while in bear form.)'
 
 regulation:
 
 errata: []
-
-temp: Night Elf Druid

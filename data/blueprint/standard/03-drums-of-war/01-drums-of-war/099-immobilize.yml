@@ -15,12 +15,18 @@ class:
   - Druid
   - Rogue
 
+talent:
+  - Balance
+  - Subtlety
+
+instant: false
+
 rule:
   - type: Ability
-    text: "Attach to target ability, ally, equipment, or resource and exhaust it. Ongoing : Attached card can't ready during its controller's ready step."
+    text: Attach to target ability, ally, equipment, or resource and exhaust it.
+  - type: Ability
+    text: "Ongoing: Attached card can't ready during its controller's ready step."
 
 regulation:
 
 errata: []
-
-temp: Balance Subtlety

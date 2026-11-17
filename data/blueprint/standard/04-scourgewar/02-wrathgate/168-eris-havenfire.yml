@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Spirit
+
 trait:
 
 cost: '3'
@@ -17,12 +20,20 @@ health: 5
 
 combat: Holy
 
+race: Human
+
+class:
+  - Priest
+
+limit:
+  - name: Unique
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this or another Priest ally enters play under your control, prevent all damage that would be dealt to target hero or ally this turn.
+    text: When this or another Priest ally enters play under your control, the next time target hero or ally would be dealt damage this turn, prevent it.
 
 regulation:
 
 errata: []
-
-temp: Human Spirit Priest

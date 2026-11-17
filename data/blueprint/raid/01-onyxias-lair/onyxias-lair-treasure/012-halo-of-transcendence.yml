@@ -7,19 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Cloth
+
 trait:
 
 cost: '2'
 
+defense: 0
+
 class:
   - Priest
 
+limit:
+  - name: Head
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Your hero heals 1 damage from target ally. When you play a ability, ready Halo of Transcendence.
+    text: '{activate} → Your hero heals 1 damage from target ally.'
+  - type: Ability
+    text: When you play a {priest} ability, ready Halo of Transcendence.
 
 regulation:
 
 errata: []
-
-temp: Armor Cloth

@@ -9,14 +9,22 @@ category:
 
 trait:
 
-type: Dungeon
+cost: '2'
+
+class:
+  - Hunter
+
+talent:
+  - Marksmanship
+
+instant: true
 
 rule:
   - type: Ability
-    text: Dungeon allies have +2 ATK and Long-Range this turn.
+    text: Attach to target opposing hero or ally.
+  - type: Ability
+    text: 'Ongoing: Allies in your party have +1 ATK while attacking attached character.'
 
 regulation:
 
 errata: []
-
-temp: ''

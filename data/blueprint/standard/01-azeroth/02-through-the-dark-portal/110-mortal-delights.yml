@@ -14,12 +14,15 @@ cost: '3'
 class:
   - Warlock
 
+talent:
+  - Affliction
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : 1 , Put 3 damage on your hero → Draw a card.'
+    text: 'Ongoing: {1}, Put 3 damage on your hero → Draw a card.'
 
 regulation:
 
 errata: []
-
-temp: Affliction

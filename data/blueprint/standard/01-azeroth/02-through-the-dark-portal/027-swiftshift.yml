@@ -14,12 +14,15 @@ cost: '4'
 class:
   - Druid
 
-instant: Search your deck and/or graveyard for a Form card, reveal it, and put it into your hand.
+talent:
+  - Feral
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Search your deck and/or graveyard for a Form card, reveal it, and put it into your hand.
 
 regulation:
 
 errata: []
-
-temp: Feral

@@ -1,0 +1,38 @@
+name: Scarlet Commander Mograine — Level 3
+
+origin: scarlet-monastery-003
+
+layout: Standard
+
+category:
+  - Hero
+
+trait:
+  - 5 XP
+
+damage: 0
+
+health: 50
+
+combat: Melee
+
+race: Human
+
+class:
+  - Paladin
+
+type: Dungeon
+
+rule:
+  - type: Ability
+    text: 'Level Up: Dead (At the start of the Dungeon turn, before flipping any cards, Level Up Mograine if any Raiding hero has been destroyed.)'
+  - type: Ability
+    text: Flip 3 (At the start of the Dungeon turn, flip three Dungeon cards.)
+  - type: Ability
+    text: Assault 10
+  - type: Ability
+    text: Dungeon allies have Assault 5.
+
+regulation:
+
+errata: []

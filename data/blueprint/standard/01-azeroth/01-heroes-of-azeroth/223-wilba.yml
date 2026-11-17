@@ -19,12 +19,19 @@ combat: Ranged
 
 faction: Alliance
 
+race: Dwarf
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: When a Spider in your party deals combat damage to an ally, destroy that ally. 3 → Put a unique Spider ally token named Charlotte with 1 ATK and 1 health into play.
+    text: When a Spider in your party deals combat damage to an ally, destroy that ally.
+  - type: Ability
+    text: '{3} → Put a unique Spider ally token named Charlotte with 1 ATK and 1 health into play.'
 
 regulation:
 
 errata: []
-
-temp: Dwarf Hunter

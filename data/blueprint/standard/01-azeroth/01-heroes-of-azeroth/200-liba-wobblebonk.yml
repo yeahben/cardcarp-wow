@@ -19,12 +19,17 @@ combat: Arcane
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, draw a card.
+    text: When Liba Wobblebonk enters play, draw a card.
 
 regulation:
 
 errata: []
-
-temp: Gnome Mage

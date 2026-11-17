@@ -7,6 +7,10 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Doomguard
+  - Demon
+
 trait:
 
 cost: '5'
@@ -17,14 +21,16 @@ health: 6
 
 combat: Shadow
 
+instant: false
+
 type: Monster
 
 rule:
   - type: Ability
-    text: Monster Hero Required When another non-token ally you control is destroyed, put a token copy of that ally into play that is also a Demon Monster.
+    text: Monster Hero Required
+  - type: Ability
+    text: When another non-token ally you control is destroyed, put a token copy of that ally into play that is also a Demon Monster.
 
 regulation:
 
 errata: []
-
-temp: Doomguard Demon

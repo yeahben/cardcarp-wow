@@ -19,12 +19,19 @@ combat: Frost
 
 faction: Horde
 
+race: Troll
+
+class:
+  - Shaman
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector Exhaust a Totem you control → Ready this ally.
+    text: Protector (This ally may exhaust to become the defender when an opposing hero or ally attacks.)
+  - type: Ability
+    text: Exhaust a Totem you control → Ready this ally.
 
 regulation:
 
 errata: []
-
-temp: Troll Shaman

@@ -9,10 +9,10 @@ category:
 
 trait:
 
+instant: false
+
 rule: []
 
 regulation:
 
 errata: []
-
-temp: ''

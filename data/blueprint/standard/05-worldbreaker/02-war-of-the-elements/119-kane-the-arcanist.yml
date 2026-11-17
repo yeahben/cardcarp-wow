@@ -19,12 +19,19 @@ combat: Arcane
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: Untargetable This ally has +1 / +1 for each card in your hand.
+    text: Untargetable
+  - type: Ability
+    text: This ally has +1 / +1 for each card in your hand.
 
 regulation:
 
 errata: []
-
-temp: Worgen Mage

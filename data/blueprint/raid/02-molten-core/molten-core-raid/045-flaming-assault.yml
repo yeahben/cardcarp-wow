@@ -7,16 +7,19 @@ layout: Standard
 category:
   - Ability
 
+subtype:
+  - Ragnaros
+
 trait:
 
 cost: '3'
 
-instant: Ready Ragnaros.
+instant: true
 
-rule: []
+rule:
+  - type: Ability
+    text: Ready Ragnaros.
 
 regulation:
 
 errata: []
-
-temp: Ragnaros

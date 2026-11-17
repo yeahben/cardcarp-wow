@@ -14,12 +14,15 @@ cost: '1'
 class:
   - Hunter
 
+talent:
+  - Beast Mastery
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : 1 , Exhaust your hero → Ready target Pet you control.'
+    text: 'Ongoing: {1}, Exhaust your hero → Ready target Pet you control.'
 
 regulation:
 
 errata: []
-
-temp: Beast Mastery

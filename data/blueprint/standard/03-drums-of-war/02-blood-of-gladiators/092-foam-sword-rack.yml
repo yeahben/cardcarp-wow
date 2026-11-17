@@ -11,12 +11,12 @@ trait:
 
 cost: '4'
 
+instant: false
+
 rule:
   - type: Ability
-    text: 'Ongoing : Each hero has " 1 → This hero deals ½ melee damage to target hero."'
+    text: 'Ongoing: {1} → Your hero deals ½ melee damage to target hero. Any player can use this power.'
 
 regulation:
 
 errata: []
-
-temp: ''

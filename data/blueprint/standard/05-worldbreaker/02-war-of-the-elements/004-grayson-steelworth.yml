@@ -13,16 +13,19 @@ health: 30
 
 faction: Alliance
 
+race: Worgen
+
+class:
+  - Warrior
+
 rule:
   - type: Ability
     position: Front
-    text: 3 → Flip Grayson
+    text: '{3} → Flip Grayson'
   - type: Ability
     position: Reverse
-    text: Dual Wield
+    text: Dual Wield (You can control a second one-handed Melee weapon instead of an Off-Hand equipment. You can strike with a second Melee weapon during the same combat.)
 
 regulation:
 
 errata: []
-
-temp: Worgen Warrior

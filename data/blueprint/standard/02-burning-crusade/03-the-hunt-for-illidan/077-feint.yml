@@ -14,12 +14,15 @@ cost: '0'
 class:
   - Rogue
 
-instant: Remove target attacker from combat.
+talent:
+  - Combat
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Remove target attacker from combat.
 
 regulation:
 
 errata: []
-
-temp: Combat

@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Ogre
+
 trait:
 
 cost: '6'
@@ -17,6 +20,11 @@ health: 4
 
 combat: Melee
 
+class:
+  - Warrior
+
+instant: false
+
 type: Monster
 
 rule: []
@@ -24,5 +32,3 @@ rule: []
 regulation:
 
 errata: []
-
-temp: Ogre Warrior

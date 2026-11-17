@@ -19,12 +19,23 @@ combat: Melee
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warrior
+
+limit:
+  - name: Cromush
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: Protector While Cromush has exactly 1 remaining , he has Assault 10 .
+    text: Protector (Cromush may exhaust to become the defender when an opposing hero or ally attacks.)
+  - type: Ability
+    text: While Cromush has exactly 1 remaining {health}, he has Assault 10.
 
 regulation:
 
 errata: []
-
-temp: Orc Warrior

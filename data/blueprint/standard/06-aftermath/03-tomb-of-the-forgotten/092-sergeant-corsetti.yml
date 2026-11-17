@@ -19,6 +19,13 @@ combat: Melee
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Rogue
+
+instant: false
+
 rule:
   - type: Ability
     text: When this ally enters play, she deals 2 melee damage to target exhausted opposing hero or ally.
@@ -26,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Human Rogue

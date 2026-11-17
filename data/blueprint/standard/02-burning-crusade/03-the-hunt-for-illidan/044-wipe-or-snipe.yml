@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Hunter
 
-instant: 'Choose one: Your hero deals 1 ranged damage to each of up to three target heroes and/or allies; or attach to target ally. Ongoing : Attached ally has Long-Range .'
+talent:
+  - Marksmanship
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: 'Choose one: Your hero deals 1 ranged damage to each of up to three target heroes and/or allies; or attach to target ally.'
+  - type: Ability
+    text: 'Ongoing: Attached ally has long-range.'
 
 regulation:
 
 errata: []
-
-temp: Marksmanship

@@ -17,12 +17,21 @@ health: 2
 
 combat: Arcane
 
+race: Blood Elf
+
+class:
+  - Mage
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Scryer Reputation Sabotage: Attached Ability When Tibrana sabotages an ability, gain control of it. You may attach it to another hero or ally.'
+    text: Scryer Reputation (Can't put Aldor cards in your deck.)
+  - type: Ability
+    text: 'Sabotage: Attached Ability (This ally can attack opposing attached abilities.)'
+  - type: Ability
+    text: When Tibrana sabotages an ability, gain control of it. You may attach it to another hero or ally.
 
 regulation:
 
 errata: []
-
-temp: Blood Elf Mage

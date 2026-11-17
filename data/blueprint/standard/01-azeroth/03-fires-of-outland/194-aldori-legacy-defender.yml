@@ -7,21 +7,31 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Shield
+
 trait:
 
 cost: '4'
 
+defense: 2
+
 class:
   - Paladin
-  - Warrior
   - Shaman
+  - Warrior
+
+limit:
+  - name: Off-Hand
+    count: 1
+
+instant: false
 
 rule:
   - type: Ability
-    text: → Target hero or ally has -2 ATK this turn.
+    text: '{activate} → Target hero or ally has -2 ATK this turn.'
 
 regulation:
 
 errata: []
-
-temp: Armor Shield

@@ -11,10 +11,10 @@ trait:
 
 rule:
   - type: Ability
-    text: 'Pay 4 to complete this quest. Reward : Draw a card, and target hero or ally you control has Shadow Resistance this turn.'
+    text: Pay {4} to complete this quest.
+  - type: Ability
+    text: 'Reward: Draw a card, and target hero or ally you control has Shadow Resistance this turn. (Prevent all shadow ({shadow}) damage that it would be dealt.)'
 
 regulation:
 
 errata: []
-
-temp: ''

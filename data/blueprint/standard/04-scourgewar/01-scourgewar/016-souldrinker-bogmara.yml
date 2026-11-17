@@ -13,6 +13,18 @@ health: 28
 
 faction: Horde
 
+race: Orc
+
+class:
+  - Warlock
+
+talent:
+  - Affliction
+
+profession:
+  - Tailoring
+  - Inscription
+
 rule:
   - type: Ability
     position: Front
@@ -21,5 +33,3 @@ rule:
 regulation:
 
 errata: []
-
-temp: Orc Warlock

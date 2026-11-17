@@ -19,12 +19,17 @@ combat: Melee
 
 faction: Alliance
 
+race: Gnome
+
+class:
+  - Warrior
+
+instant: false
+
 rule:
   - type: Ability
-    text: → Ready your hero and one of your weapons.
+    text: '{activate} → Ready your hero and one of your weapons.'
 
 regulation:
 
 errata: []
-
-temp: Gnome Warrior

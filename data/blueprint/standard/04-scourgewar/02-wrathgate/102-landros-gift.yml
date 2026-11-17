@@ -1,4 +1,4 @@
-name: Landros Gift
+name: Landro's Gift
 
 origin: wrathgate-102
 
@@ -9,14 +9,14 @@ category:
 
 trait:
 
-cost: '1'
+cost: '2'
+
+instant: false
 
 rule:
   - type: Ability
-    text: Search your deck for a Loot card, reveal it, and put it on top of your deck. Then, if an opponent went first this game, draw a card.
+    text: Search your deck for a Loot card, reveal it, and put it on top of your deck. Then, if an opponent controls more resources than you, draw a card.
 
 regulation:
 
 errata: []
-
-temp: ''

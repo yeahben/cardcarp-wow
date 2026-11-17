@@ -19,12 +19,19 @@ combat: Shadow
 
 faction: Alliance
 
+race: Human
+
+class:
+  - Warlock
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, he deals 4 shadow damage to your hero. When another ally you control is destroyed, this ally heals 4 damage from your hero.
+    text: When this ally enters play, he deals 4 shadow damage to your hero.
+  - type: Ability
+    text: When another ally you control is destroyed, this ally heals 4 damage from your hero.
 
 regulation:
 
 errata: []
-
-temp: Human Warlock

@@ -7,19 +7,29 @@ layout: Standard
 category:
   - Equipment
 
+subtype:
+  - Armor
+  - Leather
+
 trait:
 
 cost: '4'
 
+defense: 2
+
 class:
   - Druid
 
+limit:
+  - name: Legs
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: When you play a ability, you may pay 1 . If you do, target ally has +1 ATK this turn.
+    text: When you play a {druid} ability, you may pay {1}. If you do, target ally has +1 ATK this turn.
 
 regulation:
 
 errata: []
-
-temp: Armor Leather

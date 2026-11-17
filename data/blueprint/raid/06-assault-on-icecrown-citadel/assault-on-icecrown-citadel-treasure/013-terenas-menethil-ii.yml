@@ -7,6 +7,9 @@ layout: Standard
 category:
   - Ally
 
+subtype:
+  - Spirit
+
 trait:
 
 cost: '6'
@@ -17,12 +20,20 @@ health: 12
 
 combat: Melee
 
+limit:
+  - name: Terenas
+    count: 1
+
+instant: false
+
 rule:
   - type: Ability
-    text: This ally enters play with 4 damage. Mend 2 This ally has +8 ATK while undamaged.
+    text: This ally enters play with 4 damage.
+  - type: Ability
+    text: Mend 2
+  - type: Ability
+    text: This ally has +8 ATK while undamaged.
 
 regulation:
 
 errata: []
-
-temp: Spirit

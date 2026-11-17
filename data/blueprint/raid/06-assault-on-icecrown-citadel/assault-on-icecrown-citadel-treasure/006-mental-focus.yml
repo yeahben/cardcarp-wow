@@ -14,12 +14,17 @@ cost: '3'
 class:
   - Priest
 
+talent:
+  - Discipline
+
+instant: false
+
 rule:
   - type: Ability
-    text: 'Attach to target friendly ally. Ongoing : You and friendly players pay 1 less to play cards, to a minimum of 1 .'
+    text: Attach to target friendly ally.
+  - type: Ability
+    text: 'Ongoing: You and friendly players pay {1} less to play cards, to a minimum of {1}.'
 
 regulation:
 
 errata: []
-
-temp: Discipline

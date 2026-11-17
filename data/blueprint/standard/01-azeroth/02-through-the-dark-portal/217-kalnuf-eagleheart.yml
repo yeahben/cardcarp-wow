@@ -19,12 +19,17 @@ combat: Ranged
 
 faction: Horde
 
+race: Tauren
+
+class:
+  - Hunter
+
+instant: false
+
 rule:
   - type: Ability
-    text: When this ally enters play, look at target player's hand.
+    text: When Kalnuf Eagleheart enters play, look at target player's hand.
 
 regulation:
 
 errata: []
-
-temp: Tauren Hunter

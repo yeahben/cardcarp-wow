@@ -14,12 +14,15 @@ cost: '2'
 class:
   - Warrior
 
-instant: Your hero deals 1 melee damage to target hero or ally. You may choose one of your weapons. If you do, put a +1 ATK counter on it for each damage dealt this way.
+talent:
+  - Arms
 
-rule: []
+instant: true
+
+rule:
+  - type: Ability
+    text: Your hero deals 1 melee damage to target hero or ally. You may choose one of your weapons. If you do, put a +1 ATK counter on it for each damage dealt this way.
 
 regulation:
 
 errata: []
-
-temp: Arms
